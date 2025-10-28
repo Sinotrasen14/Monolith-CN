@@ -42,7 +42,7 @@
 
 ## 补充信息 :
 
-体泵的标准压力是 100.325 kPa。低温治疗剂-冷冻酮需要低于 150K以下生效，但标准做法是将冷冻机设置为 100K 以实现更快的冷冻。
+气体泵的标准压力是 100.325 kPa。低温治疗剂-冷冻酮 (Cryoxadone)需要温度低于 150K以下生效，但一般做法是将冷冻机设置为 100K 以实现更快的冷冻。
 
 <GuideReagentEmbed Reagent="Aloxadone"/>
 <GuideReagentEmbed Reagent="Cryoxadone"/>
