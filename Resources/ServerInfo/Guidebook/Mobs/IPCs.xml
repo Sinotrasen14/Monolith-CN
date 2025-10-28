@@ -1,12 +1,12 @@
 <Document>
   # I.P.C.
   <GuideEntityEmbed Entity="MobIPCDummy" Caption="I.P.C."/>
-  IPC（集成正电子底盘 Integrated Positronic Chassis 的缩写）是一种有感知能力的机器人，被视为 [color=yellow]独立的个体[/color]，这意味着 [color=red]他们不受任何机器人法则的约束[/color]。IPC 无法被Emags破解，因为他们的系统中没有任何需要遵循的预设指令。[color=red]IPC 是硅基生命，因此医生不具备修复他们的技能。[/color]
+  IPC（集成正电子机壳 Integrated Positronic Chassis 的缩写）是一种有感知能力的机器人，被视为 [color=yellow]独立的个体[/color]，这意味着 [color=red]他们不受任何机器人法则的约束[/color]。IPC 无法被Emags破解，因为他们的系统中没有任何需要遵循的预设指令。[color=red]IPC 是硅基生命，因此医生不具备修复他们的技能。[/color]
 
   <Box>
     <GuideEntityEmbed Entity="PositronicBrain" Caption="Positronic Brain"/>
   </Box>
-  与博格机器人（borgs）一样，IPC 也使用正电子脑作为其处理核心。然而，与博格不同的是，IPC 无法被（单纯用零件）组装出来。“制造一个会服从你的外壳，可比制造一个不服从的要便宜多了！*wink*"
+  与博格机器人（borgs）一样，IPC 也使用正电子脑作为其处理核心。然而，与博格不同的是，IPC 无法被（单纯用零件）组装出来。“制造一个会服从你的铁壳，可比制造一个不服从的要便宜多了！*wink*"
 
   ## 给IPC 充电
    <Box>
@@ -18,16 +18,16 @@
 
 APC 终端： IPC 可以使用 APC 终端进行充电。根据需要多次 [color=yellow]Alt + 左键点击[/color] 终端即可充满。
 
-机械人充电器： IPC 可以使用机械人充电器进行充电。请优先使用科学区域之外的充电器，以避免不必要的麻烦。
+赛博充电站： IPC 可以使用赛博充电站进行充电。请优先使用科学区域之外的充电站，以避免不必要的麻烦。
 
-电源电池： IPC 体内有一个作为其电池的内部电源。他们只需打开维修口并手动更换即可。
+电源电池： IPC 体内有一个作为其电源的内部电池。他们只需打开维修口并手动更换即可。
 
   ## 集成无线电
   <Box>
     <GuideEntityEmbed Entity="EncryptionKeyScience" Caption="Encryption key"/>
   </Box>
 
-  IPC [bold]不需要[/bold]额外的无线电设备，们体内已经内置了一个。他们只需要从无线电设备中获取加密密钥即可。用 [color=yellow]剪线钳[/color] 点击 IPC，就可以移除他们的密钥。
+  IPC [bold]不需要[/bold]额外的无线电设备，他们体内已经内置了一个，只需要从无线电设备中获取新的加密密钥即可。用 [color=yellow]剪线钳[/color] 点击 IPC，就可以移除他们的密钥。
 你可以在空间站各处找到新的密钥，或者用 [color=yellow]螺丝刀[/color] 从区域无线电中拆出一个。
 
   ## 维修
@@ -44,7 +44,7 @@ APC 终端： IPC 可以使用 APC 终端进行充电。根据需要多次 [colo
     玻璃板可用于修复 [color=yellow]失明 (Blindness)[/color]。
   </Box>
   <Box HorizontalAlignment="Stretch">
-    万一 IPC 死亡，在完全修复后，应按下 [color=yellow]“重启 (Restart)”[/color] 按钮来重新启动它。（通过右键菜单点击寻找）
+    万一 IPC 死亡，在完全修复后，应按下 [color=yellow]“重启 (Restart)”[/color] 按钮来重新启动它。（在右键菜单内点击）
 
     [color=red]请勿在 IPC 死亡后用除颤器或任何其他方式对其进行电击，因为这会导致其电池向外释放能量射线！[/color]
   </Box>
