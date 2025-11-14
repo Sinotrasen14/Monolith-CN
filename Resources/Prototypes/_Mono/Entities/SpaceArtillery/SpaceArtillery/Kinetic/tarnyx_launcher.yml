@@ -8,7 +8,7 @@
 
 - type: entity
   id: WeaponTurretTarnyx
-  name: 'ADBX-31泰尼克斯150mm 电磁脉冲炮 | ADBX-31 TARNYX 150mm EMP Cannon'
+  name: 'ADBX-31泰尼克斯150mm 电磁脉冲炮'
   parent: BallisticArtilleryUnanchorable
   suffix: Station, Recharging Ammo, EMP
   description: '由以太动力制造的重型电磁脉冲炮，能够通过单次强力射击瘫痪敌舰的大片区域。在不对称作战中效果显著。支持远程激活或连接至全局作战系统。 | A heavy EMP cannon made by Aetherion Dynamics, designed to disable large sections of enemy ships with a single, powerful shot. Effective in asymmetric combat. Can be remotely activated or linked up to a GCS.'
@@ -59,7 +59,7 @@
 
 - type: entity
   id: WeaponTurretTarnyxReload
-  name: 'ADBX-31泰尼克斯150mm 电磁脉冲炮 | ADBX-31 TARNYX 150mm EMP Cannon'
+  name: 'ADBX-31泰尼克斯150mm 电磁脉冲炮'
   parent: BallisticArtilleryUnanchorableCartridge
   suffix: Ship, Manual Reload
   description: '由以太动力制造的重型电磁脉冲炮，能够通过单次强力射击瘫痪敌舰的大片区域。在不对称作战中效果显著。支持远程激活或连接至全局作战系统。 | A heavy EMP cannon made by Aetherion Dynamics, designed to disable large sections of enemy ships with a single, powerful shot. Effective in asymmetric combat. Can be remotely activated or linked up to a GCS.'

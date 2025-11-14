@@ -8,10 +8,10 @@
 
 - type: entity
   id: WeaponTurretCharon
-  name: 'M381 卡隆质量投射器 | M381 CHARON mass driver'
+  name: 'M381 卡戎质量投射器'
   parent: BallisticArtilleryUnanchorable
   suffix: Station, Recharging Ammo
-  description: '一门资本级电磁炮，能够以极高速度发射巨型弹体，对敌舰造成毁灭性打击。重型线性加速器，可远程启动或与全局作战系统联动。该武器通过某处的自动装弹机供弹，无需人工装填。 | A capital-class railgun that fires a massive slug at extreme velocity, capable of catastrophic damage to enemy ships. Heavy linear accelerator, can be remotely activated or linked up to a GCS. This one feeds from an autoloader somewhere, and doesn''t need manual reloads.'
+  description: '一门主力舰级电磁炮，能够以极高速度发射巨型弹体，对敌舰造成毁灭性打击。重型线性加速器，可远程启动或与全局作战系统联动。该武器通过某处的自动装弹机供弹，无需人工装填。 | A capital-class railgun that fires a massive slug at extreme velocity, capable of catastrophic damage to enemy ships. Heavy linear accelerator, can be remotely activated or linked up to a GCS. This one feeds from an autoloader somewhere, and doesn''t need manual reloads.'
   components:
   - type: StaticPrice
     price: 30000
@@ -83,10 +83,10 @@
 
 - type: entity
   id: WeaponTurretCharonReload
-  name: 'M381 卡戎质量加速器 | M381 CHARON mass driver'
+  name: 'M381 卡戎质量加速器'
   parent: BallisticArtilleryUnanchorableCartridge
   suffix: Ship, Manual Reload, No Rotate
-  description: '一门资本级电磁炮，能以极高速度发射巨型弹体，对敌舰造成毁灭性打击。重型线性加速器，可远程启动或与全局作战系统连接。 | A capital-class railgun that fires a massive slug at extreme velocity, capable of catastrophic damage to enemy ships. Heavy linear accelerator, can be remotely activated or linked up to a GCS.'
+  description: '一门主力舰级电磁炮，能以极高速度发射巨型弹体，对敌舰造成毁灭性打击。重型线性加速器，可远程启动或与全局作战系统连接。 | A capital-class railgun that fires a massive slug at extreme velocity, capable of catastrophic damage to enemy ships. Heavy linear accelerator, can be remotely activated or linked up to a GCS.'
   components:
   - type: StaticPrice
     price: 30000

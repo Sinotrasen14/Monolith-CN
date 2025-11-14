@@ -213,7 +213,7 @@
 - type: entity
   parent: [BaseC2ContrabandUnredeemable, SheriffPDA]
   id: MarsocPDA
-  name: 'TSFMC海军陆战队特种作战司令部特工掌上电脑 | TSFMC MARSOC operative PDA'
+  name: 'TSFMC 特种作战特工掌上电脑 | TSFMC MARSOC operative PDA'
   description: '一台标准的TSFMC个人计算机。 | A standard TSFMC personal computer.'
   components:
   - type: Pda

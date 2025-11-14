@@ -301,7 +301,7 @@
   parent: BaseFlailPart
   id: FlailHarness
   name: '「连枷」核心框架 | flail harness'
-  description: 'ASF-59 连枷的核心部分。 | The core of the ASF-59 "Flail".'
+  description: 'ASF-59 「连枷」的核心部分。 | The core of the ASF-59 "Flail".'
   components:
   - type: Appearance
   - type: ItemMapper

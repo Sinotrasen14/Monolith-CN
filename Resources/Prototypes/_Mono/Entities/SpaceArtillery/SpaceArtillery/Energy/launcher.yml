@@ -19,7 +19,7 @@
 
 - type: entity
   id: WeaponTurretType35
-  name: 'Type-35 掠夺者型等离子炮 | Type-35 MARAUDER-type plasma cannon'
+  name: 'Type-35 掠夺者型等离子炮'
   parent: BallisticArtillery
   description: '向目标发射磁约束等离子球体。可远程启动或连接至地面控制系统。 | Launches magnetically contained balls of plasma at targets. Can be remotely activated, or linked up to a GCS.'
   components:
@@ -88,7 +88,7 @@
 
 - type: entity
   id: WeaponTurretType54
-  name: 'Type-54C等离子自动脉冲枪 | Type-54C plasma autopulser'
+  name: 'Type-54C 等离子自动脉冲炮'
   parent: BallisticArtillery
   suffix: TSF ONLY, ADS ONLY
   description: '高速连发能量武器，可对目标造成大量伤害。充能时间较长。 | A rapidly firing energy weapon, dealing a large amount of damage to its targets. Takes a long time to recharge.'
@@ -158,7 +158,7 @@
 
 - type: entity
   id: WeaponTurretType241
-  name: 'Type-241 等离子光矛 | Type-241 plasma lance'
+  name: 'Type-241 等离子光矛'
   parent: BallisticArtilleryUnanchorable
   suffix: TSF ONLY, ADS ONLY
   description: '毁灭性武器，通常用于大规模火力支援与战略摧毁。 | A devastating weapon, usually used for large scale fire support and strategic destruction.'
@@ -237,7 +237,7 @@
 
 - type: entity
   id: WeaponTurretM25
-  name: 'M25采矿脉冲器 | M25 mining pulser'
+  name: 'M25 采矿脉冲器'
   parent: [BallisticArtillery, ConstructibleMachine] #Could possibly create a ConstructibleTurret proto if more are added; comps currently do nothing upgrade wise
   description: '采用机械装置发射…某种物体。可轻松粉碎岩石。 | Uses mechanisms to launch... something. Destroys rock easily.'
   components:
@@ -312,7 +312,7 @@
 
 - type: entity
   id: WeaponTurretM220
-  name: 'M220卢比孔电磁脉冲发射器 | M220 RUBICON EMP launcher'
+  name: 'M220卢比孔电磁脉冲发射器'
   parent: BallisticArtillery
   description: '向舰船发射电磁脉冲弹，通过强力电磁脉冲瘫痪系统。适用于非致命交战，可远程启动或连接至地面控制系统。 | Launches EMP projectiles at ships, disabling systems with powerful electromagnetic pulses. Ideal for non-lethal engagements and can be remotely activated or linked to a GCS.'
   components:
@@ -373,7 +373,7 @@
 
 - type: entity
   id: WeaponTurretDymere
-  name: 'ADEX-9 迪米尔涡轮激光炮 | ADEX-9 DYMERE Turbolaser'
+  name: 'ADEX-9 迪米尔涡轮激光炮'
   parent: BallisticArtilleryUnanchorable
   suffix: TSF ONLY, ADS ONLY
   description: '以太动力最具代表性的超大型舰载炮组。可发射巨大的电离气体射弹，能熔穿最坚固的舰船装甲。支持远程激活或与全局战斗系统链接。 | Aetherion Dynamics'' most iconic supercapital battery. Fires enormous ionized gas projectiles that melt through the toughest ship armor. Can be remotely activated or linked to a GCS.'
@@ -447,7 +447,7 @@
 
 - type: entity
   id: WeaponLaserTurretL1Phalanx
-  name: 'L-1 方阵炮台 | L-1 Phalanx'
+  name: 'L-1 方阵炮台'
   parent: BallisticArtillery
   description: '由万神殿集体设计的轻型激光炮台，用于粉碎各类威胁 | A light laser emplactment designed by the Pantheon Collective, used to shred threats of all types'
   components:
@@ -513,7 +513,7 @@
 - type: entity
   id: WeaponLaserTurretApollo
   parent: WeaponLaserTurretL1Phalanx
-  name: 'L-20 阿波罗重型激光炮 | L-20 Apollo Heavy Laser Cannon'
+  name: 'L-20 阿波罗重型激光炮'
   description: '作为万神殿集体顶级武器之一，阿波罗重型激光炮得名恰如其分，其光束能将目标表面加热至超越邻近恒星的温度。 | One of the Pantheon Collective''s top weapons, the Apollo is aptly named for its beams heating surfaces to beyond the temperature of nearby stars.'
   components:
   - type: StaticPrice
@@ -571,7 +571,7 @@
 
 - type: entity
   id: WeaponTurretReaper
-  name: '奇物-1089 超光速粒子光矛「死神」 | Curio-1089 tachyon lance "Reaper"'
+  name: '奇物-1089 超光速粒子光矛「死神」'
   parent: BallisticArtilleryUnanchorable
   suffix: ADS ONLY
   description: '令人胆寒的死亡射线正瞄准着你。收割者是前断代纪元遗留的古老科技产物，仅需一两发冲击便能摧毁最坚固的舰体。 | A terrifying weapon to have aimed at you, the Reaper is an ancient piece of pre-fracture tech capable of shattering the strongest of hulls within one or two blasts.'
@@ -645,7 +645,7 @@
 
 - type: entity
   id: WeaponTurretHarbringer
-  name: '奇物-129 离子炮「先驱者」 | Curio-129 ion cannon "Harbringer"'
+  name: '奇物-129 离子炮「先驱者」'
   parent: BallisticArtilleryUnanchorable
   suffix: ADS ONLY
   description: '星系中最强大的电磁脉冲武器之一，对目标而言意味着厄运降临。 | One of the most powerful EMP weapons in sector, its a sign of doom for its targets.'
@@ -720,7 +720,7 @@
 
 - type: entity
   id: WeaponTurretSunder
-  name: '奇物-1007质子炮「碎星」 | Curio-1007 proton cannon "Sunder"'
+  name: '奇物-1007质子炮「碎星」'
   parent: BallisticArtillery
   suffix: ADS ONLY
   description: '断裂纪年前遗留的强力质子炮，以能轻易熔穿有机与无机物质而闻名。 | A potent proton cannon from before the Fracture, known for melting holes through both inorganic and organic matter with ease.'
@@ -789,7 +789,7 @@
 
 - type: entity
   id: WeaponTurretScythe
-  name: '奇物-1008中子连射器「镰刀」 | Curio-1008 neutron repeater "Scythe"'
+  name: '奇物-1008中子连射器「镰刀」'
   parent: BallisticArtillery
   suffix: ADS ONLY
   description: '持续射击的中子中继器，对多数目标造成可观伤害。这是前断代纪元武器技术的奇迹之作 | A steadily firing neutron repeater, dealing solid damage to most targets. A pre-fracture marvel of weapons technology'
@@ -859,7 +859,7 @@
 
 - type: entity
   id: WeaponLaserTurretFlayer
-  name: '奇珍183型自动线圈「剥皮者」 | Curio-183 auto-coil "Flayer"'
+  name: '奇珍183型自动线圈「剥皮者」'
   parent: BallisticArtillery
   suffix: ADS ONLY
   description: '一款独特的前断代纪元武器，飞刃以近光速发射钨合金飞镖风暴，将目标轰击至碎片。 | A unique pre-fracture weapon, the Flayer fires a storm of tungsten alloy darts at near the speed of light, barraging targets to pieces.'

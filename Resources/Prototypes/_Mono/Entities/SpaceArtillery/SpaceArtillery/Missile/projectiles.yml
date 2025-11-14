@@ -13,7 +13,7 @@
 
 - type: entity
   id: ShipMissileASM417
-  name: 'ASM-417迷你导弹 | ASM-417 Mini Missile'
+  name: 'ASM-417迷你导弹'
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -62,7 +62,7 @@
 
 - type: entity
   id: ShipMissileASM302
-  name: 'ASM-302导弹 | ASM-302 missile'
+  name: 'ASM-302导弹'
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -111,7 +111,7 @@
 
 - type: entity
   id: ShipMissileASM501
-  name: 'ASM-501导弹 | ASM-501 missile'
+  name: 'ASM-501导弹'
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -160,7 +160,7 @@
 
 - type: entity
   id: ShipMissileASM557
-  name: 'ASM-557混合电磁脉冲导弹 | ASM-557 Hybrid EMP Missile'
+  name: 'ASM-557混合电磁脉冲导弹'
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -214,7 +214,7 @@
 
 - type: entity
   id: ShipMissileSerpent
-  name: '蛇形鱼雷 | serpent torpedo'
+  name: '蛇式鱼雷'
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:

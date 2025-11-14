@@ -9,7 +9,7 @@
 
 - type: entity
   id: WeaponTurretLightMunitionsBay
-  name: 'GPOB-L轻型弹药舱 | GPOB-L Light Munitions Bay'
+  name: 'GPOB-L轻型弹药舱'
   parent: BallisticArtilleryUnanchorableCartridge
   description: '相对小型装甲弹药舱，可容纳至多两套轻型武器载荷。通常配备于轻型航天器，特别是轰炸机，提供一种有限使用方式以打击远超自身重量级别的目标。 | A relatively small, armored munitions bay capable of holding up to two lightweight ordinance packages. Typically found on light spacecraft, particularly bombers, and provide a limited use method of damaging targets far above the user''s weight class.'
   components:

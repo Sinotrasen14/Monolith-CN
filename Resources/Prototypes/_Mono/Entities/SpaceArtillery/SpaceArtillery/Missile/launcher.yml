@@ -17,7 +17,7 @@
 
 - type: entity
   id: WeaponTurretVespera
-  name: 'ADMP-27 维斯佩拉速射荚舱 | ADMP-27 VESPERA Rapid-Fire Pod'
+  name: 'ADMP-27 维斯佩拉速射导弹舱'
   parent: BallisticArtilleryUnanchorable
   description: '由以太动力制造的速射蜂群导弹舱。通过制导弹头饱和打击目标以突破防御。可远程激活或连接至地面控制系统。 | A rapid-fire swarm missile pod manufactured by Aetherion Dynamics. Saturates targets with guided warheads to overwhelm defenses. Can be remotely activated or linked to a GCS.'
   components:
@@ -74,7 +74,7 @@
 
 - type: entity
   id: WeaponTurretASM501
-  name: 'ASM-501吊舱 | ASM-501 pod'
+  name: 'ASM-501鱼雷吊舱'
   parent: BallisticArtilleryUnanchorable
   description: '巡洋舰鱼雷发射器。可发射重型鱼雷对大型舰船与空间站实施高伤害打击。支持远程激活或连接至全局控制系统。 | A cruiser torpedo launcher. Fires heavy torpedoes for high-damage strikes against large ships and stations. Can be remotely activated or linked to a GCS.'
   components:
@@ -122,7 +122,7 @@
 
 - type: entity
   id: WeaponTurretVanyk
-  name: 'ASM-302导弹吊舱 | ASM-302 pod'
+  name: 'ASM-302 导弹吊舱'
   parent: BallisticArtillery
   description: '由以太动力制造的护航导弹舱。可发射制导导弹用于基础舰对舰作战与区域拒止。支持远程激活或连接至地面控制系统。 | An escort missile pod manufactured by Aetherion Dynamics. Launches guided missiles for basic ship-to-ship combat and area denial. Can be remotely activated or linked to a GCS.'
   components:
@@ -184,7 +184,7 @@
 
 - type: entity
   id: WeaponTurretTovek
-  name: 'ADMX-23 托维克混合电磁脉冲吊舱 | ADMX-23 TOVEK Hybrid EMP Pod'
+  name: 'ADMX-23 托维克混合电磁脉冲导弹吊舱'
   parent: BallisticArtillery
   description: '埃瑟里昂动力公司生产的混合型电磁脉冲导弹荚舱。可发射电磁脉冲高爆弹头，在远距离瘫痪并削弱敌舰性能。支持远程激活或与地面控制系统链接。 | A hybrid EMP missile pod by Aetherion Dynamics. Fires EMPHE warheads to disable and weaken enemy ships at long range. Can be remotely activated or linked to a GCS.'
   components:
@@ -233,7 +233,7 @@
 
 - type: entity
   id: WeaponTurretSerpentMissile
-  name: '蛇式鱼雷发射器 | Serpent torpedo launcher'
+  name: '蛇式鱼雷发射器'
   parent: BallisticArtillery
   description: '蛇式鱼雷发射器：联合体在公司战争期间研发的轻型鱼雷发射装置，采用与蟒蛇系统类似的自动装弹机制。 | A light torpedo launcher developed by the Syndicate during the corporate war, uses similar systems to the anaconda for self loading munitons.'
   components:

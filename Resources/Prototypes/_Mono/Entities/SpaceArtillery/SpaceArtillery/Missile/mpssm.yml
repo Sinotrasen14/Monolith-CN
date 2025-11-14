@@ -7,7 +7,7 @@
 
 - type: entity
   id: ShipMissileASM19
-  name: 'MPSSM ASM-19单兵便携式反舰导弹 | MPSSM ASM-19 man-portable anti-ship missile'
+  name: 'MPSSM ASM-19单兵便携式反舰导弹'
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -57,7 +57,7 @@
 
 - type: entity
   id: RocketMk248
-  name: 'MPSSM Mk248破甲火箭弹 | MPSSM Mk.248 HEAT rocket'
+  name: 'MPSSM Mk248破甲火箭弹'
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:

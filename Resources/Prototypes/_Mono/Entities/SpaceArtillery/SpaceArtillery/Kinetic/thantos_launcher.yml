@@ -8,7 +8,7 @@
 
 - type: entity
   id: WeaponTurretThanatos
-  name: '塔纳托斯双联质量加速器 | THANATOS twin mass driver'
+  name: '塔纳托斯双联质量加速器'
   parent: BallisticArtilleryUnanchorable
   suffix: STATION ONLY, Recharging Ammo
   description: '卡戎的暴躁长兄，萨纳托斯是一股不可小觑的力量。它可远程启动或连接至地面控制系统。该武器通过某处的自动装弹机供弹，无需人工装填。 | The charon''s mean older brother, the Thanatos is a force to be reckoned with. It can be remotely activated or linked up to a GCS. This one feeds from an autoloader somewhere, and doesn''t need manual reloads.'

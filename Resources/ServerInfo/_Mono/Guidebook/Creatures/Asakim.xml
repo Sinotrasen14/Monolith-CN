@@ -1,7 +1,7 @@
 <Document>
-  # 朝圣者-阿萨基姆人
+  # 朝圣者-阿萨基姆
 
-  阿萨基姆是一种遭遗弃的"前断代纪元"基因改造爬行类生物武器，作为远古战争的残响，仅在巨神星域附近发生[color=red]低温休眠失效[/color]的极端状况下苏醒。
+  阿萨基姆是一种遭遗弃的"前断代纪元"基因改造爬行类生物武器，作为远古战争的残响，仅在巨像星域附近发生[color=red]低温休眠失效[/color]的极端状况下苏醒。
 
   <Box>
     <GuideEntityEmbed Entity="MobAsakim"/>
@@ -14,11 +14,11 @@
 
   ##作为阿萨基姆：
   - 你通常对星区及其居民一无所知（最多只有基础认知）。你不会说仙女座标准语 (Andromeda standard)，也不应了解TSF或USSP的文化。
-  - 你的目标是执行原始指令：占领关键战略点并销毁/保全所有发现的[italic][color=#00CCFF]前断代纪元前数据[/color][/italic]。
+  - 你的目标是执行原始指令：占领关键战略点并保全/销毁所有发现的[italic][color=#00CCFF]前断代纪元前数据[/color][/italic]。
   - [bold]你的装备极其[color=#00CCFF]珍贵稀有[/color]，绝不应为任何事而放弃它，这是你唯一的财产。[/bold]
   - [color=green]平民与无辜者并非你的敌人[/color]，可与他们进行交易（如果你能克服语言障碍）。
 
-  [color=#00FFCC][bold][italic]携荣誉而战，护无辜周全，摧毁前路上一切阻碍。[/italic][/bold][/color]
+  [color=#00FFCC][bold][italic]携荣誉而战，予无辜，摧毁前路上一切阻碍。[/italic][/bold][/color]
 
   ##Species Notes：
   [bold]作为基因改造训练而成的生物武器，你具备：[/bold]

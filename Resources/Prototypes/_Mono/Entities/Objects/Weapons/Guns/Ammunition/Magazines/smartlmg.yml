@@ -5,7 +5,7 @@
 
 - type: entity
   id: MagazineSmartLMG
-  name: 'MlA-79型滚筒（点一六零智能） | MlA-79 drum (.160 smart)'
+  name: 'MlA-79型滚筒（.160 智能弹药） | MlA-79 drum (.160 smart)'
   parent: [BaseItem, RecyclableItemSteelTiny]
   components:
   - type: Tag

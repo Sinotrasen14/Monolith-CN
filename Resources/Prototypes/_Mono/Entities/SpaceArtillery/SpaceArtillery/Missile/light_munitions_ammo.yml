@@ -8,7 +8,7 @@
 
 - type: entity
   id: LightFighterOrdinanceGPOProjectile
-  name: 'GPO-L型50公斤无制导炸弹 | GPO-L 50kg Unguided Bomb'
+  name: 'GPO-L型50公斤无制导炸弹'
   description: '只是路过。 | Just passing by.'
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
@@ -78,7 +78,7 @@
 
 - type: entity
   id: LightFighterOrdinanceGPOItem
-  name: 'GPO-L 50公斤无制导炸弹 | GPO-L 50kg Unguided Bomb'
+  name: 'GPO-L 50公斤无制导炸弹'
   description: '一种相当耐用且当量较高的爆炸载荷。炸弹在常规太空战中较为罕见，是地面战争的遗留产物，若能命中目标可造成毁灭性打击。该载荷可适配轻型通用炸弹挂架。 | A fairly durable and relatively high yield explosive payload. Rarely seen in conventional space combat and a remnant of ground-based warfare, bombs can deal devastating damage... if they manage to hit their target. It can fit in a light GPOL housing.'
   parent: BaseGrenade
   components:
@@ -103,7 +103,7 @@
 
 - type: entity
   id: LightFighterOrdinanceZenithProjectile
-  name: 'ASM低频「天顶」反舰弹头 | ASM(LF) "Zenith" Anti-Ship Warhead'
+  name: 'ASM低频「天顶」反舰弹头'
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -183,7 +183,7 @@
 
 - type: entity
   id: LightFighterOrdinanceZenithItem
-  name: 'ASM（LF）5「天顶」反舰弹头 | ASM(LF)5 "Zenith" Anti-Ship Warhead'
+  name: 'ASM（LF）5「天顶」反舰弹头'
   description: '军用级制导导弹通常由轻型航天器部署。相比炸弹更易命中目标且能造成显著伤害，天顶导弹精准快速但耐久性不足。可适配轻型通用轨道发射舱。 | A military-grade guided missile usually deployed by light spacecraft. Capable of significant damage and more easy to hit targets with than a bomb, the Zenith is accurate and fast, but not durable. It can fit in a light GPOL housing.'
   parent: BaseGrenade
   components:
@@ -208,7 +208,7 @@
 
 - type: entity
   id: LightFighterOrdinanceQuasarProjectile
-  name: '类星体超穿透弹 | QUASAR hyperpenetrator'
+  name: '类星体超穿透弹'
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -254,7 +254,7 @@
 
 - type: entity
   id: LightFighterOrdinanceQuasarItem
-  name: 'AD-901 量子穿甲弹一次性超穿透武器 | AD-901 "QUASAR" disposable hyperpenetrator'
+  name: 'AD-901 量子穿甲弹一次性超穿透武器'
   description: '造价高昂的实验性尝试，旨在将超加速器技术微型化以适应小型航天框架。QUASAR超速穿透弹威力相对较弱，但具备高速移动特性，可抵御大多数反弹药武器。该弹药可适配轻型通用轨道发射舱。 | A costly and experimental foray into the minification of hyperaccelerator technologies for use on smaller spaceframes, the QUASAR hyperpenetrator is a relatively weak, but fast-moving munition impervious to most anti-munition weapons. It can fit in a light GPOL housing.'
   parent: BaseGrenade
   components:

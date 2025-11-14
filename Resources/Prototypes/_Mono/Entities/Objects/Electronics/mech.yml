@@ -57,7 +57,7 @@
 - type: entity
   id: FlailCentralElectronics
   parent: BaseElectronics
-  name: '挥击中央控制模块 | flail central control module'
+  name: '「连枷」中央控制模块 | flail central control module'
   description: '达伦德机甲的电气控制中心。 | The electrical control center for the durand mech.'
   components:
     - type: Item
@@ -75,7 +75,7 @@
 - type: entity
   id: FlailPeripheralsElectronics
   parent: BaseElectronics
-  name: '甩刀机甲电气外设控制模块 | flail peripherals control module'
+  name: '「连枷」机甲电气外设控制模块 | flail peripherals control module'
   description: '甩刀机甲电气外设控制模块 | The electrical peripherals control for the flail mech.'
   components:
     - type: Sprite
@@ -91,7 +91,7 @@
 - type: entity
   id: FlailTargetingElectronics
   parent: BaseElectronics
-  name: '连枷武器控制与瞄准模块 | flail weapon control and targeting module'
+  name: '「连枷」武器控制与瞄准模块 | flail weapon control and targeting module'
   description: '连枷机甲的电子瞄准控制模块 | The electrical targeting control for the flail mech.'
   components:
     - type: Sprite

@@ -35,7 +35,7 @@ chat-emote-name-snore = 打鼾
 
 # Message
 chat-emote-msg-scream = 尖叫！
-chat-emote-msg-laugh = 笑了。
+chat-emote-msg-laugh = 笑了笑。
 chat-emote-msg-honk = honk！
 chat-emote-msg-sigh = 叹了口气。
 chat-emote-msg-whistle = 吹了声口哨。

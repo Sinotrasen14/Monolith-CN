@@ -45,7 +45,7 @@
 
 - type: entity
   id: ShipMissileASM220HE
-  name: 'ASM-220鱼雷（高爆弹头） | ASM-220 torpedo (HE)'
+  name: 'ASM-220鱼雷（高爆弹头）'
   parent: BaseTorpedo
   categories: [ HideSpawnMenu ]
   components:
@@ -112,7 +112,7 @@
 
 - type: entity
   id: Asm220TorpedoHE
-  name: 'ASM-220高爆鱼雷 | ASM-220 high-explosive torpedo'
+  name: 'ASM-220高爆鱼雷'
   description: '装有大量爆炸物。高爆二字远不足以形容其威力。 | Contains a large explosive payload. High-Explosive is an understatement.'
   parent: BaseGrenade
   components:
@@ -216,7 +216,7 @@
 
 - type: entity
   id: Asm220TorpedoLOSAT
-  name: 'ASM-220 直瞄反坦克导弹 | ASM-220 LOSAT missile'
+  name: 'ASM-220 直瞄反坦克导弹'
   description: '本质上是一种合成合金制成的大型超强穿透弹，可轻易撕裂船体。 | Effectively a large synthalloy hyper-penetrator. Tears through hull with ease.'
   parent: BaseGrenade
   components:
@@ -241,7 +241,7 @@
 
 - type: entity
   id: ShipMissileASM220ECM
-  name: 'ASM-220鱼雷（电子对抗） | ASM-220 torpedo (ECM)'
+  name: 'ASM-220鱼雷（电子对抗）'
   parent: BaseTorpedo
   categories: [ HideSpawnMenu ]
   components:
@@ -313,7 +313,7 @@
 
 - type: entity
   id: Asm220TorpedoECM
-  name: 'ASM-220 电子对抗鱼雷 | ASM-220 ECM torpedo'
+  name: 'ASM-220 电子对抗鱼雷'
   description: '相比标准高爆鱼雷，由于内置电磁脉冲弹头，该型号对电子设备破坏性更强，但对船体几乎完全无害。 | Compared to a standard HE torpedo, this one is much more destructive to electronics due to an EMP payload installed inside, though it''s almost completely harmless to the hull.'
   parent: BaseGrenade
   components:

@@ -134,7 +134,7 @@
 - type: entity
   parent: IDCardStandard
   id: TsfMarsocIDCard
-  name: 'TSFMC特种作战司令部特工ID卡 | TSFMC MARSOC operative ID card'
+  name: 'TSFMC特种作战特工ID卡 | TSFMC MARSOC operative ID card'
   components:
   - type: PresetIdCard
     job: TsfMarsoc

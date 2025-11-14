@@ -38,7 +38,7 @@
 - type: entity
   parent: MobHumanMarsocBase
   id: MobHumanMarsocMarksman
-  name: '海军陆战队特种作战司令部狙击手 | MARSOC marksman'
+  name: '海军陆战队特种作战狙击手 | MARSOC marksman'
   components:
   - type: Loadout
     prototypes: [MarsocMarksmanGear]
