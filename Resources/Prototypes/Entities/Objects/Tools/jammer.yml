@@ -17,15 +17,15 @@
     - wattage: 1
       range: 2.5
       message: radio-jammer-component-set-message-low
-      name: 无线电干扰器组件设置-低 丨 radio-jammer-component-setting-low
+      name: radio-jammer-component-setting-low
     - wattage: 2
       range: 6
       message: radio-jammer-component-set-message-medium
-      name: 无线电干扰器组件设置-中等 丨 radio-jammer-component-setting-medium
+      name: radio-jammer-component-setting-medium
     - wattage: 12
       range: 12
       message: radio-jammer-component-set-message-high
-      name: 无线电干扰器组件设置高 丨 radio-jammer-component-setting-high
+      name: radio-jammer-component-setting-high
   - type: PowerCellSlot
     cellSlotId: cell_slot
   - type: ContainerContainer
@@ -34,7 +34,7 @@
   - type: ItemSlots
     slots:
       cell_slot:
-        name: 动力电池插槽-组件插槽名称-默认 丨 power-cell-slot-component-slot-name-default
+        name: power-cell-slot-component-slot-name-default
         startingItem: PowerCellMedium
   - type: Appearance
   - type: GenericVisualizer
