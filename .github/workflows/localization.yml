@@ -1,0 +1,104 @@
+name: Continuous Localization
+
+on:
+  workflow_dispatch: # Allows manual triggering
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight UTC
+
+env:
+  UPSTREAM_REPO: Monolith-Station/Monolith
+  UPSTREAM_BRANCH: master
+  GAME_CONTENT_DIR: Resources/Prototypes
+  TRANSLATED_CONTENT_DIR: Content # Current repo content dir
+  LOCK_FILE: upstream-commit.lock
+  EXTRACTED_FILE: extracted_en # Changed to directory for batch mode
+  TRANSLATED_FILE: translated_zh # Changed to directory for batch mode
+  PZ_PROJECT_ID: 16648
+  # Python script path
+  SCRIPT_PATH: Tools/ss14_tracker.py
+
+jobs:
+  synchronize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 1. Checkout Monolith-CN Repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: . 
+
+      - name: 2. Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: 3. Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r Tools/requirements.txt
+
+      - name: 4. [Gatekeeper] Check for Upstream Updates
+        id: gatekeeper
+        run: |
+          echo "Checking for upstream updates..."
+          echo "NEEDS_EXTRACTION=false" >> $GITHUB_ENV
+          LATEST_UPSTREAM_SHA=$(curl -s "https://api.github.com/repos/${{ env.UPSTREAM_REPO }}/commits/${{ env.UPSTREAM_BRANCH }}" | jq -r '.sha')
+          
+          if [ ! -f "${{ env.LOCK_FILE }}" ]; then
+            echo "Lock file not found. Assuming first run."
+            LAST_PROCESSED_SHA=""
+          else
+            LAST_PROCESSED_SHA=$(cat "${{ env.LOCK_FILE }}")
+          fi
+          
+          echo "Latest upstream commit: $LATEST_UPSTREAM_SHA"
+          echo "Last processed commit: $LAST_PROCESSED_SHA"
+          
+          if [ "$LATEST_UPSTREAM_SHA" != "$LAST_PROCESSED_SHA" ]; then
+            echo "New upstream commit found."
+            echo "NEEDS_EXTRACTION=true" >> $GITHUB_ENV
+            echo "NEW_UPSTREAM_SHA=$LATEST_UPSTREAM_SHA" >> $GITHUB_ENV
+          else
+            echo "No new commits from upstream."
+          fi
+
+      - name: 5. [Auto-Localization] Run Full Workflow
+        if: env.NEEDS_EXTRACTION == 'true' || github.event_name == 'workflow_dispatch'
+        env:
+          PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
+        run: |
+           # 确保克隆了上游
+           git clone --depth 1 https://github.com/${{ env.UPSTREAM_REPO }}.git upstream_repo
+           
+           # 运行一键工作流
+           python Tools/ss14_tracker.py workflow \
+             --scan_dir upstream_repo/${{ env.GAME_CONTENT_DIR }} \
+             --output_dir . \
+             --output_json ${{ env.EXTRACTED_FILE }} \
+             --translation_json ${{ env.TRANSLATED_FILE }} \
+             --project_id ${{ env.PZ_PROJECT_ID }} \
+             --incremental
+
+      - name: 6. [Deploy] Commit and Push Changes
+        if: env.NEEDS_EXTRACTION == 'true' || github.event_name == 'workflow_dispatch'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NEW_UPSTREAM_SHA: ${{ env.NEW_UPSTREAM_SHA }}
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # 更新锁文件
+          if [ ! -z "$NEW_UPSTREAM_SHA" ]; then
+            echo "$NEW_UPSTREAM_SHA" > ${{ env.LOCK_FILE }}
+          fi
+          
+          git add .
+          
+          # 仅在有更改时提交
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Auto-localization update [skip ci]"
+            git push
+          fi

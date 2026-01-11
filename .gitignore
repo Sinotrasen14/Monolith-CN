@@ -309,5 +309,4 @@ Resources/MapImages
 
 # Link Files
 *.lnk
-/.github/workflows
 /Resources/Locale/zh-CN
