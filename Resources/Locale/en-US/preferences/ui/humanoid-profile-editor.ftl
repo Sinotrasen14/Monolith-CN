@@ -31,7 +31,7 @@ humanoid-profile-editor-eyes-label = 眼瞳颜色:
 humanoid-profile-editor-jobs-tab = 职业偏好
 humanoid-profile-editor-preference-unavailable-stay-in-lobby-button = 如果首选职业不可用，则留在大厅。
 # Frontier: we have multiple overflow job types, so we change this message.
-humanoid-profile-editor-preference-unavailable-spawn-as-overflow-button = 如果首选职业不可用，则将 {INDEFINITE($overflowJob)} {$overflowJob} 作为次选职业进入游戏。
+humanoid-profile-editor-preference-unavailable-spawn-as-overflow-button = 如果首选职业不可用，则作为替补职业加入游戏。
 humanoid-profile-editor-preference-jumpsuit = 连身衣
 humanoid-profile-editor-preference-jumpskirt = 连身裙
 humanoid-profile-editor-preference-backpack = 背包

@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2023 Dvir
+  # SPDX-FileCopyrightText: 2023 Dvir
 # SPDX-FileCopyrightText: 2024 FoxxoTrystan
 # SPDX-FileCopyrightText: 2024 SirMcSlushers
 # SPDX-FileCopyrightText: 2024 dustylens
@@ -63,7 +63,7 @@
     DiceBag: 6
     PrizeBall: 10
     MysterySpaceBladeBox: 10
-    ametoy: 3
+    Ametoy: 3
   contrabandInventory:
     PlushieLamp: 3
     CrazyGlue: 1
