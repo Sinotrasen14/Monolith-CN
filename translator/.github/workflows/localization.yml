@@ -1,0 +1,124 @@
+name: Continuous Localization
+
+on:
+  workflow_dispatch: # Allows manual triggering
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight UTC
+
+env:
+  UPSTREAM_REPO: Monolith-Station/Monolith
+  UPSTREAM_BRANCH: master
+  GAME_CONTENT_DIR: Resources/Prototypes
+  TRANSLATED_CONTENT_DIR: Content # Current repo content dir
+  LOCK_FILE: upstream-commit.lock
+  EXTRACTED_FILE: en.json
+  TRANSLATED_FILE: zh.json
+  PZ_PROJECT_ID: 16648  # Replace with your Paratranz project ID
+
+jobs:
+  synchronize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 1. Checkout Monolith-CN Repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: . 
+
+      - name: 2. Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: 3. Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: 4. [Gatekeeper] Check for Upstream Updates
+        id: gatekeeper
+        run: |
+          echo "Checking for upstream updates..."
+          echo "NEEDS_EXTRACTION=false" >> $GITHUB_ENV
+          LATEST_UPSTREAM_SHA=$(curl -s "https://api.github.com/repos/${{ env.UPSTREAM_REPO }}/commits/${{ env.UPSTREAM_BRANCH }}" | jq -r '.sha')
+          
+          if [ ! -f "${{ env.LOCK_FILE }}" ]; then
+            echo "Lock file not found. Assuming first run."
+            LAST_PROCESSED_SHA=""
+          else
+            LAST_PROCESSED_SHA=$(cat "${{ env.LOCK_FILE }}")
+          fi
+          
+          echo "Latest upstream commit: $LATEST_UPSTREAM_SHA"
+          echo "Last processed commit: $LAST_PROCESSED_SHA"
+          
+          # Logic: If upstream changed, we extract new strings.
+          # Whatever happens, we always try to download latest translations and merge.
+          if [ "$LATEST_UPSTREAM_SHA" != "$LAST_PROCESSED_SHA" ]; then
+            echo "New upstream commit found."
+            echo "NEEDS_EXTRACTION=true" >> $GITHUB_ENV
+            echo "NEW_UPSTREAM_SHA=$LATEST_UPSTREAM_SHA" >> $GITHUB_ENV
+          else
+            echo "No new commits from upstream."
+          fi
+
+      - name: 5. Clone Upstream Repository
+        if: env.NEEDS_EXTRACTION == 'true'
+        run: |
+          echo "Cloning upstream repository ${{ env.UPSTREAM_REPO }}..."
+          git clone --depth 1 https://github.com/${{ env.UPSTREAM_REPO }}.git upstream_repo
+
+      - name: 6. [Extract] Run Extraction Script
+        if: env.NEEDS_EXTRACTION == 'true'
+        run: |
+          echo "Running extraction script..."
+          python ss14_tracker.py extract --source upstream_repo --target_folders ${{ env.GAME_CONTENT_DIR }} --output ${{ env.EXTRACTED_FILE }}
+
+      - name: 7. [Extract] Upload to Paratranz
+        if: env.NEEDS_EXTRACTION == 'true'
+        env:
+          PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
+        run: |
+          echo "Uploading extracted strings to Paratranz..."
+          python ss14_tracker.py upload --file ${{ env.EXTRACTED_FILE }} --project_id ${{ env.PZ_PROJECT_ID }}
+
+      - name: 8. [Sync] Download from Paratranz
+        env:
+          PARATRANZ_TOKEN: ${{ secrets.PARATRANZ_TOKEN }}
+        run: |
+          echo "Downloading translations from Paratranz..."
+          python ss14_tracker.py download --file ${{ env.TRANSLATED_FILE }} --remote ${{ env.EXTRACTED_FILE }} --project_id ${{ env.PZ_PROJECT_ID }}
+
+      - name: 9. [Merge] Run Merge Script
+        run: |
+          echo "Running merge script..."
+          if [ -f "${{ env.TRANSLATED_FILE }}" ]; then
+            python ss14_tracker.py merge --source . --input ${{ env.TRANSLATED_FILE }} --output . 
+          else
+            echo "Translated file not found, skipping merge."
+          fi
+
+      - name: 10. [Deploy] Commit and Push Changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          # Add all changes
+          git add -A
+          
+          # Check for changes
+          if ! git diff --cached --quiet; then
+            echo "Changes found. Committing and pushing..."
+            if [ "${{ env.NEEDS_EXTRACTION }}" == "true" ]; then
+              COMMIT_MESSAGE="自动汉化: 同步上游版本 ${{ env.NEW_UPSTREAM_SHA }}"
+              echo "${{ env.NEW_UPSTREAM_SHA }}" > "${{ env.LOCK_FILE }}"
+              git add "${{ env.LOCK_FILE }}"
+            else
+              COMMIT_MESSAGE="自动汉化: 同步翻译进度"
+            fi
+            
+            git commit -m "$COMMIT_MESSAGE"
+            git push
+          else
+            echo "No changes to commit."
+          fi
