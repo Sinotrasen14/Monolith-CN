@@ -3,6 +3,7 @@
 # SPDX-FileCopyrightText: 2024 Qulibly
 # SPDX-FileCopyrightText: 2024 Salvantrix
 # SPDX-FileCopyrightText: 2024 Whatstone
+# SPDX-FileCopyrightText: 2025 Arcticular
 # SPDX-FileCopyrightText: 2025 Arcticular1
 # SPDX-FileCopyrightText: 2025 LukeZurg22
 # SPDX-FileCopyrightText: 2025 Redrover1760
@@ -19,13 +20,13 @@
   playTimeTracker: JobPirateCaptain
   requirements:
     - !type:OverallPlaytimeRequirement # mono start
-      time: 1440000 # 65 hours
+      time: 0 # 65 hours
     - !type:RoleTimeRequirement
       role: JobPirateFirstMate
-      time: 3600 # 1 hour
+      time: 0 # 1 hour
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 36000 # 10 hours # mono end
+      time: 0 # 10 hours # mono end
   whitelisted: true
   startingGear: PirateCaptainNFGear
   alwaysUseSpawner: true
@@ -36,10 +37,11 @@
   weight: 40
   displayWeight: 40
   setPreference: true
-  guides: [ BasicLore, AshenRepublic ] # Mono
+  guides: [ BasicLore, PhaethonDynasty ] # Mono
   access:
   - Pirate
   - RogueCommander
+  - Mercenary
   accessGroups:
   - GeneralAccess
   special:
@@ -66,10 +68,10 @@
   id: PirateCaptainNFGear
   equipment:
     ears: ClothingHeadsetAltFreelancer
-    neck: ClothingNeckCloakRogueCommander
     #belt: ClothingBeltUtility # mono
     pocket1: BasePirateUplinkRadioPirateCaptain
     pocket2: EnergySword
   storage:
     back:
     - RadioHandheldNF # mono
+    - ShipVoucherSaintie

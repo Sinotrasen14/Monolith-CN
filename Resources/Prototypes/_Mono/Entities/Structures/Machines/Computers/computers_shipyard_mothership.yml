@@ -93,7 +93,7 @@
   id: JupiterCarrierComputer
   parent: BaseCarrierComputer
   name: '木星造船厂控制台 | jupiter shipyard console'
-  description: '轻型造船厂，使用木星级内部机库，无法访问灰烬共和国全部舰船目录。 | Lighter shipyard using the Jupiter''s internal hangars, doesn''t have access to the full roster of Ashen Republic ships.'
+  description: 轻型造船厂，使用木星级内部机库，无法访问法厄同帝国全部舰船目录。
   components:
   - type: ShipyardListing
     shuttles:

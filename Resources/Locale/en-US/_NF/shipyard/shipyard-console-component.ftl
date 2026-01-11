@@ -64,7 +64,7 @@ shipyard-console-class-Civilian = 民用
 shipyard-console-class-Kitchen = 厨房
 # Antag
 shipyard-console-class-Syndicate = 辛迪加
-shipyard-console-class-Pirate = ASR
+shipyard-console-class-Pirate = PDV
 # NFSD
 shipyard-console-class-Capital = 主力舰
 shipyard-console-class-Detainment = 拘留

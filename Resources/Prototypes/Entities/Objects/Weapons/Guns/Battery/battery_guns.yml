@@ -59,6 +59,7 @@
 # SPDX-FileCopyrightText: 2024 degradka
 # SPDX-FileCopyrightText: 2024 vanx
 # SPDX-FileCopyrightText: 2025 Ark
+# SPDX-FileCopyrightText: 2025 Avalon
 # SPDX-FileCopyrightText: 2025 Blu
 # SPDX-FileCopyrightText: 2025 BlueHNT
 # SPDX-FileCopyrightText: 2025 BramvanZijp
@@ -362,7 +363,7 @@
   name: LWC脉冲手枪 丨 LWC pulse pistol
   parent: [BaseWeaponBatterySmall, BaseC2ContrabandUnredeemable] # Frontier: added BaseC2ContrabandUnredeemable
   id: WeaponPulsePistol
-  description: 一把先进的能量手枪，被TSFN和TSFMC青睐作为随身武器。枪柄上贴有"仅限授权使用"的标签。 丨 A state of the art energy pistol favoured as a sidearm by the TSFN and TSFMC. On the handle is a label that says 'for authorized use only.'
+  description: 一款最先进的能量手枪，被TSFN和TSFMC作为备用武器使用。 # Mono
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/pulse_pistol.rsi
@@ -387,18 +388,25 @@
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: HitscanBatteryAmmoProvider
     proto: Pulse
-    fireCost: 200
+    fireCost: 100
   - type: Battery
     maxCharge: 2000
     startingCharge: 2000
   - type: PirateBountyItem # Mono
     id: ExperimentalFactionWeapon
+  # Mono Additions
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 200
+    autoRechargePause: true
+    autoRechargePauseTime: 30
+  # End Mono
 
 - type: entity
   name: LWC脉冲卡宾枪 丨 LWC pulse carbine
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseC2ContrabandUnredeemable] # Frontier: added BaseC2ContrabandUnredeemable
   id: WeaponPulseCarbine
-  description: 一把受到"机构" (The Agency)与神出鬼没的"冬至" (Winter Solstice)所青睐的高科技能量卡宾枪。枪柄处贴有"仅限授权使用"的标签。 丨 A high tech energy carbine favoured by The Agency and the ever-elusive Winter Solstice. On the handle is a label that says 'for authorized use only.'
+  description: 在高级TSF手中常见，脉冲卡宾枪是一种劲爆的激光武器，从纳米传讯的残余物中回收而来。 # Mono
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/pulse_carbine.rsi
@@ -418,25 +426,35 @@
   - type: Gun
     selectedMode: SemiAuto
     fireRate: 3
+    burstFireRate: 12 # Mono
+    shotsPerBurst: 2
     availableModes:
     - SemiAuto
-    - FullAuto
+    # - FullAuto # Mono
+    - Burst # Mono
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: HitscanBatteryAmmoProvider
     proto: Pulse
-    fireCost: 200
+    fireCost: 100
   - type: Battery
-    maxCharge: 5000
-    startingCharge: 5000
+    maxCharge: 3000 # Mono
+    startingCharge: 3000
   - type: PirateBountyItem # Mono
     id: ExperimentalFactionWeapon
+  # Mono Additions
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 200
+    autoRechargePause: true
+    autoRechargePauseTime: 30
+  # End Mono
 
 - type: entity
   name: NT脉冲步枪 丨 NT pulse rifle
   parent: [BaseWeaponBattery, BaseGunWieldable, BaseC2ContrabandUnredeemable] # Frontier: added BaseC2ContrabandUnredeemable
   id: WeaponPulseRifle
-  description: 一把几乎与其使用者同样臭名昭著的武器。握把上贴有“仅限授权使用”的标签。 丨 A weapon that is almost as infamous as its users. On the handle is a label that says 'for authorized use only.'
+  description: 这是一种曾经被NT特种作战部队使用的武器，但现在常见于TSF手中。 # Mono
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/pulse_rifle.rsi
@@ -455,16 +473,29 @@
     sprite: Objects/Weapons/Guns/Battery/pulse_rifle.rsi
   - type: Gun
     fireRate: 1.5
+    availableModes:
+    - SemiAuto
+    - FullAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser3.ogg
   - type: HitscanBatteryAmmoProvider
     proto: Pulse
     fireCost: 100
   - type: Battery
-    maxCharge: 40000
-    startingCharge: 40000
+    maxCharge: 6000 # Mono
+    startingCharge: 6000 # Mono
   - type: PirateBountyItem # Mono
     id: ExperimentalFactionWeapon
+  # Mono Additions
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 200
+    autoRechargePause: true
+    autoRechargePauseTime: 30
+  - type: SpeedModifiedOnWield
+    walkModifier: 0.90
+    sprintModifier: 0.85
+  # End Mono
 
 - type: entity
   name: 激光炮 丨 laser cannon

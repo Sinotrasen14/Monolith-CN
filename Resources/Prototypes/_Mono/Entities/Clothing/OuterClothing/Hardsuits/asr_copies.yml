@@ -8,8 +8,8 @@
 - type: entity
   parent: ClothingOuterHardsuitSyndie
   id: ClothingOuterHardsuitAshen
-  name: 'ASR CV-32作战战术服 | ASR CV-32 combat tacsuit'
-  description: '由灰烬共和国设计的作战战术服。一款较重但仍属通用型的硬质护甲。 | A combat tacsuit designed by the Ashen Republic. A heavier but still general-purpose hardsuit.'
+  name: 'PDV CV-32作战战术服 | PDV CV-32 combat tacsuit'
+  description: 由法厄同王朝设计的一款战斗战术服。一款更重但仍具通用性的硬质战服。
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/syndicate.rsi
@@ -30,8 +30,8 @@
 - type: entity
   parent: [ ClothingOuterHardsuitSyndieElite, EnergyShieldClothing ]
   id: ClothingOuterHardsuitAshenElite
-  name: 'ASR CV-53作战硬式防护服 | ASR CV-53 combat hardsuit'
-  description: '该装备最初基于CV-32型号研发，CV-53型号通过牺牲传统装甲板来强化环境防护能力，并配备了可充能硬质护盾。 | Originally based off of the CV-32, the CV-53 sacrifices conventional armor plating for environmental protection, and a rechargeable hard-shield.'
+  name: PDV CV-53作战硬式防护服
+  description: 该装备最初基于CV-32型号研发，CV-53型号通过牺牲传统装甲板来强化环境防护能力，并配备了可充能硬质护盾。
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/syndieelite.rsi

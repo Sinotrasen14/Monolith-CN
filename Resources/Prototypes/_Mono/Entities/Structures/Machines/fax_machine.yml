@@ -22,8 +22,8 @@
 
 - type: entity
   parent: [BaseStructureDisableToolUse, FaxMachineBase]
-  id: FaxMachineASRJupiter
-  suffix: POI, ASR Jupiter
+  id: FaxMachinePDVJupiter
+  suffix: POI, PDV Jupiter
   components:
   - type: FaxMachine
-    name: 'ASR 木星号母舰 | ASR Jupiter-Class Carrier'
+    name: 'PDV 木星号母舰 | PDV Jupiter-Class Carrier'

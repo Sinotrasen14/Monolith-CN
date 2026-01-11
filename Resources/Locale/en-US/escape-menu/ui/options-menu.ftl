@@ -41,6 +41,10 @@ ui-options-admin-sounds = 播放管理员音效
 ui-options-bwoink-sound = 播放 AHelp 通知音效
 ui-options-volume-label = 音量
 
+## Mono Audio menu
+
+ui-options-combat-music = Combat Music
+
 ## Graphics menu
 
 ui-options-display-label = 显示
@@ -135,6 +139,8 @@ ui-options-function-camera-reset = 视角重置
 ui-options-function-zoom-in = 视角放大
 ui-options-function-zoom-out = 视角缩小
 ui-options-function-reset-zoom = 重置视角缩放
+## Mono
+ui-options-function-toggle-focus = 切换焦点
 
 ui-options-function-use = 使用
 ui-options-function-use-secondary = 使用次要功能

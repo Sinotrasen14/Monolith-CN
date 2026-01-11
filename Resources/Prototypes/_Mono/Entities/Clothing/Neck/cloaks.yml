@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2025 Arcticular
+# SPDX-FileCopyrightText: 2025 AthrunZala33092
 # SPDX-FileCopyrightText: 2025 Coenx-flex
 # SPDX-FileCopyrightText: 2025 Cojoke
 # SPDX-FileCopyrightText: 2025 HungryCuban
@@ -32,11 +34,29 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakRogueCommander
-  name: '叛军指挥官斗篷 | Rogue commander''s cloak'
-  description: '一件灰帷核心指挥官斗篷，仅授予那些为事业证明忠诚与价值之人。据说若非辛迪加残党鼎力扶持，灰帷组织根本不可能从囚犯殖民地发展壮大。 | An Ashenveil Cell-Comm cloak, only given to those who have proven their loyalty and worth to the cause. Some say Ashenveil never would''ve formed beyond a prisoner colony if it wasn''t for the Syndicate Remnants elevating them.'
+  name: PDV大宰相的斗篷 | grand vizier's cloak
+  description: 一件法厄同王朝大宰相的斗篷，仅授予那些已经证明对事业忠诚和有价值的人。有些人说，如果不是工会遗迹的提升，巨像的居民永远不会超越孤立主义的殖民地形成更大的文明。
   components:
   - type: Sprite
-    sprite: _Mono/Clothing/Neck/Cloaks/ashenveilcloak.rsi
+    sprite: _Mono/Clothing/Neck/Cloaks/phaethondynastycloak.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakVizier
+  name: grand vizier's ceremonial cloak
+  description: A Phaethon Dynasty Grand Vizier's cloak, only given to those who have proven their loyalty and worth to the Sultan.
+  components:
+  - type: Sprite
+    sprite: _Mono/Clothing/Neck/Cloaks/pdvcloak.rsi
+
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckMantleVizier
+  name: grand vizier's mantle
+  description: A Phaethon Dynasty Grand Vizier's mantle, a mix of elegance and practicality.
+  components:
+  - type: Sprite
+    sprite: _Mono/Clothing/Neck/Cloaks/pdvmantle.rsi
 
 - type: entity
   parent: ClothingNeckBase

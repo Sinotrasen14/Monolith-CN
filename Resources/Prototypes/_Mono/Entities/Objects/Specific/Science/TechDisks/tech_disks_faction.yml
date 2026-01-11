@@ -208,8 +208,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskRogueTools
-  name: 'ASR装备 阵营技术磁盘 | ASR equipment faction tech disk'
-  description: '一张可为阵营技术制造台添加流亡者各类工具配方的磁盘。 | A disk capable of adding various tools of Rogues to a server''s recipes, for faction techfabs.'
+  name: PDV装备 阵营技术磁盘 | PDV equipment faction tech disk
+  description: 一张可为阵营技术制造台添加法厄同帝国各类工具配方的磁盘。
   components:
   - type: Sprite
     layers:
@@ -228,8 +228,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskRogueToolsAdvanced
-  name: '高科技ASR阵营技术磁盘 | high-tech ASR equipment faction tech disk'
-  description: '一张能够将罗格派系黑客设备添加到服务器制造配方中的磁盘，适用于派系技术制造台。 | A disk capable of adding the hacking equipment of Rogues to a server''s recipes, for faction techfabs.'
+  name: 高科技PDV阵营技术磁盘 | high-tech PDV equipment faction tech disk
+  description: 一张能够将法厄同帝国设备添加到服务器制造配方中的磁盘，适用于派系技术制造台。
   components:
   - type: Sprite
     layers:
@@ -248,8 +248,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskC20r
-  name: 'ASR C-20r 阵营技术磁盘 | ASR C-20r faction tech disk'
-  description: '一张可为阵营技术制造台添加C-20r及其弹药配方的磁盘。 | A disk capable of adding the C-20r and its ammo to a server''s recipes, for faction techfabs.'
+  name: 'PDV C-20r 阵营技术磁盘 | PDV C-20r faction tech disk'
+  description: 一张可为阵营技术制造台添加C-20r及其弹药配方的磁盘。
   components:
   - type: Sprite
     layers:
@@ -269,8 +269,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskM90
-  name: 'ASR M-90 阵营技术磁盘 | ASR M-90 faction tech disk'
-  description: '一张能够将M-90及其弹药添加到服务器制造配方中的磁盘，适用于阵营技术工厂。 | A disk capable of adding the M-90 and its ammo to a server''s recipes, for faction techfabs.'
+  name: 'PDV M-90 阵营技术磁盘 | PDV M-90 faction tech disk'
+  description: 一张能够将M-90及其弹药添加到服务器制造配方中的磁盘，适用于阵营技术工厂。
   components:
   - type: Sprite
     layers:
@@ -290,8 +290,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskBulldog
-  name: 'ASR 斗牛犬霰弹枪阵营科技盘 | ASR bulldog faction tech disk'
-  description: '一张可为派系技术工厂添加斗牛犬及其弹药配方的技术磁盘。 | A disk capable of adding the Bulldog and its ammo to a server''s recipes, for faction techfabs.'
+  name: 'PDV 斗牛犬霰弹枪阵营科技盘 | PDV bulldog faction tech disk'
+  description: '一张可为派系技术工厂添加斗牛犬及其弹药配方的技术磁盘。'
   components:
   - type: Sprite
     layers:
@@ -313,8 +313,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskHristov
-  name: 'ASR 赫里斯托夫阵营科技磁盘 | Hristov tech disk'
-  description: '一张可为阵营技术工厂添加赫里斯托夫及其弹药配方的技术磁盘。 | A disk capable of adding the Hristov and its ammo to a server''s recipes, for faction techfabs.'
+  name: 'PDV 赫里斯托夫阵营技术光盘 | Hristov tech disk'
+  description: '一张可为阵营技术工厂添加赫里斯托夫及其弹药配方的技术磁盘。'
   components:
   - type: Sprite
     layers:
@@ -332,8 +332,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskMla73
-  name: 'ASR MLA-73 阵营技术磁盘 | MLA-73 tech disk'
-  description: '一张可为阵营技术装配台添加MLA-73及其弹药制造配方的技术磁盘。 | A disk capable of adding the MLA-73 and its ammo to a server''s recipes, for faction techfabs.'
+  name: 'PDV MLA-73 阵营技术磁盘 | MLA-73 tech disk'
+  description: '一张可为阵营技术装配台添加MLA-73及其弹药制造配方的技术磁盘'
   components:
   - type: Sprite
     layers:

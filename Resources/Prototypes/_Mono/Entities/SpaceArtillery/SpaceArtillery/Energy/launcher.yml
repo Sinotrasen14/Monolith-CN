@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2025 Arcticular
+# SPDX-FileCopyrightText: 2025 Arcticular1
 # SPDX-FileCopyrightText: 2025 Avalon
 # SPDX-FileCopyrightText: 2025 Blu
 # SPDX-FileCopyrightText: 2025 BlueHNT
@@ -257,8 +259,8 @@
     range: 500
   - type: FireControlRotate
   - type: Gun
-    fireRate: 4.0
-    projectileSpeed: 40
+    fireRate: 5
+    projectileSpeed: 20
     minAngle: 0
     maxAngle: 5
     shootThermalSignature: 10000 # 400m - intentionally relatively low
@@ -512,9 +514,9 @@
 
 - type: entity
   id: WeaponLaserTurretApollo
-  parent: WeaponLaserTurretL1Phalanx
-  name: 'L-20 阿波罗重型激光炮'
-  description: '作为万神殿集体顶级武器之一，阿波罗重型激光炮得名恰如其分，其光束能将目标表面加热至超越邻近恒星的温度。 | One of the Pantheon Collective''s top weapons, the Apollo is aptly named for its beams heating surfaces to beyond the temperature of nearby stars.'
+  parent: BallisticArtilleryUnanchorable
+  name: 'L-20 阿波罗重型激光炮 | L-20 Apollo Heavy Laser Cannon'
+  description: 作为法厄同帝国的顶级武器之一，阿波罗重型激光炮得名恰如其分，其光束能将目标表面加热至超越邻近恒星的温度。
   components:
   - type: StaticPrice
     price: 15000
@@ -522,6 +524,17 @@
     sprite:  _Mono/Objects/ShuttleWeapons/apollo.rsi
     layers:
     - state: space_artillery
+  - type: Appearance
+  - type: AmmoCounter
+  - type: Battery
+    maxCharge: 50000
+    startingCharge: 50000
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 500
+  - type: ExaminableBattery
+  - type: WirelessNetworkConnection
+    range: 500
   - type: Gun
     fireRate: 0.3
     minAngle: 0

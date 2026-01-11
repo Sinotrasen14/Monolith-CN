@@ -5,8 +5,8 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSyndie
   id: ClothingHeadHelmetHardsuitAshen
-  name: 'ASR CV-32作战战术服头盔 | ASR CV-32 combat tacsuit helmet'
-  description: '灰烬共和国设计的作战战术服头盔。 | A combat tacsuit designed in the Ashen Republic.'
+  name: 'PDV CV-32作战战术服头盔 | PDV CV-32 combat tacsuit helmet'
+  description: 法厄同帝国设计的作战战术服头盔。
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hardsuits/syndicate.rsi
@@ -16,8 +16,8 @@
 - type: entity
   parent: ClothingHeadHelmetHardsuitSyndieElite
   id: ClothingHeadHelmetHardsuitAshenElite
-  name: 'ASR CV-53作战防护服头盔 | ASR CV-53 combat hardsuit helmet'
-  description: '基于CV-32型号设计，牺牲战斗防护以换取环境防护能力。 | Based off of the CV-32, sacrifices combat protection for enviornment protection.'
+  name: 'PDV CV-53作战防护服头盔 | PDV CV-53 combat hardsuit helmet'
+  description: 基于CV-32型号设计，牺牲战斗防护以换取环境防护能力。
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hardsuits/syndieelite.rsi

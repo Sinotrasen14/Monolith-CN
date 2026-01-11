@@ -1,0 +1,23 @@
+# SPDX-FileCopyrightText: 2022 Paul Ritter
+# SPDX-FileCopyrightText: 2025 Aiden
+#
+# SPDX-License-Identifier: MPL-2.0
+
+name: No submodule update checker
+
+on:
+  pull_request:
+    paths:
+      - 'RobustToolbox'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  this_aint_right:
+    name: Submodule update in pr found
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fail
+        run: exit 1

@@ -8,8 +8,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContraband]
   id: ClothingOuterHardsuitPirateScaf
-  name: 'ASR SCAF硬质防护服 | ASR SCAF hardsuit'
-  description: '一件采用ASR棕褐色涂装的老旧SCAF防护服。这套装甲感觉已退化，但更为轻便。 | An old SCAF suit painted in an ASR tan color scheme. The armor feels degraded, but lighter.'
+  name: PDV SCAF硬质防护服 | PDV SCAF hardsuit
+  description: 一件采用PDV棕褐色涂装的老旧SCAF防护服。这套装甲感觉已退化，但更为轻便。
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/scaf_pirate.rsi

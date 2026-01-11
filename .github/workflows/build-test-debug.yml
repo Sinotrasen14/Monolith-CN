@@ -1,0 +1,93 @@
+# SPDX-FileCopyrightText: 2020 ComicIronic
+# SPDX-FileCopyrightText: 2020 Tyler Young
+# SPDX-FileCopyrightText: 2020 Ygg01
+# SPDX-FileCopyrightText: 2021 Javier Guardia Fernández
+# SPDX-FileCopyrightText: 2021 Swept
+# SPDX-FileCopyrightText: 2021 Vera Aguilera Puerto
+# SPDX-FileCopyrightText: 2021 mirrorcult
+# SPDX-FileCopyrightText: 2022 0x6273
+# SPDX-FileCopyrightText: 2022 Kara D
+# SPDX-FileCopyrightText: 2022 Zoldorf
+# SPDX-FileCopyrightText: 2022 wrexbe
+# SPDX-FileCopyrightText: 2023 DrSmugleaf
+# SPDX-FileCopyrightText: 2023 Kevin Zheng
+# SPDX-FileCopyrightText: 2023 Leon Friedrich
+# SPDX-FileCopyrightText: 2023 Moony
+# SPDX-FileCopyrightText: 2023 metalgearsloth
+# SPDX-FileCopyrightText: 2024 Checkraze
+# SPDX-FileCopyrightText: 2024 Dvir
+# SPDX-FileCopyrightText: 2024 Myra
+# SPDX-FileCopyrightText: 2024 Whatstone
+# SPDX-FileCopyrightText: 2025 Aiden
+# SPDX-FileCopyrightText: 2025 Pieter-Jan Briers
+# SPDX-FileCopyrightText: 2025 Redrover1760
+# SPDX-FileCopyrightText: 2025 sleepyyapril
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+name: Build & Test Debug
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+on:
+  push:
+    branches: [ main, staging, stable ]
+  merge_group:
+  pull_request:
+    types: [ opened, reopened, synchronize, ready_for_review ]
+    branches: [ main, staging, stable ]
+
+jobs:
+  build:
+    if: github.event.pull_request.draft == false
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+
+    runs-on: ${{ matrix.os }}
+
+    steps:
+    - name: Checkout Master
+      uses: actions/checkout@v3.6.0
+
+    - name: Setup Submodule
+      run: |
+        git submodule update --init --recursive
+
+    - name: Pull engine updates
+      uses: space-wizards/submodule-dependency@v0.1.5
+
+    - name: Update Engine Submodules
+      run: |
+        cd RobustToolbox/
+        git submodule update --init --recursive
+
+    - name: Setup .NET Core
+      uses: actions/setup-dotnet@v3.2.0
+      with:
+        dotnet-version: 9.0.x
+
+    - name: Install dependencies
+      run: dotnet restore
+
+    - name: Build Project
+      run: dotnet build --configuration DebugOpt --no-restore /p:WarningsAsErrors=nullable /m
+
+    - name: Run Content.Tests
+      run: dotnet test --no-build --configuration DebugOpt Content.Tests/Content.Tests.csproj -- NUnit.ConsoleOut=0
+
+    - name: Run Content.IntegrationTests
+      shell: pwsh
+      run: |
+        $env:DOTNET_gcServer=1
+        dotnet test --no-build --configuration DebugOpt Content.IntegrationTests/Content.IntegrationTests.csproj --filter "FullyQualifiedName!~ShipyardTest" -- NUnit.ConsoleOut=0 NUnit.MapWarningTo=Failed
+  ci-success:
+    name: Build & Test Debug
+    needs:
+      - build
+    runs-on: ubuntu-latest
+    steps:
+      - name: CI succeeded
+        run: exit 0

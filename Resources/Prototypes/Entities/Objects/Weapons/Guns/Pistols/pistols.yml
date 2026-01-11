@@ -251,7 +251,7 @@
   name: CS PT-72 眼镜蛇手枪（635x40mm） 丨 CS PT-72 cobra (635x40mm)
   parent: [ BaseWeaponPistol, BaseC3SyndicateContraband ] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: WeaponPistolCobra
-  description: 一把坚固耐用的特种作战手枪，内置消音器，使用6.35x40mm无壳弹药。在灰烬叛乱者中颇为常见，是登船部队或特工最常配备的制式手枪。 丨 A rugged, robust spec-ops handgun with an inbuilt silencer. Uses 6.35x40mm Caseless ammo. A common sight among Ashen Insurgents, they are the most commonly seen sidearm among boarding crews or agents.
+  description: 一把坚固耐用的特种作战手枪，内置消音器，使用6.35x40mm无壳弹药。在帝国先锋队中颇为常见，是登船部队或特工最常配备的制式手枪。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/cobra.rsi

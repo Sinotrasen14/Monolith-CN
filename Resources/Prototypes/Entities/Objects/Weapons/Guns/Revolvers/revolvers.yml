@@ -189,7 +189,7 @@
   name: LWC Python (.45 口径马格南) 丨 LWC Python (.45 magnum)
   parent: [BaseWeaponRevolver, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: WeaponRevolverPython
-  description: 一款在灰烬共和国星域常见的左轮手枪，通常由高级叛乱分子使用，使用.45 马格南弹药。# 前线 丨 A revolver that is commonly found around Ashen Republic space, it's typically used by high-ranking insurgents. Uses .45 magnum ammo. # Frontier
+  description: 这是一把在法厄同王朝星域常见的左轮手枪，通常由高阶帝国官员使用。使用.45马格南子弹。 # Frontier
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/python.rsi
@@ -213,7 +213,7 @@
   parent: [BaseWeaponRevolver, BaseC3SyndicateContrabandUnredeemable]
   id: WeaponRevolverPythonGatfruit
   suffix: Low Value
-  description: 这款左轮手枪常见于灰烬共和国星域，通常被高级叛乱分子使用。采用.45 马格南弹药，枪体似乎由脆弱的植物材质制成，在违禁品回收市场上价值不高。 丨 A revolver that is commonly found around Ashen Republic space, it's typically used by high-ranking insurgents. Uses .45 magnum ammo. It seems to be made of fragile plant matter, and isn't as valuable for contraband recycling.
+  description: 这是一把在法厄同王朝星域中常见的左轮手枪，通常由高级帝国官员使用。使用.45马格南弹药。它似乎由脆弱的植物材料制成，在非法物品回收中价值不高。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Revolvers/python.rsi

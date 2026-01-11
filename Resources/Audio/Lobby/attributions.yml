@@ -160,3 +160,17 @@
   copyright: "曼波."
   source: "net"
 
+- files: ["重音テトDoomer.ogg"]
+  license: "Custom"
+  copyright: "KKSK"
+  source: "net"
+
+- files: ["SpaceCruise.ogg"]
+  license: "Custom"
+  copyright: "KKSK"
+  source: "net"
+
+- files: ["Cipher3301.ogg"]
+  license: "Custom"
+  copyright: "KKSK"
+  source: "net"

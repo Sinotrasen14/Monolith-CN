@@ -31,4 +31,4 @@ comms-console-announcement-title-station-ai = 空间站人工智能
 comms-console-announcement-title-wizard = 巫师
 
 # Mono
-comms-console-announcement-title-rogue = 灰烬共和国反抗军
+comms-console-announcement-title-rogue = 法厄同帝国先锋队

@@ -6,8 +6,8 @@
 - type: entity
   parent: [ClothingHeadHardsuitBase, BaseC3SyndicateContraband]
   id: ClothingHeadHelmetHardsuitPirateScaf
-  name: 'ASR SCAF硬质防护头盔 | ASR SCAF hardsuit helmet'
-  description: '一件采用ASR棕褐色涂装的旧SCAF防护服。照明系统已更换为热脉冲装置。 | An old SCAF suit painted in an ASR tan color scheme. The lighting systems have been replaced with a thermal pulse.'
+  name: PDV SCAF硬质防护头盔
+  description: 一件采用PDV棕褐色涂装的旧SCAF防护服。照明系统已更换为热脉冲装置。
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hardsuits/scaf_pirate.rsi

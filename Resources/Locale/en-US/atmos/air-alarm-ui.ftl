@@ -19,8 +19,8 @@ air-alarm-ui-window-pressure = {$pressure} 千帕
 air-alarm-ui-window-pressure-indicator = 气压: [color={$color}]{$pressure} 千帕[/color]
 air-alarm-ui-window-temperature = {$tempC} 摄氏度 ({$temperature} 开)
 air-alarm-ui-window-temperature-indicator = Temperature: [color={$color}]{$tempC} 摄氏度 ({$temperature} 开)[/color]
-air-alarm-ui-window-alarm-state = [color={$color}]{-air-alarm-state-name(state:$state)}[/color]
-air-alarm-ui-window-alarm-state-indicator = 状态: [color={$color}]{-air-alarm-state-name(state:$state)}[/color]
+air-alarm-ui-window-alarm-state = [color={$color}]{$state}[/color]
+air-alarm-ui-window-alarm-state-indicator = 状态: [color={$color}]{$state}[/color]
 
 air-alarm-ui-window-tab-vents = 通风口
 air-alarm-ui-window-tab-scrubbers = 虹吸器

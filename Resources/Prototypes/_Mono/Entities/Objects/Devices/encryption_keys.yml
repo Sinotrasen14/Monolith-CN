@@ -1,4 +1,6 @@
+# SPDX-FileCopyrightText: 2025 Blu
 # SPDX-FileCopyrightText: 2025 BlueHNT
+# SPDX-FileCopyrightText: 2025 Onezero0
 # SPDX-FileCopyrightText: 2025 starch
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
@@ -26,13 +28,13 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeyUsspCommand
-  name: 'USSP指挥通信加密密钥 | USSP command encryption key'
-  description: 'USSP战略级通信信道用加密密钥。 | An encryption key for the USSP strategic-level communications channel.'
+  name: USSP指挥通信加密密钥 | USSP command encryption key
+  description: 用于USSP指挥频道的加密密钥。由于USSP高层网络已废弃，它转而提供对战术指挥的访问。
   components:
   - type: EncryptionKey
     channels:
-    - UsspCommand
-    defaultChannel: UsspCommand
+    - Ussp
+    defaultChannel: Ussp
   - type: Item
     sprite: Objects/Devices/encryption_keys.rsi
   - type: Sprite

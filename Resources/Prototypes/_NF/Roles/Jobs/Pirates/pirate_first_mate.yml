@@ -17,13 +17,13 @@
   playTimeTracker: JobPirateFirstMate
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 1080000 # 50 hours # mono
+      time: 0 # 50 hours # mono
     - !type:RoleTimeRequirement
       role: JobPirate
-      time: 72000 # 20 hours
+      time: 0 # 20 hours
     - !type:DepartmentTimeRequirement
       department: Security
-      time: 18000 # 5 hours # mono
+      time: 0 # 5 hours # mono
   #whitelisted: true # mono - comment out
   startingGear: PirateFirstMateNFGear
   alwaysUseSpawner: true
@@ -34,9 +34,10 @@
   weight: 30
   displayWeight: 30
   setPreference: true
-  guides: [ BasicLore, AshenRepublic ] # Mono
+  guides: [ BasicLore, PhaethonDynasty] # Mono
   access:
   - Pirate
+  - Mercenary
   accessGroups:
   - GeneralAccess
   special:

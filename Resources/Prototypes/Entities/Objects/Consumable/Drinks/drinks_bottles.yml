@@ -51,6 +51,7 @@
 # SPDX-FileCopyrightText: 2024 themias
 # SPDX-FileCopyrightText: 2024 wafehling
 # SPDX-FileCopyrightText: 2025 Alpaccalypse
+# SPDX-FileCopyrightText: 2025 Prole
 # SPDX-FileCopyrightText: 2025 Redrover1760
 # SPDX-FileCopyrightText: 2025 starch
 #
@@ -837,7 +838,7 @@
 #boring jugs some more sprites are made
 
 - type: entity
-  parent: DrinkBottlePlasticBaseFull
+  parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: DrinkSugarJug
   name: 糖罐 丨 sugar jug
   suffix: For Drinks, Full
@@ -855,7 +856,7 @@
     currentLabel: reagent-name-sugar
 
 - type: entity
-  parent: DrinkBottlePlasticBaseFull
+  parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: DrinkLemonLimeJug
   name: 重击双柑 丨 Smite jug
   description: 双重柑橘感受。 丨 A dual citrus sensation.
@@ -872,7 +873,7 @@
     currentLabel: reagent-name-lemon-lime
 
 - type: entity
-  parent: DrinkBottlePlasticBaseFull
+  parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: DrinkMeadJug
   name: 蜂蜜酒壶 丨 mead jug
   description: 用塑料壶储存蜂蜜酒简直是一种罪过。 丨 Storing mead in a plastic jug should be a crime.
@@ -889,7 +890,7 @@
     currentLabel: reagent-name-mead
 
 - type: entity
-  parent: DrinkBottlePlasticBaseFull
+  parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: DrinkIceJug
   name: 冰壶 丨 ice jug
   description: 顽固的水。挺酷的。 丨 Stubborn water. Pretty cool.
@@ -906,7 +907,7 @@
     currentLabel: reagent-name-ice
 
 - type: entity
-  parent: DrinkBottlePlasticBaseFull
+  parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: DrinkCoconutWaterJug
   name: 椰子水壶 丨 coconut water jug
   description: 内在的椰汁才最珍贵。 丨 It's on the inside of the coconut that counts.
@@ -923,7 +924,7 @@
     currentLabel: reagent-name-coconut-water
 
 - type: entity
-  parent: DrinkBottlePlasticBaseFull
+  parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: DrinkCoffeeJug
   name: 咖啡壶 丨 coffee jug
   description: 加热型唤醒果汁。 丨 Wake up juice, of the heated kind.
@@ -940,7 +941,7 @@
     currentLabel: reagent-name-coffee
 
 - type: entity
-  parent: DrinkBottlePlasticBaseFull
+  parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: DrinkTeaJug
   name: 茶壶 丨 tea jug
   description: 布里多什和潮人们的最爱饮品。 丨 The drink of choice for the Bri'ish and hipsters.
@@ -957,7 +958,7 @@
     currentLabel: reagent-name-tea
 
 - type: entity
-  parent: DrinkBottlePlasticBaseFull
+  parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: DrinkGreenTeaJug
   name: 绿茶壶 丨 green tea jug
   description: 这就像茶……不过是绿色的！对舒缓胃部很有效。 丨 It's like tea... but green! great for settling the stomach.
@@ -974,7 +975,7 @@
     currentLabel: reagent-name-green-tea
 
 - type: entity
-  parent: DrinkBottlePlasticBaseFull
+  parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: DrinkIcedTeaJug
   name: 冰茶壶 丨 iced tea jug
   description: 当普通茶水对你来说太烫时。呜呜。 丨 For when the regular tea is too hot for you. Boohoo.
@@ -991,7 +992,7 @@
     currentLabel: reagent-name-iced-tea
 
 - type: entity
-  parent: DrinkBottlePlasticBaseFull
+  parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: DrinkDrGibbJug
   name: 吉布博士的大罐 丨 Dr. Gibb jug
   description: 42种不同风味……尽在这一壶中！ 丨 42 different flavours... in a jug!
@@ -1008,7 +1009,7 @@
     currentLabel: reagent-name-dr-gibb
 
 - type: entity
-  parent: DrinkBottlePlasticBaseFull
+  parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: DrinkRootBeerJug
   name: 根汁啤酒壶 丨 root beer jug
   description: 这款饮料让澳大利亚人忍俊不禁。 丨 This drink makes Australians giggle.
@@ -1025,7 +1026,7 @@
     currentLabel: reagent-name-root-beer
 
 - type: entity
-  parent: DrinkBottlePlasticBaseFull
+  parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: DrinkWaterMelonJuiceJug
   name: 西瓜汁罐 丨 watermelon juice jug
   description: 可能含有残留的籽。 丨 May include leftover seeds.
@@ -1042,7 +1043,7 @@
     currentLabel: reagent-name-juice-watermelon
 
 - type: entity
-  parent: DrinkBottlePlasticBaseFull
+  parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: DrinkEnergyDrinkJug
   name: 红布尔壶 丨 Red Bool jug
   description: 一壶红色布尔酒，所含咖啡因足以放倒整座空间站的人。 丨 A jug of Red Bool, with enough caffeine to kill a whole station.
@@ -1059,7 +1060,7 @@
     currentLabel: reagent-name-energy-drink
 
 - type: entity
-  parent: DrinkBottlePlasticBaseFull
+  parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
   id: CustomDrinkJug
   name: 饮料壶 丨 beverage jug
   description: 一个用于存放定制饮品的壶。 丨 A jug for storing custom made drinks.

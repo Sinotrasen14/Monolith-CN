@@ -9,14 +9,14 @@
   name: 背景传说
   text: "/ServerInfo/Guidebook/Lore/BasicLore.xml"
   children:
-  - AshenRepublic
+  - PhaethonDynasty
   - TransSolarFederation
   - UnitedSovietSocialistPlanets
 
 - type: guideEntry
-  id: AshenRepublic
-  name: 灰烬共和国
-  text: "/ServerInfo/Guidebook/Lore/AshenRepublic.xml"
+  id: PhaethonDynasty
+  name: 法厄同帝国
+  text: "/ServerInfo/Guidebook/Lore/PhaethonDynasty.xml"
 
 - type: guideEntry
   id: TransSolarFederation

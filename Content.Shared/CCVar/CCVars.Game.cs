@@ -48,7 +48,7 @@ public sealed partial class CCVars
     ///     Controls the duration of the lobby timer in seconds. Defaults to 2 minutes and 30 seconds.
     /// </summary>
     public static readonly CVarDef<int>
-        GameLobbyDuration = CVarDef.Create("game.lobbyduration", 120, CVar.ARCHIVE); // Frontier: 150<180
+        GameLobbyDuration = CVarDef.Create("game.lobbyduration", 150, CVar.ARCHIVE); // Frontier: 150<180
 
     /// <summary>
     ///     Controls if players can latejoin at all.

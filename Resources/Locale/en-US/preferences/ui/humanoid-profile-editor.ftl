@@ -69,6 +69,12 @@ humanoid-profile-editor-traits-default-category = 未分类
 
 humanoid-profile-editor-trait-count-hint = 可用点数: [{$current}/{$max}]
 
+# Mono
+humanoid-profile-editor-clear-all-traits-button = 清除所有特质
+humanoid-profile-editor-clear-all-traits-confirm = 确认清除
+
 trait-category-disabilities = 残障
 trait-category-speech = 语言特质
 trait-category-quirks = 癖好
+# Mono
+trait-category-physical = 身体

@@ -37,11 +37,11 @@ frontier-lobby-nfsd-description = TSFMC前线作战基地是TSF武装扩张至�
    - 举报犯罪行为
    - 上缴违禁品
 
-frontier-lobby-pirate-subtext = ASR-灰烬共和国 行动指挥中心。
-frontier-lobby-pirate-description = 这是灰烬共和国反抗军聚集的终极据点。在此你可以：
-   - 组建抵抗队伍
+frontier-lobby-pirate-subtext = PDV-法厄同王朝领事指挥中心
+frontier-lobby-pirate-description = 这是法厄同帝国军队聚集的终极据点。在这里你可以：
+   - 组建一支帝国团队
    - 寻找可加入的船员队伍
-   - 与其他灰烬共和国抵抗者交流
+   - 与其他帝国成员交流
 
 # 船员菜单
 frontier-lobby-crew-vessel = [bold][color=#A88B5E]舰船：[/color][/bold] {$name}

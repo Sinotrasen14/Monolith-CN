@@ -16,7 +16,7 @@ chat-radio-security = 安保
 chat-radio-service = 服务
 chat-radio-supply = 货运
 chat-radio-syndicate = 辛迪加
-chat-radio-freelance = 自由职业
+chat-radio-freelance = 帝国
 
 # not headset but whatever
 chat-radio-handheld = Handheld

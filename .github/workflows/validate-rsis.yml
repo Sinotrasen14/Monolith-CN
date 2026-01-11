@@ -1,0 +1,48 @@
+# SPDX-FileCopyrightText: 2021 ike709
+# SPDX-FileCopyrightText: 2021 mirrorcult
+# SPDX-FileCopyrightText: 2022 Paul Ritter
+# SPDX-FileCopyrightText: 2022 Pieter-Jan Briers
+# SPDX-FileCopyrightText: 2023 DrSmugleaf
+# SPDX-FileCopyrightText: 2023 Moony
+# SPDX-FileCopyrightText: 2024 ErhardSteinhauer
+# SPDX-FileCopyrightText: 2024 Myra
+# SPDX-FileCopyrightText: 2025 Aiden
+# SPDX-FileCopyrightText: 2025 Coenx-flex
+# SPDX-FileCopyrightText: 2025 Cojoke
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+name: RSI Validator
+
+on:
+  push:
+    branches: [ main, staging, stable ]
+  merge_group:
+  pull_request:
+    paths:
+      - '**.rsi/**'
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate_rsis:
+    name: Validate RSIs
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3.6.0
+      - name: Setup Submodule
+        run: git submodule update --init
+      - name: Pull engine updates
+        uses: space-wizards/submodule-dependency@v0.1.5
+      - name: Set up Python 3.10 # Frontier
+        uses: actions/setup-python@v3 # Frontier
+        with: # Frontier
+          python-version: "3.10" # Frontier
+      - name: Install Python dependencies
+        run: |
+          pip3 install --ignore-installed --user pillow jsonschema
+      - name: Validate RSIs
+        run: |
+          python3 RobustToolbox/Schemas/validate_rsis.py Resources/

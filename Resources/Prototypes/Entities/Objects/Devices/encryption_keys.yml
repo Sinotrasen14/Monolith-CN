@@ -325,8 +325,8 @@
 - type: entity
   parent: [EncryptionKey, BaseC3PirateContrabandHighValue] # Frontier: added BaseC3PirateContraband - Mono: Changed to HighValue
   id: EncryptionKeyFreelance
-  name: 叛乱分子使用的加密密钥 # 单声道 丨 insurgency encryption key # mono
-  description: 叛乱分子使用的加密密钥。# 单声道 丨 An encryption key used by insurgents. # Mono
+  name: 帝国先锋加密密钥 # mono
+  description: 帝国先锋使用的通讯加密密钥. # Mono
   components:
     - type: EncryptionKey
       channels:

@@ -14,7 +14,7 @@
   name: 'SKR-WS MLA-73（635×40mm 无壳弹） | SKR-WS MLA-73 (635x40mm caseless)'
   parent: [BaseWeaponSubMachineGun, BaseGunWieldable, BaseC2Contraband] # Frontier: added BaseC2Contraband
   id: WeaponSubMachineGunMla73
-  description: '一款可靠的个人防御武器设计，通常配发给飞行员和装甲战车乘员。此版本加装了内置消音器。据传闻该武器采用企业时代的设计图，由灰烬共和国制造。 | A reliable PDW design, commonly issued to pilots and AFV crewmen. This one has been modified with an integral suppressor. Legends around this weapons say it''s a Corporate-Era schematic that''s been built by The Ashen Republic.'
+  description: 一款可靠的个人防御武器设计，通常配发给飞行员和装甲战车乘员。此版本加装了内置消音器。据传闻该武器采用企业时代的设计图，由法厄同帝国制造。
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/SMGs/mla73.rsi
@@ -66,7 +66,7 @@
   name: 'NCI AK-220型9x19mm 冲锋枪 | NCI AK-220 (9x19mm)'
   parent: [BaseWeaponSubMachineGun, BaseGunWieldable, BaseC1Contraband]
   id: WeaponSubMachineGunAK220
-  description: '一款量产的9x19mm 无托结构冲锋枪。该设计源自USSP，但多家TSF与ASR制造商通过授权许可或可疑的相似原创设计进行生产。 | A mass produced 9x19mm bullpup SMG. The design originates from the USSP, but various TSF and ASR manufacturers produce it via licenses or suspiciously similar "original" designs.'
+  description: '一款量产的9x19mm 无托结构冲锋枪。该设计源自USSP，但多家TSF与PDV制造商通过授权许可或可疑的相似原创设计进行生产。 | A mass produced 9x19mm bullpup SMG. The design originates from the USSP, but various TSF and ASR manufacturers produce it via licenses or suspiciously similar "original" designs.'
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/SMGs/ak220.rsi

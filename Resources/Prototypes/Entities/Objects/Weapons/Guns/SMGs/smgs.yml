@@ -175,7 +175,7 @@
   name: CS C-20r冲锋枪（9x19mm 口径） 丨 CS C-20r submachine gun (9x19mm)
   parent: [BaseWeaponSubMachineGun, BaseC3SyndicateContraband] # Frontier: BaseSyndicateContraband<BaseC3SyndicateContraband
   id: WeaponSubMachineGunC20r
-  description: 一把企业时代的冲锋枪，曾为核行动特工所用，如今在灰烬共和国中觅得买家。使用9x19mm弹药。 丨 A Corporate-Era SMG, once used by Nuclear Operatives, it now finds purchase among The Ashen Republic. Uses 9x19mm ammo.
+  description: 一款企业时代的冲锋枪，曾经被核特工使用，现在在法厄同王朝中流行。使用9x19毫米弹药。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/SMGs/c20r.rsi

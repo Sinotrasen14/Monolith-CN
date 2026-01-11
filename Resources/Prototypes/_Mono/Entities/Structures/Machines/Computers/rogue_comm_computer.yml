@@ -1,8 +1,14 @@
+# SPDX-FileCopyrightText: 2025 Arcticular1
+# SPDX-FileCopyrightText: 2025 Redrover1760
+# SPDX-FileCopyrightText: 2025 SupernoobTheN1
+#
+# SPDX-License-Identifier: MPL-2.0
+
 - type: entity
   parent: [ ComputerComms, BaseC3PirateContrabandHighValue ]
   id: RogueComputerComms
-  name: '非法通信计算机 | rogue communications computer'
-  description: '能够远程入侵空间站通信系统的计算机。使用它发布通告会向空间站暴露你的存在。 | A computer capable of remotely hacking into the station''s communications systems. Using this to make an announcement will alert the station to your presence.'
+  name: 帝国先锋通讯计算机 | imperial vanguard communications computer
+  description: 能够远程入侵空间站通信系统的计算机。使用它发布通告会向空间站暴露你的存在。
   components:
   - type: Sprite
     sprite: _Mono/Structures/Machines/computers.rsi
@@ -21,7 +27,7 @@
     access: [[ "Pirate" ]]
   - type: CommunicationsConsole
     title: comms-console-announcement-title-rogue
-    color: "#643535"
+    color: "#D2B48C"
     canShuttle: false
     global: true #announce to everyone they're about to fuck shit up
     sound: /Audio/Announcements/announce.ogg
@@ -30,4 +36,4 @@
   - type: PointLight
     radius: 1.5
     energy: 1.6
-    color: "#643535"
+    color: "#D2B48C"

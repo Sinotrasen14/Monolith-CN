@@ -1,14 +1,15 @@
 # SPDX-FileCopyrightText: 2025 Arcticular
 # SPDX-FileCopyrightText: 2025 Arcticular1
 # SPDX-FileCopyrightText: 2025 Avalon
+# SPDX-FileCopyrightText: 2025 NazrinNya
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitUIEnforcer
-  name: 'U.I 执行者作战战术服 | U.I ENFORCER combat tacsuit'
-  description: '声名狼藉的黑市最可靠作战战术服之一，由厄尔曼工业研发。注意：抬头显示器需另行购买！ | Infamously one of the most reliable combat tacsuits that the Black Market has to offer, developed by Ullman Industries. "Heads up display sold seperately!"'
+  name: U.I 执行者作战战术服 | U.I ENFORCER combat tacsuit
+  description: 声名狼藉的黑市最可靠作战战术服之一，由厄尔曼工业研发。注意：抬头显示器需另行购买！
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/ullman_industries_enforcer.rsi
@@ -44,10 +45,10 @@
     coefficient: 0.55
 
 - type: entity
-  parent: ClothingOuterHardsuitBase
+  parent: [ ClothingOuterHardsuitBase, EnergyShieldClothing ]
   id: ClothingOuterHardsuitUIEnforcerMKII
-  name: 'U I 执行者 MKII 战斗战术服 | U.I ENFORCER MKII combat tacsuit'
-  description: '基于声名狼藉的初代设计并兼顾多功能性。这款乌尔曼工业顶尖战斗服堪称工程学奇迹。无论是躲避联邦追捕、清除竞争对手，还是效忠于企业霸主，它都能确保您使命必达。 | Based off of the infamous MKI design with versatility in mind. This is Ullman Industries'' top of the line combat suit. Whether it be slipping away from the feds, taking out the competition, or serving your corporate overlords, this marvel of engineering will make sure that you get it done.'
+  name: U.I 执行者 MKII 战斗战术服 | U.I ENFORCER MKII combat tacsuit
+  description: 基于声名狼藉的初代设计并兼顾多功能性。这款乌尔曼工业顶尖战斗服堪称工程学奇迹。无论是躲避联邦追捕、清除竞争对手，还是效忠于企业霸主，它都能确保您使命必达
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/ullman_industries_enforcermkii.rsi
@@ -63,13 +64,32 @@
       coefficients:
         Blunt: 0.7
         Slash: 0.75
-        Piercing: 0.5
+        Piercing: 0.6
         Heat: 0.5
         Radiation: 0.6
         Caustic: 0.7
+  - type: Blocking
+    passiveBlockModifier:
+      coefficients:
+        Blunt: 0.4
+        Slash: 0.25
+        Piercing: 0.5
+        Heat: 0.3
+      flatReductions:
+        Heat: 15
+        Piercing: 5
+    passiveBlockFraction: 0.5
+    activeBlockFraction: 1.0
+    isClothing: true
+  - type: Battery
+    maxCharge: 15
+    startingCharge: 15
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 0.1
   - type: ClothingSpeedModifier
     walkModifier: 1
-    sprintModifier: 0.95
+    sprintModifier: 0.85 # Temporary till shield toggling doesnt break movement speed modifiers
   - type: HeldSpeedModifier
   - type: ToggleableClothing # Goobstation - Modsuits change - Mono - this is a solution for helmet attachment/cover to not fit on hardsuits
     requiredSlot: outerclothing
@@ -85,8 +105,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitUllmanEngineer
-  name: '「乌尔曼工业」工程防护服 | U.I engineering hardsuit'
-  description: '黑市工程专家穿戴的防护型硬质工作服。由乌尔曼工业公司开发。 | A protective hardsuit worn by black market engineering specialists. Developed by Ullman Industries.'
+  name: U.I 工程防护服 | U.I engineering hardsuit
+  description: 黑市工程专家穿戴的防护型硬质工作服。由乌尔曼工业公司开发。
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/ullman_industries_engineer.rsi # Ullman sprites
@@ -124,8 +144,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitUIPilot
-  name: '「宇曼工业」为黑市飞行员制造的真空作业服 | U.I pilot voidsuit'
-  description: '为黑市飞行员制造的虚空防护服。由厄尔曼工业开发。 | A voidsuit made for black market pilots. Developed by Ullman Industries'
+  name: U.I 飞行员真空作业服 | U.I pilot voidsuit
+  description: 为飞行员制造的虚空防护服。由厄尔曼工业开发。
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/ullman_industries_pilot.rsi
@@ -164,8 +184,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitUIDirector
-  name: 'U.I VK-1实验型防护服 | U.I VK-1 experimental hardsuit'
-  description: '费利克斯·乌尔曼的顶尖个人硬质防护服。胸甲上刻有警告标识：擅自盗用此防护服极易导致死亡！绝非戏言，我必将找到你。你必死无疑。 | Felix Ullman''s top of the line personal hardsuit. A warning label engraved on the chestplate reads "Theft of this suit has a high chance of death! Seriously, I will find you. You will die."'
+  name: U.I VK-1实验型防护服 | U.I VK-1 experimental hardsuit
+  description: 费利克斯·乌尔曼的顶尖个人硬质防护服。胸甲上刻有警告标识：擅自盗用此防护服极易导致死亡！绝非戏言，我必将找到你。你必死无疑。
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/ullman_industries_director.rsi # Ullman sprites

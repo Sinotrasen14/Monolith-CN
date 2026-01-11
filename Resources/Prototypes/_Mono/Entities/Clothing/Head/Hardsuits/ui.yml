@@ -8,8 +8,8 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHelmetHardsuitUIEnforcer
-  name: 'U.I执法者MKI头盔 | U.I ENFORCER MKI helmet'
-  description: '防闪衬垫，内置夜视系统，外观酷炫至极。除了信息显示端口断裂外，还有什么可挑剔的呢？ | Flash-proof lining, in built night vision system, and looks good as hell. Other than information display port being snapped, what''s more to ask for?'
+  name: U.I执法者MKI头盔 | U.I ENFORCER MKI helmet
+  description: 防闪衬垫，内置夜视系统，外观酷炫至极。除了信息显示端口断了之外，还有什么可挑剔的呢？
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hardsuits/ullman_industries_enforcer.rsi #Ullman sprites
@@ -42,8 +42,8 @@
 - type: entity
   parent: [ClothingHeadHardsuitBase, ShowMedicalIcons]
   id: ClothingHelmetHardsuitUIEnforcerMKII
-  name: 'U I 执行者MKII作战头盔 | U.I ENFORCER MKII Combat helmet'
-  description: '这款顶级头盔配备防闪光衬里、质量扫描仪以及内置医疗诊断系统。 | This top of the line helmet comes with flashproof lining, a mass scanner and an inbuilt medical diagnostic system.'
+  name: U.I 执行者MKII作战头盔 | U.I ENFORCER MKII Combat helmet
+  description: 这款顶级头盔配备防闪光衬里、质量扫描仪以及内置医疗诊断系统。
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hardsuits/ullman_industries_enforcermkii.rsi #Ullman sprites
@@ -86,8 +86,8 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHelmetHardsuitUIEngineer
-  name: '优工工程头盔 | U.I engineering helmet'
-  description: '廉价实用的硬质工程头盔，只是多了些黑市改装痕迹。 | A cheap and effective hardsuit helmet, just with an extra black market touch.'
+  name: U.I工程头盔 | U.I engineering helmet
+  description: 廉价实用的硬质工程头盔，只是多了些黑市改装痕迹。
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hardsuits/ullman_industries_engineer.rsi
@@ -119,8 +119,8 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHelmetHardsuitUIPilot
-  name: 'U I 飞行员头盔 | U.I pilot helmet'
-  description: '为厄尔曼工业飞行员设计的头盔。 | A helmet for Ullman Industry pilots.'
+  name: U.I 飞行员头盔 | U.I pilot helmet
+  description: 为厄尔曼工业飞行员设计的头盔
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hardsuits/ullman_industries_pilot.rsi
@@ -153,8 +153,8 @@
 - type: entity
   parent: [ClothingHeadHardsuitBase, ShowSecurityIcons]
   id: ClothingHelmetHardsuitUIDirector
-  name: '乌伊VK-1实验型头盔 | U.I VK-1 experimental helmet'
-  description: '专为菲利克斯·乌尔曼设计打造的特制头盔。 | A purpose built helmet designed by Felix Ullman, for Felix Ullman.'
+  name: U.I VK-1实验型头盔 | U.I VK-1 experimental helmet
+  description: 专为菲利克斯·乌尔曼设计打造的特制头盔。
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hardsuits/ullman_industries_director.rsi

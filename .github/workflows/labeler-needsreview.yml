@@ -1,0 +1,26 @@
+# SPDX-FileCopyrightText: 2022 mirrorcult
+# SPDX-FileCopyrightText: 2024 SlamBamActionman
+# SPDX-FileCopyrightText: 2025 Aiden
+#
+# SPDX-License-Identifier: MPL-2.0
+
+name: "Labels: Review"
+
+on:
+  pull_request_target:
+    types: [review_requested]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  add_label:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions-ecosystem/action-add-labels@v1
+      with:
+        labels: "S: Needs Review"
+    - uses: actions-ecosystem/action-remove-labels@v1
+      with:
+        labels: "S: Awaiting Changes"

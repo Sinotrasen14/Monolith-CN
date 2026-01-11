@@ -1641,148 +1641,267 @@
   name: 风骚律师主题曲(A)+1960+5
   path:
     path: /Audio/Jukebox/风骚律师主题曲(A)+1960+5.ogg
-    
+
 - type: jukebox
   id: 差一步DJ
   name: 差一步DJ
-  path: 
+  path:
     path: /Audio/Jukebox/差一步DJ.ogg
-  
+
 - type: jukebox
   id: 逮虾户
   name: 逮虾户
-  path: 
+  path:
     path: /Audio/Jukebox/逮虾户.ogg
-  
+
 - type: jukebox
   id: 高空舰队Tanc_a_Lelek
   name: 高空舰队Tanc_a_Lelek
-  path: 
+  path:
     path: /Audio/Jukebox/高空舰队Tanc_a_Lelek.ogg
-  
+
 - type: jukebox
   id: 哈基米音乐_速子科技
   name: 哈基米音乐_速子科技
-  path: 
+  path:
     path: /Audio/Jukebox/哈基米音乐_速子科技.ogg
-  
+
 - type: jukebox
   id: 警灯一开悠哉游哉
   name: 警灯一开悠哉游哉
-  path: 
+  path:
     path: /Audio/Jukebox/警灯一开悠哉游哉.ogg
-  
+
 - type: jukebox
   id: 难得真兄弟
   name: 难得真兄弟
-  path: 
+  path:
     path: /Audio/Jukebox/难得真兄弟.ogg
-  
+
 - type: jukebox
   id: 瑞瓦肖我的家乡
   name: 瑞瓦肖我的家乡
-  path: 
+  path:
     path: /Audio/Jukebox/瑞瓦肖我的家乡.ogg
-  
+
 - type: jukebox
   id: 速度与激情东京漂移
   name: 速度与激情东京漂移
-  path: 
+  path:
     path: /Audio/Jukebox/速度与激情东京漂移.ogg
-  
+
 - type: jukebox
   id: 天真的橡皮大运的小曲
   name: 天真的橡皮大运的小曲
-  path: 
+  path:
     path: /Audio/Jukebox/天真的橡皮大运的小曲.ogg
-  
+
 - type: jukebox
   id: 想赢的人脸上是没有笑容的
   name: 想赢的人脸上是没有笑容的
-  path: 
+  path:
     path: /Audio/Jukebox/想赢的人脸上是没有笑容的.ogg
-  
+
 - type: jukebox
   id: 羊爸开大运的小曲
   name: 羊爸开大运的小曲
-  path: 
+  path:
     path: /Audio/Jukebox/羊爸开大运的小曲.ogg
-  
+
 - type: jukebox
   id: 澳金星之舞
   name: 澳金星之舞
-  path: 
+  path:
     path: /Audio/Jukebox/澳金星之舞.ogg
-    
+
 - type: jukebox
   id: 俗人として軸がぶれているらっぷ
   name: 俗人として軸がぶれているらっぷ
-  path: 
+  path:
     path: /Audio/Jukebox/俗人として軸がぶれているらっぷ.ogg
 
 - type: jukebox
   id: 平沢進-世界タービン
   name: 平沢進-世界タービン
-  path: 
+  path:
     path: /Audio/Jukebox/平沢進-世界タービン.ogg
 
 - type: jukebox
   id: Twilight
   name: Twilight
-  path: 
+  path:
     path: /Audio/Jukebox/Twilight.ogg
-    
+
 - type: jukebox
   id: GF-SafetyFirst
   name: GF-SafetyFirst
-  path: 
+  path:
     path: /Audio/Jukebox/GF-SafetyFirst.ogg
-    
+
 - type: jukebox
   id: FORT02
   name: FORT02
-  path: 
+  path:
     path: /Audio/Jukebox/FORT02.ogg
-    
+
 - type: jukebox
   id: CP-游东京
   name: CP-游东京
-  path: 
+  path:
     path: /Audio/Jukebox/CP-游东京.ogg
-    
+
 - type: jukebox
   id: 空想ルンバ
   name: 空想ルンバ
-  path: 
+  path:
     path: /Audio/Jukebox/空想ルンバ.ogg
-    
+
 - type: jukebox
   id: RS2-TheRainFormerlyKnownasPurple
   name: RS2-TheRainFormerlyKnownasPurple
-  path: 
+  path:
     path: /Audio/Jukebox/RS2-TheRainFormerlyKnownasPurple.ogg
-    
+
 - type: jukebox
   id: JoeHisaishi
   name: JoeHisaishi
-  path: 
+  path:
     path: /Audio/Jukebox/JoeHisaishi.ogg
-    
+
 - type: jukebox
   id: 平沢進-Run
   name: 平沢進-Run
-  path: 
+  path:
     path: /Audio/Jukebox/平沢進-Run.ogg
-    
+
 - type: jukebox
   id: GF-MadeinHeaven
   name: GF-MadeinHeaven
-  path: 
+  path:
     path: /Audio/Jukebox/GF-MadeinHeaven.ogg
-    
+
 - type: jukebox
   id: DAGOTHWAVE
   name: DAGOTHWAVE
-  path: 
+  path:
     path: /Audio/Jukebox/DAGOTHWAVE.ogg
-    
+
+- type: jukebox
+  id: 嘟嘟哒嘟嘟哒BadToTheBone
+  name: 嘟嘟哒嘟嘟哒BadToTheBone
+  path:
+    path: /Audio/Jukebox/嘟嘟哒嘟嘟哒BadToTheBone.ogg
+
+- type: jukebox
+  id: RP-Луги草地
+  name: RP-Луги草地
+  path:
+    path: /Audio/Jukebox/RP-Луги草地.ogg
+
+- type: jukebox
+  id: RP-Пятница星期五
+  name: RP-Пятница星期五
+  path:
+    path: /Audio/Jukebox/RP-Пятница星期五.ogg
+
+- type: jukebox
+  id: RP-我曾梦想成为宇航员
+  name: RP-我曾梦想成为宇航员
+  path:
+    path: /Audio/Jukebox/RP-我曾梦想成为宇航员.ogg
+
+- type: jukebox
+  id: ごはん食べヨ
+  name: ごはん食べヨ
+  path:
+    path: /Audio/Jukebox/ごはん食べヨ.ogg
+
+- type: jukebox
+  id: van的林title3
+  name: van的林title3
+  path:
+    path: /Audio/Jukebox/van的林title3.ogg
+
+- type: jukebox
+  id: van的林title
+  name: van的林title
+  path:
+    path: /Audio/Jukebox/van的林title.ogg
+
+- type: jukebox
+  id: van的林title2
+  name: van的林title2
+  path:
+    path: /Audio/Jukebox/van的林title2.ogg
+
+- type: jukebox
+  id: SimpsonWave1995辛普森浪潮1995
+  name: SimpsonWave1995辛普森浪潮1995
+  path:
+    path: /Audio/Jukebox/SimpsonWave1995辛普森浪潮1995.ogg
+
+- type: jukebox
+  id: Rise
+  name: Rise
+  path:
+    path: /Audio/Jukebox/Rise.ogg
+
+- type: jukebox
+  id: 重音テトDoomer
+  name: 重音テトDoomer
+  path:
+    path: /Audio/Jukebox/重音テトDoomer.ogg
+
+- type: jukebox
+  id: GOC全球超自然联盟奇袭小组入场
+  name: GOC全球超自然联盟奇袭小组入场
+  path:
+    path: /Audio/Jukebox/GOC全球超自然联盟奇袭小组入场.ogg
+
+- type: jukebox
+  id: 风与雪见证我们的史诗
+  name: 风与雪见证我们的史诗
+  path:
+    path: /Audio/Jukebox/风与雪见证我们的史诗.ogg
+
+- type: jukebox
+  id: Goc入场
+  name: Goc入场
+  path:
+    path: /Audio/Jukebox/Goc入场.ogg
+
+- type: jukebox
+  id: 99个红气球
+  name: 99个红气球
+  path:
+    path: /Audio/Jukebox/99个红气球.ogg
+
+- type: jukebox
+  id: SpaceCruise
+  name: SpaceCruise
+  path:
+    path: /Audio/Jukebox/SpaceCruise.ogg
+
+- type: jukebox
+  id: HarpyHare
+  name: HarpyHare
+  path:
+    path: /Audio/Jukebox/HarpyHare.ogg
+
+- type: jukebox
+  id: All_I_Want_for_Christmas_Is_You
+  name: All_I_Want_for_Christmas_Is_You
+  path:
+    path: /Audio/Jukebox/All_I_Want_for_Christmas_Is_You.ogg
+
+- type: jukebox
+  id: Cipher3301
+  name: Cipher3301
+  path:
+    path: /Audio/Jukebox/Cipher3301.ogg
+
+- type: jukebox
+  id: LastChristmas
+  name: LastChristmas
+  path:
+    path: /Audio/Jukebox/LastChristmas.ogg
