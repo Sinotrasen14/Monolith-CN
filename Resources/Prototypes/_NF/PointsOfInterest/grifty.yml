@@ -10,13 +10,8 @@
 # Down at your local saloon
 - type: pointOfInterest
   id: Grifty
-<<<<<<< HEAD
-  parent: BasePOI
-  name: "格里夫蒂油料快餐"
-=======
   parent: [BasePOI, BaseRepairablePOI]
-  name: "Grifty's Gas n Grub"
->>>>>>> upstream
+  name: "格里夫蒂油料快餐"
   minimumDistance: 6250
   maximumDistance: 8600
   spawnGroup: Scrapyard
@@ -29,7 +24,7 @@
 
 - type: gameMap
   id: Grifty
-  mapName: "Grifty's Gas n Grub"
+  mapName: "格里夫蒂油料快餐"
   mapPath: /Maps/_NF/POI/grifty.yml
   minPlayers: 0
   stations:
@@ -37,4 +32,4 @@
       stationProto: DeadDropRecordsFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: "Grifty's Gas n Grub"
+          mapNameTemplate: "格里夫蒂油料快餐"

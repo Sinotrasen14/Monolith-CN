@@ -2,11 +2,7 @@
   name: '大铅弹（4号径） | Big Leady (4 gauge)'
   parent: [BaseWeaponShotgun, BaseGunWieldable]
   id: WeaponShotgunBigLeady
-<<<<<<< HEAD
-  description: '一把巨型4号口径霰弹枪，专为消灭自动炮以下任何口径无法摧毁的目标而制造。 | A massive 4 gauge (23x75mm) shotgun made to kill what any caliber bellow autocannon cant.'
-=======
-  description: A large 4 gauge (23x75mm) shotgun made to kill what any caliber below an autocannon cant.
->>>>>>> upstream
+  description: 一把大型4号（23x75毫米）猎枪，用来杀死任何低于自动加农炮口径无法杀死的目标。
   components: # intend for BigLeady to have tighter choke for slower fire rate and/or manual cycling
   - type: Item
     size: Normal
@@ -42,11 +38,7 @@
   name: '大块头乔尼（四号径） | Big Johnny (4 gauge)'
   parent: [BaseWeaponShotgun, BaseGunWieldable]
   id: WeaponShotgunBigJohnny
-<<<<<<< HEAD
-  description: '一把巨型4号口径霰弹枪，专为消灭自动炮以下任何口径无法应对的目标而生。这款武器配备多种战术配件，专为近战设计，但代价是弹药容量较低。 | A massive 4 gauge (23x75mm) shotgun made to kill what any caliber bellow autocannon cant. This one is outfitted with various tactical additions and is made for CQC at the cost of low ammo capacity.'
-=======
-  description: A large 4 gauge (23x75mm) shotgun made to kill what any caliber below an autocannon cant. This one is outfitted with various tactical additions and is made for CQC at the cost of low ammo capacity. It has an Erebus railmount attached to the reciever for optics.
->>>>>>> upstream
+  description: 一把巨型4号口径霰弹枪，专为消灭自动炮以下任何口径无法应对的目标而生。这款武器配备多种战术配件，专为近战设计，但代价是弹药容量较低。
   components: # intend for BigLeady to have tighter choke for slower fire rate and/or manual cycling
   - type: Item
     size: Normal
@@ -137,14 +129,10 @@
           - MonoOptic8x
 
 - type: entity
-  name: '大伙伴（四号径） | Big Buddy (4 gauge)'
+  name: '大伙伴（四号径）霰弹枪 | Big Buddy (4 gauge)'
   parent: [BaseWeaponShotgun, BaseGunWieldable]
   id: WeaponShotgunBigBuddy
-<<<<<<< HEAD
-  description: '一把巨型4号口径霰弹枪，专为消灭自动炮以下任何口径无法击杀的目标而制造。 | A massive 4 gauge (23x75mm) shotgun made to kill what any caliber bellow autocannon cant.'
-=======
-  description: A massive 4 gauge (23x75mm) shotgun made to kill what any caliber below an autocannon cant.
->>>>>>> upstream
+  description: 一把巨型4号口径霰弹枪，专为消灭自动炮以下任何口径无法击杀的目标而制造。
   components: # intend for BigBuddy to have tighter choke for slower fire rate and/or manual cycling
   - type: Item
     size: Normal
@@ -177,13 +165,10 @@
     vendPrice: 42300
 
 - type: entity
-<<<<<<< HEAD
-  name: 'UW12-B赫利奥波利斯（12号口径） | UW12-B Helopolis (12 gauge)'
-=======
-  name: GS-004-A Jack (4 gauge)
+  name: GS-004-A 杰克 (四号径)霰弹枪
   parent: [BaseItem, BaseGunWieldable]
   id: WeaponShotgunJack
-  description: An incredibly heavy automated fire 23x75mm shotgun that loads from a belt and a specialized backpack.
+  description: 一把极其重的自动火力23x75毫米霰弹枪，从弹带和专用背包上上弹。
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Shotguns/jack.rsi
@@ -243,8 +228,7 @@
 
 
 - type: entity
-  name: UW12-B Helepolis (12 gauge)
->>>>>>> upstream
+  name: UW12-B Helepolis (12 gauge)霰弹枪
   parent: BaseWeaponShotgun
   id: WeaponShotgunHelepolis
   description: 联合莱特工厂12号径破门型号「赫利奥波利斯」，一款紧凑型霰弹枪，为更好地充当破门工具而完全牺牲战斗人体工学。使用独头弹破门。不建议用于战斗。

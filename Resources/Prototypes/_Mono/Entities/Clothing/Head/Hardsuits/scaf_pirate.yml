@@ -1,14 +1,9 @@
 - type: entity
   parent: [ClothingHeadHardsuitBase, BaseFactionGearPDVT2, ShowSecurityIcons, ClothingHeadSuitWithLightBase]
   id: ClothingHeadHelmetHardsuitPirateScaf
-<<<<<<< HEAD
   name: PDV SCAF硬质防护头盔
   description: 一件采用PDV棕褐色涂装的旧SCAF防护服。照明系统已更换为热脉冲装置。
-=======
-  name: PDV SCAF hardsuit helmet
-  description: An old SCAF suit painted in an PDV tan color scheme. Has been outfitted with a thermal pulse scanner.
   categories: [ HideSpawnMenu ]
->>>>>>> upstream
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hardsuits/scaf_pirate.rsi

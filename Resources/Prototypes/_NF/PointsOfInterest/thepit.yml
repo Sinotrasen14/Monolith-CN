@@ -10,13 +10,8 @@
 # Down at your local saloon
 - type: pointOfInterest
   id: ThePit
-<<<<<<< HEAD
-  parent: BasePOI
-  name: "角斗坑"
-=======
   parent: [BasePOI, BaseRepairablePOI]
-  name: "The Pit"
->>>>>>> upstream
+  name: "角斗坑"
   minimumDistance: 5200
   maximumDistance: 6200
   spawnGroup: Arena
@@ -28,7 +23,7 @@
 
 - type: gameMap
   id: ThePit
-  mapName: "The Pit"
+  mapName: "角斗坑"
   mapPath: /Maps/_NF/POI/arena.yml
   minPlayers: 0
   stations:
@@ -36,4 +31,4 @@
       stationProto: DeadDropFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: "The Pit"
+          mapNameTemplate: "角斗坑"

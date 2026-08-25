@@ -1,14 +1,8 @@
 - type: entity
   id: LightFighterOrdinanceGPOProjectile
-<<<<<<< HEAD
-  name: 'GPO-L型50公斤无制导炸弹'
-  description: '只是路过。 | Just passing by.'
-  parent: BaseBulletTrigger
-=======
-  name: GPO-L 50kg Unguided Bomb
+  name: GPO-L 型50公斤无制导炸弹
   description: Just passing by.
   parent: ShipMissileBase
->>>>>>> upstream
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -94,13 +88,8 @@
 
 - type: entity
   id: LightFighterOrdinanceZenithProjectile
-<<<<<<< HEAD
   name: 'ASM低频「天顶」反舰弹头'
-  parent: BaseBulletTrigger
-=======
-  name: ASM(LF) "Zenith" Anti-Ship Warhead
   parent: ShipMissileBase
->>>>>>> upstream
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -197,13 +186,8 @@
 
 - type: entity
   id: LightFighterOrdinanceQuasarProjectile
-<<<<<<< HEAD
-  name: '类星体超穿透弹'
-  parent: BaseBulletTrigger
-=======
-  name: QUASAR hyperpenetrator
+  name: 类星体超穿透弹
   parent: ShipMissileBase
->>>>>>> upstream
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

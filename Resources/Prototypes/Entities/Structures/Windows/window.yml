@@ -111,12 +111,8 @@
 - type: entity
   parent: Window
   id: TintedWindow
-<<<<<<< HEAD
   name: 有色车窗 丨 tinted window
-=======
-  name: tinted window
-  description: Smart tinted window with state switching option. # Goob
->>>>>>> upstream
+  description: 带状态切换选项的智能变色窗户。 # Goob
   components:
   - type: Sprite
     drawdepth: WallTops

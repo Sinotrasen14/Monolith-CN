@@ -1,14 +1,9 @@
 - type: entity
   parent: [ClothingHeadHardsuitBase, ShowMedicalIcons]
   id: ClothingHelmetHardsuitAsakim
-<<<<<<< HEAD
   name: '卡萨图尔式战斗固定头盔 | kasature-pattern combat harness helmet'
-  description: '前断代纪元先进战斗装备系统的组成部分。 | Part of an advanced pre-fracture combat harness.'
-=======
-  name: kasature-pattern combat harness helmet
-  description: Part of an advanced pre-fracture combat harness.
+  description: 前断代纪元先进战斗装备系统的组成部分。
   categories: [ HideSpawnMenu ]
->>>>>>> upstream
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hardsuits/asakim.rsi

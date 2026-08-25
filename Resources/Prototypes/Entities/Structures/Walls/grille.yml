@@ -1,17 +1,12 @@
 - type: entity
   id: Grille
   parent: BaseStructure
-<<<<<<< HEAD
-  name: 格栅 丨 grille
-  description: 一个用铁条搭成的不牢固框架。 丨 A flimsy framework of iron rods.
-=======
-  name: grille
-  description: A flimsy framework of iron rods.
+  name: 铁格栅 丨 grille
+  description: 一个用铁条搭成的不牢固框架。
   placement:
     mode: SnapgridCenter
     snap:
     - Wall
->>>>>>> upstream
   components:
     - type: MeleeSound
       soundGroups:
@@ -101,27 +96,6 @@
       repairTime: 2
       repairCost: 2
 
-<<<<<<< HEAD
-- type: entity
-  id: ClockworkGrille
-  parent: Grille
-  name: 发条格栅 丨 clockwork grille
-  description: 一个由铁棒以传统拉特瓦里安方式组装而成的脆弱框架。 丨 A flimsy framework of iron rods assembled in traditional Ratvarian fashion.
-  components:
-  - type: Sprite
-    drawdepth: Walls
-    sprite: Structures/Walls/clockwork_grille.rsi
-    state: ratvargrille
-    layers:
-      - state: ratvargrille
-  - type: Icon
-    sprite: Structures/Walls/clockwork_grille.rsi
-    state: ratvargrille
-  - type: Construction
-    graph: ClockGrille
-    node: clockGrille
-    deconstructionTarget: start
-=======
 #- type: entity
 #  id: ClockworkGrille
 #  parent: Grille
@@ -141,7 +115,6 @@
 #    graph: ClockGrille
 #    node: clockGrille
 #    deconstructionTarget: start
->>>>>>> upstream
 
 - type: entity
   id: GrilleBroken
@@ -185,24 +158,6 @@
       - !type:DoActsBehavior
         acts: ["Destruction"]
 
-<<<<<<< HEAD
-- type: entity
-  id: ClockworkGrilleBroken
-  parent: GrilleBroken
-  name: 发条格栅 丨 clockwork grille
-  description: 一个用传统拉特维亚风格组装而成的脆弱铁棒框架。它已不复当年光景。 丨 A flimsy framework of iron rods assembled in traditional Ratvarian fashion. It has seen better days.
-  components:
-  - type: Sprite
-    drawdepth: Walls
-    sprite: Structures/Walls/clockwork_grille.rsi
-    state: brokenratvargrille
-  - type: Icon
-    sprite: Structures/Walls/clockwork_grille.rsi
-    state: brokenratvargrille
-  - type: Construction
-    graph: ClockGrille
-    node: clockGrilleBroken
-=======
 #- type: entity
 #  id: ClockworkGrilleBroken
 #  parent: GrilleBroken
@@ -219,7 +174,6 @@
 #  - type: Construction
 #    graph: ClockGrille
 #    node: clockGrilleBroken
->>>>>>> upstream
 
 - type: entity
   id: GrilleDiagonal
@@ -264,45 +218,6 @@
     graph: GrilleDiagonal
     node: grilleDiagonal
 
-<<<<<<< HEAD
-- type: entity
-  id: ClockworkGrilleDiagonal
-  parent: ClockworkGrille
-  name: 对角钟表式格栅 丨 diagonal clockwork grille
-  components:
-  - type: Sprite
-    drawdepth: Walls
-    sprite: Structures/Walls/clockwork_grille.rsi
-    layers:
-    - state: ratvargrille_diagonal
-    - state: electrified_diagonal
-      sprite: Effects/electricity.rsi
-      map: ["enum.ElectrifiedLayers.Sparks"]
-      shader: unshaded
-      visible: false
-  - type: Icon
-    sprite: Structures/Walls/clockwork_grille.rsi
-    state: ratvargrille_diagonal
-  - type: Tag
-    tags:
-    - Diagonal
-  - type: Fixtures
-    fixtures:
-      fix1:
-        shape:
-          !type:PolygonShape
-            vertices:
-            - "-0.5,-0.5"
-            - "0.5,0.5"
-            - "0.5,-0.5"
-        # mask: # Frontier
-        # - FullTileMask # Frontier
-        layer:
-        - GlassLayer # Frontier: WallLayer<GlassLayer
-  - type: Construction
-    graph: GrilleDiagonal
-    node: clockworkGrilleDiagonal
-=======
 #- type: entity
 #  id: ClockworkGrilleDiagonal
 #  parent: ClockworkGrille
@@ -379,5 +294,4 @@
 #  - type: Construction
 #    graph: GrilleDiagonal
 #    node: clockworkGrilleDiagonal
->>>>>>> upstream
 

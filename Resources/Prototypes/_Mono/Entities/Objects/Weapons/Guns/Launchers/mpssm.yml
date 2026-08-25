@@ -1,17 +1,9 @@
 - type: entity
-<<<<<<< HEAD
-  name: 'NT-WS SM-27多用途导弹发射系统 | NT-WS SM-27 MPSSM missile launcher'
-  parent: [ BaseWeaponLauncher, BaseGunWieldable ]
-  id: WeaponLauncherMPSSM
-  suffix: HEAT
-  description: '多用途便携式发射器，可发射制导反舰弹药和非制导破甲弹头。 | A multipurpose man-portable launcher, capable of firing both guided anti-ship and unguided HEAT warheads.'
-=======
-  name: wayward NT-WS SM-27 MPSSM missile launcher
+  name: 任性 NT-WS SM-27 MPSSM 导弹发射器
   parent: [ BaseWeaponLauncher, BaseGunWieldable, BaseFactionGearOtherFactionT3 ]
   id: WeaponLauncherMPSSM
   suffix: HEAT
-  description: A multipurpose man-portable launcher, capable of firing both guided anti-ship and unguided HEAT warheads. While no longer in its prime, it nonetheless remains devastating, even against modern technology.
->>>>>>> upstream
+  description: 一种多用途便携发射器，能够发射制导反舰和非制导高爆反坦克弹头。虽然已经不再是巅峰状态，但即便面对现代技术，它仍然具有毁灭性。
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Launchers/mpssm.rsi

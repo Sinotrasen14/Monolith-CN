@@ -12,13 +12,8 @@
 - type: entity
   parent: BaseFlatpack
   id: AK570Flatpack
-<<<<<<< HEAD
   name: 'AK570  | AK570 flatpack'
-  description: '用于组装AK570型90mm 自动炮的组装包。 | A flatpack used for constructing an AK570 90mm autocannon.'
-=======
-  name: AK570 flatpack
-  description: A flatpack used for constructing an AK570 57mm autocannon.
->>>>>>> upstream
+  description: 用于组装AK570型57mm 自动炮的组装包。
   components:
   - type: Flatpack
     entity: WeaponTurretAK570
@@ -61,8 +56,8 @@
 - type: entity
   parent: BaseFlatpack
   id: WeaponTurretShardFlatpack
-  name: Shard flatpack
-  description: A flatpack used for constructing an "Shard"-designation ultralight mass driver.
+  name: 碎片平板包装 flatpack
+  description: 一个用于建造“Shard”型号超轻型质子加速器的平板包。
   components:
   - type: Flatpack
     entity: WeaponTurretShard
@@ -72,8 +67,8 @@
 - type: entity
   parent: BaseFlatpack
   id: WeaponTurretPinholeFlatpack
-  name: Pinhole flatpack
-  description: A flatpack used for constructing an "Pinhole"-designation mass driver.
+  name: 针孔平板包装 flatpack
+  description: 用于建造“针孔”质子加速器的平板组装包。
   components:
   - type: Flatpack
     entity: WeaponTurretPinhole
@@ -194,8 +189,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: USSPLatheFlatpack
-  name: ussp field assembler flatpack
-  description: A flatpack used for constructing a techfab for manufacturing USSP-specific recipes.
+  name: USSP 现场组装器平板包装 Flatpack
+  description: 用于建造制造USSP特定配方的科技工厂的平板包装。
   components:
   - type: Flatpack
     entity: USSPLathe
@@ -208,8 +203,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: ViperLatheFlatpack
-  name: Viper precision flatpack
-  description: A flatpack used for constructing a techfab for manufacturing faction-specific recipes.
+  name: 毒蛇精密平板包装 Flatpack
+  description: 一个用于搭建科技工厂的平板包，用来生产特定阵营的配方。
   components:
   - type: Flatpack
     entity: FactionLathe
@@ -274,8 +269,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: ScrapBoxFlatpack
-  name: scrap box flatpack
-  description: A flatpack used for constructing a scrap box.
+  name: 废料箱平板包装 Flatpack
+  description: 一个用来组装废料箱的平板包装件。
   components:
   - type: Flatpack
     entity: NFMagnetBoxRubbish
@@ -357,8 +352,8 @@
 - type: entity
   parent: MedicalTechFabFlatpack
   id: ChemMasterFilledFlatpack
-  name: filled chemmaster flatpack
-  description: A flatpack used for constructing a pre-filled ChemMaster 4000.
+  name: 填充的化学大师平板包装  Flatpack
+  description: 一个用于组装预装ChemMaster 4000的平板套件。
   components:
   - type: Flatpack
     entity: ChemMasterFilled
@@ -369,8 +364,8 @@
 - type: entity
   parent: UniformPrinterFlatpack
   id: InteractorCCTCFlatpack
-  name: proprietary interactor flatpack
-  description: A flatpack used for constructing a proprietary interactor.
+  name: 专有交互器平板包装 Flatpack
+  description: 用来组装专有交互器的平板包装。
   components:
   - type: Flatpack
     entity: InteractorCCTC
@@ -381,8 +376,8 @@
 - type: entity
   parent: UniformPrinterFlatpack
   id: RoboticArmCCTCFlatpack
-  name: proprietary robotic arm flatpack
-  description: A flatpack used for constructing a proprietary robotic arm.
+  name: 专有机器人手臂平板包装 Flatpack
+  description: 用来组装专有机械臂的平板包装。
   components:
   - type: Flatpack
     entity: RoboticArmCCTC

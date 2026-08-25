@@ -54,13 +54,8 @@
 - type: entity
   parent: BaseFlatpack
   id: AmePartFlatpack
-<<<<<<< HEAD
-  name: AME组装包 丨 AME flatpack
-  description: 用于构建反物质引擎反应堆的组装包。 丨 A flatpack used for constructing an antimatter engine reactor.
-=======
-  name: IRE flatpack
-  description: A flatpack used for constructing an isotopes reaction engine (IRE).
->>>>>>> upstream
+  name: IRE组装包 丨 IRE flatpack
+  description: 用于构建反物质引擎反应堆的组装包 (IRE).
   components:
   - type: Sprite
     layers:

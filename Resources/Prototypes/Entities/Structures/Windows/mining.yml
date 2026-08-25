@@ -1,57 +1,3 @@
-<<<<<<< HEAD
-- type: entity
-  id: MiningWindow
-  name: 采矿窗口 丨 mining window
-  parent: WindowRCDResistant
-  components:
-  - type: Sprite
-    drawdepth: WallTops
-    sprite: Structures/Windows/mining.rsi
-  - type: Icon
-    sprite: Structures/Windows/mining.rsi
-  - type: Repairable
-    fuelCost: 15
-    doAfterDelay: 3
-  - type: Damageable
-    damageContainer: StructuralInorganic
-    damageModifierSet: RGlass
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 500 # Mono
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-    - trigger:
-        !type:DamageTrigger
-        damage: 250 # 100->250 - Mono
-      behaviors:
-      - !type:PlaySoundBehavior
-        sound:
-          collection: WindowShatter
-      - !type:SpawnEntitiesBehavior
-        spawn:
-          ShardGlassReinforced:
-            min: 1
-            max: 2
-          PartRodMetal:
-            min: 1
-            max: 2
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-  - type: IconSmooth
-    base: mwindow
-  - type: Appearance
-  - type: DamageVisuals
-    thresholds: [5, 10, 20]
-    damageDivisor: 4
-    trackAllDamage: true
-    damageOverlay:
-      sprite: Structures/Windows/cracks.rsi
-  - type: StaticPrice
-    price: 100
-=======
 #- type: entity
 #  id: MiningWindow
 #  name: mining window
@@ -105,7 +51,6 @@
 #      sprite: Structures/Windows/cracks.rsi
 #  - type: StaticPrice
 #    price: 100
->>>>>>> upstream
 
 #- type: entity
 #  parent: ShuttleWindow

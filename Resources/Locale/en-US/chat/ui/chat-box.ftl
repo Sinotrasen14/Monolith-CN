@@ -26,7 +26,6 @@ hud-chatbox-channel-Local = 本地
 hud-chatbox-channel-Whisper = 低语
 hud-chatbox-channel-LOOC = 本地OOC
 hud-chatbox-channel-OOC = OOC
-<<<<<<< HEAD
 hud-chatbox-channel-Radio = 无线电
 hud-chatbox-channel-Notifications = 通知
 hud-chatbox-channel-Server = 服务器
@@ -34,16 +33,7 @@ hud-chatbox-channel-CollectiveMind = 集体心智
 hud-chatbox-channel-Visual = 动作
 hud-chatbox-channel-Damage = 伤害
 hud-chatbox-channel-Unspecified = 未指定
-=======
-hud-chatbox-channel-Radio = Radio
-hud-chatbox-channel-Notifications = Notifications
-hud-chatbox-channel-Server = Server
-hud-chatbox-channel-CollectiveMind = Collective Mind
-hud-chatbox-channel-Visual = Actions
-hud-chatbox-channel-Damage = Damage
-hud-chatbox-channel-Unspecified = Unspecified
-hud-chatbox-autofill-highlights = Auto-fill
-hud-chatbox-highlights = Custom keywords
-hud-chatbox-highlights-placeholder = Insert your keywords here. One per line.
-hud-chatbox-highlights-button = Save keywords
->>>>>>> upstream
+hud-chatbox-autofill-highlights = 自动填充
+hud-chatbox-highlights = 自定义关键词
+hud-chatbox-highlights-placeholder = 在这里插入你的关键词。每行一个。
+hud-chatbox-highlights-button = 保存关键词

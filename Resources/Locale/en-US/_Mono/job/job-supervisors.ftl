@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 job-supervisors-doc = 医疗总监
-=======
-job-supervisors-doc = Director of Care
-job-supervisors-vg-infanteer = the lieutenant
-job-supervisors-vg-lieutenant = the commander
-job-supervisors-vg-commander = Sidewinder-01
->>>>>>> upstream
+job-supervisors-vg-infanteer = 中尉
+job-supervisors-vg-lieutenant = 指挥官
+job-supervisors-vg-commander = 响尾蛇-01

@@ -90,13 +90,8 @@
 - type: entity
   id: ResearchAndDevelopmentServerRogues
   parent: BaseRdServerFaction
-<<<<<<< HEAD
-  name: '流亡者研发服务器 | Rogue R&D server'
-  description: '存放着该区域侠客们的集体智慧。 | Contains the collective knowledge of the Rogues in this sector.'
-=======
-  name: PDV R&D server
-  description: Contains the collective knowledge of the Phaethon Dynasty.
->>>>>>> upstream
+  name: PDV R&D 研发服务器
+  description: 包含了王朝的集体知识。
   components:
   - type: Sprite
     sprite: _Mono/Structures/Machines/server.rsi
@@ -145,8 +140,8 @@
 - type: entity
   id: ResearchAndDevelopmentServerMMC
   parent: BaseRdServerFaction
-  name: MMC R&D server
-  description: Contains the collective knowledge of the MMC in this sector.
+  name: MMC R&D 研发服务器
+  description: 包含MMC在这个领域的集体知识。
   components:
   - type: Sprite
     sprite: _Mono/Structures/Machines/server.rsi

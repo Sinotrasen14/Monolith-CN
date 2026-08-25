@@ -2,18 +2,12 @@
 
 - type: entity
   id: WeaponTurretType35
-<<<<<<< HEAD
   name: 'Type-35 掠夺者型等离子炮'
-  parent: BallisticArtillery
-  description: '向目标发射磁约束等离子球体。可远程启动或连接至地面控制系统。 | Launches magnetically contained balls of plasma at targets. Can be remotely activated, or linked up to a GCS.'
-=======
-  name: Type-35 MARAUDER-type plasma cannon
   parent:
   - BallisticArtillery
   - BallisticArtilleryTier2HP
   suffix: Medium, T2
-  description: Launches magnetically contained balls of plasma at targets. Can be remotely activated, or linked up to a GCS.
->>>>>>> upstream
+  description: 向目标发射磁约束等离子球体。可远程启动或连接至地面控制系统。
   components:
   - type: StaticPrice
     price: 2000
@@ -68,12 +62,12 @@
 
 - type: entity
   id: WeaponTurretCerberus
-  name: TPC Cerberus Plasma scattercannon
+  name: TPC 地狱犬等离子散射炮
   parent:
   - BallisticArtillery
   - BallisticArtilleryTier3HP
   suffix: Medium, T3
-  description: Borrowing from the design of the Marauder, the Cerberus fires very similar shots, but in a tight spread of 3 blasts
+  description: 借鉴了掠夺者的设计，三头犬发射的射击非常相似，但以3发紧密的散射方式射出
   components:
   - type: StaticPrice
     price: 2000
@@ -127,19 +121,12 @@
 
 - type: entity
   id: WeaponTurretType54
-<<<<<<< HEAD
   name: 'Type-54C 等离子自动脉冲炮'
-  parent: BallisticArtillery
-  suffix: TSF ONLY, ADS ONLY
-  description: '高速连发能量武器，可对目标造成大量伤害。充能时间较长。 | A rapidly firing energy weapon, dealing a large amount of damage to its targets. Takes a long time to recharge.'
-=======
-  name: Type-54C plasma autopulser
   parent:
   - BallisticArtilleryUnanchorable
   - BallisticArtilleryTier2HP
   suffix: Medium, T2
-  description: A rapidly firing energy weapon, well known for its devastating burst followed by a constant stream of plasma.
->>>>>>> upstream
+  description: 一种快速射击的能量武器，以其毁灭性的爆发和随后持续喷射的等离子流而闻名。
   components:
   - type: StaticPrice
     price: 4000
@@ -274,18 +261,12 @@
 
 - type: entity
   id: WeaponTurretM25
-<<<<<<< HEAD
   name: 'M25 采矿脉冲器'
-  parent: [BallisticArtillery, ConstructibleMachine] #Could possibly create a ConstructibleTurret proto if more are added; comps currently do nothing upgrade wise
-  description: '采用机械装置发射…某种物体。可轻松粉碎岩石。 | Uses mechanisms to launch... something. Destroys rock easily.'
-=======
-  name: M25 mining pulser
   parent:
   - BallisticArtillery
   - BallisticArtilleryTier1HP
   - ConstructibleMachine #Could possibly create a ConstructibleTurret proto if more are added; comps currently do nothing upgrade wise
-  description: Uses mechanisms to launch... something. Destroys rock easily. Limited range.
->>>>>>> upstream
+  description: 采用机械装置发射…某种物体。可轻松粉碎岩石。
   components:
   - type: StaticPrice
     price: 1500
@@ -353,18 +334,12 @@
 
 - type: entity
   id: WeaponTurretM220
-<<<<<<< HEAD
   name: 'M220卢比孔电磁脉冲发射器'
-  parent: BallisticArtillery
-  description: '向舰船发射电磁脉冲弹，通过强力电磁脉冲瘫痪系统。适用于非致命交战，可远程启动或连接至地面控制系统。 | Launches EMP projectiles at ships, disabling systems with powerful electromagnetic pulses. Ideal for non-lethal engagements and can be remotely activated or linked to a GCS.'
-=======
-  name: M220 RUBICON EMP launcher
   parent:
   - BallisticArtilleryUnanchorable
   - BallisticArtilleryTier2HP
   suffix: Medium, T2
-  description: Launches EMP projectiles at ships, disabling systems with powerful electromagnetic pulses. Ideal for non-lethal engagements and can be remotely activated or linked to a GCS.
->>>>>>> upstream
+  description: 向舰船发射电磁脉冲弹，通过强力电磁脉冲瘫痪系统。适用于非致命交战，可远程启动或连接至地面控制系统。
   components:
   - type: StaticPrice
     price: 3500
@@ -416,12 +391,12 @@
 
 - type: entity
   id: WeaponTurretScylla
-  name: TPC Scylla plasma impulse driver
+  name: TPC 斯库拉等离子冲击投射器
   parent:
   - BallisticArtilleryUnanchorable
   - BallisticArtilleryTier4HP
   suffix: Large, T4
-  description: A more specialized energy weapon, the Scylla fires a massive burst of plasma projectiles down range, in a huge spew to erase large and small targets alike.
+  description: 一种更专业的能量武器——斯库拉，可以发射大量等离子体弹药，远距离覆盖敌人，无论大小目标都能一扫而空。
   components:
   - type: StaticPrice
     price: 50000
@@ -487,19 +462,12 @@
 
 - type: entity
   id: WeaponTurretDymere
-<<<<<<< HEAD
   name: 'ADEX-9 迪米尔涡轮激光炮'
-  parent: BallisticArtilleryUnanchorable
-  suffix: TSF ONLY, ADS ONLY
-  description: '以太动力最具代表性的超大型舰载炮组。可发射巨大的电离气体射弹，能熔穿最坚固的舰船装甲。支持远程激活或与全局战斗系统链接。 | Aetherion Dynamics'' most iconic supercapital battery. Fires enormous ionized gas projectiles that melt through the toughest ship armor. Can be remotely activated or linked to a GCS.'
-=======
-  name: ADEX-9 DYMERE Turbolaser
   parent:
   - BallisticArtilleryUnanchorable
   - BallisticArtilleryTier5HP
   suffix: Station, T5
-  description: Aetherion Dynamics' most iconic supercapital battery. Fires enormous ionized gas projectiles that melt through the toughest ship armor. Can be remotely activated or linked to a GCS.
->>>>>>> upstream
+  description: 以太动力最具代表性的超大型舰载炮组。可发射巨大的电离气体射弹，能熔穿最坚固的舰船装甲。支持远程激活或与全局战斗系统链接。
   components:
   - type: StaticPrice
     price: 50000
@@ -577,18 +545,12 @@
 
 - type: entity
   id: WeaponLaserTurretL1Phalanx
-<<<<<<< HEAD
   name: 'L-1 方阵炮台'
-  parent: BallisticArtillery
-  description: 由万神殿集体设计的轻型激光炮台，用于粉碎各类威胁
-=======
-  name: L-1 Phalanx
   parent:
   - BallisticArtillery
   - BallisticArtilleryTier1HP
   suffix: Small, T1
-  description: A light laser emplacement designed by the Pantheon Collective, used to shred threats of all types.
->>>>>>> upstream
+  description: 由万神殿集体设计的轻型激光阵地，用来粉碎各种威胁。
   components:
   - type: StaticPrice
     price: 3000
@@ -638,12 +600,12 @@
 
 - type: entity
   id: WeaponLaserTurretPrometheus
-  name: TPC Prometheus Laser Cannon
+  name: TPC 普罗米修斯激光炮
   parent:
   - BallisticArtillery
   - BallisticArtilleryTier2HP
   suffix: Medium, T2
-  description: A heavier laser cannon mount, after the relative failure of the Apollo and its subsequent conversion into a mining laser, the Prometheus comes to the field as the new heavy laser cannon, perfect for melting through hostile hulls.
+  description: 在阿波罗相对失败并随后改装成采矿激光之后，普罗米修斯以新的重型激光炮的身份进入战场，非常适合融穿敌舰的舰体。
   components:
   - type: StaticPrice
     price: 17500
@@ -704,18 +666,12 @@
 
 - type: entity
   id: WeaponLaserTurretApollo
-<<<<<<< HEAD
-  parent: BallisticArtilleryUnanchorable
-  name: 'L-20 阿波罗重型激光炮 | L-20 Apollo Heavy Laser Cannon'
-  description: 作为法厄同帝国的顶级武器之一，阿波罗重型激光炮得名恰如其分，其光束能将目标表面加热至超越邻近恒星的温度。
-=======
   parent:
   - BallisticArtilleryUnanchorable
   - BallisticArtilleryTier4HP # This shit is massive lol
   suffix: Large, T3
-  name: L-20 Apollo Mining Laser Cannon
-  description: One of the Pantheon Collective's top weapons, the Apollo is aptly named for its beams heating surfaces to beyond the temperature of nearby stars.
->>>>>>> upstream
+  name: 'L-20 阿波罗重型激光炮 | L-20 Apollo Heavy Laser Cannon'
+  description: 万神殿集团的顶级武器之一，阿波罗之名再合适不过，因为它的光束可以把表面加热到比周围恒星还高的温度。
   components:
   - type: StaticPrice
     price: 15000
@@ -782,12 +738,12 @@
 
 - type: entity
   id: WeaponTurretType241
-  name: Curio-8640 plasma lance "Malice"
+  name: Curio-8640 等离子长矛“恶意”
   parent:
   - BallisticArtilleryUnanchorable
   - BallisticArtilleryTier5HP
   suffix: ADS ONLY
-  description: A devastating weapon, known for glassing whole fleets when used en masse
+  description: 一种毁灭性的武器，以大规模使用时能将整支舰队夷为玻璃著称
   components:
   - type: StaticPrice
     price: 50000
@@ -872,15 +828,8 @@
 
 - type: entity
   id: WeaponTurretReaper
-<<<<<<< HEAD
   name: '奇物-1089 超光速粒子光矛「死神」'
   parent: BallisticArtilleryUnanchorable
-=======
-  name: Curio-1089 tachyon lance "Reaper"
-  parent:
-  - BallisticArtilleryUnanchorable
-  - BallisticArtilleryTier4HP
->>>>>>> upstream
   suffix: ADS ONLY
   description: '令人胆寒的死亡射线正瞄准着你。收割者是前断代纪元遗留的古老科技产物，仅需一两发冲击便能摧毁最坚固的舰体。 | A terrifying weapon to have aimed at you, the Reaper is an ancient piece of pre-fracture tech capable of shattering the strongest of hulls within one or two blasts.'
   components:
@@ -957,15 +906,10 @@
 
 - type: entity
   id: WeaponTurretHarbringer
-<<<<<<< HEAD
   name: '奇物-129 离子炮「先驱者」'
-  parent: BallisticArtilleryUnanchorable
-=======
-  name: Curio-129 ion cannon "Harbringer"
   parent:
   - BallisticArtilleryUnanchorable
   - BallisticArtilleryTier4HP
->>>>>>> upstream
   suffix: ADS ONLY
   description: 星系中最强大的电磁脉冲武器之一，对目标而言意味着厄运降临。
   components:
@@ -1043,12 +987,12 @@
 
 - type: entity
   id: WeaponTurretTartarus
-  name: Curio-1810 antimatter particle cannon "Tartarus"
+  name: Curio-1810 反物质粒子炮“Tartarus”
   parent:
   - BallisticArtilleryUnanchorable
   - BallisticArtilleryTier4HP
   suffix: ADS ONLY
-  description: A rarer, powerful cannon mounted on larger ADS units. Firing a singular particle of antimatter wrapped in energy. Annihalating sections of shuttles at a time.
+  description: 一种更稀有、更强大的炮，安装在更大的ADS单元上。发射包裹在能量中的单一反物质粒子。一次摧毁整个穿梭机的部分。
   components:
   - type: StaticPrice
     price: 175000
@@ -1116,15 +1060,10 @@
 
 - type: entity
   id: WeaponTurretSunder
-<<<<<<< HEAD
   name: '奇物-1007质子炮「碎星」'
-  parent: BallisticArtillery
-=======
-  name: Curio-1007 proton cannon "Sunder"
   parent:
   - BallisticArtillery
   - BallisticArtilleryTier2HP
->>>>>>> upstream
   suffix: ADS ONLY
   description: '断裂纪年前遗留的强力质子炮，以能轻易熔穿有机与无机物质而闻名。 | A potent proton cannon from before the Fracture, known for melting holes through both inorganic and organic matter with ease.'
   components:
@@ -1184,19 +1123,12 @@
 
 - type: entity
   id: WeaponTurretScythe
-<<<<<<< HEAD
   name: '奇物-1008中子连射器「镰刀」'
-  parent: BallisticArtillery
-  suffix: ADS ONLY
-  description: 持续射击的中子中继器，对多数目标造成可观伤害。这是前断代纪元武器技术的奇迹之作
-=======
-  name: Curio-1008 neutron repeater "Scythe"
   parent:
   - BallisticArtillery
   - BallisticArtilleryTier2HP
   suffix: ADS ONLY
-  description: A burst firing neutron repeater, firing high-damage but slow balls of hell. A marvel of rapture weapons technology. Specializes in tunneling through anything that can't outmanuever it.
->>>>>>> upstream
+  description: 一款爆发射击的中子连发器，发射高伤害但速度慢的地狱弹。是极乐武器技术的奇迹。擅长穿透任何无法躲避它的东西。
   components:
   - type: StaticPrice
     price: 40000
@@ -1259,15 +1191,10 @@
 
 - type: entity
   id: WeaponLaserTurretFlayer
-<<<<<<< HEAD
   name: '奇珍183型自动线圈「剥皮者」'
-  parent: BallisticArtillery
-=======
-  name: Curio-183 auto-coil "Flayer"
   parent:
   - BallisticArtillery
   - BallisticArtilleryTier2HP
->>>>>>> upstream
   suffix: ADS ONLY
   description: '一款独特的前断代纪元武器，飞刃以近光速发射钨合金飞镖风暴，将目标轰击至碎片。 | A unique pre-fracture weapon, the Flayer fires a storm of tungsten alloy darts at near the speed of light, barraging targets to pieces.'
   components:

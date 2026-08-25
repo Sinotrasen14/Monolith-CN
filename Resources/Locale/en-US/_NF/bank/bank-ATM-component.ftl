@@ -1,31 +1,17 @@
 ## UI
-<<<<<<< HEAD
-bank-atm-menu-title = TSF中央银行
-bank-atm-menu-balance-label = 账户余额：{" "}
-bank-atm-menu-no-bank = 无银行账户！
+bank-atm-menu-title = 巨像中央银行
+bank-atm-menu-balance-label = 账户余额:{" "}
+bank-atm-menu-savings-label = 储蓄:{" "}
+bank-atm-menu-no-bank = 无银行账户!
 bank-atm-menu-withdraw-button = 取款
-bank-atm-menu-deposit-label = 存款：{" "}
-bank-atm-menu-amount-label = 取款：{" "}
+bank-atm-menu-deposit-label = 存款（行业）:{" "}
+bank-atm-menu-deposit-label-ut = 存款（储蓄）:{" "}
+bank-atm-menu-amount-label = 取款:{" "}
 bank-atm-menu-no-deposit = 空
 bank-atm-menu-deposit-button = 存款
-bank-atm-reason-label = 用途：{" "}
-bank-atm-description-label = 备注说明：{" "}
+bank-atm-reason-label = 用途:{" "}
+bank-atm-description-label = 备注说明:{" "}
 bank-atm-menu-withdraw-amount = 取款金额
-=======
-bank-atm-menu-title = Colossus Central Bank
-bank-atm-menu-balance-label = Balance:{" "}
-bank-atm-menu-savings-label = Savings:{" "}
-bank-atm-menu-no-bank = No Bank Account!
-bank-atm-menu-withdraw-button = Withdraw
-bank-atm-menu-deposit-label = Deposit (Sector):{" "}
-bank-atm-menu-deposit-label-ut = Deposit (Savings):{" "}
-bank-atm-menu-amount-label = Withdraw:{" "}
-bank-atm-menu-no-deposit = Empty
-bank-atm-menu-deposit-button = Deposit
-bank-atm-reason-label = For:{" "}
-bank-atm-description-label = Description:{" "}
-bank-atm-menu-withdraw-amount = Withdraw Amount
->>>>>>> upstream
 
 vending-machine-menu-cash-slot-label = 现金插槽：{" "}
 

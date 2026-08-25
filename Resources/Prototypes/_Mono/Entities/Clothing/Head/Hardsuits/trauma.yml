@@ -1,14 +1,9 @@
 - type: entity
   parent: [ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ShowMedicalIcons]
   id: ClothingHeadHelmetHardsuitTrauma
-<<<<<<< HEAD
   name: '武装创伤部队T-23战术套装头盔 | armed trauma unit T-23 tacsuit helmet'
   description: '武装创伤单元标准作战服，配备有限范围雷达平视显示器及医疗平视显示器。 | The standard combat suit of the Armed Trauma Unit, outfitted with a limited-range radar hud as well as a medical hud.'
-=======
-  name: armed trauma unit T-23 tacsuit helmet
-  description: The standard combat suit of the Armed Trauma Unit, outfitted with a limited-range radar hud as well as a medical hud.
   categories: [ HideSpawnMenu ]
->>>>>>> upstream
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hardsuits/trauma.rsi
@@ -52,14 +47,9 @@
 - type: entity
   parent: [ClothingHeadHardsuitBase, ShowMedicalIcons]
   id: ClothingHeadHelmetHardsuitTraumaLeader
-<<<<<<< HEAD
   name: '武装创伤单元T-53战术头盔 | armed trauma unit T-53 tacsuit helmet'
   description: '武装创伤单元指挥官战术服，配备医疗与远程雷达平视显示器，兼具热成像与夜视功能。 | The commander''s tacsuit in the Armed Trauma Unit, outfitted with a medical and long-range radar hud as well as thermals and night vision.'
-=======
-  name: armed trauma unit T-53 tacsuit helmet
-  description: The commander's tacsuit in the Armed Trauma Unit, outfitted with a medical and long-range radar hud as well as thermals and night vision.
   categories: [ HideSpawnMenu ]
->>>>>>> upstream
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hardsuits/trauma_leader.rsi

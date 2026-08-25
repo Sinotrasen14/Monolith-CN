@@ -25,13 +25,8 @@
 #Light Weapons
 - type: entity
   id: LightMechaAutocannon
-<<<<<<< HEAD
-  name: LAC-29 20毫米自动炮
-  description: 平民化机甲步枪。使用20毫米口径，属性均衡，既能对付装甲机甲，也能对舰船造成轻微伤害。可搭载于轻型挂载点。
-=======
-  name: LAC-29 35mm autocannon
-  description: The everyman's mecha rifle. Chambered in 35mm AP rounds, with balanced stats to tackle both Armored Frames and do light damage against ships. Fits on Light Hardpoints.
->>>>>>> upstream
+  name: LAC-29 35毫米自动炮
+  description: 平民化机甲步枪。使用35毫米口径，属性均衡，既能对付装甲机甲，也能对舰船造成轻微伤害。可搭载于轻型挂载点。
   suffix: Mech Weapon, Gun, Combat, Rifle
   parent: [ BaseMechWeaponRange, LightMechMountEquipment ]
   components:

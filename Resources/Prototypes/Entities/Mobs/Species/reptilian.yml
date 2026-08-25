@@ -1,12 +1,7 @@
 - type: entity
   save: false
-<<<<<<< HEAD
   name: 乌里斯特·姆詹德 丨 Urisst' Mzhand
-  parent: BaseMobSpeciesOrganic
-=======
-  name: Urisst' Mzhand
   parent: [ BaseMobSpeciesOrganic, ReptilianClaws ]
->>>>>>> upstream
   id: BaseMobReptilian
   abstract: true
   components:

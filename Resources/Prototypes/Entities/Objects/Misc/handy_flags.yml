@@ -25,13 +25,8 @@
 - type: entity
   parent: [BaseItem, RecyclableItemClothSmall, BaseFactionGearOtherFactionT1]
   id: SyndieHandyFlag
-<<<<<<< HEAD
   name: 辛迪加手持旗帜 丨 syndicate handheld flag
-  description: 献给真正的叛逆爱国者。新界必亡！ 丨 "For truly rebellious patriots. Death to NT!"
-=======
-  name: syndicate handheld flag
-  description: "For truly rebellious patriots."
->>>>>>> upstream
+  description: 为了真正叛逆的爱国者。
   components:
   - type: Sprite
     sprite: Objects/Misc/Handy_Flags/syndie_handy_flag.rsi

@@ -1,126 +1,8 @@
 - type: entity
-<<<<<<< HEAD
-  name: 'SKR-WS MLA-73（635×40mm 无壳弹） | SKR-WS MLA-73 (635x40mm caseless)'
-  parent: [BaseWeaponSubMachineGun, BaseGunWieldable]
-  id: WeaponSubMachineGunMla73
-  description: 一款可靠的个人防御武器设计，通常配发给飞行员和装甲战车乘员。此版本加装了内置消音器。据传闻该武器采用企业时代的设计图，由法厄同帝国制造。
-  components:
-  - type: Sprite
-    sprite: _Mono/Objects/Weapons/Guns/SMGs/mla73.rsi
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-0
-      map: ["enum.GunVisualLayers.Mag"]
-  - type: Clothing
-    sprite: _Mono/Objects/Weapons/Guns/SMGs/mla73.rsi
-  - type: GunWieldBonus
-    minAngle: -20
-    maxAngle: -34
-  - type: Gun
-    minAngle: 21
-    maxAngle: 38
-    angleIncrease: 5
-    angleDecay: 20
-    fireRate: 9.5
-    soundGunshot:
-      path: /Audio/_Mono/Weapons/Guns/SmallArms/Gunshots/mla_fire.ogg
-  - type: ChamberMagazineAmmoProvider
-  - type: ItemSlots
-    slots:
-      gun_magazine:
-        name: '弹匣 | Magazine'
-        startingItem: Magazine635x40mmCaseless
-        insertSound: /Audio/Weapons/Guns/MagIn/hpistol_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/sfrifle_magout.ogg
-        priority: 2
-        whitelist:
-          tags:
-          - Magazine635x40mmCaseless
-        whitelistFailPopup: gun-magazine-whitelist-fail
-      gun_chamber:
-        name: '腔室 | Chamber'
-        startingItem: Cartridge635x40mmCaseless
-        priority: 1
-        whitelist:
-          tags:
-          - Cartridge635x40mmCaseless
-  - type: MagazineVisuals
-    magState: mag
-    steps: 1
-    zeroVisible: true
-  - type: Appearance
-
-- type: entity
-  name: 'NCI AK-220型9x19mm 冲锋枪 | NCI AK-220 (9x19mm)'
-  parent: [BaseWeaponSubMachineGun, BaseGunWieldable]
-  id: WeaponSubMachineGunAK220
-  description: '一款量产的9x19mm 无托结构冲锋枪。该设计源自USSP，但多家TSF与PDV制造商通过授权许可或可疑的相似原创设计进行生产。 | A mass produced 9x19mm bullpup SMG. The design originates from the USSP, but various TSF and ASR manufacturers produce it via licenses or suspiciously similar "original" designs.'
-  components:
-  - type: Sprite
-    sprite: _Mono/Objects/Weapons/Guns/SMGs/ak220.rsi
-    layers:
-    - state: base
-      map: ["enum.GunVisualLayers.Base"]
-    - state: mag-0
-      map: ["enum.GunVisualLayers.Mag"]
-  - type: GunWieldBonus
-    minAngle: -19
-    maxAngle: -34
-  - type: ChamberMagazineAmmoProvider
-    soundRack:
-      path: /Audio/Weapons/Guns/Cock/ltrifle_cock.ogg
-  - type: Clothing
-    sprite: _Mono/Objects/Weapons/Guns/SMGs/ak220.rsi
-  - type: Gun
-    minAngle: 22
-    maxAngle: 40
-    fireRate: 6
-    angleIncrease: 21
-    angleDecay: 14
-    selectedMode: FullAuto
-    soundGunshot:
-      path: /Audio/_Mono/Weapons/Guns/SmallArms/Gunshots/smg.ogg
-    availableModes:
-    - SemiAuto
-    - FullAuto
-  - type: ItemSlots
-    slots:
-      gun_magazine:
-        name: '弹匣 | Magazine'
-        startingItem: Magazine9x19mmSubMachineGunFMJ
-        insertSound: /Audio/_Mono/Weapons/Guns/SmallArms/MagIn/cm82_magin.ogg
-        ejectSound: /Audio/_Mono/Weapons/Guns/SmallArms/MagOut/pistol_alt_magout.ogg
-        priority: 2
-        whitelist:
-          tags:
-          - Magazine9x19mmSubMachineGunFMJ
-      gun_chamber:
-        name: '腔室 | Chamber'
-        startingItem: Cartridge9x19mmFMJ
-        priority: 1
-        whitelist:
-          tags:
-          - Cartridge9x19mmFMJ
-  - type: MagazineVisuals
-    magState: mag
-    steps: 1
-    zeroVisible: true
-  - type: Appearance
-  - type: StaticPrice
-    price: 500
-
-- type: entity
-  name: 'LWC Vector冲锋枪（9x19mm 口径） | LWC Vector (9x19mm)'
+  name: LWC 维克托Vector (9x19mm)
   parent: [BaseWeaponSubMachineGun, BaseGunWieldable]
   id: WeaponSubMachineGunVector9x19mm
-  description: '一款优秀的全自动冲锋枪。使用9x19mm 弹药。 | An excellent fully automatic SMG. Uses 9x19mm ammo.'
-=======
-  name: LWC Vector (9x19mm)
-  parent: [BaseWeaponSubMachineGun, BaseGunWieldable]
-  id: WeaponSubMachineGunVector9x19mm
-  description: An excellent fully automatic SMG. Uses 9x19mm ammo. An Erebus railmount is present on the top of the reciever and the bottom of the handguard for optics and grips.
->>>>>>> upstream
+  description: 一款优秀的全自动冲锋枪，使用9x19毫米弹药。在枪机上方和护木下方都装有Erebus导轨，可以安装光学瞄准器和握把。
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/SMGs/vector.rsi
@@ -246,11 +128,7 @@
   name: 'LWC Vector冲锋枪（.45 口径） | LWC Vector (.45 ACP)'
   parent: [BaseWeaponSubMachineGun, BaseGunWieldable]
   id: WeaponSubMachineGunVector45_ACP
-<<<<<<< HEAD
-  description: '一款优秀的全自动冲锋枪。使用.45 口径自动手枪弹。 | An excellent fully automatic SMG. Uses .45 ACP ammo.'
-=======
-  description: An excellent fully automatic SMG. Uses .45 ACP ammo. An Erebus railmount is present on the top of the reciever and the bottom of the handguard for optics and grips.
->>>>>>> upstream
+  description: 一款出色的全自动冲锋枪。使用.45 ACP子弹。接收器顶部和护手底部配有Erebus导轨，可安装光学瞄准器和握把。
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/SMGs/vector.rsi
@@ -321,53 +199,6 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
-<<<<<<< HEAD
-
-# Corpo War .45 Mag Vector
-- type: entity
-  name: 'NTSF大口径冲锋枪（.45 马格南） | NTSF-HCLM-45 (.45 magnum)'
-  parent: [BaseWeaponSubMachineGun, BaseGunWieldable]
-  id: WeaponSubMachineGunVectorNtsfHclm
-  description: NTSF大口径冲锋枪。一款为纳米特拉森安全部队及NT特种部队定制的高品质重型冲锋枪，使用.45 马格南弹药。
-  components:
-  - type: Sprite
-    sprite: _Mono/Objects/Weapons/Guns/SMGs/NTSF-HCLM-45rsi
-    layers:
-      - state: base
-        map: ["enum.GunVisualLayers.Base"]
-      - state: mag-0
-        map: ["enum.GunVisualLayers.Mag"]
-  - type: GunWieldBonus
-    minAngle: -5
-    maxAngle: -5
-  - type: Clothing
-    sprite: _Mono/Objects/Weapons/Guns/SMGs/NTSF-HCLM-45rsi
-  - type: Gun
-    fireRate: 6
-    selectedMode: FullAuto
-    soundGunshot:
-      path: /Audio/_Mono/Weapons/Guns/SmallArms/Gunshots/dmr.ogg
-    availableModes:
-    - SemiAuto
-    - FullAuto
-  - type: ItemSlots
-    slots:
-      gun_magazine:
-        name: '弹匣 | Magazine'
-        startingItem: Magazine45_magnumPistolFMJ
-        insertSound: /Audio/Weapons/Guns/MagIn/smg_magin.ogg
-        ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
-        priority: 2
-        whitelist:
-          tags:
-            - Magazine45_magnumPistolFMJ
-            - Magazine45_magnumPistolHighCapacityFMJ
-            - Magazine45_magnumSubMachineGunFMJ
-      gun_chamber:
-        name: '腔室 | Chamber'
-        startingItem: Cartridge45_magnumFMJ
-        priority: 1
-=======
   - type: ESAttachableGun
     slots:
     - name: es-gun-attachments-slot-name-grip
@@ -393,7 +224,6 @@
           - MonoGripVFG
       - containerId: attachment_grip
         state: lam
->>>>>>> upstream
         whitelist:
           tags:
           - MonoGripLAM
@@ -559,7 +389,7 @@
   name: RS-2 Malandro (9x19mm)
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunMalandro
-  description: A rugged, run down SMG chambered in 9x19mm designed for short range shootouts, featuring a 10 round burst at the cost of accuracy.
+  description: 一把坚固、破旧的冲锋枪，使用9x19毫米口径，专为近距离枪战设计，特点是10发连发，但牺牲了精准度。
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/SMGs/rs-2_malandro.rsi
@@ -668,10 +498,10 @@
   - type: Appearance
 
 - type: entity
-  name: MMC Sakura Smart-SMG (.160 smart)
+  name: MMC Sakura 智能-SMG (.160 smart)
   parent: BaseWeaponSubMachineGun
   id: WeaponSubMachineGunSakura
-  description: A full production variant of the Abielle smart gun, fully developed by MMC.
+  description: MMC 完全开发的 Abielle 智能枪的完整量产版。
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/SMGs/sakura.rsi

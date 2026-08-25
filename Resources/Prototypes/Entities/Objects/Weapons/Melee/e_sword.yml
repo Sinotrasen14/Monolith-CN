@@ -86,13 +86,8 @@
         variation: 0.250
 
 - type: entity
-<<<<<<< HEAD
-  name: 能量剑 丨 energy sword
-  parent: BaseMeleeWeaponEnergy
-=======
-  name: energy sword
+  name: 能量剑
   parent: [ BaseMeleeWeaponEnergy, BaseFactionGearPDVT2 ] # Mono
->>>>>>> upstream
   id: EnergySword
   description: 一把声音极大且极其危险的剑，其光束由纯粹浓缩的等离子体构成。切开无护甲目标如同热刀切黄油。 丨 A very loud & dangerous sword with a beam made of pure, concentrated plasma. Cuts through unarmored targets like butter.
   components:
@@ -314,11 +309,7 @@
   name: 双刃能量剑 丨 double-bladed energy sword
   parent: BaseMeleeWeaponEnergy
   id: EnergySwordDouble
-<<<<<<< HEAD
-  description: 这把能量剑经过改装，两端都装有剑刃，既笨重又危险……但可收纳于衣袋中。 丨 This energy sword has been modified to have blades on both ends, it's unwieldy and dangerous... This can be stored in pockets.
-=======
-  description: A variant of the classic Energy Sword with blades on both ends.
->>>>>>> upstream
+  description: 这把能量剑经过改装，两端都装有剑刃，既笨重又危险……
   components:
   - type: ItemToggle
     onUse: false # wielding events control it instead
@@ -341,11 +332,7 @@
       types:
         Slash: 10
         Heat: 20
-<<<<<<< HEAD
-        Structural: 25
-=======
         Structural: 100 # Mono increased from 25 to 100, keep in mind a breaching hammer does 300 a hit
->>>>>>> upstream
   - type: ItemToggleActiveSound
     activeSound:
       path: /Audio/Weapons/ebladehum.ogg

@@ -26,42 +26,7 @@
       shader: "unshaded"
       visible: false
   - type: Icon
-<<<<<<< HEAD
-    sprite: Objects/Devices/pda.rsi
-    state: pda
-
-- type: entity
-  parent: BasePDA
-  id: BaseUSSPMedicPDA
-  description: '一台用于访问限制和组织管理的基础型个人计算机，由USSP制造。 | A basic personal computer for access restriction and organization, manufactured in the USSP.'
-  abstract: true
-  components:
-  - type: CartridgeLoader
-    preinstalled:
-    - CrewManifestCartridge
-    - NotekeeperCartridge
-    - NewsReaderCartridge
-    - BountyContractsCartridge
-    - AstroNavCartridge
-    - MedTekCartridge
-  - type: Sprite
-    sprite: Objects/Devices/pda.rsi
-    layers:
-    - map: [ "enum.PdaVisualLayers.Base" ]
-      state: "pda"
-    - state: "light_overlay"
-      map: [ "enum.PdaVisualLayers.Flashlight" ]
-      shader: "unshaded"
-      visible: false
-    - state: "id_overlay"
-      map: [ "enum.PdaVisualLayers.IdLight" ]
-      shader: "unshaded"
-      visible: false
-  - type: Icon
-    sprite: Objects/Devices/pda.rsi
-=======
     sprite: _Mono/Objects/Devices/pda.rsi
->>>>>>> upstream
     state: pda
 
 - type: entity
@@ -73,27 +38,6 @@
     id: USSPRiflemanIDCard
   - type: Appearance
     appearanceDataInit:
-<<<<<<< HEAD
-     enum.PdaVisuals.PdaType:
-       !type:String
-       pda-interncadet
-  - type: PdaBorderColor
-    borderColor: "#717059"
-    accentVColor: "#A32D26"
-  - type: Icon
-    state: pda-interncadet
-
-- type: entity
-  parent: BaseUSSPMedicPDA
-  id: USSPMedicPDA
-  name: 'USSP 战场医护掌上电脑 | combat medic PDA'
-  components:
-  - type: Pda
-    id: USSPMedicIDCard
-  - type: Appearance
-    appearanceDataInit:
-=======
->>>>>>> upstream
       enum.PdaVisuals.PdaType:
         !type:String
         pda-ussprifleman
@@ -103,25 +47,6 @@
     isEnabled: true
     attachedToSuit: true # Mono
 
-<<<<<<< HEAD
-- type: entity
-  parent: BaseUSSPPDA
-  id: USSPCorporalPDA
-  name: 'USSP 上等兵掌上电脑 | efreitor PDA'
-  components:
-  - type: Pda
-    id: USSPCorporalIDCard
-  - type: Appearance
-    appearanceDataInit:
-      enum.PdaVisuals.PdaType:
-        !type:String
-        pda-security
-  - type: PdaBorderColor
-    borderColor: "#A32D26"
-  - type: Icon
-    state: pda-security
-=======
->>>>>>> upstream
 
 - type: entity
   parent: BaseUSSPPDA
@@ -187,34 +112,6 @@
 
 - type: entity
   parent: SheriffPDA
-<<<<<<< HEAD
-  id: MarsocFTLPDA
-  name: 'TSFMC 海军陆战队特种作战小组领队掌上电脑 | TSFMC MARSOC fire team leader PDA'
-  description: '一台标准的TSFMC个人计算机。 | A standard TSFMC personal computer.'
-  components:
-  - type: Pda
-    id: TsfMarsocFTLIDCard
-  - type: CartridgeLoader
-    uiKey: enum.PdaUiKey.Key
-    preinstalled:
-    - CrewManifestCartridge
-    - NotekeeperCartridge
-    - NewsReaderCartridge
-    - MedTekCartridge
-    - WantedListCartridge
-    - LogProbeCartridge
-    - AstroNavCartridge
-    - MailMetricsCartridge # Frontier
-  - type: Geiger # Mono
-    showExamine: true
-    showControl: true
-    isEnabled: true
-    attachedToSuit: true # Mono
-
-- type: entity
-  parent: SheriffPDA
-=======
->>>>>>> upstream
   id: MarsocPDA
   name: 'TSFMC 特种作战特工掌上电脑 | TSFMC MARSOC operative PDA'
   description: '一台标准的TSFMC个人计算机。 | A standard TSFMC personal computer.'

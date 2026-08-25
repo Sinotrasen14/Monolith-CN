@@ -65,15 +65,9 @@
 # VESPERA
 
 - type: entity
-<<<<<<< HEAD
-  id: ShipMissileASM417
-  name: 'ASM-417迷你导弹'
-  parent: BaseBulletTrigger
-=======
   id: MissileProjectile50mmHE
-  name: ASM-50 50mm Mini Missile
+  name: ASM-50 50mm 迷你导弹
   parent: ShipMissileBase
->>>>>>> upstream
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -130,15 +124,9 @@
 # VANYK
 
 - type: entity
-<<<<<<< HEAD
-  id: ShipMissileASM302
-  name: 'ASM-302导弹'
-  parent: BaseBulletTrigger
-=======
   id: ShipMissileASM150
-  name: ASM-150 150mm missile
+  name: ASM-150 150mm 导弹
   parent: ShipMissileBase
->>>>>>> upstream
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -181,71 +169,6 @@
     trackDelay: 0.2
 
 - type: entity
-<<<<<<< HEAD
-  id: ShipMissileASM302Weak
-  name: Stock ASM-302 Missile
-  parent: ShipMissileASM302
-  components:
-  - type: Projectile
-    damage:
-      types:
-        Structural: 800
-        Blunt: 140
-        Heat: 40
-  - type: Explosive
-    totalIntensity: 48
-    intensitySlope: 5
-    maxIntensity: 16
-
-# ASM-501
-
-- type: entity
-  id: ShipMissileASM501
-  name: 'ASM-501导弹'
-  parent: BaseBulletTrigger
-  categories: [ HideSpawnMenu ]
-  components:
-  - type: Projectile
-    damage:
-      types:
-        Structural: 15000
-        Blunt: 2000
-        Heat: 500
-  - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
-    layers:
-    - state: frag
-  - type: Ammo
-    muzzleFlash: null
-  - type: ShipWeaponProjectile
-  - type: RadarBlip
-    radarColor: "#FCBA03"
-    scale: 4
-    requireNoGrid: true
-    shape: hexagon
-  - type: TimedDespawn
-    lifetime: 15
-  - type: PointLight
-    radius: 5
-    color: orange
-    energy: 2
-  - type: ExplodeOnTrigger
-  - type: Explosive
-    explosionType: DefaultShipGun
-    maxIntensity: 6000
-    intensitySlope: 30
-    totalIntensity: 6000
-  - type: GatheringProjectile
-  - type: MiningGatheringSoft
-  - type: MiningGatheringHard
-  - type: TargetSeeking
-    acceleration: 50
-    detectionRange: 600
-    scanArc: 30
-    launchSpeed: 25
-    maxSpeed: 30
-    trackDelay: 2
-=======
   id: ShipMissileASM150Unguided
   name: ASM-150 150mm missile
   parent: ShipMissileASM150
@@ -262,18 +185,12 @@
     totalIntensity: 30
     intensitySlope: 5
     maxIntensity: 15
->>>>>>> upstream
 
 # TOVEK
 
 - type: entity
-<<<<<<< HEAD
-  id: ShipMissileASM557
-  name: 'ASM-557混合电磁脉冲导弹'
-  parent: BaseBulletTrigger
-=======
   id: ShipMissileASM250HEAT
-  name: 250mm HEAT missile
+  name: 250mm HEAT 导弹
   parent: ShipMissileBase
   categories: [ HideSpawnMenu ]
   components:
@@ -318,7 +235,7 @@
 
 - type: entity
   id: ShipMissileASM250HV
-  name: 250mm HV missile
+  name: 250mm HV 导弹
   parent: ShipMissileBase
   categories: [ HideSpawnMenu ]
   components:
@@ -366,7 +283,6 @@
   id: ShipMissileASM250
   name: ASM-250 Hybrid EMP Missile
   parent: ShipMissileBase
->>>>>>> upstream
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -416,13 +332,8 @@
 
 - type: entity
   id: ShipMissileSerpent
-<<<<<<< HEAD
-  name: '蛇形鱼雷 | serpent torpedo'
-  parent: BaseTorpedo
-=======
-  name: serpent torpedo
+  name: 蛇形鱼雷
   parent: ShipMissileBase
->>>>>>> upstream
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

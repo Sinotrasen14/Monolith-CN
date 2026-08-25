@@ -44,23 +44,13 @@
 
 - type: company
   id: Colonial
-<<<<<<< HEAD
-  form: Protagonist
   name: 殖民站成员
-=======
-  name: Colonial Staff
->>>>>>> upstream
   color: "#279659"
   disabled: true
 
 - type: company
   id: TSFHighComm
-<<<<<<< HEAD
-  form: Protagonist
   name: 冬至
-=======
-  name: Winter Solstice
->>>>>>> upstream
   description: winter-solstice-description
   color: "#008CE3"
   disabled: true
@@ -81,48 +71,28 @@
 
 - type: company
   id: DrakeIndustries
-<<<<<<< HEAD
-  form: Protagonist
   name: 德雷克工业
-=======
-  name: Drake Industries
->>>>>>> upstream
   description: drake-industries-description
   color: "#C97D7D"
   image: /Textures/_Mono/Companies/drake_industries.png
 
 - type: company
   id: SteelHammerManufacturing
-<<<<<<< HEAD
-  form: Protagonist
   name: 钢锤制造公司
-=======
-  name: Steel Hammer Manufacturing
->>>>>>> upstream
   description: steel-hammer-description
   color: "#92a2a1"
   image: /Textures/_Mono/Companies/steel_hammer.png
 
 - type: company
   id: HarmonyMedicalEnterprises
-<<<<<<< HEAD
-  form: Protagonist
   name: 和谐医疗企业
-=======
-  name: Harmony Medical Enterprises
->>>>>>> upstream
   description: harmony-medical-enterprises-description
   color: "#FC7303"
   image: /Textures/_Mono/Companies/HME.png
 
 - type: company
   id: MidnightArmsCo
-<<<<<<< HEAD
-  form: Protagonist
   name: 午夜武器公司
-=======
-  name: Midnight Arms Co.
->>>>>>> upstream
   description: midnight-arms-co-description
   color: "#FF2E2E"
   image: /Textures/_Mono/Companies/MACo.png
@@ -145,35 +115,20 @@
 
 - type: company
   id: DarkMatterEnterprises
-<<<<<<< HEAD
-  form: Protagonist
   name: 暗物质企业
-=======
-  name: Dark Matter Enterprises
->>>>>>> upstream
   description: dark-matter-enterprises-description
   color: "#BF00B9"
   image: /Textures/_Mono/Companies/dme.png #DME Logo
 
 - type: company
   id: AetherionDynamics
-<<<<<<< HEAD
-  form: Protagonist
   name: 以太动力公司
-=======
-  name: Aetherion Dynamics
->>>>>>> upstream
   description: aetherion-dynamics-description
   color: "#7E72B2"
 
 - type: company
   id: HorizonEnergy
-<<<<<<< HEAD
-  form: Protagonist
   name: 地平线能源
-=======
-  name: Horizon Energy
->>>>>>> upstream
   description: horizon-energy-description
   color: "#69E37F"
   image: /Textures/_Mono/Companies/horizon_energy.png
@@ -183,59 +138,34 @@
 
 - type: company
   id: UniversalStatesOfAmerica
-<<<<<<< HEAD
-  form: Protagonist
   name: 美利坚宇宙合众国
-=======
-  name: Universal States of America
->>>>>>> upstream
   description: universal-states-of-america-description
   color: "#0A3161"
   image: /Textures/_Mono/Companies/UNSA.png
 
 - type: company
   id: CivilDefenseMilita
-<<<<<<< HEAD
-  form: Protagonist
   name: 民防民兵队
-=======
-  name: Civil Defense Militia
->>>>>>> upstream
   description: civil-defense-milita-description
   color: "#666600"
 
 - type: company
   id: UllmanIndustries
-<<<<<<< HEAD
-  form: Protagonist
   name: 厄尔曼工业
-=======
-  name: Ullman Industries
->>>>>>> upstream
   description: ullman-industries-description
   color: "#52326A"
   image: /Textures/_Mono/Companies/ullman_industries.png
 
 - type: company
   id: NosskeEienResearchandDevelopment
-<<<<<<< HEAD
-  form: Protagonist
   name: 诺斯克-永恒公司
-=======
-  name: Nosske-Eien Research and Development
->>>>>>> upstream
   description: nosske-eien-rnd-description
   color: "#9573AF"
   image: /Textures/_Mono/Companies/ne_rd.png
 
 - type: company
   id: blackhawkpmc
-<<<<<<< HEAD
-  form: Protagonist
   name: 黑鹰军事承包集团
-=======
-  name: Blackhawk Military Contracting
->>>>>>> upstream
   description: blackhawkpmc-description
   color: "#419E23"
   image: /Textures/_Mono/Companies/BMC.png
@@ -258,12 +188,7 @@
 
 - type: company
   id: TheHive
-<<<<<<< HEAD
-  form: Protagonist
   name: 蜂巢
-=======
-  name: The Hive
->>>>>>> upstream
   description: The-Hive-description
   color: "#5918a8"
 
@@ -271,23 +196,13 @@
 
 - type: company
   id: paycheckbratva
-<<<<<<< HEAD
-  form: Antagonist
   name: 薪饷兄弟会
-=======
-  name: Paycheck Bratva
->>>>>>> upstream
   description: paycheck-bratva-description
   color: "#7a0303"
 
 - type: company
   id: CerberusSurplusProvisions
-<<<<<<< HEAD
-  form: Antagonist
   name: 刻耳柏洛斯盈余物资
-=======
-  name: Cerberus Surplus Provisions
->>>>>>> upstream
   description: cerberus-surplus-provisions
   color: "#aa1010"
   image: /Textures/_Mono/Companies/CSP.png
@@ -295,12 +210,7 @@
 
 - type: company
   id: TheViperGroup
-<<<<<<< HEAD
-  form: Antagonist
   name: 蝰蛇集团
-=======
-  name: Viper Group
->>>>>>> upstream
   description: viper-group-description
   color: "#B82121"
   image: /Textures/_Mono/Companies/thevipergroup.png # Example

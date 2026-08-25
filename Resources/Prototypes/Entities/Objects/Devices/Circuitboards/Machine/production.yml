@@ -1073,14 +1073,9 @@
 
 - type: entity
   id: ElectricGrillMachineCircuitboard
-<<<<<<< HEAD
-  name: 电烤炉机器板 丨 electric grill machine board
-  description: 用于电烤炉的机器印制电路板。 丨 A machine printed circuit board for an electric grill.
-=======
   parent: BaseMachineCircuitboard
-  name: electric grill machine board
-  description: A machine printed circuit board for an electric grill.
->>>>>>> upstream
+  name: 电烤炉机器板 丨 electric grill machine board
+  description: 用于电烤炉的机器印制电路板。
   components:
   - type: MachineBoard
     prototype: KitchenElectricGrill
@@ -1600,8 +1595,8 @@
 - type: entity
   parent: BaseMachineCircuitboard
   id: SurveillanceCameraWirelessRouterXenoborgCircuitboard
-  name: xenoborg camera wireless router
-  description: A machine printed circuit board for a xenoborg camera wireless router.
+  name: xenoborg 摄像头无线路由器
+  description: 一个用于异形机器人相机无线路由器的机器印刷电路板。
   components:
   - type: Sprite
     state: generic

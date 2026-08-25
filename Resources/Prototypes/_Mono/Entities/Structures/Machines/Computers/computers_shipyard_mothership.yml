@@ -53,11 +53,7 @@
 - type: entity
   id: TSFCarrierComputer
   parent: BaseCarrierComputer
-<<<<<<< HEAD
-  name: 'TSF运营商控制台 | TSF carrier console'
-=======
-  name: TSF tumour carrier console
->>>>>>> upstream
+  name: TSF 子船控制台
   components:
   - type: ShipyardListing
     shuttles:
@@ -69,21 +65,18 @@
 - type: entity
   id: TSFCarrierComputerFujian
   parent: BaseCarrierComputer
-<<<<<<< HEAD
-  name: '破冰船附件控制台 | ledokol attatchment console'
-=======
-  name: TSF fujian carrier console # Yes it can -hypothetically- carry the same ships as tumour, but it can't carry 4 of them (QJ-340 is really too long!)
+  name: TSF 福建级 航母子船控制台 # Yes it can -hypothetically- carry the same ships as tumour, but it can't carry 4 of them (QJ-340 is really too long!)
   components:
   - type: ShipyardListing
     shuttles:
     - Zephyr
     - ZephyrEC
-    
+
 - type: entity
   id: TSFNChengduComputer
   parent: BaseCarrierComputer
-  name: TSFN Chengdu internal hangar console
-  description: Lighter shipyard using the Chengdu's internal hangars, doesn't have access to the full roster of TSFMC ships.
+  name: TSFN 成都级 内部机库控制台
+  description: 使用成都内部机库的小型船厂，没有办法使用TSFMC的全部舰船名单。
   components:
   - type: ShipyardListing
     shuttles:
@@ -96,8 +89,7 @@
 - type: entity
   id: LedokolAttachmentComputer
   parent: BaseCarrierComputer
-  name: ledokol attachment console
->>>>>>> upstream
+  name: 破冰船附件控制台
   components:
   - type: ShipyardListing
     shuttles:
@@ -146,7 +138,7 @@
 - type: entity
   id: PDVMotleyAnneCarrierComputer
   parent: BaseCarrierComputer
-  name: motley anne shipyard console
+  name: 杂色安妮造船厂控制台
   components:
   - type: ShipyardListing
     shuttles:
@@ -168,7 +160,7 @@
 - type: entity
   id: RavagerCarrierComputer
   parent: BaseCarrierComputer
-  name: ravager shipyard console
+  name: 掠夺者船厂控制台
   components:
   - type: ShipyardListing
     shuttles:
@@ -179,7 +171,7 @@
 - type: entity
   id: BalorCarrierComputer
   parent: BaseCarrierComputer
-  name: balor shipyard console
+  name: 巴洛尔船厂控制台
   components:
   - type: ShipyardListing
     shuttles:

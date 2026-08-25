@@ -27,39 +27,23 @@ ui-options-general-accessibility = 无障碍
 
 ## Audio menu
 
-<<<<<<< HEAD
 ui-options-master-volume = 主音量:
 ui-options-midi-volume = MIDI（乐器）音量：
 ui-options-ambient-music-volume = 环境音乐音量:
 ui-options-ambience-volume = 环境音量:
 ui-options-lobby-volume = 大厅和回合结束音量:
 ui-options-interface-volume = 界面音量:
-ui-options-ambience-max-sounds = 同时播放环境音效数：
+ui-options-ambience-max-sounds = 同时播放环境音效数
+ui-options-combat-music-volume = 战斗音乐音量:
+ui-options-combat-music-windup = 战斗音乐启动时间:
+ui-options-combat-music-winddown = 战斗音乐停用时间:
+ui-options-combat-music-sec-format = { $value } 秒
 ui-options-lobby-music = 大厅与回合结束音乐
 ui-options-restart-sounds = 回合重启音效
 ui-options-event-music = 事件音乐
 ui-options-admin-sounds = 播放管理员音效
 ui-options-bwoink-sound = 播放 AHelp 通知音效
 ui-options-volume-label = 音量
-=======
-ui-options-master-volume = Master Volume:
-ui-options-midi-volume = MIDI (Instrument) Volume:
-ui-options-ambient-music-volume = Ambient music volume:
-ui-options-ambience-volume = Ambience volume:
-ui-options-lobby-volume = Lobby & Round-end volume:
-ui-options-interface-volume = Interface volume:
-ui-options-ambience-max-sounds = Ambience simultaneous sounds:
-ui-options-combat-music-volume = Combat Music volume:
-ui-options-combat-music-windup = Combat Music activation time:
-ui-options-combat-music-winddown = Combat Music deactivation time:
-ui-options-combat-music-sec-format = { $value } sec
-ui-options-lobby-music = Lobby & Round-end Music
-ui-options-restart-sounds = Round Restart Sounds
-ui-options-event-music = Event Music
-ui-options-admin-sounds = Play Admin Sounds
-ui-options-bwoink-sound = Play AHelp Notification Sound
-ui-options-volume-label = Volume
->>>>>>> upstream
 
 ## Mono Audio menu
 
@@ -109,7 +93,6 @@ ui-options-hud-layout-separated = 分离式
 ui-options-vp-stretch = 拉伸以适应游戏窗口
 ui-options-vp-scale = 固定缩放：
 ui-options-vp-scale-value = x{ $scale }
-<<<<<<< HEAD
 ui-options-vp-integer-scaling = 首选整数缩放（可能导致黑边/画面裁剪）
 ui-options-vp-integer-scaling-tooltip = 若启用此选项，图像将使用整数值进行缩放。
                                         在特定分辨率下。虽然这会产生清晰的纹理，
@@ -121,26 +104,10 @@ ui-options-vp-vertical-fit-tooltip = 启用后，主视图在适应屏幕时将�
                                      视图在水平轴上将会被截断。
 ui-options-vp-low-res = 低分辨率图像
 ui-options-parallax-low-quality = 低质量视差（背景）
+ui-options-parallax-low-quality = 低质量视差（背景）
 ui-options-fps-counter = 显示 FPS 计数器
 ui-options-vp-width = 图像宽度：
 ui-options-hud-layout = HUD布局：
-=======
-ui-options-vp-integer-scaling = Prefer integer scaling (might cause black bars/clipping)
-ui-options-vp-integer-scaling-tooltip = If this option is enabled, the viewport will be scaled using an integer value
-                                        at specific resolutions. While this results in crisp textures, it also often
-                                        means that black bars appear at the top/bottom of the screen or that part
-                                        of the viewport is not visible.
-ui-options-vp-vertical-fit = Vertical viewport fitting
-ui-options-vp-vertical-fit-tooltip = When enabled, the main viewport will ignore the horizontal axis entirely when
-                                     fitting to your screen. If your screen is smaller than the viewport, then this
-                                     will cause the viewport to be cut off on the horizontal axis.
-ui-options-vp-low-res = Low-resolution viewport
-ui-options-parallax-low-quality = Low-quality Parallax (background)
-ui-options-ambient-occlusion = Show Ambient Occlusion
-ui-options-fps-counter = Show FPS counter
-ui-options-vp-width = Viewport width:
-ui-options-hud-layout = HUD layout:
->>>>>>> upstream
 
 ## Controls menu
 
@@ -325,33 +292,21 @@ cmd-options-help = 用法：选项 [tab]
 
 ## Accessibility menu
 
-<<<<<<< HEAD
 ui-options-enable-color-name = 为角色名字添加颜色
 ui-options-colorblind-friendly = 色盲友好模式
 ui-options-reduced-motion = 降低视觉效果的运动幅度
+ui-options-disable-nv-noise = 关闭夜视叠加层上的噪声效果
 ui-options-screen-shake-intensity = 屏幕抖动强度
-ui-options-chat-window-opacity = 聊天窗口不透明度
+ui-options-chat-window-opacity = 聊天窗口透明度
 ui-options-speech-bubble-text-opacity = 语音气泡文本不透明度
 ui-options-speech-bubble-speaker-opacity = 语音气泡说话者不透明度
 ui-options-speech-bubble-background-opacity = 语音气泡背景不透明度
-=======
-ui-options-enable-color-name = Add colors to character names
-ui-options-colorblind-friendly = Colorblind friendly mode
-ui-options-reduced-motion = Reduce motion of visual effects
-ui-options-disable-nv-noise = Disable the noise effect on the night vision overlay
-ui-options-screen-shake-intensity = Screen shake intensity
-ui-options-chat-window-opacity = Chat window opacity
-ui-options-speech-bubble-text-opacity = Speech bubble text opacity
-ui-options-speech-bubble-speaker-opacity = Speech bubble speaker opacity
-ui-options-speech-bubble-background-opacity = Speech bubble background opacity
->>>>>>> upstream
 
 ## Admin menu
 
-ui-options-enable-classic-overlay = Revert antag overlay to classic mode
+ui-options-enable-classic-overlay = 把反派叠加界面恢复到经典模式
 
 ## Shitmed Change
-<<<<<<< HEAD
 ui-options-header-targeting = 瞄准
 ui-options-function-target-head = 瞄准头部
 ui-options-function-target-torso = 瞄准躯干
@@ -359,53 +314,44 @@ ui-options-function-target-left-arm = 瞄准左臂
 ui-options-function-target-right-arm = 瞄准右臂
 ui-options-function-target-left-leg = 瞄准左腿
 ui-options-function-target-right-leg = 瞄准右腿
-=======
-ui-options-header-targeting = Targeting
-ui-options-function-target-head = Target head
-ui-options-function-target-torso = Target torso
-ui-options-function-target-left-arm = Target left arm
-ui-options-function-target-right-arm = Target right arm
-ui-options-function-target-left-leg = Target left leg
-ui-options-function-target-right-leg = Target right leg
 
 ## Accessibility — chat highlights
-ui-options-auto-fill-highlights = Automatically fill highlights with character name and job keywords
-ui-options-highlights-color = Highlight color
-ui-options-highlights-color-example = Example highlighted text
-ui-options-admin-player-panel = Admin Menu Players List
+ui-options-auto-fill-highlights = 自动用角色名和职业关键词填充高亮
+ui-options-highlights-color = 高亮颜色
+ui-options-highlights-color-example = 示例哈基米
+ui-options-admin-player-panel = 管理员菜单 玩家列表
 
-ui-options-admin-player-tab-symbol-setting = Character column antag symbols
-ui-options-admin-player-tab-symbol-setting-off = No antag symbol
-ui-options-admin-player-tab-symbol-setting-basic = Show standard antag symbol
-ui-options-admin-player-tab-symbol-setting-specific = Show specific antag symbol
+ui-options-admin-player-tab-symbol-setting = 角色反派标识
+ui-options-admin-player-tab-symbol-setting-off = 无反派标识
+ui-options-admin-player-tab-symbol-setting-basic = 显示基础反派标识
+ui-options-admin-player-tab-symbol-setting-specific = 显示特色反派标识
 
-ui-options-admin-player-tab-role-setting = Role display settings
-ui-options-admin-player-tab-role-setting-roletype = Show role type
-ui-options-admin-player-tab-role-setting-subtype = Show subtype
-ui-options-admin-player-tab-role-setting-roletypesubtype = Show role type and subtype
-ui-options-admin-player-tab-role-setting-subtyperoletype = Show subtype and role type
+ui-options-admin-player-tab-role-setting = 角色显示设置
+ui-options-admin-player-tab-role-setting-roletype = 显示角色类型
+ui-options-admin-player-tab-role-setting-subtype = 显示子类型
+ui-options-admin-player-tab-role-setting-roletypesubtype = 显示角色类型和子类型
+ui-options-admin-player-tab-role-setting-subtyperoletype = 显示子类型和角色类型
 
-ui-options-admin-player-tab-color-setting = Color settings
-ui-options-admin-player-tab-color-setting-off = I hate colors
-ui-options-admin-player-tab-color-setting-character = Colorize antag character names
-ui-options-admin-player-tab-color-setting-roletype = Colorize all role types
-ui-options-admin-player-tab-color-setting-both = Colorize both
+ui-options-admin-player-tab-color-setting = 颜色设置
+ui-options-admin-player-tab-color-setting-off = 我讨厌颜色
+ui-options-admin-player-tab-color-setting-character = 给反派角色名上色
+ui-options-admin-player-tab-color-setting-roletype = 为所有角色类型上色
+ui-options-admin-player-tab-color-setting-both = 都上色
 
-ui-options-admin-overlay-title = Admin Overlay
+ui-options-admin-overlay-title = 管理员覆盖层
 
-ui-options-admin-overlay-antag-format = Antag label style
-ui-options-admin-overlay-antag-format-binary = Show antag status
-ui-options-admin-overlay-antag-format-roletype = Show role type
-ui-options-admin-overlay-antag-format-subtype = Show subtype
+ui-options-admin-overlay-antag-format = 反派角色标签样式
+ui-options-admin-overlay-antag-format-binary = 显示反派角色状态
+ui-options-admin-overlay-antag-format-roletype = 显示角色类型
+ui-options-admin-overlay-antag-format-subtype = 显示子类型
 
-ui-options-admin-overlay-antag-symbol = Antag symbol style
-ui-options-admin-overlay-antag-symbol-off = No antag symbol
-ui-options-admin-overlay-antag-symbol-basic = Show standard antag symbol
-ui-options-admin-overlay-antag-symbol-specific = Show specific antag symbol
+ui-options-admin-overlay-antag-symbol = 反派符号风格
+ui-options-admin-overlay-antag-symbol-off = 没有反派标志
+ui-options-admin-overlay-antag-symbol-basic = 显示标准反派符号
+ui-options-admin-overlay-antag-symbol-specific = 显示特色反派标识
 
-ui-options-admin-enable-overlay-playtime = Show playtime
-ui-options-admin-enable-overlay-starting-job = Show starting job
-ui-options-admin-overlay-merge-distance = Stack merge distance
-ui-options-admin-overlay-ghost-fade-distance = Ghost overlay fade range from mouse
-ui-options-admin-overlay-ghost-hide-distance = Ghost overlay hide range from mouse
->>>>>>> upstream
+ui-options-admin-enable-overlay-playtime = 显示游玩时间
+ui-options-admin-enable-overlay-starting-job = 显示起始工作
+ui-options-admin-overlay-merge-distance = 堆叠合并距离
+ui-options-admin-overlay-ghost-fade-distance = 鼠标的幽灵覆盖淡入范围
+ui-options-admin-overlay-ghost-hide-distance = 幽灵覆盖从鼠标隐藏范围

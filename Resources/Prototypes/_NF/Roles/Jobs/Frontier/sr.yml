@@ -5,14 +5,7 @@
   playTimeTracker: JobHeadOfPersonnel
   requirements:
     - !type:OverallPlaytimeRequirement
-<<<<<<< HEAD
-      time: 7200 # 20 hrs
-    - !type:RoleTimeRequirement
-      role: JobSecurityGuard
-      time: 0 # 2 hrs as security guard - mono
-  whitelisted: true
-=======
-      time: 360000 # 100 hrs
+      time: 36000 # 10 hrs
     - !type:RoleTimeRequirement
       role: JobSecurityGuard
       time: 18000 # 5 hrs as security guard - mono
@@ -24,7 +17,6 @@
       department: Security
       time: 36000 # 10 hours
   whitelisted: false
->>>>>>> upstream
   startingGear: SrGear
   alwaysUseSpawner: true
   assignedCompany: Colonial

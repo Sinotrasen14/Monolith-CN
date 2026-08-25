@@ -68,17 +68,8 @@
     price: 20 # 20 whole dollars
     vendPrice: 10000
   - type: UseDelay
-<<<<<<< HEAD
-    delay: 2
-  - type: SolutionContainerManager
-    solutions:
-      hypospray:
-        maxVol: 12 # Mono end
-
-=======
     delay: 0.65
-    
->>>>>>> upstream
+
 - type: entity
   name: 空医疗笔
   parent: BaseItem
@@ -183,10 +174,10 @@
           Quantity: 10
 
 - type: entity
-  name: lacerinol auto-injector
+  name: Lacerinol 自动注射器
   parent: NFChemicalMedipen
   id: LacerAutoInjector
-  description: A rapid dose of lacerinol and tranexamic acid, intended for combat applications.
+  description: 一剂快速的裂伤素和氨甲环酸，用于战斗应用。
   components:
   - type: Sprite
     sprite: _NF/Objects/Specific/Medical/medipen.rsi
@@ -206,10 +197,10 @@
           Quantity: 5
 
 - type: entity
-  name: bruizine auto-injector
+  name: 布鲁齐恩自动注射器
   parent: NFChemicalMedipen
   id: BruizAutoInjector
-  description: A rapid dose of bruizine and tranexamic acid, intended for combat applications.
+  description: 一剂快速的布鲁辛和氨甲环酸，用于战斗应用。
   components:
   - type: Sprite
     sprite: _NF/Objects/Specific/Medical/medipen.rsi
@@ -229,10 +220,10 @@
           Quantity: 5
 
 - type: entity
-  name: polypyrylium oligomers auto-injector
+  name: polypyrylium oligomers 自动注射器
   parent: NFChemicalMedipen
   id: PolyAutoInjector
-  description: A rapid dose of polyp... polypyryl... polypyryliu.... It contains extract of spaceman's trumpet. Intended to address brute damage and asphyxiation.
+  description: 一剂快速的多肽……多肽丙烯……多肽丙烯酸……它含有太空人喇叭花提取物。用于应对暴力伤害和窒息情况。
   components:
   - type: Sprite
     sprite: _NF/Objects/Specific/Medical/medipen.rsi
@@ -250,10 +241,10 @@
           Quantity: 15
 
 - type: entity
-  name: barkeeper's friend auto-injector
+  name: barkeeper's friend 自动注射器
   parent: NFChemicalMedipen
   id: EthylredoxrazineAutoInjector
-  description: A rapid dose of ethanol neutralizers and anti-toxins for customers who have maybe had enough for the night. Contains ethylredoxrazine and dylovene.
+  description: 为可能已经喝够一晚的顾客准备的快速乙醇中和剂和抗毒素。含有乙基还原唑嗪和达洛芬。
   components:
   - type: Sprite
     sprite: _NF/Objects/Specific/Medical/medipen.rsi

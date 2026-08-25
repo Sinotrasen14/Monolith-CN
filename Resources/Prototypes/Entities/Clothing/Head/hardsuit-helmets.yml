@@ -359,12 +359,6 @@
   - type: PressureProtection
     highPressureMultiplier: 0.60
     lowPressureMultiplier: 1000
-<<<<<<< HEAD
-  - type: NightVision # Mono - remove light, replace with NVG
-    flashDurationMultiplier: 2
-    isEquipment: true
-    color: "#34AEEB"
-=======
     # Mono - remove light, replace with NVG
   - type: NightVision # Gen 4 quadtube-wide
     relayOverlay: true
@@ -375,7 +369,6 @@
     action: ActionToggleNightVision
     phosphorColor: "#41D7D9"
     lightingColor: "#FFFFFF32"
->>>>>>> upstream
 
 #Head of Security's hardsuit
 - type: entity

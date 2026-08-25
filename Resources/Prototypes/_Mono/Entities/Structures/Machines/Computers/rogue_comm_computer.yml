@@ -1,13 +1,8 @@
 - type: entity
   parent: ComputerComms
   id: RogueComputerComms
-<<<<<<< HEAD
-  name: 帝国先锋通讯计算机 | imperial vanguard communications computer
-  description: 能够远程入侵空间站通信系统的计算机。使用它发布通告会向空间站暴露你的存在。
-=======
-  name: imperial vanguard communications computer
-  description: The Imperial Vanguard's primary communications computer for issuing announcements.
->>>>>>> upstream
+  name: 帝国先锋通讯计算机
+  description: 帝国先锋用来发布公告的主要通讯电脑。
   components:
   - type: Sprite
     sprite: _Mono/Structures/Machines/computers.rsi

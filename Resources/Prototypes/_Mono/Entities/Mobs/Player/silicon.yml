@@ -210,13 +210,8 @@
 - type: entity
   id: BorgChassisRedacted
   parent: BaseBorgChassisRedacted
-<<<<<<< HEAD
   name: '残余自动化防御系统 维护体 | remnant automated defense system tender'
   description: '自动化无人机舰船发出的维护体，旨在保持内部机械结构完好无损。 | A tender to a automated drone ship, to keep internal mechanisms intact.'
-=======
-  name: remnant automated defense system tender
-  description: A tender to an automated drone ship, to keep its internal mechanisms intact.
->>>>>>> upstream
   components:
   - type: Sprite
     layers:
@@ -786,7 +781,7 @@
 
 - type: entity
   id: MothershipCore
-  parent: PlayerStationXenoborgAiEmpty 
+  parent: PlayerStationXenoborgAiEmpty
   suffix: Ghost Role, Xenoborg
   components:
   - type: ContainerFill

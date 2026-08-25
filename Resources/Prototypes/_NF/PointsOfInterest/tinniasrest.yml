@@ -10,13 +10,8 @@
 # Down at your local saloon
 - type: pointOfInterest
   id: Tinnia
-<<<<<<< HEAD
-  parent: BasePOI
-  name: "蒂尼亚休整站"
-=======
   parent: [BasePOI, BaseRepairablePOI]
-  name: "Tinnia's Rest"
->>>>>>> upstream
+  name: "蒂尼亚休整站"
   minimumDistance: 3400
   maximumDistance: 5800
   spawnGroup: RestStop
@@ -29,7 +24,7 @@
 
 - type: gameMap
   id: Tinnia
-  mapName: "Tinnia's Rest"
+  mapName: "蒂尼亚休整站"
   mapPath: /Maps/_NF/POI/tinnia.yml
   minPlayers: 0
   stations:
@@ -37,4 +32,4 @@
       stationProto: DeadDropFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: "Tinnia's Rest"
+          mapNameTemplate: "蒂尼亚休整站"

@@ -10,13 +10,8 @@
 #
 - type: pointOfInterest
   id: Jupiter
-<<<<<<< HEAD:Resources/Prototypes/_Mono/PointsOfInterest/jupiter.yml
-  parent: BaseMobilePOI
-  name: 'PDV 木星号母舰'
-=======
   parent: [BaseMobilePOI, BaseRepairablePOI]
-  name: 'PDV Jupiter Class Carrier'
->>>>>>> upstream:Resources/Prototypes/_Mono/PointsOfInterest/Supercapitals/jupiter.yml
+  name: 'PDV 木星号母舰'
   minimumDistance: 17000
   maximumDistance: 19000
   spawnGamePreset: [ NFAdventure, NFPirate, MonoStandard, MonoRogueTSF, MonoRogueUSSP, MonoADS, MonoChimera, MonoMixed, MonoAllAtOnce ]
@@ -37,7 +32,7 @@
 
 - type: gameMap
   id: Jupiter
-  mapName: 'PDV Jupiter Class Carrier'
+  mapName: 'PDV 木星号母舰'
   mapPath: /Maps/_Mono/Supercapitals/jupiter.yml
   minPlayers: 0
   stations:
@@ -45,7 +40,7 @@
       stationProto: RecordsFrontierOutpostCargo
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'PDV Jupiter Class Carrier'
+          mapNameTemplate: 'PDV 木星号母舰'
         - type: ExtraStationInformation
           icon: /Textures/_NF/Interface/Pirate/piratelogo.png
           stationSubtext: 'frontier-lobby-jupiter-subtext'

@@ -112,13 +112,8 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformUSSP
-<<<<<<< HEAD
   name: 'USSP军服 | USSP uniform'
-  description: 'USSP军队的标准作训服。 | Standard fatigues of the USSP military.'
-=======
-  name: USSP uniform
-  description: Standard fatigues of the USSP Armed Forces.
->>>>>>> upstream
+  description: USSP军队的标准作训服。
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Uniforms/Jumpsuit/ussp.rsi

@@ -28,16 +28,11 @@ guide-entry-armorexplanation = 护甲机制
 guide-entry-monolith-rules = Monolith 游戏规则
 
 # Creatures
-<<<<<<< HEAD
 guide-entry-creatures = 星区生物
 guide-entry-cortical-borer = 脑虫
-=======
-guide-entry-creatures = Creatures of the Sector
-guide-entry-cortical-borer = Cortical Borer
-guide-entry-xenoborgs = Xenoborgs
+guide-entry-xenoborgs = 异族机械人
 # Mechs
-guide-entry-mechs = Mechs
-guide-entry-s1mechs = Series 1 Mechs
-guide-entry-s2mechs = Series 2 Mechs
-guide-entry-s4mechs = Series 4 Mechs
->>>>>>> upstream
+guide-entry-mechs = 机甲
+guide-entry-s1mechs = 系列1机甲
+guide-entry-s2mechs = 系列2机甲
+guide-entry-s4mechs = 系列4机甲

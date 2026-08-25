@@ -1,51 +1,9 @@
-<<<<<<< HEAD
-- type: entity
-  id: BaseTorpedo
-  name: '基地鱼雷 | BaseTorpedo'
-  description: '如果你能看到这个，那你大概已经死了！ | If you can see this you''re probably dead!'
-  abstract: true
-  components:
-  - type: Clickable
-  - type: Physics
-    bodyType: Dynamic
-    linearDamping: 0
-    angularDamping: 0
-  - type: Fixtures
-    fixtures:
-      projectile:
-        shape:
-          !type:PhysShapeCircle
-          radius: 1
-        density: 1500
-        layer:
-        - WallLayer
-        mask:
-        - MachineMask
-  - type: Projectile
-    impactEffect: BulletImpactEffect
-    damage:
-      types:
-        Piercing: 14
-    soundHit:
-      path: /Audio/Weapons/Guns/Hits/bullet_hit.ogg
-  - type: TimedDespawn
-    lifetime: 10
-  - type: TriggerOnCollide
-    fixtureID: projectile
-
-=======
->>>>>>> upstream
 # base end
 
 - type: entity
   id: ShipMissileASM220HE
-<<<<<<< HEAD
-  name: 'ASM-220鱼雷（高爆弹头）'
-  parent: BaseTorpedo
-=======
-  name: ASM-220 torpedo (HE)
+  name: ASM-220 鱼雷（高爆弹头）
   parent: ShipMissileBase
->>>>>>> upstream
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -248,13 +206,8 @@
 
 - type: entity
   id: ShipMissileASM220LOSAT
-<<<<<<< HEAD
-  name: 'ASM-220 LOSAT超级穿甲弹 | ASM-220 LOSAT hyper-penetrator'
-  parent: BaseTorpedo
-=======
-  name: ASM-220 LOSAT hyper-penetrator
+  name: ASM-220 LOSAT 超级穿甲弹
   parent: ShipMissileBase
->>>>>>> upstream
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -309,13 +262,8 @@
 
 - type: entity
   id: Asm220TorpedoLOSAT
-<<<<<<< HEAD
-  name: 'ASM-220 直瞄反坦克导弹'
-  description: '本质上是一种合成合金制成的大型超强穿透弹，可轻易撕裂船体。 | Effectively a large synthalloy hyper-penetrator. Tears through hull with ease.'
-=======
-  name: ASM-220 LOSAT missile
-  description: Effectively a large plastitanium hyper-penetrator. Tears through hull with ease.
->>>>>>> upstream
+  name: ASM-220 LOSAT 导弹
+  description: 本质上是一种合成合金制成的大型超强穿透弹，可轻易撕裂船体。
   parent: BaseGrenade
   components:
   - type: Tag
@@ -358,13 +306,8 @@
 
 - type: entity
   id: ShipMissileASM220ECM
-<<<<<<< HEAD
   name: 'ASM-220鱼雷（电子对抗）'
-  parent: BaseTorpedo
-=======
-  name: ASM-220 torpedo (ECM)
   parent: ShipMissileBase
->>>>>>> upstream
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

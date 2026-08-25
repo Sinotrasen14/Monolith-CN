@@ -49,16 +49,10 @@ flavor-base-alkaline = 碱性
 flavor-base-holy = 神圣
 flavor-base-horrible = 糟糕
 # lmao
-<<<<<<< HEAD
 flavor-base-terrible = 糟糕
 flavor-base-mindful = 专注
 flavor-base-chewy = 耐嚼
-=======
-flavor-base-terrible = terrible
-flavor-base-mindful = mindful
-flavor-base-chewy = chewy
-flavor-base-trashy = trashy
->>>>>>> upstream
+flavor-base-trashy = 低俗的
 
 # Complex flavors. Put a flavor here when you want something that's more
 # specific.

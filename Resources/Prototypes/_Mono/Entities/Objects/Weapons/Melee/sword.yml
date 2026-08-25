@@ -35,13 +35,8 @@
      id: TSFEnergyWeapon
 
 - type: entity
-<<<<<<< HEAD
   name: 'VT-7 高频武士刀 | VT-7 high-frequency blade'
-  parent: Katana # we dont want the construction node, so we dont copy off the other HF katana
-=======
-  name: VT-7 high-frequency blade
   parent: [ BaseFactionGearPDVT2, Katana ] # we dont want the construction node, so we dont copy off the other HF katana
->>>>>>> upstream
   id: WeaponVT7
   description: '一把经过不当改装的高频刀，专为撕裂装甲而设计。 | A high-frequency blade tuned with ill-advised modifications designed to sunder armor.'
   components:

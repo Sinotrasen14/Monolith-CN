@@ -1,13 +1,8 @@
 - type: entity
   parent: BaseCartridge
   id: Cartridge145x114mm
-<<<<<<< HEAD
   name: '子弹（14.5x114mm ） | cartridge (14.5x114mm)'
-  description: '更大尺寸的反器材弹药，能够轻易贯穿任何装甲与障碍物。 | Even larger anti-material round, capable of punching through any armor and barriers without difficulty.'
-=======
-  name: cartridge (14.5x114mm AP)
-  description: Even larger anti-material round, capable of punching through any armor and barriers without difficulty.
->>>>>>> upstream
+  description: 更大尺寸的反器材弹药，能够轻易贯穿任何装甲与障碍物。
   components:
   - type: Tag
     tags:
@@ -30,7 +25,7 @@
 - type: entity
   parent: BaseCartridge
   id: Cartridge145x114mmEMP
-  name: cartridge (14.5x114mm EMPHE)
+  name: 子弹 (14.5x114mm EMPHE)
   description: Even larger anti-material round, capable of punching through any armor and barriers without difficulty. Electromagnetic Pulse disables all electronics at impact site, while a conventional explosive provides area denial.
   components:
   - type: Tag

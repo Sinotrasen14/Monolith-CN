@@ -1,12 +1,7 @@
 # 管理公司
 
-<<<<<<< HEAD
 winter-solstice-description = 跨太阳系联邦海军陆战队的三大分支均归属于联邦的统一最高指挥部的指挥。，即“冬至”。
-
-=======
-winter-solstice-description = All three branches of the Trans-Solar Marines Federation fall under the direction of the Federation's unified high command, known as Winter Solstice.
-pdv-highcomm-description = The high ranking officials of the PDV - simply referred to as highcomm by scared rahkshans...
->>>>>>> upstream
+pdv-highcomm-description = PDV 的高级官员——被害怕的拉克山人简单地称作 highcomm……
 
 # 核心公司
 
@@ -18,7 +13,7 @@ harmony-medical-enterprises-description = 和谐医疗企业是家完全专注�
 
 midnight-arms-co-description = 午夜武器公司抓住了银河系重建的机遇——这个新时代全面禁止超级企业存在。MACo为独立群体和各种其他公司提供他们所需的任何武器装备，至于它们的用途，嗯，那取决于购买它们的人。在这个时代，自卫、远征、赏金追缉皆需枪械，MACo(午夜武器公司)只是恰好发现自己是主要供应商之一。
 
-ussp-description = The USSP Remnants are the surviving elements of the 78th Expeditionary Fleet and its attached 13th Naval Infantry Battalion. Once tasked with securing the Colossus Sector under Operation Roundtable, the expeditionary fleet was shattered by a sudden and disorganised withdrawal order, with much of it lost in the retreat through the far fringes of the sector. Cut off from their distant home and left without further orders from USSP Naval Command, the survivors now endure in isolation. The Naval Infantry, burdened by sustained losses and threadbare leadership, remain a battle-tested but increasingly strained force. Held together by camaraderie, pride, and the stubborn belief that their sacrifice must still have meaning, the Remnants now struggle to preserve what remains, some holding fast to the hope that one day the Union will return, while others begin to doubt that it ever will.
+ussp-description = USSP残余部队是第78远征舰队及其附属的第13海军步兵营的幸存成员。曾经在‘圆桌行动’中负责确保巨像区的安全，这支远征舰队却因突如其来的混乱撤退命令而被击溃，其中大部分在穿越区域边缘的撤退中丧失。与遥远的家乡失去联络，也没有收到USSP海军司令部的进一步命令，幸存者们现在孤立无援地生存着。海军步兵在持续的损失和稀薄的指挥下，依然是一支有过战斗经验但日益紧张的部队。凭借战友情、荣誉感以及固执地相信他们的牺牲仍有意义，残余部队努力保留着剩下的一切，有些人仍坚守着某一天联邦会归来的希望，而另一些人则开始怀疑这种希望是否真实。
 
 # 主要公司
 
@@ -55,18 +50,10 @@ The-Hive-description = 既臻旧境，何不新生？虫群乃将身躯奉献于
 
 paycheck-bratva-description = 薪饷兄弟会是源自USSP疆域的有组织犯罪网络。自从USSP这个太空超级大国移至巨像星区以来，它也随之渗透到该区域。主营高端毒品贸易、走私与大案劫掠，兼营各类标价目标刺杀。其运作遵循简易准则：开火必索命、绝不沾染毒品（尤忌自家产品）、对那些洒了薪饷兄弟会鲜血的人，血债必血偿。全员身着防弹背心与西装领带，佩戴巴拉克拉瓦头套或类似面具，确实是一个适合暴徒和职业劫匪的派系。
 
-viper-group-description = Formerly a Syndicate privateering company operating under the wing of Gorlex with a rigid military doctrine, their sole designated mission being disrupting interstellar shipping routes along the fringes of NT territory. After the Union of Soviet Socialist Planets declared its independence from the Confederacy, Viper Group saw an opportunity to exploit the nation's situation after the devastating corporate war and formed a branch office in USSP space as to facilitate local operations against TSF under the guise of "aiding" in the stabilization of USSP's borders against their former overlords, gaining respectable reputation amongst the USSP's early ranks and profit by selling looted ancient NT and syndicate equipment to the USSP's government and local blackmarkets. Post-Corporate war the Vipers had entirely migrated into USSP space with a PMC front, moving away from being associated publicly with the USSP's military and acting independently. With the USSP growing content with their sphere of influence amongst the stars following a series of devastating TSF incursions reclaiming territory from the USSP, the Vipers left their domain to prowl with their best virtue; Greed. The Vipers expanded their reach to target more opportunistic areas where one would not look twice their way upon catching their insignia, such as destabilized frontier planets and spacehubs of various groups of interest as they became notorious for conducting raids on supply and shipping routes; most notably those of the emergent TSF and PD. With leadership often violently switching hands once a Viper commander's fangs grow dull, the Vipers are seen as a wildcard whose only interest is credits and fullfilling contracts to the letter. Favorable relations with the Colossus' blackmarket expedited their arrival to the sector. For those whom yearn for danger and wealth, the Vipers bow to none; loyalty intertwined by brotherhood and fangs bared for credits.
-
-<<<<<<< HEAD
-# 敌对/非法关联企业
-
-viper-group-description = 曾是一家奉行军纪的私掠公司，唯一任务是在2号星区的USSP-TSF空间边缘沿线拦截、扰乱和没收TSF的航运路线。在经历了一系列重大悲剧事件后，蝰蛇集团（VG）骤然倒戈。TSF曾向这个前USSP支持的组织提供巨额报酬，以进行针对USSP的颠覆行动，却在不久后被他们出卖给了USSP。被虚假贿赂与致命背叛所驱使，TVG的领导层被任其腐烂；指挥权常在血腥更迭中易主，"贪婪即美德"最终成为成员的 无声信条。与非法星域的互利关系加速其扎根于此。若你渴求危险与财富，加入蝰蛇集团！
+viper-group-description = 前身是一个在戈尔雷克保护下运作的辛迪加私人舰队公司，拥有严格的军事教义，其唯一指定任务是扰乱NT领土边缘的星际航线。在苏维埃行星联盟宣布脱离联邦独立后，毒蛇集团看准机会，借助毁灭性的企业战争后的国家局势，在USSP空间设立了分支机构，以便在伪装为“协助”USSP稳定边境对抗前统治者的名义下，开展针对TSF的本地行动，在USSP早期军队中赢得了不俗声誉，同时通过向USSP政府和本地黑市出售掠夺得来的古老NT和辛迪加装备获取利润。企业战争后，毒蛇集团完全迁入USSP空间，以PMC为掩护，逐渐脱离与USSP军方的公开关联，独立行动。随着USSP在多次TSF毁灭性入侵后重新夺回领土，对其星际势力范围感到满意，毒蛇集团则释放了他们最大的美德：贪婪。他们扩展了势力范围，瞄准那些人们不会在意他们标志的机会之地，例如动荡的边境行星和各利益集团的太空枢纽，因此以袭击补给和航运线路而声名鹊起，其中尤以新兴的TSF和PD为甚。领导层往往在毒蛇指挥官失去锐气时暴力易手，因此毒蛇集团被视为一支只关心金钱、严格履行合同的无法预测的势力。他们与巨像黑市的良好关系加快了他们进入该区域的步伐。对于渴望危险和财富的人来说，毒蛇从不向任何人低头；兄弟情义与利牙紧密相连，为了金钱毫不畏惧。
 
 cerberus-surplus-provisions = Cerberus、CSP 或临时工公司，是一家来自法厄同王朝首都站赫利俄斯的黑市公司。CSP 从他们的“地下”总部进行各种黑社会活动，以通过交易任何可交换或找到的非法物品、武器或一般装备来为 PD（法厄同王朝）谋取利益。公司保持最高的自尊心，为潜在买家和商业伙伴保持强大而友好的公众形象。CSP 会与任何愿意与这条蛇达成交易的人合作。
-=======
-cerberus-surplus-provisions = Cerberus Surplus Provisons, or CSP, is a conglomerate of brokers, producers, and specalists operating in different divisions that were recently uplifted by the Phaetheon Dynasty who CSP is openly backing in the Colossus invasion. It's constituents work togther for mutual profit and to bolster the Dynasty. Their MO is avoiding conflict, selling whatever they can get their hands on, and ensuring 'business interests' are represented in the sector. Anything can be bought and sold in the Colossus sector, you just need the tact to pull it off.
 
-redsail-corsairs-description = The RedSail Corsairs, or RSC, are a dangerous and influential group of pirates and brigands, who are publicly known to engage in illegal and violent activities against civilians, officials, and military personnel alike. Their source of income and specialization is hijacking, cargo theft, hostage-taking, and armed robbery. They are openly marked by Colossus Central as a criminal organization. As a whole, the Corsairs function as a union between freebooting raiders of all walks of life who have sworn loyalty to each other.
+redsail-corsairs-description = 红帆海盗团，简称RSC，是一个危险且有影响力的海盗和强盗组织，他们公开以对平民、官员以及军人进行非法和暴力活动而闻名。他们的收入来源和专长包括劫持、货物盗窃、劫持人质以及武装抢劫。这个组织已经被巨像中央公开标记为犯罪组织。整体来看，海盗团是一个由各行各业的自由抢劫者组成，并彼此效忠的联盟。
 
-plxcor-description = PLXCOR is a notable terrorist organization operating within the Colossus Sector. Members of PLXCOR, aka PLEX units, are known for their extreme views towards organic life aswell as their proclivity for violence. They are classed by all organizations operating within the Colossus Sector as a terrorist organization, wanted for crimes consisting of: mass murder; mass kidnapping; widespread terrorism; bioterrorism; bioterrorism with letoferol; torture; bodily mutilation; trafficking of sentient lifeforms; forced borging of sentient lifeforms; etc. They are to be considered armed and extremely dangerous.
->>>>>>> upstream
+plxcor-description = PLXCOR 是一个在巨像区域活动的著名恐怖组织。PLXCOR 的成员，也叫 PLEX 单元，以对有机生命的极端观点以及暴力倾向而闻名。在巨像区域运作的所有组织中，他们都被归类为恐怖组织，因犯有以下罪行而通缉：大规模谋杀；大规模绑架；大规模恐怖活动；生物恐怖主义；使用乐托酚的生物恐怖主义；拷打；肢体残害；贩卖有感知生命体；强行将有感知生命体改造成机械体；等等。他们被认为是武装且极其危险的。

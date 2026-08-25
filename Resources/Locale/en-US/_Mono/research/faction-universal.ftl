@@ -9,10 +9,5 @@ research-technology-universal-150mm-ammo = 150mm 弹药生产
 research-technology-universal-light-fighter-ordinance = 轻型战斗军械生产
 research-technology-universal-advanced-light-fighter-ordinance = 先进战斗装备生产
 
-<<<<<<< HEAD
 research-technology-universal-armorplates-1 = 弹道复合材料逆向工程
-research-technology-universal-armorplates-2 = 塑钢六层压花逆向工程
-=======
-research-technology-universal-armorplates-1 = Ballistic Composites Reverse Engineering
-research-technology-universal-armorplates-2 = Advanced Plate Material Reverse Engineering
->>>>>>> upstream
+research-technology-universal-armorplates-2 = 高级板材材料逆向工程

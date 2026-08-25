@@ -1,18 +1,13 @@
-<<<<<<< HEAD
-set-game-preset-command-description = Sets the game preset for the current round.
-set-game-preset-command-help-text = setgamepreset <id> [number of rounds, defaulting to 1] [decoy preset]
-=======
-set-game-preset-command-description = Sets the game preset for the specified number of upcoming rounds. Can also display another preset's title and description in the lobby to fool players.
-set-game-preset-command-help-text = setgamepreset <id> [number of rounds, defaulting to 1] [decoy preset]
+set-game-preset-command-description = 为指定的接下来几轮设置游戏预设。也可以在大厅显示另一个预设的标题和描述来愚弄玩家。
+set-game-preset-command-help-text = 设置游戏预设 <id> [number of rounds, defaulting to 1] [decoy preset]
 set-game-preset-command-hint-1 = <id>
 set-game-preset-command-hint-2 = [number of rounds]
 set-game-preset-command-hint-3 = [decoy preset]
->>>>>>> upstream
 
-set-game-preset-optional-argument-not-integer = If argument 2 is provided it must be a number.
-set-game-preset-preset-error = Unable to find game preset "{$preset}"
-set-game-preset-decoy-error = If argument 3 is provided it must be a valid preset. Unable to find game preset "{$preset}"
+set-game-preset-optional-argument-not-integer = 如果提供了参数2，它必须是一个数字。
+set-game-preset-preset-error = U无法找到游戏预设 "{$preset}"
+set-game-preset-decoy-error = 如果提供了第3个参数，它必须是有效的预设。无法找到游戏预设 "{$preset}"
 
-#set-game-preset-preset-set = Set game preset to "{$preset}"
-set-game-preset-preset-set-finite = Set game preset to "{$preset}" for the next {$rounds} rounds.
-set-game-preset-preset-set-finite-with-decoy = Set game preset to "{$preset}" for the next {$rounds} rounds, showing {$decoy} in the lobby.
+#set-game-preset-preset-set = 设置游戏预设为 "{$preset}"
+set-game-preset-preset-set-finite = 设置游戏预设为 "{$preset}" 为下一个 {$rounds} 回合.
+set-game-preset-preset-set-finite-with-decoy = 设置游戏预设为 "{$preset}" 为下一个 {$rounds} 回合, 显示 {$decoy} 在大厅界面.

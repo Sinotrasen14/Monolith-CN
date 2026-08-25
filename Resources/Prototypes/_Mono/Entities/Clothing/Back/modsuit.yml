@@ -12,36 +12,6 @@
       gloves: ClothingModsuitGauntletsUSSPVaryag
       outerClothing: ClothingModsuitChestplateUSSPVaryag
       shoes: ClothingModsuitBootsUSSPVaryag
-<<<<<<< HEAD
-  - type: WiresPanel
-  - type: ItemSlots
-    slots:
-      cell_slot:
-        name: '动力电池插槽组件默认插槽名称 | power-cell-slot-component-slot-name-default'
-        whitelist:
-          components:
-            - PowerCell
-  - type: ItemSlotsRequirePanel
-    slots:
-      cell_slot: true
-  - type: PowerCellDraw
-    drawRate: 0.1 # Sealed draw rate
-    useRate: 0.5 # Draw rate for sealing
-  - type: PowerCellSlot
-    cellSlotId: cell_slot
-    fitsInCharger: false
-  - type: DoAfter
-  - type: SealableClothingControl
-  - type: SealableClothingRequiresPower
-  - type: SealableClothingVisuals
-    spriteLayer: sealed
-    clothingVisuals:
-      back:
-      - state: equipped-BACKPACK-sealed
-  - type: PirateBountyItem # Mono
-    id: ClothingOuterHardsuitTacsuit
-=======
->>>>>>> upstream
 
 - type: entity
   parent: ClothingModsuitUSSPVaryag
@@ -71,39 +41,6 @@
       gloves: ClothingModsuitGauntletsUSSPZastavnik
       outerClothing: ClothingModsuitChestplateUSSPZastavnik
       shoes: ClothingModsuitBootsUSSPZastavnik
-<<<<<<< HEAD
-  - type: WiresPanel
-  - type: ItemSlots
-    slots:
-      cell_slot:
-        name: '动力电池插槽组件默认插槽名称 | power-cell-slot-component-slot-name-default'
-        whitelist:
-          components:
-            - PowerCell
-  - type: ItemSlotsRequirePanel
-    slots:
-      cell_slot: true
-  - type: PowerCellDraw
-    drawRate: 0.1 # Sealed draw rate
-    useRate: 0.5 # Draw rate for sealing
-  - type: PowerCellSlot
-    cellSlotId: cell_slot
-    fitsInCharger: false
-  - type: DoAfter
-  - type: SealableClothingControl
-  - type: SealableClothingRequiresPower
-  - type: SealableClothingVisuals
-    spriteLayer: sealed
-    clothingVisuals:
-      back:
-      - state: equipped-BACKPACK-sealed
-  - type: Construction
-    graph: Modsuit
-    node: headofsecurity
-  - type: PirateBountyItem # Mono
-    id: ClothingOuterHardsuitTacsuitHighValue
-=======
->>>>>>> upstream
 
 - type: entity
   parent: ClothingModsuitUSSPZastavnik
@@ -137,20 +74,6 @@
       gloves: ClothingModsuitGauntletsRogue
       outerClothing: ClothingModsuitChestplateRogue
       shoes: ClothingModsuitBootsRogue
-<<<<<<< HEAD
-  - type: WiresPanel
-  - type: ItemSlots
-    slots:
-      cell_slot:
-        name: '动力电池插槽组件默认插槽名称 | power-cell-slot-component-slot-name-default'
-        whitelist:
-          components:
-            - PowerCell
-  - type: ItemSlotsRequirePanel
-    slots:
-      cell_slot: true
-=======
->>>>>>> upstream
   - type: PowerCellDraw
     drawRate: 0.2 # Sealed draw rate
     useRate: 0.5 # Draw rate for sealing
@@ -191,29 +114,6 @@
       gloves: ClothingModsuitGauntletsVolta
       outerClothing: ClothingModsuitChestplateVolta
       shoes: ClothingModsuitBootsVolta
-<<<<<<< HEAD
-  - type: WiresPanel
-  - type: ItemSlots
-    slots:
-      cell_slot:
-        name: '动力电池插槽组件默认插槽名称 | power-cell-slot-component-slot-name-default'
-        whitelist:
-          components:
-            - PowerCell
-  - type: ItemSlotsRequirePanel
-    slots:
-      cell_slot: true
-  - type: PowerCellDraw
-    drawRate: 0.1 # Sealed draw rate
-    useRate: 0.5 # Draw rate for sealing
-  - type: PowerCellSlot
-    cellSlotId: cell_slot
-    fitsInCharger: false
-  - type: DoAfter
-  - type: SealableClothingControl
-  - type: SealableClothingRequiresPower
-=======
->>>>>>> upstream
   - type: SealableClothingVisuals
     spriteLayer: sealed
     clothingVisuals:

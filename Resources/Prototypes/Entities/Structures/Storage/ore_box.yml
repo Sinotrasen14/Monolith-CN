@@ -1,13 +1,8 @@
 - type: entity
   categories: [ HideSpawnMenu ] # Frontier: Use NF variant
   id: OreBox
-<<<<<<< HEAD
   name: 矿石箱 丨 ore box
-  description: 用于收集和存放未加工矿石及碎块的大型存储容器。# 前沿 - 原描述：用于存放未加工矿石的大型存储容器。 丨 A large storage container for collecting and holding unprocessed ores and fragments. # Frontier - was: A large storage container for holding unprocessed ores.
-=======
-  name: ore box
-  description: A large storage container for holding unprocessed ores.
->>>>>>> upstream
+  description: 用于收集和存放未加工矿石及碎块的大型存储容器。
   parent: BaseStructureDynamic
   components:
   - type: StaticPrice

@@ -8,7 +8,7 @@
   parent: BaseItem
   id: BaseShipVoucher
   name: 舰船兑换券
-  description: Used for free shuttle rentals from a shipyard.
+  description: 用于从船厂免费租用舰船。
   components:
   - type: Sprite
     sprite: _NF/Objects/Misc/shipyard_voucher.rsi
@@ -25,63 +25,28 @@
 # Service voucher
 - type: entity
   parent: BaseShipVoucher
-<<<<<<< HEAD
-  id: ShipVoucherNfsdSergeant
-  name: TSFMC medium 舰船兑换券
-  description: Allows for one free small to medium TSFMC ship purchase. Destroyed on sale.
-=======
   id: ShipVoucherFrontierService
-  name: service ship voucher
-  description: Allows for one free, small service ship purchase from the Frontier Staff Shipyard. Destroyed on sale.
->>>>>>> upstream
+  name: 服务舰船兑换卡
+  description: 允许从边境员工船厂免费购买一艘小型服务船。出售时会被销毁。
   components:
   - type: Sprite
     layers:
     - state: blue
     - state: voucherservice
   - type: ShipyardVoucher
-<<<<<<< HEAD
-    destroyOnEmpty: true
-    consoleType: Security
-    companyName: TSF
-    access:
-    - Sergeant # Frontier
-    accessGroups: # Frontier
-    - GeneralNfsdAccess # Frontier
-
-- type: entity
-  parent: ShipVoucherNfsdSergeant
-  id: ShipVoucherNfsdBailiff
-  name: TSFMC capital 舰船兑换券
-  description: Allows for one free small to capital TSFMC ship purchase. Destroyed on sale.
-  components:
-  - type: Sprite
-    layers:
-    - state: nfsd
-    - state: voucherbailiff
-  - type: ShipyardVoucher
-    companyName: TSF
-    access:
-    - Armory
-    - Sergeant # Frontier
-    - Bailiff # Frontier
-    accessGroups: # Frontier
-    - GeneralNfsdAccess # Frontier
-=======
     consoleType: Shipyard
     vessels:
     - Jitterbug
     - McChicken
     - McChilly
     - Spessbite
->>>>>>> upstream
 
 # Frontier vouchers
 - type: entity
   parent: BaseShipVoucher
   id: ShipVoucherFrontierJanitor
-  name: janitor 舰船兑换券
-  description: Allows for one free janitorial ship purchase from the Frontier Staff Shipyard. Destroyed on sale.
+  name: 清洁工 舰船兑换券
+  description: 允许从边境员工船厂免费购买一艘清洁船。出售时会被销毁。
   components:
   - type: Sprite
     layers:
@@ -97,26 +62,9 @@
 
 - type: entity
   parent: ShipVoucherFrontierJanitor
-<<<<<<< HEAD
-  id: ShipVoucherFrontierValet
-  name: valet 舰船兑换券
-  description: Allows for one free valet ship purchase from the Frontier Staff Shipyard. Destroyed on sale.
-  components:
-  - type: Sprite
-    layers:
-    - state: blue
-    - state: vouchervalet
-  - type: ShipyardVoucher
-    access:
-    - Service
-
-- type: entity
-  parent: ShipVoucherFrontierJanitor
-=======
->>>>>>> upstream
   id: ShipVoucherFrontierMailCarrier
-  name: mail carrier 舰船兑换券
-  description: Allows for one free mail ship purchase from the Frontier Staff Shipyard. Destroyed on sale.
+  name: 邮递员 舰船兑换券
+  description: 允许从前沿职员船厂免费购买一艘邮件船。出售时会被毁掉。
   components:
   - type: Sprite
     layers:
@@ -129,8 +77,8 @@
 - type: entity
   parent: ShipVoucherFrontierJanitor
   id: ShipVoucherFrontierGuard
-  name: station guard 舰船兑换券
-  description: Allows for one free guard ship purchase from the Frontier Staff Shipyard. Destroyed on sale.
+  name: 站点巡逻 舰船兑换券
+  description: 允许从前沿职员船厂免费购买一艘警戒舰。出售时会被销毁。
   components:
   - type: Sprite
     layers:

@@ -1,11 +1,6 @@
 - type: entity
-<<<<<<< HEAD
-  name: '45口径马格南螺栓 | 45_magnum bolt'
-  id: BulletEnergyGun45_magnum
-=======
-  name: 357_magnum bolt
+  name: '357口径马格南枪栓 | 357_magnum bolt'
   id: BulletEnergyGun357_magnum
->>>>>>> upstream
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:

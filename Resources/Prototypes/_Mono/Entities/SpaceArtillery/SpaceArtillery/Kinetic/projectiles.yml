@@ -336,10 +336,6 @@
       cluster-payload: !type:Container
 
 - type: entity
-<<<<<<< HEAD
-  id: ShipCyrexaProjectile
-  name: 'CYREXA 220mm 炮弹 | CYREXA 220mm projectile'
-=======
   id: Shrapnel90mmFlak
   name: shrapnel
   categories: [ HideSpawnMenu ]
@@ -615,7 +611,6 @@
 - type: entity
   id: 220mmBulletHE
   name: 220mm HE projectile
->>>>>>> upstream
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -652,13 +647,8 @@
   - type: MiningGatheringHard
 
 - type: entity
-<<<<<<< HEAD
-  id: ShipBoforsProjectile
-  name: '博福斯255mm 炮弹 | Bofors 255mm projectile'
-=======
   id: 220mmPelletHE
-  name: 220mm HE cluster-projectile
->>>>>>> upstream
+  name: 220mm HE 集束炮弹
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:

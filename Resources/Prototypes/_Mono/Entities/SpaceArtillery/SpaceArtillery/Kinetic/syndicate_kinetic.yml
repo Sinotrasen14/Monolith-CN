@@ -99,17 +99,12 @@
 
 - type: entity
   id: WeaponTurretAdderScattercannon
-<<<<<<< HEAD
-  name: '蝮蛇霰弹炮'
-  parent: BallisticArtillery
-=======
-  name: Adder scattercannon
+  name: 蝰蛇散弹炮
   suffix: Small, T1
   parent:
   - BallisticArtillery
   - BallisticArtilleryTier1HP
->>>>>>> upstream
-  description: A large, twin-barrelled scatter cannon, firing bursts of canister shot to shred any incoming missiles or potential boarders. Uses a self loading mechanism similar to the anaconda handgun.
+  description: 一把大型双管散弹炮，发射罐装弹来粉碎任何来袭的导弹或潜在的登船者。使用类似蟒蛇手枪的自装填机制。
   components:
   - type: StaticPrice
     price: 250
@@ -170,17 +165,12 @@
 
 - type: entity
   id: WeaponTurretFang
-<<<<<<< HEAD
-  name: '獠牙重型100mm 自动加农炮'
-  parent: BallisticArtillery
-=======
-  name: Fang heavy 90mm autocannon
+  name: 芳-重型90毫米自动炮
   suffix: Medium, T3
   parent:
   - BallisticArtillery
   - BallisticArtilleryTier3HP
->>>>>>> upstream
-  description: A heavy 90mm autocannon of syndicate design, created during the corporate war. Made for shattering opponent destroyers. Uses a self loading mechanism similar to the anaconda handgun.
+  description: 一种辛迪加设计的重型90毫米自动加农炮，诞生于企业战争时期。用来打毁敌方驱逐舰。采用类似于蟒蛇手枪的自装弹机制。
   components:
   - type: StaticPrice
     price: 2000
@@ -255,14 +245,10 @@
 
 - type: entity
   id: WeaponTurretHydra
-<<<<<<< HEAD
-  name: '九头蛇200mm 炮组'
-=======
-  name: Hydra 220mm battery
+  name: 九头蛇 220毫米炮组
   suffix: Large, T4
->>>>>>> upstream
   parent: BallisticArtilleryUnanchorable
-  description: A main cannonade of syndicate origin, the hydra is a monstrous tri-barreled battery of 220-millimeter pain, designed to shatter corpations' toughest vessels. Loads with a similar mechanism as the anaconda handgun.
+  description: 一门由辛迪加制造的主炮，九头蛇是一个巨大的三管220毫米伤害炮台，专为摧毁公司最坚固的舰船而设计。装弹机制类似于巨蟒手枪。
   components:
   - type: StaticPrice
     price: 20000
@@ -355,12 +341,12 @@
 
 - type: entity
   id: WeaponTurretLeviathan
-  name: LEVIATHAN 520mm howitzer
+  name: 利维坦520毫米榴弹炮
   suffix: Capital, T5
   parent:
   - BallisticArtilleryUnanchorable
   - BallisticArtilleryTier5HP
-  description: A heavy artillery gun of syndicate origin, the leviathan is tyrannic testiment of Syndicate ingenuity, designed to send a message. Able to crack NanoTrasen battleships, and small fighters in a single shell. Loads with a similar mechanism as the anaconda handgun.
+  description: 一门来自辛迪加的大型火炮，利维坦是辛迪加智慧的暴虐证明，设计用来传递信息。能够用一发炮弹击穿纳米特拉森的战列舰和小型战斗机。装填机制与蛇发女手枪类似。
   components:
   - type: StaticPrice
     price: 35000

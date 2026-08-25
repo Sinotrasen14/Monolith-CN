@@ -10,13 +10,8 @@
 #
 - type: pointOfInterest
   id: USSPCamelot
-<<<<<<< HEAD
-  parent: BasePOI
-  name: '卡美洛空间站'
-=======
   parent: [BasePOI, BaseRepairablePOI]
-  name: 'Freeport Camelot'
->>>>>>> upstream
+  name: 卡美洛自由港
   minimumDistance: 10650
   maximumDistance: 12400
   spawnGamePreset: [ NFAdventure, NFPirate, MonoStandard, MonoRogueUSSP, MonoTSFUSSP, MonoADS, MonoChimera, MonoMixed, MonoAllAtOnce ]
@@ -35,7 +30,7 @@
 
 - type: gameMap
   id: USSPCamelot
-  mapName: 'Freeport Camelot'
+  mapName: '卡美洛自由港'
   mapPath: /Maps/_Mono/POI/camelot.yml
   minPlayers: 0
   stations:
@@ -45,7 +40,7 @@
         - type: VesselMusic
           ambientMusicPrototype: CamelotMusic
         - type: VesselInfo
-          description: "A rickety old station that has been cobbled together over many many cycles..."
+          description: "一个摇摇欲坠的老车站，经过许多许多周期拼凑起来的..."
       components:
         - type: StationNameSetup
           mapNameTemplate: 'Freeport Camelot'

@@ -28,11 +28,7 @@
                            Orientation="Vertical">
         <!-- FTL Lock Section -->
         <controls1:StripeBack MinSize="48 48">
-<<<<<<< HEAD
-            <controls:Label Text="{controls:Loc '对接时同步FTL'}" HorizontalAlignment="Center"/>
-=======
-            <controls:Label Text="{controls:Loc 'shuttle-console-ftl-lock'}" HorizontalAlignment="Center"/>
->>>>>>> upstream
+            <controls:Label Text="{controls:Loc '穿梭机控制台-FTL锁'}" HorizontalAlignment="Center"/>
         </controls1:StripeBack>
         <controls:PanelContainer VerticalExpand="True" HorizontalExpand="True" Margin="4 4 4 4">
             <controls:PanelContainer.PanelOverride>
@@ -40,20 +36,12 @@
             </controls:PanelContainer.PanelOverride>
         <controls:BoxContainer Orientation="Horizontal" HorizontalAlignment="Stretch" Margin="5 5 5 5">
             <controls:Button Name="FTLLockEnabledButton"
-<<<<<<< HEAD
-                             Text="{controls:Loc '启用'}"
-=======
-                             Text="{controls:Loc 'shuttle-console-ftl-lock-enabled'}"
->>>>>>> upstream
+                             Text="{controls:Loc '穿梭机控制台FTL锁启用'}"
                              ToggleMode="True"
                              HorizontalExpand="True"
                              StyleClasses="OpenRight"/>
             <controls:Button Name="FTLLockDisabledButton"
-<<<<<<< HEAD
-                             Text="{controls:Loc '禁用'}"
-=======
-                             Text="{controls:Loc 'shuttle-console-ftl-lock-disabled'}"
->>>>>>> upstream
+                             Text="{controls:Loc '穿梭机控制台FTL锁禁用'}"
                              ToggleMode="True"
                              HorizontalExpand="True"
                              StyleClasses="OpenLeft"/>
@@ -62,11 +50,7 @@
 
         <!-- Docks Section -->
         <controls1:StripeBack MinSize="48 48">
-<<<<<<< HEAD
-            <controls:Label Text="{controls:Loc '对接口'}" HorizontalAlignment="Center"/>
-=======
-            <controls:Label Text="{controls:Loc 'shuttle-console-docks-label'}" HorizontalAlignment="Center"/>
->>>>>>> upstream
+            <controls:Label Text="{controls:Loc '穿梭机控制台停靠标签'}" HorizontalAlignment="Center"/>
         </controls1:StripeBack>
         <controls:PanelContainer VerticalExpand="True" HorizontalExpand="True" Margin="4 4 4 4">
             <controls:PanelContainer.PanelOverride>
@@ -78,11 +62,7 @@
                         <graphics:StyleBoxFlat BorderThickness="2" BorderColor="#333333" BackgroundColor="#121212"/>
                     </controls:PanelContainer.PanelOverride>
         <controls:Button Name="UndockAllButton"
-<<<<<<< HEAD
-                         Text="{controls:Loc '全部脱离'}"
-=======
-                         Text="{controls:Loc 'shuttle-console-undock-all'}"
->>>>>>> upstream
+                         Text="{controls:Loc '穿梭机控制台-全部解除对接'}"
                          Margin="5 5 5 5"
                          StyleClasses="ButtonSquare"/>
                 </controls:PanelContainer>

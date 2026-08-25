@@ -2,28 +2,6 @@
 
 - type: entity
   parent: TechDiskBase
-<<<<<<< HEAD
-  id: TechDiskSynthalloy
-  name: '前断代纪元 合成合金派系技术磁盘 | pre-fracture synthalloy faction tech disk'
-  description: '能够为服务器配方添加早期合成合金生产工艺的磁盘。效率低于现代合成合金生产方法。 | A disk capable of adding early synthalloy production processes to a server''s recipes. Less efficient than modern synthalloy methods.'
-  components:
-  - type: Sprite
-    layers:
-    - state: icon
-      map: ["enum.DamageStateVisualLayers.Base"]
-      color: "#d4d4d4"
-    - state: label
-    - state: protect
-    - state: dna
-      shader: unshaded
-  - type: TechnologyDisk
-    recipes:
-    - SynthalloyProductionTechDisk
-
-- type: entity
-  parent: TechDiskBase
-=======
->>>>>>> upstream
   id: TechDiskEnergyWeapons
   name: '前断代纪元 能量武器派系技术盘 | pre-fracture energy weapon faction tech disk'
   description: '可为阵营科技工厂服务器配方添加能量武器与护盾的技术磁盘。 | A disk capable of adding energy weapons and shields to a server''s recipes, for faction techfabs.'
@@ -49,13 +27,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskTSFAnnie
-<<<<<<< HEAD
-  name: 'TSF M-27安妮阵营科技磁盘 | TSF Annie faction tech disk'
-  description: '一张能够为派系技术工厂添加M-27安妮及其弹药配方的技术磁盘。 | A disk capable of adding the M-27 Annie and its ammo to a server''s recipes, for faction techfabs.'
-=======
   name: TSF Annie faction tech disk
-  description: A disk capable of adding the QBZ-430 Annie and its ammo to a server's recipes, for faction techfabs.
->>>>>>> upstream
+  description: 一个可以将QBZ-430 Annie及其弹药添加到服务器配方中的光盘，供派系科技工厂使用。
   components:
   - type: Sprite
     layers:
@@ -75,13 +48,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskTSFLecter
-<<<<<<< HEAD
-  name: 'TSF M-6Lecter 阵营技术磁盘 | TSF Lecter faction tech disk'
-  description: '一张可为阵营技术工厂添加M-6莱克特及其弹药配方的技术磁盘。 | A disk capable of adding the M-6 Lecter and its ammo to a server''s recipes, for faction techfabs.'
-=======
-  name: TSF Lecter faction tech disk
-  description: A disk capable of adding the QBZ-410 Lecter and its ammo to a server's recipes, for faction techfabs.
->>>>>>> upstream
+  name: TSF 莱克特派系科技光盘
+  description: 一个可以将 QBZ-410 力克特及其弹药添加到服务器配方里的光盘，用于派系科技工厂。
   components:
   - type: Sprite
     layers:
@@ -98,13 +66,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskTSFDrozd
-<<<<<<< HEAD
-  name: 'TSF M-5Drozd 阵营技术磁盘 | TSF Drozd faction tech disk'
-  description: '该磁盘可为阵营技术工厂服务器配方添加M-5 Drozd突击步枪及其弹药。 | A disk capable of adding the M-5 Drozd and its ammo to a server''s recipes, for faction techfabs.'
-=======
-  name: TSF Drozd faction tech disk
-  description: A disk capable of adding the CS/LR-8 Drozd and its ammo to a server's recipes, for faction techfabs.
->>>>>>> upstream
+  name: TSF Drozd 派系科技磁盘
+  description: 一个可以将 CS/LR-8 Drozd 及其弹药加入服务器配方的光盘，用于派系科技工厂。
   components:
   - type: Sprite
     layers:
@@ -124,13 +87,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskTSFBandit
-<<<<<<< HEAD
-  name: 'TSF MR-3强盗 技术磁盘 | Bandit tech disk'
-  description: '该磁盘可为阵营技术工厂添加MR-3强盗及其弹药至服务器配方库。 | A disk capable of adding the MR-3 Bandit and its ammo to a server''s recipes, for faction techfabs.'
-=======
-  name: TSF Bandit faction tech disk
-  description: A disk capable of adding the QBU-406 Bandit and its ammo to a server's recipes, for faction techfabs.
->>>>>>> upstream
+  name: TSF强盗派系科技磁盘
+  description: 一个可以将 QBU-406 匪徒和其弹药添加到服务器配方中的光盘，供派系科技工厂使用。
   components:
   - type: Sprite
     layers:
@@ -150,13 +108,8 @@
 - type: entity
   parent: TechDiskBase
   id: TechDiskTSFICWS
-<<<<<<< HEAD
-  name: 'TSF ICWS阵营技术磁盘 | TSF ICWS faction tech disk'
-  description: '一张可为阵营技术制造台添加XLR-5.56 ICWS及其弹药配方的磁盘。 | A disk capable of adding the XLR-5.56 ICWS and its ammo to a server''s recipes, for faction techfabs.'
-=======
-  name: TSF ICWS faction tech disk
-  description: A disk capable of adding the QBZX-281 ICWS and its ammo to a server's recipes, for faction techfabs.
->>>>>>> upstream
+  name: TSF ICWS阵营技术磁盘
+  description: 一张可以将 QBZX-281 ICWS 及其弹药添加到服务器配方里的光盘，用于派系科技工厂。
   components:
   - type: Sprite
     layers:

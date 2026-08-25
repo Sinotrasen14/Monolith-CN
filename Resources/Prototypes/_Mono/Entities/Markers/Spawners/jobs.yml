@@ -3,7 +3,7 @@
 - type: entity
   id: SpawnPointTSFCivilian
   parent: SpawnPointJobBase
-  name: TSF Civilian Spawn
+  name: TSF 平民生成点
   components:
   - type: SpawnPoint
     job_id: TsfCivilian
@@ -48,7 +48,7 @@
 - type: entity
   id: SpawnPointPDVBorg
   parent: SpawnPointJobBase
-  name: pdv cyborg
+  name: pdv 赛博格
   components:
   - type: SpawnPoint
     job_id: PdvBorg
@@ -63,7 +63,7 @@
 - type: entity
   id: SpawnPointPDVCivilian
   parent: SpawnPointJobBase
-  name: PDV Civilian Spawn
+  name: PDV 平民生成点
   components:
   - type: SpawnPoint
     job_id: PdvCivilian
@@ -85,31 +85,6 @@
     state: banner-red
 
 - type: entity
-<<<<<<< HEAD
-  id: SpawnPointUSSPMedic
-  parent: SpawnPointJobBase
-  name: '美军战斗医护兵 | USSP Combat Medic'
-  components:
-  - type: SpawnPoint
-    job_id: USSPMedic
-  - type: Sprite
-    sprite: Structures/Decoration/banner.rsi
-    state: banner-red
-
-- type: entity
-  id: SpawnPointUSSPCorporal
-  parent: SpawnPointJobBase
-  name: 'USSP 上等兵 | USSP Efreitor'
-  components:
-  - type: SpawnPoint
-    job_id: USSPCorporal
-  - type: Sprite
-    sprite: Structures/Decoration/banner.rsi
-    state: banner-red
-
-- type: entity
-=======
->>>>>>> upstream
   id: SpawnPointUSSPSergeant
   parent: SpawnPointJobBase
   name: 'USSP 军士 | USSP Serzhant'
@@ -175,7 +150,7 @@
 - type: entity
   id: SpawnPointTSFBorg
   parent: SpawnPointJobBase
-  name: tsf cyborg
+  name: tsf 赛博格
   components:
   - type: SpawnPoint
     job_id: TsfBorg

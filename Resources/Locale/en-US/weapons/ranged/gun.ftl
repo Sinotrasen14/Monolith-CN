@@ -1,24 +1,13 @@
 
-<<<<<<< HEAD
 gun-selected-mode-examine = 当前选择的开火模式为 [color={$color}]{$mode}[/color].
 gun-fire-rate-examine = 射速为每秒[color={$color}]{$fireRate}[/color]发。
+gun-damage-modifier-examine = 它的射击造成 [color={$color}]{$damage}x[/color] 伤害。
 gun-selector-verb = 切换为 {$mode}
 gun-selected-mode = 已选择 {$mode}
 gun-disabled = 你无法使用枪械!
 gun-clumsy = 枪在你面前炸膛了！
 gun-set-fire-mode = 设置为 {$mode}
 gun-magazine-whitelist-fail = 那放不进这把枪里!
-=======
-gun-selected-mode-examine = Current selected fire mode is [color={$color}]{$mode}[/color].
-gun-fire-rate-examine = Fire rate is [color={$color}]{$fireRate}[/color] rounds per minute.
-gun-damage-modifier-examine = Its shots deal [color={$color}]{$damage}x[/color] damage.
-gun-selector-verb = Change to {$mode}
-gun-selected-mode = Selected {$mode}
-gun-disabled = You can't use guns!
-gun-clumsy = The gun blows up in your face!
-gun-set-fire-mode = Set to {$mode}
-gun-magazine-whitelist-fail = That won't fit into the gun!
->>>>>>> upstream
 
 # SelectiveFire
 gun-SemiAuto = 半自动
@@ -63,10 +52,5 @@ gun-revolver-spun = 已旋转
 gun-speedloader-empty = 清空快速装弹器
 
 # GunSpreadModifier
-<<<<<<< HEAD
 examine-gun-spread-modifier-reduction = 扩散已经减少了 [color=yellow]{$percentage}%[/color].
 examine-gun-spread-modifier-increase = 扩散已经增加了 [color=yellow]{$percentage}%[/color].
-=======
-examine-gun-spread-modifier-reduction = The spread has been reduced by [color=yellow]{$percentage}%[/color].
-examine-gun-spread-modifier-increase = The spread has been increased by [color=yellow]{$percentage}%[/color].
->>>>>>> upstream

@@ -1,29 +1,16 @@
-<<<<<<< HEAD
-guide-entry-nf14 = 边境宇宙指南
-guide-entry-bank = TSF 中央银行
+# Base entries
+guide-entry-nf14 = 巨像宇宙指南
+guide-entry-basics = 开始向导
+guide-entry-bank = 巨像中央银行
+guide-entry-safety-deposit-box = 保险箱系统
 guide-entry-piloting = 驾驶
 guide-entry-startinggear = 初始装备
 guide-entry-hiring = 雇佣船员
 guide-entry-expeditions = 远征
 guide-entry-sector-topology = 星区拓扑学
 guide-entry-cargo-hauling = 货物运输
-guide-entry-shipyard = 造船厂
+guide-entry-shipyard = 船坞
 guide-entry-frontier-rules = 服务器规则
-=======
-# Base entries
-guide-entry-nf14 = Monolith Basics
-guide-entry-basics = Starting Guide
-guide-entry-bank = Colossus Central Bank
-guide-entry-safety-deposit-box = Safety Deposit Box System
-guide-entry-piloting = Piloting
-guide-entry-startinggear = Starting Equipment
-guide-entry-hiring = Hiring Crew
-guide-entry-expeditions = Expeditions
-guide-entry-sector-topology = Sector Topology
-guide-entry-cargo-hauling = Cargo Hauling
-guide-entry-shipyard = Shipyard
-guide-entry-frontier-rules = Server Rules
->>>>>>> upstream
 
 # Engineering entries
 guide-entry-gas-mining = 开采气体

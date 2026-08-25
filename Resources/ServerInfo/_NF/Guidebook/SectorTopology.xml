@@ -3,29 +3,14 @@
 
 <!-- Note: range values will not scale with the world size cvar! -->
 
-<<<<<<< HEAD
-巨像星区由一个巨大的、盘状的小行星带组成。在星带的中心，殖民前哨站是新手和经验丰富的朝圣者的抵达点。
+巨像区的拓扑结构由多个资源环和集群组成。
 
-殖民前哨站周围的区域大部分是空旷的空间。在此之外，有[bold]三个不同的区域[/bold]：
-=======
-The Colossus Sector topology consists of multiple rings and clusters for resources.
+巨像中心周围的区域大多是空旷的空间。再往外，有[bold]五个不同的区域[/bold]：
 
-The area immediately around Colossus Central is mostly empty space. Beyond this, there are [bold]five distinct zones[/bold]:
->>>>>>> upstream
+- 有两个星团，[color=gold]INSO-357k[/color] 和 [color=maroon]LINEAR-21[/color]。它们比周围的空间要丰富得多，一个是废料的墓地，另一个则是岩石密集区。
+- [color=#fbf236]内卢比孔[/color] ([color=gold]~8.5–9公里[/color]) 是一条薄但密集的小行星和残骸带，标志着文明空间的边界。
+- [color=#286c9c]外层云[/color] ([color=gold]~16 公里及更远[/color]) 是一个更稀疏、更古老的区域，但开采范围更广，且拥有种类更多的行星碎片和废料。
 
-- There are 2 clusters, [color=gold]INSO-357k[/color] & [color=maroon]LINEAR-21[/color]. They are significantly richer than the surrounding space, with one being a graveyard of scrap and the other a dense area of rock.
-- The [color=#fbf236]inner rubicon[/color] ([color=gold]~8.5–9 km[/color]) is a thin but dense belt of asteroids and scrap marking the border of civilized space.
-- The [color=#286c9c]outer cloud[/color] ([color=gold]~16 km and beyond[/color]) is a sparser and older field, yet much wider to mine in, with a much more diverse set of asteroids and scrap.
-
-<<<<<<< HEAD
-- [color=#c73232]内环[/color]（[color=gold]≤5公里[/color]）已被开发为服务站的基地，例如[color=forestgreen]贸易前哨站(Trade Outpost)[/color]和[color=mediumturquoise]医疗调度中心(Medical Dispatch)[/color]。你仍然可以找到零星的废料、小型的小行星以及偶尔出现的残骸，但更好的材料在更远的地方才能找到。在这个区域的边缘，你会找到[color=green]货运仓库[/color]，这是大多数货运飞船的目的地。
-- [color=#fbf236]中环[/color]（[color=gold]~5–9公里[/color]）是我们工业基础的基石。这里有各种可供开采的[color=orchid]矿物[/color]和可供钻探的[color=lightpink]气体矿床[/color]，是[color=peru]矿工[/color]的粮仓。
-- [color=#286c9c]外环[/color]（[color=gold]~9–20公里[/color]）是你会找到巨大的[color=skyblue]冰质小行星[/color]和不寻常的[color=orange]黄铜残骸[/color]的地方。这个环是星区内大多数[color=plum]研究人员[/color]感兴趣的对象。
-- The [color=#af0f0f]远外环[/color] ([color=gold]20+ 公里[/color]) is [color=red]尚未得到充分研究[/color]. 有人报告过与不明船只的遭遇。
-
-在此之外，任何邻近星区之间都存在着巨大的虚空。若没有能够进行跨星区旅行的引擎，不建议离开小行星带的边缘。
-=======
-The outer cloud spans indefinitely. Travellers entering this zone without sufficient preparation and means of threat management risk never returning again.
->>>>>>> upstream
+外层云层无边无际。没有充分准备和应对威胁手段的旅行者，一旦进入这个区域，可能永远无法返回。
 
 </Document>

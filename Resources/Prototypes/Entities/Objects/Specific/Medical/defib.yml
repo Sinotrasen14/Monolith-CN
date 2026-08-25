@@ -106,13 +106,8 @@
 - type: entity
   id: DefibrillatorSyndicate
   parent: DefibrillatorCompact
-<<<<<<< HEAD
-  name: 英特戴恩除颤器 丨 interdyne defibrillator
-  description: 也可用作针对有战争罪倾向的骑手的自卫武器。
-=======
-  name: advanced defibrillator
-  description: Doubles as a self-defense weapon against war-crime inclined tiders.
->>>>>>> upstream
+  name: 先进除颤器
+  description: 也可用作针对有战争罪倾向的恐怖分子的自卫武器。
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/defibsyndi.rsi

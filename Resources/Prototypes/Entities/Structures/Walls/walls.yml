@@ -80,11 +80,7 @@
 - type: entity
   parent: BaseWallTierTwo # Mono
   id: WallClock
-<<<<<<< HEAD
-  name: 钟表墙 丨 clock wall
-=======
-  name: brass wall
->>>>>>> upstream
+  name: 黄铜墙
   components:
   - type: Tag
     tags:
@@ -195,27 +191,6 @@
     key: walls
     base: debug
 
-<<<<<<< HEAD
-- type: entity
-  parent: BaseWallTierThree # Mono - surely its fine since diamonds are so rare
-  id: WallDiamond
-  name: 钻石墙 丨 diamond wall
-  components:
-  - type: Tag
-    tags:
-    - Wall
-  - type: Sprite
-    sprite: Structures/Walls/diamond.rsi
-  - type: Icon
-    sprite: Structures/Walls/diamond.rsi
-  - type: RCDDeconstructable
-    cost: 6
-    delay: 8
-    fx: EffectRCDDeconstruct8
-  - type: IconSmooth
-    key: walls
-    base: diamond
-=======
 #- type: entity
 #  parent: BaseWallTierThree # Mono - surely its fine since diamonds are so rare
 #  id: WallDiamond
@@ -235,7 +210,6 @@
 #  - type: IconSmooth
 #    key: walls
 #    base: diamond
->>>>>>> upstream
 
 - type: entity
   parent: BaseWallTierOne # Mono
@@ -391,12 +365,8 @@
 - type: entity
   parent: [ WallPlastitaniumDiagonalIndestructible, BaseWallTierTwo ] # Mono
   id: WallPlastitaniumDiagonal
-<<<<<<< HEAD
-  name: 塑料钛墙 丨 plastitanium wall
-=======
-  name: plastitanium wall
-  description: Keeps the air in and the chimera out. #Mono
->>>>>>> upstream
+  name: 塑钛墙 丨 plastitanium wall
+  description: 把空气留在内，奇美拉留在外。 #Mono
   suffix: diagonal
   placement:
     mode: SnapgridCenter
@@ -656,12 +626,8 @@
 #shuttle walls
 - type: entity
   id: WallShuttleDiagonal
-<<<<<<< HEAD
   name: 穿梭舱壁 丨 shuttle wall
-=======
-  name: shuttle wall
   parent: BaseWallTierOne
->>>>>>> upstream
   suffix: Diagonal
   description: 将空气留在里面，把灰潮挡在外面。 丨 Keeps the air in and the greytide out.
   placement:
@@ -774,30 +740,6 @@
 #  - type: Reflect # Frontier
 #    reflectProb: 1 # Frontier
 
-<<<<<<< HEAD
-- type: entity
-  parent: BaseWallTierOne # Mono
-  id: WallShuttleInterior
-  name: 穿梭墙 丨 shuttle wall
-  suffix: Interior
-  components:
-  - type: RCDDeconstructable
-    cost: 6
-    delay: 8
-    fx: EffectRCDDeconstruct8
-  - type: Sprite
-    sprite: Structures/Walls/shuttleinterior.rsi
-  - type: Icon
-    sprite: Structures/Walls/shuttleinterior.rsi
-  - type: Construction
-    graph: Girder
-    node: shuttleInteriorWall
-  - type: IconSmooth
-    key: walls
-    base: state
-#  - type: Reflect # Frontier
-#    reflectProb: 1 # Frontier
-=======
 #- type: entity
 #  parent: BaseWallTierOne # Mono
 #  id: WallShuttleInterior
@@ -820,7 +762,6 @@
 #    base: state
 ##  - type: Reflect # Frontier
 ##    reflectProb: 1 # Frontier
->>>>>>> upstream
 
 - type: entity
   parent: BaseWallTierOne

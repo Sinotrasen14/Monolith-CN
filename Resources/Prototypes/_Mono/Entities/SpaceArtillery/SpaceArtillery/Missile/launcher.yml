@@ -65,17 +65,11 @@
 
 - type: entity
   id: WeaponTurretSerpentMissile
-<<<<<<< HEAD
-  name: '蛇式鱼雷发射器'
-  parent: BallisticArtillery
-  description: '蛇式鱼雷发射器：联合体在公司战争期间研发的轻型鱼雷发射装置，采用与蟒蛇系统类似的自动装弹机制。 | A light torpedo launcher developed by the Syndicate during the corporate war, uses similar systems to the anaconda for self loading munitons.'
-=======
-  name: Serpent torpedo launcher
+  name: 蛇式鱼雷发射器
   parent:
   - BallisticArtilleryUnanchorable
   - BallisticArtilleryTier3HP
-  description: A light torpedo launcher developed by the Syndicate during the corporate war, uses similar systems to the anaconda for self loading munitons.
->>>>>>> upstream
+  description: 这是公司战争期间辛迪加开发的一种轻型鱼雷发射器，使用了类似于巨蟒号的自装弹系统。
   components:
   - type: StaticPrice
     price: 5000
@@ -126,12 +120,12 @@
 
 - type: entity
   id: WeaponTurretTorpedoEntropy
-  name: Curio-1602 electron torpedo launcher "Entropy"
+  name: Curio-1602 电子鱼雷发射器“熵”
   suffix: ADS ONLY
   parent:
   - BallisticArtilleryUnanchorable
   - BallisticArtilleryTier3HP
-  description: An odd weapon of the pre-fracture era, it projects a mass of electrons that seek out the positive charge of nearby targets, overloading systems and shattering sections of hull.
+  description: 这是一种来自破碎前时代的奇怪武器，它发射出一团电子，寻找附近目标的正电荷，使系统过载并粉碎部分船体。
   components:
   - type: StaticPrice
     price: 5000

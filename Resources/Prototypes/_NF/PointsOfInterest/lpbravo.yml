@@ -11,15 +11,9 @@
 - type: pointOfInterest
   id: LPBravo
   parent: BasePOI
-<<<<<<< HEAD
   name: '布拉沃监听站'
-  minimumDistance: 9000
-  maximumDistance: 10000
-=======
-  name: 'Listening Point Bravo'
   minimumDistance: 15000
   maximumDistance: 17000
->>>>>>> upstream
   spawnGroup: SyndicateFOB
   gridPath: /Maps/_NF/POI/lpbravo.yml
   hideWarp: true
@@ -42,7 +36,7 @@
 
 - type: gameMap
   id: LPBravo
-  mapName: 'Listening Point Bravo'
+  mapName: '布拉沃监听站'
   mapPath: /Maps/_NF/POI/lpbravo.yml
   minPlayers: 0
   stations:
@@ -51,7 +45,7 @@
       stationProto: StandardFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Listening Point Bravo'
+          mapNameTemplate: '布拉沃监听站'
         - type: StationJobs
           availableJobs: {}
         - type: StationDeadDropHintExempt

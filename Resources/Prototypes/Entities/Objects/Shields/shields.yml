@@ -367,17 +367,10 @@
                   max: 5
 
 - type: entity
-<<<<<<< HEAD
-  name: 能量护盾 丨 energy shield
-  parent: BaseItem
-  id: EnergyShield
-  description: 异星能量护盾，折叠后甚至能放进口袋。 丨 Exotic energy shield, when folded, can even fit in your pocket.
-=======
-  name: energy shield
+  name: 能量护盾
   parent: [ BaseItem, BaseFactionGearPDVT2 ] # Mono
   id: EnergyShield
-  description: An advanced, self-recharging energy shield that can be fit in your pocket when folded. Extremely effective defensive tool against energy weapons. # Mono
->>>>>>> upstream
+  description: 一种先进的自我充能能量盾，折叠后可以放进口袋。对能量武器非常有效的防御工具。
   components:
     - type: ItemToggle
       predictable: false # WD EDIT

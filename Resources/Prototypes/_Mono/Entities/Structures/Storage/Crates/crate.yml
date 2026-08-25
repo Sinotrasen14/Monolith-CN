@@ -40,17 +40,10 @@
         - MachineLayer
 
 - type: entity
-<<<<<<< HEAD
-  parent: CrateGenericSteel
-  id: CrateNanotrasen
-  name: '纳米传讯箱 | Nanotrasen crate'
-  description: A white and blue crate with the Nanotrasen Symbol.
-=======
   parent: [CrateGenericSteel, BaseFactionGearOtherFactionT1]
   id: CrateNanotrasen
-  name: wayward crate
-  description: A white and blue crate embossed with the letters "NT". Ominous.
->>>>>>> upstream
+  name: NT 任性Wayward 科技箱子
+  description: 一个白色和蓝色的箱子，上面压着“NT”的字母。很不祥。
   components:
   - type: Icon
     sprite: _Mono/Structures/Storage/Crates/nanotrasen.rsi
@@ -60,8 +53,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateNanotrasenDS
-  name: wayward crate
-  description: A red and black crate with a menacing aura. it sends chills down your spine looking at it
+  name: NT DS任性Wayward 科技箱子
+  description: 一个带有红黑色的箱子，散发着一种威胁气息。看着它，让你脊背发凉
   components:
   - type: Icon
     sprite: _Mono/Structures/Storage/Crates/nt_ds.rsi
@@ -71,7 +64,7 @@
 - type: entity
   parent: CrateGenericSteel
   id: CrateMilitaryEquipment
-  name: military equipment crate
+  name: 军用装备箱
   components:
   - type: Icon
     sprite: _Mono/Structures/Storage/Crates/milequipment.rsi
@@ -81,8 +74,8 @@
 - type: entity
   parent: CrateGenericSteel
   id: CratePDVEquippment
-  name: PDV equipment crate
-  description: A black and brown crate used by the Vanguard, used to store miscellaneous equippment.
+  name: PDV 设备箱
+  description: 一只由先锋部队使用的黑棕色箱子，用来存放各种装备。
   components:
   - type: Icon
     sprite: _Mono/Structures/Storage/Crates/pdv.rsi

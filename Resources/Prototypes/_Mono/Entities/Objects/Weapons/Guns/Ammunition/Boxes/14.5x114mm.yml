@@ -32,11 +32,7 @@
 - type: entity
   parent: BaseAmmoBox145x114mm
   id: AmmoBox145x114mm
-<<<<<<< HEAD
   name: '弹药盒（14.5x114mm ） | ammunition box (14.5x114mm)'
-=======
-  name: ammunition box (14.5x114mm AP)
->>>>>>> upstream
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge145x114mm
@@ -61,11 +57,7 @@
 - type: entity
   parent: BaseAmmoBox145x114mm
   id: AmmoBox145x114mmBig
-<<<<<<< HEAD
   name: '大型弹药箱（14.5x114mm ） | big ammunition box (14.5x114mm)'
-=======
-  name: big ammunition box (14.5x114mm AP)
->>>>>>> upstream
   suffix: Big (30)
   components:
   - type: Item

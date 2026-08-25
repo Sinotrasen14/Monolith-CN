@@ -1,47 +1,8 @@
 - type: entity
-<<<<<<< HEAD
-  name: 造船快捷建设装置-RCD
-  parent: RCD
-  id: ShipyardRCD
-  description: 一种先进的建造设备，能够快速建造或移除墙壁，地板和气闸.设备上有一个刷卡槽.
-  components:
-  - type: RCD
-    isShipyardRCD: true
-  - type: Sprite
-    state: icon-shipyard
-
-- type: entity
-  id: ShipyardRCDEmpty
-  parent: ShipyardRCD
-  suffix: Empty
-  components:
-    - type: LimitedCharges
-      charges: 0
-
-- type: entity
-  name: 造船RCD 压缩物质筒
-  parent: RCDAmmo
-  id: ShipyardRCDAmmo
-  description: Ammo cartridge for a shipyard RCD.
-  components:
-  - type: RCDAmmo
-    isShipyardRCDAmmo: true
-  - type: Sprite
-    state: ammo-shipyard
-  - type: Item
-    heldPrefix: ammo-shipyard
-
-- type: entity
-  name: 多用途维护撬棍
+  name: 维护千斤顶
   parent: BaseItem
   id: MaintenanceJack
-  description: 能统治整个维护管道的强力工具，可撬开地砖与涂层，亦能固定设备。 #Mono
-=======
-  name: maintenance jack
-  parent: BaseItem
-  id: MaintenanceJack
-  description: A mighty tool for ruling maints. Pries tile and plating, hammers, and can anchor. #Mono
->>>>>>> upstream
+  description: 一个强大的工具，用来管理维修工作。可以撬开瓦片和金属板、锤子，还能用作锚点。 #Mono
   components:
   - type: Sprite
     sprite: _NF/Objects/Tools/maintenance-jack.rsi
@@ -124,10 +85,10 @@
         changeSound: /Audio/Effects/thudswoosh.ogg #Mono end
 
 - type: entity
-  name: the people's shovel
+  name: 人民的铁锹
   parent: Shovel
   id: NFShovel
-  description: "An old relic from the Glorious Leader. Capable of 18 functions, including digging, chopping, cutting, picking, prying, wire cutting, shoveling."
+  description: 来自光荣领袖的古老遗物。具备18种功能，包括挖掘、砍伐、切割、撬动、剪断电线、铲土等。
   components:
   - type: Sprite
     sprite: _NF/Objects/Tools/cm-shovel.rsi

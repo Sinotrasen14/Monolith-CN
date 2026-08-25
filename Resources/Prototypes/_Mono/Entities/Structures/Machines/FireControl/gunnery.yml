@@ -112,13 +112,8 @@
 
 - type: entity
   id: GunneryServerUltra
-<<<<<<< HEAD
-  parent: [GunneryServerBase] # removed BaseStructureDisableToolUse
-  name: '超高功率火炮控制服务器 | ultra-high-power gunnery control server'
-=======
   parent: [BaseStructureDisableToolUse, GunneryServerBase]
-  name: ultra-high-power gunnery control server
->>>>>>> upstream
+  name: 超高功率火炮控制服务器
   components:
   - type: Machine
     board: MachineGCSUltraCircuitboard
@@ -142,7 +137,7 @@
 - type: entity
   id: GunneryServerOmega
   parent: [BaseStructureDisableToolUse, GunneryServerBase]
-  name: '大功率火炮控制服务器 | omega-high-power gunnery control server'
+  name: '欧米茄火炮控制服务器 | omega-high-power gunnery control server'
   components:
   - type: Machine
     board: MachineGCSUltraCircuitboard

@@ -32,11 +32,7 @@
 - type: entity
   parent: BaseAmmoBox635x40mmCaseless
   id: AmmoBox635x40mmCaseless
-<<<<<<< HEAD
-  name: '弹药盒（635x40mm 无壳弹） | ammunition box (635x40mm Caseless)'
-=======
-  name: ammunition box (6.35x40mm Caseless)
->>>>>>> upstream
+  name: '弹药盒（6.35x40mm 无壳弹） | ammunition box (6.35x40mm Caseless)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge635x40mmCaseless
@@ -48,11 +44,7 @@
 - type: entity
   parent: BaseAmmoBox635x40mmCaseless
   id: AmmoBox635x40mmCaselessPractice
-<<<<<<< HEAD
-  name: '弹药盒（635x40mm 无壳练习弹） | ammunition box (635x40mm Caseless practice)'
-=======
-  name: ammunition box (6.35x40mm Caseless practice)
->>>>>>> upstream
+  name: '弹药盒（6.35x40mm 无壳练习弹） | ammunition box (6.35x40mm Caseless practice)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge635x40mmCaselessPractice
@@ -65,11 +57,7 @@
 - type: entity
   parent: BaseAmmoBox635x40mmCaseless
   id: AmmoBox635x40mmCaselessBigRubber
-<<<<<<< HEAD
-  name: '大型弹药箱（635x40mm 无壳橡胶弹） | big ammunition box (635x40mm Caseless rubber)'
-=======
-  name: big ammunition box (6.35x40mm Caseless rubber)
->>>>>>> upstream
+  name: '大型弹药箱（6.35x40mm 无壳橡胶弹） | big ammunition box (6.35x40mm Caseless rubber)'
   suffix: Big
   components:
   - type: Item
@@ -88,11 +76,7 @@
 - type: entity
   parent: BaseAmmoBox635x40mmCaseless
   id: AmmoBox635x40mmCaselessRubber
-<<<<<<< HEAD
-  name: '弹药盒（635x40mm 无壳橡胶弹） | ammunition box (635x40mm Caseless rubber)'
-=======
-  name: ammunition box (6.35x40mm Caseless rubber)
->>>>>>> upstream
+  name: '弹药盒（6.35x40mm 无壳橡胶弹） | ammunition box (6.35x40mm Caseless rubber)'
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge635x40mmCaselessRubber
@@ -106,11 +90,7 @@
 - type: entity
   parent: BaseAmmoBox635x40mmCaseless
   id: AmmoBox635x40mmCaselessBig
-<<<<<<< HEAD
-  name: '大型弹药箱（635x40mm 无壳弹） | big ammunition box (635x40mm Caseless)'
-=======
-  name: big ammunition box (6.35x40mm Caseless)
->>>>>>> upstream
+  name: '大型弹药箱（6.35x40mm 无壳弹） | big ammunition box (6.35x40mm Caseless)'
   suffix: Big
   components:
   - type: Item

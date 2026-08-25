@@ -33,12 +33,9 @@
       - MobCockroach
 
 - type: entity
-<<<<<<< HEAD
-  name: HoP 柯基生成器 丨 HoP Corgi Spawner
-=======
   parent: MarkerBase
   id: SpawnMobMoproach
-  name: Moproach Spawner
+  name: Moproach 生成器Spawner
   components:
   - type: Sprite
     layers:
@@ -51,8 +48,7 @@
     - MobMoproach
 
 - type: entity
-  name: HoP Corgi Spawner
->>>>>>> upstream
+  name: HoP 柯基生成器 Spawner
   id: SpawnMobCorgi
   parent: MarkerBase
   components:

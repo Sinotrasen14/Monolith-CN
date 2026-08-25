@@ -40,13 +40,8 @@
   # Mono end
 
 - type: entity
-<<<<<<< HEAD
-  name: PA 中国湖 丨 PA china lake
-  parent: [BaseWeaponLauncher, BaseGunWieldable]
-=======
-  name: PA china lake
+  name: PA 中国湖
   parent: [BaseWeaponLauncher, BaseGunWieldable, BaseFactionGearOtherFactionT3]
->>>>>>> upstream
   id: WeaponLauncherChinaLake
   description: 噗噜。 丨 PLOOP.
   components:

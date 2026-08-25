@@ -7,19 +7,12 @@
 # Discord: ???
 - type: pointOfInterest
   id: HeliosFortress
-<<<<<<< HEAD
-  parent: BasePOI
-  name: 'PDV 赫利俄斯要塞'
-  minimumDistance: 7500
-  maximumDistance: 9500
-=======
   parent: [BasePOI, BaseRepairablePOI]
-  name: 'PDV Helios Fortress'
+  name: 'PDV 赫利俄斯要塞'
   minimumDistance: 8600
   maximumDistance: 11500
   #posX: -5000
   #posY: 9000
->>>>>>> upstream
   spawnGamePreset: [ NFAdventure, NFPirate, MonoStandard, MonoRogueTSF, MonoRogueUSSP, MonoADS, MonoChimera, MonoMixed, MonoAllAtOnce ]
   spawnGroup: Required
   gridPath: /Maps/_Mono/POI/pdvhelios.yml
@@ -37,7 +30,7 @@
 
 - type: gameMap
   id: HeliosFortress
-  mapName: 'PDV Helios Fortress'
+  mapName: 'PDV 赫利俄斯要塞'
   mapPath: /Maps/_Mono/POI/pdvhelios.yml
   minPlayers: 0
   stations:
@@ -73,7 +66,7 @@
 - type: pointOfInterest
   id: HeliosFortressHyperwar
   parent: [BasePOI, BaseRepairablePOI]
-  name: 'PDV Helios Fortress'
+  name: 'PDV 赫利俄斯要塞'
   minimumDistance: 7500
   maximumDistance: 9500
   spawnGamePreset: [ MonoRogueTSFHyperwar ]
@@ -86,7 +79,7 @@
 
 - type: gameMap
   id: HeliosFortressHyperwar
-  mapName: 'PDV Helios Fortress'
+  mapName: 'PDV 赫利俄斯要塞'
   mapPath: /Maps/_Mono/POI/pdvhelios_hw.yml
   minPlayers: 0
   stations:
@@ -94,7 +87,7 @@
       stationProto: RecordsFrontierOutpostCargo
       gridComponents:
       - type: VesselInfo
-        description: "An oppressive imperial aura lurks here. Glory to the Sultan."
+        description: "这里潜伏着压迫性的帝国气息。愿苏丹荣耀."
       - type: Tag
         tags:
         - PdvStation

@@ -62,8 +62,8 @@
 - type: entity
   id: MechGygaxTSF
   parent: MechGygax
-  name: TSF Gygax
-  description: While lightly armored, the Gygax has incredible mobility thanks to its ability to punch through walls at high speeds.
+  name: TSF Gygax机甲
+  description: 虽然护甲轻薄，吉加克斯凭借其高速穿墙的能力拥有令人难以置信的机动性。
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -89,8 +89,8 @@
 - type: entity
   id: MechGygaxPDV
   parent: MechGygax
-  name: PDV Gygax
-  description: While lightly armored, the Gygax has incredible mobility thanks to its ability to punch through walls at high speeds.
+  name: PDV Gygax机甲
+  description: 虽然护甲轻薄，吉加克斯凭借其高速穿墙的能力拥有令人难以置信的机动性。
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -116,8 +116,8 @@
 - type: entity
   id: MechDurandTSF
   parent: MechDurand
-  name: TSF Durand
-  description: A slow but beefy combat exosuit that is extra scary in confined spaces due to its punches. Xenos hate it!
+  name: TSF Durand机甲
+  description: 一款动作缓慢但力量十足的战斗外骨骼，在狭小空间里由于它的拳击尤为可怕。异形都怕它！
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -143,8 +143,8 @@
 - type: entity
   id: MechDurandPDV
   parent: MechDurand
-  name: PDV Durand
-  description: A slow but beefy combat exosuit that is extra scary in confined spaces due to its punches. Xenos hate it!
+  name: PDV Durand机甲
+  description: 一款动作缓慢但力量十足的战斗外骨骼，在狭小空间里由于它的拳击尤为可怕。异形都怕它！
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -289,8 +289,8 @@
 - type: entity
   id: AFInterceptorTSF
   parent: AFInterceptor
-  name: TSF AF-28 "Broadsword"
-  description: One of the first purpose built Armored Frames, made to engage light targets and other Armored Frames.
+  name: 'AF-28「阔剑」机甲 | AF-28 "Broadsword"'
+  description: 首批专用装甲型号之一，用于攻击轻型目标及其他装甲机架。
   components:
   - type: Mech
     baseState: tsfbroadsword
@@ -306,8 +306,8 @@
 - type: entity
   id: AFInterceptorPDV
   parent: AFInterceptor
-  name: PDV AF-28 "Broadsword"
-  description: One of the first purpose built Armored Frames, made to engage light targets and other Armored Frames.
+  name: 'PDV AF-28「阔剑」机甲 | PDV AF-28 "Broadsword"'
+  description: 首批专用装甲型号之一，用于攻击轻型目标及其他装甲机架。
   components:
   - type: Mech
     baseState: pdvbroadsword
@@ -323,15 +323,9 @@
 
 - type: entity
   id: AFInterceptorM
-<<<<<<< HEAD
-  parent: [LightMultiroleMount, AFInterceptor]
+  parent: [MediumMechMount, AFInterceptor]
   name: 'AF-28-M「长戟」机甲 | AF-28-M "Halberd"'
   description: '基于阔剑级改造的长戟级，通过削弱装甲与航速换取了重型武器挂载能力。 | A modification of the Broadsword, the Halberd sacrifices armor and speed for heavier weapon mounts.'
-=======
-  parent: [MediumMechMount, AFInterceptor]
-  name: AF-28-M "Halberd"
-  description: A modification of the Broadsword, the Halberd sacrifices light weapon mounts and speed for more armor and medium weapon mounts..
->>>>>>> upstream
   components:
   - type: Mech
     baseState: broadsword
@@ -376,17 +370,10 @@
 
 #TSF Halberd
 - type: entity
-<<<<<<< HEAD
-  id: AFInterceptorG
-  parent: [LightMultiroleMount, AFInterceptor]
-  name: 'AF-28-G「军刀」机甲 | AF-28-G "Sabre"'
-  description: '基于阔剑的改进型号，军刀取消了喷气背包与太空防护盾功能以适配行星环境。配备两个挂载点，可搭载轻型或中型武器。 | A modification of the Broadsword, the Sabre sacrifices it''s jetpack and spaceproof shielding to function on planets. Has two hardpoints, which can carry Light or Medium hardpoints.'
-=======
   id: AFInterceptorMTSF
   parent: AFInterceptorM
-  name: TSF AF-28-M "Halberd"
-  description: A modification of the Broadsword, the Halberd sacrifices armor and speed for heavier weapon mounts.
->>>>>>> upstream
+  name: 'AF-28-G「军刀」机甲 | AF-28-G "Sabre"'
+  description: '基于阔剑的改进型号，军刀取消了喷气背包与太空防护盾功能以适配行星环境。配备两个挂载点，可搭载轻型或中型武器。 | A modification of the Broadsword, the Sabre sacrifices it''s jetpack and spaceproof shielding to function on planets. Has two hardpoints, which can carry Light or Medium hardpoints.'
   components:
   - type: Mech
     baseState: tsfbroadsword
@@ -402,8 +389,8 @@
 - type: entity
   id: AFInterceptorMPDV
   parent: AFInterceptorM
-  name: PDV AF-28-M "Halberd"
-  description: A modification of the Broadsword, the Halberd sacrifices armor and speed for heavier weapon mounts.
+  name: 'PDV AF-28-M「长戟」机甲 | PDV AF-28-M "Halberd"'
+  description: 基于阔剑级改造的长戟级，通过削弱装甲与航速换取了重型武器挂载能力。
   components:
   - type: Mech
     baseState: pdvbroadsword
@@ -520,8 +507,8 @@
 - type: entity
   id: AFFlailTSF
   parent: AFFlail
-  name: TSF ASF-59 "Flail"
-  description: Newest mech on the market, the Armored Strike Frame is built to tackle ship-sized foes with it's oversized weapon mounts. Slow as a pig however, it tacks on generous armor plating to survive it's runs.
+  name: 'TSF ASF-59「连枷」机甲 | ASF-59 "Flail"'
+  description: 市场上最新的机甲装甲，搭载突击框架以其超规格武器挂架，专为应对舰船级敌人而生。虽迟缓如猪却配备厚重装甲板以确保作战存活率。
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -546,8 +533,8 @@
 - type: entity
   id: AFFlailPDV
   parent: AFFlail
-  name: PDV ASF-59 "Flail"
-  description: Newest mech on the market, the Armored Strike Frame is built to tackle ship-sized foes with it's oversized weapon mounts. Slow as a pig however, it tacks on generous armor plating to survive it's runs.
+  name: 'PDV ASF-59「连枷」机甲 | ASF-59 "Flail"'
+  description: 市场上最新的机甲装甲，搭载突击框架以其超规格武器挂架，专为应对舰船级敌人而生。虽迟缓如猪却配备厚重装甲板以确保作战存活率。
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -621,8 +608,8 @@
 - type: entity
   id: AFFlailETSF
   parent: AFFlailE
-  name: TSF ASF-59-E "Spyglass"
-  description: An extremely specialized mech based off the Flail Chassis. Uses sophisticated radar systems to provide command and control capabilities, in addition to employing advanced EWAR weaponry.
+  name: 'TSF ASF-59-E「千里镜」机甲 | ASF-59-E "Spyglass"'
+  description: 基于「钉头锤」机甲底盘的高度特化机甲。运用精密雷达系统提供指挥与控制能力，同时配备先进电子战武器。
   components:
   - type: Mech
     baseState: tsfflail
@@ -637,8 +624,8 @@
 - type: entity
   id: AFFlailEPDV
   parent: AFFlailE
-  name: PDV ASF-59-E "Spyglass"
-  description: An extremely specialized mech based off the Flail Chassis. Uses sophisticated radar systems to provide command and control capabilities, in addition to employing advanced EWAR weaponry.
+  name: 'PDV ASF-59-E「千里镜」机甲 | ASF-59-E "Spyglass"'
+  description: 基于「钉头锤」机甲底盘的高度特化机甲。运用精密雷达系统提供指挥与控制能力，同时配备先进电子战武器。
   components:
   - type: Mech
     baseState: pdvflail
@@ -696,8 +683,8 @@
 - type: entity
   id: AFMaceTSF
   parent: AFMace
-  name: TSF ASF-59-B "Mace"
-  description: A haphazard refit, armor plating is stripped off to add oversized boosters to the machine. Due to the power constraints, it can only equip a single weapon, limiting versatilty. Fits Heavy Mounts.
+  name: 'TSF ASF-59-B「钉头锤」机甲 | ASF-59-B "Mace"'
+  description: 随意改装的机体，装甲板被拆除以加装超大推进器。由于动力限制，仅能搭载单一武器，限制了多功能性。适配重型挂架。
   components:
   - type: Mech
     baseState: tsfflail
@@ -712,8 +699,8 @@
 - type: entity
   id: AFMacePDV
   parent: AFMace
-  name: PDV ASF-59-B "Mace"
-  description: A haphazard refit, armor plating is stripped off to add oversized boosters to the machine. Due to the power constraints, it can only equip a single weapon, limiting versatilty. Fits Heavy Mounts.
+  name: 'PDV ASF-59-B「钉头锤」机甲 | ASF-59-B "Mace"'
+  description: 随意改装的机体，装甲板被拆除以加装超大推进器。由于动力限制，仅能搭载单一武器，限制了多功能性。适配重型挂架。
   components:
   - type: Mech
     baseState: pdvflail

@@ -68,12 +68,6 @@
   - type: Tag
     tags:
     - VimPilot
-<<<<<<< HEAD
-  - type: NightVision # Goobstation - Nigthvision
-    color: "#808080"
-    activateSound: null
-    deactivateSound: null
-=======
   - type: NightVision # Gen 3 wide-quadtube
     relayOverlay: false
     goggleEffect: true
@@ -83,7 +77,6 @@
     action: ActionToggleNightVision
     phosphorColor: "#00FF00"
     lightingColor: "#FFFFFF32"
->>>>>>> upstream
 
 - type: entity
   name: 蜜蜂 丨 bee
@@ -343,13 +336,8 @@
     lifetime: 21
 
 - type: entity # TODO: figure out how to make these guys gib when stepped on
-<<<<<<< HEAD
   name: 蟑螂 丨 cockroach
-  parent: SimpleMobBase
-=======
-  name: cockroach
   parent: [SimpleMobBase, ProximityShootOverBase] #Mono: Shootover
->>>>>>> upstream
   id: MobCockroach
   description: 这个站点到处都是虫子。 丨 This station is just crawling with bugs.
   components:
@@ -928,7 +916,7 @@
   - type: ExaminableHunger
   - type: Hunger
     baseDecayRate: 10 # always hungry
-    starvingSlowdownModifier: 1  
+    starvingSlowdownModifier: 1
   - type: Butcherable
     spawned:
     - id: FoodMeat
@@ -1786,13 +1774,8 @@
   - type: GuidebookControlsTest
 
 - type: entity
-<<<<<<< HEAD
   name: 老鼠 丨 mouse
-  parent: SimpleMobBase
-=======
-  name: mouse
   parent: [SimpleMobBase, ProximityShootOverBase] #Mono: Shootover
->>>>>>> upstream
   id: MobMouse
   description: 吱吱！ 丨 Squeak!
   components:
@@ -1972,12 +1955,6 @@
       Taco: RatTaco
       Burger: RatBurger
       Skewer: RatSkewer
-<<<<<<< HEAD
-  - type: NightVision # Goobstation - Nigthvision
-    color: "#808080"
-    activateSound: null
-    deactivateSound: null
-=======
   - type: NightVision # Gen 3 wide-quadtube
     relayOverlay: false
     goggleEffect: true
@@ -1987,7 +1964,6 @@
     action: ActionToggleNightVision
     phosphorColor: "#00FF00"
     lightingColor: "#FFFFFF32"
->>>>>>> upstream
 
 - type: entity
   parent: MobMouse
@@ -2658,12 +2634,6 @@
       groups:
         Brute: -0.07
         Burn: -0.07
-<<<<<<< HEAD
-  - type: NightVision # Goobstation - Nigthvision
-    color: "#808080"
-    activateSound: null
-    deactivateSound: null
-=======
   - type: NightVision # Gen 3 wide-quadtube
     relayOverlay: false
     goggleEffect: true
@@ -2673,7 +2643,6 @@
     action: ActionToggleNightVision
     phosphorColor: "#00FF00"
     lightingColor: "#FFFFFF32"
->>>>>>> upstream
 
 - type: entity
   parent: MobSpiderBase
@@ -3547,13 +3516,8 @@
     - Hissing
 
 - type: entity
-<<<<<<< HEAD
   name: 仓鼠 丨 hamster
-  parent: [ SimpleMobBase, MobCombat, StripableInventoryBase]
-=======
-  name: hamster
   parent: [ SimpleMobBase, MobCombat, StripableInventoryBase, ProximityShootOverBase] #Mono: Shootover
->>>>>>> upstream
   id: MobHamster
   description: 一只可爱、毛茸茸、健壮的仓鼠。 丨 A cute, fluffy, robust hamster.
   components:
@@ -3773,13 +3737,8 @@
       task: RuminantCompound
 
 - type: entity
-<<<<<<< HEAD
   name: 迪奥娜仙女 丨 diona nymph
-  parent: [SimpleMobBase, StripableInventoryBase]
-=======
-  name: diona nymph
   parent: [SimpleMobBase, StripableInventoryBase, ProximityShootOverBase] #Mono: Shootover
->>>>>>> upstream
   id: MobDionaNymph
   description: 它就像一只猫，只是……多了些树枝。 丨 It's like a cat, only.... branch-ier.
   components:

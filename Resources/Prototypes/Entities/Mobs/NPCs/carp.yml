@@ -93,12 +93,6 @@
     interfaces:
       enum.SurgeryUIKey.Key:
         type: SurgeryBui
-<<<<<<< HEAD
-  - type: NightVision # Goobstation - Nigthvision
-    color: "#808080"
-    activateSound: null
-    deactivateSound: null
-=======
   - type: NightVision # Gen 3 wide-quadtube
     relayOverlay: false
     goggleEffect: true
@@ -108,7 +102,6 @@
     action: ActionToggleNightVision
     phosphorColor: "#00FF00"
     lightingColor: "#FFFFFF32"
->>>>>>> upstream
 
 - type: entity
   parent: BaseMobCarp

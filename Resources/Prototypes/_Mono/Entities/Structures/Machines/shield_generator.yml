@@ -2,7 +2,7 @@
 - type: entity
   id: ShieldGeneratorBase
   parent: BaseMachinePowered
-  name: Shield Generator
+  name: 护盾发生器
   abstract: true
   components:
   - type: AmbientOnPowered
@@ -118,8 +118,8 @@
 - type: entity
   id: ShieldGeneratorPOI
   parent: ShieldGeneratorBase
-  name: FS-421 "Fortress" Outpost Shield Generator
-  description: The Fortress. The latest and greatest in static, large-scale shielding.
+  name: FS-421 "Fortress" 前哨盾生成器
+  description: 堡垒。最新、最强大的静态大型防护。
   suffix: POI ONLY
   components:
   - type: ShipShieldEmitter
@@ -193,8 +193,8 @@
 - type: entity
   id: ShieldGeneratorPOIBio
   parent: ShieldGeneratorPOI
-  name: S-243 "Biodome" Biological Molecular Accelerator
-  description: A very expensive, bulky and specialized device that detects and 'excites' foreign DNA molecules caught inside its radius. Due to it being very heavy and quite expensive, it has been relegated to usage only on stationary outposts. In addition to its biological defense, this device has also been retrofitted with a regular shield generator.
+  name: S-243 "Biodome" 生物分子加速器
+  description: 一个非常昂贵、笨重且专用的装置，能够检测并“激活”被困在其半径内的外来DNA分子。由于它非常重且相当昂贵，所以只被用于固定哨站。除了生物防御功能外，这个装置还改装了一个普通的护盾发生器。
   suffix: POI ONLY
   components:
   - type: ShipShieldEmitter
@@ -232,13 +232,13 @@
     whitelist:
       tags:
         - Chimera
-        
+
 # TSF capital shield - inbetween POI and MS-500, meant for flyssa
 - type: entity
   id: ShieldGeneratorTSFCapital
   parent: ShieldGeneratorBase
-  name: LM-212 "Vanguard" Capital Shield Generator
-  description: A heavy capital shield. Good durability, quick recharge and anti-collison built in one.
+  name: LM-212 "Vanguard" 首都护盾发生器
+  description: 一把重型首都护盾。耐用性好，充能快，还自带防撞功能。
   suffix: TSF CAPITAL ONLY
   components:
   - type: ShipShieldEmitter
@@ -337,12 +337,8 @@
 - type: entity
   id: ShieldGeneratorMedium
   parent: ShieldGeneratorBase
-<<<<<<< HEAD
-  name: 'MS-250型「神盾」护盾发生器 | MS-250 "Aegis" Shield Generator'
-=======
-  name: MS-250 "Aegis" Shield Generator
-  description: The Aegis. Advanced shielding, with a long recharge time, with very high durability.
->>>>>>> upstream
+  name: MS-250 「神盾」 护盾发生器
+  description: 宙斯盾。高级护盾，充能时间长，但耐久非常高。
   suffix: ADS/TSF ONLY, SCI VOUCHER SHIPS ONLY
   components:
   - type: ShipShieldEmitter
@@ -432,8 +428,8 @@
 <<<<<<< HEAD
   name: 'MS-100哨兵护盾发生器 | MS-100 "Sentinel" Shield Generator'
 =======
-  name: MS-100 "Sentinel" Shield Generator
-  description: The Sentinel. A good, reliable shield.
+  name: MS-100 哨兵护盾发生器
+  description: 哨兵。一面好用、可靠的护盾。
 >>>>>>> upstream
   components:
   - type: ShipShieldEmitter

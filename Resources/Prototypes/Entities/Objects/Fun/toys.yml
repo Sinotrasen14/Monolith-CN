@@ -1340,13 +1340,8 @@
 - type: entity
   parent: [BaseItem, BaseFactionGearOtherFactionT1]
   id: BalloonNT
-<<<<<<< HEAD
-  name: 纳诺特拉森气球 丨 nanotrasen balloon
-  description: 专为对辛迪加特工造成最大心理伤害而设计。 丨 Specially designed to inflict maximum psychological damage to Syndicate operatives.
-=======
-  name: wayward balloon # Mono
-  description: Specially designed to inflict maximum psychological damage.
->>>>>>> upstream
+  name: wayward 气球 # Mono
+  description: 专门设计用来造成最大的心理伤害。
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi

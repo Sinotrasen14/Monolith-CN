@@ -7,22 +7,12 @@ station-event-bluespace-scrap-start-announcement = 蓝空航路检测到风暴�
 station-event-bluespace-scrap-warning-announcement = 探测到残骸区出现蓝空失稳，预计五分钟后脱离。
 station-event-bluespace-scrap-end-announcement = 检测到临界蓝空失稳，残骸风暴已脱离本星域。
 
-<<<<<<< HEAD
 station-event-bluespace-vault-start-announcement = Solarian 装甲补给库正在向本星域靠近。TSFMC可能将其宣布为禁飞区。若保障其安全回归，空间站账户将获得酬金。
 station-event-bluespace-vault-warning-announcement = 远程超光速程序已启动，五分钟后完成金库回收。
-station-event-bluespace-vault-end-announcement = 我们已从巨像星域回收该金库。空间站账户补贴已发放。
-
-station-event-bluespace-cache-start-announcement = 辛迪加武器储藏舱正在向本星域靠近。TSFMC可能将其宣布为禁飞区。守卫该储藏舱可使空间站账户获得酬金。
-station-event-bluespace-cache-warning-announcement = 远程超光速程序已启动，五分钟后完成武器库回收。
-station-event-bluespace-cache-end-announcement = 我们已从你方星域回收辛迪加武器库。空间站账户酬金已支付。
-=======
-station-event-bluespace-vault-start-announcement = A Solarian armored supply-vault is inbound to the sector. The TSFMC may declare the vault a restricted No Fly Zone. Station accounts will be rewarded for its safe return.
-station-event-bluespace-vault-warning-announcement = Remote FTL procedures initialized, five minutes until vault extraction.
-station-event-bluespace-vault-end-announcement = We have retrieved the vault from this area of Colossus space. TSFMC accounts have been subsidized.
-station-event-bluespace-cache-start-announcement = A Syndicate weapons cache is inbound to the sector. The TSFMC may declare the cache a No Fly Zone. Station accounts will be rewarded for guarding the cache.
-station-event-bluespace-cache-warning-announcement = Remote FTL procedures initialized, five minutes until weapons cache extraction.
-station-event-bluespace-cache-end-announcement = We have retrieved the Syndicate weapons cache from your sector. Station accounts have been paid.
->>>>>>> upstream
+station-event-bluespace-vault-end-announcement = 我们已经从巨像空间的这个区域取回了金库。TSFMC账户已得到补贴。
+station-event-bluespace-cache-start-announcement = 一个辛迪加武器储藏正送往该区域。TSFMC 可能会将这个储藏宣布为禁飞区。守卫储藏的站点账户将获得奖励。
+station-event-bluespace-cache-warning-announcement = 远程超光速程序已启动，武器库提取还有五分钟。
+station-event-bluespace-cache-end-announcement = 我们已经从你们辖区找回了辛迪加的武器库。站点账目已经结清。
 
 station-event-bluespace-asteroid-start-announcement = 远程扫描显示异常大小的小行星正在进入本星域。勘探者应调整作业计划，自由把握最大盈利机遇。
 station-event-bluespace-asteroid-warning-announcement = 探测到小行星出现蓝空失稳，预计五分钟后脱离。
@@ -48,16 +38,8 @@ station-event-bluespace-generic-ftl-start-announcement = 巨像星域全体人�
 station-event-bluespace-generic-ftl-warning-announcement = 远程超光速程序已启动，五分钟后完成不明舰船消散处理。
 station-event-bluespace-generic-ftl-end-announcement = 为保障超光速航路安全，不明舰船已执行消散处理以避免航行碰撞。
 
-<<<<<<< HEAD
 station-event-bluespace-name-BrokenMcDelivery = Mc运送舱
 station-event-bluespace-name-Cave = 岩穴
 station-event-bluespace-name-UnidentifiedVessel = 不明舰船
-station-event-bluespace-name-SecureNTVault = NT安全金库
+station-event-bluespace-name-SecureNTVault = 安全索拉里安金库
 station-event-bluespace-name-SyndicateWeaponsCache = 辛迪加武器库
-=======
-station-event-bluespace-name-BrokenMcDelivery = McDelivery
-station-event-bluespace-name-Cave = Cave
-station-event-bluespace-name-UnidentifiedVessel = Unidentified Vessel
-station-event-bluespace-name-SecureNTVault = Secure Solarian Vault
-station-event-bluespace-name-SyndicateWeaponsCache = Syndicate Weapons Cache
->>>>>>> upstream

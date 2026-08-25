@@ -1,13 +1,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitViperGroupStandard
-<<<<<<< HEAD
   name: '胡狼mk.II毒蛇重型防护服 | JACKAL mk.II viper hardsuit'
   description: '一款带有毒蛇组标志性纹饰的重型硬质护甲。该装甲在提供卓越防护的同时保持了惊人的灵活性。 | A heavy hardsuit adorned with signature markings of the Viper Group. The armor is remarkably flexible for the protection it offers.'
-=======
-  name: JACKAL mk.II viper hardsuit
-  description: A combat hardsuit adorned with signature markings of the Viper Group. The armor is remarkably flexible for the protection it offers.
->>>>>>> upstream
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/viper_group_standard.rsi
@@ -53,13 +48,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitViperGroupMedic
-<<<<<<< HEAD
   name: 'IMP mkIII毒蛇重型防护服 | IMP mk.III viper hardsuit'
   description: '带有蝮蛇小队标志性徽记的战斗医疗用硬质护甲。该装甲在关键部位配备多种强化护板。 | A combat medical hardsuit adorned with signature markings of the Viper Group. The armor features various reinforced plating in vital areas.'
-=======
-  name: RIPPER mk.III viper hardsuit
-  description: A combat medical hardsuit adorned with signature markings of the Viper Group. The armor features various reinforced plating in vital areas.
->>>>>>> upstream
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/viper_group_medic.rsi

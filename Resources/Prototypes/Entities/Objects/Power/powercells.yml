@@ -310,13 +310,8 @@
 - type: entity
   id: PowerCageSmall
   parent: BasePowerCage
-<<<<<<< HEAD
-  name: 小容量笼式动力电池 丨 small-capacity power cage
-  description: 适用于大型设备的可充电电源箱。这是你能找到的最便宜的一种。 丨 A rechargeable power cage for big devices. This is the cheapest kind you can find.
-=======
-  name: small-capacity power cage
-  description: A rechargeable power cage for big devices. This is the cheapest kind you can find, but it comes with some moderate EMP shielding.
->>>>>>> upstream
+  name: 小容量笼式动力电池
+  description: 一个为大型设备设计的可充电电源笼。这是你能找到的最便宜的类型，但它带有一些中等的电磁脉冲防护。
   components:
   - type: Sprite
     sprite: Objects/Power/power_cages.rsi
@@ -353,13 +348,8 @@
 - type: entity
   id: PowerCageMech
   parent: BasePowerCage
-<<<<<<< HEAD
-  name: 机甲燃料电池 丨 mech fuel cell
-  description: 机甲用可充电燃料电池。 丨 A rechargeable fuel cell for mechs.
-=======
-  name: mech fuel cell
-  description: An auto-recharging fuel cell for mechs.
->>>>>>> upstream
+  name: 机甲燃料电池
+  description: 一种用于机甲的自动充能燃料电池。
   components:
   - type: Sprite
     sprite: Objects/Power/power_cages.rsi

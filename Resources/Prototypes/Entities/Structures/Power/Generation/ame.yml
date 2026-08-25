@@ -1,12 +1,7 @@
 - type: entity
   id: AmeController
-<<<<<<< HEAD
-  name: 反物质引擎控制器 丨 AME controller
-  description: 这是反物质引擎的控制器。 丨 It's a controller for the antimatter engine.
-=======
-  name: IRE controller
-  description: It's a controller for the isotopes reaction engine.
->>>>>>> upstream
+  name: IRE 反物质引擎控制器
+  description: 这是反物质引擎的控制器。
   placement:
     mode: SnapgridCenter
   components:
@@ -145,13 +140,8 @@
 
 - type: entity
   id: AmeShielding
-<<<<<<< HEAD
-  name: 反物质能量护盾 丨 AME shielding
-  description: 将反物质封存于内，将物质隔绝于外。 丨 Keeps the antimatter in and the matter out.
-=======
-  name: IRE shielding
-  description: Keeps the isotopes in and extra radiation out.
->>>>>>> upstream
+  name: IRE 反物质能量护盾
+  description: 将反物质封存于内，将物质隔绝于外。
   placement:
     mode: SnapgridCenter
   components:

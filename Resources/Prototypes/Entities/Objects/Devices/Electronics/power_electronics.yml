@@ -2,13 +2,8 @@
 - type: entity
   id: APCElectronics
   parent: BaseElectronics
-<<<<<<< HEAD
   name: APC电子设备 丨 APC electronics
-  description: APC电子设备中使用的电路。 丨 Circuit used in APC construction.
-=======
-  name: APC electronics
-  description: Circuit used in APC construction. Can be put into a machine frame to alternatively make a large APC.
->>>>>>> upstream
+  description: 用于APC建造的电路。可以放入机器框架中，用来替代性地制造大型APC。
   components:
     - type: ApcElectronics
     - type: Sprite

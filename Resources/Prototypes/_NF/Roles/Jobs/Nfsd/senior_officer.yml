@@ -8,13 +8,7 @@
       time: 36000 # 20 hours # mono
     - !type:DepartmentTimeRequirement
       department: Security
-<<<<<<< HEAD
-      time: 18800 # 8 hours # mono
-    - !type:RoleTimeRequirement
-      role: JobSecurityOfficer
-=======
->>>>>>> upstream
-      time: 36000 # 10 hours # mono
+      time: 18000 # 10 hours # mono
   startingGear: SeniorOfficerGear
   icon: JobIconSergeant
   supervisors: job-supervisors-sheriff

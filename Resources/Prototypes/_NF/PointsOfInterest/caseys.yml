@@ -10,20 +10,15 @@
 # Down at your local saloon
 - type: pointOfInterest
   id: CaseysCasino
-<<<<<<< HEAD
-  parent: BasePOI
-  name: "狂人凯西赌场"
-=======
   parent: [BasePOI, BaseRepairablePOI]
-  name: "Crazy Casey's Casino"
->>>>>>> upstream
+  name: "狂人凯西赌场"
   minimumDistance: 4250
   maximumDistance: 5600
   gridPath: /Maps/_NF/POI/caseyscasino.yml
 
 - type: gameMap
   id: CaseysCasino
-  mapName: "Crazy Casey's Casino"
+  mapName: "狂人凯西赌场"
   mapPath: /Maps/_NF/POI/caseyscasino.yml
   minPlayers: 0
   stations:
@@ -31,4 +26,4 @@
       stationProto: DeadDropFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: "Crazy Casey's Casino"
+          mapNameTemplate: "狂人凯西赌场"

@@ -1,13 +1,8 @@
 - type: entity
-<<<<<<< HEAD
   name: TSFMC 能量剑
-  parent: EnergySword
-=======
-  name: TSFMC energy sword
   parent: [ BaseFactionGearTSFT2, EnergySword ]
->>>>>>> upstream
   id: EnergySwordNfsd
-  description: A very loud & dangerous sword with a beam made of pure, concentrated plasma. Cuts through unarmored targets like butter.
+  description: 一把非常响亮且危险的剑，剑刃由纯净、浓缩的等离子体构成。能像切黄油一样切开没有护甲的目标。
   components:
   - type: EnergySword
     colorOptions:
@@ -18,7 +13,7 @@
   id: NFEnergyPickaxe
   parent: EnergySword # Has a reflect chance
   name: 全息十字矿镐
-  description: A holographic mining tool with blades comprised of hard light. Doesn't pack the same punch as an energy weapon, but more compact than most mining tools when turned off.
+  description: 一款全息采矿工具，刀片由硬光组成。威力不如能量武器，但关掉时比大多数采矿工具更紧凑。
   components:
   - type: ItemToggleSize
     activatedSize: Huge

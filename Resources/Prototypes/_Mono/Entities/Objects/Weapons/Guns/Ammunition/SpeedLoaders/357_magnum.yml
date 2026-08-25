@@ -1,11 +1,6 @@
 - type: entity
-<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/SpeedLoaders/45_magnum.yml
-  id: BaseSpeedLoader45_magnum
-  name: '快速装弹器（.45 马格南） | speed loader (.45 magnum)'
-=======
   id: BaseSpeedLoader357_magnum
-  name: "speed loader (.357 magnum)"
->>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/SpeedLoaders/357_magnum.yml
+  name: '快速装弹器（.357 马格南） | speed loader (.357 magnum)'
   parent: BaseItem
   abstract: true
   components:
@@ -25,15 +20,9 @@
         ents: []
 
 - type: entity
-<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/SpeedLoaders/45_magnum.yml
-  id: SpeedLoader45_magnumFMJ
-  name: '快速装弹器（.45 马格南全金属被甲弹） | speed loader (.45 magnum FMJ)'
-  parent: BaseSpeedLoader45_magnum
-=======
   id: SpeedLoader357_magnumFMJ
-  name: "speed loader (.357 magnum FMJ)"
+  name: '快速装弹器（.357 马格南全金属被甲弹） | speed loader (.357 magnum FMJ)'
   parent: BaseSpeedLoader357_magnum
->>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/SpeedLoaders/357_magnum.yml
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge357_magnumFMJ
@@ -51,15 +40,9 @@
   - type: Appearance
 
 - type: entity
-<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/SpeedLoaders/45_magnum.yml
-  id: SpeedLoader45_magnumEmpty
-  name: '快速装弹器（适用于任何.45 马格南子弹） | speed loader (.45 magnum any)'
-  parent: SpeedLoader45_magnumFMJ
-=======
   id: SpeedLoader357_magnumEmpty
-  name: "speed loader (.357 magnum any)"
-  parent: SpeedLoader357_magnumFMJ
->>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/SpeedLoaders/357_magnum.yml
+  name: '快速装弹器（适用于任何.357 马格南子弹） | speed loader (.357 magnum any)'
+  parent: SpeedLoader45_magnumFMJ
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -75,29 +58,17 @@
         map: [ "enum.GunVisualLayers.Mag" ]
 
 - type: entity
-<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/SpeedLoaders/45_magnum.yml
-  id: SpeedLoader45_magnumIncendiary
-  name: '快速装弹器（.45 口径马格南燃烧弹） | speed loader (.45 magnum incendiary)'
-  parent: SpeedLoader45_magnumFMJ
-=======
   id: SpeedLoader357_magnumIncendiary
-  name: "speed loader (.357 magnum incendiary)"
-  parent: SpeedLoader357_magnumFMJ
->>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/SpeedLoaders/357_magnum.yml
+  name: '快速装弹器（.357 口径马格南燃烧弹） | speed loader (.357 magnum incendiary)'
+  parent: SpeedLoader45_magnumFMJ
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge357_magnumIncendiary
 
 - type: entity
-<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/SpeedLoaders/45_magnum.yml
-  id: SpeedLoader45_magnumPractice
-  name: '快速装弹器（.45 马格南练习用） | speed loader (.45 magnum practice)'
-  parent: BaseSpeedLoader45_magnum
-=======
   id: SpeedLoader357_magnumPractice
-  name: "speed loader (.357 magnum practice)"
+  name: '快速装弹器（.357 马格南练习用） | speed loader (.357 magnum practice)'
   parent: BaseSpeedLoader357_magnum
->>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/SpeedLoaders/357_magnum.yml
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge357_magnumPractice
@@ -115,15 +86,9 @@
   - type: Appearance
 
 - type: entity
-<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/SpeedLoaders/45_magnum.yml
-  id: SpeedLoader45_magnumAP
-  name: '快速装弹器（.45 马格南超强穿甲弹） | speed loader (.45 magnum extreme armor-piercing)'
-  parent: BaseSpeedLoader45_magnum
-=======
   id: SpeedLoader357_magnumAP
-  name: "speed loader (.357 magnum extreme armor-piercing)"
+  name: '快速装弹器（.357 马格南超强穿甲弹） | speed loader (.357 magnum extreme armor-piercing)'
   parent: BaseSpeedLoader357_magnum
->>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/SpeedLoaders/357_magnum.yml
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge357_magnumAP
@@ -141,15 +106,9 @@
   - type: Appearance
 
 - type: entity
-<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/SpeedLoaders/45_magnum.yml
-  id: SpeedLoader45_magnumUranium
-  name: '快速装弹器（.45 马格南铀弹） | speed loader (.45 magnum uranium)'
-  parent: BaseSpeedLoader45_magnum
-=======
   id: SpeedLoader357_magnumUranium
-  name: "speed loader (.357 magnum uranium)"
+  name: '快速装弹器（.357 马格南铀弹） | speed loader (.357 magnum uranium)'
   parent: BaseSpeedLoader357_magnum
->>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/SpeedLoaders/357_magnum.yml
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge357_magnumUranium
@@ -167,15 +126,9 @@
   - type: Appearance
 
 - type: entity
-<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/SpeedLoaders/45_magnum.yml
-  id: SpeedLoader45_magnumRubber
-  name: '快速装弹器（.45 马格南橡胶弹） | speed loader (.45 magnum rubber)'
-  parent: BaseSpeedLoader45_magnum
-=======
   id: SpeedLoader357_magnumRubber
-  name: "speed loader (.357 magnum rubber)"
+  name: '快速装弹器（.357 马格南橡胶弹） | speed loader (.357 magnum rubber)'
   parent: BaseSpeedLoader357_magnum
->>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/SpeedLoaders/357_magnum.yml
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge357_magnumRubber
@@ -195,15 +148,9 @@
 #Mono AP system
 #anti-flesh ammo
 - type: entity
-<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/SpeedLoaders/45_magnum.yml
-  id: SpeedLoader45_magnumHP
-  name: '快速装弹器（.45 马格南空尖弹） | speed loader (.45 magnum hollow-point)'
-  parent: BaseSpeedLoader45_magnum
-=======
   id: SpeedLoader357_magnumHP
-  name: speed loader (.357 magnum hollow-point)
+  name: '快速装弹器（.357 马格南空尖弹） | speed loader (.357 magnum hollow-point)'
   parent: BaseSpeedLoader357_magnum
->>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/SpeedLoaders/357_magnum.yml
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge357_magnumHP
@@ -221,15 +168,9 @@
   - type: Appearance
 
 - type: entity
-<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/SpeedLoaders/45_magnum.yml
-  id: SpeedLoader45_magnumRIP
-  name: '快速装弹器（.45 马格南RIP） | speed loader (.45 magnum RIP)'
-  parent: BaseSpeedLoader45_magnum
-=======
   id: SpeedLoader357_magnumRIP
-  name: speed loader (.357 magnum RIP)
+  name: '快速装弹器（.357 马格南RIP） | speed loader (.357 magnum RIP)'
   parent: BaseSpeedLoader357_magnum
->>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/SpeedLoaders/357_magnum.yml
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge357_magnumRIP
@@ -249,15 +190,9 @@
 #armor-piercing ammo
 
 - type: entity
-<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/SpeedLoaders/45_magnum.yml
-  id: SpeedLoader45_magnumPlasteelAP
-  name: '快速装弹器（.45 口径马格南穿甲弹） | speed loader (.45 magnum AP)'
-  parent: BaseSpeedLoader45_magnum
-=======
   id: SpeedLoader357_magnumPlasteelAP
-  name: speed loader (.357 magnum AP)
+  name: '快速装弹器（.357 口径马格南穿甲弹） | speed loader (.357 magnum AP)'
   parent: BaseSpeedLoader357_magnum
->>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/SpeedLoaders/357_magnum.yml
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge357_magnumPlasteelAP

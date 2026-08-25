@@ -4,13 +4,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckNovaSharksLeatherJacket
-<<<<<<< HEAD
   name: '新星鲨鱼皮夹克 | Nova Sharks leather jacket'
   description: '为新星鲨鱼会关联成员设计的皮夹克。可舒适地穿在大多数套装外，质地坚韧象征着永不向强权低头。 | A leather jacket for any affiliated members of The Nova Sharks. Fits comfortably over most suits and rough enough to never bend to authority.'
-=======
-  name: Nova Sharks leather jacket
-  description: A leather jacket for any affiliated members of The Nova Sharks. Fits comfortably over most suits and rough enough to never bend to authority.
->>>>>>> upstream
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Neck/Misc/NS-leather-jacket.rsi
@@ -195,7 +190,7 @@
   components:
     - type: Sprite
       sprite: _Mono/Clothing/Neck/Misc/pir.rsi
-      layers: 
+      layers:
         - state: pdvbox
     - type: DeviceNetwork
       receiveFrequencyId: SurveillanceCameraPDV

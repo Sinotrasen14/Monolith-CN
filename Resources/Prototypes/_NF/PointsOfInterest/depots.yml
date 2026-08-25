@@ -10,13 +10,8 @@
 # Basic Cargo Depot selling point for economy and great wealth
 - type: pointOfInterest
   id: CargoDepot
-<<<<<<< HEAD
-  parent: BasePOI
-  name: 货运枢纽-Cargo Depot
-=======
   parent: [BasePOI, BaseRepairablePOI]
-  name: Cargo Depot
->>>>>>> upstream
+  name: 货运枢纽-Cargo Depot
   minimumDistance: 8000
   maximumDistance: 10000
   spawnGroup: CargoDepot
@@ -39,13 +34,8 @@
 
 - type: pointOfInterest
   id: CargoDepotAlt
-<<<<<<< HEAD
-  parent: BasePOI
-  name: 货运枢纽-Cargo Depot
-=======
   parent: [BasePOI, BaseRepairablePOI]
-  name: Cargo Depot
->>>>>>> upstream
+  name: 货运枢纽-Cargo Depot
   minimumDistance: 8000
   maximumDistance: 10000
   spawnGroup: CargoDepot
@@ -54,7 +44,7 @@
 
 - type: gameMap
   id: CargoDepot
-  mapName: 'Cargo Depot' # Has a letter appended in PointOfInterestSystem
+  mapName: '货运枢纽-Cargo Depot' # Has a letter appended in PointOfInterestSystem
   mapPath: /Maps/_NF/POI/cargodepotalt.yml
   minPlayers: 0
   stations:
@@ -62,13 +52,13 @@
       stationProto: StandardFrontierOutpost
       components: &cargoStationComponents
         - type: StationNameSetup
-          mapNameTemplate: 'Cargo Depot' # Has a letter appended in PointOfInterestSystem
+          mapNameTemplate: '货运枢纽-Cargo Depot' # Has a letter appended in PointOfInterestSystem
         - type: TradeCrateDestination
           destinationProto: CargoA # Redefined in PointOfInterestSystem
 
 - type: gameMap
   id: CargoDepotAlt
-  mapName: 'Cargo Depot' # Has a letter appended in PointOfInterestSystem
+  mapName: '货运枢纽-Cargo Depot' # Has a letter appended in PointOfInterestSystem
   mapPath: /Maps/_NF/POI/cargodepotalt.yml
   minPlayers: 0
   stations:

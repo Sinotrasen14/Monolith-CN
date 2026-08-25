@@ -12,19 +12,12 @@
 #
 - type: pointOfInterest
   id: TSFMCHalcyon
-<<<<<<< HEAD
-  parent: BasePOI
-  name: 'TSFMC 旗舰“宁静号”'
-  minimumDistance: 2500 # Mono
-  maximumDistance: 4000 # Mono
-=======
   parent: [BasePOI, BaseRepairablePOI]
-  name: 'TSFMC Flagship Halcyon'
+  name: 'TSFMC 旗舰“宁静号”'
   minimumDistance: 4500 # Mono
   maximumDistance: 5500 # Mono
   #posX: 5000
   #posY: -9000
->>>>>>> upstream
   spawnGamePreset: [ NFAdventure, NFPirate, MonoStandard, MonoRogueTSF, MonoTSFUSSP, MonoADS, MonoChimera, MonoMixed, MonoAllAtOnce ]
   spawnGroup: Required
   gridPath: /Maps/_Mono/POI/tsfmchalcyon.yml
@@ -44,7 +37,7 @@
 
 - type: gameMap
   id: TSFMCHalcyon
-  mapName: 'TSFMC Flagship Halcyon'
+  mapName: 'TSFMC 旗舰“宁静号”'
   mapPath: /Maps/_Mono/POI/tsfmchalcyon.yml
   minPlayers: 0
   randomRotation: false
@@ -86,7 +79,7 @@
 - type: pointOfInterest
   id: TSFMCHalcyonHyperwar
   parent: [BasePOI, BaseRepairablePOI]
-  name: 'TSFMC Flagship Halcyon'
+  name: 'TSFMC 旗舰“宁静号”'
   minimumDistance: 4500
   maximumDistance: 5500
   spawnGamePreset: [ MonoRogueTSFHyperwar ]
@@ -101,7 +94,7 @@
 
 - type: gameMap
   id: TSFMCHalcyonHyperwar
-  mapName: 'TSFMC Flagship Halcyon'
+  mapName: 'TSFMC 旗舰“宁静号”'
   mapPath: /Maps/_Mono/POI/tsfmchalcyon_hw.yml
   minPlayers: 0
   randomRotation: false
@@ -110,7 +103,7 @@
       stationProto: SecurityFrontierOutpost
       gridComponents:
       - type: VesselInfo
-        description: "A mothballed battleship-turned-FOB, and Home of the TSFMC operations."
+        description: "一艘退役战列舰改造的前进作战基地，也是TSFMC行动的总部基地。"
       - type: Tag
         tags:
         - TsfStation

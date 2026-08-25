@@ -1,14 +1,9 @@
 - type: entity
   parent: [ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase]
   id: ClothingHeadHelmetHardsuitUNSAArmoredEva
-<<<<<<< HEAD
   name: '装甲式舱外活动头盔 | armored EVA helmet'
   description: '由UNSA改造的标准EVA头盔，作为先锋部队替代宇航服的廉价美观方案。颅骨部件属于必备要素。 | A standard EVA helmet modified by the UNSA as a cheap and cool-looking alternative to voidsuits for use by vanguards. The skull is a necessity.'
-=======
-  name: armored EVA helmet
-  description: A standard EVA helmet modified by the UNSA as a cheap and cool-looking alternative to voidsuits for use by vanguards. The skull is a necessity.
   categories: [ HideSpawnMenu ]
->>>>>>> upstream
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hardsuits/armored_eva.rsi

@@ -9,43 +9,8 @@
   - type: Sprite
     sprite: _Mono/Objects/Misc/id_cards.rsi
     layers:
-<<<<<<< HEAD
-    - state: default
-    - state: idintern-cadet
-  - type: Clothing
-    sprite: Objects/Misc/id_cards.rsi
-  - type: Item
-    heldPrefix: default
-
-- type: entity
-  parent: CadetIDCard
-  id: USSPCorporalIDCard
-  name: 'USSP 上等兵ID卡 | efreitor ID card'
-  components:
-  - type: PresetIdCard
-    job: USSPCorporal
-  - type: Sprite
-    sprite: Objects/Misc/id_cards.rsi
-    layers:
-    - state: default
-    - state: idsecurityofficer
-
-- type: entity
-  parent: IDCardStandard
-  id: USSPMedicIDCard
-  name: 'USSP 战场医护兵ID卡 | combat medic ID card'
-  components:
-  - type: PresetIdCard
-    job: USSPMedic
-  - type: Sprite
-    sprite: Objects/Misc/id_cards.rsi
-    layers:
-    - state: default
-    - state: idbrigmedic
-=======
     - state: usspbase
     - state: id_rifleman
->>>>>>> upstream
 
 - type: entity
   parent: IDCardStandard
@@ -115,25 +80,6 @@
 
 - type: entity
   parent: IDCardStandard
-<<<<<<< HEAD
-  id: TsfMarsocFTLIDCard
-  name: 'TSFMC陆战队火力小组长ID卡 | TSFMC MARSOC fire team leader ID card'
-  components:
-  - type: PresetIdCard
-    job: TsfMarsocFTL
-  - type: Sprite
-    sprite: Objects/Misc/id_cards.rsi
-    layers:
-    - state: centcom
-  - type: Clothing
-    sprite: Objects/Misc/id_cards.rsi
-  - type: Item
-    heldPrefix: blue
-
-- type: entity
-  parent: IDCardStandard
-=======
->>>>>>> upstream
   id: TsfMarsocIDCard
   name: 'TSFMC特种作战特工ID卡 | TSFMC MARSOC operative ID card'
   components:

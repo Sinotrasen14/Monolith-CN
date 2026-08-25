@@ -1352,13 +1352,8 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineGames
-<<<<<<< HEAD
   name: 有益无害的乐子 丨 Good Clean Fun
-  description: 贩卖那些富斯殖民地的联络员大概不会欣赏你放着正事不干，净摆弄的玩意儿…… 丨 Vends things that Fuscian colonial liaisons are probably not going to appreciate you fiddling with instead of your job...
-=======
-  name: Good Clean Fun
-  description: Vends things that Fuscian overseers are probably not going to appreciate you fiddling with instead of your job... # zero fucking clue what this means im just replacing the word "colonial liaison here"
->>>>>>> upstream
+  description: 贩卖那些富斯殖民地的联络员大概不会欣赏你放着正事不干，净摆弄的玩意儿……  # zero fucking clue what this means im just replacing the word "colonial liaison here"
   components:
   - type: VendingMachine
     pack: GoodCleanFunInventory

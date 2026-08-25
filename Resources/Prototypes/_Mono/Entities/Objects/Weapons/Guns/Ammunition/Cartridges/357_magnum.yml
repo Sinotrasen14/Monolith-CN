@@ -1,11 +1,6 @@
 - type: entity
-<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/45_magnum.yml
-  id: BaseCartridge45_magnum
-  name: '子弹（.45 马格南） | cartridge (.45 magnum)'
-=======
   id: BaseCartridge357_magnum
-  name: cartridge (.357 magnum)
->>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/357_magnum.yml
+  name: '子弹（.357 马格南） | cartridge (.357 magnum)'
   parent: BaseCartridge
   description: 重型马格南子弹，通常仅见于马格南手枪或手动步枪。
   abstract: true
@@ -27,29 +22,17 @@
     price: 1
 
 - type: entity
-<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/45_magnum.yml
-  id: Cartridge45_magnumFMJ
-  name: '子弹（.45 马格南） | cartridge (.45 magnum)'
-  parent: BaseCartridge45_magnum
-=======
   id: Cartridge357_magnumFMJ
-  name: cartridge (.357 magnum)
+  name: '子弹（.357 马格南） | cartridge (.357 magnum)'
   parent: BaseCartridge357_magnum
->>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/357_magnum.yml
   components:
   - type: CartridgeAmmo
     proto: Magnum45
 
 - type: entity
-<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/45_magnum.yml
-  id: Cartridge45_magnumPractice
-  name: '子弹（.45 马格南练习弹） | cartridge (.45 magnum practice)'
-  parent: BaseCartridge45_magnum
-=======
   id: Cartridge357_magnumPractice
-  name: cartridge (.357 magnum practice)
-  parent: BaseCartridge357_magnum
->>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/357_magnum.yml
+  name: '子弹（.357 马格南练习弹） | cartridge (.357 magnum practice)'
+  parent: BaseCartridge45_magnum
   components:
   - type: CartridgeAmmo
     proto: Bullet357_magnumPractice
@@ -62,15 +45,9 @@
         color: "#dbdbdb"
 
 - type: entity
-<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/45_magnum.yml
-  id: Cartridge45_magnumIncendiary
-  name: '子弹（.45 马格南燃烧弹） | cartridge (.45 magnum incendiary)'
-  parent: BaseCartridge45_magnum
-=======
   id: Cartridge357_magnumIncendiary
-  name: cartridge (.357 magnum incendiary)
+  name: '子弹（.357 马格南燃烧弹） | cartridge (.357 magnum incendiary)'
   parent: BaseCartridge357_magnum
->>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/357_magnum.yml
   components:
   - type: CartridgeAmmo
     proto: Bullet357_magnumIncendiary
@@ -83,15 +60,9 @@
         color: "#ff6e52"
 
 - type: entity
-<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/45_magnum.yml
-  id: Cartridge45_magnumAP
-  name: '子弹（.45 马格南穿甲弹） | cartridge (.45 magnum armor-piercing)'
-  parent: BaseCartridge45_magnum
-=======
   id: Cartridge357_magnumAP
-  name: cartridge (.357 magnum armor-piercing)
+  name: '子弹（.357 马格南穿甲弹） | cartridge (.357 magnum armor-piercing)'
   parent: BaseCartridge357_magnum
->>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/357_magnum.yml
   components:
   - type: CartridgeAmmo
     proto: Bullet357_magnumAP
@@ -104,15 +75,9 @@
         color: "#0a0a0a"
 
 - type: entity
-<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/45_magnum.yml
-  id: Cartridge45_magnumUranium
-  name: '子弹（.45 马格南铀弹） | cartridge (.45 magnum uranium)'
-  parent: BaseCartridge45_magnum
-=======
   id: Cartridge357_magnumUranium
-  name: cartridge (.357 magnum uranium)
+  name: '子弹（.357 马格南铀弹） | cartridge (.357 magnum uranium)'
   parent: BaseCartridge357_magnum
->>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/357_magnum.yml
   components:
   - type: CartridgeAmmo
     proto: Bullet357_magnumUranium
@@ -125,15 +90,9 @@
         color: "#65fe08"
 
 - type: entity
-<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/45_magnum.yml
-  id: Cartridge45_magnumRubber
-  name: '子弹（.45 马格南橡胶弹） | cartridge (.45 magnum rubber)'
-  parent: BaseCartridge45_magnum
-=======
   id: Cartridge357_magnumRubber
-  name: cartridge (.357 magnum rubber)
+  name: '子弹（.357 马格南橡胶弹） | cartridge (.357 magnum rubber)'
   parent: BaseCartridge357_magnum
->>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/357_magnum.yml
   components:
   - type: CartridgeAmmo
     proto: Bullet357_magnumRubber
@@ -148,15 +107,9 @@
 # Mono AP syst
 #anti-flesh:
 - type: entity
-<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/45_magnum.yml
-  id: Cartridge45_magnumHP
-  name: '子弹（.45 马格南空尖弹） | cartridge (.45 magnum hollow-point)'
-  parent: BaseCartridge45_magnum
-=======
   id: Cartridge357_magnumHP
-  name: cartridge (.357 magnum hollow-point)
+  name: '子弹（.357 马格南空尖弹） | cartridge (.357 magnum hollow-point)'
   parent: BaseCartridge357_magnum
->>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/357_magnum.yml
   components:
   - type: CartridgeAmmo
     proto: Bullet357_magnumHP
@@ -169,15 +122,9 @@
         color: "#90EE90"
 
 - type: entity
-<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/45_magnum.yml
-  id: Cartridge45_magnumRIP
-  name: '子弹（.45 马格南RIP） | cartridge (.45 magnum RIP)'
-  parent: BaseCartridge45_magnum
-=======
   id: Cartridge357_magnumRIP
-  name: cartridge (.357 magnum RIP)
+  name: '子弹（.357 马格南RIP） | cartridge (.357 magnum RIP)'
   parent: BaseCartridge357_magnum
->>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/357_magnum.yml
   components:
   - type: CartridgeAmmo
     proto: Bullet357_magnumRIP
@@ -192,15 +139,9 @@
 #armor-piercing:
 
 - type: entity
-<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/45_magnum.yml
-  id: Cartridge45_magnumPlasteelAP
-  name: '子弹（.45 马格南穿甲弹） | cartridge (.45 magnum AP)'
-  parent: BaseCartridge45_magnum
-=======
   id: Cartridge357_magnumPlasteelAP
-  name: cartridge (.357 magnum AP)
+  name: '子弹（.357 马格南穿甲弹） | cartridge (.357 magnum AP)'
   parent: BaseCartridge357_magnum
->>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Cartridges/357_magnum.yml
   components:
   - type: CartridgeAmmo
     proto: Bullet357_magnumPlasteelAP

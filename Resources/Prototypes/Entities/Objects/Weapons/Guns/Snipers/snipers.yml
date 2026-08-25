@@ -73,75 +73,11 @@
     attackType: Light
   # Mono end
 
-<<<<<<< HEAD
-- type: entity
-  name: NCI 卡尔达肖夫-莫辛步枪（7.62x54mm R） 丨 NCI Kardashev-Mosin (7.62x54mmR)
-  parent: [BaseWeaponSniper, BaseGunWieldable, BaseGunMelee] # added BaseGunMelee
-  id: WeaponSniperMosin
-  description: 一把用于狩猎，或无尽堑壕战的武器。使用762x54mmR弹药。配备刺刀。# 边境：刺刀 丨 A weapon for hunting, or endless trench warfare. Uses 762x54mmR ammo. Equipped with bayonet. # Frontier: bayonet
-  components:
-  - type: Sprite
-    sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
-  - type: CursorOffsetRequiresWield # Frontier
-  - type: EyeCursorOffset # Frontier
-    maxOffset: 1.5 # Frontier
-    pvsIncrease: 0.15 # Frontier
-  - type: AltFireMelee # Frontier
-    attackType: Light # Frontier
-  - type: BallisticAmmoProvider
-    whitelist:
-      tags:
-      - Cartridge762x54mmRFMJ
-    capacity: 5
-    proto: Cartridge762x54mmRFMJ
-  - type: PirateBountyItem # Mono
-    id: StandardFactionLongarm
-
-- type: entity
-  name: SKR-WS M96赫里斯托夫反器材步枪（14.5x114mm） 丨 SKR-WS M96 Hristov (14.5x114mm)
-  parent: [BaseWeaponSniper, BaseGunWieldable]
-  id: WeaponSniperHristov
-  description: 便携式反器材步枪，发射高速14.5mm 子弹，使用14.5x114mm 弹药。 丨 A portable anti-material rifle. Fires high velocity 14.5mm shells. Uses 145x114mm ammo.
-  components:
-  - type: Sprite
-    sprite: Objects/Weapons/Guns/Snipers/hristov.rsi
-  - type: Clothing
-    sprite: Objects/Weapons/Guns/Snipers/hristov.rsi
-  - type: GunRequiresWield
-  - type: Gun
-    fireRate: 0.75
-    selectedMode: SemiAuto
-    availableModes:
-    - SemiAuto
-    soundGunshot:
-      path: /Audio/_Harmony/Weapons/Guns/Gunshots/hristov_fire_alt.ogg # harmony - changed audio path
-  - type: BallisticAmmoProvider
-    autoCycle: false
-    whitelist:
-      tags:
-      - Cartridge145x114mm
-    capacity: 5
-    proto: Cartridge145x114mm
-  - type: SpeedModifiedOnWield
-    walkModifier: 0.25
-    sprintModifier: 0.25
-  - type: CursorOffsetRequiresWield
-  - type: EyeCursorOffset
-    maxOffset: 7 # Mono - Sniper Buff
-    pvsIncrease: 0.7 # Mono - Sniper Buff
-  - type: StaticPrice # Mono
-    price: 1250
-
-- type: entity
-  name: 防火门 丨 musket
-  parent: [ BaseWeaponSniper, BaseGunWieldable, BaseGunMelee ] # add BaseGunMelee
-=======
 # Mono - moved Hristov & Mosin to _Mono
 
 - type: entity
   name: musket
   parent: [ BaseGunMelee, BaseWeaponSniper, BaseGunWieldable ] # add BaseGunMelee
->>>>>>> upstream
   id: Musket
   description: 这玩意儿早在你出生前就该进博物馆了。使用145x114mm 弹药。 丨 This should've been in a museum long before you were born. Uses 145x114mm ammo.
   components:

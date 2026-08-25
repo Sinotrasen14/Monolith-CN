@@ -1,14 +1,8 @@
 - type: entity
   id: FactionLathe
-<<<<<<< HEAD
-  parent: BaseLatheLube
-  name: '军用多用途组装机 | military multi-purpose assembler'
-  description: '输出通过TSFMC或Rogue研发服务器研究的物品。 | Prints out items researched with TSFMC/Rogue R&D servers.'
-=======
   parent: BaseLatheAssembler
-  name: military multi-purpose assembler
-  description: Capable of producing a wide variety of things. Compatible with all kinds of fabrication template encryptions.
->>>>>>> upstream
+  name: 军用多用途组装车床
+  description: 能够生产各种各样的东西。兼容各种制作模板加密。
   components:
   - type: Sprite
     sprite: Structures/Machines/techfab.rsi
@@ -118,8 +112,8 @@
 - type: entity
   id: USSPLathe
   parent: BaseLatheLube
-  name: USSP field assembler
-  description: Capable of manufacturing equipment to USSP design specifications. Often issued throughout the Armed Forces to support the inherent industrial tendencies of its service members.
+  name: USSP 组装车床
+  description: 能够制造符合USSP设计规格的设备。通常在军队内部发布，以支持其军人天生的工业倾向。
   components:
   - type: Sprite
     sprite: _Mono/Structures/Machines/techfab.rsi
@@ -182,8 +176,8 @@
 - type: entity
   id: ViperLathe
   parent: BaseLatheLube
-  name: Viper Group precision lathe
-  description: Capable of producing equipment to Viper Group standards. The parts making up the lathe are stamped with the logos of long-forgotten brands from the corporate era.
+  name: 毒蛇集团精密车床
+  description: 能够生产符合毒蛇集团标准的设备。组成车床的零件上印有企业时代早已被遗忘的品牌标志。
   components:
   - type: Sprite
     sprite: _Mono/Structures/Machines/techfab.rsi
@@ -243,8 +237,8 @@
 - type: entity
   id: MMCLathe
   parent: BaseLatheLube
-  name: MMC multipurpose assembler
-  description: Capable of manufacturing equipment from MMC design patterns. Sent to anywhere that needs a large-scale industrial startup.
+  name: MMC 多用途汇编器机床车床
+  description: 能够根据MMC设计样式制造设备。可派往任何需要大规模工业启动的地方。
   components:
   - type: Sprite
     sprite: _Mono/Structures/Machines/techfab.rsi
@@ -304,8 +298,8 @@
 - type: entity
   id: CentrifugeLatheMini
   parent: BaseLatheLube
-  name: miniature economy uranium processing centrifuge
-  description: A medium sized industrial gas centrifuge for "bulk" processing isotopes, materials and generally making things go spinny. Not as fast or efficient as its station-bound brother, but useful for smaller operations. Too small to reprocess nuclear fuel.
+  name: 迷你经济型铀加工离心机车床
+  description: 一个中等大小的工业气体离心机，用于“大宗”加工同位素、材料，通常让东西旋转起来。没有固定场所的兄弟那么快或高效，但对小规模操作很有用。太小，不能用于核燃料再处理。
   components:
   - type: Sprite
     sprite: _Mono/Structures/Machines/centrifuge.rsi
@@ -352,8 +346,8 @@
 - type: entity
   id: IndustrialPressEconomyElectronics
   parent: BaseIndustrialPressEconomy
-  name: industrial press (electronics)
-  description: Capable of forming metal into all types of shapes. This one is calibrated for electronics.
+  name: 工业压机（电子）车床
+  description: 能够将金属制成各种形状。这一个经过电子产品校准。
   components:
   - type: Transform
     noRot: false
@@ -395,8 +389,8 @@
 - type: entity
   id: IndustrialPressEconomyElectronicsMMC
   parent: IndustrialPressEconomyElectronics
-  name: industrial press (electronics)
-  description: Capable of forming metal into all types of shapes. This one is calibrated for electronics. This is a higher quality pattern patented by Meiyo Manufacturing Concerns.
+  name: 工业压机（电子）车床
+  description: 能够将金属加工成各种形状。这款是为电子产品校准的。这是梅阳制造公司专利的更高质量的型号。
   components:
   - type: Sprite
     sprite: _Mono/Structures/Machines/pressinator.rsi
@@ -436,8 +430,8 @@
 - type: entity
   id: IndustrialPressEconomyPlates
   parent: BaseIndustrialPressEconomy
-  name: industrial press (plates)
-  description: Capable of forming metal into all types of shapes. This one is calibrated for plating.
+  name: 工业压机（板材）车床
+  description: 能够将金属制成各种形状。这一个经过校准，用于电镀。
   components:
   - type: Transform
     noRot: false
@@ -479,8 +473,8 @@
 - type: entity
   id: IndustrialPressEconomyPlatesMMC
   parent: IndustrialPressEconomyPlates
-  name: industrial press (plates)
-  description: Capable of forming metal into all types of shapes. This one is calibrated for plating. This is a higher quality pattern patented by Meiyo Manufacturing Concerns.
+  name: 工业压机（板材）车床
+  description: 能够将金属加工成各种形状。这款是为镀层而校准的。这是美誉制造公司专利的高质量型号。
   components:
   - type: Sprite
     sprite: _Mono/Structures/Machines/pressinator.rsi
@@ -520,8 +514,8 @@
 - type: entity
   id: IndustrialFurnaceEconomy
   parent: BaseLatheAssembler
-  name: industrial arc furnace
-  description: An advanced arc furnace capable of melting ore and refining material through heat. Essential for creating advanced alloys.
+  name: 工业电弧炉车床
+  description: 一种先进的电弧炉，能够通过高温熔化矿石和提纯材料。制造高级合金的必备装备。
   components:
   - type: Animateable
   - type: Transform
@@ -584,8 +578,8 @@
 - type: entity
   id: IndustrialFurnaceEconomyCompact
   parent: IndustrialFurnaceEconomy
-  name: compact arc furnace
-  description: A compact version advanced arc furnace capable of melting ore and refining material through heat. Essential for creating advanced alloys. Slower and less capacity.
+  name: 紧凑型电弧炉车床
+  description: 一种紧凑型的高级弧炉，能够通过高温熔炼矿石和精炼材料。对于制造高级合金必不可少。速度较慢，容量也较小。
   components:
   - type: DisableToolUse
     screwing: false
@@ -643,8 +637,8 @@
 - type: entity
   id: PrecisionAssemblerEconomy
   parent: BaseLatheAssembler
-  name: precision assembler
-  description: A high-accuracy microfabricator capable of manipulating almost all forms of matter in the right circumstances. Astoundingly useful for creating advanced components of all kinds.
+  name: 精密装配工车床
+  description: 一种高精度微型制造器，在适当的条件下几乎可以操控所有形式的物质。对于制造各种高级组件非常有用。
   components:
   - type: Appearance
   - type: Animateable
@@ -708,8 +702,8 @@
 - type: entity
   id: PrecisionAssemblerEconomyCompact
   parent: PrecisionAssemblerEconomy
-  name: compact precision assembler
-  description: A high-accuracy microfabricator capable of manipulating almost all forms of matter in the right circumstances. Astoundingly useful for creating advanced components of all kinds. This one is slower and has less space inside.
+  name: 紧凑型精密汇编器车床
+  description: 一种高精度微制造器，在适当条件下几乎可以操作所有形式的物质。对于制造各种先进组件非常有用。这款速度较慢，内部空间也更小。
   components:
   - type: DisableToolUse
     screwing: false
@@ -768,8 +762,8 @@
 - type: entity
   id: CentrifugeLathe
   parent: [BaseStructureDisableToolUse, BaseLatheLube]
-  name: industrial uranium processing centrifuge
-  description: A large sized industrial gas centrifuge for bulk processing isotopes, materials and generally making things go spinny. Much more efficient at producing fissile uranium than the miniature ones. Not equipped to reprocess nuclear fuel.
+  name: 工业铀加工离心车床
+  description: 一种大型工业用气体离心机，用于大规模加工同位素、材料，通常就是让东西旋转起来。比小型的离心机在生产裂变铀方面效率高得多。没有装备来再处理核燃料。
   components:
   - type: Sprite
     snapCardinals: false

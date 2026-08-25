@@ -1,14 +1,9 @@
 - type: entity
   parent: [ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ShowMedicalIcons]
   id: ClothingHeadHelmetHardsuitUsspL27
-<<<<<<< HEAD
   name: 'USSP L-27战术服头盔 | USSP L-27 tacsuit helmet'
   description: 'USSP海军行动标准作战服，还配备了医疗显示系统！ | The standard combat suit of USSP naval operations, outfitted with a medical hud too!'
-=======
-  name: USSP L-27 tacsuit helmet
-  description: The standard combat suit of USSP naval operations, outfitted with a medical hud too!
   categories: [ HideSpawnMenu ]
->>>>>>> upstream
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hardsuits/ussp_combat.rsi
@@ -36,14 +31,9 @@
 - type: entity
   parent: [ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ShowMedicalIcons]
   id: ClothingHeadHelmetHardsuitUsspL10
-<<<<<<< HEAD
   name: 'USSP L-10型光盾作战服头盔 | USSP L-10 lightsuit helmet'
   description: '一款仍在战线服役的老式USSP作战服型号。 | An old USSP model of combat suit that is still in use in the frontlines.'
-=======
-  name: USSP L-10 lightsuit helmet
-  description: An old USSP model of combat suit that is still in use in the frontlines.
   categories: [ HideSpawnMenu ]
->>>>>>> upstream
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hardsuits/ussp_combat_light.rsi
@@ -71,14 +61,9 @@
 - type: entity
   parent: [ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ShowMedicalIcons]
   id: ClothingHeadHelmetHardsuitUsspL10A
-<<<<<<< HEAD
   name: 'USSP L-10-A型光盾作战服头盔 | USSP L-10-A lightsuit helmet'
   description: '一款仍在战线服役的旧版USSP作战服型号。 | An old USSP model of combat suit that is still in use in the frontlines.'
-=======
-  name: USSP L-10-A lightsuit helmet
-  description: An old USSP model of combat suit that is still in use in the frontlines.
   categories: [ HideSpawnMenu ]
->>>>>>> upstream
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hardsuits/ussp_combat_light_officer.rsi
@@ -106,14 +91,9 @@
 - type: entity
   parent: [ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase,]
   id: ClothingHeadHelmetHardsuitUsspM10
-<<<<<<< HEAD
   name: 'USSP M-10侦察作战服头盔 | USSP M-10 scoutsuit helmet'
   description: '以旧款L-10为基准研发的新型作战服原型。其头盔内集成有质量扫描仪。 | A new prototype of combat suit using the old L-10 as a baseline. It has a integrated mass scanner in his helmet.'
-=======
-  name: USSP M-10 scoutsuit helmet
-  description: A new prototype of combat suit using the old L-10 as a baseline. It has a integrated mass scanner in his helmet.
   categories: [ HideSpawnMenu ]
->>>>>>> upstream
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hardsuits/ussp_combat_lightmk2.rsi
@@ -151,14 +131,9 @@
 - type: entity
   parent: [ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ShowMedicalIcons, ShowSecurityIcons]
   id: ClothingHeadHelmetHardsuitUsspL30
-<<<<<<< HEAD
   name: 'USSP L-30政委阅兵用硬质战术头盔 | USSP L-30 Commissar parade hardsuit tactical helmet'
   description: '政委阅兵硬质护甲头盔，配备医疗全息显示器以便检阅部队！ | The commissar''s parade hardsuit helmet, outfitted with a medical hud too to check on the troops!'
-=======
-  name: USSP L-30 Commissar parade hardsuit tactical helmet
-  description: The commissar's parade hardsuit helmet, outfitted with a medical hud too to check on the troops!
   categories: [ HideSpawnMenu ]
->>>>>>> upstream
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hardsuits/ussp_commissar_parade.rsi
@@ -186,14 +161,9 @@
 - type: entity
   parent: [ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ShowMedicalIcons, ShowSecurityIcons]
   id: ClothingHeadHelmetHardsuitOfficerCombat
-<<<<<<< HEAD
   name: 'USSP UF-16 军事委员战术头盔 | USSP UF-16 "Voenkom" commissar tacsuit helmet'
   description: '冰冷威严且具有鲜明联合体特征——专为灌输纪律与恐惧而设计。其面罩内置指挥控制地图，可增强战场态势感知能力。是督战前线行动的政委理想装备。 | Cold, imposing, and unmistakably Union -- developed to instill discipline and fear. It''s visor grants enhanced battlefield awareness with It''s built-in command control map. Ideal for Commissars overseeing frontline operations.'
-=======
-  name: USSP UF-16 "Voenkom" commissar tacsuit helmet
-  description: Cold, imposing, and unmistakably Union -- developed to instill discipline and fear. It's visor grants enhanced battlefield awareness with It's built-in command control map. Ideal for Commissars overseeing frontline operations.
   categories: [ HideSpawnMenu ]
->>>>>>> upstream
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Head/Hardsuits/ussp_officer_combat.rsi

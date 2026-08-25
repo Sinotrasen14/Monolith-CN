@@ -1,5 +1,5 @@
 - type: entity
-  name: 生命之颚 丨 jaws of life
+  name: 液压钳 丨 jaws of life
   parent: [BaseItem, RecyclableItemSteelMedium] # Frontier: added RecyclableItemSteelMedium
   id: JawsOfLife
   description: 一套经过科学魔法压缩的救生钳。 丨 A set of jaws of life, compressed through the magic of science.
@@ -55,13 +55,8 @@
     allowedClawTypes: ["SharpClaw"]
 
 - type: entity
-<<<<<<< HEAD
   name: 先进液压钳 # Mono
-  parent: JawsOfLife
-=======
-  name: advanced jaws of life # Mono
   parent: [ BaseFactionGearPDVT1, JawsOfLife ] # Mono
->>>>>>> upstream
   id: SyndicateJawsOfLife
   description: 用于进入空间站或其部门。 丨 Useful for entering the station or its departments.
   components:

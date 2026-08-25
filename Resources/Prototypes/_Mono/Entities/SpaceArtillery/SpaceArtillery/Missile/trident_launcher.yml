@@ -1,16 +1,10 @@
 - type: entity
   id: WeaponTurretASM220
-<<<<<<< HEAD
-  name: 'ASM-220鱼雷垂直发射系统'
-  parent: BallisticArtilleryUnanchorableCartridge
-  description: 一种依赖人工装填的重型鱼雷垂直发射系统，通常在港口进行操作。但其体型虽小却配备了大当量导弹。
-=======
-  name: ASM-220 "Trident" Torpedo Rack
+  name: ASM-220 三叉戟-鱼雷架
   parent:
   - BallisticArtilleryUnanchorableCartridge
   - BallisticArtilleryTier4HP
-  description: A heavy built-in torpedo rack for cruisers which relies on manual loading, usually done at harbor. Despite this, it has the largest missiles in the sector.
->>>>>>> upstream
+  description: 一种为巡洋舰设计的重型内置鱼雷架，依赖手动装填，通常在港口进行。尽管如此，它拥有该区域最大的导弹。
   components:
   - type: StaticPrice
     price: 10000
@@ -59,7 +53,7 @@
   suffix: Supercap/Station, Infinite HE, I'll kill you if you put this on a normal capital.
   parent:
   - WeaponTurretASM220
-  description: A heavy built-in torpedo rack for cruisers which relies on manual loading, usually done at harbor. Despite this, it has the largest missiles in the sector. This one is connected to a system for autoloading the VLS from a capital or stations reserves.
+  description: 一种为巡洋舰设计的重型内置鱼雷架，需要手动装填，通常在港口进行。尽管如此，它配备了该区域最大的导弹。这一型号还连接到一个系统，可以自动从主力舰或基地储备中装填垂直发射系统（VLS）。
   components:
   - type: BallisticAmmoProvider
     whitelist:

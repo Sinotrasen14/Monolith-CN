@@ -66,17 +66,10 @@
     id: ExperimentalFactionWeapon
 
 - type: entity
-<<<<<<< HEAD
-  name: 'NT-WS LRC-21型重型脉冲等离子长枪：可轻松撕裂目标 | NT-WS LRC-21 PPL'
-  parent: [ BaseWeaponPowerCell, BaseGunWieldable ]
-  id: WeaponLRC21PPL
-  description: '重型脉冲等离子长枪步枪。可轻松撕裂目标。 | A heavy pulsed plasma lance rifle. Eviscerates targets with ease.'
-=======
-  name: wayward NT-WS LRC-21 PPL
+  name: 任性Wayward NT-WS LRC-21 PPL
   parent: [ BaseWeaponPowerCell, BaseGunWieldable, BaseFactionGearOtherFactionT3]
   id: WeaponLRC21PPL
-  description: A heavy pulsed plasma lance rifle. Eviscerates targets in one clean shot. A highly experimental brand, developed and reverse-engineered right before the Confederate Expansion... how do you know this?
->>>>>>> upstream
+  description: 一把重型脉冲等离子长枪。一次干净的射击就能撕裂目标。这是一个高度实验性的品牌，在邦联扩张前不久开发并逆向工程……你怎么会知道这个？
   components:
   - type: Wieldable
   - type: GunWieldBonus

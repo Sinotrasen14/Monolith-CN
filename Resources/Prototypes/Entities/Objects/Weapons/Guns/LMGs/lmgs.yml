@@ -110,13 +110,8 @@
 - type: entity
   name: PA L6B班用自动武器（7.62x39mm 口径） 丨 PA L6B SAW (7.62x39mm)
   id: WeaponLightMachineGunL6
-<<<<<<< HEAD
-  parent: BaseWeaponLightMachineGun
-  description: 一把制作相当传统的轻机枪，配有漆面悦目的木质握把。使用7.62x39mm 弹药。现已停产，成为大断裂时期人类贪婪与野心的遗物。
-=======
   parent: [BaseWeaponLightMachineGun, BaseFactionGearPDVT3]
-  description: A rather traditionally made LMG with a pleasantly lacquered wooden pistol grip. Uses 7.62x39mm ammo. it serves as a remnant of humanity's greed and ambition during The Fracture.
->>>>>>> upstream
+  description: 一把制作相当传统的轻机枪，配有漆面悦目的木质握把。使用7.62x39mm 弹药。现已停产，成为大断裂时期人类贪婪与野心的遗物。
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/LMGs/l6.rsi

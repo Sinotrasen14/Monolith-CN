@@ -47,13 +47,8 @@
 - type: entity
   parent: [ClothingMaskGas, BaseFactionGearPDVT1]
   id: ClothingMaskGasSyndicate
-<<<<<<< HEAD
-  name: 辛迪加防毒面具 丨 syndicate gas mask
-  description: 一副可连接供气装置的贴合式战术面罩。 丨 A close-fitting tactical mask that can be connected to an air supply.
-=======
-  name: advanced gas mask
-  description: A close-fitting tactical mask that can be connected to an air supply.
->>>>>>> upstream
+  name: 先进防毒面具
+  description: 一副可连接供气装置的贴合式战术面罩。
   components:
   - type: Sprite
     sprite: Clothing/Mask/gassyndicate.rsi
@@ -183,7 +178,7 @@
   - type: Tag
     tags:
     - PetWearable
-    
+
 - type: entity
   parent: ClothingMaskPullableBase
   id: ClothingMaskBreath

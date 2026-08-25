@@ -67,15 +67,10 @@
 - type: entity
   abstract: true # Mono: Abstract
   id: BaseResearchAndDevelopmentPointSource
-<<<<<<< HEAD
-  parent: BaseMachinePowered
-  name: 基础研发超级计算机 丨 "base R&D supercomputer"
-=======
   parent: DatafarmResearchFaction # Mono: Changed to parent off of new research generation servers to replace existing mapped generators
-  name: bolted data farm (Research) # Mono
+  name: 锁定数据农场（研究） # Mono
   suffix: Unused
-  description: A power-hungry server dedicated towards scraping data from... somewhere. This one generates research points at a rate of 200 per second. It seems to be bolted to the floor. # Mono
->>>>>>> upstream
+  description: 一个渴望权力的服务器，专门用于从……某处抓取数据。这台每秒生成200点研究点。它似乎被固定在地板上。 # Mono
   # We should make this abstract once there are actual point sources.
   components:
   - type: ResearchClient

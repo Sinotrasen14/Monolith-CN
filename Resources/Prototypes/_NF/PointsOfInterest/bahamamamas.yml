@@ -10,13 +10,8 @@
 # 愿醉卧船骸，啜饮鲜芒汁.
 - type: pointOfInterest
   id: Bahama
-<<<<<<< HEAD
-  parent: BasePOI
-  name: "巴哈马妈妈酒吧"
-=======
   parent: [BasePOI, BaseRepairablePOI]
-  name: "Bahama Mama's"
->>>>>>> upstream
+  name: "巴哈马妈妈酒吧"
   minimumDistance: 3400
   maximumDistance: 5800
   spawnGroup: RestStop
@@ -29,7 +24,7 @@
 
 - type: gameMap
   id: Bahama
-  mapName: "Bahama Mama's"
+  mapName: "巴哈马妈妈酒吧"
   mapPath: /Maps/_NF/POI/bahama.yml
   minPlayers: 0
   stations:

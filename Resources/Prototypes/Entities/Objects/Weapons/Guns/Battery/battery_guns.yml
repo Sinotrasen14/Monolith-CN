@@ -355,17 +355,10 @@
     - FullAuto
 
 - type: entity
-<<<<<<< HEAD
-  name: LWC脉冲手枪 丨 LWC pulse pistol
+  name: VCD QSH-13 脉冲手枪
   parent: BaseWeaponBatterySmall
   id: WeaponPulsePistol
-  description: 一款最先进的能量手枪，被TSFN和TSFMC作为备用武器使用。 # Mono
-=======
-  name: VCD QSH-13 Pulse Pistol
-  parent: BaseWeaponBatterySmall
-  id: WeaponPulsePistol
-  description: The pulse pistol is a compact version of the TSF pulse rifle. Though it uses the same self-recharging technology, it has a smaller battery that makes it impractical for sustained battlefield use. Nevertheless, it has found a niche in the hands of TSFN and TSFMC officers as a defensive sidearm. # Mono
->>>>>>> upstream
+  description: 脉冲手枪是TSF脉冲步枪的紧凑版。虽然它使用相同的自充能技术，但电池更小，使它不适合在战场上长时间使用。不过，它在TSFN和TSFMC的军官手中还是找到了作为防御备用武器的定位。 # Mono
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Battery/pulse_pistol.rsi
@@ -405,17 +398,10 @@
   # End Mono
 
 - type: entity
-<<<<<<< HEAD
-  name: LWC脉冲卡宾枪 丨 LWC pulse carbine
+  name: VCD QBH-12 脉冲卡宾枪
   parent: [BaseWeaponBattery, BaseGunWieldable]
   id: WeaponPulseCarbine
-  description: 在高级TSF手中常见，脉冲卡宾枪是一种劲爆的激光武器，从纳米传讯的残余物中回收而来。 # Mono
-=======
-  name: VCD QBH-12 Pulse Carbine
-  parent: [BaseWeaponBattery, BaseGunWieldable]
-  id: WeaponPulseCarbine
-  description: The pulse carbine is a slightly more compact version of the TSF pulse rifle that combines self-recharging technology with an even faster rate of fire meant to terrify enemies on the battlefield. Though known to overheat occasionally in prolonged battle, this does not stop the Marine special forces who favor them. # Mono
->>>>>>> upstream
+  description: 脉冲卡宾枪是TSF脉冲步枪的一个稍微紧凑版，结合了自我充能技术和更快的射速，旨在在战场上吓到敌人。尽管在长时间战斗中它偶尔会过热，但这并不妨碍喜欢它的海军陆战队特种部队使用它。 # Mono
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Battery/pulse_carbine.rsi
@@ -461,17 +447,10 @@
   # End Mono
 
 - type: entity
-<<<<<<< HEAD
-  name: NT脉冲步枪 丨 NT pulse rifle
+  name: VCD QBH-11 脉冲步枪
   parent: [BaseWeaponBattery, BaseGunWieldable]
   id: WeaponPulseRifle
-  description: 这是一种曾经被NT特种作战部队使用的武器，但现在常见于TSF手中。 # Mono
-=======
-  name: VCD QBH-11 Pulse Rifle
-  parent: [BaseWeaponBattery, BaseGunWieldable]
-  id: WeaponPulseRifle
-  description: The first pulse model reproduced since the technology fell into TSF hands after the end of the Corporate War, this rifle defines cutting edge technology in the hands of elite TSF military troops and the officers that command them.  # Mono
->>>>>>> upstream
+  description: 这是自企业战争结束后，技术落入TSF手中以来复制的第一个脉冲型号，这款步枪在TSF精英部队和指挥官手中代表了尖端技术。  # Mono
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Battery/pulse_rifle.rsi
@@ -517,10 +496,10 @@
   # Mono Addition
 
 - type: entity
-  name: Cyborg pulse rifle
+  name: 赛博格脉冲步枪
   parent: [BaseWeaponBattery, BaseFactionGearPDVT3]
   id: WeaponBorgPulseRifle
-  description: A weapon that used to be used by the special operations units of NT, but mounted onto a silicon. # Mono
+  description: 曾经被NT特种作战部队使用的武器，但现在安装在硅制装置上。 # Mono
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Battery/pulse_rifle.rsi
@@ -1030,7 +1009,7 @@
 - type: entity
   parent: WeaponAdvancedLaser
   id: WeaponLaserGunXenoborg
-  name: xenoborg laser gun
+  name: 异形博格镭射枪
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Battery/xenoborg_laser_gun.rsi
@@ -1043,7 +1022,7 @@
 - type: entity
   parent: WeaponLaserCannon
   id: WeaponLaserCannonXenoborg
-  name: xenoborg laser cannon
+  name: 异形博格激光炮
   components:
   - type: BatterySelfRecharger
     autoRecharge: true
