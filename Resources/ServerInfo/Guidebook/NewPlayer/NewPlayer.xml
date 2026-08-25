@@ -1,8 +1,13 @@
 <Document>
 # 欢迎来到14号空间站！
 
+<<<<<<< HEAD
 您刚刚在这座TSF殖民空间站开始了您的轮班工作。
 您和您的同事们需要通力合作、生存下去，并享受乐趣！
+=======
+You've just begun your shift aboard a station or ship.
+Welcome to the sector! Be an independent contractor and sell your services or ask to join someone elses crew! If you woke up on a ship already; enjoy your time aboard!
+>>>>>>> upstream
 
 [bold]请务必遵守所有服务器规则。[/bold]您可以通过使用[bold]管理帮助菜单[/bold]（[italic]按[/italic][color=yellow][bold][keybind="OpenAHelp"/][/bold][/color]访问）向[color=#EB2D3A][bold]管理员团队[/bold][/color]提问或举报违规行为。
 

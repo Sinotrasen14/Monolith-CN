@@ -42,7 +42,7 @@
       map: [ "light" ]
   - type: HandheldLight
     addPrefix: false
-  - type: ToggleableLightVisuals
+  - type: ToggleableVisuals
     spriteLayer: light
     clothingVisuals:
       head:
@@ -108,7 +108,7 @@
       map: [ "light" ]
   - type: HandheldLight
     addPrefix: false
-  - type: ToggleableLightVisuals
+  - type: ToggleableVisuals
     clothingVisuals:
       head:
       - state: equipped-head-light
@@ -172,7 +172,7 @@
       map: [ "light" ]
   - type: HandheldLight
     addPrefix: false
-  - type: ToggleableLightVisuals
+  - type: ToggleableVisuals
     clothingVisuals:
       head:
       - state: equipped-head-light
@@ -359,10 +359,23 @@
   - type: PressureProtection
     highPressureMultiplier: 0.60
     lowPressureMultiplier: 1000
+<<<<<<< HEAD
   - type: NightVision # Mono - remove light, replace with NVG
     flashDurationMultiplier: 2
     isEquipment: true
     color: "#34AEEB"
+=======
+    # Mono - remove light, replace with NVG
+  - type: NightVision # Gen 4 quadtube-wide
+    relayOverlay: true
+    goggleEffect: true
+    viewCircleRadius: 450
+    viewCircleCount: 4
+    viewCircleSpacing: 280
+    action: ActionToggleNightVision
+    phosphorColor: "#41D7D9"
+    lightingColor: "#FFFFFF32"
+>>>>>>> upstream
 
 #Head of Security's hardsuit
 - type: entity
@@ -490,7 +503,7 @@
 
 #Syndicate Commander Hardsuit
 - type: entity
-  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ShowSecurityIcons]
+  parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ShowSecurityIcons, BaseFactionGearOtherFactionT3]
   id: ClothingHeadHelmetHardsuitSyndieCommander
   name: 辛迪加指挥官头盔 丨 syndicate commander helmet
   description: 一款为集团特工小队指挥官特制的头盔，基于血红色硬质护甲头盔进行强化升级，显著提升了装甲防护性能，专为应对致命前线交火而打造。 丨 A bulked up version of the blood-red hardsuit's helmet, purpose-built for the commander of a syndicate operative squad. Has significantly improved armor for those deadly front-lines firefights.
@@ -779,7 +792,6 @@
         Radiation: 0.80
         Caustic: 0.95
   - type: FlashImmunity # Goobstation
-    protectionRange: 0
   # WD EDIT START
   - type: ThermalVision
     isEquipment: true

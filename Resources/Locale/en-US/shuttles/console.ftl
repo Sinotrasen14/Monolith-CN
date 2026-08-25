@@ -20,7 +20,17 @@ shuttle-console-linear-velocity = 线速度:
 shuttle-console-linear-velocity-value = {$X}, {$Y}
 shuttle-console-angular-velocity = 角速度:
 shuttle-console-angular-velocity-value = {$angularVelocity}
+shuttle-console-altitude = Altitude:
+shuttle-console-altitude-value = {$altitude}
+shuttle-console-vertical-velocity = Vertical Velocity:
+shuttle-console-vertical-velocity-value = {$velocity}
+shuttle-console-travel-state = Status:
+shuttle-console-travel-state-grounded = Grounded
+shuttle-console-travel-state-flying = Flying
+shuttle-console-travel-state-hovering = Hovering
+shuttle-console-travel-state-launching = Launching ({$countdown})
 
+<<<<<<< HEAD
 shuttle-console-unknown = 未知
 shuttle-console-iff-label = {$name} ({$distance}米)
 shuttle-console-exclusion = 禁区
@@ -31,6 +41,24 @@ shuttle-console-nav-settings = 设置
 shuttle-console-iff-toggle = 显示敌我识别
 shuttle-console-dock-toggle = 显示泊位
 shuttle-console-iffshuttles-toggle = 显示穿梭机
+=======
+shuttle-console-unknown = Unknown
+shuttle-console-iff-label = {$name} ({$distance}m)
+shuttle-console-track-unknown-label = TRACK.ID UNKNOWN
+shuttle-console-track-label = TRACK.ID
+shuttle-console-exclusion = Exclusion Area
+
+# Buttons
+shuttle-console-strafing = Strafing Mode
+shuttle-console-nav-settings = Settings
+shuttle-console-iff-toggle = Show IFF
+shuttle-console-iff-detailed = Detailed IFF
+shuttle-console-dock-toggle = Show Docks
+shuttle-console-iffshuttles-toggle = Show Shuttles
+shuttle-console-iff-toggle-short = IFF
+shuttle-console-iff-detailed-short = D.IFF
+shuttle-console-dock-toggle-short = DOCKS
+>>>>>>> upstream
 
 # MAP
 

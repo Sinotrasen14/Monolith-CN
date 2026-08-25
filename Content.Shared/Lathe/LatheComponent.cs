@@ -127,7 +127,7 @@ namespace Content.Shared.Lathe
         /// If not null, finite and non-negative, modifies values on spawned items
         /// </summary>
         [DataField]
-        public float? ProductValueModifier = 1.2f; //0.3f->1.2f Mono
+        public float? ProductValueModifier = 1f; //0.3f->1f Mono
         // End Frontier
         #endregion
 
@@ -184,14 +184,17 @@ namespace Content.Shared.Lathe
         private static int NextIndex = 0; // Mono
         public int Index; // Mono - for de-queuing recipes to work properly
         public LatheRecipePrototype Recipe;
+        public NetEntity? Actor; // Mono - Log the person who queued the recipe.
         public int ItemsPrinted;
         public int ItemsRequested;
 
-        public LatheRecipeBatch(LatheRecipePrototype recipe, int itemsPrinted, int itemsRequested)
+        public LatheRecipeBatch(LatheRecipePrototype recipe, int itemsPrinted, int itemsRequested,
+            NetEntity? actor) // Mono
         {
             Recipe = recipe;
             ItemsPrinted = itemsPrinted;
             ItemsRequested = itemsRequested;
+            Actor = actor; // Mono
             Index = NextIndex++; // Mono
         }
     }

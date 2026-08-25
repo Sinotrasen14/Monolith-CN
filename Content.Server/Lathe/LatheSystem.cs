@@ -35,32 +35,35 @@ using Robust.Shared.Audio.Systems;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 using Content.Shared.Cargo.Components; // Frontier
-using Content.Server._NF.Contraband.Systems; // Frontier
-using Robust.Shared.Containers; // Frontier
+using Content.Server._NF.Contraband.Systems;
+using Content.Server.Storage.Components;
+using Content.Shared.Stacks; // Frontier
+using Robust.Shared.Containers;
+using Robust.Shared.Utility; // Frontier
 
 namespace Content.Server.Lathe
 {
     [UsedImplicitly]
-    public sealed class LatheSystem : SharedLatheSystem
+    public sealed partial class LatheSystem : SharedLatheSystem
     {
-        [Dependency] private readonly IGameTiming _timing = default!;
-        [Dependency] private readonly IPrototypeManager _proto = default!;
-        [Dependency] private readonly IAdminLogManager _adminLogger = default!;
-        [Dependency] private readonly AtmosphereSystem _atmosphere = default!;
-        [Dependency] private readonly SharedAppearanceSystem _appearance = default!;
-        [Dependency] private readonly SharedAudioSystem _audio = default!;
-        [Dependency] private readonly ContainerSystem _container = default!;
-        [Dependency] private readonly EmagSystem _emag = default!;
-        [Dependency] private readonly UserInterfaceSystem _uiSys = default!;
-        [Dependency] private readonly MaterialStorageSystem _materialStorage = default!;
-        [Dependency] private readonly PopupSystem _popup = default!;
-        [Dependency] private readonly PuddleSystem _puddle = default!;
-        [Dependency] private readonly ReagentSpeedSystem _reagentSpeed = default!;
-        [Dependency] private readonly SharedSolutionContainerSystem _solution = default!;
-        [Dependency] private readonly StackSystem _stack = default!;
-        [Dependency] private readonly TransformSystem _transform = default!;
-        [Dependency] private readonly ContrabandTurnInSystem _contraband = default!; // Frontier
-        [Dependency] private readonly DeviceLinkSystem _deviceLink = default!; // Mono
+        [Dependency] private IGameTiming _timing = default!;
+        [Dependency] private IPrototypeManager _proto = default!;
+        [Dependency] private IAdminLogManager _adminLogger = default!;
+        [Dependency] private AtmosphereSystem _atmosphere = default!;
+        [Dependency] private SharedAppearanceSystem _appearance = default!;
+        [Dependency] private SharedAudioSystem _audio = default!;
+        [Dependency] private ContainerSystem _container = default!;
+        [Dependency] private EmagSystem _emag = default!;
+        [Dependency] private UserInterfaceSystem _uiSys = default!;
+        [Dependency] private MaterialStorageSystem _materialStorage = default!;
+        [Dependency] private PopupSystem _popup = default!;
+        [Dependency] private PuddleSystem _puddle = default!;
+        [Dependency] private ReagentSpeedSystem _reagentSpeed = default!;
+        [Dependency] private SharedSolutionContainerSystem _solution = default!;
+        [Dependency] private StackSystem _stack = default!;
+        [Dependency] private ContrabandTurnInSystem _contraband = default!; // Mono
+        [Dependency] private TransformSystem _transform = default!;
+        [Dependency] private DeviceLinkSystem _deviceLink = default!; // Mono
 
         /// <summary>
         /// Per-tick cache
@@ -186,19 +189,17 @@ namespace Content.Server.Lathe
         {
             if (args.Storage != uid)
                 return;
-            var materialWhitelist = new List<ProtoId<MaterialPrototype>>();
+            var materialWhitelist = new HashSet<ProtoId<MaterialPrototype>>();
             var recipes = GetAvailableRecipes(uid, component, true);
             foreach (var id in recipes)
             {
                 if (!_proto.TryIndex(id, out var proto))
                     continue;
                 foreach (var (mat, _) in proto.Materials)
-                {
-                    if (!materialWhitelist.Contains(mat))
-                    {
-                        materialWhitelist.Add(mat);
-                    }
-                }
+                    materialWhitelist.Add(mat);
+                // Mono
+                foreach (var (mat, _) in proto.MaterialResult)
+                    materialWhitelist.Add(mat);
             }
 
             var combined = args.Whitelist.Union(materialWhitelist).ToList();
@@ -228,7 +229,7 @@ namespace Content.Server.Lathe
         }
 
         public bool TryAddToQueue(EntityUid uid, LatheRecipePrototype recipe, int quantity, LatheComponent? component = null, // Frontier: add quantity
-                                  bool canDebt = false) // Mono
+                                   EntityUid? actor = null, bool canDebt = false) // Mono
         {
             if (!Resolve(uid, ref component))
                 return false;
@@ -246,7 +247,8 @@ namespace Content.Server.Lathe
             if (component.Queue.Count > 0 && component.Queue[^1].Recipe.ID == recipe.ID)
                 component.Queue[^1].ItemsRequested += quantity;
             else
-                component.Queue.Add(new LatheRecipeBatch(recipe, 0, quantity));
+                component.Queue.Add(new LatheRecipeBatch(recipe, 0, quantity,
+                GetNetEntity(actor))); // Mono: Adds actor
             // End Frontier
             // component.Queue.Add(recipe); // Frontier
 
@@ -267,6 +269,7 @@ namespace Content.Server.Lathe
 
             // Frontier: handle batches
             var batch = component.Queue.First();
+            var actor = batch.Actor; // Mono: Adds actor
             var recipe = batch.Recipe;
             // <Mono> - resources now consumed as the production goes
             if (!CanProduce(uid, recipe, 1, component))
@@ -283,12 +286,48 @@ namespace Content.Server.Lathe
 
             foreach (var (mat, amount) in recipe.Materials)
             {
-                var adjustedAmount = recipe.ApplyMaterialDiscount
-                    ? (int) (-amount * component.FinalMaterialUseMultiplier) // Frontier: MaterialUseMultiplier<FinalMaterialUseMultiplier
-                    : -amount;
+                var adjustedAmount = -AdjustMaterial(amount, recipe.MaterialDiscountScale, component.FinalMaterialUseMultiplier);
 
                 _materialStorage.TryChangeMaterialAmount(uid, mat, adjustedAmount);
             }
+
+            foreach (var (reag, amount) in recipe.Reagents)
+            {
+                if (component.ReagentOutputSlotId is not { } slotId)
+                    break;
+
+                if (!_container.TryGetContainer(uid, slotId, out var container) ||
+                    !_solution.TryGetDrainableSolution(container.ContainedEntities.First(), out var solEnt, out _))
+                    break;
+
+                _solution.SplitSolutionPerReagentWithOnly(solEnt.Value, amount, reag);
+            }
+
+            if (TryComp<EntityStorageComponent>(uid, out var storage))
+            {
+                foreach (var (entity, amount) in recipe.Entities)
+                {
+                    var counter = 0;
+                    foreach (var conEnt in storage.Contents.ContainedEntities)
+                    {
+                        if (MetaData(conEnt).EntityPrototype?.ID != entity.Id)
+                            continue;
+
+                        _stackQuery.TryComp(conEnt, out var stack);
+                        var count = stack?.Count ?? 1;
+
+                        if (count > amount)
+                            _stack.SetCount(conEnt, count - amount);
+                        if (count <= amount)
+                            QueueDel(conEnt);
+
+                        counter += count;
+                        if (counter >= amount)
+                            break;
+                    }
+                }
+            }
+
             // </Mono>
 
             batch.ItemsPrinted++;
@@ -301,6 +340,7 @@ namespace Content.Server.Lathe
             var lathe = EnsureComp<LatheProducingComponent>(uid);
             lathe.StartTime = _timing.CurTime;
             lathe.ProductionLength = time * component.FinalTimeMultiplier; // Frontier: TimeMultiplier<FinalTimeMultiplier
+            lathe.Actor = GetEntity(actor);
             component.CurrentRecipe = recipe;
 
             var ev = new LatheStartPrintingEvent(recipe);
@@ -326,19 +366,26 @@ namespace Content.Server.Lathe
             {
                 if (comp.CurrentRecipe.Result is { } resultProto)
                 {
-                    var result = Spawn(resultProto, Transform(uid).Coordinates);
-
-                    // Frontier: adjust price before merge (stack prices changed once)
-                    if (result.Valid)
+                    for (var i = 0; i < comp.CurrentRecipe.ResultCount; i++) // mono
                     {
-                        ModifyPrintedEntityPrice(uid, comp, result);
+                        var result = Spawn(resultProto, Transform(uid).Coordinates);
 
-                        _contraband.ClearContrabandValue(result);
+                        // Frontier: adjust price before merge (stack prices changed once)
+                        if (result.Valid)
+                        {
+                            ModifyPrintedEntityPrice(uid, comp, result);
+                            // End Frontier
+
+                            // Mono: Handle printable contraband
+                            _contraband.HandleContrabandValueByCompany(result, prodComp.Actor);
+                        }
+
+                        _stack.TryMergeToContacts(result);
                     }
-                    // End Frontier
-
-                    _stack.TryMergeToContacts(result);
                 }
+
+                // Mono
+                _materialStorage.TryChangeMaterialAmount(uid, comp.CurrentRecipe.MaterialResult.ToDictionary()); // copy
 
                 if (comp.CurrentRecipe.ResultReagents is { } resultReagents &&
                     comp.ReagentOutputSlotId is { } slotId)
@@ -361,8 +408,9 @@ namespace Content.Server.Lathe
                 }
 
                 // <Mono>
+                // Add the actor that previously queued to looped items
                 if (comp.Loop)
-                    TryAddToQueue(uid, comp.CurrentRecipe, 1, comp, true);
+                    TryAddToQueue(uid, comp.CurrentRecipe, 1, comp, prodComp.Actor, true);
 
                 _deviceLink.SendSignal(uid, comp.ProducedPort, true);
                 // </Mono>
@@ -499,7 +547,7 @@ namespace Content.Server.Lathe
             if (_proto.TryIndex(args.ID, out LatheRecipePrototype? recipe))
             {
                 // Frontier: batching recipes
-                if (TryAddToQueue(uid, recipe, args.Quantity, component))
+                if (TryAddToQueue(uid, recipe, args.Quantity, component, args.Actor))
                 {
                     _adminLogger.Add(LogType.Action,
                         LogImpact.Low,
@@ -628,6 +676,36 @@ namespace Content.Server.Lathe
             ent.Comp.Paused = false;
             if (wasPaused)
                 TryStartProducing(ent, ent.Comp);
+        }
+
+        // Mono
+        public override bool CanProduce(EntityUid uid, LatheRecipePrototype recipe, int amount = 1, LatheComponent? component = null)
+        {
+            if (!TryComp<EntityStorageComponent>(uid, out var storage) &&
+                recipe.Entities.Count != 0)
+                return false;
+
+            if (storage == null)
+                return base.CanProduce(uid, recipe, amount, component);
+
+            foreach (var (entity, needed) in recipe.Entities)
+            {
+                var processedEntities = 0;
+                foreach (var conEnt in storage.Contents.ContainedEntities)
+                {
+                    if (MetaData(conEnt).EntityPrototype?.ID != entity.Id)
+                        continue;
+
+                    _stackQuery.TryComp(conEnt, out var stack);
+
+                    processedEntities += stack?.Count ?? 1;
+                }
+
+                if (processedEntities < needed * amount)
+                    return false;
+            }
+
+            return base.CanProduce(uid, recipe, amount, component);
         }
     }
 }

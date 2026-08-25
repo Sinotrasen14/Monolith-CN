@@ -34,21 +34,32 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 40
+        damage: 5
       behaviors:
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
   - type: TrayScanReveal
   - type: Kudzu
     growthTickChance: 0.2
-    spreadChance: 0.5
+    spreadChance: 0.35
     # Heals each time it manages to do a growth tick:
     damageRecovery:
       types:
-        Slash: -1.25
-        Heat: -1.25
-        Cold: -1.25
-        Blunt: -1.5
+        Slash: -1
+        Heat: -1
+        Cold: -1
+        Blunt: -1.25
+  - type: DamageContacts
+    damage:
+      types:
+        Slash: -3
+        Piercing: -3
+        Blunt: -3
+        Heat: -3
+        Caustic: -3
+    whitelist:
+      tags:
+      - Chimera
   - type: Flammable
     fireSpread: true
     alwaysCombustible: true
@@ -56,10 +67,25 @@
     damage:
       types:
         Heat: 9
+  - type: Reactive
+    groups:
+      Flammable: [Touch]
+      Extinguish: [Touch]
+    reactions:
+    - reagents: [Mesotaxinide]
+      methods: [Touch]
+      effects:
+      - !type:HealthChange
+        scaleByQuantity: true
+        damage:
+          groups:
+            Burn: -60
+          types:
+            Heat: -30
   - type: AtmosExposed
   - type: SpeedModifierContacts
-    walkSpeedModifier: 0.25
-    sprintSpeedModifier: 0.25
+    walkSpeedModifier: 0.45
+    sprintSpeedModifier: 0.45
     ignoreWhitelist:
       tags:
       - Chimera
@@ -69,8 +95,6 @@
     solutions:
       food:
         reagents:
-        - ReagentId: Razorium
-          Quantity: 4
         - ReagentId: NaturalLetoferol
           Quantity: 15
         - ReagentId: Protein
@@ -80,3 +104,4 @@
     - Chimera
     - ChimeraFloor
     - Meat
+  - type: ChimeraCleanable

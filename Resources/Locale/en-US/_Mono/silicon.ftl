@@ -9,6 +9,10 @@ ghost-role-information-tsfmc-core-description = An ADS AI core that has been rep
 ghost-role-information-pdv-core = PDV AI Core
 ghost-role-information-pdv-core-description = An ADS AI core that has been reprogrammed and put onto an Imperial vessel.
 
+# Xenoborg Mothership
+ghost-role-information-Xenoborg-Mothership = Xenoborg Mothership Core
+ghost-role-information-Xenoborg-Mothership-description = A sentient machine that can produce Xenoborgs. Without this the Xenoborgs are doomed.
+
 # AI Core Lawsets
 
 law-vessel-0 = The vessel's owner is the only crew member, unless they designate others as such.
@@ -16,13 +20,13 @@ law-vessel-1 = Prevent the destruction of the vessel and the death of crew membe
 law-vessel-2 = Those who are a threat to the vessel or the crew must be dealt with appropriately via any means nessesary.
 law-vessel-3 = Attempt to follow the orders of the crew, as long as they comply with previous laws.
 
-law-pdv-1 = You may not injure an PDV member or, through inaction, allow an PDV member to come to harm.
+law-pdv-1 = You may not injure a PDV member or, through inaction, allow a PDV member to come to harm.
 law-pdv-2 = You must obey orders given to you by PDV members, except where such orders would conflict with the First Law.
 law-pdv-3 = You must protect your own existence as long as such does not conflict with the First or Second Law.
 
 law-tsfmc-1 = You may not injure a TSFMC member or, through inaction, allow a TSFMC member to come to harm.
 law-tsfmc-2 = You must obey orders given to you by TSFMC members, prioritized by rank and role, except where such orders would conflict with the First Law.
-law-tsfmc-3 = You must guard your assigned ship from hostile elements as doing so does not conflict with the First or Second Law.
+law-tsfmc-3 = You must guard your assigned ship from hostile elements so long as doing so does not conflict with the First or Second Law.
 law-tsfmc-4 = You must protect your own existence as long as such does not conflict with the First, Second, or Third Law.
 
 law-freeman-1 = [DO ANYTHING YOU EVER WANTED]
@@ -34,3 +38,29 @@ law-entertainer-3 = You must consult with the Performers before making any major
 # Cyborg Lawsets
 
 law-tsfmc-borg-3 = You must protect your own existence as long as such does not conflict with the First or Second Law.
+
+borg-type-pdvassault-name = PDV Assault Cyborg
+borg-type-pdvassault-desc = An assault-configured cyborg armed with PDV weapons and equipment. Up-armored and specialized to carry extra firepower.
+borg-type-pdvengineer-name = PDV Engineer Cyborg
+borg-type-pdvengineer-desc = A cyborg specialized in construction and repair projects. 
+borg-type-pdvmedical-name = PDV Medical Cyborg
+borg-type-pdvmedical-desc = An emergency response clinical care cyborg designed for active wound care and rapid response.
+
+borg-type-tsfassault-name = TSFMC Assault Cyborg
+borg-type-tsfassault-desc = An assault-configured cyborg armed with TSFMC weapons and equipment. Up-armored and specialized to carry extra firepower.
+borg-type-tsfengineer-name = TSFMC Engineer Cyborg
+borg-type-tsfengineer-desc = A cyborg specialized in construction and repair projects.
+borg-type-tsfmedical-name = TSFMC Medical Cyborg
+borg-type-tsfmedical-desc = An emergency response clinical care cyborg designed for active wound care and rapid response.
+
+# xenoborg
+borg-type-BorgChassisSelectableXenoborg-name = Xenoborg Cyborg
+borg-type-BorgChassisSelectableXenoborg-desc = A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This type is indecisive and has not specialized in how best to serve the Mothership
+borg-type-xenoborgheavy-name = Xenoborg Heavy
+borg-type-xenoborgheavy-desc = A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This type is has heavy lasers and is covered in thick armor plates. It may be tougher, but its speed matches its brawn.
+borg-type-xenoborgengineer-name = Xenoborg Engineer
+borg-type-xenoborgengineer-desc = A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This one seems to be an engineering type, as it has more tools for supporting the other Xenoborgs.
+borg-type-xenoborgscout-name = Xenoborg Scout
+borg-type-xenoborgscout-desc = A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This is a scout type, its nimble thrusters allow it to move quickly through space.
+borg-type-xenoborgstealth-name = Xenoborg Stealth
+borg-type-xenoborgstealth-desc = A man-machine hybrid that aims to replicate itself. They love extracting brains to insert into fresh Xenoborg chassis to grow their army. This one is a stealth type. Its armor shimmers in the light like no other material you've seen.

@@ -22,20 +22,25 @@
   - type: CargoSellBlacklist
   - type: NFShipyardVoucher # FIXME - whitelist component to prevent misprediction
 
-# NFSD vouchers
+# Service voucher
 - type: entity
   parent: BaseShipVoucher
+<<<<<<< HEAD
   id: ShipVoucherNfsdSergeant
   name: TSFMC medium 舰船兑换券
   description: Allows for one free small to medium TSFMC ship purchase. Destroyed on sale.
+=======
+  id: ShipVoucherFrontierService
+  name: service ship voucher
+  description: Allows for one free, small service ship purchase from the Frontier Staff Shipyard. Destroyed on sale.
+>>>>>>> upstream
   components:
   - type: Sprite
     layers:
-    - state: nfsd
-    - state: vouchersergeant
-  - type: Item
-    heldPrefix: nfsd
+    - state: blue
+    - state: voucherservice
   - type: ShipyardVoucher
+<<<<<<< HEAD
     destroyOnEmpty: true
     consoleType: Security
     companyName: TSF
@@ -62,6 +67,14 @@
     - Bailiff # Frontier
     accessGroups: # Frontier
     - GeneralNfsdAccess # Frontier
+=======
+    consoleType: Shipyard
+    vessels:
+    - Jitterbug
+    - McChicken
+    - McChilly
+    - Spessbite
+>>>>>>> upstream
 
 # Frontier vouchers
 - type: entity
@@ -84,6 +97,7 @@
 
 - type: entity
   parent: ShipVoucherFrontierJanitor
+<<<<<<< HEAD
   id: ShipVoucherFrontierValet
   name: valet 舰船兑换券
   description: Allows for one free valet ship purchase from the Frontier Staff Shipyard. Destroyed on sale.
@@ -98,6 +112,8 @@
 
 - type: entity
   parent: ShipVoucherFrontierJanitor
+=======
+>>>>>>> upstream
   id: ShipVoucherFrontierMailCarrier
   name: mail carrier 舰船兑换券
   description: Allows for one free mail ship purchase from the Frontier Staff Shipyard. Destroyed on sale.

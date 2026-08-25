@@ -10,6 +10,7 @@ public enum RadarBlipShape
 {
     Circle,
     Square,
+    GridAlignedBox,
     Triangle,
     Star,
     Diamond,
@@ -22,26 +23,34 @@ public enum RadarBlipShape
 public sealed class GiveBlipsEvent : EntityEventArgs
 {
     /// <summary>
+    /// Palette of blip configs, basically an int->config map.
+    /// </summary>
+    public readonly List<BlipConfig> ConfigPalette;
+
+    /// <summary>
     /// Blips are now (position, velocity, scale, color, shape).
     /// </summary>
-    public readonly List<(NetEntity uid, NetCoordinates Position, Vector2 Vel, float Scale, Color Color, RadarBlipShape Shape)> Blips;
+    public readonly List<BlipNetData> Blips;
+
+    /// <summary>
+    /// Vectors for missile stuff like arcs, current target, etc
+    /// </summary>
+    public readonly List<MissileVectorNetData> Missiles;
 
     /// <summary>
     /// Hitscan lines to display on the radar as (start position, end position, thickness, color).
     /// </summary>
-    public readonly List<(Vector2 Start, Vector2 End, float Thickness, Color Color)> HitscanLines;
-
-    public GiveBlipsEvent(List<(NetEntity uid, NetCoordinates Position, Vector2 Vel, float Scale, Color Color, RadarBlipShape Shape)> blips)
-    {
-        Blips = blips;
-        HitscanLines = new List<(Vector2 Start, Vector2 End, float Thickness, Color Color)>();
-    }
+    public readonly List<HitscanNetData> HitscanLines;
 
     public GiveBlipsEvent(
-        List<(NetEntity uid, NetCoordinates Position, Vector2 Vel, float Scale, Color Color, RadarBlipShape Shape)> blips,
-        List<(Vector2 Start, Vector2 End, float Thickness, Color Color)> hitscans)
+        List<BlipConfig> configPalette,
+        List<BlipNetData> blips,
+        List<MissileVectorNetData> missiles,
+        List<HitscanNetData> hitscans)
     {
+        ConfigPalette = configPalette;
         Blips = blips;
+        Missiles = missiles;
         HitscanLines = hitscans;
     }
 }
@@ -65,4 +74,47 @@ public sealed class BlipRemovalEvent : EntityEventArgs
     {
         NetBlipUid = netBlipUid;
     }
+}
+
+[Serializable, NetSerializable]
+public record struct BlipNetData
+(
+    NetEntity Uid,
+    NetCoordinates Position,
+    Vector2 Vel,
+    Angle Rotation,
+    ushort ConfigIndex,
+    ushort? OnGridConfigIndex
+);
+
+[Serializable, NetSerializable]
+public record struct MissileVectorNetData
+(
+    NetEntity Uid,
+    float Range,
+    Angle ScanArc
+);
+
+[Serializable, NetSerializable]
+public record struct HitscanNetData(Vector2 Start, Vector2 End, float Thickness, Color Color);
+
+[Serializable, NetSerializable, DataDefinition]
+public partial record struct BlipConfig
+{
+    [DataField]
+    public Box2 Bounds = new Box2(-0.5f, -0.5f, 0.5f, 0.5f);
+
+    [DataField]
+    public Color Color = Color.OrangeRed;
+
+    [DataField]
+    public RadarBlipShape Shape = RadarBlipShape.Circle;
+
+    [DataField]
+    public bool RespectZoom = false;
+
+    [DataField]
+    public bool Rotate = false;
+
+    public BlipConfig() { }
 }

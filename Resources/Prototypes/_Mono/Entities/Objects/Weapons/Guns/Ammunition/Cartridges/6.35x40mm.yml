@@ -1,6 +1,10 @@
 - type: entity
   id: BaseCartridge635x40mmCaseless
+<<<<<<< HEAD
   name: '.25 步枪子弹 | cartridge (.25 rifle)'
+=======
+  name: cartridge (6.35x40mm caseless)
+>>>>>>> upstream
   parent: BaseCartridge
   description: 为在公司战争期间开发，供亚音速武器使用以便在行动中保持低调。
   abstract: true
@@ -24,7 +28,11 @@
 
 - type: entity
   id: Cartridge635x40mmCaseless
+<<<<<<< HEAD
   name: '子弹（635x40mm 无壳弹） | cartridge (635x40mm Caseless)'
+=======
+  name: cartridge (6.35x40mm Caseless)
+>>>>>>> upstream
   parent: BaseCartridge635x40mmCaseless
   components:
   - type: CartridgeAmmo
@@ -32,7 +40,11 @@
 
 - type: entity
   id: Cartridge635x40mmCaselessRubber
+<<<<<<< HEAD
   name: '弹筒（635x40mm 无壳橡胶） | cartridge (635x40mm Caseless rubber)'
+=======
+  name: cartridge (6.35x40mm Caseless rubber)
+>>>>>>> upstream
   parent: BaseCartridge635x40mmCaseless
   components:
   - type: CartridgeAmmo
@@ -40,7 +52,11 @@
 
 - type: entity
   id: Cartridge635x40mmCaselessPractice
+<<<<<<< HEAD
   name: '子弹（635x40mm 无壳训练弹） | cartridge (635x40mm Caseless practice)'
+=======
+  name: cartridge (6.35x40mm Caseless practice)
+>>>>>>> upstream
   parent: BaseCartridge635x40mmCaseless
   components:
   - type: CartridgeAmmo

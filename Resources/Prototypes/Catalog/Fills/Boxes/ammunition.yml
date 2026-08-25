@@ -35,10 +35,10 @@
 
 # 762x39mm
 - type: entity
-  name: box of 762x39mm magazines
+  name: box of 7.62x39mm magazines
   parent: BoxMagazine
   id: BoxMagazine762x39mmFMJ
-  description: A box full of 762x39mm magazines.
+  description: A box full of 7.62x39mm magazines.
   components:
   - type: StorageFill
     contents:
@@ -46,14 +46,25 @@
         amount: 4
 
 - type: entity
-  name: box of 762x39mm (practice) magazines
+  name: box of 7.62x39mm (practice) magazines
   parent: BoxMagazine
   id: BoxMagazine762x39mmPractice
-  description: A box full of 762x39mm (practice) magazines.
+  description: A box full of 7.62x39mm (practice) magazines.
   components:
   - type: StorageFill
     contents:
       - id: Magazine762x39mmPractice
+        amount: 4
+
+- type: entity
+  name: box of 7.62x39mm (subsonic) magazines
+  parent: BoxMagazine
+  id: BoxMagazine762x39mmSubsonic
+  description: A box full of 7.62x39mm (subsonic) magazines.
+  components:
+  - type: StorageFill
+    contents:
+      - id: Magazine762x39mmSubsonic
         amount: 4
 
 #mono edit start
@@ -89,14 +100,25 @@
     contents:
     - id: Magazine8x65mmSKR
       amount: 4
+
+- type: entity
+  name: box of SMG 5.7x28mm magazines
+  parent: BoxMagazine
+  id: BoxMagazine57x28mmSubMachineGunFMJ
+  description: A box full of SMG 5.7x28mm magazines.
+  components:
+  - type: StorageFill
+    contents:
+    - id: Magazine57x28mmSubMachineGunFMJ
+      amount: 4
 #mono edit end
 
 # 762x51mm
 - type: entity
-  name: box of 762x51mm magazines
+  name: box of 7.62x51mm magazines
   parent: BoxMagazine
   id: BoxMagazine762x51mmFMJ
-  description: A box full of 762x51mm magazines.
+  description: A box full of 7.62x51mm magazines.
   components:
   - type: StorageFill
     contents:
@@ -104,10 +126,10 @@
         amount: 4
 
 - type: entity
-  name: box of 762x51mm (rubber) magazines
+  name: box of 7.62x51mm (rubber) magazines
   parent: BoxMagazine
   id: BoxMagazine762x51mmRubber
-  description: A box full of 762x51mm (rubber) magazines.
+  description: A box full of 7.62x51mm (rubber) magazines.
   components:
   - type: StorageFill
     contents:
@@ -115,10 +137,10 @@
         amount: 4
 
 - type: entity
-  name: box of 762x51mm (practice) magazines
+  name: box of 7.62x51mm (practice) magazines
   parent: BoxMagazine
   id: BoxMagazine762x51mmPractice
-  description: A box full of 762x51mm (practice) magazines.
+  description: A box full of 7.62x51mm (practice) magazines.
   components:
   - type: StorageFill
     contents:
@@ -128,10 +150,10 @@
 #mono edit
 # 762x54mmRFMJ
 - type: entity
-  name: box of 762x54mmR magazines
+  name: box of 7.62x54mmR magazines
   parent: BoxMagazine
   id: BoxMagazine762x54mmRFMJ
-  description: A box full of 762x54mmR magazines.
+  description: A box full of 7.62x54mmR magazines.
   components:
   - type: StorageFill
     contents:
@@ -184,29 +206,6 @@
   - type: StorageFill
     contents:
       - id: Magazine556x45mmPractice
-        amount: 4
-
-# 45_magnum
-- type: entity
-  name: box of SMG .45 magnum magazines
-  parent: BoxMagazine
-  id: BoxMagazine45_magnumSubMachineGunFMJ
-  description: A box full of SMG .45 magnum magazines.
-  components:
-  - type: StorageFill
-    contents:
-      - id: Magazine45_magnumSubMachineGunFMJ
-        amount: 4
-
-- type: entity
-  name: box of SMG .45 magnum (practice) magazines
-  parent: BoxMagazine
-  id: BoxMagazine45_magnumSubMachineGunPractice
-  description: A box full of SMG .45 magnum (practice) magazines.
-  components:
-  - type: StorageFill
-    contents:
-      - id: Magazine45_magnumSubMachineGunPractice
         amount: 4
 
 # 46x30mmmm
@@ -466,13 +465,13 @@
         amount: 4
 
 - type: entity
-  name: box of .45 magnum speedloaders
+  name: box of .357 magnum speedloaders
   parent: BoxMagazine
-  id: BoxMagazine45_magnumFMJ
-  description: A box full of .45 magnum speedloaders.
+  id: BoxMagazine357_magnumFMJ
+  description: A box full of .357 magnum speedloaders.
   components:
   - type: StorageFill
     contents:
-      - id: SpeedLoader45_magnumFMJ
+      - id: SpeedLoader357_magnumFMJ
         amount: 4
 #mono edit end

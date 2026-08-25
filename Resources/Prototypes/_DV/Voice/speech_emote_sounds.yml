@@ -60,8 +60,10 @@
       collection: VulpkaninSnarls
     Bark:
       collection: VulpkaninBarks
+    Yip: # Starlight / Monolith - yip & whine [
+      collection: VulpkaninYips
     Whine:
-      collection: VulpkaninWhines
+      collection: VulpkaninWhines  # Starlight / Monolith - yip & whine ]
     Howl:
       collection: VulpkaninHowls
     Awoo:
@@ -118,8 +120,8 @@
       collection: VulpkaninSnarls
     Bark:
       collection: VulpkaninBarks
-    Whine:
-      collection: VulpkaninWhines
+    Whimper:
+      collection: VulpkaninWhimpers # Starlight / Monolith: Rename to whimper
     Howl:
       collection: VulpkaninMaleHowl #Monolith
     Awoo:
@@ -130,6 +132,10 @@
       collection: MaleDeathGasp
     Belch: # Frontier
       collection: Belch # Frontier
+    Yip: # Starlight / Monolith - yip & whine [
+      collection: VulpkaninYips
+    Whine:
+      collection: VulpkaninWhines  # Starlight / Monolith - yip & whine ]
 
 - type: emoteSounds
   id: FemaleVulpkanin
@@ -166,8 +172,8 @@
       collection: VulpkaninSnarls
     Bark:
       collection: VulpkaninBarks
-    Whine:
-      collection: VulpkaninWhines
+    Whimper:
+      collection: VulpkaninWhimpers # Starlight / Monolith: Rename to whimper
     Howl:
       collection: VulpkaninFemaleHowl #Monolith
     Awoo:
@@ -178,6 +184,10 @@
       collection: FemaleDeathGasp
     Belch: # Frontier
       collection: Belch # Frontier
+    Yip: # Starlight / Monolith - yip & whine [
+      collection: VulpkaninYips
+    Whine:
+      collection: VulpkaninWhines  # Starlight / Monolith - yip & whine ]
 
 - type: emoteSounds
   id: MobDog
@@ -190,8 +200,10 @@
       collection: VulpkaninSnarls
     Bark:
       collection: VulpkaninBarks
+    Yip: # Starlight / Monolith - yip & whine [
+      collection: VulpkaninYips
     Whine:
-      collection: VulpkaninWhines
+      collection: VulpkaninWhines  # Starlight / Monolith - yip & whine ]
     Howl:
       collection: VulpkaninHowls
     Awoo:
@@ -306,3 +318,79 @@
       collection: MaleGasp
     DefaultDeathgasp:
       collection: MothDeathGasp
+
+- type: emoteSounds
+  id: FemaleFeroxi
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      collection: FemaleScreams
+    Laugh:
+      collection: FemaleLaugh
+    Sneeze:
+      collection: FemaleSneezes
+    Cough:
+      collection: FemaleCoughs
+    Yawn:
+      collection: FemaleYawn
+    Snore:
+      collection: Snores
+    Honk:
+      collection: CluwneHorn
+    Sigh:
+      collection: FemaleSigh
+    Crying:
+      collection: FemaleCry
+    Whistle:
+      collection: Whistles
+    Weh:
+      collection: Weh
+    Hew:
+      collection: Hew
+    Hiss:
+      path: /Audio/Animals/snake_hiss.ogg
+    Gasp:
+      collection: FemaleGasp
+    DefaultDeathgasp:
+      collection: MothDeathGasp
+    Gnash:
+      collection: FeroxiGnashes
+
+- type: emoteSounds
+  id: MaleFeroxi
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      collection: MaleScreams
+    Laugh:
+      collection: MaleLaugh
+    Sneeze:
+      collection: MaleSneezes
+    Cough:
+      collection: MaleCoughs
+    Yawn:
+      collection: MaleYawn
+    Snore:
+      collection: Snores
+    Honk:
+      collection: BikeHorn
+    Sigh:
+      collection: MaleSigh
+    Crying:
+      collection: MaleCry
+    Whistle:
+      collection: Whistles
+    Weh:
+      collection: Weh
+    Hew:
+      collection: Hew
+    Hiss:
+      path: /Audio/Animals/snake_hiss.ogg
+    Gasp:
+      collection: MaleGasp
+    DefaultDeathgasp:
+      collection: MothDeathGasp
+    Gnash:
+      collection: FeroxiGnashes

@@ -174,9 +174,11 @@
     - NFLights # Frontier
     - NFServiceStatic # Frontier
     - MonoRestraintsStatic # Mono
+    - ReportingStatic # DeltaV
   - type: EmagLatheRecipes
     emagStaticPacks:
     - StaticAmmoRecipePack
+    - StaticGrenades
   - type: BlueprintReceiver
     whitelist:
       tags:
@@ -262,6 +264,7 @@
     - NFScience # Frontier
     - NFPouches # Frontier
     - VoidBoots # Mono
+    - CarpEquipment # Mono
     - UpgradeKits # Mono
     - UpgradeKits_Goob # Mono
     - SMSurgery # Shitmed Change
@@ -271,6 +274,7 @@
     - SmartGun # Goobstation
     # Einstein Engines Packs
     - Translators
+    - RCD # Mono!
   - type: EmagLatheRecipes
     emagDynamicPacks:
     - DynamicAmmoRecipePack
@@ -280,6 +284,7 @@
     - SyringeGuns # Delta-V
     emagStaticPacks:
     - StaticAmmoRecipePack
+    - StaticGrenades # Mono
 
 - type: entity
   id: ProtolatheHyperConvection
@@ -326,6 +331,7 @@
     - NFServiceBoardsStatic # Frontier
     - NFSalvageBoardsStatic # Frontier
     dynamicPacks:
+    - MonoEconomyLatheBoards # Mono
     - EngineeringBoards
     - CargoBoards
     - MedicalBoards
@@ -343,6 +349,7 @@
     - AiCoreBoard
     - S2MechBoards
     - EngineeringBoardsGoob #Goob Factorio port
+    - ReactorCircuitboards # FH edit
   - type: MaterialStorage
     whitelist:
       tags:
@@ -489,6 +496,7 @@
     - SecurityEquipmentStatic
     - SecurityPracticeStatic
     - StaticAmmoRecipePack
+    - StaticGrenades
     - SecurityWeaponsStatic
     dynamicPacks:
     - SecurityEquipment
@@ -499,7 +507,6 @@
     - SMCybernetics
     # Mono - Mechs
     - WeaponMechCombatArsenal
-    - DynamicAmmoRecipePack
     - SmartGun # Goobstation
     # Mono start
     - MonoTSFWeaponsDynamicMelee
@@ -508,10 +515,13 @@
     - MonoRogueWeaponsDynamicMelee
     - MonoRogueWeaponsDynamicRanged
     - MonoRogueMiscDynamic
-    - MonoUSSPMiscDynamic
-    - MonoUSSPWeaponsDynamicRanged
     - UniversalShellAmmo
     - ResearchedExplosives
+    - UniversalRailgunAmmo
+    - UniversalMissileAmmo
+    - UniversalOrdinance
+    - SmartGun #Smart SMG
+    - NFMercenaryTechfabDeprecated
     # Mono end
   - type: MaterialStorage
     whitelist:
@@ -548,7 +558,8 @@
     runningState: icon
     staticPacks:
     - StaticAmmoRecipePack
-    # - RoundstartShipgunAmmo # Mono
+    - StaticGrenades
+    - RoundstartShipgunAmmo # Mono
     dynamicPacks:
     - DynamicAmmoRecipePack
     # Mono start
@@ -744,6 +755,7 @@
       tags:
       - Ore
   - type: Lathe
+    partRatingMaterialUseMultiplier: 0.9 # Mono
     idleState: icon
     runningState: building
     defaultProductionAmount: 10
@@ -766,7 +778,8 @@
   - type: Machine
     board: OreProcessorIndustrialMachineCircuitboard
   - type: Lathe
-    materialUseMultiplier: 0.75
+    partRatingMaterialUseMultiplier: 0.92 # Mono
+    materialUseMultiplier: 0.6 # Mono
     timeMultiplier: 0.5
     staticPacks:
     - OreSmelting
@@ -880,6 +893,7 @@
   - type: Lathe
     idleState: limbgrower_idleoff
     runningState: limbgrower_idleon
+    productValueModifier: 0.05
     staticPacks:
     - MedicalSynthLimbsStatic
   - type: EmagLatheRecipes

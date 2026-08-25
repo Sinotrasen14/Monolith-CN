@@ -159,7 +159,7 @@
       sprite: Clothing/Back/Duffels/salvage.rsi
 
 - type: entity
-  parent: [NFClothingDuffel]
+  parent: NFClothingDuffel
   id: ClothingBackpackDuffelSyndicate
   name: 辛迪加行李袋 丨 syndicate duffel bag
   description: 一个用于存放各类叛徒物品的大号旅行包。 丨 A large duffel bag for holding various traitor goods.

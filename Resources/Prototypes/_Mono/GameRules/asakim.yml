@@ -10,7 +10,7 @@
   id: UnknownShuttleAsakimSmall
   components:
   - type: StationEvent
-    startAnnouncement: station-event-asakim-shuttle-detected
+    startAnnouncement: station-event-unknown-shuttle-detected #station-event-asakim-shuttle-detected
     startAudio:
       path: /Audio/Misc/notice1.ogg
     weight: 2
@@ -18,19 +18,19 @@
   - type: GameRule
     minPlayers: 40
   - type: LoadMapRule
-    preloadedGrid: AsakimSmall
+    gridPath: /Maps/_Mono/ShuttleEvent/asakim_small.yml
 
 - type: entity
   parent: BaseRandomShuttleRule
   id: UnknownShuttleAsakimMedium
   components:
   - type: StationEvent
-    startAnnouncement: station-event-asakim-shuttle-detected
+    startAnnouncement: station-event-unknown-shuttle-detected #station-event-asakim-shuttle-detected
     startAudio:
       path: /Audio/Misc/notice1.ogg
     weight: 2
-    maxOccurrences: 4
+    maxOccurrences: 3
   - type: GameRule
     minPlayers: 60
   - type: LoadMapRule
-    preloadedGrid: AsakimMedium
+    gridPath: /Maps/_Mono/ShuttleEvent/asakim_medium.yml

@@ -1,4 +1,43 @@
 - type: entity
+  id: PulsedPlasmaLaserCanister
+  parent: BaseMilitaryPowerCell
+  name: NT PPL magnetic storage container
+  description: A small, advanced magnetic containment unit for the storage of high-energy plasma. Powered off an internal microreactor with electromagnets, it can contain plasma indefinitely. Recharges via using electricity to synthesize plasma from surrounding air.
+  components:
+  - type: Sprite
+    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Magazine/ppl.rsi
+    layers:
+    - map: [ "enum.PowerCellVisualLayers.Base" ]
+      state: icon
+    - map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+      state: o4
+      shader: unshaded
+  - type: Item
+    size: Normal
+  - type: Battery
+    maxCharge: 3000
+    startingCharge: 3000
+  - type: HitscanBatteryAmmoProvider
+    proto: PulsedPlasma
+    fireCost: 3000
+  - type: StaticPrice
+    price: 1000
+  - type: Tag
+    tags:
+    - PPLCell
+  - type: PhysicalComposition
+    materialComposition:
+      Steel: 300
+      Gold: 40
+      Glass: 160
+      Plasma: 200
+      Uranium: 150
+    chemicalComposition:
+      Zinc: 20
+
+# tsf
+
+- type: entity
   id: MilitaryPowerCellMG
   parent: BaseMilitaryPowerCell
   name: 'EM72 艾什风暴电池电芯 | EM72 Ashstorm battery cell'
@@ -32,40 +71,101 @@
     chemicalComposition:
       Zinc: 20
 
+# 400Thz
+
 - type: entity
-  id: PulsedPlasmaLaserCanister
+  id: LargePowerCell400Thz
   parent: BaseMilitaryPowerCell
+<<<<<<< HEAD
   name: 'NT PPL磁力存储容器 | NT PPL magnetic storage container'
   description: '小型先进磁约束装置，用于储存高能等离子体。该装置由内置微型反应堆驱动，配备铱铁矿电磁体，可永久约束等离子体。通过电力从周围空气中合成等离子体实现自我补充。 | A small, advanced magnetic containment unit for the storage of high-energy plasma. Powered off an internal microreactor with iridite electromagnets, it can contain plasma indefinitely. Recharges via using electricity to synthesize plasma from surrounding air.'
+=======
+  name: DEW-1R 400Thz battery box (large)
+  description: A large and militarized power box for directed energy weapons. Tuned to fire low-frequency lasers with high capacity but low recharge speed. Slightly resistant to EMP.
+>>>>>>> upstream
   components:
   - type: Sprite
-    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Magazine/ppl.rsi
+    sprite: _Mono/Objects/Power/tsfbattery.rsi
     layers:
     - map: [ "enum.PowerCellVisualLayers.Base" ]
-      state: icon
+      state: base
     - map: [ "enum.PowerCellVisualLayers.Unshaded" ]
-      state: o4
+      state: o2
+      shader: unshaded
+      color: "#ff6e6e"
+  - type: Item
+    size: Normal
+  - type: Battery
+    maxCharge: 20000
+    startingCharge: 20000
+  - type: EmpResistance
+    coefficient: 0.002
+  - type: HitscanBatteryAmmoProvider
+    proto: Hitscan400Thz
+    fireCost: 50
+  - type: Tag
+    tags:
+    - LargeMilitaryPowerCell
+
+# 700Thz
+
+- type: entity
+  id: LargePowerCell700Thz
+  parent: BaseMilitaryPowerCell
+  name: DEW-VU 700Thz battery box (large)
+  description: A large and militarized power box for directed energy weapons. Tuned to fire high-frequency lasers with low capacity and low recharge speed. Resistant to EMP.
+  components:
+    - type: Sprite
+      sprite: _Mono/Objects/Power/tsfbattery.rsi
+      layers:
+        - map: [ "enum.PowerCellVisualLayers.Base" ]
+          state: base
+        - map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+          state: o2
+          shader: unshaded
+    - type: Item
+      size: Normal
+    - type: Battery
+      maxCharge: 20000
+      startingCharge: 20000
+    - type: EmpResistance
+      coefficient: 0.001
+    - type: HitscanBatteryAmmoProvider
+      proto: Hitscan700Thz
+      fireCost: 250
+    - type: Tag
+      tags:
+        - LargeMilitaryPowerCell
+
+# Plasma
+- type: entity
+  id: LargePowerCellPlasma68x52mm
+  parent: BaseMilitaryPowerCell
+  name: DEW-PLC plasma condenser (large)
+  description: A large and militarized power box for energy weapons, tweaked to function with ballistic firing mechanisms. Uses stored power to superheat particles into plasma before firing. Weak to EMP, but re-usable.
+  components:
+  - type: Sprite
+    sprite: _Mono/Objects/Power/plasmabattery.rsi
+    layers:
+    - map: [ "enum.PowerCellVisualLayers.Base" ]
+      state: base
+    - map: [ "enum.PowerCellVisualLayers.Unshaded" ]
+      state: o2
       shader: unshaded
   - type: Item
     size: Normal
   - type: Battery
-    maxCharge: 3000
-    startingCharge: 3000
+    maxCharge: 12000
+    startingCharge: 12000
   - type: HitscanBatteryAmmoProvider
-    proto: PulsedPlasma
-    fireCost: 3000
-  - type: StaticPrice
-    price: 1000
+    proto: Bullet68x52mmCaselessPlasma
+    fireCost: 200
   - type: Tag
     tags:
-    - PPLCell
-  - type: PhysicalComposition
-    materialComposition:
-      Steel: 300
-      Gold: 40
-      Glass: 160
-      Plasma: 200
-      Iridite: 50
-      Uranium: 150
-    chemicalComposition:
-      Zinc: 20
+    - Magazine68x52mmCaselessBoxSmall
+    - LargeMilitaryPowerCell
+  - type: ExtendDescription
+    descriptionList:
+    - description: Fits into TSF ballistic & chemical laser GPMGs.
+      color: "#4f94ad"
+      requireDetailRange: true

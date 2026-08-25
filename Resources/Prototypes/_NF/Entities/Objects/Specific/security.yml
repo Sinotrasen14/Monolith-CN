@@ -99,6 +99,19 @@
   - type: Store
     balance:
       FederationMilitaryCredit: 125
+  - type: Tag
+    tags:
+      - SecurityUplink
+      - FactionStaticUplinkTsf
+
+- type: entity
+  parent: BaseSecurityUplinkRadio
+  id: BaseSecurityUplinkRadioCaptain
+  suffix: Captain 100
+  components:
+  - type: Store
+    balance:
+      FederationMilitaryCredit: 100
 
 - type: entity
   parent: BaseSecurityUplinkRadio

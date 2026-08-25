@@ -29,39 +29,9 @@
 
 - type: entity
   parent:
-  - WeaponRevolverDeckard
-  categories: [ HideSpawnMenu ]
-  id: WeaponRevolverDeckardExpedition
-
-- type: entity
-  parent:
-  - WeaponRevolverFitz
-  categories: [ HideSpawnMenu ]
-  id: WeaponRevolverFitzExpedition
-
-- type: entity
-  parent:
-  - WeaponRevolverFaith
-  categories: [ HideSpawnMenu ]
-  id: WeaponRevolverFaithExpedition
-
-- type: entity
-  parent:
-  - WeaponRevolverLucky
-  categories: [ HideSpawnMenu ]
-  id: WeaponRevolverLuckyExpedition
-
-- type: entity
-  parent:
   - WeaponRevolverMateba
   categories: [ HideSpawnMenu ]
   id: WeaponRevolverMatebaExpedition
-
-- type: entity
-  parent:
-  - WeaponRevolverPirate
-  categories: [ HideSpawnMenu ]
-  id: WeaponRevolverPirateExpedition
 
 # Shotguns
 - type: entity
@@ -163,6 +133,17 @@
   - WeaponLaserCarbine
   categories: [ HideSpawnMenu ]
   id: WeaponLaserCarbineExpedition
+  components:
+  - type: Gun
+    burstCooldown: 0.5
+    burstFireRate: 3
+    shotsPerBurst: 3
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    - Burst
+    - FullAuto
+
 
 - type: entity
   parent:

@@ -481,7 +481,6 @@
   #       - Radio
   #       - Sidearm
   #       - Magazine9x19mmPistolFMJ
-  #       - Magazine45_magnumPistolFMJ
   #       - CombatKnife
   #       - Truncheon
   #     components:
@@ -623,7 +622,7 @@
     # - 0,0,3,1 # Frontier: commented out
 
 - type: entity
-  parent: [NFClothingBeltStorageBase]
+  parent: [NFClothingBeltStorageBase, BaseFactionGearOtherFactionT1]
   id: ClothingBeltSyndieHolster
   name: 集团式肩挎枪套 丨 syndicate shoulder holster
   description: 一款可容纳多种防弹护板的深肩式枪套。 丨 A deep shoulder holster capable of holding many types of ballistics.

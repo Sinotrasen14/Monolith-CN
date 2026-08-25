@@ -9,6 +9,10 @@
     snap:
     - Wall
   components:
+  - type: Anchorable
+    flags:
+    - Anchorable
+  - type: Rotatable
   - type: RangedDamageSound
     soundGroups:
       Brute:
@@ -22,6 +26,7 @@
     tags:
     - Wall
   - type: IsRoof
+  - type: RequiresGrid # Mono
   - type: Sprite
     drawdepth: Walls
   - type: Icon
@@ -52,9 +57,6 @@
     resistance: 2
   - type: BlockWeather
   - type: SunShadowCast
-  - type: Repairable
-    qualities:
-    - Applicating
   - type: ArmorThickness
     thickness: 3
 
@@ -78,21 +80,25 @@
 - type: entity
   parent: BaseWallTierTwo # Mono
   id: WallClock
+<<<<<<< HEAD
   name: 钟表墙 丨 clock wall
+=======
+  name: brass wall
+>>>>>>> upstream
   components:
   - type: Tag
     tags:
     - Wall
   - type: Sprite
-    sprite: Structures/Walls/clock.rsi
+    sprite: Structures/Walls/brass.rsi
   - type: Icon
-    sprite: Structures/Walls/clock.rsi
+    sprite: Structures/Walls/brass.rsi
   - type: Construction
     graph: ClockworkGirder
     node: clockworkWall
   - type: IconSmooth
     key: walls
-    base: clock
+    base: brass
   - type: RCDDeconstructable # Frontier
     cost: 6 # Frontier
     delay: 8 # Frontier
@@ -189,6 +195,7 @@
     key: walls
     base: debug
 
+<<<<<<< HEAD
 - type: entity
   parent: BaseWallTierThree # Mono - surely its fine since diamonds are so rare
   id: WallDiamond
@@ -208,6 +215,27 @@
   - type: IconSmooth
     key: walls
     base: diamond
+=======
+#- type: entity
+#  parent: BaseWallTierThree # Mono - surely its fine since diamonds are so rare
+#  id: WallDiamond
+#  name: diamond wall
+#  components:
+#  - type: Tag
+#    tags:
+#    - Wall
+#  - type: Sprite
+#    sprite: Structures/Walls/diamond.rsi
+#  - type: Icon
+#    sprite: Structures/Walls/diamond.rsi
+#  - type: RCDDeconstructable
+#    cost: 6
+#    delay: 8
+#    fx: EffectRCDDeconstruct8
+#  - type: IconSmooth
+#    key: walls
+#    base: diamond
+>>>>>>> upstream
 
 - type: entity
   parent: BaseWallTierOne # Mono
@@ -355,32 +383,33 @@
   - type: Construction # Mono
     graph: Girder
     node: plastitaniumWall
+  - type: Tag # Mono
+    tags:
+    - Wall
+    - WallT3
 
 - type: entity
-  parent: BaseWallTierTwo # Mono
+  parent: [ WallPlastitaniumDiagonalIndestructible, BaseWallTierTwo ] # Mono
   id: WallPlastitaniumDiagonal
+<<<<<<< HEAD
   name: 塑料钛墙 丨 plastitanium wall
+=======
+  name: plastitanium wall
+  description: Keeps the air in and the chimera out. #Mono
+>>>>>>> upstream
   suffix: diagonal
   placement:
     mode: SnapgridCenter
     snap:
     - Wall
   components:
-  - type: Sprite
-    drawdepth: Walls
-    sprite: Structures/Walls/plastitanium_diagonal.rsi
-    state: state0
-  - type: IconSmooth
-    mode: Diagonal
-    key: walls
-    base: state
-  - type: Icon
-    sprite: Structures/Walls/plastitanium_diagonal.rsi
-    state: state0
   - type: RCDDeconstructable # Frontier
     deconstructable: false # Frontier
   - type: StaticPrice
     price: 95 # Mono
+  - type: Construction # Mono
+    graph: Girder
+    node: wallPlastitaniumDiagonal
 
 - type: entity
   id: WallPlastitaniumDiagonalIndestructible
@@ -429,7 +458,7 @@
         mask:
         - FullTileMask
         layer:
-        - WallLayer
+        - DiagonalWallLayer # Mono WallLayer->DiagonalWallLayer
   - type: StaticPrice
     price: 50 # Mono
   - type: ArmorThickness
@@ -553,6 +582,9 @@
         node: girder
       - !type:DoActsBehavior
         acts: ["Destruction"]
+  - type: ShipRepairable
+    repairTime: 2
+    repairCost: 3
 
 # Riveting
 - type: entity
@@ -624,7 +656,12 @@
 #shuttle walls
 - type: entity
   id: WallShuttleDiagonal
+<<<<<<< HEAD
   name: 穿梭舱壁 丨 shuttle wall
+=======
+  name: shuttle wall
+  parent: BaseWallTierOne
+>>>>>>> upstream
   suffix: Diagonal
   description: 将空气留在里面，把灰潮挡在外面。 丨 Keeps the air in and the greytide out.
   placement:
@@ -670,35 +707,10 @@
         mask:
         - FullTileMask
         layer:
-        - WallLayer
+        - DiagonalWallLayer # Mono WallLayer->DiagonalWallLayer
         density: 2000
-  - type: Damageable
-    damageContainer: StructuralInorganic
-    damageModifierSet: StructuralMetallic
   - type: Physics
     bodyType: Static
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 1000 # Mono - wall buff
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalSlam
-    - trigger:
-        !type:DamageTrigger
-        damage: 800 # Mono - wall buff
-      behaviors:
-      - !type:ChangeConstructionNodeBehavior
-        node: girder
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalSlam
-      - !type:DoActsBehavior
-        acts: ["Destruction"]
   - type: Construction
     graph: Girder
     node: diagonalshuttleWall
@@ -762,6 +774,7 @@
 #  - type: Reflect # Frontier
 #    reflectProb: 1 # Frontier
 
+<<<<<<< HEAD
 - type: entity
   parent: BaseWallTierOne # Mono
   id: WallShuttleInterior
@@ -784,6 +797,30 @@
     base: state
 #  - type: Reflect # Frontier
 #    reflectProb: 1 # Frontier
+=======
+#- type: entity
+#  parent: BaseWallTierOne # Mono
+#  id: WallShuttleInterior
+#  name: shuttle wall
+#  suffix: Interior
+#  components:
+#  - type: RCDDeconstructable
+#    cost: 6
+#    delay: 8
+#    fx: EffectRCDDeconstruct8
+#  - type: Sprite
+#    sprite: Structures/Walls/shuttleinterior.rsi
+#  - type: Icon
+#    sprite: Structures/Walls/shuttleinterior.rsi
+#  - type: Construction
+#    graph: Girder
+#    node: shuttleInteriorWall
+#  - type: IconSmooth
+#    key: walls
+#    base: state
+##  - type: Reflect # Frontier
+##    reflectProb: 1 # Frontier
+>>>>>>> upstream
 
 - type: entity
   parent: BaseWallTierOne
@@ -852,6 +889,9 @@
         node: girder
       - !type:DoActsBehavior
         acts: ["Destruction"]
+  - type: ShipRepairable
+    repairTime: 2
+    repairCost: 2
   - type: StaticPrice
     price: 95
 
@@ -930,6 +970,34 @@
   - type: Construction
     graph: Girder
     node: reinforcedWallChitin
+
+# Xenoborg walls
+- type: entity
+  parent: WallPlastitanium
+  id: WallXenoborg
+  name: xenoborg wall
+  components:
+  - type: Sprite
+    sprite: Structures/Walls/xenoborg.rsi
+  - type: Icon
+    sprite: Structures/Walls/xenoborg.rsi
+  - type: IconSmooth
+    key: walls
+    base: xenoborg
+
+- type: entity
+  parent: WallPlastitaniumDiagonal
+  id: WallXenoborgDiagonal
+  name: xenoborg wall
+  suffix: diagonal
+  components:
+  - type: Sprite
+    drawdepth: Walls
+    sprite: Structures/Walls/xenoborg_diagonal.rsi
+    state: state0
+  - type: Icon
+    sprite: Structures/Walls/xenoborg_diagonal.rsi
+    state: state0
 
 - type: entity
   parent: BaseWallTierOne # Mono
@@ -1073,10 +1141,6 @@
   - type: IconSmooth
     key: walls
     base: mining
-  - type: RandomIconSmooth
-    randomStates:
-    - mining
-    - miningB
   - type: Appearance
 
 - type: entity

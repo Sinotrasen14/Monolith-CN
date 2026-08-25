@@ -1,7 +1,12 @@
 # 管理公司
 
+<<<<<<< HEAD
 winter-solstice-description = 跨太阳系联邦海军陆战队的三大分支均归属于联邦的统一最高指挥部的指挥。，即“冬至”。
 
+=======
+winter-solstice-description = All three branches of the Trans-Solar Marines Federation fall under the direction of the Federation's unified high command, known as Winter Solstice.
+pdv-highcomm-description = The high ranking officials of the PDV - simply referred to as highcomm by scared rahkshans...
+>>>>>>> upstream
 
 # 核心公司
 
@@ -13,7 +18,7 @@ harmony-medical-enterprises-description = 和谐医疗企业是家完全专注�
 
 midnight-arms-co-description = 午夜武器公司抓住了银河系重建的机遇——这个新时代全面禁止超级企业存在。MACo为独立群体和各种其他公司提供他们所需的任何武器装备，至于它们的用途，嗯，那取决于购买它们的人。在这个时代，自卫、远征、赏金追缉皆需枪械，MACo(午夜武器公司)只是恰好发现自己是主要供应商之一。
 
-ussp-description = Once one of the dominant forces in the Colossus sector, the United Soviet Socialist Planets are a coalition of hard workers. Abused by their High Command and left in the Colossus sector, remnants of this once-great faction must now fight for survival, either for themselves, their legacy, or their people. NOTE: using this company does NOT make your character applicable to faction engagement rules - you must still follow ROE depending on your role.
+ussp-description = The USSP Remnants are the surviving elements of the 78th Expeditionary Fleet and its attached 13th Naval Infantry Battalion. Once tasked with securing the Colossus Sector under Operation Roundtable, the expeditionary fleet was shattered by a sudden and disorganised withdrawal order, with much of it lost in the retreat through the far fringes of the sector. Cut off from their distant home and left without further orders from USSP Naval Command, the survivors now endure in isolation. The Naval Infantry, burdened by sustained losses and threadbare leadership, remain a battle-tested but increasingly strained force. Held together by camaraderie, pride, and the stubborn belief that their sacrifice must still have meaning, the Remnants now struggle to preserve what remains, some holding fast to the hope that one day the Union will return, while others begin to doubt that it ever will.
 
 # 主要公司
 
@@ -50,9 +55,18 @@ The-Hive-description = 既臻旧境，何不新生？虫群乃将身躯奉献于
 
 paycheck-bratva-description = 薪饷兄弟会是源自USSP疆域的有组织犯罪网络。自从USSP这个太空超级大国移至巨像星区以来，它也随之渗透到该区域。主营高端毒品贸易、走私与大案劫掠，兼营各类标价目标刺杀。其运作遵循简易准则：开火必索命、绝不沾染毒品（尤忌自家产品）、对那些洒了薪饷兄弟会鲜血的人，血债必血偿。全员身着防弹背心与西装领带，佩戴巴拉克拉瓦头套或类似面具，确实是一个适合暴徒和职业劫匪的派系。
 
+viper-group-description = Formerly a Syndicate privateering company operating under the wing of Gorlex with a rigid military doctrine, their sole designated mission being disrupting interstellar shipping routes along the fringes of NT territory. After the Union of Soviet Socialist Planets declared its independence from the Confederacy, Viper Group saw an opportunity to exploit the nation's situation after the devastating corporate war and formed a branch office in USSP space as to facilitate local operations against TSF under the guise of "aiding" in the stabilization of USSP's borders against their former overlords, gaining respectable reputation amongst the USSP's early ranks and profit by selling looted ancient NT and syndicate equipment to the USSP's government and local blackmarkets. Post-Corporate war the Vipers had entirely migrated into USSP space with a PMC front, moving away from being associated publicly with the USSP's military and acting independently. With the USSP growing content with their sphere of influence amongst the stars following a series of devastating TSF incursions reclaiming territory from the USSP, the Vipers left their domain to prowl with their best virtue; Greed. The Vipers expanded their reach to target more opportunistic areas where one would not look twice their way upon catching their insignia, such as destabilized frontier planets and spacehubs of various groups of interest as they became notorious for conducting raids on supply and shipping routes; most notably those of the emergent TSF and PD. With leadership often violently switching hands once a Viper commander's fangs grow dull, the Vipers are seen as a wildcard whose only interest is credits and fullfilling contracts to the letter. Favorable relations with the Colossus' blackmarket expedited their arrival to the sector. For those whom yearn for danger and wealth, the Vipers bow to none; loyalty intertwined by brotherhood and fangs bared for credits.
 
+<<<<<<< HEAD
 # 敌对/非法关联企业
 
 viper-group-description = 曾是一家奉行军纪的私掠公司，唯一任务是在2号星区的USSP-TSF空间边缘沿线拦截、扰乱和没收TSF的航运路线。在经历了一系列重大悲剧事件后，蝰蛇集团（VG）骤然倒戈。TSF曾向这个前USSP支持的组织提供巨额报酬，以进行针对USSP的颠覆行动，却在不久后被他们出卖给了USSP。被虚假贿赂与致命背叛所驱使，TVG的领导层被任其腐烂；指挥权常在血腥更迭中易主，"贪婪即美德"最终成为成员的 无声信条。与非法星域的互利关系加速其扎根于此。若你渴求危险与财富，加入蝰蛇集团！
 
 cerberus-surplus-provisions = Cerberus、CSP 或临时工公司，是一家来自法厄同王朝首都站赫利俄斯的黑市公司。CSP 从他们的“地下”总部进行各种黑社会活动，以通过交易任何可交换或找到的非法物品、武器或一般装备来为 PD（法厄同王朝）谋取利益。公司保持最高的自尊心，为潜在买家和商业伙伴保持强大而友好的公众形象。CSP 会与任何愿意与这条蛇达成交易的人合作。
+=======
+cerberus-surplus-provisions = Cerberus Surplus Provisons, or CSP, is a conglomerate of brokers, producers, and specalists operating in different divisions that were recently uplifted by the Phaetheon Dynasty who CSP is openly backing in the Colossus invasion. It's constituents work togther for mutual profit and to bolster the Dynasty. Their MO is avoiding conflict, selling whatever they can get their hands on, and ensuring 'business interests' are represented in the sector. Anything can be bought and sold in the Colossus sector, you just need the tact to pull it off.
+
+redsail-corsairs-description = The RedSail Corsairs, or RSC, are a dangerous and influential group of pirates and brigands, who are publicly known to engage in illegal and violent activities against civilians, officials, and military personnel alike. Their source of income and specialization is hijacking, cargo theft, hostage-taking, and armed robbery. They are openly marked by Colossus Central as a criminal organization. As a whole, the Corsairs function as a union between freebooting raiders of all walks of life who have sworn loyalty to each other.
+
+plxcor-description = PLXCOR is a notable terrorist organization operating within the Colossus Sector. Members of PLXCOR, aka PLEX units, are known for their extreme views towards organic life aswell as their proclivity for violence. They are classed by all organizations operating within the Colossus Sector as a terrorist organization, wanted for crimes consisting of: mass murder; mass kidnapping; widespread terrorism; bioterrorism; bioterrorism with letoferol; torture; bodily mutilation; trafficking of sentient lifeforms; forced borging of sentient lifeforms; etc. They are to be considered armed and extremely dangerous.
+>>>>>>> upstream

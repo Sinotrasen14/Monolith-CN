@@ -76,6 +76,7 @@
   - type: Pullable
   - type: Physics
     bodyType: KinematicController
+  - type: GravityAffected
   - type: Clickable
   - type: WiresPanel
   - type: Fixtures
@@ -109,7 +110,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 5000 # Mono
+        damage: 500 # Mono
       behaviors:
       - !type:PlaySoundBehavior
         sound:
@@ -157,6 +158,7 @@
   # <Mono>
   - type: RadarConsole
     followEntity: true
+    noRotate: true
   - type: Magboots
   # </Mono>
 
@@ -180,7 +182,7 @@
     baseState: ripley
     openState: ripley-open
     brokenState: ripley-broken
-    mechToPilotDamageMultiplier: 0.75
+    mechToPilotDamageMultiplier: 0.4 # Mono
     pilotWhitelist:
       components:
         - HumanoidAppearance
@@ -194,6 +196,8 @@
   - type: MovementSpeedModifier
     baseWalkSpeed: 2.25
     baseSprintSpeed: 3.6
+  - type: Damageable
+    damageModifierSet: MechArmorIndustrial # Mono
   - type: Tag
     tags:
     - DoorBumpOpener
@@ -367,9 +371,12 @@
       types:
         Blunt: 10 #thwack
         Structural: 2
+  - type: CanMoveInAir
+  - type: MovementAlwaysTouching
   - type: MovementSpeedModifier
     baseWalkSpeed: 2.25
     baseSprintSpeed: 3.6
+    baseWeightlessModifier: 7.5
   - type: Access
     groups: # Frontier: contractor access
     - GeneralAccess # Frontier
@@ -377,6 +384,11 @@
     # - Maintenance # Frontier
   # TOOD: buzz / chime actions
   # TODO: builtin flashlight
+  - type: RadarBlip # Mono
+    radarColor: "#f432c7"
+    scale: 1.5
+    requireNoGrid: true
+    shape: square
   - type: Prying # Mono
     pryPowered: true
     speedModifier: 2

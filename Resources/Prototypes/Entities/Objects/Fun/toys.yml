@@ -1237,9 +1237,9 @@
       tags:
         - CartridgeCap
         - SpeedLoaderCap
-        - Cartridge45_magnumFMJ
-        - SpeedLoader45_magnumFMJ
-    proto: Cartridge45_magnumAP
+        - Cartridge357_magnumFMJ
+        - SpeedLoader357_magnumFMJ
+    proto: Cartridge357_magnumAP
 
 - type: entity
   parent: BaseItem
@@ -1338,10 +1338,15 @@
     - Balloon
 
 - type: entity
-  parent: BaseItem
+  parent: [BaseItem, BaseFactionGearOtherFactionT1]
   id: BalloonNT
+<<<<<<< HEAD
   name: 纳诺特拉森气球 丨 nanotrasen balloon
   description: 专为对辛迪加特工造成最大心理伤害而设计。 丨 Specially designed to inflict maximum psychological damage to Syndicate operatives.
+=======
+  name: wayward balloon # Mono
+  description: Specially designed to inflict maximum psychological damage.
+>>>>>>> upstream
   components:
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
@@ -1501,7 +1506,7 @@
       color: white
       netsync: false
     - type: Appearance
-    - type: ToggleableLightVisuals
+    - type: ToggleableVisuals
       spriteLayer: blade
       inhandVisuals:
         left:
@@ -1798,8 +1803,8 @@
   - type: Appearance
   - type: GenericVisualizer
     visuals:
-      enum.ToggleVisuals.Toggled:
-        enum.ToggleVisuals.Layer:
+      enum.ToggleableVisuals.Enabled:
+        enum.ToggleableVisuals.Layer:
           True: { state: icon }
           False: { state: icon-off }
   - type: ItemToggle

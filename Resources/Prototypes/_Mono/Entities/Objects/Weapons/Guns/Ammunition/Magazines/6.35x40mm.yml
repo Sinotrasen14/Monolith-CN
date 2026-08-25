@@ -1,6 +1,10 @@
 - type: entity
   id: BaseMagazine635x40mmCaseless
+<<<<<<< HEAD
   name: '弹匣（635x40mm 无弹壳） | magazine (635x40mm Caseless)'
+=======
+  name: "magazine (6.35x40mm Caseless)"
+>>>>>>> upstream
   parent: [ BaseCartridge, RecyclableItemSteelTiny ]
   abstract: true
   components:
@@ -34,7 +38,11 @@
 
 - type: entity
   id: BaseMagazine635x40mmCaselessShort
+<<<<<<< HEAD
   name: '无壳步枪短弹匣（635x40mm 无壳弹） | caseless rifle short magazine (635x40mm Caseless)'
+=======
+  name: "caseless rifle short magazine (6.35x40mm Caseless)"
+>>>>>>> upstream
   parent: BaseMagazine635x40mmCaseless
   abstract: true
   components:
@@ -53,7 +61,11 @@
 
 - type: entity
   id: BaseMagazine635x40mmCaselessPistol
+<<<<<<< HEAD
   name: '手枪弹匣（635x40mm 无壳弹） | pistol magazine (635x40mm Caseless)'
+=======
+  name: "pistol magazine (6.35x40mm Caseless)"
+>>>>>>> upstream
   parent: BaseMagazine635x40mmCaseless
   abstract: true
   components:
@@ -77,13 +89,17 @@
       map: ["enum.GunVisualLayers.Mag"]
   - type: MagazineVisuals
     magState: mag
-    steps: 6
+    steps: 5
     zeroVisible: false
   - type: Appearance
 
 - type: entity
   id: Magazine635x40mmCaselessBig
+<<<<<<< HEAD
   name: '盒式弹匣（635x40mm 无壳弹） | box magazine (635x40mm Caseless)'
+=======
+  name: "box magazine (6.35x40mm Caseless)"
+>>>>>>> upstream
   parent: BaseMagazine635x40mmCaseless
   components:
   - type: BallisticAmmoProvider
@@ -98,7 +114,11 @@
 
 - type: entity
   id: Magazine635x40mmCaselessPistol
+<<<<<<< HEAD
   name: '手枪弹匣（635x40mm 无壳弹） | pistol magazine (635x40mm Caseless)'
+=======
+  name: "pistol magazine (6.35x40mm Caseless)"
+>>>>>>> upstream
   parent: BaseMagazine635x40mmCaselessPistol
   components:
   - type: BallisticAmmoProvider
@@ -112,13 +132,17 @@
       map: ["enum.GunVisualLayers.Mag"]
   - type: MagazineVisuals
     magState: mag
-    steps: 6
+    steps: 5
     zeroVisible: false
   - type: Appearance
 
 - type: entity
   id: Magazine635x40mmCaselessPistolPractice
+<<<<<<< HEAD
   name: '手枪弹匣（635x40mm 无壳练习弹） | pistol magazine (635x40mm Caseless practice)'
+=======
+  name: "pistol magazine (6.35x40mm Caseless practice)"
+>>>>>>> upstream
   parent: BaseMagazine635x40mmCaselessPistol
   components:
   - type: BallisticAmmoProvider
@@ -132,13 +156,17 @@
       map: ["enum.GunVisualLayers.Mag"]
   - type: MagazineVisuals
     magState: mag
-    steps: 6
+    steps: 5
     zeroVisible: false
   - type: Appearance
 
 - type: entity
   id: Magazine635x40mmCaseless
+<<<<<<< HEAD
   name: '弹匣（635x40mm 无弹壳） | magazine (635x40mm Caseless)'
+=======
+  name: "magazine (6.35x40mm Caseless)"
+>>>>>>> upstream
   parent: BaseMagazine635x40mmCaseless
   components:
   - type: BallisticAmmoProvider
@@ -152,7 +180,11 @@
 
 - type: entity
   id: Magazine635x40mmCaselessRubber
+<<<<<<< HEAD
   name: '弹匣（635x40mm 无弹壳） | magazine (635x40mm Caseless)'
+=======
+  name: "magazine (6.35x40mm Caseless)"
+>>>>>>> upstream
   parent: BaseMagazine635x40mmCaseless
   components:
   - type: BallisticAmmoProvider
@@ -166,7 +198,11 @@
 
 - type: entity
   id: Magazine635x40mmCaselessPractice
+<<<<<<< HEAD
   name: '弹匣（635x40mm 无壳练习弹） | magazine (635x40mm Caseless practice)'
+=======
+  name: "magazine (6.35x40mm Caseless practice)"
+>>>>>>> upstream
   parent: BaseMagazine635x40mmCaseless
   components:
   - type: BallisticAmmoProvider
@@ -180,7 +216,11 @@
 
 - type: entity
   id: Magazine635x40mmCaselessShort
+<<<<<<< HEAD
   name: '短弹匣（635x40mm 无弹壳） | short magazine (635x40mm Caseless)'
+=======
+  name: "short magazine (6.35x40mm Caseless)"
+>>>>>>> upstream
   parent: BaseMagazine635x40mmCaselessShort
   components:
   - type: BallisticAmmoProvider
@@ -195,7 +235,11 @@
 
 - type: entity
   id: Magazine635x40mmCaselessShortPractice
+<<<<<<< HEAD
   name: '短弹匣（635x40mm 无壳练习弹） | short magazine (635x40mm Caseless practice)'
+=======
+  name: "short magazine (6.35x40mm Caseless practice)"
+>>>>>>> upstream
   parent: BaseMagazine635x40mmCaselessShort
   components:
   - type: BallisticAmmoProvider

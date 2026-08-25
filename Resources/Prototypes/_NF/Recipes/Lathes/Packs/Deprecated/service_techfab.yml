@@ -82,6 +82,7 @@
     - Holoprojector
     - Shovel
     - FreezerElectronics
+    - CleanerGrenade #Mono
   ## Kitchen
     - DrinkMug
     - DrinkMugMetal
@@ -139,6 +140,7 @@
       - WelderExperimental
       - JawsOfLife
       - PowerDrill
+      - TrayGoggles # Mono
       - JetpackVoid
       - PowerCellHigh
       - PowerCellMicroreactor

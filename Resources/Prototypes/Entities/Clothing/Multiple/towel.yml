@@ -665,8 +665,13 @@
 
 - type: entity
   id: TowelColorNT
+<<<<<<< HEAD
   name: NanoTrasen品牌毛巾 丨 NanoTrasen brand towel
   parent: BaseTowel
+=======
+  name: NanoTrasen brand towel
+  parent: [BaseTowel, BaseFactionGearOtherFactionT1]
+>>>>>>> upstream
   components:
   - type: Sprite
     layers:

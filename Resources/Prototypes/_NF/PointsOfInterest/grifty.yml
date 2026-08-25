@@ -10,8 +10,13 @@
 # Down at your local saloon
 - type: pointOfInterest
   id: Grifty
+<<<<<<< HEAD
   parent: BasePOI
   name: "格里夫蒂油料快餐"
+=======
+  parent: [BasePOI, BaseRepairablePOI]
+  name: "Grifty's Gas n Grub"
+>>>>>>> upstream
   minimumDistance: 6250
   maximumDistance: 8600
   spawnGroup: Scrapyard

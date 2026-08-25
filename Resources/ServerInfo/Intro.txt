@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 欢迎来到14号空间站！您刚刚在巨像星区开始您的班次，需要与船员（或独自）协作，尽力谋生并享受乐趣（希望不以他人乐趣为代价）。
 
 请确保您已理解服务器规则（按F1），如有任何疑问，可查阅本指南、当面或通过无线电咨询同班次的同事，或通过Discord提问。您还可以通过按ESC键->管理员帮助，向在线管理员发送求助信息。若发现他人存在违规行为，请务必使用此功能。
@@ -5,3 +6,12 @@
 需要重申：你是个独立自主的公民，除非存在极其正当的理由，否则不应互相伤害。
 
 我们使用战斗模式替代战斗意图系统。请在下方控制设置中查看其快捷键。关闭战斗模式时无法攻击他人，从此再也不会拿撬棍砸自己的头了。
+=======
+Welcome to Space Station 14! You have just woken up in the dangerous Colossus Sector on the fringe of "civilized" space. The sector is ripe with danger... and rewards, if you're able to fight for them. Make sure to have fun (not at the expense of others hopefully)!
+
+Please make sure you understand the server rules (F1) and if you have any questions, consult this guide, your colleagues in-sector or over radio or via discord. You can also ask admins for help (ahelp) by hitting the escape key > admin help and typing a message to any online admins. Especially do this if you witness someone breaking rules.
+
+Be aware that the Colossus sector is a very dangerous place. Expect your stuff to be stolen, destroyed, exploded, or otherwise lost - Always remember this. Your gun is your best friend.
+
+Instead of intents, we have combat mode. Check controls below for its keybind. You can't attack anybody with it off, so no more hitting yourself with your own crowbar.
+>>>>>>> upstream

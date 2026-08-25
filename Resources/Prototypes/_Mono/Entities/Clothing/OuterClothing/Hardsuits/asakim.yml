@@ -1,8 +1,13 @@
 - type: entity
   parent: [ ClothingOuterHardsuitBase, BaseFactionGearOtherFactionT3 ]
   id: ClothingOuterHardsuitAsakim
+<<<<<<< HEAD
   name: '卡萨图尔式战斗护甲 | kasature-pattern combat harness'
   description: '一种先进的前断代纪元作战装备。与现代战术服相比技术极其罕见，几乎堪称外星科技。一旦装备，装甲会与穿戴者永久结合，若无外部解除则无法卸下。 | An advanced pre-fracture harness. Incredibly rare, and practically alien in technology compared to modern tacsuits. Once equipped, the armor binds itself with the wearer and cannot be removed without external release.'
+=======
+  name: kasature-pattern combat exoskeleton
+  description: An advanced exoskeleton harness of cutting edge, corporate-era technology. It connects itself directly to the brain of the wearer, and requires advanced brain augmentation and cybernetics to function. Incredibly rare, and practically alien in technology compared to modern tacsuits. Once equipped, the armor cannot be removed without external release.
+>>>>>>> upstream
   suffix: SelfUnremovable
   components:
   - type: Sprite
@@ -11,6 +16,10 @@
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/asakim.rsi
     stripDelay: 60
     equipDelay: 5
+    whitelist:
+      tags:
+        - AsakimBrain
+    whitelistCheckOrgans: true
   - type: SelfUnremovableClothing
   - type: PressureProtection
     highPressureMultiplier: 0.1
@@ -40,8 +49,8 @@
         Poison: 0.4
         Caustic: 0.4
   - type: ClothingSpeedModifier
-    walkModifier: 0.2
-    sprintModifier: 0.2
+    walkModifier: 0.8
+    sprintModifier: 0.8
   - type: HeldSpeedModifier
   - type: ToggleableClothing # Goobstation - Modsuits change - Mono - this is a solution for helmet attachment/cover to not fit on hardsuits
     requiredSlot: outerclothing
@@ -54,12 +63,15 @@
   - type: PirateBountyItem
     id: ClothingOuterHardsuitTacsuit
   - type: StaminaDamageResistance
-    coefficient: 0.1
+    coefficient: 0.4
 
 - type: entity
   parent: ClothingOuterHardsuitAsakim
   id: ClothingOuterHardsuitAsakimUnremoveable
+<<<<<<< HEAD
   description: '前断代纪元的先进护甲。相比现代战术服，其技术极其罕见且近乎外星科技。一旦装备，护甲将与穿戴者永久绑定，非经外部解除无法卸除。此件已完全绑定于一名战士，卸除需耗时良久。 | An advanced pre-fracture harness. Incredibly rare, and practically alien in technology compared to modern tacsuits. Once equipped, the armor binds itself with the wearer and cannot be removed without external release. This one is fully binded to a warrior, and will take a long time to remove.'
+=======
+>>>>>>> upstream
   suffix: 120 stripDelay
   components:
   - type: Clothing

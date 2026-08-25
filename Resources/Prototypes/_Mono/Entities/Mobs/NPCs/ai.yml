@@ -18,6 +18,18 @@
           collection: MetalBreak
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.23,-0.45,0.23,0.45"
+        density: 115
+        mask:
+        - MachineMask
+        layer:
+        - MidImpassable
+        - LowImpassable
   - type: InteractionOutline
   - type: Sprite
     sprite: _Mono/Mobs/Core/drone.rsi
@@ -34,14 +46,19 @@
       path: /Audio/Ambience/Objects/periodic_beep.ogg
   - type: Anchorable
   - type: HTN
-    sleepPlayerCheckRangeOverride: 2000
+    sleepPlayerCheckRangeOverride: 4000
+    sleepMaxGridSpeed: 10 # don't sleep so we can still dodge grids or such if drifting far from players
     rootTask:
       task: RammerShuttleCompound
   - type: StaticPrice
-    price: 20000
+    price: 40000
   - type: ApcPowerReceiver
     powerLoad: 1000 # suspiciously low power-using AI
   - type: ExtensionCableReceiver
+  - type: TargetSeekingTarget
+  - type: PassiveThermalSignature
+    signature: 500000 # vibe number
+  - type: ThermalSignature
 
 - type: entity
   id: NpcStationAiApproacher
@@ -57,6 +74,22 @@
   - type: HTN
     rootTask:
       task: ApproacherShuttleCompound
+
+- type: entity
+  id: NpcStationAiApproacherDodger
+  name: approacher core
+  parent: NpcStationAiRammer
+  description: Stands there, menacingly. And dodges.
+  suffix: AI, Dodging, Debug
+  components:
+  - type: Sprite
+    layers:
+    - state: base
+    - state: green_t2
+      shader: unshaded
+  - type: HTN
+    rootTask:
+      task: ApproacherShuttleCompoundDodger
 
 - type: entity
   id: NpcStationAiRammerSmart
@@ -176,6 +209,73 @@
     rootTask:
       task: DroneCompoundMedusa
 
+- type: entity
+  id: NpcDroneAiAssembly
+  parent: NpcStationAiAttacker
+  description: Shoots at you. Broadsides.
+  suffix: AI, Drone-Assembly
+  components:
+  - type: HTN
+    rootTask:
+      task: DroneCompoundAssembly
+
+- type: entity
+  id: NpcDroneAiMPulsar
+  name: attacker core
+  parent: [NpcStationAiAttacker, BaseFactionGearOtherFactionT2]
+  description: Shoots at you, up-close.
+  suffix: AI, Drone-MPulsar
+  components:
+  - type: HTN
+    rootTask:
+      task: DroneCompoundMPulsar
+
+- type: entity
+  id: NpcDroneAiLance
+  name: attacker core
+  parent: [NpcStationAiAttacker, BaseFactionGearOtherFactionT2]
+  description: Shoots at you, close-by.
+  suffix: AI, Drone-Lance
+  components:
+  - type: HTN
+    rootTask:
+      task: DroneCompoundLance
+
+- type: entity
+  id: NpcDroneAiQuake
+  name: attacker core
+  parent: [NpcStationAiAttackerSmart, BaseFactionGearOtherFactionT3]
+  description: Shoots at you.
+  suffix: AI, Drone-Quake
+  components:
+  - type: HTN
+    sleepPlayerCheckRangeOverride: 8000
+    rootTask:
+      task: DroneCompoundQuake
+      
+- type: entity
+  id: NpcDroneAiDander
+  name: orbiter core
+  parent: NpcStationAiRammer
+  description: Orbits harmlessly and evades. Less valuable due to unremarkable subroutine.
+  suffix: AI, Dodging, Orbiting
+  components:
+  - type: Sprite
+    layers:
+    - state: base
+    - state: green_t1
+      shader: unshaded
+  - type: HTN
+    rootTask:
+      task: DroneCompoundDander
+  - type: Contraband #Retains some value despite no threat because it's still a risk to salvage where it spawns
+    severity: OtherFactionGear1
+    turnInValues:
+      FederationMilitaryCredit: 5
+      Doubloon: 5
+  - type: StaticPrice
+    price: 20000
+
 #region Spawners
 
 - type: entity
@@ -278,6 +378,15 @@
     - NpcStationAiAttackerStaticSmart
 
 - type: entity
+  name: broadside attacker core spawner
+  id: SpawnMobNpcStationAiAttackerBroadside
+  parent: SpawnMobAttackerCore
+  components:
+  - type: ConditionalSpawner
+    prototypes:
+    - NpcStationAiAttackerBroadside
+
+- type: entity
   name: approacher core spawner
   id: SpawnMobApproacherCore
   parent: SpawnMobAttackerCore
@@ -297,3 +406,53 @@
   - type: ConditionalSpawner
     prototypes:
     - NpcDroneAiMedusa
+
+- type: entity
+  name: attacker core spawner
+  id: SpawnMobDroneAiAssembly
+  parent: SpawnMobAttackerCore
+  suffix: Broadside, Drone-Assembly
+  components:
+  - type: ConditionalSpawner
+    prototypes:
+    - NpcDroneAiAssembly
+
+- type: entity
+  name: attacker core spawner
+  id: SpawnMobDroneAiMPulsar
+  parent: SpawnMobAttackerCore
+  suffix: Short-Range, Drone-MPulsar
+  components:
+  - type: ConditionalSpawner
+    prototypes:
+    - NpcDroneAiMPulsar
+
+- type: entity
+  name: attacker core spawner
+  id: SpawnMobDroneAiLance
+  parent: SpawnMobAttackerCore
+  suffix: Short-Range, Drone-Lance
+  components:
+  - type: ConditionalSpawner
+    prototypes:
+    - NpcDroneAiLance
+
+- type: entity
+  name: attacker core spawner
+  id: SpawnMobDroneAiQuake
+  parent: SpawnMobAttackerCore
+  suffix: Drone-Quake
+  components:
+  - type: ConditionalSpawner
+    prototypes:
+    - NpcDroneAiQuake
+    
+- type: entity
+  name: orbiter core spawner
+  id: SpawnMobDroneAiDander
+  parent: SpawnMobAttackerCore
+  suffix: Drone-Dander
+  components:
+  - type: ConditionalSpawner
+    prototypes:
+    - NpcDroneAiDander

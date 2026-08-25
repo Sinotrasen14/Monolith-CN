@@ -5,13 +5,29 @@
   playTimeTracker: JobHeadOfPersonnel
   requirements:
     - !type:OverallPlaytimeRequirement
+<<<<<<< HEAD
       time: 7200 # 20 hrs
     - !type:RoleTimeRequirement
       role: JobSecurityGuard
       time: 0 # 2 hrs as security guard - mono
   whitelisted: true
+=======
+      time: 360000 # 100 hrs
+    - !type:RoleTimeRequirement
+      role: JobSecurityGuard
+      time: 18000 # 5 hrs as security guard - mono
+    # Factions are required here because Overseer needs to actually understand how both factions work.
+    - !type:RoleTimeRequirement
+      role: JobPirate
+      time: 36000 # 10 hours
+    - !type:DepartmentTimeRequirement
+      department: Security
+      time: 36000 # 10 hours
+  whitelisted: false
+>>>>>>> upstream
   startingGear: SrGear
   alwaysUseSpawner: true
+  assignedCompany: Colonial
   icon: "JobIconHeadOfSecurity" # Mono
   requireAdminNotify: true
   supervisors: job-supervisors-centcom
@@ -19,8 +35,14 @@
   displayWeight: 60 # Top
   canBeAntag: false
   accessGroups:
-  - AllAccessSR
+  - AllAccessMono #Mono
+  access:
+  - HeadOfPersonnel #Mono
   special:
+  - !type:AddComponentSpecial
+    components:
+    - type: ChatRank
+      rank: cc-overseer
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ] # Mono - remove TSFMC implant
   - !type:AddComponentSpecial
@@ -36,12 +58,15 @@
 - type: startingGear
   id: SrGear
   equipment:
-    pocket1: WeaponDisabler
+    pocket1: WeaponEnergyGunLawbringer
   storage:
     back:
     - Flash
     - RubberStampSr
     - DoorRemoteCommand
     - EncryptionKeyCentCom
-    - ShipVoucherFrontierGuard # Mono
-   #- EncryptionKeyStationMaster # Mono - comment out to seperate from TSFMC
+    - EncryptionKeyStationMasterSR #Mono start
+    - EncryptionKeyDiplomacy
+    - ShipVoucherFrontierGuard
+    - PhoneInstrumentHigh
+    - CCHandheldOverwatchConsole

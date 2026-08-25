@@ -2,10 +2,19 @@
 
 - type: entity
   id: WeaponTurretThanatos
+<<<<<<< HEAD
   name: '塔纳托斯双联质量加速器'
   parent: BallisticArtilleryUnanchorable
   suffix: STATION ONLY, Recharging Ammo
   description: '卡戎的暴躁长兄，萨纳托斯是一股不可小觑的力量。它可远程启动或连接至地面控制系统。该武器通过某处的自动装弹机供弹，无需人工装填。 | The charon''s mean older brother, the Thanatos is a force to be reckoned with. It can be remotely activated or linked up to a GCS. This one feeds from an autoloader somewhere, and doesn''t need manual reloads.'
+=======
+  name: THANATOS twin mass driver
+  parent:
+  - BallisticArtilleryUnanchorable
+  - BallisticArtilleryTier5HP
+  suffix: Station, T5
+  description: The charon's mean older brother, the Thanatos is a force to be reckoned with. It can be remotely activated or linked up to a GCS. This one feeds from an autoloader somewhere, and doesn't need manual reloads.
+>>>>>>> upstream
   components:
   - type: StaticPrice
     price: 120000
@@ -22,6 +31,7 @@
   - type: ExaminableBattery
   - type: WirelessNetworkConnection
     range: 500
+  - type: GunSignalControl #I'm not certain why a station only gun has it in the description.
   - type: Gun
     fireRate: 0.1
     recoil: 2500 # 100x
@@ -53,26 +63,22 @@
       fix1:
         shape:
           !type:PhysShapeAabb
-          bounds: "-0.5,-0.5,0.5,0.5"
+          bounds: "-0.6,-0.6,0.6,0.6"
         density: 1500
         mask:
         - MachineMask
         layer:
         - MachineLayer
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 75000
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalBreak
   - type: RadarBlip
     radarColor: "#CF0E0E"
     scale: 3
+    visibleFromOtherGrids: true
+    gridConfig:
+      color: "#CF0E0E"
+      shape: Square
+      respectZoom: true
+      rotate: true
+      bounds: "-3,-3,3,3"
   - type: ShipGunType
     shipType: Ballistic
   - type: ShipGunClass

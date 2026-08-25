@@ -62,7 +62,9 @@
   - type: Item
     heldPrefix: off
     size: Normal
-  - type: ToggleableLightVisuals
+  - type: ToggleableVisuals
+    spriteLayer: light
+  - type: ItemTogglePointLight
   - type: PointLight
     enabled: false
     radius: 3
@@ -181,6 +183,16 @@
     - Snout
     - HeadTop
     - HeadSide
+  # Mono - basic NVDs for everyone!
+  - type: NightVision # Gen 2 monotube
+    relayOverlay: true
+    goggleEffect: true
+    action: ActionToggleNightVision
+    viewCircleRadius: 400
+    viewCircleCount: 1
+    viewCircleSpacing: 280
+    phosphorColor: "#00FF00"
+    lightingColor: "#FFFFFF32"
 
 - type: entity
   abstract: true
@@ -198,7 +210,9 @@
       map: [ "light" ]
   - type: Clothing
     equippedPrefix: off
-  - type: ToggleableLightVisuals
+  - type: ToggleableVisuals
+    spriteLayer: light
+  - type: ItemTogglePointLight
   - type: PointLight
     enabled: false
     radius: 4 # 3->4 Mono

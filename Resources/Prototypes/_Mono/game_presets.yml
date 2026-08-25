@@ -7,16 +7,18 @@
     - MonoGreenshift
   name: mono-standard-title
   description: mono-standard-description
-  showInVote: false # For admin usage really. Not that boring, but I'd rather just let players choose their main threat instead of choosing no threat.
+  showInVote: true
   rules:
-    - NFAdventure
-    - BasicStationEventScheduler
-    - BluespaceEventScheduler
-    - BluespaceDungeonEventScheduler
-    - BluespaceSalvageEventScheduler
-    - SmugglingEventScheduler
-    - FrontierRoundstartVariation
-    - MonoMonolithicEventsScheduler
+  - NFAdventure
+  - BasicStationEventScheduler
+  - BluespaceEventScheduler
+  - BluespaceDungeonEventScheduler
+  - BluespaceSalvageEventScheduler
+  - SmugglingEventScheduler
+  - FrontierRoundstartVariation
+  - MonoMonolithicEventsScheduler
+  - PortstrikeAnnounceRuleRandom35To45
+  - StarSystemKyphrus
 
 - type: gamePreset
   id: MonoRogueTSF
@@ -32,6 +34,8 @@
   - SmugglingEventScheduler
   - FrontierRoundstartVariation
   - MonoMonolithicEventsScheduler
+  - PortstrikeAnnounceRuleRandom35To45
+  - StarSystemKyphrus
 
 - type: gamePreset
   id: MonoRogueUSSP
@@ -47,6 +51,8 @@
   - SmugglingEventScheduler
   - FrontierRoundstartVariation
   - MonoMonolithicEventsScheduler
+  - PortstrikeAnnounceRuleRandom35To45
+  - StarSystemKyphrus
 
 - type: gamePreset
   id: MonoTSFUSSP
@@ -62,6 +68,8 @@
   - SmugglingEventScheduler
   - FrontierRoundstartVariation
   - MonoMonolithicEventsScheduler
+  - PortstrikeAnnounceRuleRandom35To45
+  - StarSystemKyphrus
 
 - type: gamePreset
   id: MonoADS
@@ -78,8 +86,10 @@
   - FrontierRoundstartVariation
   - MonoAISTCShuttleSpawnerScheduler
   - MonoAISTCShuttleSpawnerSchedulerTier2
-  - MonoAsakimSTCShuttleSpawnerScheduler
+  #- MonoAsakimSTCShuttleSpawnerScheduler
   - MonoMonolithicEventsScheduler
+  - PortstrikeAnnounceRuleRandom35To45
+  - StarSystemKyphrus
 
 - type: gamePreset
   id: MonoChimera
@@ -96,6 +106,8 @@
   - FrontierRoundstartVariation
   - MonoChimeraSTCShuttleSpawnerScheduler
   - MonoMonolithicEventsScheduler
+  - PortstrikeAnnounceRuleRandom35To45
+  - StarSystemKyphrus
 
 - type: gamePreset
   id: MonoMixed
@@ -106,6 +118,7 @@
   - NFAdventure
   - BasicStationEventScheduler
   - BluespaceEventScheduler
+  - StarSystemKyphrus
   - BluespaceDungeonEventScheduler
   - BluespaceSalvageEventScheduler
   - SmugglingEventScheduler
@@ -113,14 +126,17 @@
   - MonoChimeraSTCShuttleSpawnerSchedulerSlow
   - MonoAISTCShuttleSpawnerSchedulerSlow
   - MonoAISTCShuttleSpawnerSchedulerTier2Slow
-  - MonoAsakimSTCShuttleSpawnerSchedulerSlow
+  #- MonoAsakimSTCShuttleSpawnerSchedulerSlow
   - MonoMonolithicEventsScheduler
+  - PortstrikeAnnounceRuleRandom35To45
+  - StarSystemKyphrus
 
 - type: gamePreset
   id: MonoAllAtOnce
   name: mono-allatonce-title
   description: mono-allatonce-description
-  showInVote: false # Bad idea sir! Don't let this happen again.
+  showInVote: true # we ball
+  weight: 0.25 # requires 80% votes
   rules:
   - NFAdventure
   - BasicStationEventScheduler
@@ -131,6 +147,22 @@
   - FrontierRoundstartVariation
   - MonoChimeraSTCShuttleSpawnerSchedulerApocalypse
   - MonoAISTCShuttleSpawnerSchedulerApocalypse
-  - MonoAsakimSTCShuttleSpawnerSchedulerApocalypse
+  #- MonoAsakimSTCShuttleSpawnerSchedulerApocalypse
   - MonoMonolithicEventsScheduler
+  - RoundEndRuleHour3
+  - PortstrikeAnnounceRuleHour1
+  - StarSystemKyphrus
 
+- type: gamePreset
+  id: MonoRogueTSFHyperwar
+  name: mono-roguetsf-hyperwar-title
+  description: mono-roguetsf-hyperwar-description
+  showInVote: true # we ball
+  weight: 0.15 # Giant majority needed
+  supportedMaps: HyperwarMapPool
+  rules:
+  - NFAdventure
+  - Hyperwar
+  - RoundEndRuleHour3
+  - PortstrikeAnnounceRuleHour2
+  - StarSystemKyphrus

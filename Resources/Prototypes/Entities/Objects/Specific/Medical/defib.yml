@@ -10,14 +10,14 @@
       layers:
         - state: icon
         - state: screen
-          map: [ "enum.ToggleVisuals.Layer" ]
+          map: [ "enum.ToggleableVisuals.Layer" ]
           visible: false
           shader: unshaded
     - type: Appearance
     - type: GenericVisualizer
       visuals:
-        enum.ToggleVisuals.Toggled:
-          enum.ToggleVisuals.Layer:
+        enum.ToggleableVisuals.Enabled:
+          enum.ToggleableVisuals.Layer:
             True: { visible: true }
             False: { visible: false }
     - type: Item
@@ -39,7 +39,7 @@
       price: 30
     - type: GuideHelp
       guides:
-      - Medical Doctor
+      - MedicalDoctor
     - type: LanguageSpeaker # Einstein Engines - Language
     - type: LanguageKnowledge # Einstein Engines - Language
       speaks:
@@ -84,7 +84,7 @@
     layers:
       - state: icon
       - state: screen
-        map: [ "enum.ToggleVisuals.Layer" ]
+        map: [ "enum.ToggleableVisuals.Layer" ]
         visible: false
         shader: unshaded
       - state: ready
@@ -106,15 +106,20 @@
 - type: entity
   id: DefibrillatorSyndicate
   parent: DefibrillatorCompact
+<<<<<<< HEAD
   name: 英特戴恩除颤器 丨 interdyne defibrillator
   description: 也可用作针对有战争罪倾向的骑手的自卫武器。
+=======
+  name: advanced defibrillator
+  description: Doubles as a self-defense weapon against war-crime inclined tiders.
+>>>>>>> upstream
   components:
   - type: Sprite
     sprite: Objects/Specific/Medical/defibsyndi.rsi
     layers:
       - state: icon
       - state: screen
-        map: [ "enum.ToggleVisuals.Layer" ]
+        map: [ "enum.ToggleableVisuals.Layer" ]
         visible: false
         shader: unshaded
       - state: ready

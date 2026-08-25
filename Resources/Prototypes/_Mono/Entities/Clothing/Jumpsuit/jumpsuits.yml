@@ -55,6 +55,34 @@
 
 - type: entity
   parent: ClothingUniformBase
+  id: ClothingUniformCcCBRN
+  name: CBURN Type B Protective Suit
+  description: A heavily modified protective suit. It'll slow you down a bit, but it'll make sure nothing you don't want gets in your body. Also comes with the bonus of flame resistance! Be the bane of all borers!
+  components:
+  - type: Sprite
+    sprite: _Mono/Clothing/Uniforms/Jumpsuit/mopp-tsfmc.rsi
+  - type: Clothing
+    sprite: _Mono/Clothing/Uniforms/Jumpsuit/mopp-tsfmc.rsi
+    equipDelay: 0.3
+    unequipDelay: 0.3
+  - type: Armor
+    modifiers:
+      coefficients:
+        Poison: 0.6
+        Radiation: 0.8
+        Caustic: 0.6
+        Heat: .85
+  - type: StaminaDamageResistance
+    coefficient: 0.85 # its pretty thick, i think it'd do something
+  - type: ClothingSpeedModifier
+    walkModifier: 0.9
+    sprintModifier: 0.9
+  - type: SuitSensor
+    randomMode: false
+    mode: SensorVitals
+
+- type: entity
+  parent: ClothingUniformBase
   id: ClothingUniformTSFMCEngi
   name: 'TSFMC工程师制服 | TSFMC engineer uniform'
   description: '一件采用TSF四十五型城市迷彩的战斗服。带有工程师专用高可视度标识。 | A combat uniform in TSF Type-45U urban camouflage. It has high-vis markings for engineers.'
@@ -84,13 +112,32 @@
 - type: entity
   parent: ClothingUniformBase
   id: ClothingUniformUSSP
+<<<<<<< HEAD
   name: 'USSP军服 | USSP uniform'
   description: 'USSP军队的标准作训服。 | Standard fatigues of the USSP military.'
+=======
+  name: USSP uniform
+  description: Standard fatigues of the USSP Armed Forces.
+>>>>>>> upstream
   components:
   - type: Sprite
     sprite: _Mono/Clothing/Uniforms/Jumpsuit/ussp.rsi
   - type: Clothing
     sprite: _Mono/Clothing/Uniforms/Jumpsuit/ussp.rsi
+  - type: SuitSensor
+    randomMode: false
+    mode: SensorVitals
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformServiceDressUSSP
+  name: USSP Service Dress
+  description: More formal attire for servicemen, styled after the uniforms worn during the struggle against the early TSF.
+  components:
+  - type: Sprite
+    sprite: _Mono/Clothing/Uniforms/Jumpsuit/ussp_service_dress.rsi
+  - type: Clothing
+    sprite: _Mono/Clothing/Uniforms/Jumpsuit/ussp_service_dress.rsi
   - type: SuitSensor
     randomMode: false
     mode: SensorVitals
@@ -302,6 +349,41 @@
         color: "#cd6b6b"
       - state: equipped-decor-shoulder-patch
         color: "#cd6b6b"
+
+#Viper Group
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitViperGroupUniform
+  name: viper group uniform
+  description: A uniform bearing the colours of the vipers.
+  components:
+  - type: StaticPrice
+    price: 0
+    vendPrice: 1150
+  - type: Sprite
+    sprite: _Mono/Clothing/Uniforms/Jumpsuit/viper_group_uniform.rsi
+  - type: Clothing
+    sprite: _Mono/Clothing/Uniforms/Jumpsuit/viper_group_uniform.rsi
+  - type: SuitSensor
+    randomMode: false
+    mode: SensorVitals
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitViperGroupTurtleneck
+  name: viper group turtleneck
+  description: A turtleneck bearing the colours of the vipers.
+  components:
+  - type: StaticPrice
+    price: 0
+    vendPrice: 1150
+  - type: Sprite
+    sprite: _Mono/Clothing/Uniforms/Jumpsuit/viper_group_turtleneck.rsi
+  - type: Clothing
+    sprite: _Mono/Clothing/Uniforms/Jumpsuit/viper_group_turtleneck.rsi
+  - type: SuitSensor
+    randomMode: false
+    mode: SensorVitals
 
 #PMC camo suits
 - type: entity
@@ -580,3 +662,88 @@
   - type: SuitSensor
     randomMode: false
     mode: SensorVitals
+
+# CCTC
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCCTCFormal
+  name: executive's formal suit
+  description: A suit for special occasions.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/centcomformal.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/centcomformal.rsi
+
+# MMC
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformMMC
+  name: MMC corporate security field suit
+  description: A matte black tactical outfit worn by MMC corporate security.
+  components:
+  - type: Sprite
+    sprite: _Mono/Clothing/Uniforms/Jumpsuit/mmc/tactical.rsi
+  - type: Clothing
+    sprite: _Mono/Clothing/Uniforms/Jumpsuit/mmc/tactical.rsi
+  - type: SuitSensor
+    randomMode: false
+    mode: SensorCords # welcome to the company
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformMMCJeans
+  name: MMC corporate security field suit (jeans)
+  description: A matte black shirt paired with jeans. Worn by MMC asset security agents who prefer fieldwork with a bit more flexibility.
+  components:
+  - type: Sprite
+    sprite: _Mono/Clothing/Uniforms/Jumpsuit/mmc/tactical_jeans.rsi
+  - type: Clothing
+    sprite: _Mono/Clothing/Uniforms/Jumpsuit/mmc/tactical_jeans.rsi
+  - type: SuitSensor
+    randomMode: false
+    mode: SensorCords # welcome to the company
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformMMCCargos
+  name: MMC corporate security field suit (cargos)
+  description: A matte black tactical top combined with durable brown cargo pants.
+  components:
+  - type: Sprite
+    sprite: _Mono/Clothing/Uniforms/Jumpsuit/mmc/tactical_cargo.rsi
+  - type: Clothing
+    sprite: _Mono/Clothing/Uniforms/Jumpsuit/mmc/tactical_cargo.rsi
+  - type: SuitSensor
+    randomMode: false
+    mode: SensorCords # welcome to the company
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformMMCWarm
+  name: MMC corporate security warm field suit
+  description: A heavily insulated variant of the MMC corporate security field suit, lined for extreme environments. Built for survival without compromise.
+  components:
+  - type: Sprite
+    sprite: _Mono/Clothing/Uniforms/Jumpsuit/mmc/warm.rsi
+  - type: Clothing
+    sprite: _Mono/Clothing/Uniforms/Jumpsuit/mmc/warm.rsi
+  - type: SuitSensor
+    randomMode: false
+    mode: SensorCords # welcome to the company
+
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformMMCJumpsuit
+  name: MMC jumpsuit
+  description: A basic work suit for MMC employees.
+  components:
+  - type: Sprite
+    sprite: _Mono/Clothing/Uniforms/Jumpsuit/mmc/jumpsuit.rsi
+  - type: Clothing
+    sprite: _Mono/Clothing/Uniforms/Jumpsuit/mmc/jumpsuit.rsi
+  - type: SuitSensor
+    randomMode: false
+    mode: SensorCords # welcome to the company

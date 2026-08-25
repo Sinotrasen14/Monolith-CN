@@ -1,25 +1,29 @@
 using Content.Server.Cargo.Systems;
 using Content.Server.Power.Components;
 using Content.Shared._Mono.CCVar;
+using Content.Shared.Power.Components;
 using Content.Shared.Shuttles.Components;
+using Content.Server.Shuttles.Systems;
 using Robust.Shared.Configuration;
-using Robust.Shared.Map;
 using Robust.Shared.Map.Components;
+using Robust.Shared.Physics.Components;
 
 namespace Content.Server._Mono.Cleanup;
 
 /// <summary>
 /// This system cleans up small grid fragments that have less than a specified number of tiles after a delay.
 /// </summary>
-public sealed class GridCleanupSystem : BaseCleanupSystem<MapGridComponent>
+public sealed partial class GridCleanupSystem : BaseCleanupSystem<MapGridComponent>
 {
-    [Dependency] private readonly CleanupHelperSystem _cleanup = default!;
-    [Dependency] private readonly EntityLookupSystem _lookup = default!;
-    [Dependency] private readonly IConfigurationManager _cfg = default!;
-    [Dependency] private readonly PricingSystem _pricing = default!;
+    [Dependency] private CleanupHelperSystem _cleanup = default!;
+    [Dependency] private EntityLookupSystem _lookup = default!;
+    [Dependency] private IConfigurationManager _cfg = default!;
+    [Dependency] private PricingSystem _pricing = default!;
+    [Dependency] private SharedMapSystem _map = default!;
 
     private float _maxDistance;
     private float _maxValue;
+    private int _aggressiveTiles;
     private TimeSpan _duration;
 
     private HashSet<Entity<ApcComponent>> _apcList = new();
@@ -37,21 +41,28 @@ public sealed class GridCleanupSystem : BaseCleanupSystem<MapGridComponent>
         Subs.CVar(_cfg, MonoCVars.GridCleanupDistance, val => _maxDistance = val, true);
         Subs.CVar(_cfg, MonoCVars.GridCleanupMaxValue, val => _maxValue = val, true);
         Subs.CVar(_cfg, MonoCVars.GridCleanupDuration, val => _duration = TimeSpan.FromSeconds(val), true);
+        Subs.CVar(_cfg, MonoCVars.GridCleanupAggressiveTiles, val => _aggressiveTiles = val, true);
     }
 
     protected override bool ShouldEntityCleanup(EntityUid uid)
     {
         var xform = Transform(uid);
+        // if we somehow lost it
+        if (!TryComp<MapGridComponent>(uid, out var grid) || !TryComp<PhysicsComponent>(uid, out var body))
+            return false;
+
         var parent = xform.ParentUid;
 
         var state = EnsureComp<GridCleanupGridComponent>(uid);
 
+        var tiles = body.FixturesMass / ShuttleSystem.TileDensityMultiplier;
+        var scale = MathF.Min(tiles / _aggressiveTiles, 1f);
+
         if (HasComp<MapComponent>(uid) // if we're a planetmap ignore
-            || !HasComp<MapGridComponent>(uid) // if we somehow lost MapGridComponent
             || HasComp<MapGridComponent>(parent) // do not delete anything on planetmaps either
             || _immuneQuery.HasComp(uid)
             || !state.IgnoreIFF && TryComp<IFFComponent>(uid, out var iff) && (iff.Flags & IFFFlags.HideLabel) == 0 // delete only if IFF off
-            || _cleanup.HasNearbyPlayers(xform.Coordinates, state.DistanceOverride ?? _maxDistance)
+            || _cleanup.HasNearbyPlayers(xform.Coordinates, state.DistanceOverride ?? _maxDistance * scale * scale) // square it
             || !state.IgnorePowered && HasPoweredAPC((uid, xform)) // don't delete if it has powered APCs
             || !state.IgnorePrice && _pricing.AppraiseGrid(uid) > _maxValue) // expensive to run, put last
         {
@@ -61,7 +72,7 @@ public sealed class GridCleanupSystem : BaseCleanupSystem<MapGridComponent>
         // see if we should update timer or just be deleted
         else if (state.CleanupAccumulator < _duration)
         {
-            state.CleanupAccumulator += _cleanupInterval * state.CleanupAcceleration;
+            state.CleanupAccumulator += _cleanupInterval * state.CleanupAcceleration / scale;
             return false;
         }
 

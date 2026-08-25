@@ -5,6 +5,7 @@ store-category-piratemedical = 医疗
 store-category-pirateutility = 工具
 store-category-pirateammo = 弹药
 store-category-pirateexplosives = 爆炸物
+store-category-pdvvouchers = 兑换卡券
 store-category-pirategambling = 碰碰运气
 # Mono edit end
 
@@ -25,7 +26,7 @@ uplink-pirate-hoverbike-desc = A flatpack containing the grand pirate mobile. Th
 uplink-pirate-blunderbuss-name = Blunderbuss
 uplink-pirate-blunderbuss-desc = Deadly at close range, an illegal shotgun often found at the side of a pirate.
 uplink-pirate-revolver-name = Suave Revolver
-uplink-pirate-revolver-desc = An odd, illegal, old-looking revolver, favoured by imperial forces. Uses .45 magnum ammo.
+uplink-pirate-revolver-desc = An odd, illegal, old-looking revolver, favoured by imperial forces. Uses .357 magnum ammo.
 uplink-pirate-cannon-name = Handheld Cannon
 uplink-pirate-cannon-desc = Kaboom!
 uplink-pirate-cannonball-name = Cannonball Chest
@@ -43,7 +44,7 @@ uplink-pirate-flintlock-desc = A pirate captain's companion. Yarrr! Uses 14.5x11
 uplink-pirate-shotgunammo-name = Blunderbuss Shell Box
 uplink-pirate-shotgunammo-desc = A box of 12 gauge shotgun shells, used in the blunderbuss.
 uplink-pirate-revolverammo-name = Pirate Revolver Ammo Box
-uplink-pirate-revolverammo-desc = A box of .45 magnum rounds, used in the pirate revolver.
+uplink-pirate-revolverammo-desc = A box of .357 magnum rounds, used in the pirate revolver.
 uplink-pirate-flintlockammo-name = Flintlock Pistol Ammo Box
 uplink-pirate-flintlockammo-desc = A box of 14.5x114mm rounds, used in the flintlock pistol.
 uplink-pirate-ecutlass-name = Energy Cutlass

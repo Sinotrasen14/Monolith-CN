@@ -1,30 +1,50 @@
 
 - type: technology
-  id: RogueSaturn
-  name: research-technology-rogue-saturn-voucher
+  id: PdvTierOneVouchers
+  name: research-technology-rogue-tier-one-vouchers
+  entityIcon: ShipVoucherPdvT0
+  discipline: RogueShipyard
+  tier: 1
+  cost: 40000
+  recipeUnlocks:
+  - ShipVoucherPdvT0Recipe
+  - ShipVoucherPdvT1Recipe
+  - InertiaVoucherRogue
+  - MockVoucherRogue
+  - SnakeletVoucherRogue
+  technologyPrerequisites:
+  - UniversalMaterialResearchT1
+  position: -2, -10
+
+- type: technology
+  id: PdvTierTwoVouchers
+  name: research-technology-rogue-tier-two-vouchers
+  entityIcon: ShipVoucherPdvT2
+  discipline: RogueShipyard
+  tier: 1
+  cost: 60000
+  recipeUnlocks:
+  - ShipVoucherPdvT2Recipe
+  technologyPrerequisites:
+  - PdvTierOneVouchers
+  - UniversalMaterialResearchT2
+  position: -2, -20
+
+- type: technology
+  id: PdvTierThreeVouchers
+  name: research-technology-rogue-tier-three-vouchers
   entityIcon: ShipVoucherSaturn
   discipline: RogueShipyard
   tier: 3
-  cost: 100000
-  recipeUnlocks:
-  - SaturnVoucherRogue
-  technologyPrerequisites:
-  - RogueGoliath
-  - UniversalMaterialResearchT3
-  position: 22, 12
-
-- type: technology
-  id: RogueGoliath
-  name: research-technology-rogue-saintie-voucher
-  entityIcon: ShipVoucherSaintie
-  discipline: RogueShipyard
-  tier: 1
-  cost: 50000
+  cost: 80000
   recipeUnlocks:
   - SaintieVoucherRogue
+  - KortikVoucherRogue
+  - SaturnVoucherRogue
   technologyPrerequisites:
-  - UniversalMaterialResearchT2
-  position: 22, 5
+  - PdvTierTwoVouchers
+  - UniversalMaterialResearchT3
+  position: -2, -27
 
 - type: technology
   id: RogueJaws
@@ -38,7 +58,7 @@
   - NaniteApplicatorSyndicate
   technologyPrerequisites:
   - UniversalMaterialResearchT1
-  position: 20, -1
+  position: -5, -11
 
 - type: technology
   id: RogueHypospray
@@ -51,7 +71,7 @@
   - HyposprayRogue
   technologyPrerequisites:
   - UniversalMaterialResearchT1
-  position: 20, -2
+  position: -2, -11
 
 - type: technology
   id: RogueEmag
@@ -62,22 +82,10 @@
   cost: 25000
   recipeUnlocks:
   - EmagRogue
-  technologyPrerequisites:
-  - UniversalMaterialResearchT2
-  position: 21, 4
-
-- type: technology
-  id: RogueEmag2
-  name: research-technology-rogue-access-breaker
-  entityIcon: AccessBreaker
-  discipline: RogueGear
-  tier: 3
-  cost: 25000
-  recipeUnlocks:
   - AccessBreakerRogue
   technologyPrerequisites:
   - UniversalMaterialResearchT2
-  position: 21, 3
+  position: -2, -21
 
 - type: technology
   id: RogueThermals
@@ -90,31 +98,46 @@
   - ClothingEyesThermalVisionGoggles
   technologyPrerequisites:
   - UniversalMaterialResearchT1
-  position: 20, -3
+  position: -3, -11
 
 - type: technology
   id: PDVBasicBorgModule
   name: research-technology-pdv-basic-module
-  entityIcon: BorgModuleSecurity
+  entityIcon: BorgModulePDVStandardWeapon
   discipline: RogueGear
   tier: 1
   cost: 10000
   recipeUnlocks:
   - BasicBorgCombatModulePDV
+  - BorgIFFPDV
   technologyPrerequisites:
   - UniversalMaterialResearchT1
-  position: 20, -4
+  position: -4, -11
+
+- type: technology
+  id: PDVBasicBionics
+  name: research-technology-pdv-ias
+  entityIcon: OrganInternalAirSystem
+  discipline: RogueGear
+  tier: 2
+  cost: 20000
+  recipeUnlocks:
+  - AutosurgeonIASPDV
+  - AutosurgeonAdvHeartPDV
+  - AutosurgeonDermalArmorPDV
+  technologyPrerequisites:
+  - UniversalMaterialResearchT2
+  position: -3, -21
 
 - type: technology
   id: PDVAdvancedBorgModule
   name: research-technology-pdv-advanced-module
-  entityIcon: BorgModuleSecurity
+  entityIcon: BorgModulePDVAdvancedWeapon
   discipline: RogueGear
   tier: 3
   cost: 65000
   recipeUnlocks:
   - AdvancedBorgCombatModulePDV
   technologyPrerequisites:
-  - UniversalMaterialResearchT3
   - PDVBasicBorgModule
-  position: 23, 11
+  position: -4, -12

@@ -9,12 +9,34 @@ shuttle-console-inertia-dampener-dampen = 驾驶模式
 shuttle-console-inertia-dampener-anchor = 停泊模式
 
 # Mono
+<<<<<<< HEAD
 shuttle-console-force-anchored = 前哨站无法进行FTL跃迁
 shuttle-console-signature-infrared = 热信号特征
 shuttle-console-signature-unknown = 未知信号
 
 # Network Port Buttons
 shuttle-console-network-ports = 网络端口
+=======
+shuttle-console-force-anchored = You are not able to FTL an outpost.
+shuttle-console-signature-infrared = Thermal Signature
+
+# Mono - Unknowns
+shuttle-console-signature-unknown =
+    { $mass ->
+        [small] Small Unknown
+        [medium] Medium Unknown
+        [large] Large Unknown
+        [huge] Huge Unknown
+        [supermassive] Supermassive Unknown
+       *[other] Unknown
+    }
+
+shuttle-console-company-unknown = UNAFFILIATED
+
+# Network Port Buttons
+shuttle-console-network-ports = Network Ports
+shuttle-console-network-connect-tooltip = The buttons on the shuttle console send a signal when pressed, use a multitool on the console and connect it up to a device!
+>>>>>>> upstream
 
 # 设备链接按钮
 shuttle-console-device-button-1 = 端口 1

@@ -4,7 +4,15 @@ lathe-category-animals = 动物
 lathe-category-dangerous-animals = 危险动物
 
 # Misc
+<<<<<<< HEAD
 lathe-category-vouchers = 舰船兑换券
+=======
+lathe-category-vouchers = Ship Vouchers
+lathe-category-nfr = NFR Rods
+lathe-category-componentmaterials = Packaged Components
+lathe-category-components = Industry Components
+lathe-category-altrecipes = Alternative Recipes
+>>>>>>> upstream
 
 # Mechs
 lathe-category-mech-weapons-s2s4 = S2/4 机甲设备
@@ -27,6 +35,7 @@ lathe-category-plasteelap-ammo = 塑钢穿甲弹药
 lathe-category-hp-ammo = 空尖弹
 lathe-category-rip-ammo = 侵入式创伤弹
 
+<<<<<<< HEAD
 # 武器分类
 lathe-category-guns-rifles = 步枪
 lathe-category-guns-smgs = 冲锋枪
@@ -41,3 +50,21 @@ lathe-category-guns-smartguns = 智能武器
 lathe-category-guns-ballistic = 动能武器
 lathe-category-guns-energy = 能量武器
 lathe-category-guns-explosive = 爆炸物
+=======
+# Weapons
+lathe-category-guns-rifles = Rifles
+lathe-category-guns-smgs = Submachine Guns
+lathe-category-guns-shotguns = Shotguns
+lathe-category-guns-dmrs = Designated Marksman Rifles
+lathe-category-guns-amrs = Anti-Material Rifles
+lathe-category-guns-mgs = Machine Guns
+lathe-category-guns-lmgs = Light Machine Guns
+lathe-category-guns-gpmgs = General-Purpose Machine Guns
+lathe-category-guns-sidearms = Sidearms
+lathe-category-guns-smartguns = Smartguns
+lathe-category-guns-ballistic = Ballistic Weapons
+lathe-category-guns-energy = Energy Weapons
+lathe-category-guns-explosive = Explosives
+lathe-category-guns-antitank = Anti-Tank Weapons
+lathe-category-attachments = Weapon Attachments
+>>>>>>> upstream

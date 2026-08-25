@@ -1,0 +1,237 @@
+- type: entity
+  abstract: true
+  parent: [BaseItem, RecyclableItemCardboard] # Frontier: added RecyclableItemCardboard
+<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Boxes/45_magnum.yml
+  id: BaseAmmoBox45_magnum
+  name: '弹药盒（.45 口径马格南全金属被甲弹） | ammunition box (.45 magnum FMJ)'
+=======
+  id: BaseAmmoBox357_magnum
+  name: ammunition box (.357 magnum FMJ)
+>>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Boxes/357_magnum.yml
+  components:
+  - type: BallisticAmmoProvider
+    mayTransfer: true
+    whitelist:
+      tags:
+        - Cartridge357_magnumFMJ
+    proto: Cartridge357_magnumFMJ
+    capacity: 32
+  - type: Item
+    size: Small
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+  - type: Sprite
+    sprite: _Mono/Objects/Weapons/Guns/Ammunition/Boxes/357_magnum.rsi
+  - type: Appearance
+  - type: EmitSoundOnPickup
+    sound:
+      path: /Audio/_Goobstation/Items/handling/ammobox_pickup.ogg
+  - type: EmitSoundOnDrop
+    sound:
+      path: /Audio/_Goobstation/Items/handling/ammobox_drop.ogg
+  - type: EmitSoundOnLand
+    sound:
+      path: /Audio/_Goobstation/Items/handling/ammobox_drop.ogg
+
+#small ammo boxes
+- type: entity
+<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Boxes/45_magnum.yml
+  parent: BaseAmmoBox45_magnum
+  id: AmmoBox45_magnumFMJ
+  name: '弹药盒（.45 口径马格南全金属被甲弹） | ammunition box (.45 magnum FMJ)'
+=======
+  parent: BaseAmmoBox357_magnum
+  id: AmmoBox357_magnumFMJ
+  name: ammunition box (.357 magnum FMJ)
+>>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Boxes/357_magnum.yml
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge357_magnumFMJ
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+
+- type: entity
+<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Boxes/45_magnum.yml
+  parent: BaseAmmoBox45_magnum
+  id: AmmoBox45_magnumPractice
+  name: '弹药盒（.45 马格南训练弹） | ammunition box (.45 magnum practice)'
+=======
+  parent: BaseAmmoBox357_magnum
+  id: AmmoBox357_magnumPractice
+  name: ammunition box (.357 magnum practice)
+>>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Boxes/357_magnum.yml
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge357_magnumPractice
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: practice
+
+- type: entity
+<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Boxes/45_magnum.yml
+  parent: BaseAmmoBox45_magnum
+  id: AmmoBox45_magnumIncendiary
+  name: '弹药盒（.45 口径马格南燃烧弹） | ammunition box (.45 magnum incendiary)'
+=======
+  parent: BaseAmmoBox357_magnum
+  id: AmmoBox357_magnumIncendiary
+  name: ammunition box (.357 magnum incendiary)
+>>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Boxes/357_magnum.yml
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge357_magnumIncendiary
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: incendiary
+
+- type: entity
+<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Boxes/45_magnum.yml
+  id: AmmoBox45_magnumUranium
+  parent: BaseAmmoBox45_magnum
+  name: '弹药盒（.45 马格南铀弹） | ammunition box (.45 magnum uranium)'
+=======
+  id: AmmoBox357_magnumUranium
+  parent: BaseAmmoBox357_magnum
+  name: ammunition box (.357 magnum uranium)
+>>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Boxes/357_magnum.yml
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge357_magnumUranium
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: uranium
+
+# Upstream
+- type: entity
+<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Boxes/45_magnum.yml
+  parent: BaseAmmoBox45_magnum
+  id: AmmoBox45_magnumRubber
+  name: '弹药盒（.45 马格南橡胶弹） | ammunition box (.45 magnum rubber)'
+=======
+  parent: BaseAmmoBox357_magnum
+  id: AmmoBox357_magnumRubber
+  name: ammunition box (.357 magnum rubber)
+>>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Boxes/357_magnum.yml
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge357_magnumRubber
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: rubber
+
+#deprecated AP
+- type: entity
+<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Boxes/45_magnum.yml
+  id: AmmoBox45_magnumAP
+  parent: BaseAmmoBox45_magnum
+  name: '弹药盒（.45 马格南超强穿甲弹） | ammunition box (.45 magnum extreme armor-piercing)'
+=======
+  id: AmmoBox357_magnumAP
+  parent: BaseAmmoBox357_magnum
+  name: ammunition box (.357 magnum extreme armor-piercing)
+>>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Boxes/357_magnum.yml
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge357_magnumAP
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: piercing
+
+# Mono AP syst
+#anti-flesh:
+- type: entity
+<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Boxes/45_magnum.yml
+  parent: BaseAmmoBox45_magnum
+  id: AmmoBox45_magnumHP
+  name: '弹药盒（.45 马格南空尖弹） | ammunition box (.45 magnum hollow-point)'
+=======
+  parent: BaseAmmoBox357_magnum
+  id: AmmoBox357_magnumHP
+  name: ammunition box (.357 magnum hollow-point)
+>>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Boxes/357_magnum.yml
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge357_magnumHP
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: HP
+
+- type: entity
+<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Boxes/45_magnum.yml
+  parent: BaseAmmoBox45_magnum
+  id: AmmoBox45_magnumRIP
+  name: '弹药盒（.45 马格南穿甲弹） | ammunition box (.45 magnum RIP)'
+=======
+  parent: BaseAmmoBox357_magnum
+  id: AmmoBox357_magnumRIP
+  name: ammunition box (.357 magnum RIP)
+>>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Boxes/357_magnum.yml
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge357_magnumRIP
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: RIP
+
+#armor-piercing:
+
+- type: entity
+<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Boxes/45_magnum.yml
+  parent: BaseAmmoBox45_magnum
+  id: AmmoBox45_magnumPlasteelAP
+  name: '弹药盒（.45 马格南穿甲弹） | ammunition box (.45 magnum AP)'
+=======
+  parent: BaseAmmoBox357_magnum
+  id: AmmoBox357_magnumPlasteelAP
+  name: ammunition box (.357 magnum AP)
+>>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Boxes/357_magnum.yml
+  components:
+  - type: BallisticAmmoProvider
+    proto: Cartridge357_magnumPlasteelAP
+  - type: Sprite
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: plasteelAP
+
+#big ammo boxes
+- type: entity
+<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Boxes/45_magnum.yml
+  parent: BaseAmmoBox45_magnum
+  id: AmmoBox45_magnumBigFMJ
+  name: '大型弹药箱（.45 口径马格南全金属被甲弹） | big ammunition box (.45 magnum FMJ)'
+=======
+  parent: BaseAmmoBox357_magnum
+  id: AmmoBox357_magnumBigFMJ
+  name: big ammunition box (.357 magnum FMJ)
+>>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Boxes/357_magnum.yml
+  suffix: Big
+  components:
+  - type: Item
+    shape:
+    - 0,0,1,1
+  - type: BallisticAmmoProvider
+    capacity: 100
+    proto: Cartridge357_magnumFMJ
+  - type: Sprite
+    layers:
+    - state: base-b
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Appearance

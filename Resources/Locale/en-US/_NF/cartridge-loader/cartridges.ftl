@@ -17,6 +17,7 @@ ledger-tab-Frontier = 殖民前哨站
 ledger-tab-Nfsd = TSFMC
 ledger-tab-Medical = 医疗调度中心
 ledger-tab-BlackMarket = 黑市
+ledger-tab-Mieyo = MMC
 # Fallback, if this displays, something's wrong.
 ledger-tab-Unknown = 未知
 

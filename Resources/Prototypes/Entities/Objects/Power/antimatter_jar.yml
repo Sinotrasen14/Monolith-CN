@@ -3,8 +3,13 @@
 - type: entity
   parent: BaseItem
   id: AmeJar
+<<<<<<< HEAD
   name: 反物质引擎燃料罐 丨 AME fuel jar
   description: 一个密封罐，内装用于反物质反应堆的反物质。 丨 A hermetically sealed jar containing antimatter for use in an antimatter reactor.
+=======
+  name: IRE isotopes canister
+  description: A hermetically sealed jar containing volatile isotopes for use in an isotopes reaction engine.
+>>>>>>> upstream
   components:
   - type: Item
     size: Normal

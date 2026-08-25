@@ -1,6 +1,6 @@
 - type: entity
   id: BaseCarrierComputer
-  parent: [BaseStructureDisableToolUse, BaseStructureDestructible, ComputerShipyard]
+  parent: [BaseStructureDisableToolUse, BaseStructureDestructible, ComputerShipyardBase]
   suffix: Carrier
   description: '在航母上使用，无需返回空间站即可购买和出售船只。 | Used on carriers to purchase and sell ships without returning to a station.'
   abstract: true
@@ -53,18 +53,51 @@
 - type: entity
   id: TSFCarrierComputer
   parent: BaseCarrierComputer
+<<<<<<< HEAD
   name: 'TSF运营商控制台 | TSF carrier console'
+=======
+  name: TSF tumour carrier console
+>>>>>>> upstream
   components:
   - type: ShipyardListing
     shuttles:
     - QJ490
     - QJ270
     - Zephyr
+    - QJ340
 
 - type: entity
-  id: LedokolAttatchmentComputer
+  id: TSFCarrierComputerFujian
   parent: BaseCarrierComputer
+<<<<<<< HEAD
   name: '破冰船附件控制台 | ledokol attatchment console'
+=======
+  name: TSF fujian carrier console # Yes it can -hypothetically- carry the same ships as tumour, but it can't carry 4 of them (QJ-340 is really too long!)
+  components:
+  - type: ShipyardListing
+    shuttles:
+    - Zephyr
+    - ZephyrEC
+    
+- type: entity
+  id: TSFNChengduComputer
+  parent: BaseCarrierComputer
+  name: TSFN Chengdu internal hangar console
+  description: Lighter shipyard using the Chengdu's internal hangars, doesn't have access to the full roster of TSFMC ships.
+  components:
+  - type: ShipyardListing
+    shuttles:
+    - Jaguar
+    - Ocelot
+  - type: CompanyAccessReader
+    requiredCompanies:
+    - TSF
+
+- type: entity
+  id: LedokolAttachmentComputer
+  parent: BaseCarrierComputer
+  name: ledokol attachment console
+>>>>>>> upstream
   components:
   - type: ShipyardListing
     shuttles:
@@ -92,7 +125,34 @@
     shuttles:
     - Hazel
     - Tethys
-    - Spyglass
+    - Eris
+    - Layak
+    - Metis
+    - Kalisto
+    - Prowler
+  - type: Sprite
+    sprite: _NF/Structures/Machines/computers.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer_blackmarket
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: shipyard_pdv
+    - map: ["computerLayerKeys"]
+      state: telesci_key
+
+
+- type: entity
+  id: PDVMotleyAnneCarrierComputer
+  parent: BaseCarrierComputer
+  name: motley anne shipyard console
+  components:
+  - type: ShipyardListing
+    shuttles:
+    - Snakelet
+    - Inertia
+    - Mock
   - type: Sprite
     sprite: _NF/Structures/Machines/computers.rsi
     layers:
@@ -105,7 +165,6 @@
     - map: ["computerLayerKeys"]
       state: blackmarket_key
 
-
 - type: entity
   id: RavagerCarrierComputer
   parent: BaseCarrierComputer
@@ -113,6 +172,16 @@
   components:
   - type: ShipyardListing
     shuttles:
-    - Ant
-    - Worm
-    - Insect
+    - Rook
+    - Taser
+    - Hound
+
+- type: entity
+  id: BalorCarrierComputer
+  parent: BaseCarrierComputer
+  name: balor shipyard console
+  components:
+  - type: ShipyardListing
+    shuttles:
+    - Rac-Man
+    - Bow-Man

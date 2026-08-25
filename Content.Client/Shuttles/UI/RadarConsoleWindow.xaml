@@ -4,8 +4,36 @@
                       Title="{Loc 'radar-console-window-title'}"
                       SetSize="648 672"
                       MinSize="256 256">
-    <ui:ShuttleNavControl Name="RadarScreen"
-                     Margin="4"
-                     HorizontalExpand = "True"
-                     VerticalExpand = "True"/>
+    <LayoutContainer Margin="4">
+        <!-- Mono - wrap -->
+        <ui:ShuttleNavControl Name="RadarScreen"
+                         HorizontalExpand = "True"
+                         VerticalExpand = "True"/>
+    </LayoutContainer>
+    <!-- Mono - IFF Settings -->
+    <BoxContainer Orientation="Vertical"
+                Margin="2 2 2 2"
+                VerticalExpand="True"
+                HorizontalExpand="True">
+
+        <Button Name="IFFDetailedToggle"
+        Text="{Loc 'shuttle-console-iff-detailed-short'}"
+        TextAlign="Center"
+        StyleClasses="ButtonSquare"
+        ToggleMode="True"
+        VerticalExpand="False"
+        HorizontalAlignment="Left"
+        Pressed="True"/>
+
+        <Button Name="IFFToggle"
+        Text="{Loc 'shuttle-console-iff-toggle-short'}"
+        TextAlign="Center"
+        StyleClasses="ButtonSquare"
+        ToggleMode="True"
+        VerticalExpand="False"
+        HorizontalAlignment="Left"
+        Pressed="True"/>
+
+
+    </BoxContainer>
 </controls:FancyWindow>

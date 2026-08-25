@@ -25,8 +25,7 @@ namespace Content.Shared.Body.Systems;
 
 public partial class SharedBodySystem
 {
-    [Dependency] private readonly RandomHelperSystem _randomHelper = default!; // Shitmed Change
-    [Dependency] private readonly InventorySystem _inventorySystem = default!; // Shitmed Change
+    [Dependency] private RandomHelperSystem _randomHelper = default!; // Shitmed Change
 
     private void InitializeParts()
     {
@@ -135,7 +134,7 @@ public partial class SharedBodySystem
             && TryGetPartSlotContainerName(partEnt.Comp.PartType, out var containerNames))
         {
             foreach (var containerName in containerNames)
-                _inventorySystem.DropSlotContents(partEnt.Comp.Body.Value, containerName, inventory);
+                _inventory.DropSlotContents(partEnt.Comp.Body.Value, containerName, inventory);
         }
 
     }
@@ -205,7 +204,7 @@ public partial class SharedBodySystem
         // I don't know if this can cause issues, since any part that's being detached HAS to have a Body.
         // though I really just want the compiler to shut the fuck up.
         var body = partEnt.Comp.Body.GetValueOrDefault();
-        if (TryComp(partEnt, out TransformComponent? transform) && _gameTiming.IsFirstTimePredicted)
+        if (TryComp(partEnt, out TransformComponent? transform) && _timing.IsFirstTimePredicted)
         {
             var enableEvent = new BodyPartEnableChangedEvent(false);
             RaiseLocalEvent(partEnt, ref enableEvent);
@@ -695,6 +694,92 @@ public partial class SharedBodySystem
             EnsureComp<BodyPartAppearanceComponent>(partId);
 
         return Containers.Insert(partId, container);
+    }
+
+    /// <summary>
+    /// Detaches a body part from the specified body part parent.
+    /// </summary>
+    public bool DetachPart(
+        EntityUid parentPartId,
+        string slotId,
+        EntityUid partId,
+        BodyPartComponent? parentPart = null,
+        BodyPartComponent? part = null)
+    {
+        return Resolve(parentPartId, ref parentPart, logMissing: false)
+               && parentPart.Children.TryGetValue(slotId, out var slot)
+               && DetachPart(parentPartId, slot, partId, parentPart, part);
+    }
+
+
+    /// <summary>
+    /// Returns true if the partId can be detached from the parentId in the specified slot.
+    /// </summary>
+    public bool CanDetachPart(
+        EntityUid parentId,
+        BodyPartSlot slot,
+        EntityUid partId,
+        BodyPartComponent? parentPart = null,
+        BodyPartComponent? part = null)
+    {
+        return Resolve(partId, ref part, logMissing: false)
+               && Resolve(parentId, ref parentPart, logMissing: false)
+               && CanDetachPart(parentId, slot.Id, partId, parentPart, part);
+    }
+
+    /// <summary>
+    /// Returns true if we can detach the specified partId from the parentId in the specified slot.
+    /// </summary>
+    public bool CanDetachPart(
+        EntityUid parentId,
+        string slotId,
+        EntityUid partId,
+        BodyPartComponent? parentPart = null,
+        BodyPartComponent? part = null)
+    {
+        return Resolve(partId, ref part, logMissing: false)
+               && Resolve(parentId, ref parentPart, logMissing: false)
+               && parentPart.Children.TryGetValue(slotId, out var parentSlotData)
+               && part.PartType == parentSlotData.Type
+               && Containers.TryGetContainer(parentId, GetPartSlotContainerId(slotId), out var container)
+               && Containers.CanRemove(partId, container);
+    }
+
+    /// <summary>
+    /// Detaches a body part from the specified body part parent.
+    /// </summary>
+    public bool DetachPart(
+        EntityUid parentPartId,
+        BodyPartSlot slot,
+        EntityUid partId,
+        BodyPartComponent? parentPart = null,
+        BodyPartComponent? part = null)
+    {
+        if (!Resolve(parentPartId, ref parentPart, logMissing: false)
+            || !Resolve(partId, ref part, logMissing: false)
+            || !CanDetachPart(parentPartId, slot.Id, partId, parentPart, part)
+            || !parentPart.Children.ContainsKey(slot.Id))
+        {
+            return false;
+        }
+
+        if (!Containers.TryGetContainer(parentPartId, GetPartSlotContainerId(slot.Id), out var container))
+        {
+            DebugTools.Assert($"Unable to find body slot {slot.Id} for {ToPrettyString(parentPartId)}");
+            return false;
+        }
+
+        // TODO: Might break something. but fixes surgery!
+        //parentPart.Children.Remove(slot.Id);
+
+        // start-backmen: surgery
+        if (HasComp<HumanoidAppearanceComponent>(part.Body)
+            && !HasComp<BodyPartAppearanceComponent>(partId)
+            && !TerminatingOrDeleted(parentPartId)
+            && !TerminatingOrDeleted(partId)) // Saw some exceptions involving these due to the spawn menu.
+            EnsureComp<BodyPartAppearanceComponent>(partId);
+
+        return Containers.Remove(partId, container);
     }
 
     #endregion

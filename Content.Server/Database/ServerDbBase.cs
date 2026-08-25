@@ -6,8 +6,10 @@ using System.Runtime.CompilerServices;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
+using Content.Server._Mono.Company;
 using Content.Server.Administration.Logs;
 using Content.Server.Administration.Managers;
+using Content.Shared._Mono.Company;
 using Content.Shared.Administration.Logs;
 using Content.Shared.Database;
 using Content.Shared.Ghost.Roles;
@@ -391,17 +393,17 @@ namespace Content.Server.Database
 
         #region MonoCoins
 
-        public async Task<int> GetMonoCoinsAsync(NetUserId userId, CancellationToken cancel = default)
+        public async Task<long> GetMonoCoinsAsync(NetUserId userId, CancellationToken cancel = default)
         {
             await using var db = await GetDb(cancel);
 
             var prefs = await db.DbContext.Preference
                 .SingleOrDefaultAsync(p => p.UserId == userId.UserId, cancel);
 
-            return prefs?.MonoCoins ?? 0;
+            return prefs?.MonoCoins ?? 0l;
         }
 
-        public async Task SetMonoCoinsAsync(NetUserId userId, int balance, CancellationToken cancel = default)
+        public async Task SetMonoCoinsAsync(NetUserId userId, long balance, CancellationToken cancel = default)
         {
             await using var db = await GetDb(cancel);
 
@@ -410,12 +412,12 @@ namespace Content.Server.Database
 
             if (prefs != null)
             {
-                prefs.MonoCoins = Math.Max(0, balance); // Ensure balance is never negative
+                prefs.MonoCoins = Math.Max(0l, balance); // Ensure balance is never negative
                 await db.DbContext.SaveChangesAsync(cancel);
             }
         }
 
-        public async Task<int> AddMonoCoinsAsync(NetUserId userId, int amount, CancellationToken cancel = default)
+        public async Task<long> AddMonoCoinsAsync(NetUserId userId, long amount, CancellationToken cancel = default)
         {
             await using var db = await GetDb(cancel);
 
@@ -425,29 +427,12 @@ namespace Content.Server.Database
             if (prefs != null)
             {
                 prefs.MonoCoins += amount;
-                prefs.MonoCoins = Math.Max(0, prefs.MonoCoins); // Ensure balance is never negative
+                prefs.MonoCoins = Math.Max(0l, prefs.MonoCoins); // Ensure balance is never negative
                 await db.DbContext.SaveChangesAsync(cancel);
                 return prefs.MonoCoins;
             }
 
             return 0;
-        }
-
-        public async Task<bool> TrySubtractMonoCoinsAsync(NetUserId userId, int amount, CancellationToken cancel = default)
-        {
-            await using var db = await GetDb(cancel);
-
-            var prefs = await db.DbContext.Preference
-                .SingleOrDefaultAsync(p => p.UserId == userId.UserId, cancel);
-
-            if (prefs != null && prefs.MonoCoins >= amount)
-            {
-                prefs.MonoCoins -= amount;
-                await db.DbContext.SaveChangesAsync(cancel);
-                return true;
-            }
-
-            return false;
         }
 
         #endregion
@@ -641,7 +626,7 @@ namespace Content.Server.Database
             // This allows us to semi-efficiently load all entities we need in a single DB query.
             // Then we can update & insert without further round-trips to the DB.
 
-            var players = updates.Select(u => u.User.UserId).Distinct().ToArray();
+            var players = updates.Select(u => u.User.UserId).Distinct().ToList();
             var dbTimes = (await db.DbContext.PlayTime
                     .Where(p => players.Contains(p.PlayerId))
                     .ToArrayAsync())
@@ -875,8 +860,10 @@ namespace Content.Server.Database
         {
             await using var db = await GetDb();
 
+            var playerIdsList = playerIds.ToList();
+
             var players = await db.DbContext.Player
-                .Where(player => playerIds.Contains(player.UserId))
+                .Where(player => playerIdsList.Contains(player.UserId))
                 .ToListAsync();
 
             var round = new Round
@@ -907,10 +894,11 @@ namespace Content.Server.Database
         public async Task AddRoundPlayers(int id, Guid[] playerIds)
         {
             await using var db = await GetDb();
+            var playerIdsList = playerIds.ToList();
 
             // ReSharper disable once SuggestVarOrType_Elsewhere
             Dictionary<Guid, int> players = await db.DbContext.Player
-                .Where(player => playerIds.Contains(player.UserId))
+                .Where(player => playerIdsList.Contains(player.UserId))
                 .ToDictionaryAsync(player => player.UserId, player => player.Id);
 
             foreach (var player in playerIds)
@@ -945,6 +933,7 @@ INSERT INTO player_round (players_id, rounds_id) VALUES ({players[player]}, {id}
 
             existing.Flags = rank.Flags;
             existing.Name = rank.Name;
+            existing.ShortName = rank.ShortName; // Mono
 
             await db.DbContext.SaveChangesAsync(cancel);
         }
@@ -1936,6 +1925,120 @@ INSERT INTO player_round (players_id, rounds_id) VALUES ({players[player]}, {id}
 
         #endregion
 
+        // Mono
+        #region Company
+
+        public async Task<bool> AddCompanyMember(Guid player, ProtoId<CompanyPrototype> company)
+        {
+            await using var db = await GetDb();
+            var exists = await db.DbContext.CompanyMembers
+                .Where(w => w.PlayerUserId == player)
+                .Where(w => w.CompanyId == company.Id)
+                .AnyAsync();
+
+            if (exists)
+                return false;
+
+            var member = new CompanyMember
+            {
+                PlayerUserId = player,
+                CompanyId = company,
+            };
+            db.DbContext.CompanyMembers.Add(member);
+            await db.DbContext.SaveChangesAsync();
+            return true;
+        }
+
+        public async Task<List<string>> GetPlayerCompanies(Guid player, CancellationToken cancel)
+        {
+            await using var db = await GetDb(cancel);
+            return await db.DbContext.CompanyMembers
+                .Where(w => w.PlayerUserId == player)
+                .Select(w => w.CompanyId)
+                .ToListAsync(cancel);
+        }
+
+        public async Task<IEnumerable<CompanyMemberRecord>> GetCompanyMembers(ProtoId<CompanyPrototype> company, CancellationToken cancel)
+        {
+            await using var db = await GetDb(cancel);
+            var members = await db.DbContext.CompanyMembers
+                .Where(w => w.CompanyId == company.Id)
+                .Include(c => c.Player)
+                .ToListAsync(cancel);
+
+            return members.Select(m => new CompanyMemberRecord()
+            {
+                Company = company,
+                Owner = m.Owner,
+                PlayerUserId = m.PlayerUserId,
+                LastSeenUserName = m.Player.LastSeenUserName,
+            });
+        }
+
+        public async Task<IEnumerable<CompanyMemberRecord>> GetAllCompanyMembers(CancellationToken cancel)
+        {
+            await using var db = await GetDb(cancel);
+            var members = await db.DbContext.CompanyMembers
+                .Include(c => c.Player)
+                .ToListAsync(cancel);
+
+            return members.Select(m => new CompanyMemberRecord()
+            {
+                Company = m.CompanyId,
+                Owner = m.Owner,
+                PlayerUserId = m.PlayerUserId,
+                LastSeenUserName = m.Player.LastSeenUserName,
+            });
+        }
+
+        public async Task<CompanyMemberRecord?> GetCompanyMember(ProtoId<CompanyPrototype> company, Guid player, CancellationToken cancel)
+        {
+            await using var db = await GetDb(cancel);
+            var member = await db.DbContext.CompanyMembers
+                .Where(w => w.CompanyId == company.Id)
+                .Where(w => w.PlayerUserId == player)
+                .Include(c => c.Player)
+                .FirstOrDefaultAsync();
+
+            if (member == null)
+                return null;
+
+            return new CompanyMemberRecord()
+            {
+                Company = company,
+                LastSeenUserName = member.Player.LastSeenUserName,
+                Owner = member.Owner,
+                PlayerUserId = member.PlayerUserId,
+            };
+        }
+
+        public async Task SetCompanyOwner(ProtoId<CompanyPrototype> company, Guid player, bool owner)
+        {
+            await using var db = await GetDb();
+            await db.DbContext.CompanyMembers
+                .Where(w => w.CompanyId == company.Id)
+                .Where(w => w.PlayerUserId == player)
+                .ExecuteUpdateAsync(setters => setters.SetProperty(m => m.Owner, owner));
+        }
+
+        public async Task<bool> RemoveCompanyMember(Guid player, ProtoId<CompanyPrototype> company)
+        {
+            await using var db = await GetDb();
+            var entry = await db.DbContext.CompanyMembers
+                .Where(w => w.PlayerUserId == player)
+                .Where(w => w.CompanyId == company.Id)
+                .SingleOrDefaultAsync();
+
+            if (entry == null)
+                return false;
+
+            db.DbContext.CompanyMembers.Remove(entry);
+            await db.DbContext.SaveChangesAsync();
+            return true;
+        }
+
+        #endregion
+
         public abstract Task SendNotification(DatabaseNotification notification);
 
         // SQLite returns DateTime as Kind=Unspecified, Npgsql actually knows for sure it's Kind=Utc.
@@ -1979,5 +2082,173 @@ INSERT INTO player_round (players_id, rounds_id) VALUES ({players[player]}, {id}
         {
 
         }
+
+        #region Wayfarer Safety Deposit Box
+
+        public async Task<WayfarerSafetyDepositBox> PurchaseSafetyDepositBox(
+            Guid ownerUserId,
+            int characterIndex,
+            string ownerName,
+            EntProtoId protoId,
+            CancellationToken cancel = default)
+        {
+            await using var db = await GetDb(cancel);
+
+            var box = new WayfarerSafetyDepositBox
+            {
+                BoxId = Guid.NewGuid(),
+                OwnerUserId = ownerUserId,
+                CharacterIndex = characterIndex,
+                OwnerName = ownerName,
+                ProtoId = protoId,
+                PurchaseDate = DateTime.UtcNow
+            };
+
+            db.DbContext.WayfarerSafetyDepositBox.Add(box);
+            await db.DbContext.SaveChangesAsync(cancel);
+
+            return box;
+        }
+
+        public async Task<List<WayfarerSafetyDepositBox>> GetPlayerSafetyDepositBoxes(
+            Guid ownerUserId,
+            int characterIndex,
+            CancellationToken cancel = default)
+        {
+            await using var db = await GetDb(cancel);
+
+            return await db.DbContext.WayfarerSafetyDepositBox
+                .Include(b => b.Items)
+                .Where(b => b.OwnerUserId == ownerUserId && b.CharacterIndex == characterIndex)
+                .ToListAsync(cancel);
+        }
+
+        public async Task<WayfarerSafetyDepositBox?> GetSafetyDepositBox(
+            Guid boxId,
+            CancellationToken cancel = default)
+        {
+            await using var db = await GetDb(cancel);
+
+            return await db.DbContext.WayfarerSafetyDepositBox
+                .Include(b => b.Items)
+                .FirstOrDefaultAsync(b => b.BoxId == boxId, cancel);
+        }
+
+        public async Task DepositSafetyDepositBoxItems(
+            Guid boxId,
+            List<string> entityDataList,
+            CancellationToken cancel = default)
+        {
+            await using var db = await GetDb(cancel);
+
+            var box = await db.DbContext.WayfarerSafetyDepositBox
+                .Include(b => b.Items)
+                .FirstOrDefaultAsync(b => b.BoxId == boxId, cancel);
+
+            if (box == null)
+                return;
+
+            // Clear existing items
+            db.DbContext.WayfarerSafetyDepositBoxItem.RemoveRange(box.Items);
+
+            // Add new items
+            foreach (var entityData in entityDataList)
+            {
+                box.Items.Add(new WayfarerSafetyDepositBoxItem
+                {
+                    BoxId = box.Id,
+                    EntityData = entityData,
+                    DepositDate = DateTime.UtcNow
+                });
+            }
+
+            // Clear LastWithdrawn since the box is now safely stored
+            box.LastWithdrawn = null;
+            box.LastWithdrawnRoundId = null;
+
+            await db.DbContext.SaveChangesAsync(cancel);
+        }
+
+        public async Task UpdateSafetyDepositBoxNickname(
+            Guid boxId,
+            string? nickname,
+            CancellationToken cancel = default)
+        {
+            await using var db = await GetDb(cancel);
+
+            var box = await db.DbContext.WayfarerSafetyDepositBox
+                .FirstOrDefaultAsync(b => b.BoxId == boxId, cancel);
+
+            if (box == null)
+                return;
+
+            box.Nickname = nickname;
+            await db.DbContext.SaveChangesAsync(cancel);
+        }
+
+        public async Task ClearSafetyDepositBoxItems(
+            Guid boxId,
+            int roundId,
+            CancellationToken cancel = default)
+        {
+            await using var db = await GetDb(cancel);
+
+            var box = await db.DbContext.WayfarerSafetyDepositBox
+                .Include(b => b.Items)
+                .FirstOrDefaultAsync(b => b.BoxId == boxId, cancel);
+
+            if (box == null)
+                return;
+
+            db.DbContext.WayfarerSafetyDepositBoxItem.RemoveRange(box.Items);
+
+            // Set LastWithdrawn to indicate the box is now in the world
+            box.LastWithdrawn = DateTime.UtcNow;
+            box.LastWithdrawnRoundId = roundId;
+
+            await db.DbContext.SaveChangesAsync(cancel);
+        }
+
+        public async Task<int> DeleteStaleSafetyDepositBoxes(
+            int daysStale,
+            CancellationToken cancel = default)
+        {
+            await using var db = await GetDb(cancel);
+
+            var cutoffDate = DateTime.UtcNow.AddDays(-daysStale);
+
+            // Find boxes that have been withdrawn and have no items for longer than the cutoff period
+            var staleBoxes = await db.DbContext.WayfarerSafetyDepositBox
+                .Include(b => b.Items)
+                .Where(b => b.LastWithdrawn != null &&
+                            b.LastWithdrawn < cutoffDate &&
+                            b.Items.Count == 0)
+                .ToListAsync(cancel);
+
+            var count = staleBoxes.Count;
+            db.DbContext.WayfarerSafetyDepositBox.RemoveRange(staleBoxes);
+            await db.DbContext.SaveChangesAsync(cancel);
+
+            return count;
+        }
+
+        public async Task DeleteSafetyDepositBox(
+            Guid boxId,
+            CancellationToken cancel = default)
+        {
+            await using var db = await GetDb(cancel);
+
+            var box = await db.DbContext.WayfarerSafetyDepositBox
+                .Include(b => b.Items)
+                .FirstOrDefaultAsync(b => b.BoxId == boxId, cancel);
+
+            if (box == null)
+                return;
+
+            db.DbContext.WayfarerSafetyDepositBox.Remove(box);
+            await db.DbContext.SaveChangesAsync(cancel);
+        }
+
+        #endregion
     }
 }

@@ -4,6 +4,9 @@ guide-entry-shipyard-judiciary = Judiciary
 guide-entry-shipyard-sabine = Sabine
 guide-entry-shipyard-takeaway = Takeaway
 guide-entry-shipyard-ruby = Ruby
+guide-entry-shipyard-motley-anne = Motley Anne
+guide-entry-shipyard-fenrir = Fenrir
+guide-entry-shipyard-nfr = INSFC NFR Operation Manual
 
 # Gunnery Guides
 guide-entry-gunnery = 舰船武装
@@ -25,5 +28,16 @@ guide-entry-armorexplanation = 护甲机制
 guide-entry-monolith-rules = Monolith 游戏规则
 
 # Creatures
+<<<<<<< HEAD
 guide-entry-creatures = 星区生物
 guide-entry-cortical-borer = 脑虫
+=======
+guide-entry-creatures = Creatures of the Sector
+guide-entry-cortical-borer = Cortical Borer
+guide-entry-xenoborgs = Xenoborgs
+# Mechs
+guide-entry-mechs = Mechs
+guide-entry-s1mechs = Series 1 Mechs
+guide-entry-s2mechs = Series 2 Mechs
+guide-entry-s4mechs = Series 4 Mechs
+>>>>>>> upstream

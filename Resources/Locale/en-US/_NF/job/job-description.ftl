@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 job-description-bailiff = 在前线作战基地（FOB）确保秩序，看管你的中尉们，并确保所有PD帝国成员因其对TSF犯下的罪行而被处决。
 job-description-brigmedic-nf = 在上校的部队的后方赴汤蹈火，为同袍的生命而战！你是整个小队的急救先锋，也是最后的救命稻草。 愿希波克拉底保佑你。
 job-description-cadet-nf = 追捕那些PD帝国成员，保护前线作战基地。听从你的上级，随时可以向他们寻求任何帮助。
@@ -19,3 +20,28 @@ job-description-senior-officer = 教新兵作战基础，并带领你的TSFMC小
 job-description-sheriff = 管理你的TSFMC小队，保持他们高效，平息异议，确保区域安全。
 job-description-stc = 熟练地清理车站周围的空间，并帮助殖民前哨对泊位超时的船只罚款。
 job-description-sr = 把你所有的站点资金都花在军舰上。控制你的保安，并尝试在这个区域伸张正义。
+=======
+job-description-bailiff = Ensure order at the FOB, watch over your Lieutenant(s), and make sure that all PD imperials are executed for their crimes against the TSF.
+job-description-brigmedic-nf = Fight in the rear of the Colonel's service, for the lives of your comrades! You are the first and last hope of your squad. Hippocrates bless you.
+job-description-cadet-nf = Hunt down PD imperials and protect the FOB. Listen to your supervisors and feel free to ask them for any help.
+job-description-contractor = Fulfill your own goals out in Colossus space by yourself. It's you against the world, baby!
+job-description-deputy = Hunt down PD Imperials and enemies of the TSF, enforce the Colonel's law, and bring order to chaos in the sector.
+job-description-nf-detective = Investigate crime scenes using forensic tools, ensure that the guilty party is found, and have a couple smokes.
+job-description-ertmailcarrier = Nothing stops the mail.
+job-description-doc = Provide guidance and direction for shift medics and work to safeguard the health of TSF colonial personnel.
+job-description-mercenary = Execute the bidding of anyone- for the right price. Enjoy being unbound from the confines of the law.
+job-description-pilot = Pilot spaceships from point A to B, outmaneuver enemies, dodge asteroids and other ships.
+job-description-pdv-infiltrator = You are an infiltration expert of the Imperial Vanguard, deceive and cause chaos from behind the frontline. You answer to the Denasvar and above.
+job-description-pirate = You are a member of an imperial battalion against the TSF expansion into the Colossus sector.
+job-description-pirate-captain = You are the leader of an imperial battalion against the TSF expansion into the Colossus sector.
+job-description-pirate-first-mate = Handle special orders from the Grand Vizier and watch over those under you.
+job-description-pdv-denasvar = You are a more experienced member of the Vanguard. Lead your peers to victory.
+job-description-pdv-tarkhan = An elite member of the PDV. Rarely deployed to Colossus.
+job-description-tsf-marsoc = An elite member of the TSF's MARSOC. Rarely deployed to Colossus.
+job-description-public-affairs-liaison = Interface with the public, hand out and fill out forms and assist the TSFMC chain of command with administrative tasks.
+job-description-security-guard = "I am the law." Carry out the Overseer's bidding, bring order to chaos, and put down threats to the safety and security of the Sector.
+job-description-senior-officer = Teach new privates the basics of combat, and lead your TSFMC squads to victory against the Dynasty.
+job-description-sheriff = Manage your TSFMC detachment and keep them efficient, quell dissent, and keep the sector safe.
+job-description-stc = Expertly de-conflict the space around the station and help the Colonial Outpost issue fines for overdocked ships.
+job-description-sr = Spend all your station funds on military vessels. Control your security guards and attempt to serve justice in this sector.
+>>>>>>> upstream

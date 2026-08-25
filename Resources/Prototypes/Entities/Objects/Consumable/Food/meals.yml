@@ -24,6 +24,7 @@
           Quantity: 15
         - ReagentId: Flavorol
           Quantity: 10
+
 # Meals
 
 - type: entity
@@ -363,7 +364,7 @@
   description: 烧烤肋排，涂上了厚厚一层烧烤酱。这是最不符合素食主义的东西了。 丨 BBQ ribs, slathered in a healthy coating of BBQ sauce. The least vegan thing to ever exist.
   components:
   - type: Food
-    trash: 
+    trash:
     - FoodKebabSkewer
   - type: FlavorProfile
     flavors:
@@ -635,7 +636,7 @@
   description: 黄油味。 丨 Buttery.
   components:
   - type: Food
-    trash: 
+    trash:
     - FoodPlate
   - type: FlavorProfile
     flavors:

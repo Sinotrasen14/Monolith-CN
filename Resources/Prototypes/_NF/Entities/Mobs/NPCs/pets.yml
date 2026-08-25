@@ -128,6 +128,7 @@
     - MindShieldImplant
     - TrackingImplant
     - LightImplant
+    - RadioImplantTsf
   - type: FlashImmunity
   - type: IntrinsicRadioTransmitter
     channels:
@@ -145,6 +146,7 @@
     factions:
       - Cat
       - NanoTrasen
+      - TSFMC
   - type: Speech
     speechSounds: NfsdCat
     speechVerb: SmallMob
@@ -159,6 +161,13 @@
   - type: PirateBountyItem
     id: Cappy
   - type: SouthernAccent
+  - type: Company
+    companyName: TSF
+  - type: SurgeryTarget # Shitmed
+  - type: UserInterface
+    interfaces:
+      enum.SurgeryUIKey.Key: # Shitmed
+        type: SurgeryBui
 
 - type: entity
   name: El Capo

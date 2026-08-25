@@ -436,6 +436,7 @@
   loadouts:
   - ContractorClothingShoesColorBlack
   - ContractorClothingShoesClothwrap
+  - ContractorClothingShoesClothwrapBlack # Mono
   - ContractorClothingShoesTourist
   - ContractorClothingShoesBootsSalvage
   - ContractorClothingShoesChef
@@ -600,7 +601,7 @@
   - ContractorClothingHeadsetAltEngineeringCommon
   - ContractorClothingHeadsetAltMedicalCommon
   - ContractorClothingHeadsetAltScienceCommon
-  - USSPHeadset # Mono
+  # - USSPHeadset # Mono
   fallbacks:
   - ContractorClothingHeadsetGreyCommon
 
@@ -648,7 +649,6 @@
   - ContractorClothingNeckHeadphones
   - ContractorClothingNeckNovaSharksLeatherJacket
   - ContractorClothingNeckCrucifix
-  - ContractorClothingNeckBellCollar
   - ContractorCDDogtags
   - ContractorClothingNeckStethoscope
   - ContractorClothingOuterPoncho
@@ -775,6 +775,7 @@
   - ContractorBucket
   - ContractorGeigerCounter
   - ContractorBinoculars
+  - ContractorTapeRecorder # Mono - Moved from ContractorTrinkets.
   - ContractorWeaponProtoKineticAccelerator
   - ContractorPinpointerUniversal
   - ContractorShipyardRCD
@@ -856,6 +857,7 @@
   - ContractorCigPackGreen
   - ContractorCigarCase
   - ContractorNFAshtray
+  #- ContractorTapeRecorder # Mono - Moved to ContractorUtility.
   - ContractorSmokingPipeFilledTobacco
   - ContractorTobaccoPouchBrownFilled
   - ContractorTobaccoPouchBlueFilled
@@ -908,9 +910,11 @@
   loadouts:
   - ContractorBoxSurvivalNFOxygenExtended
   - ContractorBoxSurvivalNFNitrogenExtended
+  - ContractorBoxSurvivalNFVaporExtended
   fallbacks:
   - ContractorBoxSurvivalNFOxygenExtended
   - ContractorBoxSurvivalNFNitrogenExtended
+  - ContractorBoxSurvivalNFVaporExtended
 
 - type: loadoutGroup
   id: ContractorEncryptionKey
@@ -979,3 +983,12 @@
   - ContractorRubberStampTrader
   - ContractorRubberStampClown
   - ContractorRubberStampMime
+
+- type: loadoutGroup
+  id: ContractorArmorPlates
+  name: loadout-group-contractor-armorplates
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - ContractorArmorPlateBlunt_Slash
+  - ContractorArmorPlatePierce

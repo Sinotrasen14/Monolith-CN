@@ -9,6 +9,8 @@
     noRot: true
     drawdepth: Mobs
   - type: MobCollision
+  - type: GravityAffected
+  - type: CEZPhysics # CrystallEdge
   - type: Physics
     bodyType: KinematicController
   - type: Fixtures
@@ -102,6 +104,7 @@
       - ActionCritSuccumb
       - ActionCritFakeDeath
       - ActionCritLastWords
+  - type: StoreDamageTakenOnMind
   - type: Deathgasp
   - type: HealthExaminable
     examinableTypes:

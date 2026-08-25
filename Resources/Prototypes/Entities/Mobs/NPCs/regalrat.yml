@@ -137,11 +137,23 @@
     attributes:
       gender: male
   - type: Sharp
+<<<<<<< HEAD
   - type: NightVision # Goobstation - Nigthvision
     toggleAction: null
     color: "#808080"
     activateSound: null
     deactivateSound: null
+=======
+  - type: NightVision # Gen 3 wide-quadtube
+    relayOverlay: false
+    goggleEffect: true
+    viewCircleRadius: 450
+    viewCircleCount: 4
+    viewCircleSpacing: 280
+    action: ActionToggleNightVision
+    phosphorColor: "#00FF00"
+    lightingColor: "#FFFFFF32"
+>>>>>>> upstream
 
 - type: entity
   id: MobRatKingBuff
@@ -324,10 +336,22 @@
   - type: FireVisuals
     sprite: Mobs/Effects/onfire.rsi
     normalState: Mouse_burning
+<<<<<<< HEAD
   - type: NightVision # Goobstation - Nigthvision
     color: "#808080"
     activateSound: null
     deactivateSound: null
+=======
+  - type: NightVision # Gen 3 wide-quadtube
+    relayOverlay: false
+    goggleEffect: true
+    viewCircleRadius: 450
+    viewCircleCount: 4
+    viewCircleSpacing: 280
+    action: ActionToggleNightVision
+    phosphorColor: "#00FF00"
+    lightingColor: "#FFFFFF32"
+>>>>>>> upstream
 
 
 - type: weightedRandomEntity

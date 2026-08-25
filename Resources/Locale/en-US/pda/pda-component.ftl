@@ -28,12 +28,24 @@ comp-pda-ui-menu-title = PDA
 
 comp-pda-ui-footer = 个人数字助手
 
+<<<<<<< HEAD
 comp-pda-ui-station = 站点: [color=white]{$station}[/color]
 
 # Frontier: add "Sector"
 comp-pda-ui-station-alert-level = 警报级别：[color={ $color }]{ $level }[/color]
 
 comp-pda-ui-station-alert-level-instructions = 警报说明: [color=white]{ $instructions }[/color]
+=======
+# Mono
+# comp-pda-ui-station = Station: [color=white]{$station}[/color]
+comp-pda-ui-station = Sector Central: [color=white]{$station}[/color]
+
+# Mono
+# comp-pda-ui-station-alert-level = Sector Alert Level: [color={ $color }]{ $level }[/color]
+comp-pda-ui-station-alert-level = Sector is at DEFCON [color={ $color }]{ $level }[/color]
+
+comp-pda-ui-station-alert-level-instructions = Advise: [color=white]{ $instructions }[/color]
+>>>>>>> upstream
 
 comp-pda-ui-station-time = 站点当班时长：[color=white]{ $time }[/color]
 
@@ -57,3 +69,8 @@ comp-pda-ui-unassigned = 未注册
 
 pda-notification-message = [font size=12][bold]PDA[/bold] { $header }: [/font]
     "{ $message }"
+
+# Mono
+comp-pda-ui-station-war-level-pre = WAR LEVEL: [color=cornflowerblue]COLD[/color]
+comp-pda-ui-station-war-level-post = WAR LEVEL: [color=crimson]HOT[/color]
+comp-pda-ui-station-war-level-unknown = WAR LEVEL: [color=white]UNKNOWN[/color]

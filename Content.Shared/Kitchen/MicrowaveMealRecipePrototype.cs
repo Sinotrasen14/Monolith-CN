@@ -87,6 +87,8 @@ namespace Content.Shared.Kitchen
         Oven = 2,
         Assembler = 4,
         MedicalAssembler = 8,
+        ArcFurnace = 16,
+        PrecisionAssembler = 32,
     }
 
     public sealed class MicrowaveRecipeTypeFlags { }

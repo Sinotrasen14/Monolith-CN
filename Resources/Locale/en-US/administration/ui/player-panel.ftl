@@ -16,8 +16,18 @@ player-panel-freeze = 冻结
 player-panel-unfreeze = 取消冻结
 player-panel-kick = 踢出
 player-panel-ban = Ban
+<<<<<<< HEAD
 player-panel-logs = 日志
 player-panel-delete = 删除
 player-panel-rejuvenate = 治疗
 player-panel-false = 否
 player-panel-true = 是
+=======
+player-panel-logs = Logs
+player-panel-delete = Delete
+player-panel-rejuvenate = Rejuvenate
+player-panel-false = False
+player-panel-true = True
+player-panel-follow = Follow
+player-panel-camera = Camera
+>>>>>>> upstream

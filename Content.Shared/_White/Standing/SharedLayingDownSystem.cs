@@ -5,18 +5,19 @@ using Content.Shared.Mobs.Systems;
 using Content.Shared.Movement.Systems;
 using Content.Shared.Standing;
 using Content.Shared.Stunnable;
+using Content.Shared.Traits.Assorted; //Mono: Wheelchair user check
 using Robust.Shared.Input.Binding;
 using Robust.Shared.Player;
 using Robust.Shared.Serialization;
 
 namespace Content.Shared._White.Standing;
 
-public abstract class SharedLayingDownSystem : EntitySystem
+public abstract partial class SharedLayingDownSystem : EntitySystem
 {
-    [Dependency] private readonly MobStateSystem _mobState = default!;
-    [Dependency] private readonly StandingStateSystem _standing = default!;
-    [Dependency] private readonly SharedDoAfterSystem _doAfter = default!;
-    [Dependency] private readonly SharedGravitySystem _gravity = default!;
+    [Dependency] private MobStateSystem _mobState = default!;
+    [Dependency] private StandingStateSystem _standing = default!;
+    [Dependency] private SharedDoAfterSystem _doAfter = default!;
+    [Dependency] private SharedGravitySystem _gravity = default!;
     public override void Initialize()
     {
         CommandBinds.Builder
@@ -43,7 +44,7 @@ public abstract class SharedLayingDownSystem : EntitySystem
     {
         if (session?.AttachedEntity == null ||
             !HasComp<LayingDownComponent>(session.AttachedEntity) ||
-            _gravity.IsWeightless(session.AttachedEntity.Value))
+            !CanLieDown(session.AttachedEntity.Value)) // Mono
         {
             return;
         }
@@ -57,6 +58,9 @@ public abstract class SharedLayingDownSystem : EntitySystem
             return;
 
         var uid = args.SenderSession.AttachedEntity.Value;
+
+        if (HasComp<LegsParalyzedComponent>(uid)) //Mono: Stop wheelchair user trait from standing
+            return;
 
         // TODO: Wizard
         //if (HasComp<FrozenComponent>(uid))
@@ -112,7 +116,8 @@ public abstract class SharedLayingDownSystem : EntitySystem
         // If the entity is not on a grid, try to make it stand up to avoid issues
         if (!TryComp<StandingStateComponent>(uid, out var standingState)
             || standingState.CurrentState is StandingState.Standing
-            || Transform(uid).GridUid != null)
+            || CanLieDown(uid) // Mono
+            || HasComp<LegsParalyzedComponent>(uid)) // Mono
         {
             return;
         }
@@ -150,7 +155,8 @@ public abstract class SharedLayingDownSystem : EntitySystem
     {
         if (!Resolve(uid, ref standingState, false) ||
             !Resolve(uid, ref layingDown, false) ||
-            standingState.CurrentState is not StandingState.Standing)
+            standingState.CurrentState is not StandingState.Standing ||
+            !CanLieDown(uid)) // Mono
         {
             if (behavior == DropHeldItemsBehavior.AlwaysDrop)
             {
@@ -162,6 +168,12 @@ public abstract class SharedLayingDownSystem : EntitySystem
 
         _standing.Down(uid, true, behavior != DropHeldItemsBehavior.NoDrop, false, standingState);
         return true;
+    }
+
+    // Mono
+    private bool CanLieDown(EntityUid uid)
+    {
+        return _gravity.EntityOnGravitySupportingGridOrMap(uid);
     }
 }
 

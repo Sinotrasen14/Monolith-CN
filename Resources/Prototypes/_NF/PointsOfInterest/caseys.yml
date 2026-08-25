@@ -10,8 +10,13 @@
 # Down at your local saloon
 - type: pointOfInterest
   id: CaseysCasino
+<<<<<<< HEAD
   parent: BasePOI
   name: "狂人凯西赌场"
+=======
+  parent: [BasePOI, BaseRepairablePOI]
+  name: "Crazy Casey's Casino"
+>>>>>>> upstream
   minimumDistance: 4250
   maximumDistance: 5600
   gridPath: /Maps/_NF/POI/caseyscasino.yml

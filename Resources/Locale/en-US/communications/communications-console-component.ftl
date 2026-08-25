@@ -31,4 +31,9 @@ comms-console-announcement-title-station-ai = 空间站人工智能
 comms-console-announcement-title-wizard = 巫师
 
 # Mono
+<<<<<<< HEAD
 comms-console-announcement-title-rogue = 法厄同帝国先锋队
+=======
+comms-console-announcement-title-rogue = Phaethon Dynasty Imperial Vanguard
+comms-console-announcement-title-mieyo = Mieyo Manufacturing Concern
+>>>>>>> upstream

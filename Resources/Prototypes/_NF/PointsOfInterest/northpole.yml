@@ -10,8 +10,13 @@
 # just a little loot n shoot POI. Pretty much the second POI to even exist
 - type: pointOfInterest
   id: NorthPole
+<<<<<<< HEAD
   parent: BasePOI
   name: "北极星据点"
+=======
+  parent: [BasePOI, BaseRepairablePOI]
+  name: "The North Pole"
+>>>>>>> upstream
   minimumDistance: 6150
   maximumDistance: 8850
   spawnGroup: Christmas

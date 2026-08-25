@@ -25,6 +25,7 @@
   - PetsNT
   - AllHostile
   - Wizard
+  defaultHostileIncluded: false # Mono
 
 - type: npcFaction
   id: Passive
@@ -81,6 +82,18 @@
 
 - type: npcFaction
   id: Monolithic
+  defaultHostile: true
+
+- type: npcFaction
+  id: Mothership
+  friendly:
+  - Xenoborg
+  defaultHostile: true
+
+- type: npcFaction
+  id: Xenoborg
+  friendly:
+  - Mothership
   defaultHostile: true
 
 # Mono edit end.

@@ -2,8 +2,13 @@
 - type: entity
   id: APCElectronics
   parent: BaseElectronics
+<<<<<<< HEAD
   name: APC电子设备 丨 APC electronics
   description: APC电子设备中使用的电路。 丨 Circuit used in APC construction.
+=======
+  name: APC electronics
+  description: Circuit used in APC construction. Can be put into a machine frame to alternatively make a large APC.
+>>>>>>> upstream
   components:
     - type: ApcElectronics
     - type: Sprite
@@ -16,6 +21,15 @@
         Silicon: 20
     - type: StaticPrice
       price: 34
+    - type: MachineBoard # Mono - LAPC
+      prototype: LargeAPC
+      requirements:
+        Capacitor: 6
+      stackRequirements:
+        Cable: 5
+        CableHV: 5
+        PlasmaGlass: 15
+        MetalRod: 8
 
 # Wallmount Substation
 - type: entity

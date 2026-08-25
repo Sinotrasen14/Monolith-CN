@@ -93,10 +93,22 @@
     interfaces:
       enum.SurgeryUIKey.Key:
         type: SurgeryBui
+<<<<<<< HEAD
   - type: NightVision # Goobstation - Nigthvision
     color: "#808080"
     activateSound: null
     deactivateSound: null
+=======
+  - type: NightVision # Gen 3 wide-quadtube
+    relayOverlay: false
+    goggleEffect: true
+    viewCircleRadius: 450
+    viewCircleCount: 4
+    viewCircleSpacing: 280
+    action: ActionToggleNightVision
+    phosphorColor: "#00FF00"
+    lightingColor: "#FFFFFF32"
+>>>>>>> upstream
 
 - type: entity
   parent: BaseMobCarp
@@ -189,7 +201,7 @@
     description: 幽灵角色信息-感知鲤鱼-描述 丨 ghost-role-information-sentient-carp-description
     rules: ghost-role-information-space-dragon-summoned-carp-rules
     mindRoles:
-    - MindRoleGhostRoleTeamAntagonist
+    - MindRoleGhostRoleTeamAntagonistFlock
     raffle:
       settings: short
   - type: GhostTakeoverAvailable

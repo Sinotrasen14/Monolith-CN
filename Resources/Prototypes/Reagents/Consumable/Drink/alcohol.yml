@@ -192,21 +192,18 @@
           min: 15
         - !type:OrganType
           type: Dwarf
+        damage:
+          groups:
+            Brute: -1
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentThreshold
+          min: 15
         - !type:OrganType # Goobstation - Yowie
           type: Yowie
         damage:
           groups:
             Brute: -1
-      - !type:HealthChange # Goobstation - Dwarf buff
-        conditions:
-        - !type:ReagentThreshold
-          min: 3
-        - !type:OrganType
-          type: Dwarf
-        damage:
-          groups:
-            Brute: -1
-            Burn: -1
       - !type:ChemVomit
         probability: 0.04
         conditions:
@@ -900,13 +897,12 @@
       - !type:AdjustReagent
         reagent: Ethanol
         amount: 0.05
-      - !type:HealthChange
+      - !type:EvenHealthChange
         damage:
-          groups:
-            Burn: -1
-            Brute: -1
-            Airloss: -1
-            Toxin: -1
+          Burn: -1
+          Brute: -1
+          Airloss: -1
+          Toxin: -1
 
 - type: reagent
   id: DriestMartini

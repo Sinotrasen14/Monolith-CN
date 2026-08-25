@@ -32,8 +32,13 @@
 - type: entity
   parent: ClothingOuterArmorBasic
   id: ClothingOuterArmorBPVestMedium
+<<<<<<< HEAD
   name: '中等防弹背心 | medium bulletproof vest'
   description: '一件来历不明的普通凯夫拉防弹衣。这款防弹衣针对子弹的防护性能更强，但代价是穿戴较为笨重。 | A simple kevlar vest of unknown origin. This one is more heavily reinforced against bullet at the cost of it being cumbersome.'
+=======
+  name: medium bulletproof vest
+  description: A simple kevlar vest of unknown origin. This one is more heavily reinforced against bullets at the cost of it being cumbersome.
+>>>>>>> upstream
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Armor/bulletproof_medium.rsi
@@ -64,8 +69,13 @@
 - type: entity
   parent: ClothingOuterArmorBasic
   id: ClothingOuterArmorBPVestHeavy
+<<<<<<< HEAD
   name: '重型防弹背心 | heavy bulletproof vest'
   description: '一件来源不明的简易凯夫拉防弹衣。这款重型防弹背心能将你变成行走的坦克，代价是丧失散热能力且体型极度臃肿。 | A simple kevlar vest of unknown origin. This juggernaut vest makes you practically a walking tank at, at the cose of heat protection and extreme bulk.'
+=======
+  name: heavy bulletproof vest
+  description: A simple kevlar vest of unknown origin. This juggernaut vest makes you practically a walking tank, at the cost of heat protection and extreme bulk.
+>>>>>>> upstream
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Armor/bulletproof_heavy.rsi
@@ -107,18 +117,18 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.7
-        Slash: 0.65
+        Blunt: 0.6
+        Slash: 0.6
         Piercing: 0.55
-        Heat: 0.7
+        Heat: 0.6
         Caustic: 0.9 # Frontier
   - type: Tag  # Mono
     tags:
     - Kevlar
   - type: StaminaDamageResistance # Mono - Stamres
-    coefficient: 0.8
+    coefficient: 0.7
   - type: ExplosionResistance
-    damageCoefficient: 0.90
+    damageCoefficient: 0.85
   - type: StaticPrice
     price: 4000
     vendPrice: 7000
@@ -133,7 +143,7 @@
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Armor/bulletproof_stabproof.rsi
   - type: Clothing
-    sprite: _Mono/Clothing/OuterClothing/Armor/bulletproof_stabprooft.rsi
+    sprite: _Mono/Clothing/OuterClothing/Armor/bulletproof_stabproof.rsi
   - type: Armor
     modifiers:
       coefficients:

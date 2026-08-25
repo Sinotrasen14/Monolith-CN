@@ -35,6 +35,15 @@
 
 - type: entity
   parent: BaseWeaponBallisticTurret
+  id: WeaponTurretCC
+  suffix: CC, Colossus
+  components:
+  - type: NpcFactionMember
+    factions:
+    - CC
+
+- type: entity
+  parent: BaseWeaponBallisticTurret
   id: WeaponTurretTSFMC
   suffix: TSFMC
   components:
@@ -59,6 +68,24 @@
   - type: NpcFactionMember
     factions:
     - PirateNF
+
+- type: entity
+  parent: BaseWeaponBallisticTurret
+  id: WeaponTurretViper
+  suffix: Viper
+  components:
+  - type: NpcFactionMember
+    factions:
+    - VGTurret
+
+- type: entity
+  parent: BaseWeaponBallisticTurret
+  id: WeaponTurretXenoborg
+  suffix: Xenoborg
+  components:
+  - type: NpcFactionMember
+    factions:
+    - XenoborgTurret
 
 - type: entity
   parent: BaseWeaponTurretNF
@@ -92,7 +119,7 @@
     context: "human"
   - type: Gun
     fireRate: 9
-    projectileSpeed: 55
+    projectileSpeed: 50
     selectedMode: FullAuto
     availableModes:
     - FullAuto
@@ -135,6 +162,7 @@
   - type: NpcFactionMember
     factions:
     - TSFMCTurret
+    - TSFMC
 
 - type: entity
   parent: BaseMk290Sentry

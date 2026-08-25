@@ -127,9 +127,15 @@
 
 - type: entity
   id: BaseImplantOnlyImplanterSyndi
+<<<<<<< HEAD
   parent: BaseImplantOnlyImplanter
   name: 皮下植入注射器 丨 syndicate implanter
   description: 专为皮下植入物注射设计的紧凑型一次性注射器。
+=======
+  parent: [BaseImplantOnlyImplanter, BaseFactionGearOtherFactionT2]
+  name: syndicate implanter
+  description: A compact disposable syringe exclusively designed for the injection of subdermal implants.
+>>>>>>> upstream
   abstract: true
   components:
     - type: Item

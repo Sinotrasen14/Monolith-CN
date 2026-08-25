@@ -300,8 +300,13 @@
 # HoS
 - type: entity
   id: LockerHeadOfSecurity
+<<<<<<< HEAD
   parent: [BaseStructureIndestructible, BaseStructureLockImmuneToEmag, BaseStructureAccessReaderImmuneToEmag, BaseStructureDisableToolUse, LockerBaseSecure] # Frontier: add BaseStructureIndestructible, BaseStructureLockImmuneToEmag, BaseStructureAccessReaderImmuneToEmag, BaseStructureDisableToolUse
   name: 安保主管的储物柜 丨 head of security's locker
+=======
+  parent: [LockerBaseSecure]
+  name: head of security's locker
+>>>>>>> upstream
   components:
   - type: Appearance
   - type: EntityStorageVisuals
@@ -309,7 +314,7 @@
     stateDoorOpen: hos_open
     stateDoorClosed: hos_door
   - type: AccessReader
-    access: [["HeadOfSecurity"]]
+    access: [["Security"]]
 
 # Warden
 - type: entity

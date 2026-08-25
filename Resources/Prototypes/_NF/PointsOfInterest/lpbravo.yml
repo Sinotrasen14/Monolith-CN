@@ -11,21 +11,34 @@
 - type: pointOfInterest
   id: LPBravo
   parent: BasePOI
+<<<<<<< HEAD
   name: '布拉沃监听站'
   minimumDistance: 9000
   maximumDistance: 10000
+=======
+  name: 'Listening Point Bravo'
+  minimumDistance: 15000
+  maximumDistance: 17000
+>>>>>>> upstream
   spawnGroup: SyndicateFOB
   gridPath: /Maps/_NF/POI/lpbravo.yml
   hideWarp: true
   addComponents:
   - type: IFF
     color: "#C83737"
-    flags: [HideLabel, Hide]
+    flags: [HideLabel]
     readOnly: false
   - type: SyndicateFOB # For pinpointer
   - type: SolarPoweredGrid
     trackOnInit: true
     doNotCull: true
+  - type: WorldGenDistanceCarver
+    distanceThresholds:
+    # Dead zone
+    - maxDistance: 800
+      prob: 0.0
+    - maxDistance: 1500
+      prob: 0.3
 
 - type: gameMap
   id: LPBravo

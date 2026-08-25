@@ -94,6 +94,7 @@
     - Marish
     - Freespeak
     - Tradeband
+    - NewKinPidgin
     understands:
     - TauCetiBasic # Add individual languages so they can understand without understanding animals.
     - Canilunzt
@@ -112,10 +113,11 @@
     - Freespeak
     - Tradeband
     - Sign # Should know it but not speak it, for obvious reasons.
+    - NewKinPidgin
   # Einstein Engines - Language end
 
 - type: entity
-  parent: PersonalAI
+  parent: [PersonalAI, BaseFactionGearOtherFactionT1]
   id: SyndicatePersonalAI
   name: 辛迪加个人人工智能设备 丨 syndicate personal ai device
   description: 你的Syndicate伙伴，与你相伴乐趣无穷！ 丨 Your Syndicate pal who's fun to be with!

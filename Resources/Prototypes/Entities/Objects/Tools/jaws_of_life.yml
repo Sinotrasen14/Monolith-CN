@@ -51,10 +51,17 @@
         Blunt: 20
     soundHit:
       collection: MetalThud
+  - type: NailClipper # Mono
+    allowedClawTypes: ["SharpClaw"]
 
 - type: entity
+<<<<<<< HEAD
   name: 先进液压钳 # Mono
   parent: JawsOfLife
+=======
+  name: advanced jaws of life # Mono
+  parent: [ BaseFactionGearPDVT1, JawsOfLife ] # Mono
+>>>>>>> upstream
   id: SyndicateJawsOfLife
   description: 用于进入空间站或其部门。 丨 Useful for entering the station or its departments.
   components:

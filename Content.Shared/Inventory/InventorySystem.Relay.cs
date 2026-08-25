@@ -1,6 +1,7 @@
 using Content.Shared._Goobstation.Flashbang;
 using Content.Shared._White.Overlays;
 using Content.Shared.Armor;
+using Content.Shared.Atmos;
 using Content.Shared.Chat;
 using Content.Shared.Chemistry;
 using Content.Shared.Chemistry.Hypospray.Events;
@@ -10,6 +11,7 @@ using Content.Shared.Damage.Events;
 using Content.Shared.Electrocution;
 using Content.Shared.Explosion;
 using Content.Shared.Eye.Blinding.Systems;
+using Content.Shared.Flash;
 using Content.Shared.Gravity;
 using Content.Shared.IdentityManagement.Components;
 using Content.Shared.Inventory.Events;
@@ -23,6 +25,7 @@ using Content.Shared.Strip.Components;
 using Content.Shared.Temperature;
 using Content.Shared.Verbs;
 using Content.Shared.Weapons.Ranged.Events;
+using Content.Shared.NightVision;
 
 namespace Content.Shared.Inventory;
 
@@ -35,11 +38,11 @@ public partial class InventorySystem
         SubscribeLocalEvent<InventoryComponent, ElectrocutionAttemptEvent>(RelayInventoryEvent);
         SubscribeLocalEvent<InventoryComponent, SlipAttemptEvent>(RelayInventoryEvent);
         SubscribeLocalEvent<InventoryComponent, RefreshMovementSpeedModifiersEvent>(RelayInventoryEvent);
-        SubscribeLocalEvent<InventoryComponent, BeforeStripEvent>(RelayInventoryEvent);
-        SubscribeLocalEvent<InventoryComponent, SeeIdentityAttemptEvent>(RelayInventoryEvent);
+        SubscribeLocalEvent<InventoryComponent, BeforeStripEvent>(RelayInventoryEventAlways); // Mono
+        SubscribeLocalEvent<InventoryComponent, SeeIdentityAttemptEvent>(RelayInventoryEventAlways); // Mono
         SubscribeLocalEvent<InventoryComponent, ModifyChangedTemperatureEvent>(RelayInventoryEvent);
         SubscribeLocalEvent<InventoryComponent, GetDefaultRadioChannelEvent>(RelayInventoryEvent);
-        SubscribeLocalEvent<InventoryComponent, RefreshNameModifiersEvent>(RelayInventoryEvent);
+        SubscribeLocalEvent<InventoryComponent, RefreshNameModifiersEvent>(RelayInventoryEventAlways); // Mono
         SubscribeLocalEvent<InventoryComponent, GetFlashbangedEvent>(RelayInventoryEvent); // goob edit
         SubscribeLocalEvent<InventoryComponent, FlashDurationMultiplierEvent>(RelayInventoryEvent); // goob edit
         SubscribeLocalEvent<InventoryComponent, TransformSpeakerNameEvent>(RelayInventoryEvent);
@@ -51,11 +54,15 @@ public partial class InventorySystem
 
         // by-ref events
         SubscribeLocalEvent<InventoryComponent, RefreshFrictionModifiersEvent>(RefRelayInventoryEvent);
+        SubscribeLocalEvent<InventoryComponent, RefreshWeightlessModifiersEvent>(RefRelayInventoryEvent); // Mono
         SubscribeLocalEvent<InventoryComponent, GetExplosionResistanceEvent>(RefRelayInventoryEvent);
         SubscribeLocalEvent<InventoryComponent, IsWeightlessEvent>(RefRelayInventoryEvent);
         SubscribeLocalEvent<InventoryComponent, GetSpeedModifierContactCapEvent>(RefRelayInventoryEvent);
         SubscribeLocalEvent<InventoryComponent, GetSlowedOverSlipperyModifierEvent>(RefRelayInventoryEvent);
         SubscribeLocalEvent<InventoryComponent, ModifySlowOnDamageSpeedEvent>(RefRelayInventoryEvent);
+        SubscribeLocalEvent<InventoryComponent, ExtinguishEvent>(RefRelayInventoryEvent);
+        SubscribeLocalEvent<InventoryComponent, FlashAttemptEvent>(RefRelayInventoryEvent);
+        SubscribeLocalEvent<InventoryComponent, RefreshNightVisionEvent>(RefRelayInventoryEvent);
 
         // Eye/vision events
         SubscribeLocalEvent<InventoryComponent, CanSeeAttemptEvent>(RelayInventoryEvent);
@@ -73,8 +80,9 @@ public partial class InventorySystem
         SubscribeLocalEvent<InventoryComponent, RefreshEquipmentHudEvent<ShowSyndicateIconsComponent>>(RefRelayInventoryEvent);
         SubscribeLocalEvent<InventoryComponent, RefreshEquipmentHudEvent<ShowCriminalRecordIconsComponent>>(RefRelayInventoryEvent);
 
-        SubscribeLocalEvent<InventoryComponent, RefreshEquipmentHudEvent<NightVisionComponent>>(RefRelayInventoryEvent); // Goobstation
+        SubscribeLocalEvent<InventoryComponent, RefreshEquipmentHudEvent<WWDPNightVisionComponent>>(RefRelayInventoryEvent); // Goobstation
         SubscribeLocalEvent<InventoryComponent, RefreshEquipmentHudEvent<ThermalVisionComponent>>(RefRelayInventoryEvent); // Goobstation
+        SubscribeLocalEvent<InventoryComponent, RefreshEquipmentHudEvent<ThermalSightComponent>>(RefRelayInventoryEvent);
 
         SubscribeLocalEvent<InventoryComponent, GetVerbsEvent<EquipmentVerb>>(OnGetEquipmentVerbs);
     }
@@ -89,7 +97,19 @@ public partial class InventorySystem
         RelayEvent((uid, component), args);
     }
 
-    public void RelayEvent<T>(Entity<InventoryComponent> inventory, ref T args) where T : IInventoryRelayEvent
+    // Mono
+    protected void RefRelayInventoryEventAlways<T>(EntityUid uid, InventoryComponent component, ref T args) where T : IInventoryRelayEvent
+    {
+        RelayEvent((uid, component), ref args, true);
+    }
+
+    // Mono
+    protected void RelayInventoryEventAlways<T>(EntityUid uid, InventoryComponent component, T args) where T : IInventoryRelayEvent
+    {
+        RelayEvent((uid, component), args, true);
+    }
+
+    public void RelayEvent<T>(Entity<InventoryComponent> inventory, ref T args, bool ignoreBlocked = false) where T : IInventoryRelayEvent
     {
         if (args.TargetSlots == SlotFlags.NONE)
             return;
@@ -97,25 +117,27 @@ public partial class InventorySystem
         // this copies the by-ref event if it is a struct
         var ev = new InventoryRelayedEvent<T>(args);
         var enumerator = new InventorySlotEnumerator(inventory, args.TargetSlots);
-        while (enumerator.NextItem(out var item))
+        while (enumerator.NextItem(out var item, out var slot))
         {
-            RaiseLocalEvent(item, ev);
+            if (!ignoreBlocked && !inventory.Comp.RelayBlockedSlots.Contains(slot.Name)) // Mono
+                RaiseLocalEvent(item, ev);
         }
 
         // and now we copy it back
         args = ev.Args;
     }
 
-    public void RelayEvent<T>(Entity<InventoryComponent> inventory, T args) where T : IInventoryRelayEvent
+    public void RelayEvent<T>(Entity<InventoryComponent> inventory, T args, bool ignoreBlocked = false) where T : IInventoryRelayEvent
     {
         if (args.TargetSlots == SlotFlags.NONE)
             return;
 
         var ev = new InventoryRelayedEvent<T>(args);
         var enumerator = new InventorySlotEnumerator(inventory, args.TargetSlots);
-        while (enumerator.NextItem(out var item))
+        while (enumerator.NextItem(out var item, out var slot))
         {
-            RaiseLocalEvent(item, ev);
+            if (!ignoreBlocked && !inventory.Comp.RelayBlockedSlots.Contains(slot.Name)) // Mono
+                RaiseLocalEvent(item, ev);
         }
     }
 

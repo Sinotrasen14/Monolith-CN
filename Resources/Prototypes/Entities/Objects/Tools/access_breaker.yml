@@ -1,6 +1,6 @@
 - type: entity
-  parent: BaseItem
-  id: AccessBreakerUnlimited
+  parent: [ BaseFactionGearPDVT1, BaseItem ] # Mono
+  id: AccessBreakerUnlimited 
   suffix: Unlimited
   name: 认证干扰器 丨 authentication disruptor
   description: 一台被入侵的访问配置器，专门用于解锁并清除数字门禁的访问权限。 丨 A hacked access configurator, specialized to unlock and erase access from digital locks.

@@ -29,6 +29,7 @@
     - MediumMechTOW
 
 - type: entity
+<<<<<<< HEAD
   id: AFInterceptorGBattery
   parent: AFInterceptorG
   suffix: Battery
@@ -50,6 +51,9 @@
 
 - type: entity
   name: 'AF-28「阔剑」生成器 | AF-28 Broadsword Spawner'
+=======
+  name: AF-28 Broadsword Spawner
+>>>>>>> upstream
   suffix: Filled
   id: SpawnMechAFInterceptorFilled
   parent: MarkerBase
@@ -75,9 +79,14 @@
     - AFInterceptorMFilled
 
 - type: entity
+<<<<<<< HEAD
   name: 'AF-28-G「军刀」生成器 | AF-28-G Sabre Spawner'
   suffix: Filled
   id: SpawnMechAFInterceptorGFilled
+=======
+  name: TSF flail spawner
+  id: SpawnTSFFlail
+>>>>>>> upstream
   parent: MarkerBase
   components:
   - type: Sprite
@@ -85,4 +94,16 @@
     - state: green
   - type: ConditionalSpawner
     prototypes:
-    - AFInterceptorGFilled
+    - AFFlailTSF
+
+- type: entity
+  name: TSF spyglass spawner
+  id: SpawnTSFSpyglass
+  parent: MarkerBase
+  components:
+  - type: Sprite
+    layers:
+    - state: green
+  - type: ConditionalSpawner
+    prototypes:
+    - AFFlailETSF

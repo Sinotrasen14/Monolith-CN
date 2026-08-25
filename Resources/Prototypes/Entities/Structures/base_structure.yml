@@ -9,6 +9,7 @@
   - type: Transform
     anchored: true
   - type: Clickable
+  - type: GravityAffected
   - type: Physics
     bodyType: Static
   - type: Fixtures
@@ -27,6 +28,10 @@
   - type: Tag
     tags:
       - Structure
+  - type: Repairable #Mono: Nanite applicator
+    qualities:
+    - Applicating
+
 
 - type: entity
   # This means that it's not anchored on spawn.
@@ -44,6 +49,7 @@
   - type: Clickable
   - type: Physics
     bodyType: Dynamic
+  - type: CEZPhysics # CrystallEdge
   - type: Fixtures
     fixtures:
       fix1:

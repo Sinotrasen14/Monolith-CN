@@ -13,12 +13,12 @@
       role: JobSeniorOfficer
       time: 10800 # 3 hours
   startingGear: BailiffGear
-  icon: JobIconBailiff
+  icon: JobIconTSFCaptain
   supervisors: job-supervisors-sheriff
   weight: 150
   displayWeight: 60
+  assignedCompany: TSF
   canBeAntag: false
-  guides: [ BasicLore, TransSolarFederation ] # Mono
   access:
   - Armory
   - Sergeant
@@ -47,12 +47,14 @@
 
 - type: startingGear
   id: BailiffGear
-  equipment:
-    pocket1: WeaponPistolMk58 #WeaponPistolMk58Nonlethal
+#  equipment:
+#    pocket1: WeaponPistolMk58 #WeaponPistolMk58Nonlethal
   storage:
     back:
-    - Magazine45_ACPPistolFMJ
-    - BaseSecurityUplinkRadioOfficer
+#    - Magazine45_ACPPistolFMJ # Mono
+    - BaseSecurityUplinkRadioCaptain
 #    - ShipVoucherNfsdBailiff # Mono
     - RubberStampBailiff
     - RadioHandheldNF # Mono
+    - RubberStampTSFCaptain # Mono
+    - BookTSFSOP

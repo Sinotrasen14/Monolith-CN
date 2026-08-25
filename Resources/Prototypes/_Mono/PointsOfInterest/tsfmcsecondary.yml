@@ -10,8 +10,13 @@
 #
 - type: pointOfInterest
   id: TSFMCOutpost
+<<<<<<< HEAD
   parent: BasePOI
   name: 'TSFMC 次级前哨站'
+=======
+  parent: [BasePOI, BaseRepairablePOI]
+  name: 'TSFMC Secondary Outpost'
+>>>>>>> upstream
   minimumDistance: 11000
   maximumDistance: 14000
   spawnGamePreset: [ NFAdventure, NFPirate, MonoStandard, MonoRogueTSF, MonoTSFUSSP, MonoADS, MonoChimera, MonoMixed, MonoAllAtOnce ]
@@ -35,7 +40,9 @@
         - type: StationNameSetup
           mapNameTemplate: 'TSFMC Secondary Outpost'
         - type: ExtraStationInformation
-          iconPath: /Textures/_NF/Structures/Decoration/banner.rsi/nfsd-banner.png
+          icon:
+            sprite: _NF/Structures/Decoration/banner.rsi
+            state: nfsd-banner
           stationSubtext: 'frontier-lobby-tsfmc-secondary-subtext'
           stationDescription: 'frontier-lobby-tsfmc-secondary-description'
           lobbySortOrder: 2

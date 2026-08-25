@@ -62,7 +62,7 @@
     damage:
       types:
         Piercing: 24
-    armorPenetration: -0.5
+    armorPenetration: -0.2
 
 - type: entity
   id: Pellet23x75mmBuckshotSpread
@@ -86,8 +86,8 @@
   - type: Projectile
     damage:
       types:
-        Blunt: 8
-        Heat: 14
+        Piercing: 14
+        Heat: 6
     armorPenetration: -0.3
   - type: IgnitionSource
     ignited: true
@@ -240,7 +240,7 @@
     damage:
       types:
         Piercing: 40
-    armorPenetration: -0.2
+    armorPenetration: -0.5
 
 - type: entity
   id: Pellet23x75mmOOBuckshotSpread
@@ -282,8 +282,8 @@
     damage:
       types:
         Piercing: 40
-        Structural: 250
-    armorPenetration: 0.5
+        Structural: 225
+    armorPenetration: 0.8
   - type: Tracer
     color: "#6f7c82ff"
     length: 3
@@ -300,8 +300,9 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 15
-    armorPenetration: 0.3
+        Piercing: 6
+        Structural: 40
+    armorPenetration: 1
   - type: Tracer
     color: "#6f7c82ff"
     length: 3

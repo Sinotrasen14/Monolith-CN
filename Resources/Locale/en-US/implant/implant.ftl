@@ -32,5 +32,11 @@ scramble-implant-activated-popup = 你的外貌变幻不定！
 
 ## Implant Messages
 
+<<<<<<< HEAD
 deathrattle-implant-dead-message = {$user}{$specie}已在{$grid}{$position}死亡。
 deathrattle-implant-critical-message = {$user}{$specie} 生命体征危急，需立即前往{$grid}{$position}援助。
+=======
+deathrattle-implant-dead-message = {$user}{$specie} has died at {$grid}{$position}.
+deathrattle-implant-revive-message = {$user}{$specie} has been revived, now in critical state, at {$grid}{$position}.
+deathrattle-implant-critical-message = {$user}{$specie} life signs critical, immediate assistance required at {$grid}{$position}.
+>>>>>>> upstream

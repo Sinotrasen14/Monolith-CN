@@ -22,3 +22,10 @@ marking-VoxHairTielQuills = Vox Tiel Quills
 marking-VoxHairYasu = Vox Yasuhiro
 marking-VoxHairWiseBraid = Vox Wise Braids
 marking-VoxHairSpotty = Vox Spotty Quills
+<<<<<<< HEAD
+=======
+marking-VoxHairMadScientist = Vox Mad Scientist
+marking-VoxHairHedgehog = Vox Hedgehog
+marking-VoxHairBushy = Vox Bushy Quills
+marking-VoxHairSlick = Vox Slick Quills
+>>>>>>> upstream

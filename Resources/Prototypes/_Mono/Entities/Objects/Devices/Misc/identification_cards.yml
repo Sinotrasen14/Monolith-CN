@@ -7,8 +7,9 @@
   - type: PresetIdCard
     job: USSPRifleman
   - type: Sprite
-    sprite: Objects/Misc/id_cards.rsi
+    sprite: _Mono/Objects/Misc/id_cards.rsi
     layers:
+<<<<<<< HEAD
     - state: default
     - state: idintern-cadet
   - type: Clothing
@@ -41,6 +42,10 @@
     layers:
     - state: default
     - state: idbrigmedic
+=======
+    - state: usspbase
+    - state: id_rifleman
+>>>>>>> upstream
 
 - type: entity
   parent: IDCardStandard
@@ -50,10 +55,10 @@
   - type: PresetIdCard
     job: USSPSergeant
   - type: Sprite
-    sprite: Objects/Misc/id_cards.rsi
+    sprite: _Mono/Objects/Misc/id_cards.rsi
     layers:
-    - state: default
-    - state: idseniorofficer
+    - state: usspbase
+    - state: id_sergeant
 
 - type: entity
   parent: IDCardStandard
@@ -63,12 +68,10 @@
   - type: PresetIdCard
     job: USSPCommissar
   - type: Sprite
-    sprite: Objects/Misc/id_cards.rsi
+    sprite: _Mono/Objects/Misc/id_cards.rsi
     layers:
-    - state: silver
-    - state: idheadofsecurity
-  - type: Item
-    heldPrefix: silver
+    - state: usspbase
+    - state: id_commissar
 
 # MARK: Medical
 
@@ -112,6 +115,7 @@
 
 - type: entity
   parent: IDCardStandard
+<<<<<<< HEAD
   id: TsfMarsocFTLIDCard
   name: 'TSFMC陆战队火力小组长ID卡 | TSFMC MARSOC fire team leader ID card'
   components:
@@ -128,6 +132,8 @@
 
 - type: entity
   parent: IDCardStandard
+=======
+>>>>>>> upstream
   id: TsfMarsocIDCard
   name: 'TSFMC特种作战特工ID卡 | TSFMC MARSOC operative ID card'
   components:
@@ -198,6 +204,45 @@
     - state: id_vizier
 
 - type: entity
+  parent: PirateIDCard
+  id: PDVAmbassadorIDCard #admin role id
+  name: PDV ambassador ID card
+  components:
+  - type: PresetIdCard
+    job: PDVAmbassador
+  - type: Sprite
+    sprite: _Mono/Objects/Misc/id_cards.rsi
+    layers:
+    - state: vizierbase
+    - state: id_vizier
+
+- type: entity
+  parent: PirateIDCard
+  id: PDVPrinceIDCard #admin role id
+  name: PDV prince ID card
+  components:
+  - type: PresetIdCard
+    job: PDVPrince
+  - type: Sprite
+    sprite: _Mono/Objects/Misc/id_cards.rsi
+    layers:
+    - state: vizierbase
+    - state: id_vizier
+
+- type: entity
+  parent: PirateIDCard
+  id: PDVTarkhanIDCard
+  name: PDV tarkhan ID card
+  components:
+  - type: PresetIdCard
+    job: PirateCaptain
+  - type: Sprite
+    sprite: _Mono/Objects/Misc/id_cards.rsi
+    layers:
+    - state: vizierbase
+    - state: id_vizier
+
+- type: entity
   name: spasaka ID card
   parent: [ IDCardStandard, BaseFactionGearPDVT2 ]
   id: PDVSpasakaIDCard
@@ -234,3 +279,107 @@
         type: ChameleonBoundUserInterface
   - type: Contraband # Frontier
     hideValues: true # Frontier
+
+#MARK: Viper Group
+- type: entity
+  parent: IDCardStandard
+  id: VGInfanteerIDCard
+  name: VG infanteer ID card
+  components:
+  - type: PresetIdCard
+    job: VGInfanteer
+  - type: Sprite
+    sprite: _Mono/Objects/Misc/id_cards.rsi
+    layers:
+    - state: vgbase
+    - state: id_infanteer
+  - type: Clothing
+    sprite: Objects/Misc/id_cards.rsi
+  - type: Item
+    heldPrefix: default
+
+- type: entity
+  parent: IDCardStandard
+  id: VGLieutenantIDCard
+  name: VG lieutenant ID card
+  components:
+  - type: PresetIdCard
+    job: VGLieutenant
+  - type: Sprite
+    sprite: _Mono/Objects/Misc/id_cards.rsi
+    layers:
+    - state: vgbase
+    - state: id_lieutenant
+  - type: Clothing
+    sprite: Objects/Misc/id_cards.rsi
+  - type: Item
+    heldPrefix: default
+
+- type: entity
+  parent: IDCardStandard
+  id: VGCommanderIDCard
+  name: VG commander ID card
+  components:
+  - type: PresetIdCard
+    job: VGCommander
+  - type: Sprite
+    sprite: _Mono/Objects/Misc/id_cards.rsi
+    layers:
+    - state: vgbase
+    - state: id_commander
+  - type: Clothing
+    sprite: Objects/Misc/id_cards.rsi
+  - type: Item
+    heldPrefix: default
+
+#MARK: Mieyo
+- type: entity
+  parent: IDCardStandard
+  id: MieyoEmployeeIDCard
+  name: MMC employee ID card
+  components:
+  - type: PresetIdCard
+    job: MMCEmployee
+  - type: Sprite
+    sprite: _Mono/Objects/Misc/id_cards.rsi
+    layers:
+    - state: mieyobase
+    - state: id_mieyo_employee
+  - type: Clothing
+    sprite: Objects/Misc/id_cards.rsi
+  - type: Item
+    heldPrefix: default
+
+- type: entity
+  parent: IDCardStandard
+  id: MieyoSecurityIDCard
+  name: MMC security ID card
+  components:
+  - type: PresetIdCard
+    job: MMCSecurity
+  - type: Sprite
+    sprite: _Mono/Objects/Misc/id_cards.rsi
+    layers:
+    - state: mieyobase
+    - state: id_mieyo_security
+  - type: Clothing
+    sprite: Objects/Misc/id_cards.rsi
+  - type: Item
+    heldPrefix: default
+
+- type: entity
+  parent: IDCardStandard
+  id: MieyoLiasonIDCard
+  name: MMC liason ID card
+  components:
+  - type: PresetIdCard
+    job: MMCLiason
+  - type: Sprite
+    sprite: _Mono/Objects/Misc/id_cards.rsi
+    layers:
+    - state: mieyobase
+    - state: id_mieyo_liason
+  - type: Clothing
+    sprite: Objects/Misc/id_cards.rsi
+  - type: Item
+    heldPrefix: default

@@ -6,6 +6,7 @@ chat-radio-message-wrap-bold = [color={$color}]{$channel} [bold]{$name}[/bold] {
 
 examine-headset-default-channel = 使用 {$prefix} 作为默认频道 ([color={$color}]{$channel}[/color]).
 
+<<<<<<< HEAD
 chat-radio-common = 公共
 chat-radio-centcom = 中央司令
 chat-radio-command = 指挥
@@ -22,3 +23,24 @@ chat-radio-vanguard-command = 先锋指挥
 # not headset but whatever
 chat-radio-handheld = 手台
 chat-radio-binary = 二进制
+=======
+chat-radio-common = Broadband
+chat-radio-centcom = HighComm
+chat-radio-command = TSF Military
+chat-radio-engineering = Engineering
+chat-radio-medical = Medical
+chat-radio-science = Science
+chat-radio-security = Colonial Security
+chat-radio-service = Colonial Staff
+chat-radio-supply = Supply
+chat-radio-syndicate = Syndicate
+chat-radio-freelance = Vanguard
+chat-radio-vanguard-command = Vanguard Command
+chat-radio-freeport = Freeport
+
+# not headset but whatever
+chat-radio-handheld = Handheld
+chat-radio-binary = Binary
+chat-radio-xenoborg = Xenoborg
+chat-radio-mothership = Mothership
+>>>>>>> upstream

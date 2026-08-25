@@ -1,0 +1,155 @@
+- type: entity
+<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/45_magnum.yml
+  id: Bullet45_magnumFMJ
+  name: '子弹（.45 马格南） | bullet (.45 magnum)'
+=======
+  id: Bullet357_magnumFMJ
+  name: bullet (.357 magnum)
+>>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/357_magnum.yml
+  parent: BaseBullet
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 35
+    armorPenetration: 0.1
+
+- type: entity
+<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/45_magnum.yml
+  id: Bullet45_magnumPractice
+  name: '子弹（.45 马格南练习弹） | bullet (.45 magnum practice)'
+=======
+  id: Bullet357_magnumPractice
+  name: bullet (.357 magnum practice)
+>>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/357_magnum.yml
+  parent: BaseBulletPractice
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 1
+
+- type: entity
+<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/45_magnum.yml
+  id: Bullet45_magnumRubber
+  name: '子弹（.45 马格南橡胶弹） | bullet (.45 magnum rubber)'
+=======
+  id: Bullet357_magnumRubber
+  name: bullet (.357 magnum rubber)
+>>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/357_magnum.yml
+  parent: BaseBulletRubber
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Blunt: 3
+  - type: StaminaDamageOnCollide
+    damage: 35 # 3 hits to stun cuz revolver
+
+- type: entity
+  id: Bullet357_magnumIncendiary
+  parent: BaseBulletIncendiary
+<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/45_magnum.yml
+  name: '子弹（.45 口径马格南燃烧弹） | bullet (.45 magnum incendiary)'
+=======
+  name: bullet (.357 magnum incendiary)
+>>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/357_magnum.yml
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 20
+        Heat: 10
+
+- type: entity
+<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/45_magnum.yml
+  id: Bullet45_magnumAP
+  name: '子弹（.45 马格南穿甲弹） | bullet (.45 magnum armor-piercing)'
+=======
+  id: Bullet357_magnumAP
+  name: bullet (.357 magnum armor-piercing)
+>>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/357_magnum.yml
+  parent: BaseBulletAP
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 26 # 20% decrease
+    ignoreResistances: true
+
+- type: entity
+<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/45_magnum.yml
+  id: Bullet45_magnumUranium
+  name: '子弹（.45 马格南铀弹） | bullet (.45 magnum uranium)'
+=======
+  id: Bullet357_magnumUranium
+  name: bullet (.357 magnum uranium)
+>>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/357_magnum.yml
+  parent: BaseBulletUranium
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Radiation: 15
+        Piercing: 20
+
+# Mono AP syst
+# + 0.05 base AP
+#anti-flesh:
+- type: entity
+  id: Bullet357_magnumHP
+  parent: BaseBullet
+<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/45_magnum.yml
+  name: '子弹（.45 马格南空尖弹） | bullet (.45 magnum hollow-point)'
+=======
+  name: bullet (.357 magnum hollow-point)
+>>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/357_magnum.yml
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Slash: 8
+        Piercing: 37
+    armorPenetration: -0.5
+
+- type: entity
+  id: Bullet357_magnumRIP
+  parent: BaseBullet
+<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/45_magnum.yml
+  name: '.45 马格南空尖弹 | bullet (.45 magnum RIP)'
+=======
+  name: bullet (.357 magnum RIP)
+>>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/357_magnum.yml
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Slash: 10
+        Piercing: 50
+    armorPenetration: -0.9
+
+#armor-piercing:
+- type: entity
+  id: Bullet357_magnumPlasteelAP
+  parent: BaseBullet
+<<<<<<< HEAD:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/45_magnum.yml
+  name: '.45 马格南穿甲弹 | bullet (.45 magnum AP)'
+=======
+  name: bullet (.357 magnum AP)
+>>>>>>> upstream:Resources/Prototypes/_Mono/Entities/Objects/Weapons/Guns/Ammunition/Projectiles/357_magnum.yml
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 14
+        Structural: 70
+    armorPenetration: 0.8

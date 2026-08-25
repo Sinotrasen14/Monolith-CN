@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseFactionGearTSFT3]
   id: ClothingOuterHardsuitM86
@@ -74,3 +75,5 @@
   - type: ClothingSpeedModifier
     walkModifier: 0.9
     sprintModifier: 0.875
+=======
+>>>>>>> upstream

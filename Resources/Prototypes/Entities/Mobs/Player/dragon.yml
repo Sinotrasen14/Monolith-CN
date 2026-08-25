@@ -54,6 +54,7 @@
         toggleAction: ActionObserverShowRadar
   - type: RadarConsole # Mono
     followEntity: true
+    noRotate: true # Mono
     maxIffRange: 0
     hideCoords: false
   - type: RandomSprite
@@ -170,10 +171,22 @@
     - DoorBumpOpener
   - type: Puller
     needsHands: false
+<<<<<<< HEAD
   - type: NightVision # Goobstation - Nigthvision
     color: "#808080"
     activateSound: null
     deactivateSound: null
+=======
+  - type: NightVision # Gen 3 wide-quadtube
+    relayOverlay: false
+    goggleEffect: true
+    viewCircleRadius: 450
+    viewCircleCount: 4
+    viewCircleSpacing: 280
+    action: ActionToggleNightVision
+    phosphorColor: "#00FF00"
+    lightingColor: "#FFFFFF32"
+>>>>>>> upstream
 
 - type: entity
   parent: BaseMobDragon
@@ -181,6 +194,9 @@
   components:
   - type: Dragon
     spawnRiftAction: ActionSpawnRift
+  - type: GhostRole
+    mindRoles:
+    - MindRoleDragon
   - type: ActionGun
     action: ActionDragonsBreath
     gunProto: DragonsBreathGun

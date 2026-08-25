@@ -7,10 +7,10 @@ using Robust.Shared.Utility;
 namespace Content.Shared._NF.Shipyard.Prototypes;
 
 [Prototype]
-public sealed class VesselPrototype : IPrototype, IInheritingPrototype
+public sealed partial class VesselPrototype : IPrototype, IInheritingPrototype
 {
     [IdDataField]
-    public string ID { get; } = default!;
+    public string ID { get; private set; } = default!;
 
     [ParentDataField(typeof(AbstractPrototypeIdArraySerializer<VesselPrototype>))]
     public string[]? Parents { get; private set; }
@@ -29,6 +29,18 @@ public sealed class VesselPrototype : IPrototype, IInheritingPrototype
     ///     0 for unlimited.
     /// </summary>
     [DataField("limit")] public int LimitActive;
+
+    /// <summary>
+    ///     The amount of this ship that can active at any given time while HyperwarGamerule is active.
+    ///     0 for unlimited.
+    /// </summary>
+    [DataField("hyperwarLimit")] public int HyperwarLimitActive;
+
+    /// <summary>
+    ///     Makes ship unable to be deployed until specific time from round start passes while HyperwarGamerule is active.
+    ///     0 for unlimited.
+    /// </summary>
+    [DataField] public TimeSpan HyperwarTimelock = TimeSpan.FromMinutes(10);
 
     /// <summary>
     ///     Short description of the vessel.
@@ -196,4 +208,5 @@ public enum VesselEngine : byte
     Plasma,
     Uranium,
     Bananium,
+    NFR, // Mono
 }

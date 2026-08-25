@@ -22,8 +22,8 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser.ogg
   - type: Battery
-    maxCharge: 1000
-    startingCharge: 1000
+    maxCharge: 1500 # Mono: 1k >> 1.5k
+    startingCharge: 1500 # Mono: 1k >> 1.5k
   - type: StaticPrice
     price: 500
   - type: Cautery # Shitmed
@@ -49,6 +49,20 @@
     sound:
       collection: LasersDrop
   # Goobstation edit end
+  # Mono - Gun stock attack
+  - type: MeleeWeapon
+    attackRate: 0.9
+    damage:
+      types:
+        Blunt: 10
+    angle: 0
+    wideAnimationRotation: 135
+    animation: WeaponArcThrust
+    soundHit:
+      collection: MetalThud
+  - type: AltFireMelee
+    attackType: Light
+  # Mono end
 
 - type: entity
   id: BaseWeaponPowerCell
@@ -68,7 +82,7 @@
       path: /Audio/Weapons/Guns/Gunshots/laser.ogg
   - type: HitscanBatteryAmmoProvider
     proto: RedLightLaser
-    fireCost: 50
+    fireCost: 20 # Mono: pistol lasers shoot efficiently
   - type: PowerCellSlot
     cellSlotId: gun_magazine
   - type: ItemSlots
@@ -93,6 +107,21 @@
   - type: SurgeryTool # Shitmed
     endSound:
       path: /Audio/Weapons/Guns/Gunshots/laser.ogg
+  # Mono - Gun stock attack
+  - type: MeleeRequiresWield
+  - type: MeleeWeapon
+    attackRate: 0.9
+    damage:
+      types:
+        Blunt: 12
+    angle: 0
+    wideAnimationRotation: 135
+    animation: WeaponArcThrust
+    soundHit:
+      collection: MetalThud
+  - type: AltFireMelee
+    attackType: Light
+  # Mono end
 
 - type: entity
   id: BaseWeaponBatterySmall
@@ -107,12 +136,29 @@
   - type: Tag
     tags:
     - Sidearm
+  - type: Battery # Mono: Keeps charge for smaller energy weapons
+    maxCharge: 1000
+    startingCharge: 1000
   - type: Clothing
     sprite: Objects/Weapons/Guns/Battery/taser.rsi
     quickEquip: false
     slots:
     - Belt
     - suitStorage
+  # Mono - Gun stock attack
+  - type: MeleeWeapon
+    attackRate: 1.1
+    damage:
+      types:
+        Blunt: 8
+    angle: 0
+    wideAnimationRotation: 135
+    animation: WeaponArcThrust
+    soundHit:
+      collection: MetalThud
+  - type: AltFireMelee
+    attackType: Light
+  # Mono end
 
 - type: entity
   id: BaseWeaponPowerCellSmall
@@ -129,6 +175,21 @@
     quickEquip: false
     slots:
     - Belt
+  # Mono - Gun stock attack
+  - type: MeleeRequiresWield
+  - type: MeleeWeapon
+    attackRate: 1.1
+    damage:
+      types:
+        Blunt: 8
+    angle: 0
+    wideAnimationRotation: 135
+    animation: WeaponArcThrust
+    soundHit:
+      collection: MetalThud
+  - type: AltFireMelee
+    attackType: Light
+  # Mono end
 
 - type: entity
   name: 斯瓦林激光手枪 丨 svalinn laser pistol
@@ -146,6 +207,14 @@
       shader: unshaded
   - type: Item
     sprite: Objects/Weapons/Guns/Battery/svalinn.rsi
+  - type: Gun
+    burstCooldown: 0.75
+    burstFireRate: 3
+    shotsPerBurst: 3
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    - Burst
   - type: MagazineVisuals
     magState: mag
     steps: 5
@@ -169,7 +238,7 @@
       shader: unshaded
   - type: HitscanBatteryAmmoProvider
     proto: RedMediumLaser
-    fireCost: 83.3
+    fireCost: 33.3 # Mono: 83.3 >> 33.3
   - type: MagazineVisuals
     magState: mag
     steps: 5
@@ -201,7 +270,7 @@
     sprite: Objects/Weapons/Guns/Battery/makeshift.rsi
   - type: HitscanBatteryAmmoProvider
     proto: RedLaser
-    fireCost: 62.5
+    fireCost: 35 # Mono: 62.5 >> 35
   - type: Battery
     maxCharge: 500
     startingCharge: 500
@@ -262,7 +331,7 @@
     - SemiAuto
   - type: HitscanBatteryAmmoProvider
     proto: RedLaserPractice
-    fireCost: 35 #Mono: 62.5 >> 35
+    fireCost: 30 #Mono: 62.5 >> 30
   - type: StaticPrice
     price: 300
 
@@ -276,18 +345,30 @@
     price: 500
   - type: HitscanBatteryAmmoProvider
     proto: RedMediumLaser #Mono: RedLaser >> RedMediumLaser
-    fireCost: 35 #Mono: 62.5 >> 35
+    fireCost: 30 #Mono: 62.5 >> 30
   - type: PirateBountyItem # Mono
     id: StandardFactionLongarm
+  - type: Gun
+    selectedMode: SemiAuto
+    availableModes:
+    - SemiAuto
+    - FullAuto
 
 - type: entity
+<<<<<<< HEAD
   name: LWC脉冲手枪 丨 LWC pulse pistol
   parent: BaseWeaponBatterySmall
   id: WeaponPulsePistol
   description: 一款最先进的能量手枪，被TSFN和TSFMC作为备用武器使用。 # Mono
+=======
+  name: VCD QSH-13 Pulse Pistol
+  parent: BaseWeaponBatterySmall
+  id: WeaponPulsePistol
+  description: The pulse pistol is a compact version of the TSF pulse rifle. Though it uses the same self-recharging technology, it has a smaller battery that makes it impractical for sustained battlefield use. Nevertheless, it has found a niche in the hands of TSFN and TSFMC officers as a defensive sidearm. # Mono
+>>>>>>> upstream
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/pulse_pistol.rsi
+    sprite: _Mono/Objects/Weapons/Guns/Battery/pulse_pistol.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -300,7 +381,7 @@
     zeroVisible: false
   - type: Appearance
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/pulse_pistol.rsi
+    sprite: _Mono/Objects/Weapons/Guns/Battery/pulse_pistol.rsi
   - type: Gun
     selectedMode: SemiAuto
     availableModes:
@@ -324,13 +405,20 @@
   # End Mono
 
 - type: entity
+<<<<<<< HEAD
   name: LWC脉冲卡宾枪 丨 LWC pulse carbine
   parent: [BaseWeaponBattery, BaseGunWieldable]
   id: WeaponPulseCarbine
   description: 在高级TSF手中常见，脉冲卡宾枪是一种劲爆的激光武器，从纳米传讯的残余物中回收而来。 # Mono
+=======
+  name: VCD QBH-12 Pulse Carbine
+  parent: [BaseWeaponBattery, BaseGunWieldable]
+  id: WeaponPulseCarbine
+  description: The pulse carbine is a slightly more compact version of the TSF pulse rifle that combines self-recharging technology with an even faster rate of fire meant to terrify enemies on the battlefield. Though known to overheat occasionally in prolonged battle, this does not stop the Marine special forces who favor them. # Mono
+>>>>>>> upstream
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/pulse_carbine.rsi
+    sprite: _Mono/Objects/Weapons/Guns/Battery/pulse_carbine.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -343,7 +431,7 @@
     zeroVisible: false
   - type: Appearance
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/pulse_carbine.rsi
+    sprite: _Mono/Objects/Weapons/Guns/Battery/pulse_carbine.rsi
   - type: Gun
     selectedMode: SemiAuto
     fireRate: 3
@@ -373,13 +461,20 @@
   # End Mono
 
 - type: entity
+<<<<<<< HEAD
   name: NT脉冲步枪 丨 NT pulse rifle
   parent: [BaseWeaponBattery, BaseGunWieldable]
   id: WeaponPulseRifle
   description: 这是一种曾经被NT特种作战部队使用的武器，但现在常见于TSF手中。 # Mono
+=======
+  name: VCD QBH-11 Pulse Rifle
+  parent: [BaseWeaponBattery, BaseGunWieldable]
+  id: WeaponPulseRifle
+  description: The first pulse model reproduced since the technology fell into TSF hands after the end of the Corporate War, this rifle defines cutting edge technology in the hands of elite TSF military troops and the officers that command them.  # Mono
+>>>>>>> upstream
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/pulse_rifle.rsi
+    sprite: _Mono/Objects/Weapons/Guns/Battery/pulse_rifle.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -392,7 +487,7 @@
     zeroVisible: false
   - type: Appearance
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/pulse_rifle.rsi
+    sprite: _Mono/Objects/Weapons/Guns/Battery/pulse_rifle.rsi
   - type: Gun
     fireRate: 1.5
     availableModes:
@@ -401,7 +496,7 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser3.ogg
   - type: HitscanBatteryAmmoProvider
-    proto: Pulse
+    proto: RiflePulse
     fireCost: 100
   - type: Battery
     maxCharge: 6000 # Mono
@@ -428,7 +523,7 @@
   description: A weapon that used to be used by the special operations units of NT, but mounted onto a silicon. # Mono
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/pulse_rifle.rsi
+    sprite: _Mono/Objects/Weapons/Guns/Battery/pulse_rifle.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -441,7 +536,7 @@
     zeroVisible: false
   - type: Appearance
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/pulse_rifle.rsi
+    sprite: _Mono/Objects/Weapons/Guns/Battery/pulse_rifle.rsi
   - type: Gun
     fireRate: 1.5
     availableModes:
@@ -495,7 +590,7 @@
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: HitscanBatteryAmmoProvider
     proto: RedHeavyLaser
-    fireCost: 250
+    fireCost: 160
   - type: Battery
     maxCharge: 4000
     startingCharge: 4000
@@ -555,7 +650,7 @@
       path: /Audio/Weapons/Guns/Gunshots/laser3.ogg
   - type: HitscanBatteryAmmoProvider
     proto: XrayLaser
-    fireCost: 200
+    fireCost: 133.3
   - type: MagazineVisuals
     magState: mag
     steps: 5
@@ -627,10 +722,6 @@
   - type: ProjectileBatteryAmmoProvider
     proto: BulletDisabler
     fireCost: 50
-  - type: GuideHelp
-    guides:
-    - Security
-    # - Antagonists # Frontier: removed guidebook entry
 
 - type: entity
   name: 失能冲锋枪 丨 disabler SMG
@@ -727,7 +818,7 @@
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: HitscanBatteryAmmoProvider
     proto: RedMediumLaser
-    fireCost: 100
+    fireCost: 50 # Mono: 100 >> 50
   - type: BatterySelfRecharger
     autoRecharge: true
     autoRechargeRate: 40
@@ -774,10 +865,10 @@
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
   - type: HitscanBatteryAmmoProvider
     proto: RedMediumLaser
-    fireCost: 100
+    fireCost: 50 # Mono: 100 >> 50
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 30
+    autoRechargeRate: 20 # Mono 30 >> 20
   - type: MagazineVisuals
     magState: mag
     steps: 5
@@ -935,3 +1026,35 @@
     autoRechargeRate: 24
     autoRechargePause: true
     autoRechargePauseTime: 30
+
+- type: entity
+  parent: WeaponAdvancedLaser
+  id: WeaponLaserGunXenoborg
+  name: xenoborg laser gun
+  components:
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Battery/xenoborg_laser_gun.rsi
+    layers:
+    - state: base
+      map: [ "enum.GunVisualLayers.Base" ]
+    - state: mag-unshaded-4
+      map: [ "enum.GunVisualLayers.MagUnshaded" ]
+
+- type: entity
+  parent: WeaponLaserCannon
+  id: WeaponLaserCannonXenoborg
+  name: xenoborg laser cannon
+  components:
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 200
+    autoRechargePause: true
+    autoRechargePauseTime: 5
+  # "remove" wield bonus and penalty so borgs can use it
+  - type: GunWieldBonus
+    minAngle: 0
+    maxAngle: 0
+  - type: Gun
+    fireRate: 2
+    minAngle: 1
+    maxAngle: 2

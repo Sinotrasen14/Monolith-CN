@@ -8,20 +8,20 @@
     sprite: Clothing/Neck/Misc/headphones.rsi
     layers:
     - state: icon
-      map: [ "enum.ToggleVisuals.Layer" ]
+      map: [ "enum.ToggleableVisuals.Layer" ]
   - type: Clothing
     equippedPrefix: off
     sprite: Clothing/Neck/Misc/headphones.rsi
-  - type: ToggleableLightVisuals
-    spriteLayer: enum.ToggleVisuals.Layer
+  - type: ToggleableVisuals
+    spriteLayer: enum.ToggleableVisuals.Layer
     clothingVisuals:
       neck:
       - state: on-equipped-NECK
   - type: Appearance
   - type: GenericVisualizer
     visuals:
-      enum.ToggleVisuals.Toggled:
-        enum.ToggleVisuals.Layer:
+      enum.ToggleableVisuals.Enabled:
+        enum.ToggleableVisuals.Layer:
           True: {state: icon-on}
           False: {state: icon}
   - type: ItemToggle
@@ -30,6 +30,9 @@
       path: /Audio/Items/flashlight_on.ogg
     soundDeactivate:
       path: /Audio/Items/flashlight_off.ogg
+  - type: Tag
+    tags:
+    - PetWearable
 
 - type: entity
   parent: ClothingNeckBase
@@ -42,7 +45,10 @@
   - type: Clothing
     sprite: Clothing/Neck/Misc/stethoscope.rsi
   - type: Stethoscope
-
+  - type: Tag
+    tags:
+    - PetWearable
+    
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckBling
@@ -53,7 +59,10 @@
     sprite: Clothing/Neck/Misc/bling.rsi
   - type: Clothing
     sprite: Clothing/Neck/Misc/bling.rsi
-
+  - type: Tag
+    tags:
+    - PetWearable
+    
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckLawyerbadge
@@ -66,7 +75,10 @@
     sprite: Clothing/Neck/Misc/lawyerbadge.rsi
   - type: TypingIndicatorClothing
     proto: lawyer
-
+  - type: Tag
+    tags:
+    - PetWearable
+    
 - type: entity
   id: ActionStethoscope
   name: 听诊器听诊 丨 Listen with stethoscope
@@ -94,3 +106,4 @@
     tags:
     - Trash
     - WhitelistChameleon
+    - PetWearable

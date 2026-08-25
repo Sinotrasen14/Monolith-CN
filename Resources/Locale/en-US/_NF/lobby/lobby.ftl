@@ -37,11 +37,22 @@ frontier-lobby-nfsd-description = TSFMC前线作战基地是TSF武装扩张至�
    - 举报犯罪行为
    - 上缴违禁品
 
+<<<<<<< HEAD
 frontier-lobby-pirate-subtext = PDV-法厄同王朝领事指挥中心
 frontier-lobby-pirate-description = 这是法厄同帝国军队聚集的终极据点。在这里你可以：
    - 组建一支帝国团队
    - 寻找可加入的船员队伍
    - 与其他帝国成员交流
+=======
+monolith-lobby-tsf-industry-subtext = The center of TSF civilian operations.
+monolith-lobby-tsf-industry-description = The "Stellar Blessing" is a small colony vessel filled with prospecting civilians looking to make a living. Spawn here as a civilian and make said living, while obeying your government's authority.
+
+frontier-lobby-pirate-subtext = The center of operations for the PDV.
+frontier-lobby-pirate-description = This is the ultimate hideout where Phaethon Imperial Forces gather. Here you can:
+   - Start an Imperial crew
+   - Find a crew to join
+   - Socialize with other Phaethon Dynasty soldiers
+>>>>>>> upstream
 
 # 船员菜单
 frontier-lobby-crew-vessel = [bold][color=#A88B5E]舰船：[/color][/bold] {$name}

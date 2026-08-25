@@ -37,7 +37,11 @@ APC 终端： IPC 可以使用 APC 终端进行充电。根据需要多次 [colo
   </Box>
   <Box HorizontalAlignment="Stretch">
     <GuideEntityEmbed Entity="CableApcStack" Caption="Cables (any type)"/>
+<<<<<<< HEAD
     电缆 (Cables)可用于修复 [color=yellow]烧伤 (Burns)[/color]。
+=======
+    Cables can be used to repair [color=yellow]Burns[/color] and [color=yellow]Radiation[/color].
+>>>>>>> upstream
   </Box>
   <Box HorizontalAlignment="Stretch">
     <GuideEntityEmbed Entity="SheetGlass" Caption="Glass Sheets (any type)"/>

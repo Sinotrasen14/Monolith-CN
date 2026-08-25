@@ -20,6 +20,7 @@
   - type: AmmoCounter
   - type: Gun
     fireRate: 0.75
+    damageModifier: 1.5 # Mono
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
@@ -56,7 +57,23 @@
     sound:
       collection: SnipersDrop
   # Goobstation edit end
+  # Mono - Gun stock attack
+  - type: MeleeRequiresWield
+  - type: MeleeWeapon
+    attackRate: 0.6
+    damage:
+      types:
+        Blunt: 24 # snipers are HEAVY!
+    angle: 0
+    wideAnimationRotation: 45
+    animation: WeaponArcThrust
+    soundHit:
+      collection: MetalThud
+  - type: AltFireMelee
+    attackType: Light
+  # Mono end
 
+<<<<<<< HEAD
 - type: entity
   name: NCI 卡尔达肖夫-莫辛步枪（7.62x54mm R） 丨 NCI Kardashev-Mosin (7.62x54mmR)
   parent: [BaseWeaponSniper, BaseGunWieldable, BaseGunMelee] # added BaseGunMelee
@@ -118,6 +135,13 @@
 - type: entity
   name: 防火门 丨 musket
   parent: [ BaseWeaponSniper, BaseGunWieldable, BaseGunMelee ] # add BaseGunMelee
+=======
+# Mono - moved Hristov & Mosin to _Mono
+
+- type: entity
+  name: musket
+  parent: [ BaseGunMelee, BaseWeaponSniper, BaseGunWieldable ] # add BaseGunMelee
+>>>>>>> upstream
   id: Musket
   description: 这玩意儿早在你出生前就该进博物馆了。使用145x114mm 弹药。 丨 This should've been in a museum long before you were born. Uses 145x114mm ammo.
   components:

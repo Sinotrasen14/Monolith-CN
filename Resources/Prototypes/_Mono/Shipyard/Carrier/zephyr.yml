@@ -1,23 +1,26 @@
+#Author: Starch(!)
+
 - type: vessel
   id: Zephyr
   parent: BaseVesselAntag
   name: TSF-SKR Zephyr
   description: A fighter refurbished from recovered remnant Razor hulls.
-  price: 16400
+  price: 29365
   category: Small
   group: Custom
   mapchecker_group_override: Shipyard  # Treat this as a Shipyard vessel for mapchecker purposes
-  shuttlePath: /Maps/_Mono/Shuttles/Carrier/zephyr.yml
+  shuttlePath: /SharedMaps/_Mono/Shuttles/Carrier/zephyr.yml
   guidebookPage: Null
   class:
   - Pursuit
+  - Fighter
   engine:
   - APU
 
 - type: gameMap
   id: Zephyr
   mapName: 'Zephyr'
-  mapPath: /Maps/_Mono/Shuttles/Carrier/zephyr.yml
+  mapPath: /SharedMaps/_Mono/Shuttles/Carrier/zephyr.yml
   minPlayers: 0
   stations:
     Zephyr:

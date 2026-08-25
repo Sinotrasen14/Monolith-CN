@@ -1,4 +1,5 @@
 ## UI
+<<<<<<< HEAD
 shipyard-console-invalid-vessel = 无法购买舰船：
 shipyard-console-menu-title = 造船厂菜单
 shipyard-console-menu-listing-free = 免费
@@ -25,6 +26,36 @@ shipyard-console-no-voucher-redemptions = 券的所有兑换次数已用完。
 shipyard-console-invalid-voucher-type = 此兑换券无法在此控制台使用。
 shipyard-console-denied = 你目前无法购买此飞船。
 shipyard-console-limited = 同型号的活动舰船数量过多，请稍后重试！
+=======
+shipyard-console-invalid-vessel = Cannot purchase vessel:
+shipyard-console-menu-title = Shipyard Menu
+shipyard-console-menu-listing-free = Free
+shipyard-console-menu-listing-voucher = Voucher
+shipyard-console-docking = {$owner} shuttle {$vessel} en route.
+shipyard-console-leaving = {$owner} shuttle {$vessel} sold by {$player}.
+shipyard-console-docking-secret = Unregistered vessel detected entering your sector.
+shipyard-console-leaving-secret = Unregistered vessel detected leaving your sector.
+shipyard-commands-purchase-desc = Spawns and FTL docks a specified shuttle from a grid file.
+shipyard-console-no-idcard = No ID card present.
+shipyard-console-already-deeded = ID card already has a Deed.
+shipyard-console-invalid-station = Not a valid station.
+shipyard-console-no-bank = No bank account found.
+shipyard-console-no-deed = No ship deed found.
+shipyard-console-no-unassign = Card is restricted from unassigning deed.
+shipyard-console-sale-reqs = Ship must be docked and all crew disembarked.
+shipyard-console-sale-not-docked = Ship must be docked.
+shipyard-console-sale-organic-aboard = All crew must disembark. {$name} is still aboard.
+# This error message is bad, but if it happens, something awful's happened.
+shipyard-console-sale-invalid-ship = Ship is invalid and cannot be sold.
+shipyard-console-sale-unknown-reason = Ship cannot be sold: {reason}
+shipyard-console-deed-label = Registered Ship:
+shipyard-console-appraisal-label = Shuttle Resale Value (Taxed):{" "}
+shipyard-console-no-voucher-redemptions = All voucher redemptions have been used.
+shipyard-console-invalid-voucher-type = This voucher cannot be used at this console.
+shipyard-console-denied = You cannot purchase this ship at this time.
+shipyard-console-limited = There are too many active shuttles of this type, try again later!
+shipyard-console-timelock = You are unable to deploy this vessel at the moment.
+>>>>>>> upstream
 
 shipyard-console-contraband-onboard = 检测到船上存在走私违禁品。
 shipyard-console-station-resources = 检测到船上载有空间站重要资源。
@@ -35,12 +66,22 @@ shipyard-console-menu-size-label = 尺寸：
 shipyard-console-menu-class-label = 类型：
 shipyard-console-menu-engine-label = 引擎：
 
+<<<<<<< HEAD
 shipyard-console-purchase-available = 购买
 shipyard-console-guidebook = 详细
 shipyard-console-unassign-deed = 解除绑定
 shipyard-console-deed-unassigned = 已成功解除ID卡与舰船合同的绑定。
 shipyard-console-confirm-unassign = 确认操作？
 shipyard-console-unassign-cooldown = 请等待{$minutes}分钟后再解除其他合同绑定。
+=======
+shipyard-console-purchase-available = Purchase
+shipyard-console-armament-default = Unspecified
+shipyard-console-guidebook = Manual
+shipyard-console-unassign-deed = Unassign
+shipyard-console-deed-unassigned = Deed unassigned from ID card successfully.
+shipyard-console-confirm-unassign = Are you sure?
+shipyard-console-unassign-cooldown = Wait {$minutes} minute(s) before unassigning another deed.
+>>>>>>> upstream
 
 # Keep these in enum order for ease of validation.
 shipyard-console-category-All = 全部
@@ -79,6 +120,7 @@ shipyard-console-class-Destroyer = 驱逐舰
 shipyard-console-class-Cruiser = 巡洋舰
 # Mono changes end
 
+<<<<<<< HEAD
 shipyard-console-engine-All = 全部
 shipyard-console-engine-AME = 反物质引擎-AME
 shipyard-console-engine-TEG = 温差发电机-TEG
@@ -92,3 +134,21 @@ shipyard-console-engine-Welding = 焊接燃料-Welding
 shipyard-console-engine-Plasma = 等离子体-Plasma
 shipyard-console-engine-Uranium = 铀-Uranium
 shipyard-console-engine-Bananium = 蕉矿-Bananium
+=======
+shipyard-console-engine-All = All
+shipyard-console-engine-AME = AME
+shipyard-console-engine-TEG = TEG
+shipyard-console-engine-Supermatter = Supermatter
+shipyard-console-engine-Tesla = Tesla
+shipyard-console-engine-Singularity = Singularity
+shipyard-console-engine-Solar = Solar
+shipyard-console-engine-RTG = RTG
+shipyard-console-engine-APU = APU
+shipyard-console-engine-Welding = Welding Fuel
+shipyard-console-engine-Plasma = Plasma
+shipyard-console-engine-Uranium = Uranium
+shipyard-console-engine-Bananium = Bananium
+# Mono start
+shipyard-console-engine-NFR = NFR
+# Mono end
+>>>>>>> upstream

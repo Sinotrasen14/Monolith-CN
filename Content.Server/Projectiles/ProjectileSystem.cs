@@ -1,46 +1,27 @@
-using Content.Server.Administration.Logs;
 using Content.Server.Destructible;
-using Content.Server.Effects;
-using Content.Server.Weapons.Ranged.Systems;
-using Content.Shared.Camera;
 using Content.Shared.Damage;
-using Content.Shared.Damage.Components;
-using Content.Shared.Damage.Systems;
-using Content.Shared.Database;
 using Content.Shared.FixedPoint;
-using Content.Shared.Physics;
 using Content.Shared.Projectiles;
-using Content.Shared.StatusEffect;
 using Robust.Shared.Map;
 using Robust.Shared.Physics;
 using Robust.Shared.Physics.Components;
 using Robust.Shared.Physics.Dynamics; // Mono;
 using Robust.Shared.Physics.Events;
 using Robust.Shared.Physics.Systems;
-using Robust.Shared.Player;
-using Robust.Shared.Timing;
-using System.Linq;
-using System.Numerics;
 
 namespace Content.Server.Projectiles;
 
-public sealed class ProjectileSystem : SharedProjectileSystem
+public sealed partial class ProjectileSystem : SharedProjectileSystem
 {
-    [Dependency] private readonly DestructibleSystem _destructibleSystem = default!;
+    [Dependency] private DestructibleSystem _destructibleSystem = default!;
 
-    [Dependency] private readonly SharedPhysicsSystem _physics = default!;
-    [Dependency] private readonly SharedTransformSystem _transformSystem = default!;
+    [Dependency] private SharedPhysicsSystem _physics = default!;
+    [Dependency] private SharedTransformSystem _transformSystem = default!;
 
     // <Mono>
     private EntityQuery<PhysicsComponent> _physQuery;
     private EntityQuery<FixturesComponent> _fixQuery;
-    // </Mono>
 
-    /// <summary>
-    /// Minimum velocity for a projectile to be considered for raycast hit detection.
-    /// Projectiles slower than this will rely on standard StartCollideEvent.
-    /// </summary>
-    private const float MinRaycastVelocity = 75f; // 100->75 Mono
 
     public override void Initialize()
     {
@@ -49,7 +30,6 @@ public sealed class ProjectileSystem : SharedProjectileSystem
         // Mono
         _physQuery = GetEntityQuery<PhysicsComponent>();
         _fixQuery = GetEntityQuery<FixturesComponent>();
-
         // Mono
         UpdatesBefore.Add(typeof(SharedPhysicsSystem));
     }
@@ -70,15 +50,23 @@ public sealed class ProjectileSystem : SharedProjectileSystem
             damageRequired -= damageableComponent.TotalDamage;
             damageRequired = FixedPoint2.Max(damageRequired, FixedPoint2.Zero);
         }
-        var deleted = Deleted(target);
+        // var deleted = Deleted(target); // Mono: Unused
 
         // Call base implementation to handle damage application and other effects
         var modifiedDamage = base.ProjectileCollide(projectile, target, collisionCoordinates, predicted);
 
         if (modifiedDamage == null)
         {
+            // mono start
+            if (!component.NoDamageDelete)
+                return null;
+
+            var spEv = new ProjectileSpentEvent();
+            RaiseLocalEvent(uid, spEv);
+            // mono end
+
             component.ProjectileSpent = true;
-            if (component.DeleteOnCollide && component.ProjectileSpent)
+            if (component.DeleteOnCollide)
                 QueueDel(uid);
             return null;
         }
@@ -124,6 +112,15 @@ public sealed class ProjectileSystem : SharedProjectileSystem
             component.ProjectileSpent = true;
         }
 
+        // Mono
+        if (component.ProjectileSpent)
+        {
+            var spEv = new ProjectileSpentEvent();
+            RaiseLocalEvent(uid, spEv);
+            if (component.DeleteOnCollide)
+                QueueDel(uid);
+        }
+
         return modifiedDamage;
     }
 
@@ -131,20 +128,23 @@ public sealed class ProjectileSystem : SharedProjectileSystem
     {
         base.Update(frameTime);
 
-        var query = EntityQueryEnumerator<ProjectileComponent, PhysicsComponent, TransformComponent>();
-        while (query.MoveNext(out var uid, out var projectileComp, out var physicsComp, out var xform))
+        var query = EntityQueryEnumerator<ProjectileComponent, PhysicsComponent>();
+        while (query.MoveNext(out var uid, out var projectileComp, out var physicsComp))
         {
             if (projectileComp.ProjectileSpent || TerminatingOrDeleted(uid))
                 continue;
 
-            var currentVelocity = physicsComp.LinearVelocity;
-            if (currentVelocity.Length() < MinRaycastVelocity)
+            var xform = Transform(uid);
+            var currentVelocity = projectileComp.RaycastResetVelocity ?? _physics.GetMapLinearVelocity(uid, physicsComp, xform);
+            var velLen = currentVelocity.Length();
+            if (!ShouldRaycastProjectile(velLen) && projectileComp.RaycastResetVelocity == null)
                 continue;
 
-            var lastPosition = _transformSystem.GetWorldPosition(xform);
-            var rayDirection = currentVelocity.Normalized();
+            var lastMap = _transformSystem.GetMapCoordinates(xform);
+            var lastPosition = lastMap.Position;
+            var rayDirection = currentVelocity / velLen;
             // Ensure rayDistance is not zero to prevent issues with IntersectRay if frametime or velocity is zero.
-            var rayDistance = currentVelocity.Length() * frameTime;
+            var rayDistance = velLen * frameTime;
             if (rayDistance <= 0f)
                 continue;
 
@@ -155,52 +155,79 @@ public sealed class ProjectileSystem : SharedProjectileSystem
                 new CollisionRay(lastPosition, rayDirection, projFix.CollisionMask),
                 rayDistance,
                 uid, // Entity to ignore (self)
-                false) // IncludeNonHard = false
-                .ToList();
+                false); // IncludeNonHard = false
 
-            hits.RemoveAll(hit => {
-                var hitEnt = hit.HitEntity;
+            // do not process other grid velocity if we are gridded
+            if (!ProcessHits(hits) && projectileComp.RaycastResetVelocity is { } resetVel)
+            {
+                var parentVel = _physics.GetMapLinearVelocity(xform.ParentUid);
+                var resetTo = resetVel - parentVel;
+                _physics.SetLinearVelocity(uid, resetTo, body: physicsComp);
+                projectileComp.RaycastResetVelocity = null;
+            }
 
-                if (!_physQuery.TryComp(hitEnt, out var otherBody) || !_fixQuery.TryComp(hitEnt, out var otherFix))
-                    return true;
-
-                Fixture? hitFix = null;
-                foreach (var kv in otherFix.Fixtures)
-                {
-                    if (kv.Value.Hard)
-                    {
-                        hitFix = kv.Value;
-                        break;
-                    }
-                }
-                if (hitFix == null)
-                    return true;
-
-                // this is cursed but necessary
-                var ourEv = new PreventCollideEvent(uid, hitEnt, physicsComp, otherBody, projFix, hitFix);
-                RaiseLocalEvent(uid, ref ourEv);
-                if (ourEv.Cancelled)
-                    return true;
-
-                var otherEv = new PreventCollideEvent(hitEnt, uid, otherBody, physicsComp, hitFix, projFix);
-                RaiseLocalEvent(hitEnt, ref otherEv);
-                return otherEv.Cancelled;
-            });
-
-            if (hits.Count > 0)
+            bool ProcessHits(IEnumerable<RayCastResults> hits)
             {
                 // Process the closest hit
-                // IntersectRay results are not guaranteed to be sorted by distance, so we sort them.
-                hits.Sort((a, b) => a.Distance.CompareTo(b.Distance));
-                var closestHit = hits.First();
+                // IntersectRay results are not guaranteed to be sorted by distance, so we go through them all.
+                (EntityUid? Uid, float Distance) minHit = (null, float.MaxValue);
+                foreach (var hit in hits)
+                {
+                    var hitEnt = hit.HitEntity;
+
+                    if (!_physQuery.TryComp(hitEnt, out var otherBody) || !_fixQuery.TryComp(hitEnt, out var otherFix))
+                        continue;
+
+                    Fixture? hitFix = null;
+                    foreach (var kv in otherFix.Fixtures)
+                    {
+                        if (kv.Value.Hard)
+                        {
+                            hitFix = kv.Value;
+                            break;
+                        }
+                    }
+                    if (hitFix == null)
+                        continue;
+                    // this is cursed but necessary
+                    var ourEv = new PreventCollideEvent(uid, hitEnt, physicsComp, otherBody, projFix, hitFix);
+                    RaiseLocalEvent(uid, ref ourEv);
+                    if (ourEv.Cancelled)
+                        continue;
+
+                    var otherEv = new PreventCollideEvent(hitEnt, uid, otherBody, physicsComp, hitFix, projFix);
+                    RaiseLocalEvent(hitEnt, ref otherEv);
+                    if (otherEv.Cancelled)
+                        continue;
+
+                    if (hit.Distance < minHit.Distance)
+                        minHit = (hitEnt, hit.Distance);
+                }
+                if (minHit.Uid == null)
+                    return false;
 
                 // teleport us so we hit it
-                // this is cursed but i don't think there's a better way to force a collision here
-                _transformSystem.SetWorldPosition(uid, _transformSystem.GetWorldPosition(closestHit.HitEntity));
-                if (projectileComp.RaycastResetVelocity)
-                    _physics.SetLinearVelocity(uid, rayDirection * MinRaycastVelocity * 0.99f);
+                var hitXform = Transform(minHit.Uid.Value);
+                var hitMapCoord = lastMap.Offset(rayDirection * minHit.Distance);
+                var hitPos = _transformSystem.ToCoordinates(hitMapCoord);
+                // if we somehow hit something not directly parented to space or a grid
+                if (hitXform.Coordinates.EntityId != hitXform.GridUid && hitXform.GridUid != null)
+                    hitPos = _transformSystem.WithEntityId(hitPos, hitXform.GridUid.Value);
 
-                continue;
+                if (projectileComp.RaycastResetVelocity == null)
+                {
+                    var parentVel = _physics.GetMapLinearVelocity(xform.ParentUid);
+                    projectileComp.RaycastResetVelocity = currentVelocity + parentVel; // record specifically world velocity
+                    var curVel = physicsComp.LinearVelocity;
+                    curVel.Normalize();
+                    var resetTo = 1f / frameTime;
+                    curVel *= resetTo;
+                    _physics.SetLinearVelocity(uid, curVel, body: physicsComp);
+                }
+
+                _transformSystem.SetCoordinates(uid, hitPos);
+
+                return true;
             }
         }
     }

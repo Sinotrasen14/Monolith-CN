@@ -23,10 +23,30 @@
     rsi:
       sprite: _RMC14/Interface/MousePointer/explosive_mouse.rsi
       state: all
+  # Mono - Gun stock attack
+  - type: MeleeRequiresWield
+  - type: MeleeWeapon
+    attackRate: 0.8
+    damage:
+      types:
+        Blunt: 12
+    angle: 0
+    wideAnimationRotation: 135
+    animation: WeaponArcThrust
+    soundHit:
+      collection: MetalThud
+  - type: AltFireMelee
+    attackType: Light
+  # Mono end
 
 - type: entity
+<<<<<<< HEAD
   name: PA 中国湖 丨 PA china lake
   parent: [BaseWeaponLauncher, BaseGunWieldable]
+=======
+  name: PA china lake
+  parent: [BaseWeaponLauncher, BaseGunWieldable, BaseFactionGearOtherFactionT3]
+>>>>>>> upstream
   id: WeaponLauncherChinaLake
   description: 噗噜。 丨 PLOOP.
   components:
@@ -183,7 +203,7 @@
           map: [ "unshaded" ]
           shader: unshaded
           visible: false
-    - type: ToggleableLightVisuals
+    - type: ToggleableVisuals
       spriteLayer: unshaded
       inhandVisuals:
         left:
@@ -231,7 +251,7 @@
           map: [ "unshaded" ]
           shader: unshaded
           visible: false
-        - type: ToggleableLightVisuals
+        - type: ToggleableVisuals
           spriteLayer: unshaded
           inhandVisuals:
             left:
@@ -255,9 +275,13 @@
   components:
     - type: AmmoCounter
     - type: GrapplingGun
+      ropeBreakPoint: 100000 # Mono
+      reelRate: 8 # Mono
+      reelForce: 12000 # Mono
     - type: Gun
       soundGunshot: /Audio/Weapons/Guns/Gunshots/harpoon.ogg
-      fireRate: 0.5
+      fireRate: 2 # Mono - 0.5 -> 2
+      projectileSpeed: 60 # Mono
       clumsyProof: true
     - type: BasicEntityAmmoProvider
       proto: GrapplingHook
@@ -269,8 +293,9 @@
         - state: base-unshaded
           map: [ "unshaded" ]
           visible: true
-    - type: UseDelay
-      delay: 1.5
+    # Mono
+    #- type: UseDelay
+    #  delay: 0 # Mono
     - type: Appearance
     - type: GenericVisualizer
       visuals:
@@ -306,7 +331,7 @@
           map: [ "unshaded" ]
           shader: unshaded
           visible: false
-    - type: ToggleableLightVisuals
+    - type: ToggleableVisuals
       spriteLayer: unshaded
       inhandVisuals:
         left:
@@ -348,7 +373,7 @@
           map: [ "unshaded" ]
           shader: unshaded
           visible: false
-    - type: ToggleableLightVisuals
+    - type: ToggleableVisuals
       spriteLayer: unshaded
       inhandVisuals:
         left:

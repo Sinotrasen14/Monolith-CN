@@ -207,6 +207,7 @@
     node: start
     defaultTarget: halberd
 
+<<<<<<< HEAD
 
 - type: entity
   parent: BaseBroadswordPart
@@ -273,6 +274,8 @@
     node: start
     defaultTarget: sabre
 
+=======
+>>>>>>> upstream
 #S4 Mechs
 - type: entity
   id: BaseFlailPart
@@ -487,9 +490,6 @@
   - type: Sprite
     state: flail_harness+o
     noRot: true
-
-
-
 
 - type: entity
   id: FlailChassis

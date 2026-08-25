@@ -13,14 +13,23 @@
   </Box>
 
   ##As an Asakim:
+<<<<<<< HEAD
   - 你通常对星区及其居民一无所知（最多只有基础认知）。你不会说仙女座标准语 (Andromeda standard)，也不应了解TSF或PDV及其他派系的文化。
   - 你的目标是在没有指挥链的情况下，占领领土并建立一个行动基地。
   - 如果你发现被偷的断裂前技术，你可以用武力夺回来。
   - [bold]你的装备极其[color=#00CCFF]珍贵稀有[/color]，绝不应为任何事而放弃它，这是你唯一的财产。[/bold]
   - [color=green]平民与无辜者并非你的敌人[/color]，可与他们进行交易（如果你能克服语言障碍）。
+=======
+  - You generally have no modern knowledge (maybe basic at most) of the sector and its inhabitants. You don't speak Andromeda Standard, and you shouldn't know about the culture of the TSF, PDV, or other factions.
+  - Your goal is to secure territory and establish a base of operations in the absence of a chain of command.
+  - Should you find stolen pre-fracture technology, you may reclaim it by force.
+  - [bold]Your specialized gear is incredibly [color=#00CCFF]valuable and rare[/color], you should never give it up.[/bold]
+  - [color=green]Civilians (Non-Faction) are not your enemy[/color], and can be bartered with if you can get past the language barrier.
+>>>>>>> upstream
 
   [color=#00FFCC][bold][italic]携荣誉而战，予无辜，摧毁前路上一切阻碍。[/italic][/bold][/color]
 
+<<<<<<< HEAD
   ##Species Notes：
   [bold]作为基因改造训练而成的生物武器，你具备：[/bold]
   - 两条额外的小臂为你提供了额外的强大近战伤害，在击中时注入1单位的[color=orange]Gastrotoxin (毒素)[/color]。
@@ -34,5 +43,21 @@
   - 阿萨基姆无需遵循"事态升级-Escalation"规则即可开火或被其他玩家攻击。(这不是滥杀无辜或其他玩家能随意攻击你的许可。规则参考ss13 Escalation Policy)
   - 你现在是残余ADS舰队的盟友，需要听从ADC AI单位的指令。
   - 被盗的前断裂技术包括只能通过前断裂技术盘或盗窃获得的物品和设备，例如 MS-250/500 盾发生器和 Curio 级舰船武器。像 CTLA-50 这样的研究树技术不算作被盗技术。
+=======
+  ##Species Notes:
+  [bold]As a genemodded trained bioweapon, you'll find that:[/bold]
+  - Your highly developed lungs give you additional powerful melee damage, and claws inject 1u of [color=orange]Gastrotoxin[/color] on hit.
+  - Your thick scales protect you more than they normally would.
+  - Your additional eyes grants you basic biological nightvision.
+  - You are generally bulkier than most, and have more power to drag things around.
+  - Your heart is capable of processing up to 5 reagents at once.
+
+  ## Misc Notes:
+  - Asakim are generally undiscovered to the sector, and should not be commonly known IC.
+  - [color=red][bold]Like Chimeras, you are not immune to safezone rules as an Asakim.[/bold][/color]
+  - Asakim are hostile towards Factions and do not require escalation to attack or be attacked.
+  - You are allied with the Remnant ADS ships and are expected to follow the orders of ADC AI units.
+  - Stolen pre-fracture technology includes items and devices [bold]only[/bold] accessible through pre-fracture tech disks or theft, such as MS-250/500 Shield Generators and Curio-class ship weaponry. Research-tree technology such as CTLA-50s do not qualify as stolen technology.
+>>>>>>> upstream
 
 </Document>

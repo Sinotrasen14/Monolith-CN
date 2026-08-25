@@ -4,6 +4,10 @@
   name: 低温睡眠单元 丨 cryogenic sleep unit
   description: 一种超低温容器，可在太空旅行期间保护船员安全。 丨 A super-cooled container that keeps crewmates safe during space travel.
   components:
+  - type: Anchorable
+    flags:
+    - Anchorable
+  - type: Rotatable
   - type: Sprite
     noRot: true
     sprite: Structures/cryostorage.rsi

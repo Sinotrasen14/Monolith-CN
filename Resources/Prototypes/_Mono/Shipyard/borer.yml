@@ -9,10 +9,10 @@
   parent: BaseVessel
   name: SHS-DIS Borer
   description: designed by SHM and produced in cooperation with DI, the borer is a cost effective ship for salvaging and derilect scrapping.
-  price: 20525
+  price: 37419
   category: Small
   group: Shipyard
-  shuttlePath: /Maps/_Mono/Shuttles/borer.yml
+  shuttlePath: /SharedMaps/_Mono/Shuttles/borer.yml
   guidebookPage: Null
   class:
   - Salvage
@@ -22,7 +22,7 @@
 - type: gameMap
   id: Borer
   mapName: 'SHS-DIS Borer'
-  mapPath: /Maps/_Mono/Shuttles/borer.yml
+  mapPath: /SharedMaps/_Mono/Shuttles/borer.yml
   minPlayers: 0
   stations:
     Borer:
@@ -36,5 +36,5 @@
         - type: StationJobs
           availableJobs:
             Contractor: [ 0, 0 ]
-            Pilot: [ 0, 0 ]
-            Mercenary: [ 0, 0 ]
+            # Pilot: [ 0, 0 ]
+            # Mercenary: [ 0, 0 ]

@@ -92,7 +92,7 @@
       disposable: false
 
 - type: entity
-  parent: BaseHardBomb
+  parent: [BaseHardBomb, BaseFactionGearOtherFactionT3]
   id: SyndicateBomb
   name: 辛迪加炸弹 丨 syndicate bomb
   description: 一枚为辛迪加特工和探员们准备的炸弹。真家伙，别再训练了，动手吧！ 丨 A bomb for Syndicate operatives and agents alike. The real deal, no more training, get to it!

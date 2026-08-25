@@ -76,7 +76,7 @@
     verbImage: null
 
 - type: entity
-  parent: PhoneInstrument
+  parent: [PhoneInstrument, BaseFactionGearOtherFactionT1]
   id: PhoneInstrumentSyndicate
   name: 血红色电话 丨 blood-red phone
   description: 供恶人呼叫其友所用。 丨 For evil people to call their friends.

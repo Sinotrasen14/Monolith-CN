@@ -86,15 +86,41 @@
     sound:
       collection: PistolsDrop
   # Goobstation edit end
+  # Mono - Gun stock attack
+  - type: MeleeWeapon
+    attackRate: 1
+    damage:
+      types:
+        Blunt: 10
+    angle: 20
+    wideAnimationRotation: -80
+    animation: WeaponArcThrust
+    soundHit:
+      collection: MetalThud
+  - type: AltFireMelee
+    attackType: Light
+  # Mono end
 
 - type: entity
   name: LWC PT-45A 蝰蛇手枪（9x19mm 口径） 丨 LWC PT-45A viper (9x19mm)
   parent: BaseWeaponPistol
   id: WeaponPistolViper
+<<<<<<< HEAD
   description: 一把小巧、易于隐藏但威力稍逊的改装手枪，配备全自动机匣，使用9x19mm 弹药。虽然蝮蛇枪的制造蓝图已失传，但公司战争期间留存数量极为庞大，已无需再生产新品。 丨 A small, easily concealable, but somewhat underpowered gun. Retrofitted with a fully automatic receiver. Uses 9x19mm ammo. While the schematics to build new Vipers has been lost, they are so abundant from the Corporate War that building new ones is no longer required.
+=======
+  description: A small, easily concealable, but somewhat underpowered gun. Retrofitted with a fully automatic receiver. Uses 9x19mm ammo. While the schematics to build new Vipers has been lost, they are so abundant from the Corporate War that building new ones is no longer required. Outfitted with a threaded barrel & tactical device mount.
+>>>>>>> upstream
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/viper.rsi
+    layers: # Mono
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-0
+      map: ["enum.GunVisualLayers.Mag"]
+    - map: ["gripAttachment"]
+    - map: ["barrelAttachment"]
+      offset: 0.5620, 0
   - type: ItemSlots
     slots:
       gun_magazine:
@@ -115,10 +141,64 @@
         whitelist:
           tags:
             - Cartridge9x19mmFMJ
+      # Mono
+      attachment_grip:
+        insertSound: /Audio/Items/screwdriver2.ogg
+        ejectSound: /Audio/Items/screwdriver2.ogg
+        priority: 0
+        whitelist:
+          tags:
+          - MonoGripPistolMount
+      # Mono
+      attachment_barrel:
+        insertSound: /Audio/Items/screwdriver.ogg
+        ejectSound: /Audio/Items/screwdriver.ogg
+        priority: 0
+        whitelist:
+          tags:
+          - MonoSuppressorMulticalRifle
   - type: ContainerContainer
     containers:
       gun_magazine: !type:ContainerSlot
       gun_chamber: !type:ContainerSlot
+  # Mono start
+      attachment_grip: !type:ContainerSlot
+      attachment_barrel: !type:ContainerSlot
+  - type: ESAttachableGun
+    slots:
+    - name: es-gun-attachments-slot-name-barrel
+      containerId: attachment_barrel
+      whitelist:
+        tags:
+        - MonoSuppressorMulticalPistol
+    - name: es-gun-attachments-slot-name-grip
+      containerId: attachment_grip
+      whitelist:
+        tags:
+        - MonoGripPistolMount
+  - type: ActivatableUI
+    key: enum.ESAttachableGunUiKey.Key
+    verbOnly: true
+    verbText: es-gun-attachments-verb-text
+  - type: UserInterface
+    interfaces:
+      enum.ESAttachableGunUiKey.Key:
+        type: ESGunAttachmentBui
+  - type: ESItemMapper
+    mappings:
+      gripAttachment:
+      - containerId: attachment_grip
+        state: lam
+        whitelist:
+          tags:
+          - MonoGripLAM
+      barrelAttachment:
+      - containerId: attachment_barrel
+        state: suppressed
+        whitelist:
+          tags:
+          - MonoSuppressor
+  # Mono end
   - type: StaticPrice # Mono - 200 from frontier 1k
     price: 200
   - type: Gun # Mono change - Sound for viper
@@ -196,7 +276,11 @@
   - type: AmmoCounter
 
 - type: entity
+<<<<<<< HEAD
   name: CS PT-72 眼镜蛇手枪（635x40mm） 丨 CS PT-72 cobra (635x40mm)
+=======
+  name: CS PT-72 cobra (6.35x40mm)
+>>>>>>> upstream
   parent: BaseWeaponPistol
   id: WeaponPistolCobra
   description: 一把坚固耐用的特种作战手枪，内置消音器，使用6.35x40mm无壳弹药。在帝国先锋队中颇为常见，是登船部队或特工最常配备的制式手枪。
@@ -249,7 +333,11 @@
   name: MA Mk-58 (.45 ACP) 丨 MA Mk-58 (.45 ACP)
   parent: BaseWeaponPistol
   id: WeaponPistolMk58
+<<<<<<< HEAD
   description: 马克58进攻型手枪，整个银河系中存量最多的随身武器。常被称作公司战争残片，它曾被使用至最后一刻。使用.45 ACP弹药。 丨 The Mark 58 Offensive Handgun, the most abundant sidearm in the entire galaxy. Commonly called a Corporate War fragment, it was used until the bitter end. Uses .45 ACP ammo.
+=======
+  description: The Mark 58 Offensive Handgun, the most abundant sidearm in the entire galaxy. Commonly called a Corporate War fragment, it was used until the bitter end. Uses .45 ACP ammo. Outfitted with a threaded barrel & tactical device mount.
+>>>>>>> upstream
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
@@ -258,6 +346,9 @@
       map: ["enum.GunVisualLayers.Base"]
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
+    - map: ["gripAttachment"] # Mono
+    - map: ["barrelAttachment"] # Mono
+      offset: 0.5620, 0 # Lowered by 0.0005 to prevent the gap
   - type: Clothing
     sprite: Objects/Weapons/Guns/Pistols/mk58.rsi
   - type: Gun
@@ -288,8 +379,67 @@
         whitelist:
           tags:
             - Cartridge45_ACPFMJ
+      # Mono
+      attachment_grip:
+        insertSound: /Audio/Items/screwdriver2.ogg
+        ejectSound: /Audio/Items/screwdriver2.ogg
+        priority: 0
+        whitelist:
+          tags:
+          - MonoGripPistolMount
+      # Mono
+      attachment_barrel:
+        insertSound: /Audio/Items/screwdriver.ogg
+        ejectSound: /Audio/Items/screwdriver.ogg
+        priority: 0
+        whitelist:
+          tags:
+          - MonoSuppressorMulticalRifle
+  # Mono start
+  - type: ContainerContainer
+    containers:
+      gun_magazine: !type:ContainerSlot
+      gun_chamber: !type:ContainerSlot
+      attachment_grip: !type:ContainerSlot
+      attachment_barrel: !type:ContainerSlot
+  - type: ESAttachableGun
+    slots:
+    - name: es-gun-attachments-slot-name-barrel
+      containerId: attachment_barrel
+      whitelist:
+        tags:
+        - MonoSuppressorMulticalPistol
+    - name: es-gun-attachments-slot-name-grip
+      containerId: attachment_grip
+      whitelist:
+        tags:
+        - MonoGripPistolMount
+  - type: ActivatableUI
+    key: enum.ESAttachableGunUiKey.Key
+    verbOnly: true
+    verbText: es-gun-attachments-verb-text
+  - type: UserInterface
+    interfaces:
+      enum.ESAttachableGunUiKey.Key:
+        type: ESGunAttachmentBui
+  - type: ESItemMapper
+    mappings:
+      gripAttachment:
+      - containerId: attachment_grip
+        state: lam
+        whitelist:
+          tags:
+          - MonoGripLAM
+      barrelAttachment:
+      - containerId: attachment_barrel
+        state: suppressed
+        whitelist:
+          tags:
+          - MonoSuppressor
+  # Mono end
   - type: StaticPrice # Mono
     price: 150
+<<<<<<< HEAD
 
 - type: entity
   name: NT N1984（.45口径马格南） 丨 NT N1984 (.45 magnum)
@@ -335,3 +485,5 @@
         whitelist:
           tags:
             - Cartridge45_magnumFMJ
+=======
+>>>>>>> upstream

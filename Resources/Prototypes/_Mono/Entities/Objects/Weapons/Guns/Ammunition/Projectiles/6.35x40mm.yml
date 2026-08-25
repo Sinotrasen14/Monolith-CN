@@ -1,18 +1,26 @@
 - type: entity
   id: Bullet635x40mmCaseless
+<<<<<<< HEAD
   name: '子弹（635x40mm 无壳弹） | bullet (635x40mm Caseless)'
+=======
+  name: bullet (6.35x40mm Caseless)
+>>>>>>> upstream
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
     damage:
       types:
-        Piercing: 19
-    armorPenetration: 0.085
+        Piercing: 22
+    armorPenetration: 0.15
 
 - type: entity
   id: Bullet635x40mmCaselessPractice
+<<<<<<< HEAD
   name: '子弹（635x40mm 无壳练习弹） | bullet (635x40mm Caseless practice)'
+=======
+  name: bullet (6.35x40mm Caseless practice)
+>>>>>>> upstream
   parent: BaseBulletPractice
   categories: [ HideSpawnMenu ]
   components:
@@ -23,7 +31,11 @@
 
 - type: entity
   id: Bullet635x40mmCaselessRubber
+<<<<<<< HEAD
   name: '子弹（635x40mm 无壳橡胶） | bullet (635x40mm Caseless rubber)'
+=======
+  name: bullet (6.35x40mm Caseless rubber)
+>>>>>>> upstream
   parent: BaseBulletRubber
   categories: [ HideSpawnMenu ]
   components:

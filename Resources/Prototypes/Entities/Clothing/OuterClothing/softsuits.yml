@@ -20,7 +20,7 @@
 
 #Syndicate EVA
 - type: entity
-  parent: [ClothingOuterEVASuitBase]
+  parent: [ClothingOuterEVASuitBase, BaseFactionGearOtherFactionT2]
   id: ClothingOuterHardsuitSyndicate # TODO: rename to ClothingOuterEVASuitSyndicate
   name: 辛迪加EVA防护服 丨 syndicate EVA suit
   description: 背后有个标签写着：“绝对不是敌对公司的财产，真的！” 丨 "Has a tag on the back that reads 'Totally not property of an enemy corporation, honest!'"

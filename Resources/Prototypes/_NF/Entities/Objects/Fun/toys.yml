@@ -21,7 +21,6 @@
   - type: MeleeWeapon
     soundHit:
       path: /Audio/Items/Toys/hew.ogg
-  - type: StinkyTrait
 
 - type: entity
   parent: PlushieLizard
@@ -611,4 +610,4 @@
   suffix: Fake, Grown
   components:
   - type: RevolverAmmoProvider
-    proto: Cartridge45_magnumFMJ # Base has AP rounds
+    proto: Cartridge357_magnumFMJ # Base has AP rounds

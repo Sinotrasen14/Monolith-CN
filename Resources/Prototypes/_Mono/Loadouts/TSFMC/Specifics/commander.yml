@@ -5,6 +5,34 @@
   loadouts:
   - TsfmcClothingNeckIFFCyan
   - SheriffClothingNeckMantleSheriff
+  - TsfClothingNeckColonelCloak
+  - TsfClothingNeckCaptainCloak
+  - TsfClothingNeckCloak
+  - TsfmcClothingNeckWearableCameraTSF
+  fallbacks:
+  - TsfmcClothingNeckIFFCyan
+
+- type: loadoutGroup
+  id: TsfmcNeckCaptain
+  name: loadout-group-contractor-neck
+  minLimit: 1
+  loadouts:
+  - TsfmcClothingNeckIFFCyan
+  - TsfClothingNeckCaptainCloak
+  - TsfClothingNeckCloak
+  - TsfClothingNeckCaptainFormal
+  - TsfmcClothingNeckWearableCameraTSF
+  fallbacks:
+  - TsfmcClothingNeckIFFCyan
+
+- type: loadoutGroup
+  id: TsfmcNeckFTL
+  name: loadout-group-contractor-neck
+  minLimit: 1
+  loadouts:
+  - TsfmcClothingNeckIFFCyan
+  - TsfClothingNeckCloak
+  - TsfmcClothingNeckWearableCameraTSF
   fallbacks:
   - TsfmcClothingNeckIFFCyan
 
@@ -19,3 +47,29 @@
   id: TsfmcCommanderHeadset
   equipment:
     ears: ClothingHeadsetAltTsfmcCommander
+
+- type: loadout
+  id: TsfClothingNeckColonelCloak
+  equipment:
+    neck: ClothingNeckColonelCloak
+
+- type: loadout
+  id: TsfClothingNeckCaptainCloak
+  equipment:
+    neck: ClothingNeckCaptainCloak
+
+- type: loadout
+  id: TsfClothingNeckCaptainFormal
+  equipment:
+    neck: ClothingNeckFormalTSFCaptain
+
+- type: loadout  
+  id: SheriffClothingNeckMantleSheriff
+  equipment:
+    neck: ClothingNeckMantleSheriff
+
+- type: loadout
+  id: TsfClothingNeckCloak
+  equipment:
+    neck: ClothingNeckTSFCloak
+

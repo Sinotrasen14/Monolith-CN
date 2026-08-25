@@ -11,7 +11,6 @@ using Robust.Shared.Physics.Systems;
 using System.Linq;
 using Content.Shared.Physics;
 using System.Numerics;
-using Content.Server._Mono.CombatMusic;
 using Content.Server._Mono.SpaceArtillery;
 using Content.Server._Mono.SpaceArtillery.Components;
 using Content.Server.Power.EntitySystems;
@@ -26,14 +25,12 @@ namespace Content.Server._Mono.FireControl;
 
 public sealed partial class FireControlSystem : EntitySystem
 {
-    [Dependency] private readonly SharedTransformSystem _xform = default!;
-    [Dependency] private readonly GunSystem _gun = default!;
-    [Dependency] private readonly SharedPhysicsSystem _physics = default!;
-    [Dependency] private readonly IGameTiming _timing = default!;
-    [Dependency] private readonly PowerReceiverSystem _power = default!;
-    [Dependency] private readonly RotateToFaceSystem _rotateToFace = default!;
-    [Dependency] private readonly CombatMusicSystem _combatMusic = default!;
-
+    [Dependency] private SharedTransformSystem _xform = default!;
+    [Dependency] private GunSystem _gun = default!;
+    [Dependency] private SharedPhysicsSystem _physics = default!;
+    [Dependency] private IGameTiming _timing = default!;
+    [Dependency] private PowerReceiverSystem _power = default!;
+    [Dependency] private RotateToFaceSystem _rotateToFace = default!;
     /// <summary>
     /// Dictionary of entities that have visualization enabled
     /// </summary>
@@ -94,8 +91,9 @@ public sealed partial class FireControlSystem : EntitySystem
                 ("usedProcessingPower", component.UsedProcessingPower),
                 ("processingPower", component.ProcessingPower),
                 ("valueColor", component.UsedProcessingPower <= component.ProcessingPower - 2 ? "green" : "yellow")
-            )
-        );
+            ));
+        if (HasComp<SpaceArtilleryDisabledGridComponent>(component.ConnectedGrid))
+            args.PushMarkup(Loc.GetString("gunnery-server-examine-pacifist-grid"));
     }
 
     private void OnControllablePowerChanged(EntityUid uid, FireControllableComponent component, PowerChangedEvent args)
@@ -420,9 +418,6 @@ public sealed partial class FireControlSystem : EntitySystem
 
             artilleryFired |= _artilleryQuery.HasComp(localWeapon) && fired;
         }
-
-        if (artilleryFired)
-            TriggerCombatMusic(server);
     }
 
     /// <summary>
@@ -727,18 +722,6 @@ public sealed partial class FireControlSystem : EntitySystem
         var directions = CheckAllDirections(entityUid);
         RaiseNetworkEvent(new FireControlVisualizationEvent(netEntity, directions));
         return true;
-    }
-
-    /// <summary>
-    /// Triggers combat music for the grid that the console is on.
-    /// </summary>
-    private void TriggerCombatMusic(EntityUid consoleUid)
-    {
-        var gridUid = _xform.GetGrid(consoleUid);
-        if (gridUid == null)
-            return;
-
-        _combatMusic.TriggerCombatMusic(gridUid.Value);
     }
 }
 

@@ -12,7 +12,7 @@
   parent: BasePOI
   name: '兰斯洛特 采矿前哨站'
   minimumDistance: 10000
-  maximumDistance: 15000
+  maximumDistance: 20000
   spawnGroup: Optional
   gridPath: /Maps/_Mono/POI/Dungeons/lancelot.yml
   addComponents:
@@ -36,5 +36,3 @@
         - type: StationNameSetup
           mapNameTemplate: 'Lancelot Mining Outpost'
         - type: StationDeadDropHintExempt
-        - type: TradeCrateWildcardDestination
-          valueMultiplier: 0.1

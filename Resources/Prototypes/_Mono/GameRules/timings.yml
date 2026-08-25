@@ -1,0 +1,61 @@
+- type: entity
+  id: RoundEndRuleHour3
+  parent: BaseGameRule
+  components:
+  - type: RoundEndTimeRule
+    endAt: 10800 # 3 hour
+
+- type: entity
+  id: PortstrikeAnnounceRuleHour4
+  parent: BaseGameRule
+  components:
+  - type: GameRule
+    delay:
+      min: 14400
+      max: 14400
+  - type: WarLevelRule
+    warLevel: true
+
+- type: entity
+  id: PortstrikeAnnounceRuleRandom35To45
+  parent: PortstrikeAnnounceRuleHour4
+  components:
+  - type: GameRule
+    delay:
+      min: 12600 # 3.5hr
+      max: 16200 # 4.5hr
+
+- type: entity
+  id: PortstrikeAnnounceRuleHour2
+  parent: PortstrikeAnnounceRuleHour4
+  components:
+  - type: GameRule
+    delay:
+      min: 7200
+      max: 7200
+
+- type: entity
+  id: PortstrikeAnnounceRuleHour1
+  parent: PortstrikeAnnounceRuleHour4
+  components:
+  - type: GameRule
+    delay:
+      min: 3600
+      max: 3600
+
+# debug rules
+- type: entity
+  id: RoundEndRuleMinute2
+  parent: BaseGameRule
+  components:
+  - type: RoundEndTimeRule
+    endAt: 120
+
+- type: entity
+  id: PortstrikeAnnounceRuleSeconds5
+  parent: PortstrikeAnnounceRuleHour4
+  components:
+  - type: GameRule
+    delay:
+      min: 5
+      max: 5

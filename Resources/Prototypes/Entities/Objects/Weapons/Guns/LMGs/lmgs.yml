@@ -9,7 +9,7 @@
   - type: Item
     size: Huge
     shape:
-    - 0,0,4,3
+    - 0,0,4,2 # Mono
   - type: Clothing
     sprite: Objects/Weapons/Guns/LMGs/l6.rsi
     quickEquip: false
@@ -18,16 +18,16 @@
     - suitStorage
   - type: Wieldable
     unwieldOnUse: false
-  - type: GunWieldBonus
-    minAngle: -20
+  - type: GunWieldBonus # Mono
+    minAngle: -24
     maxAngle: -20
-  - type: Gun
+  - type: Gun # L6 LMG stats adjusted
     minAngle: 24
     maxAngle: 45
-    angleIncrease: 3
+    angleIncrease: 2 # Mono
     angleDecay: 20
-    fireRate: 8
-    projectileSpeed: 55 # Mono
+    fireRate: 8.5 # Mono
+    projectileSpeed: 60 # Mono
     selectedMode: FullAuto
     availableModes:
       - FullAuto
@@ -77,8 +77,8 @@
       sprite: _RMC14/Interface/MousePointer/lmg_mouse.rsi
       state: all
   - type: WieldDelay # Mono
-    baseDelay: 1.4
-    modifiedDelay: 1.4
+    baseDelay: 1
+    modifiedDelay: 1
     preventFiring: true
   # Goobstation edit start
   - type: EmitSoundOnPickup
@@ -91,12 +91,32 @@
     sound:
       collection: RiflesDrop
   # Goobstation edit end
+  # Mono - Gun stock attack
+  - type: MeleeRequiresWield
+  - type: MeleeWeapon
+    attackRate: 0.7
+    damage:
+      types:
+        Blunt: 15
+    angle: 0
+    wideAnimationRotation: 135
+    animation: WeaponArcThrust
+    soundHit:
+      collection: MetalThud
+  - type: AltFireMelee
+    attackType: Light
+  # Mono end
 
 - type: entity
   name: PA L6B班用自动武器（7.62x39mm 口径） 丨 PA L6B SAW (7.62x39mm)
   id: WeaponLightMachineGunL6
+<<<<<<< HEAD
   parent: BaseWeaponLightMachineGun
   description: 一把制作相当传统的轻机枪，配有漆面悦目的木质握把。使用7.62x39mm 弹药。现已停产，成为大断裂时期人类贪婪与野心的遗物。
+=======
+  parent: [BaseWeaponLightMachineGun, BaseFactionGearPDVT3]
+  description: A rather traditionally made LMG with a pleasantly lacquered wooden pistol grip. Uses 7.62x39mm ammo. it serves as a remnant of humanity's greed and ambition during The Fracture.
+>>>>>>> upstream
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/LMGs/l6.rsi
@@ -120,12 +140,13 @@
   parent: BaseItem
   description: 一款供生化人使用的L6班用自动武器。通过内置的弹药制造器实时生成7.62x39mm 弹药，该制造器可缓慢自动充能。
   components:
-    - type: Gun
+    - type: Gun # Gun stats adjusted to be similar to LMG
       minAngle: 4
-      maxAngle: 25
-      angleIncrease: 4
-      angleDecay: 16
+      maxAngle: 20
+      angleIncrease: 3
+      angleDecay: 20
       fireRate: 8
+      projectileSpeed: 55 # Mono
       selectedMode: FullAuto
       availableModes:
         - FullAuto

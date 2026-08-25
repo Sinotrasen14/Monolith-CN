@@ -1,11 +1,19 @@
-
 # MARAUDER
 
 - type: entity
   id: WeaponTurretType35
+<<<<<<< HEAD
   name: 'Type-35 掠夺者型等离子炮'
   parent: BallisticArtillery
   description: '向目标发射磁约束等离子球体。可远程启动或连接至地面控制系统。 | Launches magnetically contained balls of plasma at targets. Can be remotely activated, or linked up to a GCS.'
+=======
+  name: Type-35 MARAUDER-type plasma cannon
+  parent:
+  - BallisticArtillery
+  - BallisticArtilleryTier2HP
+  suffix: Medium, T2
+  description: Launches magnetically contained balls of plasma at targets. Can be remotely activated, or linked up to a GCS.
+>>>>>>> upstream
   components:
   - type: StaticPrice
     price: 2000
@@ -22,11 +30,11 @@
   - type: WirelessNetworkConnection
     range: 500
   - type: Gun
-    fireRate: 0.5
+    fireRate: 0.7
     recoil: 5 # 1/5x
     minAngle: 0
     maxAngle: 0
-    projectileSpeed: 65
+    projectileSpeed: 180
     shootThermalSignature: 4000000 # ~2.8km with continuous fire
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon2.ogg
@@ -44,24 +52,8 @@
   - type: ProjectileBatteryAmmoProvider
     proto: ShipMediumPlasmaProjectile
     fireCost: 500
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 6000
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-    - trigger:
-        !type:DamageTrigger
-        damage: 3000
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalBreak
   - type: RadarBlip
+    visibleFromOtherGrids: true
     radarColor: "#C92BCC"
     scale: 2
   - type: ShipGunType
@@ -72,14 +64,82 @@
     repairTime: 15
     repairCost: 60
 
+# Cerbrus
+
+- type: entity
+  id: WeaponTurretCerberus
+  name: TPC Cerberus Plasma scattercannon
+  parent:
+  - BallisticArtillery
+  - BallisticArtilleryTier3HP
+  suffix: Medium, T3
+  description: Borrowing from the design of the Marauder, the Cerberus fires very similar shots, but in a tight spread of 3 blasts
+  components:
+  - type: StaticPrice
+    price: 2000
+  - type: Sprite
+    sprite: _Mono/Objects/ShuttleWeapons/cerberus.rsi
+    layers:
+    - state: space_artillery
+  - type: Appearance
+  - type: AmmoCounter
+  - type: Battery
+    maxCharge: 40000
+    startingCharge: 40000
+  - type: ExaminableBattery
+  - type: WirelessNetworkConnection
+    range: 500
+  - type: Gun
+    fireRate: 0.5
+    recoil: 8
+    minAngle: 0
+    maxAngle: 0
+    projectileSpeed: 180
+    shootThermalSignature: 4000000 # ~2.8km with continuous fire
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/laser_cannon2.ogg
+    soundEmpty:
+      path: /Audio/Weapons/Guns/EmptyAlarm/smg_empty_alarm.ogg
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 350
+  - type: SpaceArtillery
+    powerChargeRate: 350
+    powerUsePassive: 500
+    powerUseActive: 0
+  - type: FireControlRotate
+  - type: Actions
+  - type: ProjectileBatteryAmmoProvider
+    proto: CerberusSpread
+    fireCost: 500
+  - type: RadarBlip
+    radarColor: "#C92BCC"
+    scale: 2.5
+  - type: ShipGunType
+    shipType: Energy
+  - type: ShipGunClass
+    shipClass: Heavy
+  - type: ShipRepairable
+    repairTime: 50
+    repairCost: 120
+
 # Type 54 autopulser
 
 - type: entity
   id: WeaponTurretType54
+<<<<<<< HEAD
   name: 'Type-54C 等离子自动脉冲炮'
   parent: BallisticArtillery
   suffix: TSF ONLY, ADS ONLY
   description: '高速连发能量武器，可对目标造成大量伤害。充能时间较长。 | A rapidly firing energy weapon, dealing a large amount of damage to its targets. Takes a long time to recharge.'
+=======
+  name: Type-54C plasma autopulser
+  parent:
+  - BallisticArtilleryUnanchorable
+  - BallisticArtilleryTier2HP
+  suffix: Medium, T2
+  description: A rapidly firing energy weapon, well known for its devastating burst followed by a constant stream of plasma.
+>>>>>>> upstream
   components:
   - type: StaticPrice
     price: 4000
@@ -90,17 +150,18 @@
   - type: Appearance
   - type: AmmoCounter
   - type: Battery
-    maxCharge: 15500
-    startingCharge: 15500
+    maxCharge: 18000
+    startingCharge: 18000
   - type: ExaminableBattery
   - type: WirelessNetworkConnection
     range: 500
   - type: Gun
+    damageModifier: 2
     fireRate: 20
     recoil: 5 # 1/5x
     minAngle: 0
     maxAngle: 5
-    projectileSpeed: 185
+    projectileSpeed: 320
     shootThermalSignature: 500000 # ~5.6km with continuous fire
     soundGunshot:
       path: /Audio/_Mono/Weapons/Guns/Gunshots/autopulse_laser_fire_01.ogg
@@ -108,7 +169,7 @@
       path: /Audio/Weapons/click.ogg
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 300
+    autoRechargeRate: 1175
   - type: SpaceArtillery
     powerChargeRate: 700
     powerUsePassive: 100
@@ -118,26 +179,10 @@
   - type: ProjectileBatteryAmmoProvider
     proto: ShipAutopulserPlasmaProjectile
     fireCost: 450
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 6000
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-    - trigger:
-        !type:DamageTrigger
-        damage: 3000
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalBreak
   - type: RadarBlip
     radarColor: "#C92BCC"
     scale: 1.5
+    visibleFromOtherGrids: true
   - type: ShipGunType
     shipType: Energy
   - type: ShipGunClass
@@ -229,9 +274,18 @@
 
 - type: entity
   id: WeaponTurretM25
+<<<<<<< HEAD
   name: 'M25 采矿脉冲器'
   parent: [BallisticArtillery, ConstructibleMachine] #Could possibly create a ConstructibleTurret proto if more are added; comps currently do nothing upgrade wise
   description: '采用机械装置发射…某种物体。可轻松粉碎岩石。 | Uses mechanisms to launch... something. Destroys rock easily.'
+=======
+  name: M25 mining pulser
+  parent:
+  - BallisticArtillery
+  - BallisticArtilleryTier1HP
+  - ConstructibleMachine #Could possibly create a ConstructibleTurret proto if more are added; comps currently do nothing upgrade wise
+  description: Uses mechanisms to launch... something. Destroys rock easily. Limited range.
+>>>>>>> upstream
   components:
   - type: StaticPrice
     price: 1500
@@ -242,13 +296,14 @@
   - type: Appearance
   - type: AmmoCounter
   - type: Battery
-    maxCharge: 40000
-    startingCharge: 40000
+    maxCharge: 2250 # 15 seconds of constant fire, 75 rock walls destroyed per full mag
+    startingCharge: 2250
   - type: ExaminableBattery
   - type: WirelessNetworkConnection
     range: 500
   - type: FireControlRotate
   - type: Gun
+    damageModifier: 5
     fireRate: 5
     recoil: 2 # 2/25x
     projectileSpeed: 20
@@ -270,23 +325,6 @@
   - type: ProjectileBatteryAmmoProvider
     proto: ShipM25Projectile
     fireCost: 100
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 4000
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-    - trigger:
-        !type:DamageTrigger
-        damage: 2000
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalBreak
   - type: Machine
     board: WeaponTurretM25Circuitboard
   - type: ContainerContainer
@@ -296,6 +334,13 @@
   - type: RadarBlip
     radarColor: "#C92BCC"
     scale: 1
+    visibleFromOtherGrids: true
+    gridConfig:
+      color: "#C92BCC"
+      shape: Square
+      respectZoom: true
+      rotate: true
+      bounds: "-0.7,-0.7,0.7,0.7"
   - type: ShipGunType
     shipType: Energy
   - type: ShipGunClass
@@ -308,9 +353,18 @@
 
 - type: entity
   id: WeaponTurretM220
+<<<<<<< HEAD
   name: 'M220卢比孔电磁脉冲发射器'
   parent: BallisticArtillery
   description: '向舰船发射电磁脉冲弹，通过强力电磁脉冲瘫痪系统。适用于非致命交战，可远程启动或连接至地面控制系统。 | Launches EMP projectiles at ships, disabling systems with powerful electromagnetic pulses. Ideal for non-lethal engagements and can be remotely activated or linked to a GCS.'
+=======
+  name: M220 RUBICON EMP launcher
+  parent:
+  - BallisticArtilleryUnanchorable
+  - BallisticArtilleryTier2HP
+  suffix: Medium, T2
+  description: Launches EMP projectiles at ships, disabling systems with powerful electromagnetic pulses. Ideal for non-lethal engagements and can be remotely activated or linked to a GCS.
+>>>>>>> upstream
   components:
   - type: StaticPrice
     price: 3500
@@ -329,10 +383,10 @@
     range: 500
   - type: Gun
     fireRate: 0.2
-    projectileSpeed: 140
+    projectileSpeed: 170
     shootThermalSignature: 2000000 # ~1414m after firing - relatively low
     soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/laser_cannon2.ogg
+      collection: ShipGunMjolnir
     soundEmpty:
       path: /Audio/Weapons/Guns/EmptyAlarm/smg_empty_alarm.ogg
   - type: BatterySelfRecharger
@@ -346,20 +400,10 @@
   - type: ProjectileBatteryAmmoProvider
     proto: ShipRubiconProjectile
     fireCost: 500
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 6000
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalBreak
   - type: RadarBlip
     radarColor: "#035EFC"
     scale: 2
+    visibleFromOtherGrids: true
   - type: ShipGunType
     shipType: Energy
   - type: ShipGunClass
@@ -368,14 +412,94 @@
     repairTime: 30
     repairCost: 60
 
+# Scylla
+
+- type: entity
+  id: WeaponTurretScylla
+  name: TPC Scylla plasma impulse driver
+  parent:
+  - BallisticArtilleryUnanchorable
+  - BallisticArtilleryTier4HP
+  suffix: Large, T4
+  description: A more specialized energy weapon, the Scylla fires a massive burst of plasma projectiles down range, in a huge spew to erase large and small targets alike.
+  components:
+  - type: StaticPrice
+    price: 50000
+  - type: Sprite
+    sprite: _Mono/Objects/ShuttleWeapons/scylla.rsi
+    layers:
+    - state: space_artillery
+  - type: Appearance
+  - type: AmmoCounter
+  - type: Battery
+    maxCharge: 200000
+    startingCharge: 200000
+  - type: ExaminableBattery
+  - type: WirelessNetworkConnection
+    range: 500
+  - type: Gun
+    damageModifier: 2
+    projectileSpeed: 350
+    minAngle: 0
+    maxAngle: 6
+    fireRate: 1
+    recoil: 10 # 2/5x
+    burstCooldown: 4.5
+    burstFireRate: 15
+    shotsPerBurst: 35
+    selectedMode: Burst
+    availableModes: Burst
+    shootThermalSignature: 500000 # ~5.6km with continuous fire
+    soundGunshot:
+      path: /Audio/_Mono/Weapons/Guns/Gunshots/autopulse_laser_fire_01.ogg
+    soundEmpty:
+      path: /Audio/Weapons/click.ogg
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 30000
+  - type: SpaceArtillery
+    powerChargeRate: 700
+    powerUsePassive: 100
+    powerUseActive: 0
+  - type: FireControlRotate
+  - type: Actions
+  - type: ProjectileBatteryAmmoProvider
+    proto: ShipPlasmaProjectileScylla
+    fireCost: 200
+  - type: RadarBlip
+    radarColor: "#C92BCC"
+    scale: 1.5
+    gridConfig:
+      color: "#C92BCC"
+      shape: Square
+      respectZoom: true
+      rotate: true
+      bounds: "-1.4,-1.4,1.4,1.4"
+  - type: ShipGunType
+    shipType: Energy
+  - type: ShipGunClass
+    shipClass: SuperHeavy
+  - type: ShipRepairable
+    repairTime: 70
+    repairCost: 150
+
 # DYMERE
 
 - type: entity
   id: WeaponTurretDymere
+<<<<<<< HEAD
   name: 'ADEX-9 迪米尔涡轮激光炮'
   parent: BallisticArtilleryUnanchorable
   suffix: TSF ONLY, ADS ONLY
   description: '以太动力最具代表性的超大型舰载炮组。可发射巨大的电离气体射弹，能熔穿最坚固的舰船装甲。支持远程激活或与全局战斗系统链接。 | Aetherion Dynamics'' most iconic supercapital battery. Fires enormous ionized gas projectiles that melt through the toughest ship armor. Can be remotely activated or linked to a GCS.'
+=======
+  name: ADEX-9 DYMERE Turbolaser
+  parent:
+  - BallisticArtilleryUnanchorable
+  - BallisticArtilleryTier5HP
+  suffix: Station, T5
+  description: Aetherion Dynamics' most iconic supercapital battery. Fires enormous ionized gas projectiles that melt through the toughest ship armor. Can be remotely activated or linked to a GCS.
+>>>>>>> upstream
   components:
   - type: StaticPrice
     price: 50000
@@ -400,18 +524,25 @@
           !type:PhysShapeAabb
           bounds: "-0.75,-0.75,0.75,0.75"
         density: 1500
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer
   - type: Gun
-    projectileSpeed: 250
+    projectileSpeed: 295
     fireRate: 0.75
     recoil: 500 # 20x - station weapon
     shootThermalSignature: 12000000 # ~6km after firing
     soundGunshot:
-      path: /Audio/_Mono/Weapons/Guns/Gunshots/laserfire.ogg
+      collection: ShipGunMjolnir
+      params:
+        pitch: 0.8
+        volume: 1.2
     soundEmpty:
       path: /Audio/Weapons/Guns/Empty/lmg_empty.ogg
   - type: BatterySelfRecharger
     autoRechargePause: true
-    autoRechargePauseTime: 60
+    autoRechargePauseTime: 20
     autoRecharge: true
     autoRechargeRate: 81600
   - type: SpaceArtillery
@@ -422,20 +553,16 @@
   - type: ProjectileBatteryAmmoProvider
     proto: ShipDymereProjectile
     fireCost: 2400
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 15000
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalBreak
   - type: RadarBlip
     radarColor: "#C92BCC"
     scale: 3
+    visibleFromOtherGrids: true
+    gridConfig:
+      color: "#C92BCC"
+      shape: Square
+      respectZoom: true
+      rotate: true
+      bounds: "-2,-2,2,2"
   - type: ShipGunType
     shipType: Energy
   - type: ShipGunClass
@@ -450,9 +577,18 @@
 
 - type: entity
   id: WeaponLaserTurretL1Phalanx
+<<<<<<< HEAD
   name: 'L-1 方阵炮台'
   parent: BallisticArtillery
   description: 由万神殿集体设计的轻型激光炮台，用于粉碎各类威胁
+=======
+  name: L-1 Phalanx
+  parent:
+  - BallisticArtillery
+  - BallisticArtilleryTier1HP
+  suffix: Small, T1
+  description: A light laser emplacement designed by the Pantheon Collective, used to shred threats of all types.
+>>>>>>> upstream
   components:
   - type: StaticPrice
     price: 3000
@@ -472,7 +608,7 @@
   - type: WirelessNetworkConnection
     range: 500
   - type: Gun
-    fireRate: 20
+    fireRate: 15
     recoil: 0
     minAngle: 0
     maxAngle: 0
@@ -490,23 +626,6 @@
   - type: HitscanBatteryAmmoProvider
     proto: PhalanxLaser
     fireCost: 25
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 600
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-    - trigger:
-        !type:DamageTrigger
-        damage: 3000
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalBreak
   - type: ShipGunType
     shipType: Energy
   - type: ShipGunClass
@@ -515,13 +634,88 @@
     repairTime: 15
     repairCost: 40
 
+# Prometheus
+
+- type: entity
+  id: WeaponLaserTurretPrometheus
+  name: TPC Prometheus Laser Cannon
+  parent:
+  - BallisticArtillery
+  - BallisticArtilleryTier2HP
+  suffix: Medium, T2
+  description: A heavier laser cannon mount, after the relative failure of the Apollo and its subsequent conversion into a mining laser, the Prometheus comes to the field as the new heavy laser cannon, perfect for melting through hostile hulls.
+  components:
+  - type: StaticPrice
+    price: 17500
+  - type: Sprite
+    sprite:  _Mono/Objects/ShuttleWeapons/prometheus.rsi
+    layers:
+    - state: space_artillery
+  - type: Appearance
+  - type: AmmoCounter
+  - type: Battery
+    maxCharge: 50000
+    startingCharge: 50000
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 500
+  - type: ExaminableBattery
+  - type: WirelessNetworkConnection
+    range: 500
+  - type: Gun
+    fireRate: 0.8
+    recoil: 5
+    minAngle: 0
+    maxAngle: 0
+    shootThermalSignature: 2000000
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/ship_perforator.ogg
+    soundEmpty:
+      path: /Audio/Weapons/Guns/EmptyAlarm/smg_empty_alarm.ogg
+  - type: SpaceArtillery
+    powerChargeRate: 20000
+    powerUsePassive: 300
+    powerUseActive: 0
+  - type: FireControlRotate
+  - type: Actions
+  - type: HitscanBatteryAmmoProvider
+    proto: PrometheusLaser
+    fireCost: 5000
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.4,-0.4,0.4,0.4"
+        density: 1500
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer
+  - type: ShipGunType
+    shipType: Energy
+  - type: ShipGunClass
+    shipClass: Heavy
+  - type: ShipRepairable
+    repairTime: 30
+    repairCost: 100
+
 # Apollo
 
 - type: entity
   id: WeaponLaserTurretApollo
+<<<<<<< HEAD
   parent: BallisticArtilleryUnanchorable
   name: 'L-20 阿波罗重型激光炮 | L-20 Apollo Heavy Laser Cannon'
   description: 作为法厄同帝国的顶级武器之一，阿波罗重型激光炮得名恰如其分，其光束能将目标表面加热至超越邻近恒星的温度。
+=======
+  parent:
+  - BallisticArtilleryUnanchorable
+  - BallisticArtilleryTier4HP # This shit is massive lol
+  suffix: Large, T3
+  name: L-20 Apollo Mining Laser Cannon
+  description: One of the Pantheon Collective's top weapons, the Apollo is aptly named for its beams heating surfaces to beyond the temperature of nearby stars.
+>>>>>>> upstream
   components:
   - type: StaticPrice
     price: 15000
@@ -532,17 +726,17 @@
   - type: Appearance
   - type: AmmoCounter
   - type: Battery
-    maxCharge: 50000
-    startingCharge: 50000
+    maxCharge: 56250
+    startingCharge: 56250
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 800
+    autoRechargeRate: 2500
   - type: FireControlRotate
   - type: ExaminableBattery
   - type: WirelessNetworkConnection
     range: 500
   - type: Gun
-    fireRate: 20
+    fireRate: 25
     recoil: 0
     minAngle: 0
     maxAngle: 0
@@ -555,27 +749,11 @@
     shipClass: Heavy
   - type: HitscanBatteryAmmoProvider
     proto: ApolloLaser
-    fireCost: 250
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 9000
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-    - trigger:
-        !type:DamageTrigger
-        damage: 5000
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalBreak
+    fireCost: 150
   - type: RadarBlip
     radarColor: "#e67a22"
     scale: 2
+    visibleFromOtherGrids: true
   - type: Fixtures
     fixtures:
       fix1:
@@ -583,11 +761,19 @@
           !type:PhysShapeAabb
           bounds: "-0.75,-0.75,0.75,0.75"
         density: 1500
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer
   - type: ShipGunType
     shipType: Energy
   - type: ShipRepairable
     repairTime: 25
     repairCost: 100
+  - type: SpaceArtillery
+    powerChargeRate: 500
+    powerUsePassive: 600
+    powerUseActive: 0
 
 # PRE- FRACTURE
 
@@ -597,7 +783,9 @@
 - type: entity
   id: WeaponTurretType241
   name: Curio-8640 plasma lance "Malice"
-  parent: BallisticArtilleryUnanchorable
+  parent:
+  - BallisticArtilleryUnanchorable
+  - BallisticArtilleryTier5HP
   suffix: ADS ONLY
   description: A devastating weapon, known for glassing whole fleets when used en masse
   components:
@@ -624,8 +812,12 @@
           !type:PhysShapeAabb
           bounds: "-0.75,-0.75,0.75,0.75"
         density: 1500
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer
   - type: Gun
-    projectileSpeed: 70
+    projectileSpeed: 170
     fireRate: 13
     recoil: 0
     minAngle: 0
@@ -653,20 +845,16 @@
   - type: ProjectileBatteryAmmoProvider
     proto: ShipGlassingBeamPlasmaProjectile
     fireCost: 300
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 10000
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalBreak
   - type: RadarBlip
     radarColor: "#C92BCC"
     scale: 3
+    visibleFromOtherGrids: true
+    gridConfig:
+      color: "#C92BCC"
+      shape: Square
+      respectZoom: true
+      rotate: true
+      bounds: "-2.5,-2.5,2.5,2.5"
   - type: ShipGunType
     shipType: Energy
   - type: ShipGunClass
@@ -684,8 +872,15 @@
 
 - type: entity
   id: WeaponTurretReaper
+<<<<<<< HEAD
   name: '奇物-1089 超光速粒子光矛「死神」'
   parent: BallisticArtilleryUnanchorable
+=======
+  name: Curio-1089 tachyon lance "Reaper"
+  parent:
+  - BallisticArtilleryUnanchorable
+  - BallisticArtilleryTier4HP
+>>>>>>> upstream
   suffix: ADS ONLY
   description: '令人胆寒的死亡射线正瞄准着你。收割者是前断代纪元遗留的古老科技产物，仅需一两发冲击便能摧毁最坚固的舰体。 | A terrifying weapon to have aimed at you, the Reaper is an ancient piece of pre-fracture tech capable of shattering the strongest of hulls within one or two blasts.'
   components:
@@ -705,7 +900,7 @@
   - type: WirelessNetworkConnection
     range: 500
   - type: Gun
-    fireRate: 0.04 # 25s
+    fireRate: 0.066 # 15s
     recoil: 0
     minAngle: 0
     maxAngle: 0
@@ -736,20 +931,16 @@
         - MachineMask
         layer:
         - MachineLayer
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 10000
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalBreak
   - type: RadarBlip
     radarColor: "#5bc65d"
     scale: 3
+    visibleFromOtherGrids: true
+    gridConfig:
+      color: "#5bc65d"
+      shape: Square
+      respectZoom: true
+      rotate: true
+      bounds: "-1.5,-2.5,1.5,2.5"
   - type: ShipGunType
     shipType: Energy
   - type: ShipGunClass
@@ -766,8 +957,15 @@
 
 - type: entity
   id: WeaponTurretHarbringer
+<<<<<<< HEAD
   name: '奇物-129 离子炮「先驱者」'
   parent: BallisticArtilleryUnanchorable
+=======
+  name: Curio-129 ion cannon "Harbringer"
+  parent:
+  - BallisticArtilleryUnanchorable
+  - BallisticArtilleryTier4HP
+>>>>>>> upstream
   suffix: ADS ONLY
   description: 星系中最强大的电磁脉冲武器之一，对目标而言意味着厄运降临。
   components:
@@ -787,11 +985,11 @@
   - type: WirelessNetworkConnection
     range: 500
   - type: Gun
-    fireRate: 0.025 # 40s
+    fireRate: 0.04 # 25s
     recoil: 50 # 2x
     minAngle: 0
     maxAngle: 0
-    projectileSpeed: 750
+    projectileSpeed: 800
     shootThermalSignature: 18000000 # ~8.5km after firing
     soundGunshot:
       path: /Audio/_Mono/Weapons/Guns/Gunshots/leviathan_fire.ogg
@@ -819,20 +1017,16 @@
         - MachineMask
         layer:
         - MachineLayer
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 10000
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalBreak
   - type: RadarBlip
-    radarColor: "#450089"
+    radarColor: "#5200a3"
     scale: 3
+    visibleFromOtherGrids: true
+    gridConfig:
+      color: "#5200a3"
+      shape: Square
+      respectZoom: true
+      rotate: true
+      bounds: "-1.5,-2.5,1.5,2.5"
   - type: ShipGunType
     shipType: Energy
   - type: ShipGunClass
@@ -845,12 +1039,92 @@
       tags:
       - ADSRepairTool
 
+# Anti-Matter Particle Cannon "Tartarus"
+
+- type: entity
+  id: WeaponTurretTartarus
+  name: Curio-1810 antimatter particle cannon "Tartarus"
+  parent:
+  - BallisticArtilleryUnanchorable
+  - BallisticArtilleryTier4HP
+  suffix: ADS ONLY
+  description: A rarer, powerful cannon mounted on larger ADS units. Firing a singular particle of antimatter wrapped in energy. Annihalating sections of shuttles at a time.
+  components:
+  - type: StaticPrice
+    price: 175000
+  - type: Sprite
+    sprite: _Mono/Objects/ShuttleWeapons/tartarus.rsi
+    layers:
+    - state: space_artillery
+  - type: Appearance
+  - type: AmmoCounter
+  - type: Battery
+    maxCharge: 50000
+    startingCharge: 50000
+  - type: ExaminableBattery
+  - type: WirelessNetworkConnection
+    range: 500
+  - type: Gun
+    fireRate: 0.4
+    minAngle: 0
+    maxAngle: 4
+    projectileSpeed: 465
+    shootThermalSignature: 18000000 # ~8.5km with continuous fire
+    soundGunshot:
+      path: /Audio/_Mono/Weapons/Guns/Gunshots/leviathan_fire.ogg
+    soundEmpty:
+      path: /Audio/Weapons/Guns/EmptyAlarm/smg_empty_alarm.ogg
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 500
+  - type: SpaceArtillery
+    powerChargeRate: 350
+    powerUsePassive: 500
+    powerUseActive: 0
+  - type: FireControlRotate
+  - type: Actions
+  - type: ProjectileBatteryAmmoProvider
+    proto: ShipAntiMatterProjectile
+    fireCost: 5000
+  - type: RadarBlip
+    radarColor: "#ab0707"
+    scale: 2.5
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.75,-0.75,0.75,0.75"
+        density: 1500
+        mask:
+        - MachineMask
+        layer:
+        - MachineLayer
+  - type: ShipGunType
+    shipType: Energy
+  - type: ShipGunClass
+    shipClass: Heavy
+  - type: ShipRepairable
+    repairTime: 60
+    repairCost: 200
+  - type: ShipRepairableRestrict
+    toolWhitelist:
+      tags:
+      - ADSRepairTool
+
 # Proton Cannon "Sunder"
 
 - type: entity
   id: WeaponTurretSunder
+<<<<<<< HEAD
   name: '奇物-1007质子炮「碎星」'
   parent: BallisticArtillery
+=======
+  name: Curio-1007 proton cannon "Sunder"
+  parent:
+  - BallisticArtillery
+  - BallisticArtilleryTier2HP
+>>>>>>> upstream
   suffix: ADS ONLY
   description: '断裂纪年前遗留的强力质子炮，以能轻易熔穿有机与无机物质而闻名。 | A potent proton cannon from before the Fracture, known for melting holes through both inorganic and organic matter with ease.'
   components:
@@ -890,26 +1164,10 @@
   - type: HitscanBatteryAmmoProvider
     proto: SunderLaser
     fireCost: 500
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 9000
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-    - trigger:
-        !type:DamageTrigger
-        damage: 6000
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalBreak
   - type: RadarBlip
     radarColor: "#ff9d00"
     scale: 2
+    visibleFromOtherGrids: true
   - type: ShipGunType
     shipType: Energy
   - type: ShipGunClass
@@ -926,10 +1184,19 @@
 
 - type: entity
   id: WeaponTurretScythe
+<<<<<<< HEAD
   name: '奇物-1008中子连射器「镰刀」'
   parent: BallisticArtillery
   suffix: ADS ONLY
   description: 持续射击的中子中继器，对多数目标造成可观伤害。这是前断代纪元武器技术的奇迹之作
+=======
+  name: Curio-1008 neutron repeater "Scythe"
+  parent:
+  - BallisticArtillery
+  - BallisticArtilleryTier2HP
+  suffix: ADS ONLY
+  description: A burst firing neutron repeater, firing high-damage but slow balls of hell. A marvel of rapture weapons technology. Specializes in tunneling through anything that can't outmanuever it.
+>>>>>>> upstream
   components:
   - type: StaticPrice
     price: 40000
@@ -946,11 +1213,15 @@
   - type: WirelessNetworkConnection
     range: 500
   - type: Gun
-    fireRate: 1
     recoil: 10 # 2/5x
-    projectileSpeed: 150
+    projectileSpeed: 180
     minAngle: 0
-    maxAngle: 6
+    maxAngle: 4
+    burstCooldown: 2
+    burstFireRate: 20
+    shotsPerBurst: 3
+    selectedMode: Burst
+    availableModes: Burst
     shootThermalSignature: 500000 # ~5.6km with continuous fire
     soundGunshot:
       path: /Audio/_Mono/Weapons/Guns/Gunshots/autopulse_laser_fire_01.ogg
@@ -958,9 +1229,9 @@
       path: /Audio/Weapons/click.ogg
   - type: BatterySelfRecharger
     autoRecharge: true
-    autoRechargeRate: 600
+    autoRechargeRate: 6000
   - type: SpaceArtillery
-    powerChargeRate: 700
+    powerChargeRate: 7000
     powerUsePassive: 100
     powerUseActive: 0
   - type: FireControlRotate
@@ -968,26 +1239,10 @@
   - type: ProjectileBatteryAmmoProvider
     proto: ShipNeutronProjectile
     fireCost: 300
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 9000
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-    - trigger:
-        !type:DamageTrigger
-        damage: 6000
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalBreak
   - type: RadarBlip
     radarColor: "#C92BCC"
     scale: 1.5
+    visibleFromOtherGrids: true
   - type: ShipGunType
     shipType: Energy
   - type: ShipGunClass
@@ -1004,8 +1259,15 @@
 
 - type: entity
   id: WeaponLaserTurretFlayer
+<<<<<<< HEAD
   name: '奇珍183型自动线圈「剥皮者」'
   parent: BallisticArtillery
+=======
+  name: Curio-183 auto-coil "Flayer"
+  parent:
+  - BallisticArtillery
+  - BallisticArtilleryTier2HP
+>>>>>>> upstream
   suffix: ADS ONLY
   description: '一款独特的前断代纪元武器，飞刃以近光速发射钨合金飞镖风暴，将目标轰击至碎片。 | A unique pre-fracture weapon, the Flayer fires a storm of tungsten alloy darts at near the speed of light, barraging targets to pieces.'
   components:
@@ -1033,7 +1295,7 @@
     maxAngle: 4
     shootThermalSignature: 2000000
     soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/ship_svalinn.ogg
+      path: /Audio/_Mono/Weapons/Guns/Gunshots/sonic_jackhammer.ogg
     soundEmpty:
       path: /Audio/Weapons/Guns/EmptyAlarm/smg_empty_alarm.ogg
   - type: SpaceArtillery
@@ -1045,23 +1307,6 @@
   - type: HitscanBatteryAmmoProvider
     proto: GaussRound
     fireCost: 25
-  - type: Destructible
-    thresholds:
-    - trigger:
-        !type:DamageTrigger
-        damage: 6000
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-    - trigger:
-        !type:DamageTrigger
-        damage: 3000
-      behaviors:
-      - !type:DoActsBehavior
-        acts: [ "Destruction" ]
-      - !type:PlaySoundBehavior
-        sound:
-          collection: MetalBreak
   - type: ShipGunType
     shipType: Ballistic
   - type: ShipGunClass

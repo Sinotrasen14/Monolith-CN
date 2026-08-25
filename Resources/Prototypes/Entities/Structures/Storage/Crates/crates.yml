@@ -603,7 +603,7 @@
     state: base
 
 - type: entity
-  parent: CrateGenericSteel
+  parent: [CrateGenericSteel, BaseFactionGearOtherFactionT1]
   id: CrateSyndicate
   name: 辛迪加板条箱 丨 Syndicate crate
   description: 一个深色钢制板条箱，侧面饰有红色条纹，正面压印着字母S。 丨 A dark steel crate with red bands and a letter S embossed on the front.

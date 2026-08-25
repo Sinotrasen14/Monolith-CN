@@ -8,6 +8,8 @@
   - type: Sprite
   - type: Item
     size: Huge
+    shape: # Mono
+    - 0,0,3,2 # 4x3
   - type: Clothing
     sprite: Objects/Weapons/Guns/Rifles/ak.rsi
     quickEquip: false
@@ -69,6 +71,21 @@
     sound:
       collection: RiflesDrop
   # Goobstation edit end
+  # Mono - Gun stock attack
+  - type: MeleeRequiresWield
+  - type: MeleeWeapon
+    attackRate: 0.9
+    damage:
+      types:
+        Blunt: 11
+    angle: 0
+    wideAnimationRotation: 135
+    animation: WeaponArcThrust
+    soundHit:
+      collection: MetalThud
+  - type: AltFireMelee
+    attackType: Light
+  # Mono end
 
 - type: entity
   name: LWC AKM自动步枪（使用7.62x39mm弹药） 丨 LWC AKM (7.62x39mm)
@@ -126,6 +143,7 @@
   - type: PirateBountyItem # Frontier
     id: AKM # Frontier
 
+<<<<<<< HEAD
 - type: entity
   name: TCA M-6莱克特（6.8x52mm无壳弹） 丨 TCA M-6 Lecter (6.8x52mm Caseless)
   parent: BaseWeaponRifle
@@ -184,6 +202,9 @@
     price: 750
   - type: PirateBountyItem # Mono
     id: StandardFactionLongarm
+=======
+# Mono - moved Lecter to _Mono
+>>>>>>> upstream
 
 - type: entity
   name: 泡沫神鹰 太空王牌 丨 Foam Force Astro Ace

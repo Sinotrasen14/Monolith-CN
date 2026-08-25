@@ -5,17 +5,12 @@
   parent: MonoHardsuitT1Recipe
   result: ClothingOuterHardsuitPirateScaf
 
-# T2 VG
+# T3 medic
 
 - type: latheRecipe
-  id: ClothingOuterHardsuitViperGroupStandardRogue
-  parent: MonoHardsuitT2Recipe
-  result: ClothingOuterHardsuitViperGroupStandard
-
-- type: latheRecipe
-  id: ClothingOuterHardsuitViperGroupMedicRogue
-  parent: MonoHardsuitT2Recipe
-  result: ClothingOuterHardsuitViperGroupMedic
+  id: ClothingOuterHardsuitPDVMedic
+  parent: MonoHardsuitT3Recipe
+  result: ClothingOuterHardsuitPDVMedic
 
 # T2 syndie
 
@@ -36,7 +31,7 @@
   parent: MonoHardsuitT3Recipe
   result: ClothingOuterHardsuitCybersunStealth
 
-# T3 synthalloy
+# T3 plastitanium
 
 - type: latheRecipe
   id: ClothingOuterHardsuitJuggernautRogue
@@ -66,6 +61,15 @@
   - FactionEquipment
   parent: NFBaseArmorRecipe
   result: ClothingOuterVestWeb
+
+- type: latheRecipe
+  id: ClothingOuterVestWebEliteRogue
+  categories:
+  - ArmorNF
+  - ClothesNF
+  - FactionEquipment
+  parent: NFBaseArmorRecipe
+  result: ClothingOuterVestWebElite
 
 - type: latheRecipe
   id: ClothingShoesBootsMagSyndieRogue

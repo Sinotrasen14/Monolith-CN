@@ -21,21 +21,21 @@
     radiatingBehaviourId: radiating
   - type: LightBehaviour
     behaviours:
-      - !type:FadeBehaviour
-        id: radiating
-        interpolate: Linear
-        maxDuration: 2.0
-        startValue: 3.0
-        endValue: 2.0
-        isLooped: true
-        reverseWhenFinished: true
-      - !type:PulseBehaviour
-        id: blinking
-        interpolate: Nearest
-        maxDuration: 1.0
-        minValue: 0.1
-        maxValue: 2.0
-        isLooped: true
+    - !type:FadeBehaviour
+      id: radiating
+      interpolate: Linear
+      maxDuration: 2.0
+      startValue: 3.0
+      endValue: 2.0
+      isLooped: true
+      reverseWhenFinished: true
+    - !type:PulseBehaviour
+      id: blinking
+      interpolate: Nearest
+      maxDuration: 1.0
+      minValue: 0.1
+      maxValue: 2.0
+      isLooped: true
   - type: Battery # Apparently lights on helmets don't work without batteries. Bummer.
     maxCharge: 600 #lights drain 3/s but recharge of 2 makes this 1/s. Therefore 600 is 10 minutes of light.
     startingCharge: 600
@@ -43,7 +43,7 @@
     autoRecharge: true
     autoRechargeRate: 2 #recharge of 2 makes total drain 1w / s so max charge is 1:1 with time. Time to fully charge should be 5 minutes. Having recharge gives light an extended flicker period which gives you some warning to return to light area.
   - type: Appearance
-  - type: ToggleableLightVisuals
+  - type: ToggleableVisuals
     spriteLayer: light
     clothingVisuals:
       head:
@@ -55,15 +55,19 @@
       - state: equipped-head-base
       - state: equipped-head-reinforced-points
       - state: equipped-head-visor
+  - type: ItemTogglePointLight
   - type: PointLight
-    #color: "#adffe6"
+    color: "#adffe6"
     enabled: false
     radius: 3
     energy: 2
     mask: /Textures/Effects/LightMasks/cone.png
     autoRot: true
     netsync: false
-
+  - type: Tag
+    tags:
+    - PetWearable
+    
 # DEPARTMENTAL
 - type: entity
   parent: ClothingHeadEVAHelmetWithLightBase
@@ -90,7 +94,10 @@
         color: "#6b4600"
       - state: equipped-head-visor
         color: "#adcfd5"
-
+  - type: Tag
+    tags:
+    - PetWearable
+    
 - type: entity
   parent: ClothingHeadEVAHelmetWithLightBase
   id: ClothingHeadEVAHelmetMailman
@@ -116,7 +123,10 @@
         color: "#3e3e48"
       - state: equipped-head-visor
         color: "#adcfd5"
-
+  - type: Tag
+    tags:
+    - PetWearable
+    
 # COLORED DEPARTMENTAL
 ## CONTRACTORS
 - type: entity
@@ -144,7 +154,10 @@
         color: "#3e3e48"
       - state: equipped-head-visor
         color: "#adcfd5"
-
+  - type: Tag
+    tags:
+    - PetWearable
+    
 ## COMMAND
 - type: entity
   parent: ClothingHeadEVAHelmetWithLightBase
@@ -178,7 +191,10 @@
   - type: PointLight
     radius: 5
     energy: 2
-
+  - type: Tag
+    tags:
+    - PetWearable
+    
 - type: entity
   parent: ClothingHeadEVAHelmetWithLightBase
   id: ClothingHeadEVAHelmetCaptain
@@ -211,7 +227,10 @@
   - type: PointLight
     radius: 5
     energy: 2
-
+  - type: Tag
+    tags:
+    - PetWearable
+    
 ## ENGINEERING
 - type: entity
   parent: ClothingHeadEVAHelmetWithLightBase
@@ -238,7 +257,10 @@
         color: "#ff7f00"
       - state: equipped-head-visor
         color: "#adcfd5"
-
+  - type: Tag
+    tags:
+    - PetWearable
+    
 - type: entity
   parent: ClothingHeadEVAHelmetWithLightBase
   id: ClothingHeadEVAHelmetAtmosTech
@@ -266,7 +288,10 @@
         color: "#e1b537"
   - type: PointLight
     color: "#adffe6"
-
+  - type: Tag
+    tags:
+    - PetWearable
+    
 ## SUPPLY
 - type: entity
   parent: ClothingHeadEVAHelmetWithLightBase
@@ -293,7 +318,10 @@
         color: "#3e3e48"
       - state: equipped-head-visor
         color: "#adcfd5"
-
+  - type: Tag
+    tags:
+    - PetWearable
+    
 - type: entity
   parent: ClothingHeadEVAHelmetWithLightBase
   id: ClothingHeadEVAHelmetSalvage
@@ -321,7 +349,10 @@
         color: "#adcfd5"
   - type: PointLight
     radius: 6
-
+  - type: Tag
+    tags:
+    - PetWearable
+    
 ## MEDICAL
 - type: entity
   parent: ClothingHeadEVAHelmetWithLightBase
@@ -350,7 +381,10 @@
         color: "#adcfd5"
   - type: PointLight
     color: "#adf1ff"
-
+  - type: Tag
+    tags:
+    - PetWearable
+    
 ## SCIENCE
 - type: entity
   parent: ClothingHeadEVAHelmetWithLightBase
@@ -379,7 +413,10 @@
         color: "#2accff"
   - type: PointLight
     color: "#d6adff"
-
+  - type: Tag
+    tags:
+    - PetWearable
+    
 ## SERVICE
 - type: entity
   parent: ClothingHeadEVAHelmetWithLightBase
@@ -408,7 +445,10 @@
         color: "#bb5cc9"
   - type: PointLight
     color: "#d6adff"
-
+  - type: Tag
+    tags:
+    - PetWearable
+    
 - type: entity
   parent: ClothingHeadEVAHelmetWithLightBase
   id: ClothingHeadEVAHelmetServiceWorker
@@ -434,7 +474,10 @@
         color: "#606275"
       - state: equipped-head-visor
         color: "#adcfd5"
-
+  - type: Tag
+    tags:
+    - PetWearable
+    
 - type: entity
   parent: ClothingHeadEVAHelmetWithLightBase
   id: ClothingHeadEVAHelmetChaplain
@@ -462,7 +505,10 @@
         color: "#ffce5b"
   - type: PointLight
     color: "#ffce5b"
-
+  - type: Tag
+    tags:
+    - PetWearable
+    
 - type: entity
   parent: ClothingHeadEVAHelmetWithLightBase
   id: ClothingHeadEVAHelmetBoxerRed
@@ -488,7 +534,10 @@
         color: "#606275"
       - state: equipped-head-visor
         color: "#adcfd5"
-
+  - type: Tag
+    tags:
+    - PetWearable
+    
 - type: entity
   parent: ClothingHeadEVAHelmetWithLightBase
   id: ClothingHeadEVAHelmetBoxerGreen
@@ -514,7 +563,10 @@
         color: "#606275"
       - state: equipped-head-visor
         color: "#adcfd5"
-
+  - type: Tag
+    tags:
+    - PetWearable
+    
 - type: entity
   parent: ClothingHeadEVAHelmetWithLightBase
   id: ClothingHeadEVAHelmetBoxerBlue
@@ -540,7 +592,10 @@
         color: "#606275"
       - state: equipped-head-visor
         color: "#adcfd5"
-
+  - type: Tag
+    tags:
+    - PetWearable
+    
 - type: entity
   parent: ClothingHeadEVAHelmetWithLightBase
   id: ClothingHeadEVAHelmetBoxerYellow
@@ -566,7 +621,10 @@
         color: "#606275"
       - state: equipped-head-visor
         color: "#adcfd5"
-
+  - type: Tag
+    tags:
+    - PetWearable
+    
 - type: entity
   parent: ClothingHeadEVAHelmetWithLightBase
   id: ClothingHeadEVAHelmetBoxerRandom
@@ -596,7 +654,10 @@
     available:
       - EVA_helmet_decal_boxing:
           equipped-head-base: Sixteen # CyberpunkNeon
-
+  - type: Tag
+    tags:
+    - PetWearable
+    
 ## WILDCARDS
 - type: entity
   parent: ClothingHeadEVAHelmetWithLightBase
@@ -623,7 +684,10 @@
         color: "#784f1e"
       - state: equipped-head-visor
         color: "#adcfd5"
-
+  - type: Tag
+    tags:
+    - PetWearable
+    
 - type: entity
   parent: ClothingHeadEVAHelmetWithLightBase
   id: ClothingHeadEVAHelmetMercenary
@@ -649,7 +713,10 @@
         color: "#27272e"
       - state: equipped-head-visor
         color: "#f5fc95"
-
+  - type: Tag
+    tags:
+    - PetWearable
+    
 - type: entity
   parent: ClothingHeadEVAHelmetWithLightBase
   id: ClothingHeadEVAHelmetPrivateSec
@@ -675,7 +742,10 @@
         color: "#2286bd"
       - state: equipped-head-visor
         color: "#ffd600"
-
+  - type: Tag
+    tags:
+    - PetWearable
+    
 ## NFSD
 - type: entity
   parent: ClothingHeadEVAHelmetWithLightBase
@@ -702,7 +772,10 @@
         color: "#384d2f"
       - state: equipped-head-visor
         color: "#52843f"
-
+  - type: Tag
+    tags:
+    - PetWearable
+    
 ## PLAYER FACTIONS
 - type: entity
   parent: ClothingHeadEVAHelmetWithLightBase
@@ -729,7 +802,10 @@
         color: "#3e3e48"
       - state: equipped-head-visor
         color: "#283846"
-
+  - type: Tag
+    tags:
+    - PetWearable
+    
 - type: entity
   parent: ClothingHeadEVAHelmetWithLightBase
   id: ClothingHeadEVAHelmetArcadia
@@ -755,7 +831,10 @@
         color: "#3e3e48"
       - state: equipped-head-visor
         color: "#8f1717"
-
+  - type: Tag
+    tags:
+    - PetWearable
+    
 #FSB Void suit helmet
 - type: entity
   parent: NFClothingHeadHardsuitWithLightBase
@@ -781,3 +860,7 @@
     #- Snout
     - HeadTop
     #- HeadSide
+  - type: Tag
+    tags:
+    - PetWearable
+    

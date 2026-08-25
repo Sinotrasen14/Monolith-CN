@@ -21,3 +21,7 @@ loadout-group-contractor-cartridge = PDA cartridges
 loadout-group-contractor-wallet = wallet
 loadout-group-contractor-implanter = implanters
 loadout-group-contractor-bureaucracy = bureaucracy
+loadout-group-contractor-armorplates = armor plates
+
+# MMC
+loadout-group-mieyo-products = MMC products

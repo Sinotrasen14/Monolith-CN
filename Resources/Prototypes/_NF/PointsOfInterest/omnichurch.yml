@@ -10,8 +10,13 @@
 #
 - type: pointOfInterest
   id: Omnichurch
+<<<<<<< HEAD
   parent: BasePOI
   name: "Omni教堂信标"
+=======
+  parent: [BasePOI, BaseRepairablePOI]
+  name: "Omnichurch Beacon"
+>>>>>>> upstream
   minimumDistance: 4200
   maximumDistance: 6900
   gridPath: /Maps/_NF/POI/beacon.yml

@@ -24,7 +24,7 @@
       Plasma: 200
       Gold: 200
   - type: StaticPrice
-    price: 10000
+    price: 1000
     vendPrice: 15000
   - type: Tag
     tags:
@@ -66,6 +66,7 @@
   components:
   - type: ShipRepairTool
     repairTimeMultiplier: 0
+    checkPreExistingEntities: false
   - type: Tag
     tags:
     - ShipRepairTool
@@ -83,10 +84,10 @@
     sprite: _Mono/Objects/Tools/repair_device_item.rsi
     state: prefracture
   - type: LimitedCharges
-    maxCharges: 300
+    maxCharges: 800
     charges: 50
   - type: AutoRecharge
-    rechargeDuration: 3
+    rechargeDuration: 2
   - type: Tag
     tags:
     - ShipRepairTool
