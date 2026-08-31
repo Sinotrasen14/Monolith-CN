@@ -1,2 +1,2 @@
-reagent-physical-desc-calming = calming
-reagent-physical-desc-fruity = fruity
+reagent-physical-desc-calming = 舒缓
+reagent-physical-desc-fruity = 果香

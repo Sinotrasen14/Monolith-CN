@@ -1,5 +1,5 @@
-battery-examinable-verb-message = Examine EMP shielding
-battery-examine-emp = EMP shielding can handle [color=teal]{POWERJOULES($energy)}[/color] of energy absorption until full battery discharge
-battery-examine-emp-null = [color=cyan]EMP shielding can handle any amount of energy absorption, making battery immune to EMPs[/color]
+battery-examinable-verb-message = 检查 EMP 屏蔽
+battery-examine-emp = EMP 屏蔽可吸收 [color=teal]{POWERJOULES($energy)}[/color] 的能量，直至电池完全放电
+battery-examine-emp-null = [color=cyan]EMP 屏蔽可吸收任意量的能量，使电池对 EMP 免疫[/color]
 
 

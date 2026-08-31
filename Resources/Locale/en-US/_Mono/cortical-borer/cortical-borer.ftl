@@ -1,29 +1,29 @@
 
 ## Infest Messages
-cortical-borer-has-host = You already have a host.
-cortical-borer-host-already-infested = {THE($target)} is already infested.
-cortical-borer-invalid-host = {THE($target)} is not a valid host.
-cortical-borer-face-covered = {THE($target)}'s face is covered.
-cortical-borer-headless = {THE($target)} does not have a head!
-cortical-borer-start-infest = You begin to crawl into {THE($target)}.
+cortical-borer-has-host = 你已经有宿主了。
+cortical-borer-host-already-infested = {THE($target)}已经被感染了。
+cortical-borer-invalid-host = {THE($target)}不是有效的宿主。
+cortical-borer-face-covered = {THE($target)}的脸被遮住了。
+cortical-borer-headless = {THE($target)}没有头！
+cortical-borer-start-infest = 你开始爬进{THE($target)}。
 
 ## Generic messages
-cortical-borer-no-host = You do not have a host.
-cortical-borer-dead-host = Your host is dead.
-cortical-borer-not-enough-chem = You do not have enough chemicals.
-cortical-borer-not-enough-chem-storage = You cannot hold enough chemicals.
-cortical-borer-sugar-block = You taste something sweet.
+cortical-borer-no-host = 你没有宿主。
+cortical-borer-dead-host = 你的宿主已死亡。
+cortical-borer-not-enough-chem = 你的化学物质不足。
+cortical-borer-not-enough-chem-storage = 你无法储存足够的化学物质。
+cortical-borer-sugar-block = 你尝到了某种甜味。
 
 ## Control messages
-cortical-borer-already-control = You are already controlling your host.
-cortical-borer-vomit = {$name} vomits out a {$egg}!
+cortical-borer-already-control = 你已经在控制你的宿主。
+cortical-borer-vomit = {$name}吐出了一个{$egg}！
 
 ## UI
-cortical-borer-dispenser-window-cost = {$cost} chemicals
-cortical-borer-ghostrole-name = Cortical Borer
-cortical-borer-ghostrole-desc = A space worm with the sole purpose in life to enter peoples heads and lay its eggs.
-cortical-borer-ghostrole-rules = Lay your eggs and spread your hive, but killing is not top priority. If you kill for no reason, expect retaliation from above. In addition to this, you may [head=3][color=#04bf5e]INFECT[/color][/head] in [color=#e8d905]Colonial Outpost[/color] or [color=#2093b0]Medical Dispatch[/color] but killing in these locations is [head=3][color=#e00d26]FORBIDDEN[/color][/head] (RDM will result in a [color=#e00d26]1 day server ban[/color], often wordlessly, so if you kill someone, there better be a good reason.)
+cortical-borer-dispenser-window-cost = {$cost} 化学物质
+cortical-borer-ghostrole-name = 皮层钻孔虫
+cortical-borer-ghostrole-desc = 一种太空蠕虫，其生存的唯一目的就是钻入他人头颅并在其中产卵。
+cortical-borer-ghostrole-rules = 产下你的卵并扩散你的虫巢，但杀戮并非首要任务。如果你无缘无故杀人，就等着来自上级的报复吧。此外，你可以在[color=#e8d905]殖民地前哨站[/color]或[color=#2093b0]医疗调度站[/color]进行[head=3][color=#04bf5e]感染[/color][/head]，但在这些地点杀人是[head=3][color=#e00d26]禁止[/color][/head]的（RDM 将导致[color=#e00d26]1天服务器封禁[/color]，通常不另行通知，所以如果你要杀某人，最好有正当理由。）
 
 ## Examine Text
-infested-control-examined = You have [color=#d842fc]{$timeremaining}[/color] seconds left controlling this body.
-cortical-borer-self-examine = You have [color=#d842fc]{$chempoints}[/color] chemicals.
+infested-control-examined = 你控制这具身体还剩下 [color=#d842fc]{$timeremaining}[/color] 秒。
+cortical-borer-self-examine = 你有 [color=#d842fc]{$chempoints}[/color] 化学物质。

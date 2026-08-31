@@ -1,3 +1,3 @@
-collective-mind-letoferol = Letoferol
-collective-mind-borer = Borer
-collective-mind-monolithic = Monolithic
+collective-mind-letoferol = 乐托酚
+collective-mind-borer = 钻心虫
+collective-mind-monolithic = 巨石

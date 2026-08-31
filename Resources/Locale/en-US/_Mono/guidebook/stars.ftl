@@ -1,3 +1,3 @@
-guide-entry-stars = Star System
+guide-entry-stars = 恒星系
 
 guide-entry-kyphrus = Kyphrus

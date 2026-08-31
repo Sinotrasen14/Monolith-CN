@@ -1,3 +1,3 @@
-limited-charges-ammo-component-on-examine = It holds {$charges} charges.
-limited-charges-ammo-component-after-interact-full = It's full!
-limited-charges-ammo-component-after-interact-refilled = You refill the charges.
+limited-charges-ammo-component-on-examine = 它装有 {$charges} 点充能。
+limited-charges-ammo-component-after-interact-full = 它已经满了！
+limited-charges-ammo-component-after-interact-refilled = 你重新装填了充能。

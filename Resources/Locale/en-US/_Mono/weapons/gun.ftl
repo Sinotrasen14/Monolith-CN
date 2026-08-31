@@ -1,1 +1,1 @@
-gun-magazine-infinite-examine = It has [color={$color}]{$count} special[/color] shots remaining.
+gun-magazine-infinite-examine = 它还剩 [color={$color}]{$count} 发特殊[/color] 弹药。

@@ -1,8 +1,8 @@
-research-technology-xenopsychology = Xenopsychology
-research-technology-bluespace-tethering = Bluespace Tethering
-research-technology-basic-parts = Basic Components
+research-technology-xenopsychology = 异族心理学
+research-technology-bluespace-tethering = 蓝空间系留
+research-technology-basic-parts = 基础组件
 
-research-technology-data-farms = Data Farming
+research-technology-data-farms = 数据挖掘
 
-research-technology-basic-research = Basic Research
-research-technology-advanced-research = Advanced Research
+research-technology-basic-research = 基础研究
+research-technology-advanced-research = 高级研究

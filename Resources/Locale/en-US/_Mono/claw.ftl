@@ -1,19 +1,19 @@
-claws-lizard-declawed = Their claws are ripped out.
+claws-lizard-declawed = 它们的爪子被拔掉了。
 
-claws-lizard-tiny = You can barely see their claws.
-claws-lizard-small = They have small claws.
-claws-lizard-medium = They have medium-sized claws.
-claws-lizard-big = They have long claws.
-claws-lizard-huge = Their claws are abnormally long.
+claws-lizard-tiny = 你几乎看不到它们的爪子。
+claws-lizard-small = 它们有小爪子。
+claws-lizard-medium = 它们有中等大小的爪子。
+claws-lizard-big = 它们有长爪子。
+claws-lizard-huge = 它们的爪子异常地长。
 
-clawed-shoot-fail = You can't fit claws in the trigger guard
+clawed-shoot-fail = 你的爪子放不进扳机护圈
 
-declaw-success = Your claws are ripped out!
-declaw-item-drop = You feel sharp pain in your fingertips!
+declaw-success = 你的爪子被拔掉了！
+declaw-item-drop = 你的指尖感到一阵剧痛！
 
-has-no-claws-popup = They don't have any claws
-claws-too-short-popup = Their claws are too short
-claws-clipping-doafter = You start clipping their nails
+has-no-claws-popup = 它们没有任何爪子
+claws-too-short-popup = 它们的爪子太短了
+claws-clipping-doafter = 你开始给它们剪指甲
 
-claws-clipping-success = You feel how your claws became shorter
-claws-growth = You feel how your claws became longer...
+claws-clipping-success = 你感觉到你的爪子变短了
+claws-growth = 你感觉到你的爪子变长了……

@@ -1,1 +1,1 @@
-reagent-grinder-component-storage-full-message = The grinder is full.
+reagent-grinder-component-storage-full-message = 研磨机已满。

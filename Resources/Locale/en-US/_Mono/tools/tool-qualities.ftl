@@ -1,2 +1,2 @@
-tool-quality-nanite-applicator-name = Nanite Applicator
-tool-quality-applicating-name = Nanite Applicating
+tool-quality-nanite-applicator-name = 纳米机器人施加器
+tool-quality-applicating-name = 纳米机器人施加

@@ -1,13 +1,13 @@
-ghost-role-information-marsoc-ftl-name = MARSOC Fire Team Leader
-ghost-role-information-marsoc-operative-name = MARSOC Operative
-ghost-role-information-marsoc-marksman-name = MARSOC Marksman
-ghost-role-information-marsoc-corpsman-name = MARSOC Corpsman
-ghost-role-information-marsoc-sgo-name = MARSOC Smartgun Operator
-ghost-role-information-marsoc-autorifleman-name = MARSOC Autorifleman
-ghost-role-information-marsoc-specialist-name = MARSOC Weapon Specialist
-ghost-role-information-marsoc-description = A member of TSFMC's MARSOC special forces.
-ghost-role-information-marsoc-rules = You are a member of the [color=#348099][bold]TSFMC faction[/bold][/color]. You should generally not seek to harm your fellow faction members or their ships.
-                                             As a member of [color=#348099][bold]TSF MARSOC[/bold][/color], you only take orders from [color=#348099][bold]TSF high command[/bold][/color]. This is only members of Winter Solstice, or the game staff.
-                                             You don't remember any of your previous life, and you don't remember anything you learned as a ghost.
-                                             You are allowed to remember knowledge about the game in general, such as how to cook, how to use objects, etc.
-                                             You are absolutely [color=red]NOT[/color] allowed to remember the name, appearance, etc. of your previous character.
+ghost-role-information-marsoc-ftl-name = MARSOC 火力小队队长
+ghost-role-information-marsoc-operative-name = MARSOC 特工
+ghost-role-information-marsoc-marksman-name = MARSOC 神射手
+ghost-role-information-marsoc-corpsman-name = MARSOC 医护兵
+ghost-role-information-marsoc-sgo-name = MARSOC 智能枪操作员
+ghost-role-information-marsoc-autorifleman-name = MARSOC 自动步枪手
+ghost-role-information-marsoc-specialist-name = MARSOC 武器专家
+ghost-role-information-marsoc-description = TSFMC 的 MARSOC 特种部队成员。
+ghost-role-information-marsoc-rules = 你是[color=#348099][bold]TSFMC 派系[/bold][/color]的一员。你通常不应试图伤害同派系成员或他们的舰船。
+                                             作为[color=#348099][bold]TSF MARSOC[/bold][/color]的一员，你只听命于[color=#348099][bold]TSF 最高指挥部[/bold][/color]。这仅限于 Winter Solstice 的成员或游戏管理员。
+                                             你不记得你的前世，也不记得你作为幽灵时学到的任何东西。
+                                             你可以记得关于游戏的一般知识，比如如何烹饪、如何使用物品等。
+                                             你绝对[color=red]不允许[/color]记得你前一个角色的姓名、外貌等。

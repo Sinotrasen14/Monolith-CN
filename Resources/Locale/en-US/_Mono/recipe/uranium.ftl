@@ -1,8 +1,8 @@
-recipe-uranium-processing-name = uranium processing
-recipe-uranium-processing-description = Seperate fissile isotopes from uranium ingots. High probability of producing depleted uranium.
+recipe-uranium-processing-name = 铀处理
+recipe-uranium-processing-description = 从铀锭中分离可裂变同位素。产生贫铀的概率很高。
 
-recipe-uranium-processing-advanced-name = plasma enriched uranium processing
-recipe-uranium-processing-advanced-description = Use a mixture of uranium and plasma to produce fissile uranium with a higher probability.
+recipe-uranium-processing-advanced-name = 等离子体富集铀处理
+recipe-uranium-processing-advanced-description = 使用铀和等离子体的混合物，以更高的概率生产可裂变铀。
 
-recipe-uranium-reprocessing-name = uranium re-processing
-recipe-uranium-reprocessing-description = Use depleted uranium to produce unfiltered uranium.
+recipe-uranium-reprocessing-name = 铀再处理
+recipe-uranium-reprocessing-description = 使用贫铀生产未过滤的铀。

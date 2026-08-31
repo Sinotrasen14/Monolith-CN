@@ -1,67 +1,67 @@
 ### Examine
 
 # Shown when examining the turbine.
-turbine-spinning-0 = The blades are not spinning.
-turbine-spinning-1 = The blades are turning slowly.
-turbine-spinning-2 = The blades are spinning.
-turbine-spinning-3 = The blades are spinning quickly.
-turbine-spinning-4 = [color=red]The blades are spinning out of control![/color]
+turbine-spinning-0 = 叶片没有转动。
+turbine-spinning-1 = 叶片正在缓慢转动。
+turbine-spinning-2 = 叶片正在转动。
+turbine-spinning-3 = 叶片正在快速转动。
+turbine-spinning-4 = [color=red]叶片正在失控旋转！[/color]
 
-turbine-damaged-0 = It appears to be in good condition.[/color]
-turbine-damaged-1 = The turbine looks a bit scuffed.[/color]
-turbine-damaged-2 = [color=yellow]The turbine looks badly damaged.[/color]
-turbine-damaged-3 = [color=orange]It's critically damaged![/color]
+turbine-damaged-0 = 它看起来状况良好。[/color]
+turbine-damaged-1 = 涡轮看起来有些磨损。[/color]
+turbine-damaged-2 = [color=yellow]涡轮看起来损坏严重。[/color]
+turbine-damaged-3 = [color=orange]它已经严重损坏！[/color]
 
-turbine-ruined = [color=red]It's completely broken![/color]
+turbine-ruined = [color=red]它彻底损坏了！[/color]
 
 ### Popups
 
 # Shown when an event occurs
-turbine-overheat = {$owner} triggers the emergency overheat dump valve!
-turbine-explode = The {$owner} tears itself apart!
+turbine-overheat = {$owner} 触发了紧急过热泄压阀！
+turbine-explode = {$owner} 把自己撕裂了！
 
 # Shown when damage occurs
-turbine-spark = The {$owner} starts sparking!
-turbine-spark-stop = The {$owner} stops sparking.
-turbine-smoke = The {$owner} begins to smoke!
-turbine-smoke-stop = The {$owner} stops smoking.
+turbine-spark = {$owner} 开始冒火花！
+turbine-spark-stop = {$owner} 停止了冒火花。
+turbine-smoke = {$owner} 开始冒烟！
+turbine-smoke-stop = {$owner} 停止了冒烟。
 
 # Shown during repairs
-turbine-repair-ruined = You repair the {$target}'s casing with the {$tool}.
-turbine-repair = You repair some of the damage to the {$target} using the {$tool}.
-turbine-no-damage = There is no damage to repair on the {$target} using the {$tool}.
-turbine-show-damage = BladeHealth {$health}, BladeHealthMax {$healthMax}.
+turbine-repair-ruined = 你用 {$tool} 修复了 {$target} 的外壳。
+turbine-repair = 你用 {$tool} 修复了 {$target} 的部分损伤。
+turbine-no-damage = {$target} 上没有需要用 {$tool} 修复的损伤。
+turbine-show-damage = 叶片耐久 {$health}，叶片最大耐久 {$healthMax}。
 
 # Anchoring warnings
-turbine-unanchor-warning = You cannot unanchor the gas turbine while it's spinning!
-turbine-anchor-warning = Invalid anchor position.
+turbine-unanchor-warning = 燃气轮机在旋转时无法解开锚定！
+turbine-anchor-warning = 无效的锚定位置。
 
 ### UI
 
 # Shown when using the UI
-comp-turbine-ui-tab-main = Controls
-comp-turbine-ui-tab-parts = Parts
+comp-turbine-ui-tab-main = 控制
+comp-turbine-ui-tab-parts = 部件
 
-comp-turbine-ui-rpm = RPM
+comp-turbine-ui-rpm = 转速
 
-comp-turbine-ui-overspeed = OVERSPEED
-comp-turbine-ui-overtemp = OVERTEMP
-comp-turbine-ui-stalling = STALLING
-comp-turbine-ui-undertemp = UNDERTEMP
+comp-turbine-ui-overspeed = 超速
+comp-turbine-ui-overtemp = 过热
+comp-turbine-ui-stalling = 失速
+comp-turbine-ui-undertemp = 低温
 
-comp-turbine-ui-flow-rate = Flow Rate
-comp-turbine-ui-stator-load = Stator Load
+comp-turbine-ui-flow-rate = 流量
+comp-turbine-ui-stator-load = 定子负载
 
-comp-turbine-ui-blade = Turbine Blade
-comp-turbine-ui-blade-integrity = Integrity
-comp-turbine-ui-blade-stress = Stress
+comp-turbine-ui-blade = 涡轮叶片
+comp-turbine-ui-blade-integrity = 完整性
+comp-turbine-ui-blade-stress = 应力
 
-comp-turbine-ui-stator = Turbine Stator
-comp-turbine-ui-stator-potential = Potential
-comp-turbine-ui-stator-supply = Supply
+comp-turbine-ui-stator = 涡轮定子
+comp-turbine-ui-stator-potential = 电势
+comp-turbine-ui-stator-supply = 供电
 
 comp-turbine-ui-power = { POWERWATTS($power) }
 
-comp-turbine-ui-locked-message = Controls locked.
-comp-turbine-ui-footer-left = Danger: fast-moving machinery.
+comp-turbine-ui-locked-message = 控制已锁定。
+comp-turbine-ui-footer-left = 危险：高速运转的机械。
 comp-turbine-ui-footer-right = 2.0 REV 1

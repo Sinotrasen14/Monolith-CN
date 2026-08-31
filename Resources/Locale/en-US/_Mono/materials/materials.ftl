@@ -4,33 +4,33 @@ stack-iridite = iridite
 materials-plastitanium = plastitanium
 stack-plastitanium = plastitanium
 
-materials-uraniumfissile = fissile uranium
-stack-uraniumfissile = fissile uranium
+materials-uraniumfissile = 裂变铀
+stack-uraniumfissile = 裂变铀
 
-materials-uraniumdepleted = depleted uranium
-stack-uraniumdepleted = depleted uranium
+materials-uraniumdepleted = 贫铀
+stack-uraniumdepleted = 贫铀
 
 # Industry
 
 # Ores
-materials-raw-copper = malachite
-materials-raw-lithium = lithium
+materials-raw-copper = 孔雀石
+materials-raw-lithium = 锂
 
 # Components
-materials-components-electronics = electronics
-materials-components-electronics-advanced = advanced electronics
-materials-components-explosives = pyrotechnics
-materials-components-fcs = fire control systems
-materials-components-mechanical = mechanical parts
-materials-components-plates = armor components
-materials-components-recievers = recievers
-materials-components-sensors = sensors
-materials-components-ship = ship components
-materials-components-steriles = sterilized parts
+materials-components-electronics = 电子元件
+materials-components-electronics-advanced = 高级电子元件
+materials-components-explosives = 烟火剂
+materials-components-fcs = 火控系统
+materials-components-mechanical = 机械零件
+materials-components-plates = 装甲部件
+materials-components-recievers = 接收器
+materials-components-sensors = 传感器
+materials-components-ship = 舰船部件
+materials-components-steriles = 无菌零件
 
 # Sheets
-materials-iridite-slag = iridite slag
-materials-lithium = lithium
-stack-lithium = lithium
-materials-copper = copper
-stack-copper = copper
+materials-iridite-slag = iridite 矿渣
+materials-lithium = 锂
+stack-lithium = 锂
+materials-copper = 铜
+stack-copper = 铜

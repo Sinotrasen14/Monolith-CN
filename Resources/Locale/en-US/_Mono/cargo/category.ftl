@@ -1,3 +1,3 @@
-cargoproduct-category-name-shipammo = Shipgun Ammo
-cargoproduct-category-name-armorplate = Armor Plates
-cargoproduct-category-name-economy = Economy Components
+cargoproduct-category-name-shipammo = 舰炮弹药
+cargoproduct-category-name-armorplate = 装甲板
+cargoproduct-category-name-economy = 经济组件

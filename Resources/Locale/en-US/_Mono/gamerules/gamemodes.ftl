@@ -16,7 +16,7 @@ mono-tsfussp-description = TSF的殖民努力受到USSP扩张的威胁。当地�
 mono-standard-title = 标准 (TSF|PDV)
 mono-standard-description = 本地 PDV 帝国势力威胁 TSF 在该区域的殖民扩张。
 
-mono-ads-title = Remnants (TSF|PDV)
+mono-ads-title = 残存者 (TSF|PDV)
 mono-ads-description = 本地PD帝国势力威胁TSF在该区域的殖民扩张。TSF海军陆战队的分遣队之间存在紧张的冷战局势。破碎前的战士和防御系统威胁着他们的计划。
 
 mono-chimera-title = 生物威胁 (TSF|PDV)

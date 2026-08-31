@@ -1,9 +1,9 @@
 ## Cloak Heat System
 
-cloak-heat-overheated = Cloaking offline ({$minutes}m {$seconds}s)
-cloak-heat-status = Heat: {$status} ({$percent}%)
-cloak-heat-cool = Cloaking ready
-cloak-heat-low = [color=green]Low[/color]
-cloak-heat-moderate = [color=yellow]Medium[/color]
-cloak-heat-high = [color=orange]High[/color]
-cloak-heat-critical = [color=red]Critical[/color]
+cloak-heat-overheated = 隐身离线（{$minutes}分{$seconds}秒）
+cloak-heat-status = 热量：{$status}（{$percent}%）
+cloak-heat-cool = 隐身就绪
+cloak-heat-low = [color=green]低[/color]
+cloak-heat-moderate = [color=yellow]中等[/color]
+cloak-heat-high = [color=orange]高[/color]
+cloak-heat-critical = [color=red]危险[/color]

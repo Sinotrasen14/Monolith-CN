@@ -17,7 +17,7 @@ lathe-category-mono-mech-weapons-medium = 中型机甲武器
 lathe-category-mono-mech-weapons-heavy = 重型机甲武器
 lathe-category-s2-mechs = S2 机甲
 lathe-category-s4-mechs = S4 机甲
-lathe-category-combat-eva = Combat Hardsuits
+lathe-category-combat-eva = 战斗硬服
 lathe-category-faction-gear = 派系装备
 
 # 弹药类别

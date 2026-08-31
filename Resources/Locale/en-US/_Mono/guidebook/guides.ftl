@@ -6,7 +6,7 @@ guide-entry-shipyard-takeaway = Takeaway
 guide-entry-shipyard-ruby = Ruby
 guide-entry-shipyard-motley-anne = Motley Anne
 guide-entry-shipyard-fenrir = Fenrir
-guide-entry-shipyard-nfr = INSFC NFR Operation Manual
+guide-entry-shipyard-nfr = INSFC NFR 操作手册
 
 # Gunnery Guides
 guide-entry-gunnery = 舰船武装
@@ -17,10 +17,10 @@ guide-entry-missiles = 导弹武器
 # Generic guides
 guide-entry-misc = 杂项
 
-guide-entry-fentanyl = Fentanyl Production
-guide-entry-letoferol = Letoferol & Chimeras
+guide-entry-fentanyl = 芬太尼生产
+guide-entry-letoferol = Letoferol 与奇美拉
 guide-entry-asakim = 朝圣者-阿萨基姆人
-guide-entry-radios = Broadband & Shortband
+guide-entry-radios = 宽带与短波
 guide-entry-gridclaimer = 认领无主残骸
 guide-entry-armorexplanation = 护甲机制
 

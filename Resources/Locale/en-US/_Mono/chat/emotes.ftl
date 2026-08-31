@@ -1,2 +1,2 @@
-chat-emote-name-reptilian-snicker = Snicker
-chat-emote-msg-reptilian-snicker = snickers
+chat-emote-name-reptilian-snicker = 窃笑
+chat-emote-msg-reptilian-snicker = 窃笑

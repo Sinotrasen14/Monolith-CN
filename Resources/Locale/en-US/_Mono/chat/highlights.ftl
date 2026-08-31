@@ -5,28 +5,28 @@
 # highlights-pilot =
 # highlights-mercenary =
 
-highlights-overseer = "Overseer", "CC", "Colossus"
-highlights-station-traffic-controller = "STC", "Traffic", "CC", "Colossus"
-highlights-judge = "Judge", "CC", "Colossus", "Contraband"
+highlights-overseer = "监督者", "CC", "Colossus"
+highlights-station-traffic-controller = "STC", "交通", "CC", "Colossus"
+highlights-judge = "法官", "CC", "Colossus", "违禁品"
 #highlights-service-worker = "Service", "Worker", "CC", "Colossus"
-highlights-janitor = "Jani", "Janitor", "CC", "Colossus"
-highlights-mail-carrier = "Mail man", "Mail carrier", "Mail"
-highlights-cyborg = "borg", "cyborg", "robot", "CC"
+highlights-janitor = "清洁", "清洁工", "CC", "Colossus"
+highlights-mail-carrier = "邮递员", "邮差", "邮件"
+highlights-cyborg = "生化", "生化人", "机器人", "CC"
 
-highlights-pdv-grand-vizier = "Grand", "Vizier", "GD", Jupiter, Helios, PDV
+highlights-pdv-grand-vizier = "大", "维齐尔", "GD", Jupiter, Helios, PDV
 highlights-pdv-asvaran = Asvaran, Jupiter, Helios, PDV
 highlights-pdv-denasvar = Denasvar, Jupiter, Helios, PDV
 highlights-pdv-spasaka = Spasaka, Jupiter, Helios, PDV
 highlights-pdv-rahkshan = Rahkshan, Jupiter, Helios, PDV
-highlights-pdv-cyborg = "borg", "cyborg", "robot"," Jupiter, Helios, PDV
+highlights-pdv-cyborg = "生化", "生化人", "机器人", Jupiter, Helios, PDV
 
-highlights-director-of-care = "DoC", "Director", "Rescue", "MD"
-highlights-emergency-responder = "EMT", "Emergency", "Responder", "Medic", "Doc", "Doctor", "Rescue", "MD"
+highlights-director-of-care = "DoC", "主管", "救援", "MD"
+highlights-emergency-responder = "EMT", "急救", "响应者", "医护兵", "医生", "医生", "救援", "MD"
 
-highlights-tsfmc-colonel = Colonel, Halcyon, TSF, TSFMC
-highlights-tsfmc-captain = Captain, "Cap", Halcyon, TSF, TSFMC
-highlights-tsfmc-fireteam-leader = "FTL", "Leader", "SL", Halcyon, TSF, TSFMC
-highlights-tsfmc-corpsman = Corpsman, Medical, Surgery, "Medic", "Doc", Halcyon, TSF, TSFMC
-highlights-tsfmc-marine = Marine, Halcyon, TSF, TSFMC
-highlights-tsfmc-engineer = Engineer, "Engi", Halcyon, TSF, TSFMC
-highlights-tsfmc-cyborg = "borg", "cyborg", "robot", Halcyon, TSF, TSFMC
+highlights-tsfmc-colonel = 上校, Halcyon, TSF, TSFMC
+highlights-tsfmc-captain = 上尉, "上尉", Halcyon, TSF, TSFMC
+highlights-tsfmc-fireteam-leader = "FTL", "队长", "SL", Halcyon, TSF, TSFMC
+highlights-tsfmc-corpsman = 医护兵, 医疗, 外科, "医护兵", "医生", Halcyon, TSF, TSFMC
+highlights-tsfmc-marine = 陆战队员, Halcyon, TSF, TSFMC
+highlights-tsfmc-engineer = 工程师, "工程师", Halcyon, TSF, TSFMC
+highlights-tsfmc-cyborg = "生化", "生化人", "机器人", Halcyon, TSF, TSFMC

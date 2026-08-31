@@ -1,25 +1,25 @@
-book-text-tea-guide = "How 2 Make Tea 4 Dorks
+book-text-tea-guide = "《傻瓜泡茶指南》
 
-    Quick Explanation in 3 easy steps: 3 items needed, all available in the BarristaVend,
+    三步轻松快速说明：需要 3 样物品，均可在 BarristaVend 中购买，
 
-        - Tea Bag of choice
-        - Liquid Container
-        - Heat Plate
+        - 任意口味的茶包
+        - 液体容器
+        - 加热板
 
-    Step 1. Measurements.
+    第一步：计量。
 
-        Each 1u of tea powder is 5u of drink, and the powder is consumed upon drink creation.
+        每 1u 茶粉可制成 5u 饮品，茶粉在制成饮品时即被消耗。
 
-        You can either pour 5u of it directly from the bag, or use a Tea Spoon to move 1u measurements.
+        你可以直接从茶包里倒出 5u，或者用茶匙量取 1u。
 
-        Normal non-decaff coffee does not fall under this category and uses a different recipy.
+        普通的含咖啡因咖啡不在此列，其配方不同。
 
-    Step 2. Boil Water and add Powder
+    第二步：烧开水并加入茶粉
 
-        Put the water boiling for 20-30 seconds on the Heat Plate. Then, add appropriate ammount of Tea Powder, a chemical mixing sound being heard if done correctly.
+        将水放在加热板上烧 20-30 秒。然后加入适量茶粉，操作正确时会听到化学混合的声音。
 
-        Alternatively powder and water can be put on the hot plate together for quicker tea.
+        或者，也可以把茶粉和水一起放在加热板上，泡茶会更快。
 
-    Step 3. Enjoy!
+    第三步：享用！
 
-        Your tea should be ready! If you put too much powder, and if the container is straight off the Heat Plate alongside has space, you can add water and tea will keep mixing."
+        你的茶应该泡好了！如果你放的茶粉太多，而容器刚从加热板上取下且还有空间，你可以加水，茶会继续混合。"

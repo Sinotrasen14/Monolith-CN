@@ -1,7 +1,7 @@
 
-prayer-chat-notify-high = REQUEST
+prayer-chat-notify-high = 请求
 
 
-prayer-verbs-request = Request
+prayer-verbs-request = 请求
 
-prayer-popup-notify-request-sent = You left a voicemail message for High Command...
+prayer-popup-notify-request-sent = 你给高层指挥部留下了一条语音留言……

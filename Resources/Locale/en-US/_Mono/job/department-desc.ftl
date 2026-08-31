@@ -1,3 +1,3 @@
-﻿department-PMC-description = Combat focused contractors, who have less restrictions on gear they can carry.
-department-Medical-description = Emergency medical responders, deployed across space for rapid aid and rescue.
-department-Viper-description = Elite contractors belonging to a company of syndicate origins.
+department-PMC-description = 专注战斗的承包商，可携带装备所受限制较少。
+department-Medical-description = 应急医疗响应人员，部署于太空各处，以提供快速援助与救援。
+department-Viper-description = 来自辛迪加背景公司的精锐承包商。

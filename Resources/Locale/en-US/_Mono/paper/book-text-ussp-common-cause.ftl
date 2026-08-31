@@ -1,57 +1,57 @@
-book-text-ussp-common-cause = THE COMMON CAUSE
+book-text-ussp-common-cause = 共同的事业
 
       ————————————————————————————————————————————————————
-      Approved for general circulation throughout the Union.
+      经批准在联盟全境公开发行。
       ————————————————————————————————————————————————————
 
-      No citizen stands alone where the Union still endures.
+      在联盟仍然屹立的地方，没有公民会孤身一人。
 
-      Useful labour is dignity made visible.
+      有用的劳动是尊严的显现。
 
-      Discipline is not punishment, but surety.
+      纪律不是惩罚，而是保障。
 
-      To serve the many is to give meaning to the self.
+      服务大众，就是赋予自我以意义。
 
-      Where vanity seeks praise, duty seeks usefulness.
+      虚荣追逐赞誉，而职责追求效用。
 
-      The citizen who gives only to himself leaves nothing of permanence.
+      只为自己付出的公民，留不下任何永恒之物。
 
-      Genuine insight comes only through participation.
+      真正的洞见只有通过参与才能获得。
 
-      The naive judge a man by what he says, not by what he does.
+      天真的人凭言辞评判一个人，而非凭其行动。
 
-      Corruption begins where duty is weighed against self-interest.
+      当职责与私利相权衡时，腐败便由此滋生。
 
-      A comrade does not stand beside your burden, but beneath it with you.
+      同志不会站在你的重担之旁，而是与你一同扛起它。
 
-      Order is not oppression, but the equilibrium of society.
+      秩序不是压迫，而是社会的平衡。
 
-      History belongs not to the idle, but to those who aspire together.
+      历史不属于游手好闲者，而属于那些共同追求理想的人。
 
-book-text-ussp-common-cause-first-edition = THE COMMON CAUSE
+book-text-ussp-common-cause-first-edition = 共同的事业
 
-      Attributed to the Autarch. For all who labour in service to the Revolution.
+      据称为独裁者所作。献给所有为革命而劳动的人。
 
-      History does not wait for the hesitant.
+      历史不会等待犹豫不决者。
 
-      A people that makes peace with greed prepares itself for chains.
+      与贪婪妥协的民族，是在为自己准备枷锁。
 
-      The Federation smiles where the old tyrants threatened, but its hand still closes all the same.
+      联邦在老暴君们曾经威胁之处微笑，但它的手依然同样收紧。
 
-      A nation that forgets its enemies soon begins to resemble them.
+      忘记敌人的民族，很快就会变得与敌人相似。
 
-      Compromise is often only surrender given a respectable name.
+      妥协往往只是被冠以体面之名的投降。
 
-      Discipline is the line between a people and a mob.
+      纪律是区分人民与暴民的分界线。
 
-      He who fears sacrifice has already chosen the old world.
+      畏惧牺牲的人，早已选择了旧世界。
 
-      To spare oneself from struggle is to hand the future to lesser men.
+      让自己免于斗争，就是把未来拱手让给更卑劣之人。
 
-      The old world does not die by being understood, but by being overcome.
+      旧世界不会因被理解而消亡，而会因被战胜而消亡。
 
-      The victorious enemy always calls surrender maturity.
+      得胜的敌人总是把投降称为成熟。
 
-      No border is secure once the enemy is welcomed into the mind.
+      一旦敌人在思想中受到欢迎，任何边界都不再安全。
 
-      A revolution that ceases to demand anything has already begun to forget itself.
+      不再提出任何要求的革命，已经开始遗忘自身。

@@ -1,6 +1,6 @@
-marking-ProtogenTailShark = shark tail
-marking-ProtogenTailBushy = bushy tail
-marking-ProtogenTail = tail
-marking-ProtogenEars = protogen ears
-marking-TwoProtogenEars = less protogen ears
-marking-ProtogenVisor = visor
+marking-ProtogenTailShark = 鲨鱼尾
+marking-ProtogenTailBushy = 蓬松尾
+marking-ProtogenTail = 尾巴
+marking-ProtogenEars = Protogen 耳朵
+marking-TwoProtogenEars = 精简 Protogen 耳朵
+marking-ProtogenVisor = 面罩

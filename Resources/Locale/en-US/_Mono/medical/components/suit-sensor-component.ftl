@@ -1,9 +1,9 @@
-suit-sensor-signature-toggle = {$status} radar signature
-suit-sensor-signature-toggled-off = Radar signature disabled!
-suit-sensor-signature-toggled-on = Radar signature enabled!
+suit-sensor-signature-toggle = {$status} 雷达信号
+suit-sensor-signature-toggled-off = 雷达信号已禁用！
+suit-sensor-signature-toggled-on = 雷达信号已启用！
 
-suit-sensor-signature-examine-off = Its radar signature is toggled off.
-suit-sensor-signature-examine-on = Its radar signature is toggled on.
+suit-sensor-signature-examine-off = 它的雷达信号已关闭。
+suit-sensor-signature-examine-on = 它的雷达信号已开启。
 
-suit-sensor-signature-verb-disable = Disable
-suit-sensor-signature-verb-enable = Enable
+suit-sensor-signature-verb-disable = 禁用
+suit-sensor-signature-verb-enable = 启用

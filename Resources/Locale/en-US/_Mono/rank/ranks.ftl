@@ -49,12 +49,12 @@ tsfn-e9-cn = HJ9-SHJ
 pdv-rahkshan = Rhk.
 pdv-denasvar = Dns.
 pdv-asvaran = Asv.
-pdv-vizier = Grand Vizier
-pdv-tarkhan = PDRV Tarkhan
+pdv-vizier = 大维齐尔
+pdv-tarkhan = PDRV 塔尔汗
 
 #PDV Adminroles
-pdv-ambassador = Ambassador
-pdv-prince = Prince
+pdv-ambassador = 大使
+pdv-prince = 王子
 
 ### USSP loadout ranks
 
@@ -80,18 +80,18 @@ ussp-cm3 = BKom.
 ### VG ranks
 vg-infanteer = Inf.
 vg-lieutenant = Lt.
-vg-commander = Commander
+vg-commander = 指挥官
 
 ### MMC ranks
-mmc-employee = Employee
-mmc-security = Corporate Security
-mmc-asset-security = Asset Security
-mmc-asset-security-senior = Senior Asset Security
-mmc-liason = Corporate Liason
+mmc-employee = 员工
+mmc-security = 企业安保
+mmc-asset-security = 资产安保
+mmc-asset-security-senior = 高级资产安保
+mmc-liason = 企业联络员
 
 ### CC/MD ranks
 cc-judge = Jdg.
 cc-stc = STC
-cc-overseer = Overseer
-md-doc = Director Of Care
+cc-overseer = 监察官
+md-doc = 护理主任
 md-medic = ER.

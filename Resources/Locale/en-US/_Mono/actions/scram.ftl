@@ -1,1 +1,1 @@
-action-scram-popup-disabled = No Power!
+action-scram-popup-disabled = 没有电力！

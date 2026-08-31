@@ -1,1 +1,1 @@
-spawn-coordinates = Spawn Coordinates: X={$x}, Y={$y}
+spawn-coordinates = 出生坐标：X={$x}, Y={$y}

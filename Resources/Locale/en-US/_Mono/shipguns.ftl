@@ -1,1 +1,1 @@
-ship-gun-class-component-examine-detail = The gun uses [color=yellow]{$processingPower}[/color] processing power.
+ship-gun-class-component-examine-detail = 该武器占用[color=yellow]{$processingPower}[/color]算力。

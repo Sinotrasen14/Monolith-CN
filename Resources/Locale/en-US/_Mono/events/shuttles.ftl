@@ -10,7 +10,7 @@ station-event-chimera-shuttle-detected = 在本地空间附近侦测到不明身
 station-event-asakim-shuttle-detected = 在本地空间附近侦测到不明身份的前断代纪元舰船。建议保持警惕。
 
 # general ship spawns - prevent metagaming
-station-event-unknown-shuttle-detected = Unidentified vessel detected near local space. Caution is advised.
+station-event-unknown-shuttle-detected = 在本地空间附近侦测到不明舰船。建议保持警惕。
 
 # redacted AI ship borg stuff
 

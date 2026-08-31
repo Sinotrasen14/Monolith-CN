@@ -1,34 +1,34 @@
-armor-plate-break = Your {$plateName} has shattered!
-armor-plate-examine-with-plate = Has a [color=yellow]{$plateName}[/color] installed. Durability: [color={$durabilityColor}]{$percent}%[/color]
-armor-plate-examine-with-plate-simple = Has a [color=yellow]{$plateName}[/color] installed.
-armor-plate-examine-no-plate = No armor plate installed.
-armor-plate-examine-no-storage = No storage compartment for armor plates.
+armor-plate-break = 你的{$plateName}已碎裂！
+armor-plate-examine-with-plate = 已安装[color=yellow]{$plateName}[/color]。耐久度：[color={$durabilityColor}]{$percent}%[/color]
+armor-plate-examine-with-plate-simple = 已安装[color=yellow]{$plateName}[/color]。
+armor-plate-examine-no-plate = 未安装装甲板。
+armor-plate-examine-no-storage = 没有用于安装装甲板的储物槽。
 
-armor-plate-examinable-verb-text = Plate attributes
-armor-plate-examinable-verb-message = Examine protection and durability characteristics.
+armor-plate-examinable-verb-text = 装甲板属性
+armor-plate-examinable-verb-message = 查看防护与耐久特性。
 
-armor-plate-attributes-examine = This armor plate:
-armor-plate-initial-durability = Is rated for [color=yellow]{ $durability }[/color] standard units of damage.
+armor-plate-attributes-examine = 此装甲板：
+armor-plate-initial-durability = 额定承受[color=yellow]{ $durability }[/color]标准单位的伤害。
 
-armor-plate-item-durability = Durability: [color={$durabilityColor}]{$percent}%[/color]
+armor-plate-item-durability = 耐久度：[color={$durabilityColor}]{$percent}%[/color]
 
-armor-plate-gait-speed = speed
-armor-plate-gait-walk = walking speed
-armor-plate-gait-sprint = running speed
+armor-plate-gait-speed = 速度
+armor-plate-gait-walk = 行走速度
+armor-plate-gait-sprint = 奔跑速度
 
 armor-plate-speed-display =
     { $deltasign ->
-        [-1] Increases your {$gait} by [color=yellow]{$speedPercent}%[/color].
-         [0] Doesn't affect your speed.
-         [1] Decreases your {$gait} by [color=yellow]{$speedPercent}%[/color].
-        *[other] Shouldn't be have this speed value!
+        [-1] 将你的{$gait}提高[color=yellow]{$speedPercent}%[/color]。
+         [0] 不影响你的速度。
+         [1] 将你的{$gait}降低[color=yellow]{$speedPercent}%[/color]。
+        *[other] 不应该有这个速度值！
     }
 
 armor-plate-ratios-display =
     { $deltasign ->
-        [-1] [color=cyan]Absorbs[/color] [color=yellow]{$ratioPercent}%[/color] of [color=yellow]{$dmgType}[/color] and takes it as [color=yellow]x{$multiplier}[/color] durability damage.
-         [0] Is unaffected by {$dmgType}
-         [1] [color=fuchsia]Amplifies[/color] [color=yellow]{$dmgType}[/color] by [color=yellow]{$ratioPercent}%[/color] and takes the added damage as [color=yellow]x{$multiplier}[/color] durability damage.
-        *[other] {$dmgType} shouldn't be have this absorption value!
+        [-1] [color=cyan]吸收[/color][color=yellow]{$dmgType}[/color]的[color=yellow]{$ratioPercent}%[/color]，并承受[color=yellow]x{$multiplier}[/color]耐久伤害。
+         [0] 不受{$dmgType}影响
+         [1] [color=fuchsia]放大[/color][color=yellow]{$dmgType}[/color][color=yellow]{$ratioPercent}%[/color]，并承受额外伤害的[color=yellow]x{$multiplier}[/color]耐久伤害。
+        *[other] {$dmgType}不应该有这个吸收值！
     }
-armor-plate-stamina-value = Inflicts [color=yellow]{$multiplier}%[/color] of absorbed damage as stamina damage.
+armor-plate-stamina-value = 将[color=yellow]{$multiplier}%[/color]的吸收伤害转化为体力伤害。

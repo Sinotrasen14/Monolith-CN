@@ -1,1 +1,1 @@
-shipyard-menu-flavor-left = SKR-OS Standard Shipyard Distribution System
+shipyard-menu-flavor-left = SKR-OS 标准船厂分配系统

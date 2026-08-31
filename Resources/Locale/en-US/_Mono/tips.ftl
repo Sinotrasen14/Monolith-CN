@@ -1,78 +1,78 @@
-mono-tips-dataset-1 = If you're on fire, you can click the alert on the right of your screen to stop, drop, and roll.
-mono-tips-dataset-2 = You can view and edit all keybindings used in-game at any time through the Options menu.
-mono-tips-dataset-3 = You can access the in-game guidebook through the escape menu, or by pressing Numpad 0 by default.
-mono-tips-dataset-4 = Some entities ingame have guidebook entries associated with them, which you can view by examining the entity and clicking the question mark icon.
-mono-tips-dataset-5 = Artifacts have the ability to gain permanent effects for some triggered nodes, including becoming an intercom or an extremely efficient generator.
-mono-tips-dataset-6 = You can avoid slipping on most puddles by walking. However, some strong chemicals like space lube will slip people anyway.
-mono-tips-dataset-7 = Some plants, such as galaxy thistle, can be ground up into extremely useful and potent medicines.
-mono-tips-dataset-8 = Mopping up puddles and draining them into other containers conserves the reagents found in the puddle.
-mono-tips-dataset-9 = Floor drains rapidly consume reagent found in puddles around them--including blood.
-mono-tips-dataset-10 = Cognizine, a hard to manufacture chemical, makes most creatures sentient when they are injected with it.
-mono-tips-dataset-11 = Fire extinguishers can be loaded with any reagent in the game.
-mono-tips-dataset-12 = Some reagents, like chlorine trifluoride, have unique effects when applied by touch, such as through a spray bottle or foam.
-mono-tips-dataset-13 = Remember to touch grass in between playing Space Station 14 every once in a while.
-mono-tips-dataset-14 = You can use the Activate in World keybind, E by default, to interact with objects while your hands are full, or without picking them up.
-mono-tips-dataset-15 = Common sense goes a long way to avoiding conflict.
-mono-tips-dataset-16 = Every other player in game is a human being as well.
-mono-tips-dataset-17 = Chemicals don't react while inside the ChemMaster's buffer.
-mono-tips-dataset-18 = You can drop items from your hand by pressing Q by default.
-mono-tips-dataset-19 = You can hold SPACE by default to slow the movement of the shuttle when piloting, to allow for precise movements--or even coming to a complete stop.
-mono-tips-dataset-20 = Everyone starts with a survival box, which contains exceptionally useful tools like a mass scanner, an oxygen canister, flares, and emergency medipens containing epinephrine and tranexamic acid.
+mono-tips-dataset-1 = 如果你着火了，可以点击屏幕右侧的警报来停下、卧倒并翻滚灭火。
+mono-tips-dataset-2 = 你可以随时通过选项菜单查看和编辑游戏中使用的所有按键绑定。
+mono-tips-dataset-3 = 你可以通过Esc菜单访问游戏内指南，或默认按下小键盘0键。
+mono-tips-dataset-4 = 游戏中的一些实体有相关的指南条目，你可以通过检查该实体并点击问号图标来查看。
+mono-tips-dataset-5 = 神器可以为某些被触发的节点获得永久效果，包括变成对讲机或极其高效的发电机。
+mono-tips-dataset-6 = 走路可以避免在大多数水坑上滑倒。但是，像太空润滑油这样的一些强力化学品无论如何都会让人滑倒。
+mono-tips-dataset-7 = 一些植物，比如银河蓟，可以被磨成极其有用且强效的药物。
+mono-tips-dataset-8 = 用拖把清理水坑并将其倒入其他容器，可以保留水坑中的试剂。
+mono-tips-dataset-9 = 地漏会迅速消耗周围水坑中的试剂——包括血液。
+mono-tips-dataset-10 = 认知素是一种难以制造的化学品，大多数生物被注射后都会获得知觉。
+mono-tips-dataset-11 = 灭火器可以装载游戏中的任何试剂。
+mono-tips-dataset-12 = 一些试剂，比如三氟化氯，通过喷雾瓶或泡沫等方式接触时有独特的效果。
+mono-tips-dataset-13 = 记得偶尔在玩《太空站14》之余出去透透气。
+mono-tips-dataset-14 = 你可以使用“在世界中激活”按键绑定（默认为E），在双手已满或无需捡起的情况下与物体互动。
+mono-tips-dataset-15 = 常识对避免冲突大有帮助。
+mono-tips-dataset-16 = 游戏中的其他每一位玩家也都是真人。
+mono-tips-dataset-17 = 化学品在ChemMaster的缓冲区内不会发生反应。
+mono-tips-dataset-18 = 你可以默认按下Q键丢弃手中的物品。
+mono-tips-dataset-19 = 驾驶时可以默认按住空格键来减慢飞船的移动，以便进行精确移动——甚至完全停下。
+mono-tips-dataset-20 = 每个人开局都有一个生存盒，里面装着非常有用的工具，比如质量扫描仪、氧气罐、照明弹，以及装有肾上腺素和氨甲环酸的急救注射笔。
 
-mono-tips-dataset-21 = You can add labels to any item, including food or pill canisters, using a hand labeller.
-mono-tips-dataset-22 = Make sure to check the statistics of armor by shift-clicking it and inspecting it. Different armor patterns have different levels of protection!
-mono-tips-dataset-23 = As a ghost, you can use the Verb Menu to orbit around and follow any entity in game automatically.
+mono-tips-dataset-21 = 你可以使用手持标签机给任何物品添加标签，包括食物或药瓶。
+mono-tips-dataset-22 = 务必通过Shift+点击并检查来查看护甲的属性。不同的护甲样式有不同的防护等级！
+mono-tips-dataset-23 = 作为鬼魂，你可以使用动词菜单自动环绕并跟随游戏中的任何实体。
 
-mono-tips-dataset-24 = You can examine your headset to see which radio channels you have available and how to speak in them.
-mono-tips-dataset-25 = If you ever get stranded in space without a jetpack, throwing items or shooting a weapon can be used in a pinch to get you back on a grid.
+mono-tips-dataset-24 = 你可以检查你的耳机，看看你有哪些无线电频道可用以及如何在这些频道中说话。
+mono-tips-dataset-25 = 如果你在没有喷气背包的情况下被困在太空中，紧急情况下可以投掷物品或开火来让你回到网格上。
 
-mono-tips-dataset-26 = Grappling hooks can be used to to propel yourself when latched onto wrecks, asteroids, or ships. They can also be very useful for staying with a moving ship!
+mono-tips-dataset-26 = 钩爪可以在钩住残骸、小行星或飞船时用来推进自己。它们对于紧跟移动中的飞船也非常有用！
 
-mono-tips-dataset-27 = You can mutate and crossbreed plants together to create more potent produce that also has higher yields.
-mono-tips-dataset-28 = Spice your gimmicks up! Doing the same thing over and over again can become very boring.
+mono-tips-dataset-27 = 你可以对植物进行变异和杂交，培育出更有效力、产量也更高的作物。
+mono-tips-dataset-28 = 给你的玩法加点新花样！一遍又一遍做同样的事情会变得非常无聊。
 
-mono-tips-dataset-29 = You can sneak reagents into most foodstuffs, like poisons or medicine.
+mono-tips-dataset-29 = 你可以把试剂偷偷混入大多数食物中，比如毒药或药物。
 
-mono-tips-dataset-30 = When running with a squad, communicate and coordinate with your fellow allies using the radio. Communication wins wars.
-mono-tips-dataset-31 = You can repair cracked windows by using a lit welding tool on them while not in combat mode.
-mono-tips-dataset-32 = You can electrify grilles by placing powered cables beneath them. Just be aware that insulated gloves are very common.
+mono-tips-dataset-30 = 与小队一起行动时，使用无线电与队友沟通和协调。沟通能赢得战争。
+mono-tips-dataset-31 = 你可以在非战斗模式下，使用点燃的焊接工具来修理破裂的窗户。
+mono-tips-dataset-32 = 你可以通过在格栅下方放置通电电缆来使其带电。只是要注意，绝缘手套非常常见。
 
-mono-tips-dataset-33 = Plasma and Uranium glass structures are stronger than plain glass, and are more effective at blocking radiation.
+mono-tips-dataset-33 = 等离子体和铀玻璃结构比普通玻璃更坚固，而且在阻挡辐射方面更有效。
 
-mono-tips-dataset-34 = When researching artifacts, you can try random things on an artifact while the scanner is on cooldown to speed up the point extraction process significantly.
-mono-tips-dataset-35 = Most machines can be upgraded with more advanced parts, enabling extremely fast and efficient function.
-mono-tips-dataset-36 = Be careful not to overdose on chemicals.
-mono-tips-dataset-37 = Don't underestimate cryo pods! They heal almost every type of damage, making them very useful when you need to heal someone really hurt in a pinch. Be careful putting when lizards in, however.
+mono-tips-dataset-34 = 在研究神器时，你可以在扫描仪冷却期间对神器尝试各种随机操作，以显著加快点数提取过程。
+mono-tips-dataset-35 = 大多数机器都可以用更先进的零件升级，从而实现极快且高效的功能。
+mono-tips-dataset-36 = 注意不要过量使用化学品。
+mono-tips-dataset-37 = 不要小看低温舱！它们几乎能治愈所有类型的伤害，当你需要紧急治疗重伤的人时非常有用。不过，把蜥蜴放进去时要小心。
 
-mono-tips-dataset-38 = Don't be afraid to ask for help, whether from your peers in character, through LOOC, or from admins!
-mono-tips-dataset-39 = You'll quickly lose your interest in the game if you play to win and kill. If you find yourself doing this, take a step back and talk to people--it's a much better experience!
+mono-tips-dataset-38 = 不要害怕寻求帮助，无论是通过角色内对话向同伴求助、通过LOOC，还是向管理员求助！
+mono-tips-dataset-39 = 如果你只为获胜和杀戮而玩，很快就会对游戏失去兴趣。如果你发现自己这样做了，退一步和别人聊聊——这会好得多！
 
-mono-tips-dataset-40 = We were all new once, be patient and guide new players, especially those playing intern roles, in the right direction.
+mono-tips-dataset-40 = 我们都曾是新手，请耐心引导新玩家，尤其是扮演实习角色的玩家，走向正确的方向。
 
-mono-tips-dataset-41 = All forms of toxin damage are fairly difficult to treat, and usually involve the use of chemicals or other inconvenient methods. You can use this to your advantage in combat.
+mono-tips-dataset-41 = 所有形式的毒素伤害都相当难以治疗，通常需要用到化学品或其他不便的方法。你可以在战斗中利用这一点。
 
-mono-tips-dataset-42 = You can mix napalm and phlog to create an incendiary mixture effective against chimera.
+mono-tips-dataset-42 = 你可以混合凝固汽油和燃素，制造一种对奇美拉有效的燃烧混合物。
 
-mono-tips-dataset-43 = Speed is almost everything in combat. Using hardsuits just for their armor is usually a terrible idea unless the resistances it provides are geared towards combat, or you're not planning to go head-first into the fray.
+mono-tips-dataset-43 = 速度几乎是战斗中的一切。仅仅为了护甲而穿硬壳服通常是个糟糕的主意，除非它提供的抗性是面向战斗的，或者你不打算一头扎进混战中。
 
-mono-tips-dataset-44 = You can drag other players onto yourself to open the strip menu, allowing you to remove their equipment or force them to wear something. Note that exosuits or helmets will block your access to the clothing beneath them, and that certain items take longer to strip or put on than others.
-mono-tips-dataset-45 = You can climb onto furniture like lathes, tables and SMESs by dragging yourself onto one.
-mono-tips-dataset-46 = You can move an item out of the way by dragging it, and then holding CTRL + right click and moving your mouse into the direction you want it to go.
+mono-tips-dataset-44 = 你可以把其他玩家拖到自己身上来打开脱衣菜单，从而脱下他们的装备或强迫他们穿上某样东西。注意，外骨骼服或头盔会阻挡你接触其下的衣物，而且某些物品比其他的需要更长时间来脱下或穿上。
+mono-tips-dataset-45 = 你可以通过把自己拖到车床、桌子和SMES等家具上来爬上去。
+mono-tips-dataset-46 = 你可以通过拖动物品，然后按住Ctrl+右键并朝你想要的方向移动鼠标来把物品移开。
 
-mono-tips-dataset-47 = Fire can spread to other players through touch! Be careful around flaming bodies or large crowds with people on fire in them.
+mono-tips-dataset-47 = 火可以通过接触蔓延到其他玩家身上！在燃烧的身体周围或有起火人群的大批人群附近要小心。
 
-mono-tips-dataset-48 = Burn damage, such as that from a welding tool or lightbulb, can be used to cauterize wounds and stop bleeding.
-mono-tips-dataset-49 = Bleeding is no joke! If you've been shot or acquired any other major injury, make sure to treat it quickly.
-mono-tips-dataset-50 = In an emergency, you can butcher most clothing items with a sharp object to get cloth, which can be crafted into gauze.
+mono-tips-dataset-48 = 灼烧伤害，比如来自焊接工具或灯泡的，可以用来烧灼伤口并止血。
+mono-tips-dataset-49 = 流血可不是闹着玩的！如果你中弹或受了其他重伤，一定要尽快处理。
+mono-tips-dataset-50 = 紧急情况下，你可以用锋利物体把大多数衣物分解成布料，布料可以制作成纱布。
 
-mono-tips-dataset-51 = You can click on the names of items to pick them up in the right click menu, instead of hovering over the item and then selecting pick up.
-mono-tips-dataset-52 = Space Station 14 is open source! If there's a change you want to make, or a simple item you want to add, then try contributing to the game. It's not as hard as you'd think it is.
+mono-tips-dataset-51 = 你可以在右键菜单中点击物品名称来捡起它们，而不必悬停在物品上然后选择拾取。
+mono-tips-dataset-52 = 《太空站14》是开源的！如果你想做某个改动，或想添加一个简单的物品，那就试着为游戏做贡献吧。它没有你想的那么难。
 
-mono-tips-dataset-53 = There is a chemical metabolism limit that limits the amount of reagents of a certain type you can digest at once. Certain species have higher metabolism limits, such as slimes.
-mono-tips-dataset-54 = Welding without proper eye protection can cause eye damage, which must be cured with oculine.
+mono-tips-dataset-53 = 存在化学代谢限制，它限制了你一次能消化某一类型试剂的数量。某些物种有更高的代谢限制，比如史莱姆。
+mono-tips-dataset-54 = 没有适当护眼措施就进行焊接会导致眼部损伤，必须用眼药素来治愈。
 
-mono-tips-dataset-55 = You can weld glass shards into glass sheets.
-mono-tips-dataset-56 = By right clicking on a player, and then clicking the heart icon, you can quickly examine them to check for injuries or how badly they're bleeding. You can also do this to yourself.
+mono-tips-dataset-55 = 你可以把玻璃碎片焊接成玻璃板。
+mono-tips-dataset-56 = 右键点击玩家，然后点击心形图标，你可以快速检查他们的伤势或流血严重程度。你也可以对自己这样做。
 
-mono-tips-dataset-57 = You can tell if an area with firelocks up is spaced by looking to see if the firelocks have lights beside them.
-mono-tips-dataset-58 = Instead of picking it up, you can alt-click food to eat it. This also works for mice and other creatures without hands.
+mono-tips-dataset-57 = 你可以通过观察防火门旁边是否有灯来判断防火门升起的区域是否暴露在太空中。
+mono-tips-dataset-58 = 你可以Alt+点击食物直接吃掉它，而不必捡起来。这也适用于老鼠和其他没有手的生物。

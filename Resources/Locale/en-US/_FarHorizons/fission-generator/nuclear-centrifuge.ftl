@@ -1,4 +1,4 @@
-nuclear-centrifuge-insert-item = {CAPITALIZE(THE($user))} inserted {THE($item)} into {THE($machine)}.
+nuclear-centrifuge-insert-item = {CAPITALIZE(THE($user))} 将 {THE($item)} 放入了 {THE($machine)}。
 
-nuclear-centrifuge-wrong-item = You can't put {THE($item)} in here, it doesn't fit.
-nuclear-centrifuge-unfit-item = {THE($item)} isn't ready for reprocessing.
+nuclear-centrifuge-wrong-item = 你不能把 {THE($item)} 放在这里，它放不进去。
+nuclear-centrifuge-unfit-item = {THE($item)} 尚未准备好进行再处理。
