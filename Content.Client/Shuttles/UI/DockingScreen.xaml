@@ -36,12 +36,12 @@
             </controls:PanelContainer.PanelOverride>
         <controls:BoxContainer Orientation="Horizontal" HorizontalAlignment="Stretch" Margin="5 5 5 5">
             <controls:Button Name="FTLLockEnabledButton"
-                             Text="{controls:Loc '穿梭机控制台FTL锁启用'}"
+                             Text="{controls:Loc '启用'}"
                              ToggleMode="True"
                              HorizontalExpand="True"
                              StyleClasses="OpenRight"/>
             <controls:Button Name="FTLLockDisabledButton"
-                             Text="{controls:Loc '穿梭机控制台FTL锁禁用'}"
+                             Text="{controls:Loc '禁用'}"
                              ToggleMode="True"
                              HorizontalExpand="True"
                              StyleClasses="OpenLeft"/>
@@ -50,7 +50,7 @@
 
         <!-- Docks Section -->
         <controls1:StripeBack MinSize="48 48">
-            <controls:Label Text="{controls:Loc '穿梭机控制台停靠标签'}" HorizontalAlignment="Center"/>
+            <controls:Label Text="{controls:Loc '停靠标签'}" HorizontalAlignment="Center"/>
         </controls1:StripeBack>
         <controls:PanelContainer VerticalExpand="True" HorizontalExpand="True" Margin="4 4 4 4">
             <controls:PanelContainer.PanelOverride>
@@ -62,7 +62,7 @@
                         <graphics:StyleBoxFlat BorderThickness="2" BorderColor="#333333" BackgroundColor="#121212"/>
                     </controls:PanelContainer.PanelOverride>
         <controls:Button Name="UndockAllButton"
-                         Text="{controls:Loc '穿梭机控制台-全部解除对接'}"
+                         Text="{controls:Loc '全部解除对接'}"
                          Margin="5 5 5 5"
                          StyleClasses="ButtonSquare"/>
                 </controls:PanelContainer>

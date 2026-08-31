@@ -425,12 +425,8 @@
 - type: entity
   id: ShieldGeneratorSmall
   parent: ShieldGeneratorBase
-<<<<<<< HEAD
-  name: 'MS-100哨兵护盾发生器 | MS-100 "Sentinel" Shield Generator'
-=======
   name: MS-100 哨兵护盾发生器
   description: 哨兵。一面好用、可靠的护盾。
->>>>>>> upstream
   components:
   - type: ShipShieldEmitter
     damageLimit: 65000 # Mono

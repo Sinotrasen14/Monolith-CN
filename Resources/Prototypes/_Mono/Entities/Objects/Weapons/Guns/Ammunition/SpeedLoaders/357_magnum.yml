@@ -42,7 +42,7 @@
 - type: entity
   id: SpeedLoader357_magnumEmpty
   name: '快速装弹器（适用于任何.357 马格南子弹） | speed loader (.357 magnum any)'
-  parent: SpeedLoader45_magnumFMJ
+  parent: SpeedLoader357_magnumFMJ
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -60,7 +60,7 @@
 - type: entity
   id: SpeedLoader357_magnumIncendiary
   name: '快速装弹器（.357 口径马格南燃烧弹） | speed loader (.357 magnum incendiary)'
-  parent: SpeedLoader45_magnumFMJ
+  parent: SpeedLoader357_magnumFMJ
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge357_magnumIncendiary

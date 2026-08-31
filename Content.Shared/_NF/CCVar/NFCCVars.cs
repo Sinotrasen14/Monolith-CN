@@ -24,7 +24,7 @@ public sealed class NFCCVars
     /// Respawn time, how long the player has to wait in seconds after death, or on subsequent cryo attempts.
     /// </summary>
     public static readonly CVarDef<float> RespawnTime =
-        CVarDef.Create("nf14.respawn.time", 600.0f, CVar.SERVER | CVar.REPLICATED);
+        CVarDef.Create("nf14.respawn.time", 1200.0f, CVar.SERVER | CVar.REPLICATED);
 
     /// <summary>
     /// Whether or not returning from cryosleep is enabled.
@@ -165,12 +165,12 @@ public sealed class NFCCVars
     /// The shortest time to wait before a dead drop spawns a new smuggling note.
     /// </summary>
     public static readonly CVarDef<int> DeadDropMinTimeout =
-        CVarDef.Create("nf14.smuggling.min_timeout", 2700, CVar.REPLICATED);
+        CVarDef.Create("nf14.smuggling.min_timeout", 900, CVar.REPLICATED);
     /// <summary>
     /// The longest time to wait before a dead drop spawns a new smuggling note.
     /// </summary>
     public static readonly CVarDef<int> DeadDropMaxTimeout =
-        CVarDef.Create("nf14.smuggling.max_timeout", 7200, CVar.REPLICATED);
+        CVarDef.Create("nf14.smuggling.max_timeout", 5400, CVar.REPLICATED);
     /// <summary>
     /// The shortest distance that a smuggling pod will spawn away from Colonial Outpost.
     /// </summary>

@@ -104,7 +104,7 @@ ui-options-vp-vertical-fit-tooltip = 启用后，主视图在适应屏幕时将�
                                      视图在水平轴上将会被截断。
 ui-options-vp-low-res = 低分辨率图像
 ui-options-parallax-low-quality = 低质量视差（背景）
-ui-options-parallax-low-quality = 低质量视差（背景）
+ui-options-ambient-occlusion = 显示环境光遮蔽
 ui-options-fps-counter = 显示 FPS 计数器
 ui-options-vp-width = 图像宽度：
 ui-options-hud-layout = HUD布局：

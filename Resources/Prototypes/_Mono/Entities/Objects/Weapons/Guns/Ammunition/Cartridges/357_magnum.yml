@@ -32,7 +32,7 @@
 - type: entity
   id: Cartridge357_magnumPractice
   name: '子弹（.357 马格南练习弹） | cartridge (.357 magnum practice)'
-  parent: BaseCartridge45_magnum
+  parent: BaseCartridge357_magnum
   components:
   - type: CartridgeAmmo
     proto: Bullet357_magnumPractice

@@ -56,9 +56,9 @@
 
 - type: entity
   parent: BaseShipLPCOneUse
-  id: ShipVoucherUSSPBasic
-  name: 'USSP 基础航天飞机许可证 | USSP basic shuttle LPC'
-  description: '一张授权获取基础USSP穿梭机的小型卡片。 | A small card that authorizes the acquisition of a basic USSP shuttle.'
+  id: ShipVoucherTsfT0
+  name: TSFMC T0 ship 兑换卡
+  description: 允许免费购买一艘小型到中型 TSFMC 船只。出售时将被销毁。
   components:
   - type: Sprite
     sprite: _Mono/Objects/Misc/lpcnew.rsi

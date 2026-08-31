@@ -1056,13 +1056,8 @@
 - type: entity
   id: ThermobathMachineCircuitboard
   parent: BaseMachineCircuitboard
-<<<<<<< HEAD
-  name: 热板机电路板 丨 hotplate machine board
-  description: 用于热板机的机器印刷电路板。 丨 A machine printed circuit board for a hotplate.
-=======
-  name: thermobath machine board
-  description: A machine printed circuit board for a thermobath.
->>>>>>> upstream
+  name: 热板机电路板 丨 thermobath machine board
+  description: 用于热板机的机器印刷电路板。
   components:
     - type: MachineBoard
       prototype: MachineThermobath

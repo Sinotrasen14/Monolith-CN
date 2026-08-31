@@ -14,19 +14,19 @@ public sealed partial class CCVars
     ///     See vote.enabled, but specific to restart votes
     /// </summary>
     public static readonly CVarDef<bool> VoteRestartEnabled =
-        CVarDef.Create("vote.restart_enabled", true, CVar.SERVERONLY); // Frontier: false
+        CVarDef.Create("vote.restart_enabled", false, CVar.SERVERONLY); // Frontier: false
 
     /// <summary>
     ///     Config for when the restart vote should be allowed to be called regardless with less than this amount of players.
     /// </summary>
     public static readonly CVarDef<int> VoteRestartMaxPlayers =
-        CVarDef.Create("vote.restart_max_players", 2, CVar.SERVERONLY);
+        CVarDef.Create("vote.restart_max_players", 20, CVar.SERVERONLY);
 
     /// <summary>
     ///     Config for when the restart vote should be allowed to be called based on percentage of ghosts.
     /// </summary>
     public static readonly CVarDef<int> VoteRestartGhostPercentage =
-        CVarDef.Create("vote.restart_ghost_percentage", 5, CVar.SERVERONLY);
+        CVarDef.Create("vote.restart_ghost_percentage", 55, CVar.SERVERONLY);
 
     /// <summary>
     ///     See vote.enabled, but specific to preset votes
@@ -50,7 +50,7 @@ public sealed partial class CCVars
     /// Whether or not to prevent the restart vote from having any effect when there is an online admin
     /// </summary>
     public static readonly CVarDef<bool> VoteRestartNotAllowedWhenAdminOnline =
-        CVarDef.Create("vote.restart_not_allowed_when_admin_online", false, CVar.SERVERONLY);
+        CVarDef.Create("vote.restart_not_allowed_when_admin_online", true, CVar.SERVERONLY);
 
     /// <summary>
     ///     The delay which two votes of the same type are allowed to be made by separate people, in seconds.
