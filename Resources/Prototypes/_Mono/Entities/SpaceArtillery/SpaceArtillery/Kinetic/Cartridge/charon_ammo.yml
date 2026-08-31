@@ -75,7 +75,7 @@
 
 - type: entity
   id: CharonSubnuclearSlugAmmo
-  name: 'M381 卡戎 280mm  26.5公斤 亚核弹壳子弹 | M381 CHARON 280mm 26.5kg subnuclear slug cartridge'
+  name: M381 CHARON 280mm 1.5千吨 亚核弹药筒
   description: 核弹。大屠杀。一体化套装，包含等离子气体助燃剂和低当量裂变弹头。可能引发公众抗议，但你-真的-得用了，对吧？
   parent: BaseGrenade
   components:

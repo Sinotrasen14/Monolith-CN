@@ -122,7 +122,7 @@ uplink-security-flyssa-voucher-name = TSFMC Flyssa LPC [T4]
 uplink-security-flyssa-voucher-desc = 一张小卡片，包含从旗舰储备中采购Flyssa级驱逐舰的数据。
 
 uplink-security-sentry-mk290-name = MK-290 哨兵炮塔部署系统
-uplink-security-sentry-mk290-desc = 一种多用途便携式哨兵炮塔，可使用5.56x45mm、6.8x52mm和7.62x39mm弹匣供弹。放置后需要螺丝刀才能拆解。
+uplink-security-sentry-mk290-desc = 一种多用途便携哨兵机，可以使用5.56x45mm、6.8x52mm和7.62x39mm弹匣。放置后需要螺丝刀才能拆卸。不附带弹药，打包前为空。
 
 uplink-security-hardsuit-m82b-name = M82b 硬甲服
 uplink-security-hardsuit-m82b-desc = M-82c的核生化防护变体，通常由医护兵使用。

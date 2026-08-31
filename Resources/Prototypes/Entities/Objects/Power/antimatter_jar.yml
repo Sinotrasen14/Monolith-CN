@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseItem
   id: AmeJar
-  name: IRE 反物质引擎燃料罐
-  description: 一个密封罐，内装用于反物质反应堆的反物质。
+  name: IRE 同位素罐
+  description: 一个密封罐，里面装有用于同位素反应引擎的挥发性同位素。不要触发它的释放机制。
   components:
   - type: Item
     size: Normal
@@ -27,15 +27,29 @@
         !type:DamageTrigger
         damage: 1000
       behaviors:
+      - !type:TimerStartBehavior
+    - trigger:
+        !type:DamageTrigger
+        damage: 1200
+      behaviors:
       - !type:DoActsBehavior
-        acts: ["Destruction"]
-      - !type:ExplodeBehavior
+        acts: [ "Destruction" ]
   - type: Explosive # Mono
-    explosionType: Default
-    maxIntensity: 50
-    intensitySlope: 2
-    totalIntensity: 375
+    explosionType: Radioactive
+    maxIntensity: 100
+    intensitySlope: 4
+    totalIntensity: 150
   - type: Damageable # Mono
     damageContainer: StructuralInorganic
     damageModifierSet: StructuralMetallicStrong
+  - type: ExplodeOnTrigger
+  - type: OnUseTimerTrigger
+    delay: 30
+    useVerbInstead: true
+    beepSound:
+      path: "/Audio/Effects/beep1.ogg"
+      params:
+        volume: 4
+    initialBeepDelay: 0
+    beepInterval: 5 # 2 beeps total (at 0 and 2)
 # End of modified code

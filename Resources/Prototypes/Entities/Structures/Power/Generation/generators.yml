@@ -250,11 +250,11 @@
   parent: BaseGenerator
   id: GeneratorRTG
   name: 放射性同位素热电发电机 丨 RTG
-  description: 一种用于长期供电的放射性同位素热电发电机。 丨 A Radioisotope Thermoelectric Generator for long term power.
-  suffix: 10kW
+  description: 用于长期供电的放射性同位素热电发生器。
+  suffix: 40kW # Mono 10kW -> 40kW
   components:
   - type: PowerSupplier
-    supplyRate: 10000 # supposed to be low power at no fuel cost to power derelicts
+    supplyRate: 40000 # Mono
     heatSignatureRatio: 16 # Mono
   - type: ThermalSignature # Mono
   - type: Sprite
@@ -306,11 +306,11 @@
   parent: GeneratorRTG
   id: GeneratorRTGDamaged
   name: 受损的放射性同位素热电发电机 丨 damaged RTG
-  description: 一台用于长期供电的放射性同位素热电发电机。该设备的屏蔽层已受损。 丨 A Radioisotope Thermoelectric Generator for long term power. This one has damaged shielding.
-  suffix: 10kW
+  description: 一台用于长期供电的放射性同位素热电发电机。该设备的屏蔽层已受损。
+  suffix: 40kW # Mono 10kW -> 40kW
   components:
   - type: PowerSupplier
-    supplyRate: 10000
+    supplyRate: 40000 # Mono
   - type: Sprite
     sprite: Structures/Power/Generation/rtg.rsi
     layers:
