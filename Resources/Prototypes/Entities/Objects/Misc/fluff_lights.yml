@@ -192,7 +192,7 @@
   name: 泛光灯 丨 floodlight
   id: Floodlight
   parent: BaseLamp
-  description: 一根装有强力照明灯的杆子。 丨 A pole with powerful mounted lights on it.
+  description: 一根安装了强力灯的杆子。不消耗电力，但需要有电池。
   components:
   - type: Item
     size: Normal
@@ -219,7 +219,7 @@
     radius: 8
     energy: 5
   - type: HandheldLight
-    wattage: 0.3 # Mono
+    wattage: 0 # Mono
   - type: ItemSlots
     slots:
       cell_slot:

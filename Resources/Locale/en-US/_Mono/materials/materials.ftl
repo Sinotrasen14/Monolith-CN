@@ -10,6 +10,9 @@ stack-uraniumfissile = 裂变铀
 materials-uraniumdepleted = 贫铀
 stack-uraniumdepleted = 贫铀
 
+materials-pdvcomposite = adamantite
+stack-pdvcomposite = adamantite
+
 # Industry
 
 # Ores

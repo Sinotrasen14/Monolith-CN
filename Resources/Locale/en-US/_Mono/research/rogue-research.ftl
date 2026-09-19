@@ -16,7 +16,7 @@ research-technology-pdv-ias = PDV 心肺仿生学
 research-technology-rogue-tier-one-vouchers = PDV 1级船坞生产
 
 # T2 rogue
-research-technology-rogue-advanced-guns = 高级弹道学
+research-technology-rogue-advanced-guns = 反坦克武器
 research-technology-rogue-hypospray = 快速试剂注射
 research-technology-rogue-emag = 便携式入侵程序
 research-technology-rogue-advanced-melee-weapon = 高级近战武器化
@@ -33,3 +33,4 @@ research-technology-rogue-hf-sword = 武器化共振技术
 research-technology-rogue-syndicate-tacsuits = 超材料纤维
 research-technology-pdv-advanced-module = PDV 高级赛博格模块研发
 research-technology-rogue-heavy-weapons = 重型弹道学
+research-technology-PDV-large-explosives= PDV 硬核炸弹

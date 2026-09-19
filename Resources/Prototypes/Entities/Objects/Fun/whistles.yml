@@ -44,8 +44,8 @@
 - type: entity
   parent: BaseWhistle
   id: SyndicateWhistle
-  name: 战壕哨 丨 trench whistle
-  description: 协约国指挥官用于吸引注意力的哨子。前进！ 丨 A whistle used by Syndicate commanders to draw attention. Avanti!
+  name: 战壕哨
+  description: 老指挥官用来引起注意的哨子。前进！
   components:
   - type: Sprite
     state: trench

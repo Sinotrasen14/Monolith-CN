@@ -10,8 +10,9 @@
       department: Security
       time: 0 # 25 hours - mono
     - !type:RoleTimeRequirement
-      role: JobWarden
-      time: 18000 # 5 hours - mono
+      role: JobSeniorOfficer
+      time: 10800 # 3 hours
+  enforcedPlayTime: true #Monolith
   whitelisted: true
   startingGear: SheriffGear
   alwaysUseSpawner: true
@@ -31,6 +32,8 @@
   - Sergeant
   - Armory
   - Frontier #Mono End
+  guides:
+  - TSFMC_Entry
   special:
   - !type:AddComponentSpecial
     components:
@@ -65,3 +68,4 @@
     - RubberStampTSFColonel #Mono. Look, it had comments on the Bailiff/Captain file.
     - TSFHandheldOverwatchConsole
     - BookTSFSOP
+    - WarDeclaratorTsf

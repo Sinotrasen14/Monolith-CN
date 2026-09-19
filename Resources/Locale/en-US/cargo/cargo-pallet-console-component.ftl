@@ -1,9 +1,9 @@
 
 # Cargo pallet sale console
-cargo-pallet-console-menu-title = Cargo sale console
-cargo-pallet-menu-appraisal-label = Estimated Value:{" "}
-cargo-pallet-menu-count-label = Number of sale items:{" "}
-cargo-pallet-menu-crate-multiplier-label = Trade crate multiplier:{" "}
-cargo-pallet-menu-other-multiplier-label = Other multiplier:{" "}
-cargo-pallet-appraise-button = Appraise
-cargo-pallet-sell-button = Sell
+cargo-pallet-console-menu-title = 货物销售控制台
+cargo-pallet-menu-appraisal-label = 预计价值:{" "}
+cargo-pallet-menu-count-label = 销售商品数量:{" "}
+cargo-pallet-menu-crate-multiplier-label = 贸易箱倍数:{" "}
+cargo-pallet-menu-other-multiplier-label = 其他乘数:{" "}
+cargo-pallet-appraise-button = 评估
+cargo-pallet-sell-button = 出售

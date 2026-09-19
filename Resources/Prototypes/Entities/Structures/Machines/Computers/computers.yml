@@ -808,8 +808,8 @@
 - type: entity
   parent: ComputerComms
   id: SyndicateComputerComms
-  name: 辛迪加通讯计算机 丨 syndicate communications computer
-  description: 一台能够远程入侵空间站通信系统的计算机。使用它发布公告会暴露你的行踪。 丨 A computer capable of remotely hacking into the station's communications systems. Using this to make an announcement will alert the station to your presence.
+  name: 古老的通讯电脑 # mono
+  description: 一个老旧的电信接口，能够使用连接的广播设备在大多数无线电频率上发送信息。人们肯定会听到你使用它。
   components:
   - type: Sprite
     layers:
@@ -818,7 +818,7 @@
     - map: ["computerLayerKeyboard"]
       state: generic_keyboard
     - map: ["computerLayerScreen"]
-      state: comm_syndie
+      state: comm
     - map: ["computerLayerKeys"]
       state: syndie_key
     - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
@@ -827,16 +827,16 @@
     access: [[ "NuclearOperative" ]]
   - type: CommunicationsConsole
     title: comms-console-announcement-title-nukie
-    color: "#ff0000"
+    color: "#ba6363" # mono
     canShuttle: false
-    global: true #announce to everyone they're about to fuck shit up
-    sound: /Audio/Announcements/war.ogg
+    global: true
+    sound: /Audio/_Mono/Effects/Alerts/spo15_launch.ogg # mono
   - type: Computer
     board: SyndicateCommsComputerCircuitboard
   - type: PointLight
     radius: 1.5
     energy: 1.6
-    color: "#f71713"
+    color: "#ba6363"
 
 - type: entity
   parent: ComputerComms

@@ -188,9 +188,9 @@
 - type: entity
   parent: EncryptionKey
   id: EncryptionKeySecurity
-  name: 殖民安全加密密钥 # 单声道 丨 colonial security encryption key # mono
+  name: caelestinus 安全加密密钥 # mono
   categories: [ DoNotMap ] # Frontier
-  description: 殖民安全部门使用的加密密钥。# 单声道 丨 An encryption key used by Colonial security. # Mono
+  description: 殖民安全部门使用的加密密钥。 # Mono
   components:
   - type: EncryptionKey
     channels:
@@ -204,7 +204,7 @@
 - type: entity
   parent: [EncryptionKey, RecyclableItemDeviceTiny]
   id: EncryptionKeyService
-  name: 殖民站人员加密密钥 丨 colonial staff encryption key # Mono
+  name: caelestinus 人员加密密钥 # Mono
   categories: [ DoNotMap ] # Frontier
   description: 服务人员使用的加密密钥，其职责是确保空间站人员充足、心情愉悦且环境整洁。 丨 An encryption key used by the service staff, tasked with keeping the station full, happy and clean.
   components:

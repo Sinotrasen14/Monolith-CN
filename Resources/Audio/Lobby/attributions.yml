@@ -114,11 +114,6 @@
   copyright: "明日方舟."
   source: "net"
 
-- files: ["准备出发.ogg"]
-  license: "Custom"
-  copyright: "蔚蓝档案."
-  source: "net"
-
 - files: ["守望先锋中城.ogg"]
   license: "Custom"
   copyright: "最喜欢的地图."
@@ -155,6 +150,16 @@
   source: "net"
 
 - files: ["Cipher3301.ogg"]
+  license: "Custom"
+  copyright: "KKSK"
+  source: "net"
+
+- files: ["迈阿密热线Dust.ogg"]
+  license: "Custom"
+  copyright: "KKSK"
+  source: "net"
+
+- files: ["P3r-Color_Your_Night.ogg"]
   license: "Custom"
   copyright: "KKSK"
   source: "net"

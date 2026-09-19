@@ -17,18 +17,26 @@ armor-plate-gait-walk = 行走速度
 armor-plate-gait-sprint = 奔跑速度
 
 armor-plate-speed-display =
-    { $deltasign ->
-        [-1] 将你的{$gait}提高[color=yellow]{$speedPercent}%[/color]。
-         [0] 不影响你的速度。
-         [1] 将你的{$gait}降低[color=yellow]{$speedPercent}%[/color]。
+    { $stringClause ->
+         [1] 将你的{$gait}提高[color=yellow]{$speedPercent}%[/color]。
+         [-1] 将你的{$gait}降低[color=yellow]{$speedPercent}%[/color]。
         *[other] 不应该有这个速度值！
     }
 
 armor-plate-ratios-display =
-    { $deltasign ->
-        [-1] [color=cyan]吸收[/color][color=yellow]{$dmgType}[/color]的[color=yellow]{$ratioPercent}%[/color]，并承受[color=yellow]x{$multiplier}[/color]耐久伤害。
-         [0] 不受{$dmgType}影响
-         [1] [color=fuchsia]放大[/color][color=yellow]{$dmgType}[/color][color=yellow]{$ratioPercent}%[/color]，并承受额外伤害的[color=yellow]x{$multiplier}[/color]耐久伤害。
-        *[other] {$dmgType}不应该有这个吸收值！
+    { $stringClause ->
+        [1] [color=cyan]吸收[/color] [color=yellow]{$ratioPercent}%[/color] 于 [color=yellow]{$dmgType}[/color]
+        [-1] [color=fuchsia]增加[/color] [color=yellow]{$dmgType}[/color] 于 [color=yellow]{$ratioPercent}%[/color]
+        [0] 不影响 [color=yellow]{$dmgType}[/color]
+       *[other] {$dmgType} 不应该有这个吸收值！
     }
-armor-plate-stamina-value = 将[color=yellow]{$multiplier}%[/color]的吸收伤害转化为体力伤害。
+
+armor-plate-multiplier-display = 并扣除 [color=yellow]{$multiplier}%[/color] 来自耐久度的原始伤害值。
+armor-plate-multiplier-none = 并且不会损坏护甲板。
+
+armor-plate-stamina-source-absorb = [color=cyan]吸收[/color]
+armor-plate-stamina-concat = 和
+armor-plate-stamina-source-amplified = [color=fuchsia]放大[/color]
+armor-plate-stamina-source-raw = [color=red]所有正面伤害[/color]
+armor-plate-stamina-value = 造成 [color=yellow]{$multiplier}%[/color] 于 {$sources} 作为耐力伤害
+

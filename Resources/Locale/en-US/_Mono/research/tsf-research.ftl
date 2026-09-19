@@ -30,4 +30,5 @@ research-technology-tsfmc-super-ballistics = 武器现代化
 research-technology-tsfmc-synthalloy = 实验材料科学
 research-technology-tsfmc-advanced-module = TSFMC 高级赛博格模块研发
 research-technology-tsfmc-sandevistan = TSFMC Sandevistan 逆向工程
-research-technology-tsfmc-shunt = TSFMC 黑站控制学
+research-technology-tsfmc-shunt = TSFMC 黑域网络科技
+research-technology-tsfmc-large-explosives = TSFMC 硬核炸弹

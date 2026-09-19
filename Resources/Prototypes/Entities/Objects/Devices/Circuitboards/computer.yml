@@ -333,8 +333,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: SyndicateCommsComputerCircuitboard
-  name: 辛迪加通信计算机板 丨 syndicate communications computer board
-  description: 一块用于集团通信控制台的计算机印刷电路板。 丨 A computer printed circuit board for a syndicate communications console.
+  name: 古老的通信电脑板
+  description: 一块用于旧通信控制台的电脑印刷电路板。
   components:
     - type: Sprite
       state: cpu_syndicate

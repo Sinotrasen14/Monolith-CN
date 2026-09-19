@@ -1905,3 +1905,27 @@
   name: LastChristmas
   path:
     path: /Audio/Jukebox/LastChristmas.ogg
+
+- type: jukebox
+  id: 雨爱
+  name: 雨爱
+  path:
+    path: /Audio/Jukebox/雨爱.ogg
+
+- type: jukebox
+  id: 迈阿密热线Dust
+  name: 迈阿密热线Dust
+  path:
+    path: /Audio/Jukebox/迈阿密热线Dust.ogg
+
+- type: jukebox
+  id: P3r-Color_Your_Night
+  name: P3r-Color_Your_Night
+  path:
+    path: /Audio/Jukebox/P3r-Color_Your_Night.ogg
+
+- type: jukebox
+  id: BF5-Beat_The_Devils_Tatoo
+  name: BF5-Beat_The_Devils_Tatoo
+  path:
+    path: BF5-Beat_The_Devils_Tatoo.ogg

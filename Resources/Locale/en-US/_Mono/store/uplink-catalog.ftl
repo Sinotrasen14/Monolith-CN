@@ -15,3 +15,17 @@ uplink-faction-lathe-desc = 一台能够组装从你阵营研发服务器研究�
 
 uplink-letoferol-name = Letoferol 注射器
 uplink-letoferol-desc = 一支雷托费罗注射器就能摧毁整个区域。
+
+# materials
+
+uplink-faction-materials-basic-name = 基础材料箱
+uplink-faction-materials-basic-desc = 一个装有50张钢板、塑料板、玻璃板和布料的箱子。
+
+uplink-faction-materials-industrial-name = 工业材料箱
+uplink-faction-materials-industrial-desc = 一个箱子，里面有50张铜片、锂片、塑钢板和杜拉棉。
+
+uplink-faction-materials-advanced-name = 高级材料箱
+uplink-faction-materials-advanced-desc = 一个箱子里装着50张等离子体、铀、黄金和白银。
+
+uplink-faction-materials-exotic-name = 异国材料箱
+uplink-faction-materials-exotic-desc = 一个箱子，里面有10片塑钛钢，5根贫化铀棒，和3块裂变铀板。

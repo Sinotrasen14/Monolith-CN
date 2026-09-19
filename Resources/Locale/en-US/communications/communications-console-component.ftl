@@ -26,7 +26,7 @@ comms-console-announcement-unknown-sender = 未知发送人
 # Comms console variant titles
 comms-console-announcement-title-station = 通讯控制台
 comms-console-announcement-title-centcom = 中央指挥部
-comms-console-announcement-title-nukie = 辛迪加核作战员
+comms-console-announcement-title-nukie = 未知来源
 comms-console-announcement-title-station-ai = 空间站人工智能
 comms-console-announcement-title-wizard = 巫师
 

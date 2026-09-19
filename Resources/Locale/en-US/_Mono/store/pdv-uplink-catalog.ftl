@@ -45,7 +45,7 @@ uplink-pirate-medical-assembler-desc = 一台可用于制作实用医疗物资�
 # MARK: Utility
 
 uplink-pirate-wearable-camerapdv-name = 无线摄像头
-uplink-pirate-wearable-camerapdv-desc = 用于监控作战区域的摄像头。可佩戴或放置在某处。
+uplink-pirate-wearable-camerapdv-desc = 用于监视作战区域的相机。可以佩戴或放置在某个地方，配备变色龙技术，可以伪装成任何类型的项链饰品。
 
 uplink-pirate-romerol-name = romerol注射器
 uplink-pirate-romerol-desc = 一种在以往战争中使用的生物武器，已被严厉禁止。显然走私这东西花了不少功夫。能让死者复生。
@@ -59,11 +59,17 @@ uplink-pirate-syndicate-magboots-desc = 一双可防止滑倒的靴子，在零�
 uplink-pirate-syndicate-jetpack-name = 黑色喷气背包
 uplink-pirate-syndicate-jetpack-desc = 一个黑色喷气背包。可让你在太空中飞行。不含燃料补充，请明智使用燃料。
 
+uplink-pirate-teleshield-name = 伸缩盾
+uplink-pirate-teleshield-desc = 一款可伸缩的手持盾牌，提供出色的保护。
+
 uplink-pirate-energy-shield-name = 能量护盾
-uplink-pirate-energy-shield-desc = 一面异域能量护盾，能反射几乎所有激光束，并对子弹和其他物理攻击提供少量防护。
+uplink-pirate-energy-shield-desc = 奇异能量盾，可以反射几乎所有激光束，同时对子弹和其他物理攻击也有一点保护。
 
 uplink-pirate-radio-jammer-name = 无线电干扰器
 uplink-pirate-radio-jammer-desc = 该设备启动后会干扰附近所有发出的无线电通讯以及防护服传感器。
+
+uplink-pirate-overwatch-jammer-name = 先锋监视干扰器
+uplink-pirate-overwatch-jammer-desc = 这个装置可以防止守望主机检测到它附着的尸体。搬运尸体去太阳神号之前一定要先装上一个！
 
 uplink-pirate-hypopen-name = 隐形注射笔
 uplink-pirate-hypopen-desc = 一支伪装成钢笔的化学低压注射器，能瞬间注射最多10u的试剂。初始为空。
@@ -88,6 +94,24 @@ uplink-pirate-comms-computer-circuitboard-desc = 一块用于PDV通讯控制台�
 
 uplink-pirate-security-cyborg-module-name = 安保赛博格模块
 uplink-pirate-security-cyborg-module-desc = 一把弯刀、一把能量枪和一根眩晕警棍，专为赛博格设计。等等，TFSMC不是有一样的东西吗？
+
+uplink-pirate-voicemask-name = 变色龙语音掩码
+uplink-pirate-voicemask-desc = 一个可以用来搞点小伎俩和恶作剧的语音面具……或者只是为了隐藏你的身份。在先锋无线电上说话时掩盖你的声音是极力建议的。
+
+uplink-pirate-blank-id-name = 空白ID卡
+uplink-pirate-blank-id-desc = 一张空白的流浪者身份证，没有任何识别特征。可以在Helios的身份证控制台上随心定制。
+
+uplink-pirate-chameleon-pda-name = 变色龙PDA
+uplink-pirate-chameleon-pda-desc = 一款带有变色龙技术的PDA，让你可以隐藏自己的真实立场。
+
+uplink-pirate-chameleon-headset-name = 变色龙耳机
+uplink-pirate-chameleon-headset-desc = 一款内置变色龙技术的耳机，让你可以隐藏自己的真实立场。
+
+uplink-pirate-chameleon-backpack-name = 变色龙背包
+uplink-pirate-chameleon-backpack-desc = 一个带有变色龙技术的背包，让你可以隐藏自己的真实立场。不包括任何内部物品。
+
+uplink-pirate-dna-scrambler-name = DNA 搅拌器植入器
+uplink-pirate-dna-scrambler-desc = 一种相对罕见的植入物，可以让你一次性完全改变身份。
 
 uplink-pirate-cash10000-name = 10,000信用点
 uplink-pirate-cash10000-desc = 好小子，你让我今天心情大好。
@@ -125,11 +149,23 @@ uplink-pirate-laser-gun-desc = 一把民用级武器，利用受激辐射放大�
 uplink-pirate-c20-name = C-20r套装
 uplink-pirate-c20-desc = 一把9x19mm轻型冲锋枪，附带几个弹匣。
 
-uplink-pirate-atreides-name = Atreides套装
-uplink-pirate-atreides-desc = 一把5.8单手轻型冲锋枪，附带一些弹匣。
+uplink-pirate-vympel-name = 标杆
+uplink-pirate-vympel-desc = 一把便宜的5.56x45毫米犊牛式步枪。
+
+uplink-pirate-sultan-pulsar-name = 苏丹的脉冲星
+uplink-pirate-sultan-pulsar-desc = 一把4号口径的猎枪，射击散布非常集中。
+
+uplink-pirate-atreides-name = 亚特雷ides礼包
+uplink-pirate-atreides-desc = 一把5.7x28毫米的单手轻型冲锋枪，配有一些弹匣。
 
 uplink-pirate-bulldog-name = Bulldog套装
 uplink-pirate-bulldog-desc = 一把自动12 gauge霰弹枪，附带几个弹鼓。
+
+uplink-pirate-m90-name = M-90
+uplink-pirate-m90-desc = 一款紧凑型犊牛式7.62x51毫米战斗步枪，设计上能以突击步枪的射速开火。
+
+uplink-pirate-mla73-name = MLA-73
+uplink-pirate-mla73-desc = 一款亚音速、精准的冲锋枪，使用6.35x40mm 无壳子弹，对装甲有效。紧急情况下也可以用9x19mm。
 
 uplink-pirate-vt7-name = VT7高频刀
 uplink-pirate-vt7-desc = 一把高品质高频刀。
@@ -145,6 +181,12 @@ uplink-pirate-wspr-desc = 针对TSFMC的Annie的对策武器。使用相同的7.
 
 uplink-pirate-burner-name = Burner重型步枪
 uplink-pirate-burner-desc = 一把破坏性的12.7x99mm步枪。支持HE弹药。破坏力惊人。
+
+uplink-pirate-basilisk-name = Basilisk DEW
+uplink-pirate-basilisk-desc = 一把逆向工程的辐射步枪。对电磁脉冲免疫，而且它的光束用肉眼看不见。
+
+uplink-pirate-hristov-name = 赫里斯托夫套装
+uplink-pirate-hristov-desc = 一把14.5x114毫米的反器材步枪，能发射毁灭性的子弹，彻底穿透人体，轻松击穿机甲、全息屏障、硬盾或气闸。
 
 uplink-pirate-blueprint-launcher-rocket-name = RPG-7蓝图
 uplink-pirate-blueprint-launcher-rocket-desc = RPG-7及其弹药的蓝图。适合长期恐怖活动！
@@ -166,8 +208,11 @@ uplink-pirate-magazine-box-357_magnum-desc = 一个装有4个.357 magnum快装�
 uplink-pirate-light-rifle-magazine-box-big-name = 弹药箱（7.62x39mm FMJ）
 uplink-pirate-light-rifle-magazine-box-big-desc = 一个装有200发7.62x39mm弹药的盒子。
 
-uplink-pirate-shell-box-lethal-name = 霰弹盒（致命）
-uplink-pirate-shell-box-lethal-desc = 一个装有16发12 gauge霰弹的盒子。
+uplink-pirate-shell-box-lethal-name = 12号径 霰弹盒（致命）
+uplink-pirate-shell-box-lethal-desc = 一盒装有32发12号猎枪弹的子弹。
+
+uplink-pirate-shell-box-4g-name = 4号径 霰弹盒（致命）
+uplink-pirate-shell-box-4g-desc = 一盒装有32发4号猎枪弹的子弹。
 
 uplink-pirate-smg-ammo-box-name = 弹药箱（9x19mm FMJ）
 uplink-pirate-smg-ammo-box-desc = 一个装有60发9x19mm手枪弹药的盒子。可用于装填冲锋枪弹匣。
@@ -179,7 +224,19 @@ uplink-pirate-box-bulldog-slug-ammo-name = 一盒12 gauge独头弹弹鼓
 uplink-pirate-box-bulldog-slug-ammo-desc = 一个装有4个12 gauge独头弹霰弹鼓的盒子。
 
 uplink-pirate-box-smg-magazine-name = 一盒9x19mm冲锋枪弹匣
-uplink-pirate-box-smg-magazine-desc = 一个装满3个9x19mm冲锋枪弹匣的盒子。
+uplink-pirate-box-smg-magazine-desc = 一个装满4个9x19mm冲锋枪弹匣的盒子。
+
+uplink-pirate-box-5-7x28mm-smg-name = 一盒5.7x28mm冲锋枪弹匣
+uplink-pirate-box-5-7x28mm-smg-desc = 一盒装有4个适用于阿特雷德斯的5.7x28毫米冲锋枪弹匣，对装甲非常有效。
+
+uplink-pirate-7-62x51mmMagazine-name = 7.62x51mm 弹夹
+uplink-pirate-7-62x51mmMagazine-desc = 一个装有4个填充了7.62x51mm子弹的弹匣的盒子。
+
+uplink-pirate-6-35x40mm-magazine-name = 6.35x40mm 无壳弹匣
+uplink-pirate-6-35x40mm-magazine-desc = MLA-73 的亚音速弹匣，对装甲有效。
+
+uplink-pirate-10phz-magazine-name = 10Phz DEW 弹夹
+uplink-pirate-10phz-magazine-desc = Basilisk用的放射性定向能武器弹匣。
 
 uplink-subsonic-mag-name = 7.62x39mm亚音速步枪弹匣
 uplink-subsonic-mag-desc = 支持WSPR。
@@ -209,6 +266,22 @@ uplink-pirate-blast-grenade-desc = 一枚用于China Lake的40mm温压手榴弹�
 
 uplink-pirate-combat-hardsuit-name = SCAF战术服
 uplink-pirate-combat-hardsuit-desc = PDV军事组织的基础防护装备。
+
+uplink-pirate-cv32-hardsuit-name = CV-32 战斗硬装
+uplink-pirate-cv32-hardsuit-desc = 一套装备了出色防弹护盾的硬壳服，不过在其他方面相当欠缺。
+
+uplink-pirate-cv53-tacsuit-name = CV-53 战斗硬装
+uplink-pirate-cv53-tacsuit-desc = 一套配备了内置护盾发生器以及出色环境和激光防护的战术服。不过，护盾本身对激光很脆弱，而护甲对弹道武器也不太抗打。
+
+uplink-pirate-cv82-tacsuit-name = CV-82 战斗硬装
+uplink-pirate-cv82-tacsuit-desc = 一套灵活的战术服，配备了内置的动作预测功能，可以加快穿戴者的移动速度。
+
+uplink-pirate-juggernaut-hardsuit-name = 巨兽重装甲
+uplink-pirate-juggernaut-hardsuit-desc = 这套重装战甲的蓝图直接来源于苏丹本人，能够轻松抵挡各种攻击。装备非常重。
+
+uplink-pirate-stealth-hardsuit-name = 隐身重装甲服
+uplink-pirate-stealth-hardsuit-desc = 这套重装甲的设计图源自苏丹本人，它用装甲板换成能够自动融入周围环境的隐形板。
+
 
 uplink-pirate-viper-group-standard-hardsuit-name = 毒蛇小队JACKAL硬甲服
 uplink-pirate-viper-group-standard-hardsuit-desc = 一件饰有毒蛇小队标志性印记的重型硬甲服。其护甲在同等防护下异常灵活，并内置夜视系统。
@@ -320,3 +393,17 @@ uplink-pdv-t3-kortik-voucher-desc = 一张小卡片，内含从旗舰储备中�
 
 uplink-pdv-t4-saturn-voucher-name = PDV Saturn LPC [T4]
 uplink-pdv-t4-saturn-voucher-desc = 一张小卡片，授权采购Saturn。
+
+uplink-HardBomb-PDV-name = PDV “亚当”掘地炸弹
+uplink-HardBomb-PDV-desc = PDV 对不够劲爆的回应
+
+# MARK: Materials
+
+uplink-pdv-composite5-name = 5 坚硬金属
+uplink-pdv-composite5-desc = 申请一些高级合金。
+
+uplink-pdv-composite15-name = 15 坚硬金属
+uplink-pdv-composite15-desc = 申请大量高级合金。
+
+uplink-pdv-composite30-name = 30 坚硬金属
+uplink-pdv-composite30-desc = 征用大量高级合金。

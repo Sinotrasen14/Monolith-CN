@@ -134,4 +134,7 @@ uplink-security-pulserifle-name = Pulse Rifle
 uplink-security-pulserifle-desc = 大型自动脉冲武器。更大的电池，更高的威力，非常适合扫荡成群的敌人。
 
 uplink-security-wearable-cameratsf-name = 无线摄像头
-uplink-security-wearable-cameratsf-desc = 用于监控作战区域的摄像头。可以佩戴或放置在某处。
+uplink-security-wearable-cameratsf-desc = 用于监视作战区域的摄像头。可以佩戴或放在某个地方。
+
+uplink-HardBomb-TSF-name = TSF “广岛”钻地炸弹
+uplink-HardBomb-TSF-desc = TSF 对不够劲爆的回应

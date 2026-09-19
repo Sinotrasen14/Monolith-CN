@@ -6,6 +6,7 @@ store-category-pirateutility = 工具
 store-category-pirateammo = 弹药
 store-category-pirateexplosives = 爆炸物
 store-category-pdvvouchers = 兑换卡券
+store-category-pdvmaterials = 材料
 store-category-pirategambling = 碰碰运气
 # Mono edit end
 

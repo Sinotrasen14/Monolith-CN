@@ -13,8 +13,8 @@ mono-mixed-description = 本土PDV帝国势力威胁TSF在该地区的殖民扩�
 mono-tsfussp-title = 冷战 (TSF|USSP)
 mono-tsfussp-description = TSF的殖民努力受到USSP扩张的威胁。当地的TSFMC分遣队与USSP殖民部队之间正处于冷战状态。
 
-mono-standard-title = 标准 (TSF|PDV)
-mono-standard-description = 本地 PDV 帝国势力威胁 TSF 在该区域的殖民扩张。
+mono-standard-title = 叛乱【标准模式】 (TSF|PDV)
+mono-standard-description = 太阳联邦在殖民巨像星区的努力因为一场神权起义而陷入危险，平民卷入了交火之中。
 
 mono-ads-title = 残存者 (TSF|PDV)
 mono-ads-description = 本地PD帝国势力威胁TSF在该区域的殖民扩张。TSF海军陆战队的分遣队之间存在紧张的冷战局势。破碎前的战士和防御系统威胁着他们的计划。
@@ -22,7 +22,13 @@ mono-ads-description = 本地PD帝国势力威胁TSF在该区域的殖民扩张�
 mono-chimera-title = 生物威胁 (TSF|PDV)
 mono-chimera-description = 本地PDV帝国势力威胁TSF在该星区的殖民扩张。遥远的莱托费醇爆发影响逐渐渗入。
 
-mono-allatonce-title = 末日（所有，3hr）
+mono-chimera-tsf-title = 生物威胁 (TSF, 3hr)
+mono-chimera-tsf-description = 在成功保卫科洛苏斯区后，联邦努力维持它的稳定，同时一件毁灭性的生物武器在里面肆虐。
+
+mono-chimera-pdv-title = 生物威胁S (PDV, 3hr)
+mono-chimera-pdv-description = 在成功击退联邦后，王朝现在必须在灾难性的生物武器在巨像区肆虐的情况下生存下来。
+
+mono-allatonce-title = 末日 (ALL, 3hr)
 mono-allatonce-description = 这是PDV和TSF部队的战场，古老的ADS系统和奇美拉生物武器正在渗入其中。
 
 mono-secret-title = 秘密 (?)

@@ -12,6 +12,7 @@ bank-atm-menu-deposit-button = 存款
 bank-atm-reason-label = 用途:{" "}
 bank-atm-description-label = 备注说明:{" "}
 bank-atm-menu-withdraw-amount = 取款金额
+bank-atm-menu-untaxed = 免税！
 
 vending-machine-menu-cash-slot-label = 现金插槽：{" "}
 

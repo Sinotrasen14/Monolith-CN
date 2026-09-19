@@ -356,7 +356,7 @@
 
 - type: entity
   name: VCD QSH-13 脉冲手枪
-  parent: BaseWeaponBatterySmall
+  parent: [BaseWeaponBatterySmall, BaseFactionGearTSFT3] # Mono
   id: WeaponPulsePistol
   description: 脉冲手枪是TSF脉冲步枪的紧凑版。虽然它使用相同的自充能技术，但电池更小，使它不适合在战场上长时间使用。不过，它在TSFN和TSFMC的军官手中还是找到了作为防御备用武器的定位。 # Mono
   components:
@@ -399,7 +399,7 @@
 
 - type: entity
   name: VCD QBH-12 脉冲卡宾枪
-  parent: [BaseWeaponBattery, BaseGunWieldable]
+  parent: [BaseWeaponBattery, BaseGunWieldable, BaseFactionGearTSFT3] # Mono
   id: WeaponPulseCarbine
   description: 脉冲卡宾枪是TSF脉冲步枪的一个稍微紧凑版，结合了自我充能技术和更快的射速，旨在在战场上吓到敌人。尽管在长时间战斗中它偶尔会过热，但这并不妨碍喜欢它的海军陆战队特种部队使用它。 # Mono
   components:
@@ -448,7 +448,7 @@
 
 - type: entity
   name: VCD QBH-11 脉冲步枪
-  parent: [BaseWeaponBattery, BaseGunWieldable]
+  parent: [BaseWeaponBattery, BaseGunWieldable, BaseFactionGearTSFT3] # Mono
   id: WeaponPulseRifle
   description: 这是自企业战争结束后，技术落入TSF手中以来复制的第一个脉冲型号，这款步枪在TSF精英部队和指挥官手中代表了尖端技术。  # Mono
   components:

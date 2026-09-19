@@ -127,7 +127,16 @@
     state: chair-greyscale
 
 - type: entity
-  name: 凳子 丨 stool
+  name: 椅子
+  id: ChairBlack
+  parent: Chair
+  suffix: Black
+  components:
+  - type: Sprite
+    state: chair-black
+
+- type: entity
+  name: 凳子
   id: Stool
   parent: UnanchoredChairBase
   description: 涂抹臀部。 丨 Apply butt.

@@ -1580,3 +1580,23 @@
   license: "Custom"
   copyright: "music."
   source: "net"
+
+- files: ["BF5-Beat_The_Devils_Tatoo.ogg"]
+  license: "Custom"
+  copyright: "music."
+  source: "net"
+
+- files: ["P3r-Color_Your_Night.ogg"]
+  license: "Custom"
+  copyright: "music."
+  source: "net"
+
+- files: ["迈阿密热线Dust.ogg"]
+  license: "Custom"
+  copyright: "music."
+  source: "net"
+
+- files: ["雨爱.ogg"]
+  license: "Custom"
+  copyright: "music."
+  source: "net"
