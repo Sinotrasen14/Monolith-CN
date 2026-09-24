@@ -106,6 +106,9 @@ uplink-security-t1-aldebaran-voucher-desc = 一张小卡片，包含从旗舰储
 uplink-security-t2-andromeda-voucher-name = TSFMC Andromeda LPC [T2]
 uplink-security-t2-andromeda-voucher-desc = 一张小卡片，包含从旗舰储备中采购Andromeda级巡洋舰的数据。
 
+uplink-security-t2-cinquedea-voucher-name = TSFMC Cinquedea LPC [T2]
+uplink-security-t2-cinquedea-voucher-desc = A small card that contains the data for the procurement of an Cinquedea-class corvette from the flagship's reserves.
+
 uplink-security-t2-spekter-voucher-name = TSFMC Spekter LPC [T2]
 uplink-security-t2-spekter-voucher-desc = 一张小卡片，包含从旗舰储备中采购Spekter级轻护卫舰的数据。
 

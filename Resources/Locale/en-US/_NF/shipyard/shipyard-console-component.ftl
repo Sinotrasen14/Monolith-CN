@@ -76,10 +76,26 @@ shipyard-console-class-Fighter = 战斗机
 shipyard-console-class-Patrol = 巡逻
 shipyard-console-class-Pursuit = 追击
 # Mono changes start
+<<<<<<< HEAD
 shipyard-console-class-Corvette = 巡防舰
 shipyard-console-class-Frigate = 护卫舰
 shipyard-console-class-Destroyer = 驱逐舰
 shipyard-console-class-Cruiser = 巡洋舰
+=======
+shipyard-console-class-Corvette = Corvette
+shipyard-console-class-Frigate = Frigate
+shipyard-console-class-Destroyer = Destroyer
+shipyard-console-class-Cruiser = Cruiser
+shipyard-console-class-Escort = Escort
+shipyard-console-class-Brawler = Brawler
+shipyard-console-class-MissileCarrier = AAM Carrier
+shipyard-console-class-AntiShipMissileCarrier = AShM Carrier
+shipyard-console-class-Carrier = Carrier
+shipyard-console-class-DroneCarrier = Drone Carrier
+shipyard-console-class-MechCarrier = Mech Carrier
+shipyard-console-class-EarlyWarning = Early Warning
+shipyard-console-class-Stealth = Stealth
+>>>>>>> upstream
 # Mono changes end
 
 shipyard-console-engine-All = 全部

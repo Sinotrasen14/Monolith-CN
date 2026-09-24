@@ -4,11 +4,20 @@ lathe-category-animals = 动物
 lathe-category-dangerous-animals = 危险动物
 
 # Misc
+<<<<<<< HEAD
 lathe-category-vouchers = 舰船兑换券
 lathe-category-nfr = NFR 杆
 lathe-category-componentmaterials = 封装组件
 lathe-category-components = 行业组件
 lathe-category-altrecipes = 替代配方
+=======
+lathe-category-vouchers = Ship Vouchers
+lathe-category-nfr = NFR Rods
+lathe-category-componentmaterials = Packaged Components
+lathe-category-components = Industry Components
+lathe-category-altrecipes = Alternative Recipes
+lathe-category-tradecrates = Trade Crates
+>>>>>>> upstream
 
 # Mechs
 lathe-category-mech-weapons-s2s4 = S2/4 机甲设备

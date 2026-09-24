@@ -2,7 +2,7 @@
   id: WeaponTurretASM220
   name: ASM-220 三叉戟-鱼雷架
   parent:
-  - BallisticArtilleryUnanchorableCartridge
+  - BallisticArtilleryCartridge
   - BallisticArtilleryTier4HP
   description: 一种为巡洋舰设计的重型内置鱼雷架，依赖手动装填，通常在港口进行。尽管如此，它拥有该区域最大的导弹。
   components:
@@ -47,6 +47,9 @@
   - type: ShipRepairable
     repairTime: 30
     repairCost: 100
+  - type: HardpointAnchorableOnly
+    class: Missile
+    size: Heavy
 
 - type: entity
   id: WeaponTurretASM220Station
@@ -66,3 +69,6 @@
     proto: Asm220TorpedoHE
   - type: ShipGunClass
     shipClass: Heavy
+  - type: HardpointAnchorableOnly
+    class: Missile
+    size: Superheavy

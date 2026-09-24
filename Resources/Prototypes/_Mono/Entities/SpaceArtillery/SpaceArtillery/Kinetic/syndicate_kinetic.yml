@@ -68,6 +68,9 @@
   - type: ShipRepairable
     repairTime: 10
     repairCost: 30
+  - type: HardpointAnchorableOnly
+    class: Ballistic
+    size: Light
 
 - type: entity
   id: WeaponTurretFang
@@ -148,13 +151,21 @@
   - type: ShipRepairable
     repairTime: 20
     repairCost: 80
+  - type: HardpointAnchorableOnly
+    class: Ballistic
+    size: Heavy
 
 - type: entity
   id: WeaponTurretHydra
   name: 九头蛇 220毫米炮组
   suffix: Large, T4
+<<<<<<< HEAD
   parent: BallisticArtilleryUnanchorable
   description: 一门由辛迪加制造的主炮，九头蛇是一个巨大的三管220毫米伤害炮台，专为摧毁公司最坚固的舰船而设计。装弹机制类似于巨蟒手枪。
+=======
+  parent: BallisticArtillery
+  description: A main cannonade of syndicate origin, the hydra is a monstrous tri-barreled battery of 220-millimeter pain, designed to shatter corpations' toughest vessels. Loads with a similar mechanism as the anaconda handgun.
+>>>>>>> upstream
   components:
   - type: StaticPrice
     price: 20000
@@ -244,6 +255,9 @@
   - type: ShipRepairable
     repairTime: 40
     repairCost: 250
+  - type: HardpointAnchorableOnly
+    class: Ballistic
+    size: Heavy
 
 - type: entity
   id: WeaponTurretLeviathan
@@ -316,8 +330,11 @@
   - type: ShipGunType
     shipType: Ballistic
   - type: ShipGunClass
-    shipClass: SuperHeavy
+    shipClass: Superheavy
   - type: ShipRepairable
     repairTime: 40
     repairCost: 250
+  - type: HardpointAnchorableOnly
+    class: Ballistic
+    size: Superheavy
 

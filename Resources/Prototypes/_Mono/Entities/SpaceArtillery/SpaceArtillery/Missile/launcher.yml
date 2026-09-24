@@ -67,7 +67,7 @@
   id: WeaponTurretSerpentMissile
   name: 蛇式鱼雷发射器
   parent:
-  - BallisticArtilleryUnanchorable
+  - BallisticArtillery
   - BallisticArtilleryTier3HP
   description: 这是公司战争期间辛迪加开发的一种轻型鱼雷发射器，使用了类似于巨蟒号的自装弹系统。
   components:
@@ -115,6 +115,9 @@
   - type: ShipRepairable
     repairTime: 30
     repairCost: 120
+  - type: HardpointAnchorableOnly
+    class: Missile
+    size: Medium
 
 # Pre-Fracture
 
@@ -123,7 +126,7 @@
   name: Curio-1602 电子鱼雷发射器“熵”
   suffix: ADS ONLY
   parent:
-  - BallisticArtilleryUnanchorable
+  - BallisticArtillery
   - BallisticArtilleryTier3HP
   description: 这是一种来自破碎前时代的奇怪武器，它发射出一团电子，寻找附近目标的正电荷，使系统过载并粉碎部分船体。
   components:
@@ -180,3 +183,6 @@
   - type: ShipRepairable
     repairTime: 30
     repairCost: 120
+  - type: HardpointAnchorableOnly
+    class: Missile
+    size: Heavy

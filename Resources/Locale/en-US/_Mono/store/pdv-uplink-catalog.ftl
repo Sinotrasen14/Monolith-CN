@@ -9,8 +9,16 @@ uplink-pirate-interdyne-defibrillator-desc = 一支精英紧凑型除颤器，�
 uplink-pirate-chemical-synthesis-kit-name = 化学合成套件
 uplink-pirate-chemical-synthesis-kit-desc = 为有抱负的化学家准备的入门套件，包含毒素和vestine，满足你的所有生物武器需求！
 
+<<<<<<< HEAD
 uplink-pirate-anti-poison-pen-name = 解毒自动注射笔
 uplink-pirate-anti-poison-pen-desc = 快速剂量的解毒剂。含有ultravasculine和肾上腺素。
+=======
+uplink-pirate-vestine-vial-name = Vestine Vial (30u)
+uplink-pirate-vestine-vial-desc = A vial of expensive anomalous liquid, synthesized from the native fauna of Pizt. Useful for advanced chemical production.
+
+uplink-pirate-anti-poison-pen-name = Poison auto-injector
+uplink-pirate-anti-poison-pen-desc = A rapid dose of anti-poison. Contains ultravasculine and epinephrine.
+>>>>>>> upstream
 
 uplink-pirate-puncturase-pen-name = puncturase自动注射笔
 uplink-pirate-puncturase-pen-desc = 快速剂量的puncturase和氨甲环酸，用于战斗场景。
@@ -98,8 +106,13 @@ uplink-pirate-security-cyborg-module-desc = 一把弯刀、一把能量枪和一
 uplink-pirate-voicemask-name = 变色龙语音掩码
 uplink-pirate-voicemask-desc = 一个可以用来搞点小伎俩和恶作剧的语音面具……或者只是为了隐藏你的身份。在先锋无线电上说话时掩盖你的声音是极力建议的。
 
+<<<<<<< HEAD
 uplink-pirate-blank-id-name = 空白ID卡
 uplink-pirate-blank-id-desc = 一张空白的流浪者身份证，没有任何识别特征。可以在Helios的身份证控制台上随心定制。
+=======
+uplink-pirate-blank-id-name = Blank ID Card
+uplink-pirate-blank-id-desc = A blank vagrant ID card with no identifying features. Can be customised to your heart's content at Helios' ID card console.
+>>>>>>> upstream
 
 uplink-pirate-chameleon-pda-name = 变色龙PDA
 uplink-pirate-chameleon-pda-desc = 一款带有变色龙技术的PDA，让你可以隐藏自己的真实立场。
@@ -345,6 +358,15 @@ uplink-pirate-syndisupersurplus-desc = 内含巨量由支持法厄同王朝的�
 
 uplink-pdv-t0-voucher-name = PDV 0级飞船凭证
 uplink-pdv-t0-voucher-desc = 一张可兑换任意小型飞船的一次性凭证。
+
+uplink-pdv-t1-voucher-name = PDV Tier 1 Ship Voucher
+uplink-pdv-t1-voucher-desc = A small card that will allow you to procure any tier-1 PDV ship from the Dynasty's reserves.
+
+uplink-pdv-t2-voucher-name = PDV Tier 2 Ship Voucher
+uplink-pdv-t2-voucher-desc = A small card that will allow you to procure any tier-2 PDV ship from the Dynasty's reserves.
+
+uplink-pdv-t3-voucher-name = PDV Tier 3 Ship Voucher
+uplink-pdv-t3-voucher-desc = A small card that will allow you to procure any tier-3 PDV ship from the Dynasty's reserves.
 
 uplink-pdv-t1-hourglass-voucher-name = PDV Hourglass LPC [T1]
 uplink-pdv-t1-hourglass-voucher-desc = 一张小卡片，内含从旗舰储备中采购Hourglass级护卫舰的数据。

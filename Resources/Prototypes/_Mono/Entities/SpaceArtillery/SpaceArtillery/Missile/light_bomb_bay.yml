@@ -2,7 +2,7 @@
   id: WeaponTurretLightMunitionsBay
   name: GPOB-L 轻型弹药舱
   parent:
-  - BallisticArtilleryUnanchorableCartridge
+  - BallisticArtilleryCartridge
   - BallisticArtilleryTier3HP
   description: 一个相对较小的装甲弹药舱，最多可以容纳两个轻型弹药包。通常出现在轻型宇宙飞船上，尤其是轰炸机，并提供一种有限的方式来攻击远超自身重量级的目标。
   components:
@@ -49,3 +49,6 @@
   - type: ShipRepairable
     repairTime: 25
     repairCost: 100
+  - type: HardpointAnchorableOnly
+    class: Missile
+    size: Light
