@@ -4,11 +4,7 @@
 
 - type: entity
   id: ShipMissileASM19
-<<<<<<< HEAD
-  name: 'MPSSM ASM-19单兵便携式反舰导弹'
-=======
-  name: MPSSM anti-ship EMPHE missile
->>>>>>> upstream
+  name: MPSSM 反舰 EMPHE 导弹
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:

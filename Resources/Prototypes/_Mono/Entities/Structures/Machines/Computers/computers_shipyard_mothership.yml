@@ -32,58 +32,10 @@
 #    - Ship3
 
 - type: entity
-<<<<<<< HEAD
-  id: MiningCarrierComputer
-  parent: BaseCarrierComputer
-  name: '矿用运输车控制台 | mining carrier console'
-  components:
-  - type: ShipyardListing
-    shuttles:
-    - Ample
-    - Antlion
-
-- type: entity
-  id: HiveCarrierComputer
-  parent: BaseCarrierComputer
-  name: '和风载体控制台 | zephyr carrier console'
-  components:
-  - type: ShipyardListing
-    shuttles:
-    - Zephyr
-
-- type: entity
-  id: TSFCarrierComputer
-  parent: BaseCarrierComputer
-  name: TSF 子船控制台
-  components:
-  - type: ShipyardListing
-    shuttles:
-    - QJ490
-    - QJ270
-    - Zephyr
-    - QJ340
-
-- type: entity
-  id: TSFCarrierComputerFujian
-  parent: BaseCarrierComputer
-  name: TSF 福建级 航母子船控制台 # Yes it can -hypothetically- carry the same ships as tumour, but it can't carry 4 of them (QJ-340 is really too long!)
-  components:
-  - type: ShipyardListing
-    shuttles:
-    - Zephyr
-    - ZephyrEC
-
-- type: entity
   id: TSFNChengduComputer
   parent: BaseCarrierComputer
-  name: TSFN 成都级 内部机库控制台
+  name: TSFN 成都内部机库控制台
   description: 使用成都内部机库的小型船厂，没有办法使用TSFMC的全部舰船名单。
-=======
-  id: TSFNChengduComputer
-  parent: BaseCarrierComputer
-  name: TSFN chengdu internal hangar console
-  description: Lighter shipyard using the Chengdu's internal hangars, doesn't have access to the full roster of TSFMC ships.
->>>>>>> upstream
   components:
   - type: ShipyardListing
     shuttles:
@@ -93,30 +45,6 @@
     - TSF
 
 - type: entity
-<<<<<<< HEAD
-  id: LedokolAttachmentComputer
-  parent: BaseCarrierComputer
-  name: 破冰船附件控制台
-  components:
-  - type: ShipyardListing
-    shuttles:
-    - Molotok
-    - Kopye
-    - Kupol
-
-- type: entity
-  id: WindreignCarrierComputer
-  parent: BaseCarrierComputer
-  name: '风临造船厂控制台 | windreign shipyard console'
-  components:
-  - type: ShipyardListing
-    shuttles:
-    - Antlion
-    - StratoRat
-
-- type: entity
-=======
->>>>>>> upstream
   id: JupiterCarrierComputer
   parent: BaseCarrierComputer
   name: '木星造船厂控制台 | jupiter shipyard console'
@@ -145,7 +73,7 @@
 - type: entity
   id: TSFCarrierComputerFujian
   parent: BaseCarrierComputer
-  name: TSF fujian carrier console
+  name: TSF 福建航母控制台
   components:
   - type: ShipyardListing
     shuttles:
@@ -172,27 +100,3 @@
       state: shipyard_blackmarket
     - map: ["computerLayerKeys"]
       state: blackmarket_key
-<<<<<<< HEAD
-
-- type: entity
-  id: RavagerCarrierComputer
-  parent: BaseCarrierComputer
-  name: 掠夺者船厂控制台
-  components:
-  - type: ShipyardListing
-    shuttles:
-    - Rook
-    - Taser
-    - Hound
-
-- type: entity
-  id: BalorCarrierComputer
-  parent: BaseCarrierComputer
-  name: 巴洛尔船厂控制台
-  components:
-  - type: ShipyardListing
-    shuttles:
-    - Rac-Man
-    - Bow-Man
-=======
->>>>>>> upstream

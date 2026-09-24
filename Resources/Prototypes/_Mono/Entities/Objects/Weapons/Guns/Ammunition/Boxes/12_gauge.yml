@@ -12,10 +12,7 @@
       - state: beanbag
 
 - type: entity
-<<<<<<< HEAD
-  name: '霰弹枪弹盒（12号铅径鹿弹） | shotgun shell box (12 gauge buckshot)'
-=======
-  name: shotgun shell box (12 gauge blanks)
+  name: 霰弹枪弹盒（12号铅径鹿弹）
   parent: AmmoProvider12_gaugeShotgunShell
   id: AmmoBox12_gaugeBlank
   components:
@@ -27,8 +24,7 @@
       map: ["enum.GunVisualLayers.Base"]
 
 - type: entity
-  name: shotgun shell box (12 gauge buckshot)
->>>>>>> upstream
+  name: 猎枪弹壳盒（12号口径鹿弹）
   parent: AmmoProvider12_gaugeShotgunShell
   id: AmmoBox12_gaugeBuckshot
   components:

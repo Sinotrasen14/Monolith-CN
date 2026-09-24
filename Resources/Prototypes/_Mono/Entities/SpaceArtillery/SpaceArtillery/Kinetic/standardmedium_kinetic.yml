@@ -2,12 +2,12 @@
 
 - type: entity
   id: WeaponTurretAK570
-  name: AK570 57mm autocannon
+  name: AK570 57mm 自动加农炮
   parent:
   - BallisticArtilleryMagazine
   - BallisticArtilleryTier2HP
   suffix: Medium, T2
-  description: A dual-barrel, heavy 57mm autocannon firing general-purpose APHE rounds, effective for sustained fire against medium targets. Can be remotely activated or linked up to a GCS.
+  description: 一门双管、重型57毫米自动炮，发射通用穿甲高爆弹，对中型目标进行持续射击很有效。可以远程激活或连接到地面控制站(GCS)。
   components:
   - type: StaticPrice
     price: 650
@@ -81,12 +81,12 @@
 
 - type: entity
   id: WeaponTurretDravon
-  name: ADBP-7 DRAVON 90mm Autocannon
+  name: ADBP-7 德拉文90毫米自动炮
   parent:
   - BallisticArtilleryMagazine
   - BallisticArtilleryTier2HP
   suffix: Medium, T2
-  description: A single-barrel autocannon made by Aetherion Dynamics. Medium artillery piece with high impact but relatively low fire rate, firing HEAT shells to damage ship armor and systems. Can be remotely activated or linked up to a GCS.
+  description: 由艾瑟利恩动力制造的单管自动加农炮。中型火炮，威力高但射速相对较低，发射高爆反坦克弹以损毁舰船装甲和系统。可以远程激活，也可以连接到GCS。
   components:
   - type: StaticPrice
     price: 900
@@ -167,11 +167,11 @@
 
 - type: entity
   id: WeaponTurretAC-35
-  name: AC-35 Chaingun
+  name: AC-35 链式机炮
   parent:
   - BallisticArtilleryMagazine
   - BallisticArtilleryTier3HP
-  description: A quad-barrel, 35mm chaingun firing solid shot AP rounds, designed to be mounted upon fighters by Armamenti Corvus. Can be remotely activated or linked up to a GCS.
+  description: 由Armamenti Corvus设计，可安装在战斗机上的四管35毫米连环机炮，发射实心穿甲弹。可以远程激活，也可以连接到地面控制站。
   components:
   - type: StaticPrice
     price: 3000

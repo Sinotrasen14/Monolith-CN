@@ -1,6 +1,6 @@
 - type: entity
   id: VanykMagazine
-  name: "Vanyk 150mm HE missile autoloader"
+  name: "Vanyk 150毫米高爆导弹自动装弹机"
   parent: [BaseItem, RecyclableItemSteelTiny]
   components:
   - type: Tag
@@ -33,7 +33,7 @@
 
 - type: entity
   id: VanquisherMagazine
-  name: "Vanquisher 150mm HE missile autoloader"
+  name: "征服者150毫米高爆导弹自动装填机"
   parent: [BaseItem, RecyclableItemSteelTiny]
   components:
   - type: Tag
@@ -79,8 +79,8 @@
 
 - type: entity
   id: VanykCartridge
-  name: 150mm HEAT missile
-  description: An individual ASM-150 HEAT missile used in the Vanyk.
+  name: 150mm HEAT 导弹
+  description: 在 Vanyk 中使用的一枚 ASM-150 高爆反坦克导弹。
   parent: BaseGrenade
   components:
   - type: Tag
@@ -121,7 +121,7 @@
 
 - type: entity
   id: VanykCartridgeUnguided
-  name: 150mm HEAT unguided missile
+  name: 150mm HEAT 无制导导弹
   parent: VanykCartridge
   components:
   - type: Tag

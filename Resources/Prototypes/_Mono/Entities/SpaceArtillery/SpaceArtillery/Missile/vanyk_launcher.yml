@@ -1,10 +1,10 @@
 - type: entity
   id: WeaponTurretVanyk
-  name: ASM-150 "Vanyk" Missile Pod
+  name: ASM-150 “Vanyk” 导弹吊舱
   parent:
   - BallisticArtilleryMagazine
   - BallisticArtilleryTier2HP
-  description: An escort missile pod manufactured by Aetherion Dynamics. Launches 150mm guided missiles for basic ship-to-ship combat and area denial. Uses a built-in autoloader instead of a rack, increasing capacity but reducing rate of fire. Can be remotely activated or linked to a GCS.
+  description: 由Aetherion Dynamics制造的护航导弹舱。发射150毫米制导导弹，用于基本的舰船对舰作战和区域封锁。使用内置自动装载器代替导架，增加了容量但降低了射速。可以远程激活或连接到GCS。
   components:
   - type: StaticPrice
     price: 4000

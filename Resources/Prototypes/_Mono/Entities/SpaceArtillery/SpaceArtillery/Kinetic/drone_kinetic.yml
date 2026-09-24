@@ -1,10 +1,10 @@
 - type: entity
   id: WeaponTurretShard
-  name: Light mass driver "Shard"
+  name: 轻型质量投射炮“碎片”
   parent:
   - BallisticArtillery
   - BallisticArtilleryTier1HP
-  description: Ultralight mass driver weapon of unknown origin, designated "Shard" during initial reverse engineering attempts. Light damage, but long range and little upkeep to mount on ships.
+  description: 超轻型质量驱动武器，来源不明，在最初的逆向工程尝试中被命名为“碎片”。伤害轻，但射程远，安装在船上几乎不需维护。
   suffix: Drone T1
   components:
   - type: StaticPrice
@@ -60,9 +60,9 @@
 
 - type: entity
   id: WeaponTurretFragment
-  name: "\"Fragment\" modified mass driver"
+  name: "\"Fragment\" 改良型质量投射炮"
   parent: WeaponTurretShard
-  description: Appears to be a heavily modified "Shard" mass driver. Unstable and rarely found in the wild.
+  description: 看起来是一个经过重度改造的“碎片”质量投射炮。不稳定，在野外很少见。
   suffix: Drone T2
   components:
   - type: StaticPrice
@@ -109,11 +109,11 @@
 
 - type: entity
   id: WeaponTurretPinhole
-  name: Pinhole-class railgun
+  name: 针孔级轨道炮
   parent:
   - BallisticArtillery
   - BallisticArtilleryTier2HP
-  description: Mass driver weapon of unknown origin. Reverse engineering attempts have indicated extremely high projectile velocity and high-mass projectiles with unresolved ship-pushing payload.
+  description: 来源不明的大规模质量投射武器。逆向工程尝试显示其弹丸速度极高，弹头质量大，但推动飞船的载荷尚未解决。
   suffix: Drone T2
   components:
   - type: StaticPrice

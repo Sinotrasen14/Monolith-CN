@@ -88,13 +88,8 @@
 - type: entity
   parent: BaseTradeItem
   id: TradeGoodFissionFuel
-<<<<<<< HEAD
-  name: '裂变反应堆燃料箱 | fission reactor fuel crate'
-  description: '一个装有封装核燃料棒的密封箱。具有放射性。请小心搬运。 | A sealed crate of packaged nuclear fuel rods. Radioactive. Handle with care.'
-=======
-  name: fission reactor fuel crate
-  description: A sealed crate of packaged nuclear fuel rods. Radioactive. Handle with care, and be fearful of the critical mass.
->>>>>>> upstream
+  name: 裂变反应堆燃料箱
+  description: 一箱密封的包装核燃料棒。具有放射性。小心处理，并且要小心临界质量。
   components:
   - type: Sprite
     state: fission
@@ -123,13 +118,8 @@
 - type: entity
   parent: BaseTradeItemVolatile
   id: TradeGoodFusionFuel
-<<<<<<< HEAD
-  name: '聚变反应堆燃料箱 | fusion reactor fuel crate'
-  description: '一个封装着供大型核聚变反应堆使用的氘氚燃料电池板条箱。若破损具有放射性及挥发性。请小心搬运。 | A sealed crate of packaged D-T fuel cells for use in large fusion reactors. Radioactive and volatile if damaged. Handle with care.'
-=======
-  name: fusion reactor fuel crate
-  description: A sealed crate of packaged D-T fuel cells for use in large fusion reactors. Radioactive and volatile if damaged. Handle with care, and be fearful of the critical mass.
->>>>>>> upstream
+  name: 聚变反应堆燃料箱
+  description: 一箱密封的用于大型聚变反应堆的D-T燃料电池。如果损坏，会有放射性和易燃性。小心处理，小心临界质量。
   components:
   - type: Sprite
     state: fusion

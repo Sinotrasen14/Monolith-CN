@@ -2,11 +2,7 @@
   name: '芬太尼晶体 | fentanyl crystal'
   parent: BaseItem
   id: FentanylSolidified
-<<<<<<< HEAD
-  description: '5单位吩坦尼与三氯哒嗪固化而成。价值不菲。 | 5u of Fentanyl solidified with Tricordrazine. Worth a lot.'
-=======
-  description: 25u of Fentanyl solidified with Tricordrazine. Worth a lot.
->>>>>>> upstream
+  description: 25u芬太尼与三氯达嗪固化。非常值钱。
   components:
   - type: Sprite
     sprite: _Mono/Objects/Misc/fentanyl.rsi

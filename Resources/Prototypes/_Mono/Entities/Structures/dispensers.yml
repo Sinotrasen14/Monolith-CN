@@ -144,13 +144,8 @@
 - type: entity
   parent: BaseCargoChute
   id: CargoChuteTradeMall
-<<<<<<< HEAD
-  name: '贸易商城货物投递口 | Trade Mall cargo turn-in chute'
-  description: '一台带有管道系统的机器，管道通向空间站深处，用于接收出口商品以换取贸易凭证。 | A machine with piping systems that lead into the bowels of the station, accepting export goods for trade deeds.'
-=======
-  name: CC cargo turn-in chute
-  description: A machine with piping systems that lead into the bowels of the station, accepting export goods for trade deeds.
->>>>>>> upstream
+  name: CC货物投递槽
+  description: 一台带有管道系统的机器，这些管道通向车站深处，用来接收用于贸易契约的出口货物。
   components:
   - type: Dispenser
     defaultItem: PaperWrittenDispenserTradeMallRequesting
@@ -253,13 +248,8 @@
 - type: entity
   parent: BaseCargoChute
   id: CargoChuteHideout
-<<<<<<< HEAD
-  name: 'PDV据点货物投递口 | PDV hideout cargo turn-in chute'
-  description: '一台连接管道系统并通向空间站深处的机器，用于接收贸易契约所需的出口货物。 | A machine with piping systems that lead into the bowels of the station, accepting export goods for trade deeds.'
-=======
-  name: PDV helios cargo turn-in chute
-  description: A machine with piping systems that lead into the bowels of the station, accepting export goods for trade deeds.
->>>>>>> upstream
+  name: PDV Helios 货物投递口
+  description: 一台带有管道系统的机器，这些管道通向车站深处，用来接收用于贸易契约的出口货物。
   components:
   - type: Dispenser
     defaultItem: PaperWrittenDispenserHeliosRequesting

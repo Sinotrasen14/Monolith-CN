@@ -1,7 +1,7 @@
 - type: entity
   id: Magazine35mm
-  name: "35mm solid ammo loader"
-  description: "An ammunition loader containing infinite 35mm solid rounds. Usable by vessel-mounted artillery pieces."
+  name: "35mm 实心弹药装填器"
+  description: "一个弹药装填器，内含无限的35毫米实心弹。船只上的炮可使用。"
   parent: [BaseItem, RecyclableItemSteelTiny]
   components:
   - type: Tag
@@ -35,7 +35,7 @@
 
 - type: entity
   id: 35mmCartridge
-  name: cartridge (35x228mm AP)
+  name: 弹药筒（35x228mm 穿甲弹）
   parent: BaseCartridge
   components:
   - type: Tag
@@ -77,8 +77,8 @@
 
 - type: entity
   id: Magazine35mmHE
-  name: "35mm HE ammo loader"
-  description: "An ammunition loader containing 2000 35mm HE rounds. Usable by vessel-mounted artillery pieces."
+  name: "35毫米高爆弹装弹器"
+  description: "一个装有2000发35毫米高爆弹的弹药装填器。可用于舰载炮械。"
   parent: [BaseItem, RecyclableItemSteelTiny]
   components:
   - type: Tag

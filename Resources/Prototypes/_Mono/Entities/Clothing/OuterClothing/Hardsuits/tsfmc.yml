@@ -1,8 +1,8 @@
 - type: entity
   parent: [ ClothingOuterHardsuitBase, BaseFactionGearTSFT2]
   id: ClothingOuterHardsuitM82c
-  name: M82c hardsuit
-  description: A hardsuit issued to marines operating in low-pressure and high-risk environments. Specialized in bullet protection.
+  name: M82c 硬装
+  description: 一款发给在低压和高风险环境下作战的海军陆战队员的硬壳战甲。专门用于防弹保护。
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/m82c.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: [ ClothingOuterHardsuitM82c, BaseFactionGearTSFT2 ]
   id: ClothingOuterHardsuitM82b
-  name: M82b hardsuit
-  description: Corpsman variant of the M82c outfitted with caustic and radiological shielding. Some of the blunt-absorbent gel layer is sacrificed for the NBC protection.
+  name: M82b 硬装
+  description: M82c 医务兵版本，配备了腐蚀性和放射防护。一些钝性吸收凝胶层为了 NBC（核生化）防护而被牺牲了。
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/m82b.rsi
@@ -70,8 +70,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseFactionGearTSFT3]
   id: ClothingOuterHardsuitM86
-  name: M86 Mk.3(R) hardsuit
-  description: An armored hardsuit, designed to be an upgrade for the M82 series. The extra general armor gives it significant weight to move around.
+  name: M86 Mk.3(R) 硬装
+  description: 一套装甲硬壳服，设计为 M82 系列的升级版。额外的通用装甲让它移动起来相当沉重。
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/m86.rsi
@@ -115,8 +115,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBaseNFNfsd
   id: ClothingOuterHardsuitNfsdSheriff
-  name: TSFMC M92 colonel tacsuit
-  description: A heavy, gilded tacsuit, stripped of its shield but now capable of taking a lot of physical damage. Usually assigned to commanding officers of TSF flagships.
+  name: TSFMC M92 上校战术服
+  description: 一套厚重的镀金战术服，虽然去掉了护盾，但现在能承受大量的物理伤害。通常配给TSF旗舰的指挥官穿着。
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/tsfmc_colonel.rsi # Mono
@@ -154,8 +154,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBaseNoPlateholder, MonoEnergyShieldClothing, BaseFactionGearTSFT3 ] # Jugger Suit
   id: ClothingOuterHardsuitNfsdExperimental
-  name: TSFMC M92-X tacsuit
-  description: An experimental modification of the M92 tacsuit for spec-ops units of the TSFMC. Durable, and comes with an integrated hard-shield along with numerous gadgets at the cost of insulation and solid armor.
+  name: TSFMC M92-X 战术服
+  description: M92战术服的实验性改装版，专为TSFMC的特种作战单位设计。耐用，配备了集成硬盾和各种小工具，但牺牲了保温性和坚固护甲。
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/tsfmc_experimental.rsi # Mono
@@ -244,8 +244,8 @@
 - type: entity
   parent: [MonoEnergyShieldClothing, ClothingOuterHardsuitBaseNoPlateholder, BaseFactionGearTSFT3] #WORK ON THIS ONE NEXT POOP POOP
   id: ClothingOuterHardsuitM86Mk4
-  name: M86 Mk.4(B) hardsuit
-  description: A limited-production redesign proposal for the M86 Mk.3(R), outfitted with an inbuilt personal shield generator.
+  name: M86 Mk.4(B) 硬装
+  description: 为M86 Mk.3(R)提供的限量生产重新设计方案，配备内置个人护盾发生器。
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/m86_mk4.rsi

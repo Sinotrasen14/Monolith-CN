@@ -1,8 +1,8 @@
 - type: entity
-  name: emergency flare
+  name: 紧急信号弹
   parent: [BaseItem, RecyclableItemSteelTiny] # Frontier: added RecyclableItemSteelTiny
   id: Flare
-  description: A flare that produces a very bright light for a short while. Point the flame away from yourself.
+  description: 一种能在短时间内产生非常明亮光的信号弹。把火焰指向自己以外的方向。
   components:
   - type: Tag
     tags:
@@ -109,10 +109,10 @@
     deleteOnSpawn: true
 
 - type: entity
-  name: emergency flare
+  name: 紧急信号弹
   parent: Flare
   id: FlareActivated
-  description: A flare that produces a very bright light for a short while. Point the flame away from yourself.
+  description: 一种能在短时间内产生非常明亮光的信号弹。把火焰指向自己以外的方向。
   components:
   - type: ExpendableLight
     activateOnSpawn: true
@@ -120,11 +120,11 @@
 # Signal Flares
 
 - type: entity
-  name: signal flare
+  name: 信号弹
   categories: [ HideSpawnMenu ]
   parent: BaseItem
   id: BaseSignalFlare
-  description: A flare that produces a very bright light and an IFF signal for a short while, used for communications in high-intensity situations.
+  description: 一种能发出非常亮的光和短时间IFF信号的照明弹，用于高强度情况下的通信。
   components:
   - type: Sprite
     sprite: Objects/Misc/flare.rsi
@@ -163,11 +163,11 @@
       requireDetailRange: true
 
 - type: entity
-  name: signal flare
+  name: 信号弹
   categories: [ HideSpawnMenu ]
   parent: Flare
   id: BaseSignalFlareActivated
-  description: A flare that produces a very bright light and an IFF signal for a short while, used for communications in high-intensity situations.
+  description: 一种能发出非常亮的光和短时间IFF信号的照明弹，用于高强度情况下的通信。
   components:
   - type: ExpendableLight
     activateOnSpawn: true
@@ -247,11 +247,11 @@
 # green
 
 - type: entity
-  name: signal flare (friendly)
+  name: 信号弹（友好）
   categories: [ HideSpawnMenu ]
   parent: BaseSignalFlareActivated
   id: SignalFlareGreenActivated
-  description: A flare that produces a very bright light and an IFF signal for a short while. Indicates friendly intent.
+  description: 一种能在短时间内发出非常亮的光和识别信号的照明弹。表示友好意图。
   components:
   - type: ExpendableLight
     iconStateOn: flare_unlit
@@ -291,10 +291,10 @@
     shape: star
 
 - type: entity
-  name: signal flare (friendly)
+  name: 信号弹（友好）
   parent: BaseSignalFlare
   id: SignalFlareGreen
-  description: A flare that produces a very bright light and an IFF signal for a short while. Indicates friendly intent.
+  description: 一种能在短时间内发出非常亮的光和识别信号的照明弹。表示友好意图。
   components:
   - type: Sprite
     sprite: Objects/Misc/flare.rsi
@@ -324,11 +324,11 @@
 # white
 
 - type: entity
-  name: signal flare (neutral/surrender)
+  name: 求救信号弹（中性/投降）
   categories: [ HideSpawnMenu ]
   parent: BaseSignalFlareActivated
   id: SignalFlareWhiteActivated
-  description: A flare that produces a very bright light and an IFF signal for a short while. Indicates neutral intent, or, in combat, surrender.
+  description: 一种会发出非常明亮光亮并短时间发出IFF信号的照明弹。表示中立意图，或者在战斗中表示投降。
   components:
   - type: ExpendableLight
     iconStateOn: flare_unlit
@@ -368,10 +368,10 @@
     shape: star
 
 - type: entity
-  name: signal flare (neutral/surrender)
+  name: 求救信号弹（中性/投降）
   parent: BaseSignalFlare
   id: SignalFlareWhite
-  description: A flare that produces a very bright light and an IFF signal for a short while. Indicates neutral intent, or, in combat, surrender.
+  description: 一种会发出非常明亮光亮并短时间发出IFF信号的照明弹。表示中立意图，或者在战斗中表示投降。
   components:
   - type: Sprite
     sprite: Objects/Misc/flare.rsi
@@ -401,11 +401,11 @@
 # red
 
 - type: entity
-  name: signal flare (hostile)
+  name: 敌对信号弹
   categories: [ HideSpawnMenu ]
   parent: BaseSignalFlareActivated
   id: SignalFlareRedActivated
-  description: A flare that produces a very bright light and an IFF signal for a short while. Indicates hostile intent.
+  description: 一种能在短时间内发出非常亮的光和识别信号的照明弹。表示敌对意图。
   components:
   - type: ExpendableLight
     iconStateOn: flare_unlit
@@ -445,10 +445,10 @@
     shape: star
 
 - type: entity
-  name: signal flare (hostile)
+  name: 敌对信号弹
   parent: BaseSignalFlare
   id: SignalFlareRed
-  description: A flare that produces a very bright light and an IFF signal for a short while. Indicates hostile intent.
+  description: 一种能在短时间内发出非常亮的光和识别信号的照明弹。表示敌对意图。
   components:
   - type: Sprite
     sprite: Objects/Misc/flare.rsi
@@ -478,11 +478,11 @@
 # gold
 
 - type: entity
-  name: signal flare (other)
+  name: 信号弹（其他）
   categories: [ HideSpawnMenu ]
   parent: BaseSignalFlareActivated
   id: SignalFlareGoldActivated
-  description: A flare that produces a very bright light and an IFF signal for a short while. Indicates a miscellaneous signal.
+  description: 一种会发出非常明亮的光并短时间发射IFF信号的照明弹。表示杂项信号。
   components:
   - type: ExpendableLight
     iconStateOn: flare_unlit
@@ -522,10 +522,10 @@
     shape: star
 
 - type: entity
-  name: signal flare (other)
+  name: 信号弹（其他）
   parent: BaseSignalFlare
   id: SignalFlareGold
-  description: A flare that produces a very bright light and an IFF signal for a short while. Indicates a miscellaneous signal.
+  description: 一种会发出非常明亮的光并短时间发射IFF信号的照明弹。表示杂项信号。
   components:
   - type: Sprite
     sprite: Objects/Misc/flare.rsi
@@ -557,8 +557,8 @@
 - type: entity
   id: BoxDispenserFlare
   parent: BaseAmmoProvider # this is for cycling flares out and not spawning 9 entities
-  name: emergency flare dispenser
-  description: Dispenses emergency flares.
+  name: 紧急照明弹发射器
+  description: 发射应急信号弹。
   components:
   - type: Sprite
     layers:
@@ -576,8 +576,8 @@
 - type: entity
   id: BoxDispenserFlareGreen
   parent: BaseAmmoProvider # this is for cycling flares out and not spawning 9 entities
-  name: signal flare (friendly) dispenser
-  description: Dispenses signal flares, used for indicating friendly intent.
+  name: 信号弹（友方）发射器
+  description: 发射信号弹，用来表示友好意图。
   components:
   - type: Sprite
     layers:
@@ -596,8 +596,8 @@
 - type: entity
   id: BoxDispenserFlareRed
   parent: BaseAmmoProvider # this is for cycling flares out and not spawning 9 entities
-  name: signal flare (hostile) dispenser
-  description: Dispenses signal flares, used for indicating hostile intent.
+  name: 信号弹（敌对）发射器
+  description: 发射信号弹，用来表示敌对意图。
   components:
   - type: Sprite
     layers:
@@ -616,8 +616,8 @@
 - type: entity
   id: BoxDispenserFlareWhite
   parent: BaseAmmoProvider # this is for cycling flares out and not spawning 9 entities
-  name: signal flare (neutral/surrender) dispenser
-  description: Dispenses signal flares, used for indicating neutral intent or, in combat, surrender.
+  name: 信号弹（中性/投降）发射器
+  description: 发射信号弹，用来表示中立意图，或者在战斗中表示投降。
   components:
   - type: Sprite
     layers:
@@ -636,8 +636,8 @@
 - type: entity
   id: BoxDispenserFlareGold
   parent: BaseAmmoProvider # this is for cycling flares out and not spawning 9 entities
-  name: signal flare (other) dispenser
-  description: Dispenses signal flares, used for indicating a miscellaneous signal.
+  name: 信号弹（其他）发射器
+  description: 发射信号弹，用于表示各种信号。
   components:
   - type: Sprite
     layers:

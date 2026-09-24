@@ -104,7 +104,7 @@
 
 - type: entity
   id: ShipMissileASM220HESACLOS
-  name: ASM-220 torpedo (HE-SACLOS)
+  name: ASM-220 鱼雷（高爆-半自动指令线制导）
   parent: ShipMissileBase
   categories: [ HideSpawnMenu ]
   components:
@@ -162,8 +162,8 @@
 
 - type: entity
   id: Asm220TorpedoHESACLOS
-  name: ASM-220 high-explosive SACLOS torpedo
-  description: Contains a large explosive payload. High-Explosive is an understatement. This one is equipped with a SACLOS guidance system and requires manual guidance to target, but can move faster.
+  name: ASM-220 高爆SACLOS鱼雷
+  description: 携带大量爆炸物。说它是高爆都不算夸张。这货装备了SACLOS制导系统，需要手动引导瞄准，但移动速度更快。
   parent: BaseGrenade
   components:
   - type: Tag

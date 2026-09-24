@@ -170,7 +170,7 @@
 
 - type: entity
   id: ShipMissileASM150Unguided
-  name: ASM-150 150mm missile
+  name: ASM-150 150mm 导弹
   parent: ShipMissileASM150
   categories: [ HideSpawnMenu ]
   components:
@@ -281,7 +281,7 @@
 
 - type: entity
   id: ShipMissileASM250
-  name: ASM-250 Hybrid EMP Missile
+  name: ASM-250 混合电磁脉冲导弹
   parent: ShipMissileBase
   categories: [ HideSpawnMenu ]
   components:
@@ -393,7 +393,7 @@
 
 - type: entity
   id: ShipMissileEntropy
-  name: electron torpedo
+  name: 电子鱼雷
   parent: ShipMissileBase
   categories: [ HideSpawnMenu ]
   components:

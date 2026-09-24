@@ -1,10 +1,10 @@
 - type: entity
   id: WeaponTurretPaladin
-  name: MLRS-382 "Paladin" Missile Pod
+  name: MLRS-382 "圣骑士"导弹吊舱
   parent:
   - BallisticArtilleryMagazine
   - BallisticArtilleryTier4HP
-  description: Heavy missile pod firing 250mm guided rockets in bursts of 4.
+  description: 重型导弹吊舱以4发一组的方式发射250毫米制导火箭。
   suffix: Large, T4
   components:
   - type: StaticPrice

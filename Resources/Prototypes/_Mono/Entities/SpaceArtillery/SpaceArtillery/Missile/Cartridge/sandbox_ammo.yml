@@ -1,6 +1,6 @@
 - type: entity
   id: ShipMissileSandboxHE
-  name: SS-N-40 8K30 missile
+  name: SS-N-40 8K30 导弹
   parent: ShipMissileBase
   categories: [ HideSpawnMenu ]
   components:
@@ -65,8 +65,8 @@
 
 - type: entity
   id: SandboxHEMissile
-  name: SS-N-40 8K30 cruise missile (HE-SACLOS)
-  description: A high-velocity long-range cruise missile. Hard to shoot-down, hard to survive, and requires constant guidance from the gunnery console.
+  name: SS-N-40 8K30 巡航导弹（高爆半自动指令制导）
+  description: 一种高速远程巡航导弹。很难拦截，很难生存，而且需要炮控台持续引导。
   parent: BaseGrenade
   components:
   - type: Tag
@@ -111,7 +111,7 @@
 # Nuke
 - type: entity
   id: ShipMissileSandboxNuke
-  name: SS-N-40 'Atlant' missile
+  name: SS-N-40 “亚特兰特”导弹
   parent: ShipMissileBase
   categories: [ HideSpawnMenu ]
   components:
@@ -177,8 +177,8 @@
 
 - type: entity
   id: SandboxNuclearMissile
-  name: SS-N-40 'Atlant' nuclear cruise missile
-  description: A high-velocity cruise missile equipped with multi-kiloton nuclear warhead, capable of disabling any ship in a single blow. Almost unstoppable, and looks identical to a normal 8K30 on radar. This is a weapon of mass destruction, the destroyer of worlds. Hopefully you don't need to use it.
+  name: SS-N-40 “亚特兰特”核巡航导弹
+  description: 一种配备多千吨级核弹头的高速巡航导弹，能够一击摧毁任何舰船。几乎无法阻挡，而且在雷达上看起来和普通的8K30完全一样。这是一种大规模杀伤性武器，世界的毁灭者。希望你用不上它。
   parent: BaseGrenade
   components:
   - type: Tag

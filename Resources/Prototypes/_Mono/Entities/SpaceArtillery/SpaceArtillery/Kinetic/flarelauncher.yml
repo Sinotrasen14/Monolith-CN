@@ -1,10 +1,10 @@
 - type: entity
   id: WeaponTurretFlare
-  name: GS-002 Sunny flare system
+  name: GS-002 阳光干扰弹系统
   parent:
   - BallisticArtilleryMagazine
   - BallisticArtilleryTier2HP
-  description: A relatively small flare flinging hardpoint used to fool heat seeking missiles. Also good for search and rescue.
+  description: 一个相对较小的热诱弹投射硬点，用来迷惑热导导弹。对搜索和救援也很有用。
   suffix: T1
   components:
   - type: StaticPrice

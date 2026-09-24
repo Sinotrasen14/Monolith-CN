@@ -1,6 +1,6 @@
 - type: entity
   id: PaladinMagazine
-  name: "Paladin 250mm HE missile autoloader"
+  name: "圣骑士 250毫米高爆导弹自动装填器"
   parent: [BaseItem, RecyclableItemSteelTiny]
   components:
   - type: Tag
@@ -46,7 +46,7 @@
 
 - type: entity
   id: PaladinMagazineEMPHE
-  name: "Paladin 250mm EMPHE missile autoloader"
+  name: "圣骑士250毫米EMPHE导弹自动装载器"
   parent: PaladinMagazine
   components:
   - type: BallisticAmmoProvider
@@ -72,7 +72,7 @@
 
 - type: entity
   id: PaladinMagazineHV
-  name: "Paladin 250mm HV missile autoloader"
+  name: "圣骑士 250毫米高压导弹自动装填器"
   parent: PaladinMagazine
   components:
   - type: BallisticAmmoProvider
@@ -98,8 +98,8 @@
 
 - type: entity
   id: TovekCartridge
-  name: 250mm EMPHE missile
-  description: An individual ASM-250 EMPHE missile for a Tovek/Paladin launcher.
+  name: 250mm EMPHE 导弹
+  description: 一枚用于Tovek/圣骑士发射器的个人ASM-250 EMPHE导弹。
   parent: BaseGrenade
   components:
   - type: Tag
@@ -140,8 +140,8 @@
 
 - type: entity
   id: MissileCartridge250mm
-  name: 250mm HEAT missile
-  description: An individual ASM-250 HEAT missile for a Tovek/Paladin launcher.
+  name: 250mm HEAT 导弹
+  description: 一枚用于Tovek/圣骑士发射器的个人ASM-250穿甲高爆导弹。
   parent: BaseGrenade
   components:
   - type: Tag
@@ -181,8 +181,8 @@
 
 - type: entity
   id: MissileCartridge250mmHV
-  name: 250mm HV missile
-  description: An individual ASM-250 high-velocity missile for a Tovek/Paladin launcher.
+  name: 250mm HV 导弹
+  description: 适用于Tovek/圣骑士发射器的单枚ASM-250高速导弹。
   parent: BaseGrenade
   components:
   - type: Tag

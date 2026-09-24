@@ -8,9 +8,5 @@ research-technology-viper-group-basic = 蝰蛇集团基础硬装
 research-technology-viper-group-shipyard-adv = 蝰蛇集团LPC采购
 
 # T3 VG
-<<<<<<< HEAD
 research-technology-viper-group-heavy = 蝰蛇集团重型硬装
-=======
-research-technology-viper-group-heavy = Viper Group Heavy Hardsuits
-research-technology-viper-group-shipyard-T3 = Viper Group Tier III LPC procurement
->>>>>>> upstream
+research-technology-viper-group-shipyard-T3 = 蝰蛇集团T3LPC

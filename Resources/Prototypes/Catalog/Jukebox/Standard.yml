@@ -1928,4 +1928,16 @@
   id: BF5-Beat_The_Devils_Tatoo
   name: BF5-Beat_The_Devils_Tatoo
   path:
-    path: BF5-Beat_The_Devils_Tatoo.ogg
+    path: /Audio/Jukebox/BF5-Beat_The_Devils_Tatoo.ogg
+
+- type: jukebox
+  id: 黑道家族Woke_Up_This_Morning.ogg
+  name: 黑道家族Woke_Up_This_Morning
+  path:
+    path: /Audio/Jukebox/黑道家族Woke_Up_This_Morning.ogg
+
+- type: jukebox
+  id: 极乐迪斯科Fire_Escape_In_The_Sea
+  name: 极乐迪斯科Fire_Escape_In_The_Sea
+  path:
+    path: /Audio/Jukebox/极乐迪斯科Fire_Escape_In_The_Sea.ogg

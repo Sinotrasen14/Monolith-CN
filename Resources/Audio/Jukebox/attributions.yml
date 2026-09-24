@@ -1600,3 +1600,13 @@
   license: "Custom"
   copyright: "music."
   source: "net"
+
+- files: ["黑道家族Woke_Up_This_Morning.ogg"]
+  license: "Custom"
+  copyright: "music."
+  source: "net"
+
+- files: ["极乐迪斯科Fire_Escape_In_The_Sea.ogg"]
+  license: "Custom"
+  copyright: "music."
+  source: "net"

@@ -1,8 +1,8 @@
 - type: entity
   id: WeaponTurretTovek
-  name: ADMX-250 TOVEK Missile Pod
+  name: ADMX-250 TOVEK 导弹吊舱
   parent: BallisticArtilleryCartridge
-  description: A 250mm missile pod created by Aetherion Dynamics. Fires 250mm warheads to devastate enemy ships at long range. Can be remotely activated or linked to a GCS.
+  description: 由Aetherion Dynamics制造的250毫米导弹吊舱。发射250毫米弹头，远程摧毁敌舰。可以远程激活或连接到GCS。
   components:
   - type: StaticPrice
     price: 10000

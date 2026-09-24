@@ -95,8 +95,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitViperGroupJuggernaut
-  name: IMP mk.IV viper hardsuit
-  description: A heavy combat hardsuit adorned with signature markings of the Viper Group. The armor features reinforced plating and padding fitting for close encounters.
+  name: IMP mk.IV 毒蛇硬装
+  description: 一套沉重的战斗硬壳衣，带有毒蛇集团的标志性标记。装备有加固的护板和适合近身作战的缓冲装置。
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/viper_group_juggernaut.rsi
@@ -144,8 +144,8 @@
 - type: entity
   parent: [ ClothingOuterHardsuitBase, MonoEnergyShieldClothing ]
   id: ClothingOuterHardsuitViperGroupShield
-  name: MEDUSA mk.VI viper hardsuit
-  description: A heavy combat hardsuit adorned with signature markings of the Viper Group. The armor features a personal shield projector integrated into the suit.
+  name: MEDUSA mk.VI 毒蛇硬装
+  description: 一套沉重的战斗硬壳衣，带有毒蛇集团的标志性标记。装备内置了个人护盾投射器。
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/viper_group_shield.rsi
@@ -234,8 +234,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitViperGroupInitiate
-  name: BROOD mk.I viper hardsuit
-  description: A combat hardsuit adorned with signature markings of the Viper Group. Commonly worn by privateers recently awakened from cryosleep.
+  name: BROOD mk.I 毒蛇硬装
+  description: 一套战斗硬壳服，上面有毒蛇集团的标志性标记。通常由刚从冰眠中苏醒的私掠者穿着。
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/viper_group_initiate.rsi

@@ -1,10 +1,10 @@
 - type: entity
   id: WeaponTurretSandbox
-  name: SS-N-40 "Sandbox" launcher
+  name: SS-N-40 “沙盒”导弹发射仓
   parent:
   - BallisticArtilleryUnanchorableCartridge
   - BallisticArtilleryTier5HP
-  description: A strategic cruise missile launcher, able to fire extremely fast, long-ranged and nuclear-capable SARH munitions. Born from an almost genetic fear from long ago, this weapon system has long brought peace... until now.
+  description: 一种战略巡航导弹发射器，能够发射速度极快、射程远且具核能力的SARH弹药。这种武器系统源自很久以前几乎像遗传般的恐惧，它长期以来一直维持着和平……直到现在。
   components:
   - type: StaticPrice
     price: 50000

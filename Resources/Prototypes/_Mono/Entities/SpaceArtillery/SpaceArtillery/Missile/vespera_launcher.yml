@@ -1,10 +1,10 @@
 - type: entity
   id: WeaponTurretVespera
-  name: ADMP-50 VESPERA Missile Rack
+  name: ADMP-50 维斯佩拉导弹架
   parent:
   - BallisticArtilleryMagazine
   - BallisticArtilleryTier2HP
-  description: A rapid-fire swarm missile rack manufactured by Aetherion Dynamics. Saturates targets with guided warheads to overwhelm defenses. Limited ammo, but deadly. Can be remotely activated or linked to a GCS.
+  description: 由Aetherion Dynamics制造的快速射击群体导弹架。用制导弹头覆盖目标以压制防御。弹药有限，但非常致命。可远程激活或连接到地面控制系统（GCS）。
   components:
   - type: StaticPrice
     price: 1500
