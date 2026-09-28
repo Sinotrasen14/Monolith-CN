@@ -12,8 +12,8 @@
   id: LPBravo
   parent: BasePOI
   name: '布拉沃监听站'
-  minimumDistance: 15000
-  maximumDistance: 17500
+  minimumDistance: 20000
+  maximumDistance: 22500
   spawnGroup: SyndicateFOB
   gridPath: /Maps/_NF/POI/lpbravo.yml
   hideWarp: true
