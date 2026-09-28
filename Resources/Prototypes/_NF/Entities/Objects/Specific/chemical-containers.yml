@@ -1,8 +1,8 @@
 - type: entity
-  name: reinforced jug
+  name: 加固壶
   parent: Jug
   id: ReinforcedJug
-  description: The sterile plastic of this jug has been reinforced with a metallic shell allowing it to contain an impressive amount of liquid.
+  description: 这个水壶的无菌塑料被金属外壳加固，使它能够装下惊人的液体量。
   components:
     - type: SolutionContainerVisuals
       inHandsMaxFillLevels: 4
@@ -54,10 +54,10 @@
             False: { visible: true }
 
 - type: entity
-  name: bluespace jug
+  name: 蓝空壶
   parent: Jug
   id: JugBluespace
-  description: Uses bluespace technology to contain an impossible amount of liquid.
+  description: 使用蓝空间技术来容纳不可能数量的液体。
   components:
     - type: SolutionContainerManager
       solutions:
@@ -97,11 +97,11 @@
 # Frontier: an unspillable jug for welding fuel.
 # Mono: all jerry cans, solution: beaker >> solution: tank (ReagentTank support)
 - type: entity
-  name: jerry can
+  name: 油桶
   parent: BaseItem
   id: JerryCan
   #description: A plastic jerry can with a spill-proof nozzle. #Mono out
-  description: A plastic jerry can fitted with a specialized hot-refill outlet allowing risk-free refueling. #Mono in
+  description: 一个塑料油桶，配有专用的热加注口，让加油无风险。
   components:
   - type: SolutionContainerManager
     solutions:
@@ -205,8 +205,8 @@
 - type: entity
   parent: BaseItem
   id: FuelPlasma
-  name: fuel-grade plasma
-  description: A rod made of desaturated plasma, suitable for fuel.
+  name: 等离子燃料
+  description: 一根由去饱和等离子体制成的棒，适合作为燃料。
   suffix: 25 # mono
   components:
   - type: Material
@@ -239,8 +239,8 @@
 - type: entity
   parent: BaseItem
   id: FuelUranium
-  name: fuel-grade uranium
-  description: A rod made of semi-processed uranium, suitable for fuel.
+  name: 铀燃料
+  description: 一根半加工铀制成的棒，适合作为燃料。
   suffix: 25 # mono
   components:
   - type: Material
@@ -273,8 +273,8 @@
 - type: entity
   parent: BaseItem
   id: FuelBananium
-  name: fuel-grade bananium
-  description: A rod made from pressed bananium peels, suitable for fuel.
+  name: 蕉矿燃料
+  description: 用压制蕉矿制成的棒，适合作为燃料。
   suffix: 25 # mono
   components:
   - type: Material

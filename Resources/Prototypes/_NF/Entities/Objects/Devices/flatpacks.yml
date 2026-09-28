@@ -15,8 +15,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: AutolatheFlatpack
-  name: autolathe flatpack
-  description: A flatpack used for constructing an autolathe.
+  name: 自动车床组装包
+  description: 用于建造自动车床的组装包。
   components:
   - type: Flatpack
     entity: Autolathe
@@ -24,8 +24,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: EngineeringTechFabFlatpack
-  name: engineering techfab flatpack
-  description: A flatpack used for constructing an engineering techfab.
+  name: 工程科技制造器组装包
+  description: 用于建造工程科技制造器的组装包。
   components:
   - type: Flatpack
     entity: EngineeringTechFab
@@ -35,8 +35,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: GasThermoMachineFreezerFlatpack
-  name: freezer flatpack
-  description: A flatpack used for constructing a freezer.
+  name: 冷冻机组装包
+  description: 用于建造冷冻机的组装包。
   components:
   - type: Flatpack
     entity: GasThermoMachineFreezer
@@ -46,8 +46,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: GasThermoMachineHeaterFlatpack
-  name: heater flatpack
-  description: A flatpack used for constructing a heater.
+  name: 加热机组装包
+  description: 用于建造加热机的组装包。
   components:
   - type: Flatpack
     entity: GasThermoMachineHeater
@@ -57,8 +57,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: GasThermoMachineHellfireFreezerFlatpack
-  name: hellfire freezer flatpack
-  description: A flatpack used for constructing a hellfire freezer.
+  name: 地狱火冷冻机组装包
+  description: 用于建造地狱火冷冻机的组装包。
   components:
   - type: Flatpack
     entity: GasThermoMachineHellfireFreezer
@@ -68,8 +68,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: GasThermoMachineHellfireHeaterFlatpack
-  name: hellfire heater flatpack
-  description: A flatpack used for constructing a hellfire heater.
+  name: 地狱火加热机组装包
+  description: 用于建造地狱火加热机的组装包。
   components:
   - type: Flatpack
     entity: GasThermoMachineHellfireHeater
@@ -79,8 +79,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: CrystallizerFlatpack
-  name: crystallizer flatpack
-  description: A flatpack used for constructing a crystallizer.
+  name: 结晶器组装包
+  description: 用于建造结晶器的组装包。
   components:
   - type: Flatpack
     entity: Crystallizer
@@ -90,8 +90,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: MachineFlatpackerFlatpack
-  name: flatpacker 1001 flatpack
-  description: A flatpack used for constructing a flatpacker 1001.
+  name: 组装机1001组装包
+  description: 用于建造组装机1001的组装包。
   components:
   - type: Flatpack
     entity: MachineFlatpacker
@@ -101,8 +101,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: PowerCellRechargerFlatpack
-  name: cell charger flatpack
-  description: A flatpack used for constructing a cell charger.
+  name: 电池充电器组装包
+  description: 用于建造电池充电器的组装包。
   components:
   - type: Flatpack
     entity: PowerCellRecharger
@@ -115,8 +115,8 @@
 - type: entity
   parent: PowerCellRechargerFlatpack
   id: WeaponCapacitorRechargerFlatpack
-  name: recharger flatpack
-  description: A flatpack used for constructing a recharger.
+  name: 充能器组装包
+  description: 用于建造充能器的组装包。
   components:
   - type: Flatpack
     entity: WeaponCapacitorRecharger
@@ -126,8 +126,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: BorgChargerFlatpack
-  name: borg charger flatpack
-  description: A flatpack used for constructing a borg charger.
+  name: 机器人充电器组装包
+  description: 用于建造机器人充电器的组装包。
   components:
   - type: Flatpack
     entity: BorgCharger
@@ -140,8 +140,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: PortableGeneratorJrPacmanFlatpack
-  name: J.R.P.A.C.M.A.N.-type portable generator flatpack
-  description: A flatpack used for constructing a J.R.P.A.C.M.A.N.-type portable generator.
+  name: J.R.P.A.C.M.A.N.型便携发电机组装包
+  description: 用于建造J.R.P.A.C.M.A.N.型便携发电机的组装包。
   components:
   - type: Flatpack
     entity: PortableGeneratorJrPacman
@@ -152,8 +152,8 @@
 - type: entity
   parent: PortableGeneratorJrPacmanFlatpack
   id: PortableGeneratorPacmanFlatpack
-  name: P.A.C.M.A.N.-type portable generator flatpack
-  description: A flatpack used for constructing a P.A.C.M.A.N.-type portable generator.
+  name: P.A.C.M.A.N.型便携发电机组装包
+  description: 用于建造P.A.C.M.A.N.型便携发电机的组装包。
   components:
   - type: Flatpack
     entity: PortableGeneratorPacman
@@ -161,8 +161,8 @@
 - type: entity
   parent: PortableGeneratorJrPacmanFlatpack
   id: PortableGeneratorSuperPacmanFlatpack
-  name: S.U.P.E.R.P.A.C.M.A.N.-type portable generator flatpack
-  description: A flatpack used for constructing a S.U.P.E.R.P.A.C.M.A.N.-type portable generator.
+  name: S.U.P.E.R.P.A.C.M.A.N.型便携发电机组装包
+  description: 用于建造S.U.P.E.R.P.A.C.M.A.N.型便携发电机的组装包。
   components:
   - type: Flatpack
     entity: PortableGeneratorSuperPacman
@@ -170,8 +170,8 @@
 - type: entity
   parent: PortableGeneratorJrPacmanFlatpack
   id: GeneratorRTGFlatpack
-  name: RTG generator flatpack
-  description: A flatpack used for constructing a Radioisotope Thermoelectric Generator.
+  name: RTG发电机组装包
+  description: 用于建造放射性同位素热电发电机的组装包。
   components:
   - type: Flatpack
     entity: GeneratorRTG
@@ -179,8 +179,8 @@
 - type: entity
   parent: PortableGeneratorJrPacmanFlatpack
   id: GeneratorRTGDamagedFlatpack
-  name: RTG generator flatpack
-  description: A flatpack used for constructing a Radioisotope Thermoelectric Generator. The packaging seems to be somewhat damaged.
+  name: RTG发电机组装包
+  description: 用于建造放射性同位素热电发电机的组装包。包装似乎有些损坏。
   suffix: Damaged
   components:
   - type: Flatpack
@@ -189,8 +189,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: AmeControllerUnanchoredFlatpack
-  name: IRE controller flatpack
-  description: A flatpack used for constructing an IRE controller.
+  name: IRE控制器组装包
+  description: 用于建造IRE控制器的组装包。
   components:
   - type: Flatpack
     entity: AmeControllerUnanchored
@@ -201,8 +201,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: RadiationCollectorFullTankFlatpack
-  name: radiation collector flatpack
-  description: A flatpack used for constructing a radiation collector.
+  name: 辐射收集器组装包
+  description: 用于建造辐射收集器的组装包。
   components:
   - type: Flatpack
     entity: RadiationCollectorFullTank
@@ -210,8 +210,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: SmallGyroscopeFlatpack
-  name: small gyroscope flatpack
-  description: A flatpack used for constructing a small gyroscope.
+  name: 小型陀螺仪组装包
+  description: 用于建造小型陀螺仪的组装包。
   components:
   - type: Flatpack
     entity: SmallGyroscope
@@ -219,8 +219,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: SmallThrusterFlatpack
-  name: small thruster flatpack
-  description: A flatpack used for constructing a small thruster.
+  name: 小型推进器组装包
+  description: 用于建造小型推进器的组装包。
   components:
   - type: Flatpack
     entity: SmallThruster
@@ -229,8 +229,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: ExosuitFabricatorFlatpack
-  name: exosuit fabricator flatpack
-  description: A flatpack used for constructing an exosuit fabricator.
+  name: 外骨骼制造器组装包
+  description: 用于建造外骨骼制造器的组装包。
   components:
   - type: Flatpack
     entity: ExosuitFabricator
@@ -243,8 +243,8 @@
 - type: entity
   parent: ExosuitFabricatorFlatpack
   id: CircuitImprinterFlatpack
-  name: circuit imprinter flatpack
-  description: A flatpack used for constructing a circuit imprinter.
+  name: 电路印刷机组装包
+  description: 用于建造电路印刷机的组装包。
   components:
   - type: Flatpack
     entity: CircuitImprinter
@@ -252,8 +252,8 @@
 - type: entity
   parent: ExosuitFabricatorFlatpack
   id: ProtolatheFlatpack
-  name: protolathe flatpack
-  description: A flatpack used for constructing a protolathe.
+  name: 原型车床组装包
+  description: 用于建造原型车床的组装包。
   components:
   - type: Flatpack
     entity: Protolathe
@@ -261,8 +261,8 @@
 - type: entity
   parent: ExosuitFabricatorFlatpack
   id: MachineArtifactAnalyzerFlatpack
-  name: artifact analyzer flatpack
-  description: A flatpack used for constructing an artifact analyzer.
+  name: 神器分析仪组装包
+  description: 用于建造神器分析仪的组装包。
   components:
   - type: Flatpack
     entity: MachineArtifactAnalyzer
@@ -273,8 +273,8 @@
 - type: entity
   parent: ExosuitFabricatorFlatpack
   id: MachineAnomalyVesselFlatpack
-  name: anomaly vessel flatpack
-  description: A flatpack used for constructing an anomaly vessel.
+  name: 异常容器组装包
+  description: 用于建造异常容器的组装包。
   components:
   - type: Flatpack
     entity: MachineAnomalyVessel
@@ -285,8 +285,8 @@
 - type: entity
   parent: ExosuitFabricatorFlatpack
   id: MachineAPEFlatpack
-  name: A.P.E. flatpack
-  description: A flatpack used for constructing an A.P.E..
+  name: A.P.E.组装包
+  description: 用于建造A.P.E.的组装包。
   components:
   - type: Flatpack
     entity: MachineAPE
@@ -297,8 +297,8 @@
 - type: entity
   parent: ExosuitFabricatorFlatpack
   id: MachineArtifactCrusherFlatpack
-  name: artifact crusher flatpack
-  description: A flatpack used for constructing an artifact crusher.
+  name: 神器粉碎机组装包
+  description: 用于建造神器粉碎机的组装包。
   components:
   - type: Flatpack
     entity: MachineArtifactCrusher
@@ -306,8 +306,8 @@
 - type: entity
   parent: ExosuitFabricatorFlatpack
   id: MachineAnomalyVesselExperimentalFlatpack
-  name: experimental anomaly vessel flatpack
-  description: A flatpack used for constructing an experimental anomaly vessel.
+  name: 实验性异常容器组装包
+  description: 用于建造实验性异常容器的组装包。
   components:
   - type: Flatpack
     entity: MachineAnomalyVesselExperimental
@@ -315,8 +315,8 @@
 - type: entity
   parent: ExosuitFabricatorFlatpack
   id: MachineAnomalyGeneratorFlatpack
-  name: anomaly generator flatpack
-  description: A flatpack used for constructing an anomaly generator.
+  name: 异常发生器组装包
+  description: 用于建造异常发生器的组装包。
   components:
   - type: Flatpack
     entity: MachineAnomalyGenerator
@@ -324,8 +324,8 @@
 - type: entity
   parent: ExosuitFabricatorFlatpack
   id: BlueprintLithographFlatpack
-  name: blueprint lithograph flatpack
-  description: A flatpack used for constructing a blueprint lithograph.
+  name: 蓝图平版印刷机组装包
+  description: 用于建造蓝图平版印刷机的组装包。
   components:
   - type: Flatpack
     entity: BlueprintLithograph
@@ -334,8 +334,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: NFHolopadShipFlatpack
-  name: bluespace holopad flatpack
-  description: A flatpack used for constructing a bluespace holopad for ship to ship communication.
+  name: 蓝空全息通讯台组装包
+  description: 用于建造蓝空全息通讯台的组装包，用于舰船之间的通讯。
   components:
   - type: Flatpack
     entity: NFHolopadShip
@@ -343,8 +343,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: UniformPrinterFlatpack
-  name: uniform printer flatpack
-  description: A flatpack used for constructing an uniform printer.
+  name: 制服打印机组装包
+  description: 用于建造制服打印机的组装包。
   components:
   - type: Flatpack
     entity: UniformPrinter
@@ -355,8 +355,8 @@
 - type: entity
   parent: UniformPrinterFlatpack
   id: ServiceTechFabFlatpack
-  name: service techfab flatpack
-  description: A flatpack used for constructing a service techfab.
+  name: 服务科技制造器组装包
+  description: 用于建造服务科技制造器的组装包。
   components:
   - type: Flatpack
     entity: ServiceTechFab
@@ -366,8 +366,8 @@
 - type: entity
   parent: UniformPrinterFlatpack
   id: MaterialReclaimerFlatpack
-  name: material reclaimer flatpack
-  description: A flatpack used for constructing a material reclaimer.
+  name: 材料回收机组装包
+  description: 用于建造材料回收机的组装包。
   components:
   - type: Flatpack
     entity: MaterialReclaimer
@@ -375,8 +375,8 @@
 - type: entity
   parent: UniformPrinterFlatpack
   id: HydroponicsTrayEmptyFlatpack
-  name: hydroponics tray flatpack
-  description: A flatpack used for constructing a hydroponics tray.
+  name: 水培托盘组装包
+  description: 用于建造水培托盘的组装包。
   components:
   - type: Flatpack
     entity: HydroponicsTrayEmpty
@@ -389,8 +389,8 @@
 - type: entity
   parent: UniformPrinterFlatpack
   id: CutterMachineFlatpack
-  name: cutter machine flatpack
-  description: A flatpack used for constructing a tile-meister 5000.
+  name: 切割机组装包
+  description: 用于建造地砖大师5000的组装包。
   components:
   - type: Flatpack
     entity: CutterMachine
@@ -398,8 +398,8 @@
 - type: entity
   parent: UniformPrinterFlatpack
   id: TelevisionFlatpack
-  name: television flatpack
-  description: A flatpack used for constructing a television.
+  name: 电视机组装包
+  description: 用于建造电视机的组装包。
   components:
   - type: Flatpack
     entity: ComputerTelevision
@@ -407,8 +407,8 @@
 - type: entity
   parent: UniformPrinterFlatpack
   id: KitchenElectricGrillFlatpack
-  name: electric grill flatpack
-  description: A flatpack used for constructing an electric grill.
+  name: 电烤炉组装包
+  description: 用于建造电烤炉的组装包。
   components:
   - type: Flatpack
     entity: KitchenElectricGrill
@@ -416,8 +416,8 @@
 - type: entity
   parent: UniformPrinterFlatpack
   id: KitchenMicrowaveFlatpack
-  name: microwave flatpack
-  description: A flatpack used for constructing a microwave.
+  name: 微波炉组装包
+  description: 用于建造微波炉的组装包。
   components:
   - type: Flatpack
     entity: KitchenMicrowave
@@ -425,8 +425,8 @@
 - type: entity
   parent: UniformPrinterFlatpack
   id: HydroponicsSoilNutritionFlatpack
-  name: crate of fertile soil
-  description: A crate of fertile soil used for constructing a soil bed for growing. Spread it around with a shovel.
+  name: 肥沃土壤箱
+  description: 用于建造种植用土壤床的肥沃土壤箱。用铲子将其铺开。
   components:
   - type: Flatpack
     entity: HydroponicsSoilNutrition
@@ -439,8 +439,8 @@
 - type: entity
   parent: UniformPrinterFlatpack
   id: HydroponicsSoilEmptyFlatpack
-  name: crate of soil
-  description: A crate of soil used for constructing a soil bed for growing. Spread it around with a shovel.
+  name: 土壤箱
+  description: 用于建造种植用土壤床的土壤箱。用铲子将其铺开。
   components:
   - type: Flatpack
     entity: HydroponicsSoilEmpty
@@ -453,8 +453,8 @@
 - type: entity
   parent: UniformPrinterFlatpack
   id: ComputerWithdrawBankATMFlatpack
-  name: withdraw only atm flatpack
-  description: A flatpack used for constructing an atm. Best not to think about it.
+  name: 仅取款ATM组装包
+  description: 用于建造ATM的组装包。最好别多想。
   components:
   - type: Flatpack
     entity: ComputerWithdrawBankATM
@@ -463,8 +463,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: MedicalTechFabFlatpack
-  name: medical techfab flatpack
-  description: A flatpack used for constructing a medical techfab.
+  name: 医疗科技制造器组装包
+  description: 用于建造医疗科技制造器的组装包。
   components:
   - type: Flatpack
     entity: MedicalTechFab
@@ -477,8 +477,8 @@
 - type: entity
   parent: MedicalTechFabFlatpack
   id: StasisBedFlatpack
-  name: stasis bed flatpack
-  description: A flatpack used for constructing a stasis bed.
+  name: 静滞床组装包
+  description: 用于建造静滞床的组装包。
   components:
   - type: Flatpack
     entity: StasisBed
@@ -486,8 +486,8 @@
 - type: entity
   parent: MedicalTechFabFlatpack
   id: CryoPodFlatpack
-  name: cryo pod flatpack
-  description: A flatpack used for constructing a cryo pod.
+  name: 低温休眠舱组装包
+  description: 用于建造低温休眠舱的组装包。
   components:
   - type: Flatpack
     entity: CryoPod
@@ -495,8 +495,8 @@
 - type: entity
   parent: MedicalTechFabFlatpack
   id: ChemMasterFlatpack
-  name: chemmaster flatpack
-  description: A flatpack used for constructing a chemmaster.
+  name: 药剂大师组装包
+  description: 用于建造药剂大师的组装包。
   components:
   - type: Flatpack
     entity: ChemMaster
@@ -504,8 +504,8 @@
 - type: entity
   parent: MedicalTechFabFlatpack
   id: MachineElectrolysisUnitFlatpack
-  name: electrolysis unit flatpack
-  description: A flatpack used for constructing an electrolysis unit.
+  name: 电解装置组装包
+  description: 用于建造电解装置的组装包。
   components:
   - type: Flatpack
     entity: MachineElectrolysisUnit
@@ -513,8 +513,8 @@
 - type: entity
   parent: MedicalTechFabFlatpack
   id: BaseGasCondenserFlatpack
-  name: gas condenser flatpack
-  description: A flatpack used for constructing a gas condenser.
+  name: 气体冷凝器组装包
+  description: 用于建造气体冷凝器的组装包。
   components:
   - type: Flatpack
     entity: BaseGasCondenser
@@ -522,8 +522,8 @@
 - type: entity
   parent: MedicalTechFabFlatpack
   id: MachineCentrifugeFlatpack
-  name: tabletop centrifuge flatpack
-  description: A flatpack used for constructing a tabletop centrifuge.
+  name: 台式离心机组装包
+  description: 用于建造台式离心机的组装包。
   components:
   - type: Flatpack
     entity: MachineCentrifuge
@@ -531,8 +531,8 @@
 - type: entity
   parent: MedicalTechFabFlatpack
   id: MachineThermobathFlatpack
-  name: thermobath flatpack
-  description: A flatpack used for constructing a thermobath.
+  name: 恒温水浴组装包
+  description: 用于建造恒温水浴的组装包。
   components:
   - type: Flatpack
     entity: MachineThermobath
@@ -540,8 +540,8 @@
 - type: entity
   parent: MedicalTechFabFlatpack
   id: KitchenReagentGrinderFlatpack
-  name: reagent grinder flatpack
-  description: A flatpack used for constructing a reagent grinder.
+  name: 试剂研磨机组装包
+  description: 用于建造试剂研磨机的组装包。
   components:
   - type: Flatpack
     entity: KitchenReagentGrinder
@@ -550,8 +550,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: OreProcessorFlatpack
-  name: ore processor flatpack
-  description: A flatpack used for constructing an ore processor.
+  name: 矿石处理器组装包
+  description: 用于建造矿石处理器的组装包。
   components:
   - type: Flatpack
     entity: OreProcessor
@@ -565,8 +565,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: ShuttleGunKineticFlatpack
-  name: PTK-1500e "Matter Dematerializer" flatpack
-  description: A flatpack used for constructing a PTK-1500e "Matter Dematerializer".
+  name: PTK-1500e“物质分解器”组装包
+  description: 用于建造PTK-1500e“物质分解器”的组装包。
   components:
   - type: Flatpack
     entity: ShuttleGunKinetic
@@ -579,8 +579,8 @@
 - type: entity
   parent: OreProcessorFlatpack
   id: SalvageTechfabNFFlatpack
-  name: salvage techfab flatpack
-  description: A flatpack used for constructing a salvage techfab.
+  name: 打捞科技制造器组装包
+  description: 用于建造打捞科技制造器的组装包。
   components:
   - type: Flatpack
     entity: SalvageTechfabNF
@@ -588,8 +588,8 @@
 - type: entity
   parent: OreProcessorFlatpack
   id: OreProcessorIndustrialFlatpack
-  name: industrial ore processor flatpack
-  description: A flatpack used for constructing an industrial ore processor.
+  name: 工业矿石处理器组装包
+  description: 用于建造工业矿石处理器的组装包。
   components:
   - type: Flatpack
     entity: OreProcessorIndustrial
@@ -597,8 +597,8 @@
 - type: entity
   parent: OreProcessorFlatpack
   id: ScrapProcessorFlatpack
-  name: scrap processor flatpack
-  description: A flatpack used for constructing a scrap processor.
+  name: 废料处理器组装包
+  description: 用于建造废料处理器的组装包。
   components:
   - type: Flatpack
     entity: ScrapProcessor
@@ -607,8 +607,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: AmmoTechFabFlatpack
-  name: ammo techfab flatpack
-  description: A flatpack used for constructing an ammo techfab.
+  name: 弹药科技制造器组装包
+  description: 用于建造弹药科技制造器的组装包。
   components:
   - type: Flatpack
     entity: AmmoTechFab
@@ -619,8 +619,8 @@
 - type: entity
   parent: AmmoTechFabFlatpack
   id: MercenaryTechFabFlatpack
-  name: mercenary techfab flatpack
-  description: A flatpack used for constructing a mercenary techfab.
+  name: 佣兵科技制造器组装包
+  description: 用于建造佣兵科技制造器的组装包。
   components:
   - type: Flatpack
     entity: MercenaryTechFab
@@ -631,8 +631,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: ComputerResearchAndDevelopmentFlatpack
-  name: research and development computer flatpack
-  description: A flatpack used for constructing a research and development computer.
+  name: 研发计算机组装包
+  description: 用于建造研发计算机的组装包。
   components:
   - type: Flatpack
     entity: ComputerResearchAndDevelopment
@@ -646,8 +646,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: ComputerAnalysisConsoleFlatpack
-  name: analysis console flatpack
-  description: A flatpack used for constructing an analysis console.
+  name: 分析控制台组装包
+  description: 用于建造分析控制台的组装包。
   components:
   - type: Flatpack
     entity: ComputerAnalysisConsole
@@ -657,8 +657,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: ComputerCrewMonitoringFlatpack
-  name: crew monitoring console flatpack
-  description: A flatpack used for constructing a crew monitoring console.
+  name: 船员监控控制台组装包
+  description: 用于建造船员监控控制台的组装包。
   components:
   - type: Flatpack
     entity: ComputerCrewMonitoring
@@ -671,8 +671,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: ComputerIFFFlatpack
-  name: IFF computer flatpack
-  description: A flatpack used for constructing a IFF computer.
+  name: IFF计算机组装包
+  description: 用于建造IFF计算机的组装包。
   components:
   - type: Flatpack
     entity: ComputerIFF
@@ -686,8 +686,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: ResearchAndDevelopmentServerFlatpack
-  name: research and development server flatpack
-  description: A flatpack used for constructing a research and development server.
+  name: 研发服务器组装包
+  description: 用于建造研发服务器的组装包。
   components:
   - type: Flatpack
     entity: ResearchAndDevelopmentServer
@@ -700,8 +700,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: TelecomServerFlatpack
-  name: telecommunication server flatpack
-  description: A flatpack used for constructing a telecommunication server.
+  name: 电信服务器组装包
+  description: 用于建造电信服务器的组装包。
   components:
   - type: Flatpack
     entity: TelecomServer
@@ -713,8 +713,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: AirlockFlatpack
-  name: airlock flatpack
-  description: A flatpack used for constructing an airlock.
+  name: 气闸组装包
+  description: 用于建造气闸的组装包。
   components:
   - type: Flatpack
     entity: Airlock
@@ -727,8 +727,8 @@
 - type: entity
   parent: AirlockFlatpack
   id: AirlockGlassFlatpack
-  name: glass airlock flatpack
-  description: A flatpack used for constructing an airlock.
+  name: 玻璃气闸组装包
+  description: 用于建造气闸的组装包。
   components:
   - type: Flatpack
     entity: AirlockGlass
@@ -736,8 +736,8 @@
 - type: entity
   parent: AirlockFlatpack
   id: AirlockShuttleFlatpack
-  name: docking airlock flatpack
-  description: A flatpack used for constructing a docking airlock.
+  name: 对接气闸组装包
+  description: 用于建造对接气闸的组装包。
   components:
   - type: Flatpack
     entity: AirlockShuttle
@@ -748,8 +748,8 @@
 - type: entity
   parent: AirlockShuttleFlatpack
   id: AirlockGlassShuttleFlatpack
-  name: docking glass airlock flatpack
-  description: A flatpack used for constructing a glass docking airlock.
+  name: 对接玻璃气闸组装包
+  description: 用于建造玻璃对接气闸的组装包。
   components:
   - type: Flatpack
     entity: AirlockGlassShuttle
@@ -757,8 +757,8 @@
 - type: entity
   parent: AirlockFlatpack
   id: GaslockFlatpack
-  name: gaslock flatpack
-  description: A flatpack used for constructing a full-size gaslock.
+  name: 气体闸组装包
+  description: 用于建造全尺寸气体闸的组装包。
   components:
   - type: Flatpack
     entity: Gaslock
@@ -770,8 +770,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: TubaInstrumentFlatpack
-  name: tuba flatpack
-  description: A flatpack containing a tuba.
+  name: 大号组装包
+  description: 装有大号的组装包。
   components:
   - type: Flatpack
     entity: TubaInstrument
@@ -784,8 +784,8 @@
 - type: entity
   parent: TubaInstrumentFlatpack
   id: HarpInstrumentFlatpack
-  name: harp flatpack
-  description: A flatpack containing a harp.
+  name: 竖琴组装包
+  description: 装有竖琴的组装包。
   components:
   - type: Flatpack
     entity: HarpInstrument
@@ -793,8 +793,8 @@
 - type: entity
   parent: TubaInstrumentFlatpack
   id: ContrabassInstrumentFlatpack
-  name: contrabass flatpack
-  description: A flatpack containing a contrabass.
+  name: 低音提琴组装包
+  description: 装有低音提琴的组装包。
   components:
   - type: Flatpack
     entity: ContrabassInstrument
@@ -802,8 +802,8 @@
 - type: entity
   parent: TubaInstrumentFlatpack
   id: VibraphoneInstrumentFlatpack
-  name: vibraphone flatpack
-  description: A flatpack containing a vibraphone.
+  name: 颤音琴组装包
+  description: 装有颤音琴的组装包。
   components:
   - type: Flatpack
     entity: VibraphoneInstrument
@@ -813,8 +813,8 @@
 - type: entity
   parent: TubaInstrumentFlatpack
   id: MarimbaInstrumentFlatpack
-  name: marimba flatpack
-  description: A flatpack containing a marimba.
+  name: 马林巴组装包
+  description: 装有马林巴的组装包。
   components:
   - type: Flatpack
     entity: MarimbaInstrument
@@ -822,8 +822,8 @@
 - type: entity
   parent: TubaInstrumentFlatpack
   id: TomDrumsInstrumentFlatpack
-  name: tom drums flatpack
-  description: A flatpack containing tom drums.
+  name: 嗵鼓组装包
+  description: 装有嗵鼓的组装包。
   components:
   - type: Flatpack
     entity: TomDrumsInstrument
@@ -831,8 +831,8 @@
 - type: entity
   parent: TubaInstrumentFlatpack
   id: TimpaniInstrumentFlatpack
-  name: timpani flatpack
-  description: A flatpack containing a timpani.
+  name: 定音鼓组装包
+  description: 装有定音鼓的组装包。
   components:
   - type: Flatpack
     entity: TimpaniInstrument
@@ -840,8 +840,8 @@
 - type: entity
   parent: TubaInstrumentFlatpack
   id: TaikoInstrumentFlatpack
-  name: taiko flatpack
-  description: A flatpack containing a taiko.
+  name: 太鼓组装包
+  description: 装有太鼓的组装包。
   components:
   - type: Flatpack
     entity: TaikoInstrument
@@ -849,8 +849,8 @@
 - type: entity
   parent: TubaInstrumentFlatpack
   id: MinimoogInstrumentFlatpack
-  name: minimoog flatpack
-  description: A flatpack containing a minimoog.
+  name: 迷你穆格组装包
+  description: 装有迷你穆格的组装包。
   components:
   - type: Flatpack
     entity: MinimoogInstrument
@@ -858,8 +858,8 @@
 - type: entity
   parent: TubaInstrumentFlatpack
   id: ChurchOrganInstrumentFlatpack
-  name: church organ flatpack
-  description: A flatpack containing a church organ.
+  name: 教堂管风琴组装包
+  description: 装有教堂管风琴的组装包。
   components:
   - type: Flatpack
     entity: ChurchOrganInstrument
@@ -867,8 +867,8 @@
 - type: entity
   parent: TubaInstrumentFlatpack
   id: PianoInstrumentFlatpack
-  name: piano flatpack
-  description: A flatpack containing a piano.
+  name: 钢琴组装包
+  description: 装有钢琴的组装包。
   components:
   - type: Flatpack
     entity: PianoInstrument
@@ -876,8 +876,8 @@
 - type: entity
   parent: TubaInstrumentFlatpack
   id: UprightPianoInstrumentFlatpack
-  name: upright piano flatpack
-  description: A flatpack containing a upright piano.
+  name: 立式钢琴组装包
+  description: 装有立式钢琴的组装包。
   components:
   - type: Flatpack
     entity: UprightPianoInstrument
@@ -885,8 +885,8 @@
 - type: entity
   parent: TubaInstrumentFlatpack
   id: DawInstrumentFlatpack
-  name: DAW flatpack
-  description: A flatpack containing a digital audio workstation.
+  name: 数字音频工作站组装包
+  description: 装有数字音频工作站的组装包。
   components:
   - type: Flatpack
     entity: DawInstrument
@@ -896,8 +896,8 @@
 - type: entity
   parent: UniformPrinterFlatpack
   id: NfsdTechFabFlatpack
-  name: TSFMC techfab flatpack
-  description: A flatpack used for constructing an TSFMC techfab.
+  name: TSFMC科技制造器组装包
+  description: 用于建造TSFMC科技制造器的组装包。
   components:
   - type: Flatpack
     entity: NfsdTechFab
@@ -910,8 +910,8 @@
 - type: entity
   parent: UniformPrinterFlatpack
   id: JukeboxFlatpack
-  name: jukebox flatpack
-  description: A flatpack used for constructing a jukebox.
+  name: 点唱机组装包
+  description: 用于建造点唱机的组装包。
   components:
   - type: Flatpack
     entity: Jukebox
@@ -922,8 +922,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: HoverbikeFlatpack
-  name: hoverbike flatpack
-  description: A flatpack used for constructing a hoverbike. Keys already slotted in the ignition.
+  name: 悬浮摩托组装包
+  description: 用于建造悬浮摩托的组装包。钥匙已插在点火器上。
   components:
   - type: Flatpack
     entity: VehicleHoverbikeNFKeys
@@ -936,8 +936,8 @@
 - type: entity
   parent: HoverbikeFlatpack
   id: HoverbikeMailcarrierFlatpack
-  name: mail carrier hoverbike flatpack
-  description: A flatpack used for constructing a hoverbike. Keys already slotted in the ignition.
+  name: 邮差悬浮摩托组装包
+  description: 用于建造悬浮摩托的组装包。钥匙已插在点火器上。
   components:
   - type: Flatpack
     entity: VehicleHoverbikeMailcarrierKey
@@ -947,8 +947,8 @@
 - type: entity
   parent: HoverbikeFlatpack
   id: HoverbikeNfsdFlatpack
-  name: TSFMC hoverbike flatpack
-  description: A flatpack used for constructing a hoverbike. Keys already slotted in the ignition.
+  name: TSFMC悬浮摩托组装包
+  description: 用于建造悬浮摩托的组装包。钥匙已插在点火器上。
   components:
   - type: Flatpack
     entity: VehicleHoverbikeNfsdKey
@@ -958,8 +958,8 @@
 - type: entity
   parent: HoverbikeFlatpack
   id: HoverbikePirateFlatpack
-  name: pirate hoverbike flatpack
-  description: A flatpack used for constructing a hoverbike. Keys already slotted in the ignition.
+  name: 海盗悬浮摩托组装包
+  description: 用于建造悬浮摩托的组装包。钥匙已插在点火器上。
   components:
   - type: Flatpack
     entity: VehicleHoverbikePirateKey
@@ -969,8 +969,8 @@
 - type: entity
   parent: HoverbikeFlatpack
   id: HoverbikeSyndicateFlatpack
-  name: syndicate hoverbike flatpack
-  description: A flatpack used for constructing a hoverbike. Keys already slotted in the ignition.
+  name: 辛迪加悬浮摩托组装包
+  description: 用于建造悬浮摩托的组装包。钥匙已插在点火器上。
   components:
   - type: Flatpack
     entity: VehicleHoverbikeSyndicateKey
@@ -980,8 +980,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: JanicartFlatpack
-  name: janicart flatpack
-  description: A flatpack used for constructing a Janicart. Keys already slotted in the ignition. Mop sold separately.
+  name: 清洁车组装包
+  description: 用于建造清洁车的组装包。钥匙已插在点火器上。拖把另售。
   components:
   - type: Flatpack
     entity: NFVehicleJanicartKey
@@ -992,8 +992,8 @@
 - type: entity
   parent: UniformPrinterFlatpack
   id: VendingMachineBoozeFlatpack
-  name: booze-o-mat flatpack
-  description: A flatpack used for constructing a booze-o-mat vendomat.
+  name: 酒水贩卖机组装包
+  description: 用于建造酒水贩卖机的组装包。
   components:
   - type: Flatpack
     entity: VendingMachineBooze
@@ -1003,8 +1003,8 @@
 - type: entity
   parent: VendingMachineBoozeFlatpack
   id: VendingMachineCigsFlatpack
-  name: shadycigs delux flatpack
-  description: A flatpack used for constructing a shadycigs delux vendomat.
+  name: 暗影香烟豪华版组装包
+  description: 用于建造暗影香烟豪华版贩卖机的组装包。
   components:
   - type: Flatpack
     entity: VendingMachineCigs
@@ -1012,8 +1012,8 @@
 - type: entity
   parent: VendingMachineBoozeFlatpack
   id: VendingMachineChefvendFlatpack
-  name: chefvend flatpack
-  description: A flatpack used for constructing a chefvend.
+  name: 厨师贩卖机组装包
+  description: 用于建造厨师贩卖机的组装包。
   components:
   - type: Flatpack
     entity: VendingMachineChefvend
@@ -1021,8 +1021,8 @@
 - type: entity
   parent: VendingMachineBoozeFlatpack
   id: VendingMachineDinnerwareFlatpack
-  name: plasteel chef's dinnerware vendor flatpack
-  description: A flatpack used for constructing a plasteel chef's dinnerware vendor.
+  name: 塑钢厨师餐具贩卖机组装包
+  description: 用于建造塑钢厨师餐具贩卖机的组装包。
   components:
   - type: Flatpack
     entity: VendingMachineDinnerware
@@ -1030,8 +1030,8 @@
 - type: entity
   parent: VendingMachineBoozeFlatpack
   id: VendingMachineNutriFlatpack
-  name: nutrimax flatpack
-  description: A flatpack used for constructing a nutrimax vendomat.
+  name: 营养麦克斯组装包
+  description: 用于建造营养麦克斯贩卖机的组装包。
   components:
   - type: Flatpack
     entity: VendingMachineNutri
@@ -1039,8 +1039,8 @@
 - type: entity
   parent: VendingMachineBoozeFlatpack
   id: VendingMachineSeedsUnlockedFlatpack
-  name: megaseed servitor flatpack
-  description: A flatpack used for constructing a megaseed servitor vendomat.
+  name: 超级种子侍从组装包
+  description: 用于建造超级种子侍从贩卖机的组装包。
   components:
   - type: Flatpack
     entity: VendingMachineSeedsUnlocked
@@ -1048,8 +1048,8 @@
 - type: entity
   parent: VendingMachineBoozeFlatpack
   id: LockerBotanistFilledFlatpack
-  name: botanist's locker flatpack
-  description: A flatpack used for constructing a botanist's locker.
+  name: 植物学家储物柜组装包
+  description: 用于建造植物学家储物柜的组装包。
   components:
   - type: Flatpack
     entity: LockerBotanistFilled
@@ -1059,8 +1059,8 @@
 - type: entity
   parent: VendingMachineBoozeFlatpack
   id: VendingMachineSyndieContrabandFlatpack
-  name: contravend flatpack
-  description: A flatpack used for constructing a contravend vendomat.
+  name: 违禁贩卖机组装包
+  description: 用于建造违禁贩卖机的组装包。
   components:
   - type: Flatpack
     entity: VendingMachineSyndieContraband
@@ -1070,8 +1070,8 @@
 - type: entity
   parent: VendingMachineBoozeFlatpack
   id: VendingMachineClothingPunkFlatpack
-  name: threadschoom vendomat flatpack
-  description: A flatpack used for constructing a threadschoom vendomat.
+  name: 潮流衣装贩卖机组装包
+  description: 用于建造潮流衣装贩卖机的组装包。
   components:
   - type: Flatpack
     entity: VendingMachineClothingPunk
@@ -1079,8 +1079,8 @@
 - type: entity
   parent: VendingMachineBoozeFlatpack
   id: VendingMachineBountyVendPunkFlatpack
-  name: bonanzamatic vendomat flatpack
-  description: A flatpack used for constructing a bonanzamatic vendomat.
+  name: 财源滚滚贩卖机组装包
+  description: 用于建造财源滚滚贩卖机的组装包。
   components:
   - type: Flatpack
     entity: VendingMachineBountyVendPunk
@@ -1088,8 +1088,8 @@
 - type: entity
   parent: VendingMachineBoozeFlatpack
   id: VendingMachineMedicalFlatpack
-  name: nanomed plus flatpack
-  description: A flatpack used for constructing a nanomed plus vendomat.
+  name: 纳米医疗增强版组装包
+  description: 用于建造纳米医疗增强版贩卖机的组装包。
   components:
   - type: Flatpack
     entity: VendingMachineMedical
@@ -1099,8 +1099,8 @@
 - type: entity
   parent: VendingMachineBoozeFlatpack
   id: VendingMachineWallMedicalFlatpack
-  name: nanomed flatpack
-  description: A flatpack used for constructing a nanomed vendomat.
+  name: 纳米医疗组装包
+  description: 用于建造纳米医疗贩卖机的组装包。
   components:
   - type: Flatpack
     entity: VendingMachineWallMedical
@@ -1110,8 +1110,8 @@
 - type: entity
   parent: VendingMachineBoozeFlatpack
   id: VendingMachineChemicalsFlatpack
-  name: chemvend flatpack
-  description: A flatpack used for constructing a chemvend.
+  name: 化学贩卖机组装包
+  description: 用于建造化学贩卖机的组装包。
   components:
   - type: Flatpack
     entity: VendingMachineChemicals
@@ -1123,8 +1123,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: StationAdministrationConsoleFlatpack
-  name: station administration console flatpack
-  description: A flatpack used for constructing a station administration console for Medical Dispatch.
+  name: 站点管理控制台组装包
+  description: 用于建造医疗调度用站点管理控制台的组装包。
   components:
   - type: Flatpack
     entity: ComputerTabletopStationAdminBankATMMedical

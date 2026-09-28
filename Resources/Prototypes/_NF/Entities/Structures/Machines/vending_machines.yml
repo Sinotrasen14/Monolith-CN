@@ -71,8 +71,8 @@
 - type: entity
   parent: [BaseStructureDisableAnchoring, VendingMachine]
   id: VendingMachineFlatpackVend
-  name: FlatpackVend
-  description: Essential tech for the spaceman on the go.
+  name: 组装包售货机
+  description: 太空人随身必备的科技装备。
   components:
   - type: VendingMachine
     pack: FlatpackVendInventory
@@ -574,8 +574,8 @@
 - type: entity
   parent: [BaseStructureDisableToolUse, BaseStructureIndestructible, VendingMachine]
   id: VendingMachineFuelVend
-  name: FuelVend
-  description: A vendor selling fuel for ship engines. Smells like ozone.
+  name: 燃料售货机
+  description: 一个卖船用发动机燃料的小贩。闻起来有点臭氧味。
   components:
   - type: VendingMachine
     pack: VendingMachineFuelVendInventory

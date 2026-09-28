@@ -1,6 +1,6 @@
 - type: stack
   id: CopperOre
-  name: copper ore
+  name: 铜矿Copper
   icon: { sprite: /Textures/_Mono/Objects/Materials/ore.rsi, state: malachite }
   spawn: CopperOre1
   maxCount: 100
@@ -15,7 +15,7 @@
 
 - type: stack
   id: LithiumOre
-  name: lithium ore
+  name: 锂矿Lithium
   icon: { sprite: /Textures/_Mono/Objects/Materials/ore.rsi, state: lithium }
   spawn: LithiumOre1
   maxCount: 100

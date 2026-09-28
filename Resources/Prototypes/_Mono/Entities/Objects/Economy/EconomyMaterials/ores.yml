@@ -1,7 +1,7 @@
 - type: entity
   parent: OreBase
   id: CopperOre
-  name: malachite
+  name: 孔雀石CopperOre
   suffix: Full
   components:
   - type: Stack
@@ -35,7 +35,7 @@
 - type: entity
   parent: OreBase
   id: LithiumOre
-  name: lithium ore
+  name: 锂矿Lithium
   suffix: Full
   components:
   - type: Stack

@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [BaseMachinePowered, ConstructibleMachine]
   id: MachineOreMagnet
-  name: ore magnet
-  description: Uses a powerful magnet to suck in ore. Has an internal storage.
+  name: 矿物磁铁
+  description: 用一个强力磁铁吸取矿石。内置储存空间。
   components:
   - type: MagnetPickup
     magnetEnabled: false
@@ -111,7 +111,7 @@
       machine_parts: !type:Container
 
 - type: entity
-  name: ore magnet flatpack
+  name: 矿物磁铁组装包
   id: OreMagnetFlatpack
   parent: BaseNFFlatpack
   description: A flatpack used for constructing an ore magnet.

@@ -2,7 +2,7 @@
   parent: BaseFlatpack
   id: TimelineDisruptorFlatpack
   name: timeline disruptor flatpack
-  description: A flatpack used for constructing a solar assembly.
+  description: 用于组装太阳能组件的组装包
   components:
   - type: Flatpack
     entity: TimelineDisruptor

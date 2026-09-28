@@ -1,8 +1,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialCopper
-  name: copper
-  description: Copper is used in a lot of electronics. Maybe even all of them. It might even be an understatement to say that.
+  name: 铜copper
+  description: 铜被用在很多电子产品里。也许甚至是全部电子产品。说这样可能都有点保守了。
   suffix: Full
   components:
   - type: Sprite

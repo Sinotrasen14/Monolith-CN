@@ -1,7 +1,7 @@
 - type: entity
   id: ContrabandPallet
-  name: contraband exchange pallet
-  description: Designates valid items to exchange with CentCom for Federation Military Credits.
+  name: 走私货交换托盘
+  description: 指定可以用来向中央司令部兑换联邦军用积分的有效物品。
   parent: [BaseStructureDisableToolUse, BaseStructureIndestructible, BaseStructure] # Frontier - BaseStructureDisabledToolsUse,BaseStructureIndestructible
   components:
   - type: InteractionOutline
@@ -30,8 +30,8 @@
 # Rogue version
 - type: entity
   id: ContrabandPalletPirate
-  name: data exchange platform
-  description: Uploads stolen assets and contraband for data chits.
+  name: 数据交换平台
+  description: 上传被偷的资产和违禁品换取数据筹码。
   parent: ContrabandPallet
   components:
   - type: Sprite

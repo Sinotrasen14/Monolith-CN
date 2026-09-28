@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: OreMagnetMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: ore magnet machine board
+  name: 矿物磁铁电路板
   description: A machine printed circuit board for an ore magnet.
   components:
   - type: Sprite

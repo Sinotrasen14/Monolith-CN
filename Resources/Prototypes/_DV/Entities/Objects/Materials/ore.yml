@@ -1,7 +1,7 @@
 - type: entity
   parent: OreBase
   id: BluespaceOre
-  name: bluespace ore
+  name: 蓝空矿bluespcaeore
   suffix: Full
   components:
   - type: Stack

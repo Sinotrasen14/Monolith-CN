@@ -217,7 +217,7 @@
 - type: entity
   parent: VendingMachineFlatpackVend
   id: FlatpackVendPremium
-  name: FlatpackVend Premium
+  name: 组装包售货机 高级版
   description: Contains every flatpack from here to the neighboring sectors. Mostly.
   components:
   - type: VendingMachine
@@ -227,8 +227,8 @@
 - type: entity
   parent: VendingMachineAstroVend
   id: VendingMachineMieyoAutomated
-  name: MMC automated vending machine
-  description: Sells various MMC products, and sends 80% of the profits back to Hokkaido.
+  name: MMC 自动售货机
+  description: 销售各种MMC产品，并将80%的利润寄回北海道。
   components:
   - type: VendingMachine
     pack: MieyoAutomatedTrader
@@ -261,7 +261,7 @@
 - type: entity
   parent: VendingMachineBoozeFlatpack
   id: VendingMachineMieyoAutomatedFlatpack
-  name: MMC automated vendor flatpack
+  name: MMC 自动化供应商组装包
   description: A flatpack used for constructing a MMC automated vendor.
   components:
   - type: Flatpack

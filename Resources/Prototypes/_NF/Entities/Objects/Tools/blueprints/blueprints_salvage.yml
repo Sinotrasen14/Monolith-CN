@@ -2,7 +2,7 @@
 - type: entity
   parent: NFBaseBlueprintSalvage
   id: NFBlueprintOreBagOfHolding
-  name: bluespace ore bag blueprint
+  name: 蓝空矿包蓝图
   description: A blueprint with a schematic of a bluespace ore bag. It can be inserted into an autolathe or a techfab.
   components:
   - type: Blueprint
@@ -12,7 +12,7 @@
 - type: entity
   parent: NFBaseBlueprintSalvage
   id: NFBlueprintMiningDrillDiamond
-  name: diamond tipped mining drill blueprint
+  name: 金刚石镶尖采矿钻机蓝图
   description: A blueprint with a schematic of a diamond tipped mining drill. It can be inserted into an autolathe or a techfab.
   components:
   - type: Blueprint
@@ -22,7 +22,7 @@
 - type: entity
   parent: NFBaseBlueprintSalvage
   id: NFBlueprintAdvancedMineralScannerEmpty
-  name: advanced mineral scanner blueprint
+  name: 高级矿物扫描器蓝图
   description: A blueprint with a schematic of an advanced mineral scanner. It can be inserted into an autolathe or a techfab.
   components:
   - type: Blueprint
@@ -32,7 +32,7 @@
 - type: entity
   parent: NFBaseBlueprintSalvage
   id: NFBlueprintClothingOuterHardsuitMaximPrototype
-  name: experimental salvager hardsuit blueprint
+  name: 实验打捞工硬装蓝图
   description: A blueprint with a schematic of an experimental salvager hardsuit. It can be inserted into an autolathe or a techfab.
   components:
   - type: Blueprint

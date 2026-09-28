@@ -2,8 +2,8 @@
 - type: entity
   parent: OreBase
   id: ScrapOre
-  name: scrap chunks
-  description: Various bits of previously used machinery. Needs to be sorted or processed to use.
+  name: 废料块
+  description: 各种以前用过的机械零件。需要整理或处理后才能使用。
   suffix: Full
   components:
   - type: Stack
@@ -95,7 +95,7 @@
 - type: material
   id: RawScrap
   stackEntity: ScrapOre1
-  name: materials-raw-scrap
+  name: 原材料废料
   unit: materials-unit-chunk
   icon: { sprite: /Textures/_NF/Objects/Materials/ore.rsi, state: scrapore }
   color: "#FFD700"
@@ -103,8 +103,8 @@
 
 # Spawner for lathe: yield random mats if processed in ore processor
 - type: entity
-  name: refined scrap
-  description: Comb through the scrap for intact boards, tools, and native materials. Results vary. #Mono
+  name: 精炼废料
+  description: 翻找废料，找完好的板子、工具和本地材料。结果各不相同。
   id: SpawnRandomRefinedScrap
   parent: MarkerBasePlaceFree
   categories: [ HideSpawnMenu ]

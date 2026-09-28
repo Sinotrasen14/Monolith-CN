@@ -1,8 +1,8 @@
 - type: entity
   parent: MaterialBase
   id: MaterialLithium
-  name: lithium
-  description: Lithium is a soft, brittle metal widely used in a range of electronic applications, most notably alkali-batteries. Its also dangerously reactive!
+  name: 锂lithium
+  description: 锂是一种柔软、易碎的金属，广泛用于各种电子应用，尤其是碱性电池。它的反应也非常危险！
   suffix: Full
   components:
   - type: Sprite

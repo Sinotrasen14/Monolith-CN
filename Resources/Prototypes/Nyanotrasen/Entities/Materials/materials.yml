@@ -2,7 +2,7 @@
   parent: MaterialBase
   id: MaterialBluespace
   suffix: Full
-  name: bluespace crystal
+  name: 蓝空水晶 bluespace crystal
   components:
   - type: Sprite
     sprite: Nyanotrasen/Objects/Materials/materials.rsi
@@ -44,8 +44,8 @@
 - type: entity
   parent: BaseItem
   id: HideMothroach
-  name: mothroach hide
-  description: A thin layer of mothroach hide.
+  name: 蛾子皮
+  description: 一层薄薄的蛾螂皮。
   components:
   - type: Sprite
     sprite: Nyanotrasen/Objects/Materials/mothroach.rsi

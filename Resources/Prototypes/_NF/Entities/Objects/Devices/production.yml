@@ -1,8 +1,8 @@
 - type: entity
   id: ShredderMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: shredder machine board
-  description: A machine printed circuit board for a shredder.
+  name: 碎纸机板
+  description: 碎纸机用的机器印刷电路板。
   components:
     - type: Sprite
       state: engineering

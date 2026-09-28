@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseMachinePowered, ConstructibleMachine ]
   id: MaterialReclaimer
-  name: material reclaimer
-  description: Cannot reclaim immaterial things, like motivation.
+  name: 材料回收器
+  description: 无法找回无形的东西，比如动力。
   components:
   - type: Sprite
     sprite: _NF/Structures/Machines/material_reclaimer.rsi
