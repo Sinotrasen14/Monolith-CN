@@ -2,12 +2,12 @@
 
 - type: entity
   id: WeaponTurretAK570
-  name: AK570 57mm 自动加农炮
+  name: AK570 40mm 自动加农炮
   parent:
   - BallisticArtilleryMagazine
   - BallisticArtilleryTier2HP
   suffix: Medium, T2
-  description: 一门双管、重型57毫米自动炮，发射通用穿甲高爆弹，对中型目标进行持续射击很有效。可以远程激活或连接到地面控制站(GCS)。
+  description: 一门双管、重型40x360毫米自动炮，发射通用穿甲高爆弹，对中型目标进行持续射击很有效。可以远程激活或连接到地面控制站(GCS)。
   components:
   - type: StaticPrice
     price: 650
@@ -81,7 +81,7 @@
 
 - type: entity
   id: WeaponTurretDravon
-  name: ADBP-7 德拉文90毫米自动炮
+  name: ADBP-7 德拉文57毫米自动炮
   parent:
   - BallisticArtilleryMagazine
   - BallisticArtilleryTier2HP
@@ -171,7 +171,7 @@
   parent:
   - BallisticArtilleryMagazine
   - BallisticArtilleryTier3HP
-  description: 由Armamenti Corvus设计，可安装在战斗机上的四管35毫米连环机炮，发射实心穿甲弹。可以远程激活，也可以连接到地面控制站。
+  description: 由Armamenti Corvus设计，可安装在战斗机上的四管25x170毫米连环机炮，发射实心穿甲弹。可以远程激活，也可以连接到地面控制站。
   components:
   - type: StaticPrice
     price: 3000

@@ -1,7 +1,7 @@
 
 - type: entity
   id: PanzeroRocket
-  name: panzero rocket
+  name: 坦克杀手火箭筒
   description: Scheiße!
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
@@ -27,3 +27,32 @@
     damage:
       types:
         Structural: 1200
+
+- type: entity
+  id: MyokoRocket
+  name: 妙高火箭
+  description: くそ!
+  parent: BaseBulletTrigger
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _Mono/Objects/Weapons/Guns/Launchers/myoko_inhands_32x.rsi
+    layers:
+    - state: projectile
+  - type: ExplodeOnTrigger
+  - type: TimedDespawn
+    lifetime: 7
+  - type: Explosive
+    explosionType: MicroBomb
+    maxIntensity: 10 # 180 brute dmg/tile
+    intensitySlope: 6
+    totalIntensity: 35
+    canCreateVacuum: false
+  - type: PointLight
+    radius: 4
+    color: orange
+    energy: 1
+  - type: Projectile
+    damage:
+      types:
+        Structural: 2000

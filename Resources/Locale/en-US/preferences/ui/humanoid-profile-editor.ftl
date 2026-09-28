@@ -67,6 +67,12 @@ humanoid-profile-editor-traits-tab = 特质
 humanoid-profile-editor-no-traits = 没有可用特质
 humanoid-profile-editor-traits-default-category = 未分类
 
+# Mono
+humanoid-profile-editor-saved-items-tab = 持久保存
+humanoid-profile-editor-saved-items-header = 你的角色有以下保存的物品：
+humanoid-profile-editor-saved-item-sticky = 这个物品是粘性的，生成后会保持保存状态。
+humanoid-profile-editor-saved-item-round-end = 如果你在回合结束时仍然拥有它，这个物品将会再次被保存。
+
 humanoid-profile-editor-trait-count-hint = 可用点数: [{$current}/{$max}]
 
 # Mono

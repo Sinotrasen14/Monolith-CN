@@ -2,7 +2,7 @@
   parent: BaseFlatpack
   id: L58Flatpack
   name: 'L85组装包 | L85 flatpack'
-  description: '用于构建L85型20mm 自动炮的组装包。 | A flatpack used for constructing an L85 20mm autocannon.'
+  description: 用于构建L85型14x97mm自动炮的组装包。
   components:
   - type: Flatpack
     entity: WeaponTurretL85Autocannon
@@ -12,8 +12,8 @@
 - type: entity
   parent: BaseFlatpack
   id: AK570Flatpack
-  name: 'AK570  | AK570 flatpack'
-  description: 用于组装AK570型57mm 自动炮的组装包。
+  name: 'AK570组装包  | AK570 flatpack'
+  description:  用于组装AK570型40x360mm 自动炮的组装包。
   components:
   - type: Flatpack
     entity: WeaponTurretAK570

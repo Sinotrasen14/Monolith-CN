@@ -2,8 +2,8 @@
 
 - type: entity
   id: MatterBinEconomy1
-  name: component bin
-  description: Used for storing chemicals and other substances needed for industrial processes. Can be opened and closed. Don't use as a component while it has reagents inside!
+  name: 物质箱
+  description: 用于存放工业过程中所需的化学品和其他物质。可以开关。里面有试剂的时候别把它当组件使用！
   parent: BaseEconomyGood
   components:
   - type: Tag
@@ -71,7 +71,7 @@
 
 - type: entity
   id: MatterBinEconomy2
-  name: large component bin
+  name: 大型物质箱
   description: Used for storing chemicals and other substances needed for industrial processes. Much larger than its predecessor. Can be opened and closed. Don't use as a component while it has reagents inside!
   parent: [ MatterBinEconomy1, BaseEconomyGoodTier2 ]
   components:
@@ -81,6 +81,10 @@
         enum.OpenableVisuals.Layer:
           True: {state: "canister2_open"}
           False: {state: "canister2"}
+  - type: Tag
+    tags:
+    - EconomyGood
+    - MatterBinEconomy2
   - type: SolutionContainerVisuals
     maxFillLevels: 2
     fillBaseName: canister2fill
@@ -107,8 +111,8 @@
     price: 600
 
 - type: entity
-  name: basic components
-  description: A casing of mechanical-electrical interfacing systems, like gears, stepper motors, cabling and more.
+  name: 基本组件
+  description: 一套机电接口系统的外壳，比如齿轮、步进电机、电缆等等。
   parent: BaseEconomyGoodTier2
   categories: [ HideSpawnMenu ]
   id: MatterBinEconomy2Spawner
@@ -124,8 +128,8 @@
 
 - type: entity
   id: MatterBinEconomy3
-  name: supercomponent bin
-  description: Used for storing chemicals and other substances needed for industrial processes. Much larger than its predecessor. Can be opened and closed. Don't use as a component while it has reagents inside!
+  name: 超级组件箱
+  description: 用来存放工业过程中所需的化学品和其他物质。比它的前身大得多。可以开关。里面有试剂时不要用作组件！
   parent: [ MatterBinEconomy1, BaseEconomyGoodTier3 ]
   components:
   - type: GenericVisualizer
@@ -134,6 +138,10 @@
         enum.OpenableVisuals.Layer:
           True: {state: "canister2_open"}
           False: {state: "canister3"}
+  - type: Tag
+    tags:
+    - EconomyGood
+    - MatterBinEconomy3
   - type: SolutionContainerVisuals
     maxFillLevels: 2
     fillBaseName: canister2fill
@@ -164,8 +172,8 @@
 # microprocessors
 
 - type: entity
-  name: microprocessor
-  description: A fairly common field programmable microcontroller. Useful in everything that needs even a smidge of brain.
+  name: 微处理器
+  description: 一种相当常见的现场可编程微控制器。在任何需要一点点聪明才智的地方都很有用。
   parent: BaseEconomyGoodTier1
   id: MicroprocessorEconomy1
   components:
@@ -193,8 +201,8 @@
     price: 300
 
 - type: entity
-  name: nanoprocessor
-  description: A more advanced, miniaturized computation system, capable of handling a basic operating system!
+  name: 纳米处理器
+  description: 一个更先进的微型计算系统，能够运行基本的操作系统！
   parent: BaseEconomyGoodTier2
   id: MicroprocessorEconomy2
   components:
@@ -222,8 +230,8 @@
     price: 600
 
 - type: entity
-  name: quantum processor
-  description: A state-of-the-art quantum computing system with in-built cooling, memory, and back-up power supply, capable of handling everything from persona level A.I to FTL piloting.
+  name: 量子处理器
+  description: 一套最先进的量子计算系统，内置制冷、存储和备用电源，能够处理从个人级人工智能到超光速驾驶的所有任务。
   parent: BaseEconomyGoodTier3
   id: MicroprocessorEconomy3
   components:
@@ -255,8 +263,8 @@
 # capacitors
 
 - type: entity
-  name: industrial basic capacitor
-  description: A simple capacitor useful in small-scale power storage and simple circuits.
+  name: 工业基础电容器
+  description: 一个简单的电容器，适用于小规模储能和简单电路。
   parent: BaseEconomyGoodTier1
   id: CapacitorEconomy1
   components:
@@ -275,8 +283,8 @@
       price: 200
 
 - type: entity
-  name: industrial advanced capacitor
-  description: An upgraded capacitor capable of handling more voltage and storing more energy through the power of refined semiconductors.
+  name: 工业高级电容器
+  description: 一个升级版电容器，能够通过改良半导体的力量承受更高电压并存储更多能量。
   parent: BaseEconomyGoodTier2
   id: CapacitorEconomy2
   components:
@@ -294,8 +302,8 @@
       price: 600
 
 - type: entity
-  name: industrial supercapacitor
-  description: A state-of-the-art capacitor capable of storing incredible amounts of energy for its size through the use of miniaturized SMES technology.
+  name: 工业超级电容器
+  description: 一种最先进的电容器，通过使用微型化超导磁储能技术，能够在体积小的情况下储存惊人的能量。
   parent: BaseEconomyGoodTier3
   id: CapacitorEconomy3
   components:
@@ -316,8 +324,8 @@
 # component bricks
 
 - type: entity
-  name: basic components
-  description: A casing of mechanical-electrical interfacing systems, like gears, stepper motors, cabling and more.
+  name: 基本组件
+  description: 一套机电接口系统的外壳，比如齿轮、步进电机、电缆等等。
   parent: BaseEconomyGoodTier2
   id: ComponentBrickEconomy1
   components:
@@ -332,8 +340,8 @@
     price: 800
 
 - type: entity
-  name: basic components
-  description: A casing of mechanical-electrical interfacing systems, like gears, stepper motors, cabling and more.
+  name: 基本组件
+  description: 一套机电接口系统的外壳，比如齿轮、步进电机、电缆等等。
   parent: BaseEconomyGoodTier2
   categories: [ HideSpawnMenu ]
   id: ComponentBrickEconomy1SpawnerT2
@@ -348,8 +356,8 @@
     prototype: ComponentBrickEconomy1
 
 - type: entity
-  name: advanced components
-  description: A casing of more advanced, precise and durable mechanical-electrical interfacing systems.
+  name: 高级组件
+  description: 一种更先进、精确且耐用的机电接口系统的外壳。
   parent: BaseEconomyGoodTier3
   id: ComponentBrickEconomy2
   components:
@@ -364,8 +372,8 @@
     price: 3000
 
 - type: entity
-  name: super components
-  description: A casing of state-of-the-art interfacing systems and miscellaneous parts. Robust, efficient, and expensive.
+  name: 超级组件
+  description: 一套最先进接口系统和各种零件的外壳。坚固、高效，而且很贵。
   parent: BaseEconomyGoodTier4
   id: ComponentBrickEconomy3
   components:
@@ -384,8 +392,8 @@
 # magnets
 
 - type: entity
-  name: basic electromagnet
-  description: A circular ring composed of magnetic metal and conductive cabling. Useful for containment structures and mechanical/electrical interfacing. Add basic components to start assembling a compound electromagnet.
+  name: 基础电磁铁
+  description: 一个由磁性金属和导电电缆组成的圆形环。适用于围栏结构和机械/电气接口。添加基本组件开始组装复合电磁铁吧。
   parent: BaseEconomyGoodTier1
   id: ElectromagnetEconomy1
   components:
@@ -400,8 +408,8 @@
     price: 800
 
 - type: entity
-  name: compound electromagnet (unfinished)
-  description: A work-in-progress compound electromagnet. Needs 10 LV cables to begin construction.
+  name: 复合电磁铁（未完成）
+  description: 一个正在研发中的复合电磁铁。需要10根低压电缆才能开始建造。
   parent: BaseEconomyGoodTier1
   id: ElectromagnetEconomy2Start
   components:
@@ -413,8 +421,8 @@
     state: "electromagnet2_unfinished"
 
 - type: entity
-  name: compound electromagnet
-  description: A stacked electromagnet in the shape of a tube, lined with strong conductive material. Capable of powerfully interchanging electrical and kinetic energy.
+  name: 复合电磁铁
+  description: 一个管状堆叠电磁铁，内衬强导电材料。能够强力地转换电能和动能。
   parent: BaseEconomyGoodTier2
   id: ElectromagnetEconomy2
   components:
@@ -429,8 +437,8 @@
     price: 1600
 
 - type: entity
-  name: superconductive electromagnet (unfinished)
-  description: A work-in-progress superconductive electromagnet. Needs further assembling in an precision assembler.
+  name: 超导电磁铁（未完成）
+  description: 正在制作中的超导电磁铁。需要在精密组装机中进一步组装。
   parent: BaseEconomyGoodTier2
   id: ElectromagnetEconomy3Start
   components:
@@ -442,8 +450,8 @@
     state: "electromagnet3_unfinished"
 
 - type: entity
-  name: superconductive electromagnet
-  description: A hefty superconducting electromagnet. Extremely useful for high-energy containment and propulsion.
+  name: 超导电磁铁
+  description: 一个沉重的超导电磁铁。对于高能量的容纳和推进非常有用。
   parent: BaseEconomyGoodTier3
   id: ElectromagnetEconomy3
   components:
@@ -462,8 +470,8 @@
 # start radios
 
 - type: entity
-  name: T/R broadband radio component
-  description: A transmitter/reciever radio component capable of tuning and transmitting to most common radio frequencies, even at a distance.
+  name: T/R收发宽带无线电组件
+  description: 一个能够调谐和发送大多数常见无线电频率的发射/接收无线电组件，即使在远距离也能使用。
   parent: BaseEconomyGoodTier2
   id: RadioEconomy1
   components:
@@ -478,8 +486,8 @@
       price: 800
 
 - type: entity
-  name: HF signal tranciever component
-  description: A high-frequency signal transmitter/reciever, capable of intercepting and communicating in various frequencies. The range of detection also gives it utility in high-end sensor systems, like radar, ELINT, and thermal panels.
+  name: HF高频信号收发器组件
+  description: 一种高频信号发射/接收器，能够拦截并在各种频率上通信。其探测范围还使它在高端传感系统中有用，比如雷达、电子情报(ELINT)和热成像面板。
   parent: BaseEconomyGoodTier4
   id: RadioEconomy2
   components:
@@ -498,8 +506,8 @@
 # start optics
 
 - type: entity
-  name: optical sensor
-  description: An eye-like camera capable of capturing photons. Basically a fancy eyeball, though it has other uses.
+  name: 光学传感器
+  description: 一个像眼睛一样的相机，能够捕捉光子。基本上就是一个高级眼球，不过它还有其他用途。
   parent: BaseEconomyGoodTier1
   id: OpticsEconomy1
   components:
@@ -514,8 +522,8 @@
       price: 800
 
 - type: entity
-  name: precision optical sensor
-  description: An advanced, high-resolution photon sensor capable of maintaining visual clarity of distant objects. Extremely useful for monitoring, detection and tracking equipment.
+  name: 精密光学传感器
+  description: 一款先进的高分辨率光子传感器，能够保持远处物体的视觉清晰度。对于监控、侦测和跟踪设备非常有用。
   parent: BaseEconomyGoodTier3
   id: OpticsEconomy2
   components:
@@ -534,8 +542,8 @@
 # start camera
 
 - type: entity
-  name: photonic flash camera
-  description: An optical sensor adapted to both emit and recieve high-energy photons. Useful.
+  name: 光子闪光相机
+  description: 一种光学传感器，能够发射和接收高能光子。很有用。
   parent: BaseEconomyGoodTier2
   id: CameraEconomy1
   components:
@@ -567,8 +575,8 @@
 # start motor
 
 - type: entity
-  name: industrial motor
-  description: A powerful and dedicated electromotor, useful in high-torque-requiring electric-mechanical energy conversion.
+  name: 工业电机
+  description: 一个强大而专注的电动机，适用于需要高扭矩的电-机械能量转换。
   parent: BaseEconomyGoodTier2
   id: MotorEconomy1
   components:

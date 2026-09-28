@@ -1,6 +1,6 @@
 - type: entity
   id: ShipTarnyxProjectile
-  name: '塔尔尼克斯150mm 电磁脉冲弹 | TARNYX 150mm EMP projectile'
+  name: 塔尔尼克斯90x630 电磁脉冲弹
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -30,8 +30,8 @@
 
 - type: entity
   id: 150mmEmpShell
-  name: '150mm 电磁脉冲弹 | 150mm EMP shell'
-  description: '一种化学推进的电磁脉冲炮弹，用于TARNYX等150mm 火炮。没什么特别之处。 | A chemically-propelled EMP shell, used in 150mm cannons such as the TARNYX. Nothing fancy.'
+  name: 90x630mm 电磁脉冲弹
+  description: 一种化学推进的电磁脉冲炮弹，用于TARNYX等90x630mm 火炮。没什么特别之处。
   parent: BaseGrenade
   components:
   - type: Tag
@@ -57,7 +57,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 250
+        damage: 50
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]
@@ -75,7 +75,7 @@
 
 - type: entity
   id: ShipTarnyxApProjectile
-  name: '塔尔尼克斯150mm 穿甲弹 | TARNYX 150mm AP projectile'
+  name: '塔尔尼克斯90x630mm  穿甲弹 | TARNYX 90x630mm  AP projectile'
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -100,8 +100,8 @@
 
 - type: entity
   id: 150mmApShell
-  name: '150mm 穿甲弹 | 150mm AP shell'
-  description: '一种用于150mm 火炮的化学动力穿甲弹。效果并不理想，因为大多数150mm 火炮都是为电磁脉冲弹优化的。这是种粗制滥造的产物，肯定无法通过TSFN的检验标准。 | A chemically-propelled AP shell for 150mm cannons. Its not very good, as most 150mm cannons are optimized for EMP shells. Its a crude method, and it certainly wouldn''t pass a TSFN inspection.'
+  name: '90x630mm 穿甲弹 | 90x630mm AP shell'
+  description: '一种用于90x630mm 火炮的化学动力穿甲弹。效果并不理想，因为大多数90x630mm 火炮都是为电磁脉冲弹优化的。这是种粗制滥造的产物，肯定无法通过TSFN的检验标准。 | A chemically-propelled AP shell for 150mm cannons. Its not very good, as most 150mm cannons are optimized for EMP shells. Its a crude method, and it certainly wouldn''t pass a TSFN inspection.'
   parent: BaseGrenade
   components:
   - type: Tag
@@ -123,7 +123,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 250
+        damage: 50
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]
@@ -141,7 +141,7 @@
 
 - type: entity
   id: ShipTarnyxApheProjectile
-  name: TARNYX 150mm APHE projectile
+  name: 塔尔尼克斯 90x630mm APHE 弹药
   parent: BaseBulletTrigger
   categories: [ HideSpawnMenu ]
   components:
@@ -164,6 +164,7 @@
     totalIntensity: 350
     intensitySlope: 25
     maxIntensity: 300
+    tileBreakScale: 3
   - type: ShipWeaponProjectile
   - type: RadarBlip
     scale: 1.75
@@ -173,8 +174,8 @@
 
 - type: entity
   id: 150mmApheShell
-  name: 150mm APHE shell
-  description: A chemically-propelled APHE shell for 150mm cannons. It'll work.
+  name: 90x630mm APHE 弹药
+  description: A chemically-propelled APHE shell for 90x630mm cannons. It'll work.
   parent: BaseGrenade
   components:
   - type: Tag
@@ -196,7 +197,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 250
+        damage: 50
       behaviors:
       - !type:DoActsBehavior
         acts: ["Destruction"]

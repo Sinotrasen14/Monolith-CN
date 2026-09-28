@@ -74,12 +74,12 @@
 
 - type: entity
   id: WeaponTurretFang
-  name: 芳-重型90毫米自动炮
+  name: 芳-重型57毫米自动炮
   suffix: Medium, T3
   parent:
   - BallisticArtillery
   - BallisticArtilleryTier3HP
-  description: 一种辛迪加设计的重型90毫米自动加农炮，诞生于企业战争时期。用来打毁敌方驱逐舰。采用类似于蟒蛇手枪的自装弹机制。
+  description: 一种辛迪加设计的重型57毫米自动加农炮，诞生于企业战争时期。用来打毁敌方驱逐舰。采用类似于蟒蛇手枪的自装弹机制。
   components:
   - type: StaticPrice
     price: 2000
@@ -157,10 +157,10 @@
 
 - type: entity
   id: WeaponTurretHydra
-  name: 九头蛇 220毫米炮组
+  name: 九头蛇130毫米炮组
   suffix: Large, T4
   parent: BallisticArtillery
-  description: 一门由辛迪加制造的主炮，九头蛇是一个巨大的三管220毫米伤害炮台，专为摧毁公司最坚固的舰船而设计。装弹机制类似于巨蟒手枪。
+  description: 一门由辛迪加制造的主炮，九头蛇是一个巨大的三管130毫米伤害炮台，专为摧毁公司最坚固的舰船而设计。装弹机制类似于巨蟒手枪。
   components:
   - type: StaticPrice
     price: 20000
@@ -256,7 +256,7 @@
 
 - type: entity
   id: WeaponTurretLeviathan
-  name: 利维坦520毫米榴弹炮
+  name: 利维坦380毫米榴弹炮
   suffix: Capital, T5
   parent:
   - BallisticArtilleryUnanchorable

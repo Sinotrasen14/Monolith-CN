@@ -10,6 +10,10 @@
   name: 小行星岩石 丨 asteroid rock
   description: 一颗岩石小行星。 丨 A rocky asteroid.
   components:
+  - type: RangedDamageSound # WOLFGATE - material bullet impacts
+    soundGroups:
+      Brute:
+        collection: WolfgateBulletImpactConcrete
   - type: Transform
     noRot: true
   - type: IconSmooth
@@ -730,6 +734,10 @@
   name: 岩石 丨 rock
   suffix: planetmap
   components:
+  - type: RangedDamageSound # WOLFGATE - material bullet impacts
+    soundGroups:
+      Brute:
+        collection: WolfgateBulletImpactConcrete
   - type: Transform
     noRot: true
   - type: SoundOnGather

@@ -1,8 +1,8 @@
 # T1
 
 - type: entity
-  name: basic armor plate
-  description: A simple, refined "armor" alloy plate useful for things that need structural stability. Can be layered to start creating a heavy armor plate.
+  name: 基础护甲板
+  description: 一种简单、精炼的“盔甲”合金板，适用于需要结构稳定的东西。可以叠加，开始制造重型盔甲板。
   parent: ArmorPlateEconomy1Broken
   id: ArmorPlateEconomy1
   components:
@@ -33,8 +33,8 @@
     price: 1000
 
 - type: entity
-  name: heavy armor plate (unfinished)
-  description: A work-in-progress heap of metal, in the process of being refined into a strong protective plate. Needs screwing to start processing.
+  name: 重型装甲板（未完成）
+  description: 一堆正在加工中的金属，正在被提炼成坚固的防护板。需要拧紧螺丝才能开始处理。
   categories: [ HideSpawnMenu ]
   id: ArmorPlateEconomy2UnfinishedSpawner
   components:
@@ -48,8 +48,8 @@
     prototype: ArmorPlateEconomy2Start
 
 - type: entity
-  name: broken basic armor plate
-  description: Wreckage from a simple armor plate. Not very surprising.
+  name: 破损的基础护甲板
+  description: 一块简单装甲板的残骸。没什么惊讶的。
   parent: BaseEconomyGoodTier1
   id: ArmorPlateEconomy1Broken
   components:
@@ -83,8 +83,8 @@
 # silicon
 
 - type: entity
-  name: silicon wafer
-  description: A clean slice of pure monocrystalline silicon. Essential for advanced electronics!
+  name: 硅片
+  description: 一片干净的纯单晶硅。先进电子产品必备！
   parent: BaseEconomyGoodTier1
   id: SiliconWaferEconomy
   components:
@@ -122,8 +122,8 @@
       Silicon: 20
 
 - type: entity
-  name: silicon wafer (x8)
-  description: A clean slice of pure monocrystalline silicon. Essential for advanced electronics!
+  name: 硅片 (x8)
+  description: 一片干净的纯单晶硅。先进电子产品必备！
   categories: [ HideSpawnMenu ]
   id: SiliconWaferEconomySliceSpawner8
   components:
@@ -137,8 +137,8 @@
     prototype: SiliconWaferEconomy
 
 - type: entity
-  name: silicon wafer scrap
-  description: A broken, contaminated mess of silicon that used to be useful for computers. What a waste.
+  name: 硅片废料
+  description: 一堆破碎、受污染的硅，曾经对电脑有用。真是浪费啊。
   parent: SiliconWaferEconomy
   id: SiliconWaferScrapEconomy
   components:
@@ -165,8 +165,8 @@
 # T2
 
 - type: entity
-  name: heavy armor plate
-  description: A heavier, layered alloy armor plate. Heavy, but strong. Useful for things that need significant structural stability, or more commonly, the ability to take a hit.
+  name: 重型护甲板
+  description: 一种更重的分层合金装甲板。重，但很坚固。适用于需要显著结构稳定性的东西，或者更常见的是，需要能够承受撞击的情况。
   parent: ArmorPlateEconomy2Broken
   id: ArmorPlateEconomy2
   components:
@@ -197,8 +197,8 @@
     price: 3000
 
 - type: entity
-  name: heavy armor plate (unfinished)
-  description: A work-in-progress heap of metal, in the process of being refined into a strong protective plate. Needs screwing to start processing.
+  name: 重型装甲板（未完成）
+  description: 一堆正在加工中的金属，正在被提炼成坚固的防护板。需要拧紧螺丝才能开始加工。
   parent: ArmorPlateEconomy2Broken
   id: ArmorPlateEconomy2Start
   components:
@@ -226,8 +226,8 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  name: broken heavy armor plate
-  description: Wreckage from a heavy alloy armor plate.
+  name: 破损的重型盔甲板
+  description: 重合金装甲板的残骸。
   parent: BaseEconomyGoodTier2
   id: ArmorPlateEconomy2Broken
   components:
@@ -260,8 +260,8 @@
       Silver: 500
 
 - type: entity
-  name: composite armor plate fragment
-  description: A fragment from a ceramic/carbide armor plate. Useful for smaller-scale applications.
+  name: 复合装甲板碎片
+  description: 一块陶瓷/碳化物装甲板的碎片。适合小型应用。
   parent: BaseEconomyGoodTier2
   id: ArmorPlateEconomy3Fragment
   components:
@@ -302,8 +302,8 @@
 # silicon
 
 - type: entity
-  name: silicon boule
-  description: A hefty but fragile chunk of refined silicon, ready for slicing into processor-grade wafers. Don't touch it without gloves!
+  name: 硅晶棒
+  description: 一块笨重但脆弱的精制硅，本来准备切成处理器用的晶片。没戴手套别碰它！
   parent: BaseEconomyGoodTier2
   id: SiliconBouleEconomy
   components:
@@ -346,8 +346,8 @@
     price: 500
 
 - type: entity
-  name: silicon boule scrap
-  description: A broken, contaminated mess of silicon that used to be useful for computers. What a waste.
+  name: 硅棒废料
+  description: 一堆破碎、受污染的硅，曾经对电脑有用。真是浪费啊。
   parent: SiliconBouleEconomy
   id: SiliconBouleScrapEconomy
   components:
@@ -374,8 +374,8 @@
 # T3
 
 - type: entity
-  name: composite armor plate
-  description: A relatively difficult-to-produce ceramic/carbide armor plate. Lightweight for the amount of protection it grants, but it is still exceptionally heavy, making it primarily useful in ship hulls. Can be cut into two fragments.
+  name: 复合装甲板
+  description: 一种相对难以制造的陶瓷/碳化物装甲板。以其提供的防护量来说很轻，但仍然非常重，所以主要用于船体。可以切割成两块碎片。
   parent: ArmorPlateEconomy3Broken
   id: ArmorPlateEconomy3
   components:
@@ -416,8 +416,8 @@
       requireDetailRange: true
 
 - type: entity
-  name: broken composite armor plate
-  description: Wreckage from an advanced ceramic/carbide alloy armor plate. Kind of concerning.
+  name: 破损的复合装甲板
+  description: 一块先进陶瓷/碳化物合金装甲板的残骸。有点令人担忧。
   parent: BaseEconomyGoodTier3
   id: ArmorPlateEconomy3Broken
   components:
@@ -455,8 +455,8 @@
 # T4
 
 - type: entity
-  name: EMAG armor plate (unfinished)
-  description: The ceramic/metallic plate component of an EMAG armor plate, fresh off the forge and awaiting its electronic components. Needs a compound electromagnet to begin construction, then significant screwing and cutting.
+  name: EMAG 装甲板（未完成）
+  description: 一块EMAG装甲板的陶瓷/金属板组件，新出炉的，正等着安装电子元件。需要一个复合电磁铁才能开始组装，然后还要大量拧螺丝和切割。
   parent: ArmorPlateEconomy4Broken
   id: ArmorPlateEconomy4Start
   components:
@@ -494,14 +494,15 @@
       Silicon: 25
 
 - type: entity
-  name: EMAG armor plate
-  description: A state-of-the-art EMAG electromagnetic armor plate. Exceptional resistance even when unpowered, but still very heavy. Useful for high-power reactor shielding, infantry armor, FTL drives, and most things that undergo significant stress.
+  name: EMAG 装甲板
+  description: 一块最先进的EMAG电磁装甲板。即使在未通电时也有出色的抵抗力，但仍然非常重。适合用作高功率反应堆屏蔽、步兵护甲、FTL驱动器，以及大多数承受重大应力的物品。
   parent: ArmorPlateEconomy4Broken
   id: ArmorPlateEconomy4
   components:
   - type: Tag
     tags:
     - EconomyGood
+    - ArmorPlateEconomy4
   - type: StaticPrice
     price: 9000
   - type: Sprite
@@ -525,8 +526,8 @@
         acts: [ "Destruction" ]
 
 - type: entity
-  name: broken EMAG armor plate
-  description: Wreckage from an advanced ceramic/carbide alloy armor plate. Extremely concerning.
+  name: 破损的EMAG护甲板
+  description: 来自一块先进陶瓷/碳化物合金装甲板的残骸。非常令人担忧。
   parent: BaseEconomyGoodTier4
   id: ArmorPlateEconomy4Broken
   components:

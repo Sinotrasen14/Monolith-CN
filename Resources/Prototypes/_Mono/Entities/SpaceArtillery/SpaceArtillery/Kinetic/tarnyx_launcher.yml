@@ -2,7 +2,7 @@
 
 - type: entity
   id: WeaponTurretTarnyx
-  name: 'ADBX-31泰尼克斯150mm 电磁脉冲炮'
+  name: ADBX-31泰尼克斯90mm 电磁脉冲炮
   parent:
   - BallisticArtilleryUnanchorable
   - BallisticArtilleryTier3HP
@@ -63,7 +63,7 @@
 
 - type: entity
   id: WeaponTurretTarnyxReload
-  name: ADBX-31泰尼克斯150mm 电磁脉冲炮
+  name: ADBX-31泰尼克斯 90mm 电磁脉冲炮
   parent: BallisticArtilleryCartridge
   suffix: Medium, T2 - Infinite EMP
   description: 由Aetherion Dynamics制造的一种重型EMP炮，设计用于用一次强力射击瘫痪敌舰的大部分区域。在非对称战斗中非常有效。可以远程激活或连接到GCS。
@@ -120,7 +120,7 @@
 
 - type: entity
   id: WeaponTurretTarnyxReloadAP
-  name: GS-001 春分150毫米穿甲炮
+  name: GS-001 春分90毫米穿甲炮
   parent: WeaponTurretTarnyxReload
   suffix: Ship, Infinite Standard AP Ammo
   description: GS制造的仿制重型加农炮，与ABDX-31不同，它可以自动装填穿甲弹。适合非对称作战。可以远程激活或连接到GCS。

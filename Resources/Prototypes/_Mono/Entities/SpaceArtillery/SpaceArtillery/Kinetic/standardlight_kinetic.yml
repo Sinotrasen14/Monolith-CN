@@ -2,12 +2,12 @@
 
 - type: entity
   id: WeaponTurretL85Autocannon
-  name: L85 20mm 自动炮
+  name: L85 14mm 自动炮
   parent:
   - BallisticArtilleryMagazine
   - BallisticArtilleryTier1HP
   suffix: Small, T1
-  description: 一款轻型20毫米弹道自动炮，设计用于快速火力点防御和压制近距离的小型目标。便宜、轻便，可以远程激活或连接到地面控制站（GCS）。
+  description: 一款轻型14毫米弹道自动炮，设计用于快速火力点防御和压制近距离的小型目标。便宜、轻便，可以远程激活或连接到地面控制站（GCS）。
   components:
   - type: StaticPrice
     price: 250
@@ -102,7 +102,7 @@
   - BallisticArtilleryMagazine
   - BallisticArtilleryTier2HP
   suffix: Medium, T2
-  description: 一门重型速射30毫米自动炮，最初作为大气层作战机的格斗武器安装。射程不远，但伤害毁灭性很强。
+  description: 一门重型速射20x141毫米自动炮，最初作为大气层作战机的格斗武器安装。射程不远，但伤害毁灭性很强。
   components:
   - type: StaticPrice
     price: 1000

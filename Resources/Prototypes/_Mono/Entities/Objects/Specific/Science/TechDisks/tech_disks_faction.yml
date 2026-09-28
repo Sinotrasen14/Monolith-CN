@@ -133,7 +133,7 @@
   parent: TechDiskBase
   id: TechDiskUniversalShipAmmo
   name: '通用舰船弹药阵营科技磁盘 | universal ship ammo faction tech disk'
-  description: '该磁盘可为阵营科技制造台添加150mm 炮弹、M381弹头及ASM-220鱼雷至服务器配方库。 | A disk capable of adding 150mm shells, M381 slugs, and ASM-220 torpedoes to a server''s recipes, for faction techfabs.'
+  description: 该磁盘可为阵营科技制造台添加90x630mm 炮弹、M381弹头及ASM-220鱼雷至服务器配方库。
   components:
   - type: Sprite
     layers:
@@ -161,7 +161,7 @@
   parent: TechDiskBase
   id: TechDiskUniversalShipAmmoAdvanced
   name: '高级通用舰船弹药派系技术磁盘 | advanced universal ship ammo faction tech disk'
-  description: '该磁盘可为阵营科技制造台添加150mm 炮弹、M381弹头及ASM-220鱼雷至服务器配方库，其中还包含进阶技术内容！ | A disk capable of adding 150mm shells, M381 slugs, and ASM-220 torpedoes to a server''s recipes, for faction techfabs. This one has advanced stuff too!'
+  description: 该磁盘可为阵营科技制造台添加90x630mm 炮弹、M381弹头及ASM-220鱼雷至服务器配方库，其中还包含进阶技术内容！
   components:
   - type: Sprite
     layers:

@@ -3,8 +3,8 @@
 - type: entity
   parent: BaseAutosurgeon
   id: AutosurgeonSandevistanTSF
-  name: TSF autosurgeon (WJY-21X sandevistan)
-  description: Replaces the heart with a reverse-engineered MMC Sandevistan. Doesn't cool down as fast as the real thing.
+  name: TSF 自动外科医生 (WJY-21X sandevistan)
+  description: 用逆向工程的MMC Sandevistan替换心脏。降温速度没有真的那么快。
   components:
   - type: AutoSurgeon
     targetBodyPart: Torso
@@ -14,8 +14,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: AutosurgeonSandevistanTSFFlatpack
-  name: TSF autosurgeon (WJY-21X sandevistan) flatpack
-  description: A flatpack used for constructing a TSF autosurgeon.
+  name: TSF 自动外科医生 (WJY-21X sandevistan) 组装包
+  description: 用于组装 TSF 自动外科医生的平板包装。
   components:
   - type: Flatpack
     entity: AutosurgeonSandevistanTSF
@@ -28,8 +28,8 @@
 - type: entity
   parent: BaseAutosurgeon
   id: AutosurgeonShuntTSF
-  name: TSF autosurgeon (KR-22 shunt device)
-  description: Replaces the heart with a highly experimental shunt device. Thats some scary tech.
+  name: TSF 自动外科医生 (KR-22 shunt device)
+  description: 用一个高度实验性的分流装置替换心脏。那可真是些可怕的技术。
   components:
   - type: AutoSurgeon
     targetBodyPart: Torso
@@ -39,8 +39,8 @@
 - type: entity
   parent: BaseNFFlatpack
   id: AutosurgeonShuntTSFFlatpack
-  name: TSF autosurgeon (KR-22 shunt device) flatpack
-  description: A flatpack used for constructing a TSF autosurgeon.
+  name: TSF 自动外科医生 (KR-22 shunt device) 组装包
+  description: 用于组装 TSF 自动外科医生的平板包装。
   components:
   - type: Flatpack
     entity: AutosurgeonShuntTSF
@@ -55,8 +55,8 @@
 - type: entity
   parent: BaseAutosurgeon
   id: AutosurgeonIASPDV
-  name: PDV autosurgeon (LS-210 IAS)
-  description: Replaces the lungs with an advanced internal-air-system. Capable of filtering out most atmos gases and increasing respiratory efficiency greatly.
+  name: PDV 自动外科医生 (LS-210 IAS)
+  description: 用先进的内部空气系统替换肺部。能够过滤掉大部分大气气体，并大大提高呼吸效率。
   components:
   - type: AutoSurgeon
     targetBodyPart: Torso
@@ -66,7 +66,7 @@
 - type: entity
   parent: BaseNFFlatpack
   id: AutosurgeonIASPDVFlatpack
-  name: PDV autosurgeon (LS-210 IAS) flatpack
+  name: PDV 自动外科医生 (LS-210 IAS) 组装包
   description: A flatpack used for constructing a PDV autosurgeon.
   components:
   - type: Flatpack
@@ -83,8 +83,8 @@
 - type: entity
   parent: BaseAutosurgeonMieyo
   id: AutosurgeonDermalArmorPDV
-  name: PDV autosurgeon (E-SAPI dermal armor)
-  description: Implants an array of E-SAPI armor plates into the body. Makes you more vulnerable to heat and shock, but makes you more resistant to bullets.
+  name: PDV 自动外科医生 (E-SAPI dermal armor)
+  description: 在体内植入一组 E-SAPI 装甲板。让你更容易受到热量和电击的伤害，但能让你更抗子弹。
   components:
   - type: AutoSurgeon
     targetBodyPart: Torso
@@ -103,7 +103,7 @@
 - type: entity
   parent: BaseNFFlatpack
   id: AutosurgeonDermalArmorPDVFlatpack
-  name: PDV autosurgeon (E-SAPI dermal armor) flatpack
+  name: PDV 自动外科医生 (E-SAPI dermal armor) 组装包
   description: A flatpack used for constructing a PDV autosurgeon.
   components:
   - type: Flatpack
@@ -117,8 +117,8 @@
 - type: entity
   parent: BaseAutosurgeon
   id: AutosurgeonAdvHeartPDV
-  name: PDV autosurgeon (VV/KE prosthetic heart)
-  description: Replaces the heart with a more powerful one. Lets you process reagents faster and take more damage before going down, but lowers your stamina and processes medicine slower.
+  name: PDV 自动外科医生 (VV/KE prosthetic heart)
+  description: 用一个更强大的心脏替换。可以让你更快处理试剂，承受更多伤害而不倒下，但会降低耐力，并且处理药物的速度变慢。
   components:
   - type: AutoSurgeon
     targetBodyPart: Torso
@@ -128,7 +128,7 @@
 - type: entity
   parent: BaseNFFlatpack
   id: AutosurgeonAdvHeartPDVFlatpack
-  name: PDV autosurgeon (VV/KE prosthetic heart) flatpack
+  name: PDV 自动外科医生 (VV/KE prosthetic heart) 组装包
   description: A flatpack used for constructing a PDV autosurgeon.
   components:
   - type: Flatpack
@@ -152,8 +152,8 @@
 - type: entity
   parent: BaseAutosurgeonMieyo
   id: AutosurgeonAdvHeartMMC
-  name: MMC autosurgeon (EVT-001 replacement heart)
-  description: Replaces the heart with a more strange one. The exact manner of how is unknown, but it allows the user to channel a form of latent energy into a single hit.
+  name: MMC 自动外科医生 (EVT-001 Sakimoto)
+  description: 将心脏换成一个更奇怪的。具体怎么换的未知，但它可以让使用者将潜在的能量集中到一次攻击中。
   components:
   - type: AutoSurgeon
     targetBodyPart: Torso
@@ -163,7 +163,7 @@
 - type: entity
   parent: BaseNFFlatpack
   id: AutosurgeonAdvHeartMMCFlatpack
-  name: MMC autosurgeon (EVT-001 replacement heart) flatpack
+  name: MMC 自动外科医生 (EVT-001 Sakimoto) 组装包
   description: A flatpack used for constructing a MMC autosurgeon.
   components:
   - type: Flatpack
@@ -180,8 +180,8 @@
 - type: entity
   parent: BaseAutosurgeonMieyo
   id: AutosurgeonMuscleFibersMieyo
-  name: MMC autosurgeon (muscle fibers suite)
-  description: Implants a suite of muscle enhancements into the body. Now you can dash around like a pro.
+  name: MMC 自动外科医生 (muscle fibers suite)
+  description: 在身体里植入一套肌肉增强装置。现在你可以像高手一样到处冲刺了。
   components:
   - type: AutoSurgeon
     targetBodyPart: Torso
@@ -192,7 +192,7 @@
 - type: entity
   parent: BaseNFFlatpack
   id: AutosurgeonMuscleFibersMieyoFlatpack
-  name: MMC autosurgeon (muscle fibers suite) flatpack
+  name: MMC 自动外科医生 (muscle fibers suite) 组装包
   description: A flatpack used for constructing a MMC autosurgeon.
   components:
   - type: Flatpack
@@ -208,8 +208,8 @@
 - type: entity
   parent: BaseAutosurgeonMieyo
   id: AutosurgeonRightMantisBladeMieyo
-  name: MMC autosurgeon (right mantis blade)
-  description: Implants a covert deployable mantis blade into your right arm. That's really cool.
+  name: MMC 自动外科医生 (right mantis blade)
+  description: 在你的右臂里植入一个隐蔽的可部署螳螂刀片。那真的很酷。
   components:
   - type: AutoSurgeon
     targetBodyPart: Arm
@@ -221,7 +221,7 @@
 - type: entity
   parent: BaseNFFlatpack
   id: AutosurgeonRightMantisBladeMieyoFlatpack
-  name: MMC autosurgeon (right mantis blade) flatpack
+  name: MMC 自动外科医生 (right mantis blade) 组装包
   description: A flatpack used for constructing a MMC autosurgeon.
   components:
   - type: Flatpack
@@ -237,8 +237,8 @@
 - type: entity
   parent: BaseAutosurgeonMieyo
   id: AutosurgeonLeftMantisBladeMieyo
-  name: MMC autosurgeon (left mantis blade)
-  description: Implants a covert deployable mantis blade into your left arm. That's really cool.
+  name: MMC 自动外科医生 (left mantis blade)
+  description: 在你的左臂里植入一个隐蔽的可部署螳螂刀片。那真的很酷。
   components:
   - type: AutoSurgeon
     targetBodyPart: Arm
@@ -250,7 +250,7 @@
 - type: entity
   parent: BaseNFFlatpack
   id: AutosurgeonLeftMantisBladeMieyoFlatpack
-  name: MMC autosurgeon (left mantis blade) flatpack
+  name: MMC 自动外科医生 (left mantis blade) 组装包
   description: A flatpack used for constructing a MMC autosurgeon.
   components:
   - type: Flatpack
@@ -266,19 +266,19 @@
 - type: entity
   parent: BaseAutosurgeonMieyo
   id: AutosurgeonSandevistanMieyo
-  name: MMC autosurgeon (sandevistan)
-  description: Replaces the heart with a MMC Sandevistan.
+  name: MMC 自动外科医生 (EVT-002 Lotus)
+  description: 把心脏换成一个更奇怪的。它是一个充满一系列自注射器、电神经/心血管连接装置和热力机器的无菌袋，设计目的是让使用者能把自己逼到极限。
   components:
   - type: AutoSurgeon
     targetBodyPart: Torso
     targetOrgan: Heart
-    newPartProto: OrganHeartSandevistan
+    newPartProto: OrganHeartMMCSandevistan
 
 - type: entity
   parent: BaseNFFlatpack
   id: AutosurgeonSandevistanMieyoFlatpack
-  name: MMC autosurgeon (sandevistan) flatpack
-  description: A flatpack used for constructing a MMC autosurgeon.
+  name: MMC 自动外科医生 (EVT-002 Lotus) 组装包
+  description: 用来组装MMC自动外科医生的平板包装。
   components:
   - type: Flatpack
     entity: AutosurgeonSandevistanMieyo

@@ -91,3 +91,6 @@ trait-hardened-lymphocytes-desc = 你的骨髓经过黑色素细胞强化干细�
 
 trait-helmsmanship-name = 掌舵术
 trait-helmsmanship-desc = 引擎和稳定器在你的操纵杆下和谐地轰鸣。你操控的飞船转向和加速速度快 10%。
+
+trait-heretic-name = 异端
+trait-heretic-desc = 你冒犯了法厄同王朝，或者至少苏丹国认为你冒犯了他们。你有可能（50% 的几率）被苏丹国判处死刑，并且因此被 PDV 追捕。
