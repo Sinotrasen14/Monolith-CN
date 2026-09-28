@@ -8,7 +8,7 @@
     department: MieyoManufacturingConcern
     time: 36000 # 10 hours
   - !type:OverallPlaytimeRequirement
-    time: 72000 # 20 hrs
+    time: 36000 # 20 hrs
   alternateRequirementSets:
     longerPlaytimeLessEmployee:
     - !type:OverallPlaytimeRequirement

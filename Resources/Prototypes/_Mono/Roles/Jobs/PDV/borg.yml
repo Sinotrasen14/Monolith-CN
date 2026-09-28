@@ -6,7 +6,7 @@
   setPreference: true
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 43200
+      time: 36000
   assignedCompany: PDV
   canBeAntag: false
   icon: JobIconBorg

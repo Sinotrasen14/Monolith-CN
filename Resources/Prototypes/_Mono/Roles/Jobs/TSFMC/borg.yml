@@ -6,7 +6,7 @@
   setPreference: true
   requirements:
     - !type:OverallPlaytimeRequirement
-      time: 43200
+      time: 18000
   assignedCompany: TSF
   canBeAntag: false
   icon: JobIconBorg
