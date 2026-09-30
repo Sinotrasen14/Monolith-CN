@@ -36,7 +36,7 @@ mmc-bounty-name-motor-t1 = 工业电机
 
 mmc-bounty-name-credits = 信用点
 
-mmc-bounty-name-iridite = 虹彩片
+mmc-bounty-name-iridite = 铱化合金
 mmc-bounty-name-plastitanium = 塑钛板
 mmc-bounty-name-plasteel = 塑钢板
 mmc-bounty-name-steel = 钢板

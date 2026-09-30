@@ -1,8 +1,8 @@
-materials-iridite = iridite
-stack-iridite = iridite
+materials-iridite = 铱化合金
+stack-iridite = 铱化合金
 
-materials-plastitanium = plastitanium
-stack-plastitanium = plastitanium
+materials-plastitanium = 塑钛
+stack-plastitanium = 塑钛
 
 materials-uraniumfissile = 裂变铀
 stack-uraniumfissile = 裂变铀
@@ -32,7 +32,7 @@ materials-components-ship = 舰船部件
 materials-components-steriles = 无菌零件
 
 # Sheets
-materials-iridite-slag = iridite 矿渣
+materials-iridite-slag = 铱矿渣
 materials-lithium = 锂
 stack-lithium = 锂
 materials-copper = 铜

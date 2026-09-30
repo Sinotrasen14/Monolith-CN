@@ -204,8 +204,7 @@
   - type: Tag
     tags:
     - HighRiskItem
-    - Sidearm
-    - SafetyDepositBlacklist # Mono
+    - Sidearm # Mono
   - type: StaticPrice
     price: 750
   - type: PirateBountyItem # Mono

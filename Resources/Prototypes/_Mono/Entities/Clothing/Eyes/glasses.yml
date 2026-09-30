@@ -28,7 +28,7 @@
   - type: Tag
     tags:
     - PetWearable
-    
+
 
 - type: entity
   parent: ClothingEyesHudMedical
@@ -58,7 +58,7 @@
   - type: Tag
     tags:
     - PetWearable
-    
+
 - type: entity
   parent: ClothingEyesHudMedical
   id: ClothingEyesBallisticGogglesGreen
@@ -87,7 +87,7 @@
   - type: Tag
     tags:
     - PetWearable
-    
+
 - type: entity
   parent: ClothingEyesHudMedical
   id: ClothingEyesBallisticGlassesGreen
@@ -116,7 +116,7 @@
   - type: Tag
     tags:
     - PetWearable
-    
+
 - type: entity
   parent: ClothingEyesHudMedical
   id: ClothingEyesBallisticGogglesOrange
@@ -145,7 +145,7 @@
   - type: Tag
     tags:
     - PetWearable
-    
+
 - type: entity
   parent: ClothingEyesHudMedical
   id: ClothingEyesBallisticGlassesOrange
@@ -174,12 +174,12 @@
   - type: Tag
     tags:
     - PetWearable
-    
+
 - type: entity
   parent: [ClothingEyesBase, ShowSecurityIcons]
   id: ClothingEyesTSFOfficerGlasses
-  name: TSF commander shades
-  description: A high tech heads up display purpose built for Federation officers. Usually issued to the commanding officer of a company.
+  name: TSF 指挥官太阳镜
+  description: 一款为联邦官员专门设计的高科技抬头显示器。通常发给一个连队的指挥官。
   components:
   - type: Sprite
     sprite: _Goobstation/Clothing/Eyes/Glasses/deathsquad.rsi
@@ -205,4 +205,3 @@
     tags:
     - PetWearable
     - SafetyDepositBlacklist
-    

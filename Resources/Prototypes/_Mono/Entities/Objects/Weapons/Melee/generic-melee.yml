@@ -85,5 +85,3 @@
     activatedColor: "#FFFFFF85"
     blockHacking: true
   - type: Tag
-    tags:
-    - SafetyDepositBlacklist

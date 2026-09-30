@@ -226,7 +226,7 @@
 - type: entity
   parent: [ClothingBeltBase, ClothingSlotBase]
   id: ClothingBeltSheathVizier
-  name: grand vizier's sheath
+  name: grand vizier's 胸挂
   description: A paired sheath and holster, custom made for grand viziers of the PDV to carry the weapons of their office.
   components:
   - type: Sprite
@@ -285,7 +285,7 @@
 - type: entity
   parent: [NFClothingBeltStorageBase, ContentsExplosionResistanceBase]
   id: ClothingBeltWebbingsPDVTarkhan
-  name: tarkhan chest rig
+  name: tarkhan 胸挂
   description: A set of tactical webbing worn by Tarkhans.
   components:
   - type: StaticPrice
