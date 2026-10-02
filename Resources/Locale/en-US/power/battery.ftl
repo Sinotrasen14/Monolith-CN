@@ -1,21 +1,21 @@
 ﻿## Strings for the battery (SMES/substation) menu
 
-battery-menu-footer-left = Danger: high voltage
+battery-menu-footer-left = 危险：高压
 battery-menu-footer-right = 7.2 REV 6
-battery-menu-out = OUT
-battery-menu-in = IN
-battery-menu-charge-header = Charge Circuit
-battery-menu-discharge-header = Discharge Circuit
-battery-menu-storage-header = Storage Cells
-battery-menu-passthrough = Passthrough
-battery-menu-max = Max:
-battery-menu-current = Current:
-battery-menu-stored = Stored:
-battery-menu-energy = Energy:
+battery-menu-out = 输出
+battery-menu-in = 输入
+battery-menu-charge-header = 充电电路
+battery-menu-discharge-header = 放电电路
+battery-menu-storage-header = 储存电池
+battery-menu-passthrough = 直通
+battery-menu-max = 最大:
+battery-menu-current = 当前:
+battery-menu-stored = 已存储:
+battery-menu-energy = 能量:
 battery-menu-eta-full = ETA (full):
 battery-menu-eta-empty = ETA (empty):
-battery-menu-eta-value = ~{ $minutes } min
-battery-menu-eta-value-max = >{ $minutes } min
+battery-menu-eta-value = ~{ $minutes } 分钟
+battery-menu-eta-value-max = >{ $minutes } 分钟
 battery-menu-eta-value-na = N/A
 battery-menu-power-value = { POWERWATTS($value) }
 battery-menu-stored-percent-value = { TOSTRING($value, "P1") }

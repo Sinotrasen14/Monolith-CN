@@ -1,1 +1,1 @@
-battery-electrocute-charge = The battery surges with energy!
+battery-electrocute-charge = 电池充满了能量！
