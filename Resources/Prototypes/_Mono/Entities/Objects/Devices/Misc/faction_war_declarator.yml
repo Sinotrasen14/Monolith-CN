@@ -2,8 +2,8 @@
   parent: BaseItem
   abstract: true
   id: BaseFactionWarDeclarator
-  name: war declarator
-  description: A device used to declare hostilities within the sector. If both sides activate it, total war will be declared.
+  name: 战争宣告器
+  description: 一个用来在该地区宣布敌对行动的装置。如果双方都启动它，将会宣布全面战争。
   components:
     - type: Sprite
       sprite: Objects/Devices/declaration_of_war.rsi
@@ -17,7 +17,7 @@
 - type: entity
   parent: BaseFactionWarDeclarator
   id: WarDeclaratorTsf
-  name: TSFMC war declarator
+  name: TSFMC 战争宣告器
   components:
   - type: FactionWarDeclarator
     faction: TSF
@@ -26,7 +26,7 @@
 - type: entity
   parent: BaseFactionWarDeclarator
   id: WarDeclaratorPdv
-  name: PDV war declarator
+  name: PDV 战争宣告器
   components:
   - type: FactionWarDeclarator
     faction: PDV

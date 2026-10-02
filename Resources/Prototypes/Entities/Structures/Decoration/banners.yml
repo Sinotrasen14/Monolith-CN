@@ -52,13 +52,8 @@
 - type: entity
   id: BannerNanotrasen
   parent: BannerBase
-<<<<<<< HEAD
-  name: 纳米传讯横幅 丨 nanotrasen banner
-  description: 一面展示着纳诺特拉森标志的横幅。它看起来相当廉价。 丨 A banner displaying the Nanotrasen logo. It looks rather cheap.
-=======
-  name: mysterious banner # Mono
-  description: A white N on a blue background. It looks rather cheap and it has not aged well. Must be some long forgotten symbol of the past. # Mono
->>>>>>> upstream
+  name: 神秘横幅 # Mono
+  description: 蓝色背景上的一个白色N。看起来相当廉价，而且保养得不好。肯定是某个早已被遗忘的过去的符号。
   components:
   - type: Sprite
     sprite: _NF/Structures/Decoration/banner.rsi # Frontier - unique sprites
@@ -122,13 +117,8 @@
 - type: entity
   id: BannerSyndicate
   parent: BannerBase
-<<<<<<< HEAD
-  name: 辛迪加横幅 丨 syndicate banner
-  description: 据辛迪加称，你应通过此横幅对NT产生憎恶。 丨 A banner from which, according to the syndicate, you should feel hatred for NT.
-=======
-  name: sultan's banner # Mono
-  description: An imposing S is embroidered onto a dark red background. You get the feeling you're missing some important context. "Piety to the Sultan." # Mono
->>>>>>> upstream
+  name: 苏丹的横幅 # Mono
+  description: 一个显眼的 S 刺绣在深红色的背景上。你会有种感觉，好像错过了一些重要的背景信息。“对苏丹的虔诚。”  # 单色
   components:
   - type: Sprite
     sprite: _NF/Structures/Decoration/banner.rsi # Frontier - unique sprites

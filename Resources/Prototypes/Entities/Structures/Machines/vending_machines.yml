@@ -1487,13 +1487,8 @@
 
 - type: entity
   id: VendingMachineWallmount
-<<<<<<< HEAD
-  parent: VendingMachine
-  name: 自动售货机 丨 vending machine
-=======
   parent: VendingMachineCredit # Mono
-  name: vending machine
->>>>>>> upstream
+  name: 自动售货机 丨 vending machine
   abstract: true
   placement:
     mode: SnapgridCenter

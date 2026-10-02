@@ -8,7 +8,7 @@
 <<<<<<< HEAD
       time: 10800 # 3 hrs - mono
 =======
-      time: 14400 # 4 hours. I don't expect new players to play almost 2 full rounds before they get bored, and it's mostly a raider check.
+      time: 10800 # 4 hours. I don't expect new players to play almost 2 full rounds before they get bored, and it's mostly a raider check.
     - !type:TraitsRequirement # The trait doesn't do anything if you're PDV anyways, but this is 1 step closer to letting it actually give you points
       inverted: true
       traits:

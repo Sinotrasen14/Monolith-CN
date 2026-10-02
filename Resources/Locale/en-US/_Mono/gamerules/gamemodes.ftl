@@ -31,13 +31,8 @@ mono-chimera-pdv-description = 在成功击退联邦后，王朝现在必须在�
 mono-allatonce-title = 末日 (ALL, 3hr)
 mono-allatonce-description = 这是PDV和TSF部队的战场，古老的ADS系统和奇美拉生物武器正在渗入其中。
 
-<<<<<<< HEAD
+mono-crocus-title = 代号:藏红花 (TSF|PDV)
+mono-crocus-description = TSF 的驻军必须防御入侵的 PDV 部队 2 小时。在行星地面上战斗，没有飞船。
+
 mono-secret-title = 秘密 (?)
 mono-secret-description = 这一回合的主要威胁未知。你得之后自己弄明白。
-=======
-mono-crocus-title = Crocus (TSF|PDV)
-mono-crocus-description = A TSF garrison must defend against an invading PDV force for  2 hours. One planet map only, no ships.
-
-mono-secret-title = Secret (?)
-mono-secret-description = The main threat of the round is unknown. You'll have to figure that out later.
->>>>>>> upstream

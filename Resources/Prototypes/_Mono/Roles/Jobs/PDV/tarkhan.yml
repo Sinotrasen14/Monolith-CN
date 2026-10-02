@@ -9,15 +9,11 @@
     time: 14400 # 4 hours # mono
   - !type:DepartmentTimeRequirement # Requires time in both factions
     department: Antag
-<<<<<<< HEAD
     time: 18000 # 30 hours # mono
-=======
-    time: 108000 # 30 hours # mono
   - !type:TraitsRequirement # The trait doesn't do anything if you're PDV anyways, but this is 1 step closer to letting it actually give you points
     inverted: true
     traits:
     - Heretic
->>>>>>> upstream
   startingGear: PDVTarkhanGear
   icon: JobIconPDVTarkhan
   supervisors: job-supervisors-nobody

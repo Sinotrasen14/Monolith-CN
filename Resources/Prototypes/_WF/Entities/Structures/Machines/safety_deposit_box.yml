@@ -95,8 +95,8 @@
 
 - type: entity
   id: SafetyDepositConsole
-  name: safety deposit box console
-  description: "A console for purchasing and managing safety deposit boxes."
+  name: 保险箱控制台
+  description: 一个用于购买和管理保险箱的控制台。
   parent: BaseStructure
   components:
   - type: Sprite

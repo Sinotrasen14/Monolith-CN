@@ -23,15 +23,9 @@ job-description-vg-lieutenant = 指挥步兵分队。确保标准得到保持。
 job-description-vg-commander = 带领毒蛇们走向荣耀和财富。建立新的商业关系。让行业看到你的獠牙依然锋利。
 
 # MARK: MMC
-<<<<<<< HEAD
 job-description-mmc-liason = 确保你的公司经理获得利润，让员工守规矩，并确保保护该行业的MMC资产。
 job-description-mmc-security = 保护MMC在该地区的资产和员工免受任何威胁。
 job-description-mmc-employee = 为了MMC公司的董事会，在你的联络人手下工作。赚钱，把钱交给公司，然后重复这个过程。
-=======
-job-description-mmc-liason = Ensure profits for your corporate managers, keep your employees in line, and ensure the protection MMC assets in the sector.
-job-description-mmc-security = Protect MMC assets and employees in the area from any threats.
-job-description-mmc-employee = Work under your liason for the sake of the MMC company board. Make money, give it to the company, and repeat.
 
 # MARK: CROCUS
-job-description-crocus-dockworker = Try to survive being in the crossfire between 2 sides. You've only got your basic work gear.
->>>>>>> upstream
+job-description-crocus-dockworker = 试着在双方交火中生存下去。你只有基本的工作装备。
