@@ -14,6 +14,7 @@ job-name-pirate-captain = PDV 大宰相
 job-name-pirate-first-mate = PDV Asvaran
 job-name-pdv-denasvar = PDV Denasvar
 job-name-pdv-tarkhan = PDV Tarkhan
+<<<<<<< HEAD
 job-name-tsf-marsoc = TSFMC 海军陆战队特种作战队员
 job-name-security-guard = 安保护卫
 job-name-sheriff = TSFMC 上校
@@ -21,6 +22,17 @@ job-name-stc = 空间站交通调度员
 job-name-sr = 监督者
 job-name-pal = 公共事务联络官
 job-name-doc = 医疗总监
+=======
+job-name-pdv-infantry = PDV Infantry
+job-name-tsf-marsoc = TSFMC MARSOC Operative
+job-name-tsf-infantry = TSF Infantry
+job-name-security-guard = Judge
+job-name-sheriff = TSFMC Colonel
+job-name-stc = Station Traffic Controller
+job-name-sr = Overseer
+job-name-pal = Public Affairs Liaison
+job-name-doc = Director of Care
+>>>>>>> upstream
 
 # Job titles
 job-title-ert-mail-carrier = 应急响应小队邮差

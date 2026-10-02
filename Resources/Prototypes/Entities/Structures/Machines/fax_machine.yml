@@ -126,4 +126,5 @@
       name: 船长办公室 丨 "Captain's Office"
       receiveNukeCodes: true
     - type: StealTarget
-      stealGroup: FaxMachineCaptain
+      stealGroup:
+      - FaxMachineCaptain

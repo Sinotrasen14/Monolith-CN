@@ -13,5 +13,15 @@ frontier-lobby-hokkaido-description = 北海道是 MMC 在这一领域工业和�
 frontier-lobby-jupiter-subtext = 一辆可移动的大型机甲运输车。
 frontier-lobby-jupiter-description = 这不在港口轰击规则的保护范围内。是由猎户座王朝帝国前锋操控的一艘大型后排机甲载体。火力不够强，无法与其他船只或全尺寸船厂硬拼，但拥有大量机甲和点防御装备。
 
+<<<<<<< HEAD
 frontier-lobby-chengdu-subtext = 一艘强大到可以摧毁一切的巡洋舰。
 frontier-lobby-chengdu-description = TSFN 部署的一款 Type-98F 巡洋舰，用于大规模冲突。配备巡航导弹、电磁炮和机关炮、制导导弹舱，以及足够的防御激光，可以让任何鱼雷黯然失色。[color=red]仅配备极有限的造船厂，且只有 2 个船坞。这不是像木星号那样的移动基地，这是战舰。[/color]
+=======
+frontier-lobby-chengdu-subtext = A cruiser powerful enough to level anything.
+frontier-lobby-chengdu-description = A Type-98F cruiser deployed by the TSFN for large-scale conflicts. Equipped with cruise missiles, railguns & autocannons, guided missile pods, and enough PD lasers to make any torpedo obsolete. [color=red]Only carries an extremely limited shipyard, and only has 2 docks. This is not a mobile base like the Jupiter, this is a warship.[/color]
+
+frontier-lobby-crocus-subtext = Ground warfare.
+frontier-lobby-crocus-description = This is a map for the Crocus mode. [color=red][bold]It is currently work in progress, and nothing is final.[/bold][/color]; if you see this, it's from an admin event.
+
+   - [color=red][bold]Special species' may have difficulty playing here![/bold][/color] - The air may be too cold for reptillians, there is little infrastructure for IPCs, and Voxes may struggle with the atmospherics problems.
+>>>>>>> upstream

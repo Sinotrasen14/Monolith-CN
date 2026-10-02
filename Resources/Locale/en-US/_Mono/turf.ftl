@@ -14,5 +14,18 @@ tiles-maint-floor-grid = 网格维护地砖
 tiles-maint-floor-grid-dark = 暗色网格维护地砖
 
 
+<<<<<<< HEAD
 tiles-catwalk-floor-tile-horizontal = 水平栈道地砖
 tiles-catwalk-floor-tile-vertical = 垂直栈道地砖
+=======
+tiles-catwalk-floor-tile-horizontal = horizontal catwalk tile
+tiles-catwalk-floor-tile-vertical = vertical catwalk
+
+tiles-bedrock-crocus = crocus bedrock
+tiles-dirt-crocus = crocus dirt
+tiles-grass-crocus = crocus grass
+tiles-redgrass-crocus = crocus red grass
+tiles-concrete-crocus = crocus concrete
+tiles-concrete-smooth-crocus = crocus smooth concrete
+tiles-concrete-mono-crocus = crocus concrete slab
+>>>>>>> upstream

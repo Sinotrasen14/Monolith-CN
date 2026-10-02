@@ -25,9 +25,21 @@ job-name-vg-infanteer = VG 步兵
 job-name-vg-lieutenant = VG 中尉
 job-name-vg-commander = VG 指挥官
 
+<<<<<<< HEAD
 # MARK: USSP
 job-name-mmc-liason = MMC公司联络
 job-name-mmc-security = MMC企业安保
 job-name-mmc-employee = MMC 员工
 job-supervisors-mmc-highcomm = 米耶奥公司董事会
 job-supervisors-mmc-liason = 企业联络
+=======
+# MARK: MMC
+job-name-mmc-liason = MMC Corporate Liason
+job-name-mmc-security = MMC Corporate Security
+job-name-mmc-employee = MMC Employee
+job-supervisors-mmc-highcomm = the Mieyo Corporate Board
+job-supervisors-mmc-liason = the Corporate Liason
+
+# MARK: CROCUS
+job-name-crocus-dockworker = Jianghui Dockworker
+>>>>>>> upstream

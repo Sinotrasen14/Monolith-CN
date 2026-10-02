@@ -1,5 +1,5 @@
-- type: entity
-  id: VendingMachine
+﻿- type: entity
+  id: VendingMachine # Mono note: Use VendingMachineCredit instead if it can accept money or other currency.
   parent: BaseMachinePowered
   name: 自动售货机 丨 vending machine
   description: 只需加入资本主义！ 丨 Just add capitalism!
@@ -123,18 +123,18 @@
       Frontier: 0.25
       Nfsd: 0.15
       Medical: 0.1 # Mono
-    cashSlot:
-      whitelist:
-        components:
-        - Cash
-    cashSlotName: cash_slot
-    currencyStackType: Credit
+  #  cashSlot:
+  #    whitelist:
+  #      components:
+  #      - Cash
+  #  cashSlotName: cash_slot
+  #  currencyStackType: Credit
   - type: PirateBountyItem
     id: VendingMachine
-  - type: ItemSlots
-  - type: ContainerContainer
-    containers:
-      cash_slot: !type:ContainerSlot
+  #- type: ItemSlots
+  #- type: ContainerContainer
+  #  containers:
+  #    cash_slot: !type:ContainerSlot
   # End Frontier
   # Mono
   - type: ShipRepairable
@@ -145,7 +145,7 @@
     blocking: 67
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineCondiments
   name: 调味品台 丨 condiment station
   description: 将这些浓稠黏腻的酱料厚涂在食物上，实现满口留香的极致风味。 丨 Slather these thick gooey substances on your food for a full flavor effect.
@@ -181,7 +181,7 @@
     noRot: false
 
 - type: entity
-  parent: [BaseStructureDisableAnchoring, VendingMachine] # Frontier
+  parent: [BaseStructureDisableAnchoring, VendingMachineCredit] # Mono # Frontier
   id: VendingMachineAmmo
   name: 解放站 丨 liberation station
   description: 仅仅是看着这台机器，一股厚重的古代爱国情怀便扑面而来。 丨 An overwhelming amount of ancient patriotism washes over you just by looking at the machine.
@@ -209,7 +209,7 @@
     mod: 10 # Mono: Reduced from 12x to 10x
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineBooze
   name: 酒饮调配机 丨 Booze-O-Mat
   description: 一项技术奇迹，据称能在你点单的瞬间，精准调出你心仪的那一杯。 丨 A technological marvel, supposedly able to mix just the mixture you'd like to drink the moment you ask for one.
@@ -277,7 +277,7 @@
     - Drinks
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineCart
   name: PTech 丨 PTech
   description: PTech自动贩卖！提供种类繁多的PDA、墨盒，以及所有无聊文员所需的一切！ 丨 PTech vending! Providing a ROBUST selection of PDAs, cartridges, and anything else a dull paper pusher needs!
@@ -307,7 +307,7 @@
     access: [["HeadOfPersonnel"]]
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineChefvend
   name: 厨师贩 丨 ChefVend
   description: 满足您所有厨师需求的食材供应商。 丨 An ingredient vendor for all your cheffin needs.
@@ -340,7 +340,7 @@
     mod: 5 # Frontier
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineCigs
   name: 奢华牌香烟 丨 ShadyCigs Deluxe
   description: 想要得癌症，不如有型地得。 丨 If you want to get cancer, might as well do it in style.
@@ -370,7 +370,7 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineClothing
   name: 衣物伴侣 丨 ClothesMate
   description: 服装自动售货机。 丨 A vending machine for clothing.
@@ -401,7 +401,7 @@
     color: "#3db83b"
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineWinter
   name: 冬之衣柜 丨 WinterDrobe
   description: 享受寒冷的最佳去处！ 丨 The best place to enjoy the cold!
@@ -432,7 +432,7 @@
     color: "#3db83b"
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineCoffee
   name: Solar's Best 热饮 丨 Solar's Best Hot Drinks
   description: 滚烫上桌，保温一整班！ 丨 Served boiling so it stays hot all shift!
@@ -473,7 +473,7 @@
     color: "#ad7c4b"
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineCola
   name: 强健软饮 丨 Robust Softdrinks
   description: 一款由Robust Industries, LLC提供的软饮料自动售货机。 丨 A softdrink vendor provided by Robust Industries, LLC.
@@ -618,7 +618,7 @@
     color: "#D3A44D"
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineShamblersJuice
   name: 颤栗者果汁商 丨 Shambler's Juice Vendor
   description: ~快给我来点蹒跚者果汁！~ 丨 ~Shake me up some of that Shambler's Juice!~
@@ -652,7 +652,7 @@
     color: "#66538F"
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachinePwrGame
   name: Pwr Game 供应商 丨 Pwr Game Vendor
   description: 您想要的，我们都有。由弗拉德沙拉为您呈现。 丨 You want it, we got it. Brought to you in partnership with Vlad's Salads.
@@ -688,7 +688,7 @@
     color: "#6927C5"
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineDrGibb
   name: 吉布博士售货机 丨 Dr. Gibb Vendor
   description: 就在这个自动售货机里，各种口味的罐装爆炸物任你挑选！ 丨 Canned explosion of different flavors in this very vendor!
@@ -724,7 +724,7 @@
     color: "#D82929"
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineSmite
   name: 重击供应商 丨 Smite Vendor
   description: 深受管理层欢迎。 丨 Popular with the administration.
@@ -760,7 +760,7 @@
     color: "#00E645"
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineDinnerware
   name: 普钢厨师餐具供应商 丨 Plasteel Chef's Dinnerware Vendor
   description: 厨房与餐厅设备供应商。 丨 A kitchen and restaurant equipment vendor.
@@ -795,7 +795,7 @@
     mod: 5 # Frontier
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineMagivend
   name: 魔售机 丨 MagiVend
   description: 一台魔法自动售货机。 丨 A magic vending machine.
@@ -825,7 +825,7 @@
     color: "#9a18d6"
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineDiscount
   name: 折扣丹的 丨 Discount Dan's
   description: 一台装有来自声名狼藉的"折扣丹"连锁品牌的打折零食的自动售货机。 丨 A vending machine containing discount snacks from the infamous 'Discount Dan' franchise.
@@ -858,7 +858,7 @@
     color: "#6148c7"
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineEngivend
   name: 英吉-贩卖 丨 Engi-Vend
   description: 备用工具自动售货。怎么？你还期待有什么诙谐的描述吗？ 丨 Spare tool vending. What? Did you expect some witty description?
@@ -886,7 +886,7 @@
     color: "#b89e2a"
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineMedical
   name: NanoMed Plus 丨 NanoMed Plus
   description: 这是一款医用药物分配器，仅限天然化学成分！ 丨 It's a medical drug dispenser. Natural chemicals only!
@@ -924,7 +924,7 @@
     - MedicalDoctor
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineNutri
   name: NutriMax 丨 NutriMax
   description: 一台装有植物营养物质和植物学工具的自动售货机。 丨 A vending machine containing nutritional substances for plants and botanical tools.
@@ -958,7 +958,7 @@
     color: "#326e3f"
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineSec
   name: 安保科技 丨 SecTech
   description: 一台装有安保设备的自动售货机。标签上写着：仅供安保人员使用。 丨 A vending machine containing Security equipment. A label reads SECURITY PERSONNEL ONLY.
@@ -994,7 +994,7 @@
     color: "#78645c"
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineSeedsUnlocked
   name: 超级种子伺服器 丨 MegaSeed Servitor
   description: 当你急需种子时，它是不二之选。本站点无可争议的最佳种子选择！ 丨 For when you need seeds fast. Hands down the best seed selection on the station!
@@ -1037,7 +1037,7 @@
     mod: 5 # Frontier
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineSnack
   name: Getmore巧克力公司 丨 Getmore Chocolate Corp
   description: 一台由火星Getmore巧克力公司提供的零食贩卖机。 丨 A snack machine courtesy of the Getmore Chocolate Corporation, based out of Mars.
@@ -1182,7 +1182,7 @@
     color: "#207E79"
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineSovietSoda
   name: 博达 丨 BODA
   description: 一台装有甜水的旧自动售货机。 丨 An old vending machine containing sweet water.
@@ -1217,7 +1217,7 @@
     color: "#389690"
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineTheater
   name: 自动衣橱 丨 AutoDrobe
   description: 一台装有戏服的自动售货机。 丨 A vending machine containing costumes.
@@ -1253,7 +1253,7 @@
     color: "#c73434"
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineVendomat
   name: 自动售货机 丨 Vendomat
   description: 太空中最精良耐用的设备！ 丨 Only the finest robust equipment in space!
@@ -1285,7 +1285,7 @@
     color: "#9dc5c9"
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineRobotics
   name: 机械战警豪华版 丨 Robotech Deluxe
   description: 创建属于你自己的机器人军队所需的一切工具。 丨 All the tools you need to create your own robot army.
@@ -1322,7 +1322,7 @@
     - Robotics
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineYouTool
   name: 优工具 丨 YouTool
   description: 一台装有标准工具的自动售货机。标签上写着：给工具用的工具。 丨 "A vending machine containing standard tools. A label reads Tools for tools."
@@ -1350,7 +1350,7 @@
     color: "#d4ab33"
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineGames
   name: 有益无害的乐子 丨 Good Clean Fun
   description: 贩卖那些富斯殖民地的联络员大概不会欣赏你放着正事不干，净摆弄的玩意儿……  # zero fucking clue what this means im just replacing the word "colonial liaison here"
@@ -1382,7 +1382,7 @@
     color: "#326e3f"
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineChang
   name: 常先生 丨 Mr. Chang
   description: 一台自助中餐机，满足您所有的中餐需求。 丨 A self-serving Chinese food machine, for all your Chinese food needs.
@@ -1415,7 +1415,7 @@
     color: "#ffe599"
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineSalvage
   name: 抢救供应商 丨 Salvage Vendor
   description: 矮人最好的朋友！ 丨 A dwarf's best friend!
@@ -1449,7 +1449,7 @@
     mod: 15 # Frontier
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineDonut
   name: Monkin' Donuts 丨 Monkin' Donuts
   description: 由Robust Industries, LLC提供的甜甜圈供应商。 丨 A donut vendor provided by Robust Industries, LLC.
@@ -1487,8 +1487,13 @@
 
 - type: entity
   id: VendingMachineWallmount
+<<<<<<< HEAD
   parent: VendingMachine
   name: 自动售货机 丨 vending machine
+=======
+  parent: VendingMachineCredit # Mono
+  name: vending machine
+>>>>>>> upstream
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -1541,7 +1546,7 @@
 # job clothing
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineHydrobe
   name: HyDrobe 丨 HyDrobe
   description: 一台拥有朗朗上口名字的机器。它提供植物学相关的服装和装备。 丨 A machine with a catchy name. It dispenses botany related clothing and gear.
@@ -1573,7 +1578,7 @@
   #   access: [["Hydroponics"]] # Frontier
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineLawDrobe
   name: 法衣柜 丨 LawDrobe
   description: 反对！这个衣橱提供法治……还有律师服装。 丨 Objection! This wardrobe dispenses the rule of law... and lawyer clothing..
@@ -1599,7 +1604,7 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineSecDrobe
   name: 安保衣柜 丨 SecDrobe
   description: 贩卖安全及安防相关服装的自动售货机！ 丨 A vending machine for security and security-related clothing!
@@ -1631,7 +1636,7 @@
     access: [["Security"]]
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingBarDrobe
   name: 巴台衣橱 丨 BarDrobe
   description: 一个时尚的供应商，提供最时髦的酒吧服饰！ 丨 A stylish vendor to dispense the most stylish bar clothing!
@@ -1657,7 +1662,7 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineChapel
   name: 虔诚贩卖 丨 PietyVend
   components:
@@ -1683,7 +1688,7 @@
     color: "#CCCCCC" #The holy C
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineCargoDrobe
   name: 货装衣柜 丨 CargoDrobe
   description: 一台高度先进的自动售货机，可免费购买与货物相关的服装。 丨 A highly advanced vending machine for buying cargo related clothing for free.
@@ -1715,7 +1720,7 @@
   #   access: [["Cargo"]] # Frontier
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineMediDrobe
   name: 医装柜 丨 MediDrobe
   description: 一台据传能为医护人员分发衣物的自动售货机。 丨 A vending machine rumoured to be capable of dispensing clothing for medical personnel.
@@ -1741,7 +1746,7 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineChemDrobe
   name: 化学衣橱 丨 ChemDrobe
   description: 一台用于分发化学相关衣物的自动售货机。 丨 A vending machine for dispensing chemistry related clothing.
@@ -1767,7 +1772,7 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineCuraDrobe
   name: 策展衣橱 丨 CuraDrobe
   description: 一个库存有限的供应商，仅能售卖面向策展人和图书管理员的服装。 丨 A lowstock vendor only capable of vending clothing for curators and librarians.
@@ -1795,7 +1800,7 @@
 #    access: [["Service"]]
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineAtmosDrobe
   name: 大气服售卖机 丨 AtmosDrobe
   description: 这台相对不为人知的自动贩卖机为同样鲜为人知的大气技术员提供服装。 丨 This relatively unknown vending machine delivers clothing for Atmospherics Technicians, an equally unknown job.
@@ -1827,7 +1832,7 @@
   #   access: [["Engineering"]] # Frontier
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineEngiDrobe
   name: 英吉装束 丨 EngiDrobe
   description: 一台以售卖工业级服装而闻名的自动售货机。 丨 A vending machine renowned for vending industrial grade clothing.
@@ -1859,7 +1864,7 @@
   #   access: [["Engineering"]] # Frontier
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineChefDrobe
   name: 主厨衣橱 丨 ChefDrobe
   description: 这台自动售货机或许不售卖肉类，但它确实提供与厨师相关的服装。 丨 This vending machine might not dispense meat, but it certainly dispenses chef related clothing.
@@ -1885,7 +1890,7 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineDetDrobe
   name: 侦探衣橱 丨 DetDrobe
   description: 一台满足你所有侦探需求的机器，只要你还需衣物。 丨 A machine for all your detective needs, as long as you need clothes.
@@ -1911,7 +1916,7 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineJaniDrobe
   name: 洁衣魔柜 丨 JaniDrobe
   description: 一台能为清洁工分发衣物的自动清洁售货机。 丨 A self cleaning vending machine capable of dispensing clothing for janitors.
@@ -1943,7 +1948,7 @@
   #   access: [["Janitor"]] # Frontier
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineSciDrobe
   name: 科学衣橱 丨 SciDrobe
   description: 一台适合分发剪裁精良的科学服饰的简单自动售货机。由太空古巴人背书。 丨 A simple vending machine suitable to dispense well tailored science clothing. Endorsed by Space Cubans.
@@ -1969,7 +1974,7 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineSyndieDrobe
   name: 辛迪柜 丨 SyndieDrobe
   description: 由辛迪加组织编码的衣柜机器，内藏适用于各类行动的精英服饰。 丨 Wardrobe machine encoded by the syndicate, contains elite outfits for various operations.
@@ -2001,7 +2006,7 @@
     access: [["NuclearOperative"], ["SyndicateAgent"]]
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineRoboDrobe
   name: 机器人衣橱 丨 RoboDrobe
   description: 一台专为机器人学家设计的服装自动售货机。 丨 A vending machine designed to dispense clothing known only to roboticists.
@@ -2027,7 +2032,7 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineGeneDrobe
   name: 基因衣橱 丨 GeneDrobe
   description: 一台用于分发与遗传学相关衣物的机器。 丨 A machine for dispensing clothing related to genetics.
@@ -2053,7 +2058,7 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineViroDrobe
   name: 病毒防护服分发机 丨 ViroDrobe
   description: 一台用于分发病毒学相关衣物的未消毒机器。 丨 An unsterilized machine for dispending virology related clothing.
@@ -2079,7 +2084,7 @@
       map: ["enum.WiresVisualLayers.MaintenancePanel"]
 
 - type: entity
-  parent: [BaseStructureDisableAnchoring, VendingMachine] # Frontier
+  parent: [BaseStructureDisableAnchoring, VendingMachineCredit] # Mono # Frontier
   id: VendingMachineCentDrobe
   name: 中央衣橱 丨 CentDrobe
   description: 一台独一无二的自动贩卖机，满足您对中央指挥部美学的所有需求！ 丨 A one-of-a-kind vending machine for all your centcomm aesthetic needs!
@@ -2107,7 +2112,7 @@
     access: [["CentralCommand"]]
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineHappyHonk
   name: 快乐喇叭发放机 丨 Happy Honk Dispenser
   description: 由honk!公司制造的快乐喇叭餐盒分发器。 丨 A happy honk meal box dispenser made by honk! co.
@@ -2149,7 +2154,7 @@
 # Pride Vending Machine
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachinePride
   name: 自豪贩卖机 丨 Pride-O-Mat
   description: 一台装满自豪的自动售货机。 丨 A vending machine containing pride.
@@ -2182,7 +2187,7 @@
 # Gas Tank Dispenser
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineTankDispenserEVA
   suffix: EVA [O2, N2]
   name: 煤气罐售货机 丨 gas tank dispenser
@@ -2197,7 +2202,7 @@
     mod: 5 # Frontier
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineTankDispenserEngineering
   suffix: ENG [O2, Plasma]
   name: 储气罐分配器 丨 gas tank dispenser
@@ -2212,7 +2217,7 @@
     - state: dispensereng
 
 - type: entity
-  parent: VendingMachine
+  parent: VendingMachineCredit # Mono
   id: VendingMachineChemicals
   name: 化贩 丨 ChemVend
   description: 可能不是咖啡机。 丨 Probably not the coffee machine.

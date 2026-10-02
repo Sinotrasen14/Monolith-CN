@@ -40,7 +40,12 @@
         - type: VesselMusic
           ambientMusicPrototype: CamelotMusic
         - type: VesselInfo
+<<<<<<< HEAD
           description: "一个摇摇欲坠的老车站，经过许多许多周期拼凑起来的..."
+=======
+          description: "A rickety old station that has been cobbled together over many many cycles..."
+        - type: DeleteNearbyDrones
+>>>>>>> upstream
       components:
         - type: StationNameSetup
           mapNameTemplate: 'Freeport Camelot'
