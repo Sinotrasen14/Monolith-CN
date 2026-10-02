@@ -408,8 +408,7 @@
       map: ["base"]
   - type: Tag
     tags:
-    - Sheet
-    - SafetyDepositBlacklist # lmao no
+    - Sheet # lmao no
   - type: Item
     sprite: Objects/Materials/Sheets/glass.rsi
     heldPrefix: adamantite

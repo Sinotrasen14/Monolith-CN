@@ -17,7 +17,7 @@
       components:
       - IdCard # Fuckery, abusable
       - Currency # Balance
-      - Store # Balance
+      # - Store # Balance
       - EncryptionKey # Balance
       - Headset # Ditto
       - Storage # Prevent recursion
@@ -26,9 +26,7 @@
       - OverwatchConsole # Requested by staff
       - GhostRoleMobSpawner # Reinforcement radios
       - DoorRemote # Requested by staff
-      - SolutionContainerManager # Requested by staff + lets you do crazy crazy shit that shouldn't be allowed gameplay wise (such as storing 6ku of letoferol)
-      - NukeDisk # Might be abusable in some way, who knows.
-      - Contraband # items exchangeable for FMC or DC. this also includes a large portion of faction gear which shouldn't be persistent for balance reasons
+      - NukeDisk # Might be abusable in some way, who knows. # items exchangeable for FMC or DC. this also includes a large portion of faction gear which shouldn't be persistent for balance reasons
       - ThiefUndeterminedBackpack # no stashing an entire fucking judge/overseer modsuit or spasaka/TARKHAN/MARSOC kit
       - AccessOverrider # Access configs can bypass the ID card storage.
       - PDA # See above # Bypasses reagent storage # lets you lockbox TSF servers and shit :face_holding_back_tears: # ditto
@@ -43,8 +41,8 @@
 
 - type: entity
   id: SafetyDepositBoxSmall
-  name: safety deposit box (small)
-  description: A small secure box for storing valuables. Can hold 2x2 items.
+  name: 小型保险箱
+  description: 一个用于存放贵重物品的小型安全箱。可以放置 2x2 个物品。
   parent: SafetyDepositBoxBase
   components:
   - type: Sprite
@@ -53,7 +51,7 @@
   - type: Item
     size: Small
   - type: SafetyDepositBox
-    cost: 2000000
+    cost: 3500000
   - type: Storage
     maxItemSize: Small
     grid:
@@ -61,8 +59,8 @@
 
 - type: entity
   id: SafetyDepositBoxMedium
-  name: safety deposit box (medium)
-  description: A medium secure box for storing valuables. Can hold 2x4 items.
+  name: 中型保险箱
+  description: 一个中等安全的储物箱，用来存放贵重物品。可以放 2x4 件物品。
   parent: SafetyDepositBoxBase
   components:
   - type: Sprite
@@ -71,7 +69,7 @@
   - type: Item
     size: Normal
   - type: SafetyDepositBox
-    cost: 3500000
+    cost: 5000000
   - type: Storage
     maxItemSize: Normal
     grid:
@@ -79,8 +77,8 @@
 
 - type: entity
   id: SafetyDepositBoxLarge
-  name: safety deposit box (large)
-  description: A large secure box for storing valuables. Can hold 2x6 items.
+  name: 大型保险箱
+  description: 一个用于存放贵重物品的大型安全箱。可以容纳 2x6 件物品。
   parent: SafetyDepositBoxBase
   components:
   - type: Sprite
@@ -89,7 +87,7 @@
   - type: Item
     size: Large
   - type: SafetyDepositBox
-    cost: 5000000
+    cost: 8000000
   - type: Storage
     maxItemSize: Large
     grid:

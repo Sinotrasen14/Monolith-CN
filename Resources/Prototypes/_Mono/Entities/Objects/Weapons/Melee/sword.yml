@@ -104,10 +104,10 @@
     - VT7
 
 - type: entity
-  name: mieyo high-frequency blade
+  name: mieyo 高频刀
   parent: Katana
   id: WeaponMieyoHFBlade
-  description: A high-frequency blade. It's manufactured to an ungodly level of precision.
+  description: 一把高频刀片。它制造得精确得离谱。
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Melee/hfblade_mieyo.rsi
@@ -211,8 +211,8 @@
 - type: entity
   parent: BaseMeleeWeaponEnergy
   id: UllmanPlasmaBlade
-  name: U.I. unstable plasma blade
-  description: A unique weapon, using welding fuel as a catalyst to ignite. The unstable plasma bursts forth with a wild, powerful flame to temporarily boost damage output.
+  name: U.I. 不稳定等离子刀
+  description: 一种独特的武器，使用焊接燃料作为催化剂点燃。不稳定的等离子体迸发出狂野而强大的火焰，暂时提升伤害输出。
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Melee/ullmansword.rsi
@@ -305,10 +305,10 @@
 # Vizier's sword
 
 - type: entity
-  name: officer's shamshir
+  name: 军官的沙姆希尔剑
   parent: CaptainSabre
   id: WeaponVizierShamshir
-  description: A uniquely curved sword, a sharp weapon styled after weapons of old, made of pale plastitanium. Primed to strike and sever.
+  description: 一把独特弯曲的剑，一种锋利的武器，仿古风格，由浅色塑钛金属制成。随时准备出击和斩断。
   components:
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Melee/viz-sabre.rsi

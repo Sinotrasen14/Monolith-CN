@@ -35,7 +35,7 @@
 - type: entity
   parent: ClothingNeckUllimanOvercoat
   id: ClothingNeckHeavyUllimanOvercoat
-  name: heavy U.I. overcoat
+  name: 重 U.I. 外套
   description: A thicker, heavier verison of the U.I. overcoat, with even more synthetic fur for style.
   components:
   - type: Sprite
@@ -48,7 +48,7 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckFormalTSF
-  name: TSFMC formal coat
+  name: TSFMC 正式外套
   description: A TSFMC officer's formal wear for special occasions.
   components:
   - type: Sprite
@@ -186,7 +186,7 @@
 - type: entity
   parent: ClothingNeckWearableCamera
   id: ClothingNeckWearableCameraPDV
-  name: PDV wireless camera
+  name: PDV 无线摄像头
   suffix: Chameleon
   description: A wireless camera made to observe the battlefield from the safety of your base. Can be worn in the neck slot. This one has been installed with chameleon technology salvaged from one of the Sultan's caches, allowing you to wear it without giving your true allegiance away.
   components:
@@ -207,7 +207,7 @@
 - type: entity
   parent: ClothingNeckWearableCamera
   id: ClothingNeckWearableCameraTSF
-  name: TSF wireless camera
+  name: TSF 无线摄像头
   components:
     - type: Sprite
       sprite: _Mono/Clothing/Neck/Misc/pir.rsi

@@ -255,7 +255,7 @@
     startingCharge: 0
 
 - type: entity
-  name: 古董原型电源 丨 antique power cell prototype
+  name: 古董原型电池 丨 antique power cell prototype
   description: 一种能够自我充电的小型电池。曾用于旧式激光臂的研究。 丨 A small cell that self recharges. Used in old laser arms research.
   id: PowerCellAntiqueProto
   parent: BasePowerCell
