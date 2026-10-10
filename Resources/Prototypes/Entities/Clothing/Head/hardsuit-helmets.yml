@@ -222,8 +222,8 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitSecurity
-  name: 安全硬质护甲头盔 丨 security hardsuit helmet
-  description: 专为安保需求设计的装甲硬质防护头盔。 丨 Armored hardsuit helmet for security needs.
+  name: 安全重装甲头盔
+  description: 用于安保需求的装甲硬壳服头盔。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/security.rsi
@@ -374,8 +374,8 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitSecurityRed
-  name: 安保主管的硬质防护头盔 丨 head of security's hardsuit helmet
-  description: 安保强化防护头盔，搭载最新绝密NT-HUD系统，属于安保主管所有。 丨 Security hardsuit helmet with the latest top secret NT-HUD software. Belongs to the HoS.
+  name: 监管者的硬质防护头盔
+  description: 一顶属于监管者的特别装甲硬壳服头盔。TSF的标记已经被破坏了。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/security-red.rsi
@@ -418,8 +418,8 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitSyndie
-  name: 血红色硬质作战头盔 丨 blood-red hardsuit helmet
-  description: 专为特种作战设计的重型装甲头盔。Gorlex掠夺者所属财产。 丨 A heavily armored helmet designed for work in special operations. Property of Gorlex Marauders.
+  name: 血红色硬质作战头盔
+  description: 一款为特种作业设计的重型防护头盔。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/syndicate.rsi
@@ -468,8 +468,8 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase ]
   id: ClothingHeadHelmetHardsuitSyndieElite
-  name: 辛迪加精英头盔 丨 syndicate elite helmet
-  description: 血红色硬质护甲头盔的精英版本，装甲防护与防火性能均得到强化。戈尔列克斯掠夺者部队专属装备。 丨 An elite version of the blood-red hardsuit's helmet, with improved armor and fireproofing. Property of Gorlex Marauders.
+  name: 精英头盔
+  description: 血红色硬壳服头盔的精英版，增强了护甲和防火性能。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/syndieelite.rsi
@@ -498,8 +498,8 @@
 - type: entity
   parent: [ ClothingHeadHardsuitBase, ClothingHeadSuitWithLightBase, ShowSecurityIcons, BaseFactionGearOtherFactionT3]
   id: ClothingHeadHelmetHardsuitSyndieCommander
-  name: 辛迪加指挥官头盔 丨 syndicate commander helmet
-  description: 一款为集团特工小队指挥官特制的头盔，基于血红色硬质护甲头盔进行强化升级，显著提升了装甲防护性能，专为应对致命前线交火而打造。 丨 A bulked up version of the blood-red hardsuit's helmet, purpose-built for the commander of a syndicate operative squad. Has significantly improved armor for those deadly front-lines firefights.
+  name: 指挥官头盔
+  description: 一款为集团特工小队指挥官特制的头盔，基于血红色硬质护甲头盔进行强化升级，显著提升了装甲防护性能，专为应对致命前线交火而打造。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/syndiecommander.rsi
@@ -523,8 +523,8 @@
 - type: entity
   parent: ClothingHeadHardsuitBase
   id: ClothingHeadHelmetHardsuitCybersun
-  name: 电驭太阳重装头盔 丨 cybersun juggernaut helmet
-  description: 由压缩红物质制成，这款头盔在陶氏色球设施中设计完成。 丨 Made of compressed red matter, this helmet was designed in the Tau chromosphere facility.
+  name: 电驭太阳重装头盔
+  description: 由压缩红物质制成，这款头盔在陶氏色球设施中设计完成。
   components:
   - type: Sprite
     sprite: Clothing/Head/Hardsuits/cybersun.rsi

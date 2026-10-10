@@ -90,9 +90,9 @@
 - type: entity
   parent: BaseWeaponTurretNF
   id: BaseMk290Sentry
-  name: 'MK-290哨兵 | MK-290 Sentry'
-  description: MK-290哨兵 |
-    MK-290可部署哨戒系统设计于旧地球联合国时期，目前仍在TSF武装部队中持续服役。该系统可使用任何762x39毫米弹匣供弹，不过后期升级后已能兼容6.8x52毫米无壳弹及5.56x45毫米弹药，符合TSF标准化要求。
+  name: MK-290哨兵 | MK-290 Sentry
+  description:
+    MK-290 可部署哨兵系统最初由地球旧联合国设计，并在 TSF 武装部队中继续使用。它可以使用任何 7.62x39mm 弹匣，不过最近的升级让它也能使用 6.8x52mm 无壳弹和 5.56x45mm 弹药，以符合 TSF 标准。
   abstract: true
   components:
   - type: Sprite

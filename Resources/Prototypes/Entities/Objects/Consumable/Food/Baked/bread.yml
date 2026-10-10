@@ -145,6 +145,7 @@
     tags:
     - ClothMade
     - Bread
+    - BountyCottonBread # Mono
   - type: SolutionContainerManager
     solutions:
       food:
@@ -193,6 +194,10 @@
   id: FoodBreadCorn
   description: 一些地道乡村风味的、活力四射的、充满西部狂野气息的、绝顶美味的好家伙玉米面包。 丨 Some good down-home country-style, rootin'-tootin', revolver-shootin', dad-gum yeehaw cornbread.
   components:
+  - type: Tag # Mono
+    tags:
+    - Bread
+    - BountyCornbread
   - type: FlavorProfile
     flavors:
       - bread
@@ -244,6 +249,10 @@
   id: FoodBreadCreamcheese
   description: 好吃好吃好吃！ 丨 Yum yum yum!
   components:
+  - type: Tag # Mono
+    tags:
+    - Bread
+    - BountyCreamCheeseBread
   - type: FlavorProfile
     flavors:
       - cheesy
@@ -326,6 +335,7 @@
     tags:
     - Meat
     - Bread
+    - BountyMeatBread # Mono
 # Tastes like bread, meat.
 
 - type: entity
@@ -365,6 +375,10 @@
   id: FoodBreadMimana
   description: 最好在寂静中享用。 丨 Best eaten in silence.
   components:
+  - type: Tag # Mono
+    tags:
+    - Bread
+    - BountyMimanaBread
   - type: FlavorProfile
     flavors:
       - nothing
@@ -428,6 +442,10 @@
   id: FoodBreadPlain
   description: 一些朴素的老式土面包。 丨 Some plain old earthen bread.
   components:
+  - type: Tag # Mono
+    tags:
+    - Bread
+    - BountyBread
   - type: Food
   - type: Sprite
     layers:
@@ -479,6 +497,7 @@
     tags:
     - Meat
     - Bread
+    - BountySausageBread # Mono
 
 - type: entity
   name: 香肠面包片 丨 sausage bread slice
@@ -546,6 +565,7 @@
     tags:
     - Meat
     - Bread
+    - BountySpiderMeatBread # Mono
 # Tastes like bread, cobwebs.
 
 - type: entity
@@ -587,6 +607,10 @@
   id: FoodBreadTofu
   description: 就像肉面包，但是为素食者准备的。向你的船员们炫耀它有多美味。 丨 Like meatbread but for vegetarians. Brag to your crewmates about how much better it is.
   components:
+  - type: Tag # Mono
+    tags:
+    - Bread
+    - BountyTofuBread
   - type: FlavorProfile
     flavors:
       - tofu
@@ -667,6 +691,7 @@
     tags:
     - Meat
     - Bread
+    - BountyXenoMeatBread # Mono
 # Tastes like bread, acid.
 
 - type: entity
@@ -708,6 +733,10 @@
   id: FoodBreadBaguette
   description: 祝您好胃口！ 丨 Bon appétit!
   components:
+  - type: Tag # Mono
+    tags:
+    - Bread
+    - BountyBaguette
   - type: Sprite
     state: baguette
   - type: SliceableFood
@@ -761,6 +790,7 @@
     tags:
     - Bread
     - ClothMade
+    - BountyCottonBaguette # Mono
   - type: Clothing
     equippedPrefix: baguette-cotton
   - type: Item
@@ -846,6 +876,11 @@
   id: FoodBreadButteredToast
   description: 酥脆。 丨 Crunchy.
   components:
+  - type: Tag # Mono
+    tags:
+    - Bread
+    - Slice
+    - BountyButteredToast
   - type: FlavorProfile
     flavors:
       - butter
@@ -871,6 +906,11 @@
   id: FoodBreadFrenchToast
   description: 一片浸过打匀蛋液的面包片。 丨 A slice of bread soaked in a beaten egg mixture.
   components:
+  - type: Tag # Mono
+    tags:
+    - Bread
+    - Slice
+    - BountyFrenchToast
   - type: FlavorProfile
     flavors:
       - syrupy
@@ -896,6 +936,11 @@
   id: FoodBreadGarlicSlice
   description: 唉，可惜数量有限。 丨 Alas, it is limited.
   components:
+  - type: Tag # Mono
+    tags:
+    - Bread
+    - Slice
+    - BountyGarlicBread
   - type: FlavorProfile
     flavors:
       - bread
@@ -922,6 +967,11 @@
   id: FoodBreadJellySlice
   description: 好像科学家们会为了吐司放弃他们的黏液似的！ 丨 As if science are gonna give up their slimes for toast!
   components:
+  - type: Tag # Mono
+    tags:
+    - Bread
+    - Slice
+    - BountyJellyToast
   - type: FlavorProfile
     flavors:
       - bread
@@ -971,6 +1021,11 @@
   id: FoodBreadTwoSlice
   description: 优雅。 丨 Classy.
   components:
+  - type: Tag # Mono
+    tags:
+    - Bread
+    - Slice
+    - BountyTwoSlice
   - type: Sprite
     layers:
     - state: two-slice
@@ -1055,6 +1110,7 @@
     - DoorBumpOpener
     - Bread
     - Meat
+    - BountyBreadDog # Mono
   - type: CanEscapeInventory
     baseResistTime: 2
   - type: Puller

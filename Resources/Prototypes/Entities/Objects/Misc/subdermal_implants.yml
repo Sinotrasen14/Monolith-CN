@@ -147,8 +147,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: RadioImplant
-  name: 无线电植入物 丨 radio implant
-  description: 该植入体无需耳机即可接入辛迪加频道。 丨 This implant grants access to the Syndicate channel without a headset.
+  name: 无线电植入物
+  description: 该植入体无需耳机即可接入地下频道。
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant
@@ -159,8 +159,8 @@
 - type: entity
   parent: [ BaseSubdermalImplant, StorePresetUplink ]
   id: UplinkImplant
-  name: 上行链路植入物 丨 uplink implant
-  description: 该植入物让使用者能够随时接入一个隐藏的辛迪加上行链路。 丨 This implant lets the user access a hidden Syndicate uplink at will.
+  name: 上行链路植入物
+  description: 该植入物让使用者能够随时接入一个隐藏的上行链路。
   categories: [ HideSpawnMenu ]
   components:
   - type: SubdermalImplant
@@ -310,8 +310,8 @@
 - type: entity
   parent: BaseSubdermalImplant
   id: DeathRattleImplant
-  name: 死亡喉音植入体 丨 death rattle implant
-  description: 该植入体会在使用者陷入危急状态或死亡时通知集团无线电频道。 丨 This implant will inform the Syndicate radio channel should the user fall into critical condition or die.
+  name: 死亡喉音植入体
+  description: 如果用户情况危急或死亡，这个植入装置会通知地下电台频道。
   categories: [ HideSpawnMenu ]
   components:
     - type: SubdermalImplant

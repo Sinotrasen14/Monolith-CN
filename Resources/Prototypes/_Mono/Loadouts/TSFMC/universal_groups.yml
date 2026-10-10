@@ -35,6 +35,7 @@
   loadouts:
   - TsfmcClothingJumpsuit
   - TsfmcClothingJumpsuitType47D
+  - TsfmcClothingJumpsuitType47F
   - TsfmcClothingDressUniform
   fallbacks:
   - TsfmcClothingJumpsuit
@@ -58,6 +59,7 @@
   - TsfmcEngineeringClothingJumpsuit
   - TsfmcClothingJumpsuit
   - TsfmcClothingJumpsuitType47D
+  - TsfmcClothingJumpsuitType47F
   - TsfmcClothingDressUniform
   fallbacks:
   - TsfmcEngineeringClothingJumpsuit
@@ -288,6 +290,16 @@
   - TsfmcClothingOuterArmorBPVestMedium
   fallbacks:
   - TsfmcClothingOuterArmorBPVestLight
+
+- type: loadoutGroup
+  id: TsfmcOuterClothingInfantry
+  name: loadout-group-contractor-outerclothing
+  hidden: true # No point in showing this, it gets auto-selected.
+  minLimit: 1
+  loadouts:
+  - TsfmcClothingOuterArmorBPVestMedium
+  fallbacks:
+  - TsfmcClothingOuterArmorBPVestMedium
 
 - type: loadoutGroup
   id: TsfmcOuterClothingColonel

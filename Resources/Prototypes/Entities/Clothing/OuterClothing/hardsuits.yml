@@ -141,9 +141,9 @@
   - type: Armor
     modifiers:
       coefficients:
-        Blunt: 0.7
+        Blunt: 0.6
         Slash: 0.6
-        Piercing: 0.65
+        Piercing: 0.85 # Mono: this is not meant to be good against bullets.
         Radiation: 0.25 #salv is supposed to have radiation hazards in the future
         Caustic: 0.45
   - type: ClothingSpeedModifier
@@ -293,8 +293,8 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitSecurity
-  name: 安保强化防护服 丨 security hardsuit
-  description: 一种特殊防护服，用于在危险低压环境中提供保护，并额外附加一层装甲。 丨 A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
+  name: 安保强化防护服
+  description: 一种特殊防护服，用于在危险低压环境中提供保护，并额外附加一层装甲。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/security.rsi
@@ -541,7 +541,7 @@
       coefficients:
         Blunt: 0.45
         Slash: 0.65 # Mono 0.65 < 0.8
-        Piercing: 0.65 # Mono 0.65 < 0.9
+        Piercing: 0.8 # Mono 0.8 < 0.9
         Heat: 0.3
         Radiation: 0.1
         Caustic: 0.2
@@ -581,7 +581,7 @@
 - type: entity
   parent: ClothingOuterHardsuitBase
   id: ClothingOuterHardsuitSecurityRed
-  name: 安保主管的防护服 丨 head of security's hardsuit
+  name: 监管者的防护服 丨 head of security's hardsuit
   description: 一套用于在危险低压环境中提供防护的特制服装，额外附加了装甲层。 丨 A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
   components:
   - type: Sprite
@@ -659,10 +659,10 @@
 #ANTAG HARDSUITS
 #Blood-red Hardsuit
 - type: entity
-  parent: [ClothingOuterHardsuitBase, BaseFactionGearOtherFactionT3]
+  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContrabandT3]
   id: ClothingOuterHardsuitSyndie
   name: 血红色硬质护甲 丨 blood-red hardsuit
-  description: 专为特种作战设计的重装甲防护服，戈勒克斯掠夺者所属。 丨 A heavily armored hardsuit designed for work in special operations. Property of Gorlex Marauders.
+  description: 专为特种作战设计的重装甲防护服
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndicate.rsi
@@ -706,7 +706,7 @@
 
 # Syndicate Medic Hardsuit
 - type: entity
-  parent: [ClothingOuterHardsuitSyndie, BaseFactionGearOtherFactionT1]
+  parent: [ClothingOuterHardsuitSyndie, BaseC3SyndicateContrabandT3]
   id: ClothingOuterHardsuitSyndieMedic
   name: 血红色医疗用硬质护甲 丨 blood-red medic hardsuit
   description: 专为战地医疗行动设计，兼具重装甲防护与高机动性的先进硬质防护服。 丨 A heavily armored and agile advanced hardsuit specifically designed for field medic operations.
@@ -742,10 +742,10 @@
 
 #Syndicate Elite Hardsuit
 - type: entity
-  parent: [ClothingOuterHardsuitBase, BaseFactionGearOtherFactionT3]
+  parent: [ClothingOuterHardsuitBase, BaseC3SyndicateContrabandT3]
   id: ClothingOuterHardsuitSyndieElite
-  name: 辛迪加精英强化服 丨 syndicate elite hardsuit
-  description: 精英版血红色硬质护甲，机动性与防火性能均得到提升。戈勒克斯掠夺者所属。 丨 An elite version of the blood-red hardsuit, with improved mobility and fireproofing. Property of Gorlex Marauders.
+  name: 精英强化服 丨 syndicate elite hardsuit
+  description: 精英版血红色硬质护甲，机动性与防火性能均得到提升。
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Hardsuits/syndieelite.rsi
@@ -791,7 +791,7 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase]
   id: ClothingOuterHardsuitSyndieCommander
-  name: 辛迪加指挥官强化服 丨 syndicate commander hardsuit
+  name: 指挥官强化服 丨 syndicate commander hardsuit
   description: 一套经过强化的猩红硬质护甲，专为联合行动小队指挥官打造。显著提升的装甲防护，专为应对致命的前线交火而设计。 丨 A bulked up version of the blood-red hardsuit, purpose-built for the commander of a syndicate operative squad. Has significantly improved armor for those deadly front-lines firefights.
   components:
   - type: Sprite
@@ -831,7 +831,7 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase]
   id: ClothingOuterHardsuitJuggernaut
-  name: cybersun主宰者套装 丨 cybersun juggernaut suit
+  name: 主宰者套装 丨 cybersun juggernaut suit
   description: 这是一套最初由Cybersun尖端研发部门制造的超强韧性防护服，现在被法厄同帝国回收再利用。坚固耐用，但绝缘性不完全。
   components:
   - type: Sprite

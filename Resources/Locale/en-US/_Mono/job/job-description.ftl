@@ -3,8 +3,9 @@ job-description-ussp-commissar = 保持纪律，让营队有共同的目标，�
 job-description-ussp-sergeant = 在战斗中带领队伍，执行标准，并在压力下团结连队。
 job-description-ussp-rifleman = 在远离家乡的地方为联邦服务。听从上级，支持战友，在别人会崩溃的时候坚持下去。
 
-# MARK: MD
+# MARK: CAELESTINUS
 job-description-md-medic = 驾驶一艘医疗船穿越太空以提供急救护理。用药物稳定船员，合成药物，并复活倒下的人。确保无法复原的死者被尊重地安放在太平间并进行克隆。
+job-description-caelestinus-worker = 维护Caelestinus Central，帮助平民和你的盟友，做监督员或关怀主管需要你做的任何事情。
 
 # MARK: TSF
 job-description-tsf-engineer = 维护旗舰的完整性，然后因为你不是真的士兵而被嘲笑。
@@ -26,6 +27,10 @@ job-description-vg-commander = 带领毒蛇们走向荣耀和财富。建立新�
 job-description-mmc-liason = 确保你的公司经理获得利润，让员工守规矩，并确保保护该行业的MMC资产。
 job-description-mmc-security = 保护MMC在该地区的资产和员工免受任何威胁。
 job-description-mmc-employee = 为了MMC公司的董事会，在你的联络人手下工作。赚钱，把钱交给公司，然后重复这个过程。
+
+# MARK: UNDERGROUND/BLACK MARKET
+job-description-fugitive = You are a known enemy of the TSF. Evade the TSFMC and the bounty hunters they send after you. Reap the rewards of your dangerous lifestyle.
+job-description-godfather = Maintain your hold on the Underground through coercion and fear. Don't get assassinated.
 
 # MARK: CROCUS
 job-description-crocus-dockworker = 试着在双方交火中生存下去。你只有基本的工作装备。

@@ -285,8 +285,8 @@
 - type: entity
   parent: NFClothingBackpack
   id: ClothingBackpackSyndicate
-  name: 辛迪加背包 丨 syndicate backpack
-  description: 辛迪加背包 丨
+  name: 防爆背包
+  description: 哎辛迪加
   components:
   - type: Sprite
     sprite: Clothing/Back/Backpacks/syndicate.rsi

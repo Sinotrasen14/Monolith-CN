@@ -207,6 +207,10 @@
   id: FoodSnackPopcorn
   description: 产自未知星球，由无名农夫耕种，却在空间站被某个讨厌鬼爆成了爆米花。 丨 Grown on an unknown planet, by an unknown farmer, popped by some jerk on a space station.
   components:
+  - type: Tag # Mono
+    tags:
+    - FoodSnack
+    - BountyPopcorn
   - type: FlavorProfile
     flavors:
       - corn

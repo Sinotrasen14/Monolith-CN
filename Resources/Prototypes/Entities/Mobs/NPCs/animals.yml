@@ -3298,7 +3298,7 @@
         Base: cat2_dead
 
 - type: entity
-  name: 辛迪加 丨 syndicat
+  name: 卡咪猫
   id: MobCatSyndy
   parent: MobCatSpace
   description: 爆炸小猫。 丨 Explosive kitten.
@@ -3317,9 +3317,9 @@
         Base: syndicat_dead
   - type: GhostRole
     prob: 1
-    name: 幽灵角色信息-辛迪猫名称 丨 ghost-role-information-SyndiCat-name
+    name: 卡密猫 丨 ghost-role-information-SyndiCat-name
     allowMovement: true
-    description: 幽灵角色信息-辛迪猫-描述 丨 ghost-role-information-SyndiCat-description
+    description: 卡密猫  丨 ghost-role-information-SyndiCat-description
     rules: ghost-role-information-SyndiCat-rules
     mindRoles:
     - MindRoleGhostRoleTeamAntagonist

@@ -220,8 +220,8 @@
 
 - type: entity
   id: Magazine9x19mmPistolHighCapacityFMJ
-  name: '冲锋手枪弹匣（9x19mm 全金属被甲弹） | machine pistol magazine (9x19mm FMJ)'
-  parent: BaseMagazine9x19mmPistolHighCapacityFMJ
+  name: 冲锋手枪弹匣（9x19mm 全金属被甲弹）
+  parent: [ BaseMagazine9x19mmPistolHighCapacityFMJ, BaseC3SyndicateContraband ]
   components:
   - type: BallisticAmmoProvider
     proto: Cartridge9x19mmFMJ

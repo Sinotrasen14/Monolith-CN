@@ -94,8 +94,8 @@
 - type: entity
   parent: [BaseHardBomb, BaseFactionGearOtherFactionT3]
   id: SyndicateBomb
-  name: 辛迪加炸弹 丨 syndicate bomb
-  description: 一枚为辛迪加特工和探员们准备的炸弹。真家伙，别再训练了，动手吧！ 丨 A bomb for Syndicate operatives and agents alike. The real deal, no more training, get to it!
+  name: 大型炸弹 # Mono: remove syndicate references
+  description: 一个不祥的重型炸弹装置。 # Mono: remove syndicate references
   components:
     - type: Sprite
       sprite: Structures/Machines/bomb.rsi

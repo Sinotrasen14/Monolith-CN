@@ -84,6 +84,7 @@
     tags:
     - Fruit
     - Pie
+    - BountyApplePie # Mono
 
 - type: entity
   name: 一片苹果派 丨 slice of apple pie
@@ -112,6 +113,10 @@
   id: FoodPieBaklava
   description: 一种由坚果层和薄面包制成的美味健康零食。 丨 A delightful healthy snack made of nut layers with thin bread.
   components:
+  - type: Tag # Mono
+    tags:
+    - Pie
+    - BountyBaklava
   - type: FlavorProfile
     flavors:
       - sweet
@@ -175,6 +180,7 @@
     tags:
     - Fruit
     - Pie
+    - BountyBananaCreamPie # Mono
   - type: SliceableFood
     slice: FoodPieBananaCreamSlice
 
@@ -219,6 +225,7 @@
     tags:
     - Fruit
     - Pie
+    - BountyBerryClafoutis # Mono
 
 - type: entity
   name: 浆果克拉芙提的一片 丨 slice of berry clafoutis
@@ -260,6 +267,7 @@
     tags:
     - Fruit
     - Pie
+    - BountyCherryPie # Mono
 
 - type: entity
   name: 一块樱桃派 丨 slice of cherry pie
@@ -300,6 +308,7 @@
     tags:
     - Meat
     - Pie
+    - BountyMeatPie # Mono
 
 - type: entity
   name: 肉馅饼块 丨 slice of meat pie
@@ -340,6 +349,7 @@
   - type: Tag
     tags:
     - Pie
+    - BountyPumpkinPie # Mono
 
 - type: entity
   name: 一片南瓜派 丨 slice of pumpkin pie
@@ -377,6 +387,7 @@
     tags:
     - Meat
     - Pie
+    - BountyXenoPie # Mono
 
 - type: entity
   name: 异星馅饼切片 丨 slice of xeno pie
@@ -405,6 +416,10 @@
   id: FoodPieFrosty
   description: 尝起来有蓝色和冰冷的感觉。 丨 Tastes like blue and cold.
   components:
+  - type: Tag # Mono
+    tags:
+    - Pie
+    - BountyFrostyPie
   - type: FlavorProfile
     flavors:
       - cold
@@ -436,6 +451,10 @@
   id: FoodTartMime
   description: "   "
   components:
+  - type: Tag # Mono
+    tags:
+    - Pie
+    - BountyMimeTart
   - type: FlavorProfile
     flavors:
       - nothing
@@ -469,6 +488,10 @@
   id: FoodPieAmanita
   description: 甜美可口的毒馅饼。 丨 Sweet and tasty poison pie.
   components:
+  - type: Tag # Mono
+    tags:
+    - Pie
+    - BountyAmanitaPie
   - type: FlavorProfile
     flavors:
       - mushroom
@@ -519,6 +542,7 @@
     tags:
     - Fruit
     - Pie
+    - BountyGrapeTart # Mono
 # Tastes like tart, grape.
 
 - type: entity
@@ -536,6 +560,7 @@
     tags:
     - Fruit
     - Pie
+    - BountyGoldenAppleStreuselTart # Mono
 # Tastes like tart, apple, expensive metal.
 
 - type: entity
@@ -544,6 +569,10 @@
   id: FoodTartCoco
   description: 一款由巧克力制成的美味甜点，内含流心。 丨 A tasty dessert made of chocolate, with a liquid core.
   components:
+  - type: Tag # Mono
+    tags:
+    - Pie
+    - BountyChocolateLavaTart
   - type: FlavorProfile
     flavors:
       - chocolate

@@ -6,8 +6,9 @@ job-supervisors-ussp-highcomm = 诺瓦·天鹅指挥部
 job-supervisors-ussp-commissars = 政委
 job-supervisors-ussp-sergeant = 军士长
 
-# MARK: MD
+# MARK: CAELESTINUS
 job-name-md-medic = 应急响应医护人员
+job-name-caelestinus-worker = Caelestinus员工
 
 # MARK: TSF
 job-name-tsf-engineer = TSFMC 工程师
@@ -31,6 +32,10 @@ job-name-mmc-security = MMC企业安保
 job-name-mmc-employee = MMC 员工
 job-supervisors-mmc-highcomm = 米耶奥公司董事会
 job-supervisors-mmc-liason = 企业联络
+
+# MARK: UNDERGROUND BLACK MARKET
+job-name-fugitive = Fugitive
+job-name-godfather = Godfather
 
 # MARK: CROCUS
 job-name-crocus-dockworker = 江辉码头工人

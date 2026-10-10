@@ -72,6 +72,10 @@
   id: FoodSoupPea
   description: 一碗朴素的干豌豆瓣汤。 丨 A humble split pea soup.
   components:
+  - type: Tag # Mono
+    tags:
+    - Soup
+    - BountyPeaSoup
   - type: FlavorProfile
     flavors:
       - creamy
@@ -155,6 +159,7 @@
     tags:
     - Fruit
     - Soup
+    - BountyHerbSalad # Mono
 
 - type: entity
   name: 有效沙拉 丨 valid salad
@@ -190,6 +195,7 @@
     - Meat
     - Fruit
     - Soup
+    - BountyValidSalad # Mono
 
 - type: entity
   name: 凉拌卷心菜丝 丨 coleslaw
@@ -197,6 +203,10 @@
   id: FoodSaladColeslaw
   description: 切碎的卷心菜和红洋葱配以油醋汁。 丨 Shredded cabbage and red onions dressed with a vinaigrette.
   components:
+  - type: Tag # Mono
+    tags:
+    - Soup
+    - BountyColeslaw
   - type: FlavorProfile
     flavors:
       - onion
@@ -226,6 +236,10 @@
   id: FoodSaladCaesar
   description: 一份简单却风味十足的沙拉，内含洋葱、生菜、面包丁和奶酪丝，佐以油醋汁调味，并附赠一片皮塔饼！ 丨 A simple yet flavorful salad of onions, lettuce, croutons, and shreds of cheese dressed in oil. Comes with a slice of pita bread!
   components:
+  - type: Tag # Mono
+    tags:
+    - Soup
+    - BountyCaesarSalad
   - type: FlavorProfile
     flavors:
       - onion
@@ -254,6 +268,10 @@
   id: FoodSaladKimchi
   description: 它其实就是一道辣味沙拉。 丨 It really is just a spicy salad.
   components:
+  - type: Tag # Mono
+    tags:
+    - Soup
+    - BountyKimchiSalad
   - type: FlavorProfile
     flavors:
       - spicy
@@ -305,6 +323,7 @@
     tags:
     - Fruit
     - Soup
+    - BountyFruitSalad # Mono
 
 - type: entity
   name: 丛林沙拉 丨 jungle salad
@@ -335,6 +354,7 @@
     tags:
     - Fruit
     - Soup
+    - BountyJungleSalad # Mono
 
 - type: entity
   name: 柑橘沙拉 丨 citrus salad
@@ -365,6 +385,7 @@
     tags:
     - Fruit
     - Soup
+    - BountyCitrusSalad # Mono
 
 - type: entity
   name: 伊甸沙拉 丨 salad of eden
@@ -401,6 +422,10 @@
   id: FoodRiceBoiled
   description: 一碗热腾腾的米饭。 丨 A warm bowl of rice.
   components:
+  - type: Tag # Mono
+    tags:
+    - Soup
+    - BountyBoiledRice
   - type: FlavorProfile
     flavors:
       - rice
@@ -436,6 +461,7 @@
     tags:
     - Meat
     - Soup
+    - BountyEggFriedRice # Mono
 
 - type: entity
   name: 米饭和猪肉 丨 rice and pork
@@ -470,6 +496,7 @@
     tags:
     - Meat
     - Soup
+    - BountyRiceAndPork # Mono
 
 - type: entity
   name: 大米布丁 丨 rice pudding
@@ -477,6 +504,10 @@
   id: FoodRicePudding
   description: 人人都爱吃大米布丁！ 丨 Everybody loves rice pudding!
   components:
+  - type: Tag # Mono
+    tags:
+    - Soup
+    - BountyRicePudding
   - type: FlavorProfile
     flavors:
       - rice
@@ -534,6 +565,7 @@
     tags:
     - Meat
     - Soup
+    - BountyBlackEyedGumbo # Mono
 
 # Misc
 
@@ -543,6 +575,10 @@
   id: FoodOatmeal
   description: 一碗香喷喷的燕麦粥。 丨 A nice bowl of oatmeal.
   components:
+  - type: Tag # Mono
+    tags:
+    - Soup
+    - BountyOatmeal
   - type: FlavorProfile
     flavors:
       - oats
@@ -586,6 +622,9 @@
   id: FoodJellyAmanita
   description: 它是邪恶的，别碰它！ 丨 It's evil, don't touch it!
   components:
+  - type: Tag # Mono
+    tags:
+    - BountyAmanitaJelly
   - type: FlavorProfile
     flavors:
       - mushroom
@@ -636,6 +675,7 @@
     tags:
     - Meat
     - Soup
+    - BountyMeatballSoup # Mono
 
 - type: entity
   name: 黏液汤 丨 slime soup
@@ -695,6 +735,7 @@
     tags:
     - Fruit
     - Soup
+    - BountyTomatoSoupEither # Mono
 
 - type: entity
   name: 方翅厨 丨 wing fang chu
@@ -702,6 +743,10 @@
   id: FoodSoupWingFangChu
   description: 一道用酱油烹制的外星翅膀王的美味菜肴。 丨 A savory dish of alien wing wang in soy.
   components:
+  - type: Tag # Mono
+    tags:
+    - Soup
+    - BountyWingFangChu
   - type: FlavorProfile
     flavors:
       - meaty
@@ -730,6 +775,10 @@
   id: FoodSoupClown
   description: 不太好笑。 丨 Not very funny.
   components:
+  - type: Tag # Mono
+    tags:
+    - Soup
+    - BountyClownsTears
   - type: FlavorProfile
     flavors:
       - bad-joke
@@ -757,6 +806,10 @@
   id: FoodSoupVegetable
   description: 一份纯正的素食餐。 丨 A true vegan meal.
   components:
+  - type: Tag # Mono
+    tags:
+    - Soup
+    - BountyVegtableSoup
   - type: FlavorProfile
     flavors:
       - vegetables
@@ -787,6 +840,10 @@
   id: FoodSoupNettle
   description: 想想看，那位植物学家差点就用其中一根把你打死了。 丨 To think, the botanist would've beat you to death with one of these.
   components:
+  - type: Tag # Mono
+    tags:
+    - Soup
+    - BountyNettleSoup
   - type: FlavorProfile
     flavors:
       - nettles
@@ -857,6 +914,7 @@
   - type: Tag
     tags:
     - ChiliBowl
+    - BountyBowlOfHotChili # Mono
 
 
 - type: entity
@@ -887,6 +945,7 @@
   - type: Tag
     tags:
     - ChiliBowl
+    - BountyColdChili # Mono
 
 - type: entity
   name: 嘉年华辣酱炖肉 丨 chili con carnival
@@ -922,6 +981,7 @@
   - type: Tag
     tags:
     - ChiliBowl
+    - BountyChiliConCarnival # Mono
 
 - type: entity
   name: 猴子的喜悦 丨 monkey's delight
@@ -956,6 +1016,7 @@
     tags:
     - Meat
     - Soup
+    - BountyMonkeysDelight # Mono
 
 - type: entity
   name: 番茄汤 丨 tomato soup
@@ -987,6 +1048,7 @@
     tags:
     - Fruit
     - Soup
+    - BountyTomatoSoupEither # Mono
 
 - type: entity
   name: 眼球汤 丨 eyeball soup
@@ -1017,6 +1079,7 @@
     tags:
     - Meat
     - Soup
+    - BountyEyeballSoup # Mono
 
 - type: entity
   name: 味增汤 丨 miso soup
@@ -1059,6 +1122,10 @@
   id: FoodSoupMushroom
   description: 一份美味又丰盛的蘑菇汤。 丨 A delicious and hearty mushroom soup.
   components:
+  - type: Tag # Mono
+    tags:
+    - Soup
+    - BountyMushroomSoup
   - type: FlavorProfile
     flavors:
       - mushroom
@@ -1163,6 +1230,7 @@
     - Meat
     - Fruit
     - Soup
+    - BountyStew # Mono
 
 - type: entity
   name: 红薯汤 丨 sweet potato soup
@@ -1196,6 +1264,10 @@
   id: FoodSoupOnion
   description: 好到能让一个成年哑剧演员落泪。 丨 Good enough to make a grown mime cry.
   components:
+  - type: Tag # Mono
+    tags:
+    - Soup
+    - BountyFrenchOnionSoup
   - type: FlavorProfile
     flavors:
       - onion
@@ -1223,6 +1295,10 @@
   id: FoodSoupBisque
   description: 一道来自太空法国的经典主菜。 丨 A classic entrée from Space France.
   components:
+  - type: Tag # Mono
+    tags:
+    - Soup
+    - BountyBisque
   - type: FlavorProfile
     flavors:
       - creamy
@@ -1303,6 +1379,7 @@
     tags:
     - Fruit
     - Soup
+    - BountyBungoCurry # Mono
 # Tastes like bungo, hot curry.
 
 - type: entity
@@ -1334,6 +1411,7 @@
     tags:
     - Meat
     - Soup
+    - BountyEscargot # Mono
 
 - type: entity
   name: buttered grits
@@ -1341,6 +1419,10 @@
   id: FoodPlainGrits
   description: A savory bowl of grits, topped with a pat of butter.
   components:
+  - type: Tag # Mono
+    tags:
+    - Soup
+    - BountyButteredGrits
   - type: FlavorProfile
     flavors:
     - savory
@@ -1370,6 +1452,10 @@
   id: FoodCheeseGrits
   description: A thick, savory bowl of cheesy grits.
   components:
+  - type: Tag # Mono
+    tags:
+    - Soup
+    - BountyCheeseGrits
   - type: FlavorProfile
     flavors:
     - savory

@@ -12,3 +12,6 @@ department-CrocusJobs-description = 在藏红花模式中找到的角色。这�
 
 department-Medical = 医疗派遣
 department-Viper = 毒蛇集团
+
+department-Underground = 地下黑市
+department-Underground-description = 躲避TSFMC和他们派来追捕你的赏金猎人。享受你危险生活方式的回报。

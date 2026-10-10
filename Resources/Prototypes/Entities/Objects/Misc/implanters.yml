@@ -128,7 +128,7 @@
 - type: entity
   id: BaseImplantOnlyImplanterSyndi
   parent: [BaseImplantOnlyImplanter, BaseFactionGearOtherFactionT2]
-  name: 辛迪加皮下植入注射器 丨 syndicate implanter
+  name: 地下皮下植入注射器
   description: 一种专门用于皮下植入物注射的紧凑型一次性注射器。
   abstract: true
   components:

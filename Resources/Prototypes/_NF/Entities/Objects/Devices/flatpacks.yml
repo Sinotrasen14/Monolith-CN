@@ -1059,8 +1059,8 @@
 - type: entity
   parent: VendingMachineBoozeFlatpack
   id: VendingMachineSyndieContrabandFlatpack
-  name: 违禁贩卖机组装包
-  description: 用于建造违禁贩卖机的组装包。
+  name: 地下售卖贩卖机组装包
+  description: A flatpack used for constructing a restricted vendomat.
   components:
   - type: Flatpack
     entity: VendingMachineSyndieContraband

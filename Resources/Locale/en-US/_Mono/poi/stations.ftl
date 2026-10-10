@@ -17,6 +17,12 @@ frontier-lobby-chengdu-subtext = 一艘强大到可以摧毁一切的巡洋舰�
 frontier-lobby-chengdu-description = TSFN 部署的一款 Type-98F 巡洋舰，用于大规模冲突。配备巡航导弹、电磁炮和机关炮、制导导弹舱，以及足够的防御激光，可以让任何鱼雷黯然失色。[color=red]仅配备极有限的造船厂，且只有 2 个船坞。这不是像木星号那样的移动基地，这是战舰。[/color]
 
 frontier-lobby-crocus-subtext = 地面战争
-frontier-lobby-crocus-description = 这是Crocus模式的地图。[color=red][bold]它目前还在制作中，所有内容都不是最终版。[/bold][/color]；如果你看到了这个，这是管理活动的一部分。
+frontier-lobby-crocus-description = 这是代号藏红花模式的地图。你出生时可能会有一些目标。在角色菜单中查看，它们会与整个阵营共享。
 
    - [color=red][bold]‘特殊物种’在这里可能会有困难！[/bold][/color] - 空气对爬行动物来说可能太冷了，IPC几乎没有基础设施，而Vox可能会在大气环境问题上遇到麻烦。
+   - 在这种模式下（目前），平民被视为[color=bold]自由行动者[/bold]，没有特定目标。可以把它当作一个中立的“随便做什么”角色。
+
+frontier-lobby-underground-subtext = 一个藏有跨太阳联邦敌人的藏身处。
+frontier-lobby-underground-description = 在外云区有一个隐藏点，它的IFF被关闭，里面有医疗舱、制造厂和四个地下自动贩卖机，作为通向远处Persean黑市的直接通道。
+
+   - [color=red][bold]这个站上的所有角色都被TSFMC通缉，如果被发现，应该准备随时被击毙。[/bold][/color] 话虽如此，你还是能从中得到一些挺不错的好处。

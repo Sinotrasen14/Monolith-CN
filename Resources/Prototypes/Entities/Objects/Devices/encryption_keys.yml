@@ -218,9 +218,9 @@
     - state: service_label
 
 - type: entity
-  parent: [EncryptionKey, BaseFactionGearOtherFactionT1]
+  parent: [EncryptionKey, BaseC3SyndicateContraband]
   id: EncryptionKeySyndie
-  name: 血红色的加密密钥 丨 blood-red encryption key
+  name: 地下加密密钥
   categories: [ DoNotMap ] # Frontier
   description: 一把加密密钥，被……等等……这枚芯片的主人是谁？ 丨 An encryption key used by... wait... Who is owner of this chip?
   components:

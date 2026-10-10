@@ -6,6 +6,3 @@ fac-operation-members-list-name-user = - [color=White]{$name}[/color] ([color=gr
 fac-operation-objectives-list-none = 没有目标.
 fac-operation-objectives-list-start = 目标是:
 fac-operation-objectives-list-entry = - [color=White]{$name}[/color][color=Gray] - Progress: [/color][color=green]({$progress}%)[/color]
-
-steal-target-groups-federal-nanites = 联邦纳米机器人罐
-steal-target-groups-federal-pdas = 军用PDA

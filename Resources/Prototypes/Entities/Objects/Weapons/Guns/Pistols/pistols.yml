@@ -99,13 +99,14 @@
       collection: MetalThud
   - type: AltFireMelee
     attackType: Light
+  - type: CanShootWithShield # Mono: only sidearms can be used alongside a shield
   # Mono end
 
 - type: entity
   name: LWC PT-45A 蝰蛇手枪（9x19mm 口径） 丨 LWC PT-45A viper (9x19mm)
   parent: BaseWeaponPistol
   id: WeaponPistolViper
-  description: 一把小巧、易于隐藏但威力稍逊的改装手枪，配备全自动机匣，使用9x19mm 弹药。虽然蝮蛇枪的制造蓝图已失传，但公司战争期间留存数量极为庞大，已无需再生产新品。
+  description: 一把小巧、易于隐藏，但有点火力不足的枪。改装了全自动机匣。使用9x19毫米弹药。蓝图无处可寻，但出于未知原因，这型号手枪已经变得非常普遍，以至于不再需要制造新的。配备了螺纹枪管和战术装置安装座。 # Mono: remove syndicate references
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Pistols/viper.rsi

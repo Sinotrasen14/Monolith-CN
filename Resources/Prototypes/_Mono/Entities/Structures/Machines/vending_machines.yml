@@ -81,9 +81,7 @@
 - type: entity
   parent: [BaseStructureDisableToolUse, VendingMachineSyndieContraband]
   id: VendingMachineSyndieContrabandPOI
-  name: '通缉令遍布多个行业 | ContraVend'
   suffix: POI
-  description: '多个行业争相招募！ | Wanted across multiple sectors!'
 
 - type: entity
   parent: VendingMachineCredit

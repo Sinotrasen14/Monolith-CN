@@ -72,6 +72,10 @@
   id: FoodTacoBeef
   description: 一款非常普通、平平无奇的牛肉塔可，现在加奶酪了！ 丨 A very basic and run of the mill beef taco, now with cheese!
   components:
+  - type: Tag # Mono
+    tags:
+    - Meat
+    - BountyBeefTaco
   - type: Food
   - type: Sprite
     state: beeftaco
@@ -82,6 +86,10 @@
   id: FoodTacoChicken
   description: 一款非常普通、平淡无奇的鸡肉卷饼，现在加奶酪了！ 丨 A very basic and run of the mill chicken taco, now with cheese!
   components:
+  - type: Tag # Mono
+    tags:
+    - Meat
+    - BountyChickenTaco
   - type: Food
   - type: Sprite
     state: chickentaco
@@ -92,6 +100,10 @@
   id: FoodTacoFish
   description: 听起来有点恶心，但其实味道还不错。 丨 Sounds kinda gross, but it's actually not that bad.
   components:
+  - type: Tag # Mono
+    tags:
+    - Meat
+    - BountyFishTaco
   - type: FlavorProfile
     flavors:
       - onion
@@ -115,6 +127,10 @@
   id: FoodTacoRat
   description: 嗯，看起来差不多…… 丨 Yeah, that looks about right...
   components:
+  - type: Tag # Mono
+    tags:
+    - Meat
+    - BountyRatTaco
   - type: Food
   - type: Sprite
     state: rattaco
@@ -134,6 +150,10 @@
   id: FoodTacoBeefSupreme
   description: 它就像一个普通的牛肉塔可，但是至尊版！ 丨 It's like a regular beef taco, but surpeme!
   components:
+  - type: Tag # Mono
+    tags:
+    - Meat
+    - BountyBeefTacoSupreme
   - type: Food
   - type: Sprite
     state: beeftacosupreme
@@ -153,6 +173,10 @@
   id: FoodTacoChickenSupreme
   description: 它就像普通的鸡肉塔可，但是至尊版！ 丨 It's like a regular chicken taco, but surpeme!
   components:
+  - type: Tag # Mono
+    tags:
+    - Meat
+    - BountyChickenTacoSupreme
   - type: Food
   - type: Sprite
     state: chickentacosupreme

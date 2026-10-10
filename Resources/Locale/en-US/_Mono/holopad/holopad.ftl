@@ -2,3 +2,4 @@ holopad-ussp-baikal = USSP 卡美洛空间站
 holopad-ussp-commissar = USSP 政委
 holopad-pdv-jupiter = PDV 木星号母舰
 holopad-vg = 卡美洛特 - 毒蛇集团
+holopad-underground-godfather = 地下黑市 - 教父的房间

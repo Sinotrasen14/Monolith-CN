@@ -127,8 +127,8 @@
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing ]
   id: ClothingOuterArmorRaid
-  name: 辛迪加突袭套装 丨 syndicate raid suit
-  description: 一套颇为灵活且防护良好的装甲服，配备强力的肩载探照灯，采用戈尔列克斯掠夺者标志性的血红色配色方案，但它无法保护穿戴者免受太空环境的伤害。 丨 A somewhat flexible and well-armored suit with a powerful shoulder mounted flashlight manufactured in the Gorlex Marauder's iconic blood-red color scheme, it does not protect its wearer from space.
+  name: 突袭套装  # Mono: remove syndicate references
+  description: 一套颇为灵活且防护良好的装甲服，配备强力的肩载探照灯，采用戈尔列克斯掠夺者标志性的血红色配色方案，但它无法保护穿戴者免受太空环境的伤害。 # Mono: remove syndicate references
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/syndie-raid.rsi

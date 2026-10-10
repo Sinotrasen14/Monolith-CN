@@ -25737,3 +25737,414 @@ Entries:
   id: 2791
   time: '2026-10-02T01:51:04.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/4776
+- author: kasature90
+  changes:
+    - type: Add
+      message: >-
+        CROCUS - Replaced most of the vendor stock with kit selectors. Vendors
+        still exist for ammo/meds. PDV now gets M-90 for rifle role, since while
+        on paper it's better than Lecter it performs about the same DPS-wise
+        with the differing armor values. Also because they needed a gun that can
+        take attachments. Added more stairs around to get to the rooftops of
+        smaller 1 z-level buildings, removed the random gun spawns that were
+        really funny for now and replaced w/ maintenance weapon spawners..
+    - type: Add
+      message: CROCUS - Expanded the urban area more eastwards.
+    - type: Add
+      message: Resprited Bandit DMR, finally.
+    - type: Tweak
+      message: >-
+        Moths and harpies can't fly across z-levels anymore. I'll undo this when
+        you can actually shoot across z-levels.
+    - type: Tweak
+      message: >-
+        CROCUS - Raised the amount of nanite capsules required for the
+        objective.
+    - type: Fix
+      message: CROCUS - Fixed nanite capsules being able to be stored in closets.
+  id: 2792
+  time: '2026-10-03T10:28:59.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/4812
+- author: kasature90
+  changes:
+    - type: Fix
+      message: Fixed respawn timers sometimes being instant.
+  id: 2793
+  time: '2026-10-03T17:35:52.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/4813
+- author: kasature90
+  changes:
+    - type: Tweak
+      message: 1.5x damage mod for Bandit DMR.
+    - type: Tweak
+      message: >-
+        TSF roles can now use the forest jumpsuit from Crocus I guess. Nothing
+        gameplay-affecting.
+  id: 2794
+  time: '2026-10-03T17:51:48.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/4814
+- author: SuperGDPWYL
+  changes:
+    - type: Fix
+      message: >-
+        Fixed the CV-53, M-92X, Enforcer MkII and MEDUSA having 2x their
+        intended shield HP.
+  id: 2795
+  time: '2026-10-03T21:46:58.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/4817
+- author: kasature90
+  changes:
+    - type: Add
+      message: CROCUS - Added autobalance for TSF/PDV infantry.
+    - type: Add
+      message: >-
+        CROCUS - Added mindshields to TSF/PDV infantry. PDV gets their own evil
+        red one, so you shouldn't have any trouble knowing who to shoot.
+    - type: Add
+      message: >-
+        CROCUS - Added a side objective of beacons. TSF needs to keep 2-4 of
+        them repaired, PDV needs to keep 2-6 of them destroyed. Both sides need
+        to keep an extraction beacon next to the destroyed/repaired beacons, so
+        both sides get more beacons now. They're located in the more out of the
+        way locations like the docks. You can get pinpointers for them from the
+        gear vendors.
+    - type: Add
+      message: CROCUS - TSF can roll the objective of capturing PDAs too now.
+    - type: Add
+      message: >-
+        CROCUS - Added an underground area to the city w/ 4 entrances. The
+        tunnels near PDV spawn have had more side routes added and other minor
+        edits to help with the spawncamp. The TSF base is now fully redone w/
+        multiple exits & is located on the westernmost side of the map. Added
+        warp points to various locations too.
+    - type: Tweak
+      message: >-
+        CROCUS - PDV rifleman kit M-90 is Vympel again. Added compact
+        defibrillators & medical HUDs to both side's medic kits.
+    - type: Tweak
+      message: CROCUS - Removed optics from vendors.
+    - type: Tweak
+      message: >-
+        CROCUS - Round ends at 1h10m now instead of 2h10m. Respawn timer is now
+        0.25x (2.5 minutes) instead of 0.5x (5 minutes). Gamemode now available
+        in vote, but requires a 80% majority.
+    - type: Remove
+      message: >-
+        CROCUS - Removed wildcard (pointsman/marksman) & autorifleman kits. I've
+        realized they don't add shit and they're just bad for the balance.
+    - type: Tweak
+      message: >-
+        First aid kits contain a iron/copper pill bottle now instead of
+        tricordrazine.
+    - type: Tweak
+      message: Vympel buffed to 7.2 RPS. Bandit damage mod reduced to 1.5x.
+  id: 2796
+  time: '2026-10-04T22:31:27.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/4822
+- author: RikuTheKiller
+  changes:
+    - type: Fix
+      message: Fixed dead drops not spawning on Zvezda and Caelestinus Central.
+  id: 2797
+  time: '2026-10-05T00:12:38.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/4823
+- author: Mrrpip
+  changes:
+    - type: Fix
+      message: Fixed an inappropriate locker on the Talon.
+  id: 2798
+  time: '2026-10-05T00:50:04.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/4811
+- author: kasature90
+  changes:
+    - type: Tweak
+      message: Alternate gamemodes now need a minimum pop of 30 to be votable.
+  id: 2799
+  time: '2026-10-05T17:03:13.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/4824
+- author: kasature90
+  changes:
+    - type: Add
+      message: >-
+        Added a custom parallax instead of using the same one as Frontier.
+        Finally, planets no longer drawing in front of asteroids.
+    - type: Add
+      message: FTL-space got a custom parallax too. With ambient light even.
+  id: 2800
+  time: '2026-10-05T20:20:33.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/4828
+- author: kasature90
+  changes:
+    - type: Add
+      message: >-
+        Added bounties for meals to CC. They got some good payouts, you can
+        actually have a reason to cook stuff now. The terminals for the bounties
+        are in both cargo bays by the sell pads.
+    - type: Fix
+      message: >-
+        Fixed an infinite cash exploit on CC w/ turn-in chutes/trade good
+        vendors.
+    - type: Fix
+      message: Fixed MMC Camera bounty only working with Optics.
+  id: 2801
+  time: '2026-10-06T02:21:34.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/4829
+- author: kasature90
+  changes:
+    - type: Add
+      message: >-
+        Tilefires are different now, sorry reagent fires, I want ones that don't
+        suck.
+    - type: Add
+      message: Ported sparks on damage for some machines from ES. They start tilefires.
+  id: 2802
+  time: '2026-10-07T04:47:54.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/4831
+- author: kasature90
+  changes:
+    - type: Add
+      message: >-
+        Ported Goob radio host. News/radio host room replaces one of the CC
+        maint rooms right next to the firing range. Radio flatpack vend replaces
+        a random drink/food vendor by shipyard consoles. Added some station
+        radios around to CC only. It's available in R&D too.
+  id: 2803
+  time: '2026-10-08T04:16:51.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/4833
+- author: lordsej
+  changes:
+    - type: Tweak
+      message: Loose Limbs are now edible!
+  id: 2804
+  time: '2026-10-08T04:18:11.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/4656
+- author: SuperGDPWYL
+  changes:
+    - type: Remove
+      message: Jetpacks can no longer be detected on radar.
+    - type: Tweak
+      message: The 20mm autocannon no longer instantly kills anyone it hits.
+    - type: Tweak
+      message: >-
+        Thruster strength and ship acceleration has been significantly nerfed.
+        Ships should be quite a bit slower now.
+    - type: Remove
+      message: MK-290s no longer spawn in Halcyon's armory.
+  id: 2805
+  time: '2026-10-08T20:12:27.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/4748
+- author: SuperGDPWYL
+  changes:
+    - type: Remove
+      message: >-
+        You can no longer fire a gun while holding a shield, with the exception
+        of ballistic sidearms.
+  id: 2806
+  time: '2026-10-08T20:17:09.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/4722
+- author: kasature90
+  changes:
+    - type: Remove
+      message: >-
+        Kills CD disk crate from cargo. Was going to filter it out, but after
+        removing all the Goob metaclique/syndie/NT stuff it was just almost
+        empty.
+  id: 2807
+  time: '2026-10-08T20:27:28.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/4834
+- author: DoubleHypercube
+  changes:
+    - type: Add
+      message: ~15 new vinyls by Nulb/Deltarisk!
+  id: 2808
+  time: '2026-10-08T20:37:35.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/4835
+- author: Tuerk
+  changes:
+    - type: Add
+      message: >-
+        Ironman characters are now able to purchase ships. Simply insert credits
+        like you would a Vendomat and your ID.
+    - type: Add
+      message: >-
+        Ironman characters selling their ship will now be returned the sell
+        value in cash.
+  id: 2809
+  time: '2026-10-08T20:40:28.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3913
+- author: SuperGDPWYL
+  changes:
+    - type: Add
+      message: >-
+        Added the Underground Black Market, a hideout harboring up to five
+        Fugitives from the TSFMC and ran by the Godfather. Both are very much
+        wanted by the TSF and the TSFMC will receive FMC if they can be caught.
+    - type: Add
+      message: >-
+        Added the RX-01 modsuit (formerly a Spasaka-exclusive item) to the
+        UndergroundVend (formerly ContraVend), four of which can be found on the
+        Underground Black Market.
+    - type: Add
+      message: >-
+        Added the Damocles as the Godfather's exclusive sidearm, packing an
+        incredible punch. It only accepts 9x19mm machine pistol magazines, which
+        can now be bought from the UndergroundVend for 15 TC each.
+    - type: Tweak
+      message: >-
+        The Typewriter, WL-01 and all Ullman Industries items are now Black
+        Market items. The Typewriter's rate of fire has been buffed, and they're
+        all exchangeable for FMC now. The Fugitive can now spawn with the WL-01,
+        and both the Fugitive and Godfather can spawn with the Typewriter.
+    - type: Tweak
+      message: >-
+        The pierce resistance of the UI pilot and engineer suits has been buffed
+        to 35%.
+    - type: Tweak
+      message: KamiCats (formerly SyndiCats) no longer spawn in surplus crates.
+    - type: Tweak
+      message: >-
+        Nerfed the pierce resistance of the RD experimental hardsuit and
+        spationaut hardsuit.
+    - type: Tweak
+      message: >-
+        Underground pinpointers (formerly Syndicate pinpointers) now point to
+        the Underground Black Market instead of PDV Jupiter.
+    - type: Remove
+      message: >-
+        Vagrants can no longer spawn with U.I. suits (Fugitives still can).
+        Vagrants can no longer spawn with the Magnate Modsuit or Captain
+        Hardsuit (Fugitives cannot either).
+    - type: Remove
+      message: Removed or replaced a LOT of Syndicate and Nanotrasen references.
+    - type: Remove
+      message: The C-20r and Bulldog can no longer be bought from the UndergroundVend.
+    - type: Fix
+      message: >-
+        PDV Denasvar and Spasaka now output to the right channel when they enter
+        cryosleep. MMC, USSP, VG and Caelestinus roles now output to their own
+        channels when they enter cryosleep.
+  id: 2810
+  time: '2026-10-08T21:04:19.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/4816
+- author: SuperGDPWYL
+  changes:
+    - type: Remove
+      message: The Overseer now actually no longer has TSF, PDV or HiComm comms.
+    - type: Remove
+      message: The "Central Command" department has been removed.
+    - type: Add
+      message: >-
+        The Caelestinus Worker has been added as a general-purpose member of
+        Caelestinus. Its playtime requirement has been removed.
+    - type: Tweak
+      message: >-
+        C-Medical or Medical Dispatch is now officially a part of Caelestinus.
+        The Overseer and Director of Care can now keep track of each other's
+        branches via their handheld overwatch consoles.
+  id: 2811
+  time: '2026-10-08T21:07:16.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/4807
+- author: kasature90
+  changes:
+    - type: Fix
+      message: Fixed sparks from welds w/ 0 doafter being permanent.
+  id: 2812
+  time: '2026-10-09T00:48:17.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/4839
+- author: kasature90
+  changes:
+    - type: Add
+      message: >-
+        Electrical machines are flammable now if they get hit by flammable
+        things. Not by fires yet, static entities don't collide with eachother.
+        Fuel tanks & ship ammo flammable too now, you actually have to worry
+        about those.
+    - type: Tweak
+      message: >-
+        Electrical machine explosions replaced with ones that cause fire more
+        than tile damage. Gyros and generators too, so now you'll just burn to
+        death instead of getting fucked over instantly.
+    - type: Tweak
+      message: Tiles are slightly more flammable now.
+    - type: Tweak
+      message: Fire needs less oxygen to spread now.
+    - type: Fix
+      message: Fixed scrubbers not scrubbing smoke by default.
+  id: 2813
+  time: '2026-10-09T01:27:44.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/4838
+- author: SuperGDPWYL
+  changes:
+    - type: Tweak
+      message: >-
+        The "Mudskipper" model of ship is no longer sold by the scrapyard
+        console. It is now found in the underground shipyard console found on
+        the Underground Black Market.
+  id: 2814
+  time: '2026-10-09T01:30:49.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/4837
+- author: kasature90
+  changes:
+    - type: Fix
+      message: >-
+        Fixed fires not burning oxygen, so they don't last forever. Stops when
+        theres around ~2 mol of oxygen remaining on the tile (but it'll be
+        extinguished under 2 mols anyways).
+  id: 2815
+  time: '2026-10-09T20:53:51.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/4844
+- author: tonotom1
+  changes:
+    - type: Tweak
+      message: Adjusted brake force of ships to feel similar to old maneuvering balance
+  id: 2816
+  time: '2026-10-09T22:33:30.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/4842
+- author: tonotom1
+  changes:
+    - type: Tweak
+      message: Lobotomized ranged drone evasion so you don't have to fight Goku
+    - type: Tweak
+      message: Weighed down the Gust slightly with more mass
+    - type: Tweak
+      message: >-
+        Down-armored the Wasp drone's sides. This should make partial damage
+        more meaningful against a Wasp
+  id: 2817
+  time: '2026-10-09T22:35:44.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/4840
+- author: SuperGDPWYL
+  changes:
+    - type: Fix
+      message: Fixed the durability of the MEDUSA suit.
+    - type: Fix
+      message: Fixed a few incorrect airlocks on the Underground Black Market.
+  id: 2818
+  time: '2026-10-10T01:30:44.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/4841
+- author: kasature90
+  changes:
+    - type: Tweak
+      message: >-
+        CROCUS - Added telecomms servers out of bounds. Bandaid fix until
+        telecomms works across z-levels.
+    - type: Tweak
+      message: CROCUS - Added invulnerable laser turrets to both spawns, I hate you.
+    - type: Tweak
+      message: >-
+        CROCUS - Both sides only get medium bulletproof vests to prevent
+        noobtraps.
+    - type: Tweak
+      message: CROCUS - TSF always gets the beacon objective now.
+  id: 2819
+  time: '2026-10-10T03:25:47.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/4846
+- author: kasature90
+  changes:
+    - type: Tweak
+      message: >-
+        Removed self/repeat-harvest mutation from the botany pool. It's really
+        fucking funny but it's way too laggy. I'm sorry.
+  id: 2820
+  time: '2026-10-10T05:00:43.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/4847

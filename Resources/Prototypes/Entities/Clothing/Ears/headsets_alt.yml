@@ -124,10 +124,10 @@
     sprite: Clothing/Ears/Headsets/science.rsi
 
 - type: entity
-  parent: [ClothingHeadsetAlt, BaseFactionGearOtherFactionT1]
+  parent: [ClothingHeadsetAlt, BaseC3SyndicateContraband]
   id: ClothingHeadsetAltSyndicate
-  name: 血红色头戴式耳机 丨 blood-red over-ear headset
-  description: 一款经过更新的模块化集团对讲机，采用头戴式设计并配备加密密钥插槽（共5个密钥插位）。 丨 An updated, modular syndicate intercom that fits over the head and takes encryption keys (there are 5 key slots.).
+  name: 地下黑市耳机
+# description: An updated, modular syndicate intercom that fits over the head and takes encryption keys (there are 5 key slots.). # Mono: remove completely outdated description
   components:
 #  - type: Headset # Frontier: Use 10 from base
 #  - type: EncryptionKeyHolder # Frontier: Use 10 from base
@@ -136,6 +136,7 @@
     containers:
       key_slots:
       - EncryptionKeySyndie
+      - EncryptionKeyCommon # Mono
   - type: Sprite
     sprite: Clothing/Ears/Headsets/syndicate.rsi
   - type: Clothing

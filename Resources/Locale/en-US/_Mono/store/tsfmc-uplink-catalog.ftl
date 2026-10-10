@@ -22,6 +22,9 @@ uplink-security-compact-defibrillator-desc = 便携式除颤器，专为野外�
 uplink-security-cash7500-name = 7,500 信用点
 uplink-security-cash7500-desc = 冷冰冰的硬通货。
 
+uplink-security-cash10000-name = 10,000 信用点
+uplink-security-cash10000-desc = 冰冷的钞票
+
 uplink-security-thrusterkit-name = 推进器升级套件
 uplink-security-thrusterkit-desc = 包含32个超级电容。非常适合升级八个推进器。
 
@@ -60,6 +63,9 @@ uplink-security-portable-recharger-desc = 实验性便携式充电器，内置�
 
 uplink-security-cash75000-name = 75,000 信用点
 uplink-security-cash75000-desc = 冷冰冰的硬通货，大宗供应。
+
+uplink-security-cash100000-name = 100,000 C信用点
+uplink-security-cash100000-desc = 很多冰冷的钞票
 
 uplink-security-surgery-duffel-name = 高级手术套件
 uplink-security-surgery-duffel-desc = 一个装满高级手术工具的行李袋，非常适合重新接上几颗脑袋。

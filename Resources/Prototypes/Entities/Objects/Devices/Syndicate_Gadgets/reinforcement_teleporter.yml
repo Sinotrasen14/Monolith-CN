@@ -2,8 +2,8 @@
   parent: BaseItem
   abstract: true
   id: ReinforcementRadio
-  name: 辛迪加增援无线电 丨 syndicate reinforcement radio
-  description: 立刻召唤一名质量存疑的辛迪加特工！仅提供基础装备。 丨 Call in a syndicate agent of questionable quality, instantly! Only basic equipment provided.
+  name: 增援无线电 丨reinforcement radio
+  description: 立刻召唤一名质量存疑的特工！仅提供基础装备。
   components:
   - type: Sprite
     sprite: Objects/Devices/communication.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: ReinforcementRadio
   id: ReinforcementRadioSyndicate
-  name: 辛迪加增援无线电 丨 syndicate reinforcement radio
-  description: 立刻呼叫一位质量存疑的辛迪加特工！ 丨 Call in a syndicate agent of questionable quality, instantly!
+  name: 增援无线电 丨 syndicate reinforcement radio
+  description: 立刻呼叫一位质量存疑的特工！
   components:
   - type: GhostRole
     name: 幽灵角色信息-辛迪加增援间谍名称 丨 ghost-role-information-syndicate-reinforcement-spy-name
@@ -55,7 +55,7 @@
 - type: entity
   parent: ReinforcementRadio
   id: ReinforcementRadioSyndicateAncestor
-  name: 辛迪加基因先祖强化无线电 丨 syndicate genetic ancestor reinforcement radio
+  name: 基因先祖强化无线电 丨 genetic ancestor reinforcement radio
   description: 召唤一只经过特殊训练的指定先祖前来助战。 丨 Calls in a specially trained ancestor of your choosing to assist you.
   components:
   - type: GhostRole
@@ -84,8 +84,8 @@
 - type: entity
   parent: ReinforcementRadio
   id: ReinforcementRadioSyndicateSyndiCat
-  name: 辛迪猫增援无线电 丨 syndicat reinforcement radio
-  description: 召唤一只经过忠诚训练、携带微型炸弹的猫咪前来协助你。 丨 Calls in a faithfully trained cat with a microbomb to assist you.
+  name: 卡咪猫增援无线电
+  description: 召唤一只经过忠诚训练、携带微型炸弹的猫咪前来协助你
   components:
   - type: GhostRole
     name: 幽灵角色信息-辛迪猫名称 丨 ghost-role-information-SyndiCat-name
@@ -103,8 +103,8 @@
 - type: entity
   parent: ReinforcementRadio
   id: ReinforcementRadioSyndicateCyborgAssault # Reinforcement radio exclusive to nukeops uplink
-  name: 辛迪加-突击型赛博增援无线电 丨 syndicate assault cyborg reinforcement radio
-  description: 立刻呼叫一支装备精良的突击电子人！ 丨 Call in a well armed assault cyborg, instantly!
+  name: 突击型赛博增援无线电 丨 assault cyborg reinforcement radio
+  description: 立刻呼叫一支装备精良的突击电子人！
   suffix: NukeOps
   components:
     - type: GhostRole

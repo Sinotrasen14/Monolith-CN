@@ -121,6 +121,9 @@ uplink-pirate-cash10000-desc = 好小子，你让我今天心情大好。
 
 uplink-pirate-cash100000-name = 100,000信用点
 uplink-pirate-cash100000-desc = 好小子，你真是让我今天心情大好。
+
+uplink-pirate-telecrystal-25-name = 25 TC
+uplink-pirate-telecrystal-25-desc = 二十五个远程水晶，用来直接从英仙臂遥远的黑市进口物品。
 # desc is quote
 
 uplink-syndicate-applicator-name = 高级纳米施加器

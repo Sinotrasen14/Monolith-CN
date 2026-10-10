@@ -1,5 +1,5 @@
 - type: entity
-  parent: [ ClothingOuterHardsuitBase, BaseFactionGearOtherFactionT2 ]
+  parent: [ ClothingOuterHardsuitBase, BaseC3SyndicateContrabandT2 ]
   id: ClothingOuterHardsuitUIEnforcer
   name: U.I 执行者作战战术服 | U.I ENFORCER combat tacsuit
   description: 声名狼藉的黑市最可靠作战战术服之一，由厄尔曼工业研发。注意：抬头显示器需另行购买！
@@ -38,7 +38,7 @@
     coefficient: 0.55
 
 - type: entity
-  parent: [ ClothingOuterHardsuitBaseNoPlateholder, MonoEnergyShieldClothing, BaseFactionGearOtherFactionT2 ]
+  parent: [ ClothingOuterHardsuitBaseNoPlateholder, MonoEnergyShieldClothing, BaseC3SyndicateContrabandT3 ]
   id: ClothingOuterHardsuitUIEnforcerMKII
   name: U.I 执行者 MKII 战斗战术服 | U.I ENFORCER MKII combat tacsuit
   description: 基于声名狼藉的初代设计并兼顾多功能性。这款乌尔曼工业顶尖战斗服堪称工程学奇迹。无论是躲避联邦追捕、清除竞争对手，还是效忠于企业霸主，它都能确保您使命必达
@@ -63,7 +63,7 @@
         Caustic: 0.7
   - type: PersonalShield
     shield:
-      maxCharge: 600
+      maxCharge: 300
       regenRate: 6
       spinupTime: 1
       breakCooldown: 30
@@ -95,7 +95,7 @@
       requireDetailRange: true
 
 - type: entity
-  parent: [ ClothingOuterHardsuitBase, BaseFactionGearOtherFactionT0 ]
+  parent: [ ClothingOuterHardsuitBase, BaseC3SyndicateContraband ]
   id: ClothingOuterHardsuitUllmanEngineer
   name: U.I 工程防护服 | U.I engineering hardsuit
   description: 黑市工程专家穿戴的防护型硬质工作服。由乌尔曼工业公司开发。
@@ -114,7 +114,7 @@
       coefficients:
         Blunt: 0.8
         Slash: 0.8
-        Piercing: 0.7
+        Piercing: 0.65
         Heat: 0.6
         Radiation: 0.1
         Caustic: 0.7
@@ -134,7 +134,7 @@
     coefficient: 0.8
 
 - type: entity
-  parent: [ ClothingOuterHardsuitBase, BaseFactionGearOtherFactionT0 ]
+  parent: [ ClothingOuterHardsuitBase, BaseC3SyndicateContraband ]
   id: ClothingOuterHardsuitUIPilot
   name: U.I 飞行员真空作业服 | U.I pilot voidsuit
   description: 为飞行员制造的虚空防护服。由厄尔曼工业开发。
@@ -153,7 +153,7 @@
       coefficients:
         Blunt: 0.8
         Slash: 0.8
-        Piercing: 0.85
+        Piercing: 0.65
         Heat: 0.6
         Shock: 0.8
         Radiation: 0.5
@@ -174,7 +174,7 @@
     coefficient: 0.7
 
 - type: entity
-  parent: [ ClothingOuterHardsuitBase, BaseFactionGearOtherFactionT2 ]
+  parent: [ ClothingOuterHardsuitBase, BaseC3SyndicateContrabandT3 ]
   id: ClothingOuterHardsuitUIDirector
   name: U.I VK-1实验型防护服 | U.I VK-1 experimental hardsuit
   description: 费利克斯·乌尔曼的顶尖个人硬质防护服。胸甲上刻有警告标识：擅自盗用此防护服极易导致死亡！绝非戏言，我必将找到你。你必死无疑。

@@ -25,6 +25,10 @@
   id: FoodBagel
   name: 贝果 丨 bagel
   parent: FoodBagelBase
+  components:
+  - type: Tag # Mono
+    tags:
+    - BountyBagel
 
 - type: entity
   id: FoodBagelPoppy
@@ -32,6 +36,9 @@
   name: 罂粟籽百吉饼 丨 poppy seed bagel
   description: 一个美味的百吉饼，上面撒满了注入比卡丁的罂粟籽。 丨 A delicious bagel topped with bicaridine-infused poppy seeds.
   components:
+  - type: Tag # Mono
+    tags:
+    - BountyPoppySeedBagel
   - type: FlavorProfile
     flavors:
       - bread
@@ -65,6 +72,7 @@
   - type: Tag
     tags:
     - ClothMade
+    - BountyCottonBagel # Mono
   - type: SolutionContainerManager
     solutions:
       food:

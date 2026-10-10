@@ -435,8 +435,8 @@
 - type: entity
   parent: ClothingHeadHelmetBase
   id: ClothingHeadHelmetRaid
-  name: 辛迪加突袭头盔 丨 syndicate raid helmet
-  description: 与辛迪加突袭套装配套使用的装甲头盔。非常时尚。 丨 An armored helmet for use with the syndicate raid suit. Very stylish.
+  name: 突袭头盔 # Mono: remove syndicate references
+  description: 与突袭套装配套使用的装甲头盔。非常时尚。 # Mono: remove syndicate references
   components:
   - type: Sprite
     sprite: Clothing/Head/Helmets/syndie-raid.rsi
