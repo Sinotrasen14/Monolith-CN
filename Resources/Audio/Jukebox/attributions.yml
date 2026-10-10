@@ -1610,3 +1610,23 @@
   license: "Custom"
   copyright: "music."
   source: "net"
+
+- files: ["ForgetMeNots勿忘我.ogg"]
+  license: "Custom"
+  copyright: "music."
+  source: "net"
+
+- files: ["上帝叙利亚与巴沙尔.ogg"]
+  license: "Custom"
+  copyright: "music."
+  source: "net"
+
+- files: ["许家印小曲空城计小曲_朋友的酒.ogg"]
+  license: "Custom"
+  copyright: "music."
+  source: "net"
+
+- files: ["雨爱司凤版.ogg"]
+  license: "Custom"
+  copyright: "music."
+  source: "net"

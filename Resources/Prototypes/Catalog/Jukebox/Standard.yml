@@ -1941,3 +1941,27 @@
   name: 极乐迪斯科Fire_Escape_In_The_Sea
   path:
     path: /Audio/Jukebox/极乐迪斯科Fire_Escape_In_The_Sea.ogg
+
+- type: jukebox
+  id: ForgetMeNots勿忘我
+  name: ForgetMeNots勿忘我
+  path:
+    path: /Audio/Jukebox/ForgetMeNots勿忘我.ogg
+
+- type: jukebox
+  id: 上帝叙利亚与巴沙尔
+  name: 上帝叙利亚与巴沙尔
+  path:
+    path: /Audio/Jukebox/上帝叙利亚与巴沙尔.ogg
+
+- type: jukebox
+  id: 许家印小曲空城计小曲_朋友的酒
+  name: 许家印小曲空城计小曲_朋友的酒
+  path:
+    path: /Audio/Jukebox/许家印小曲空城计小曲_朋友的酒.ogg
+
+- type: jukebox
+  id: 雨爱司凤版
+  name: 雨爱司凤版
+  path:
+    path: /Audio/Jukebox/雨爱司凤版.ogg
