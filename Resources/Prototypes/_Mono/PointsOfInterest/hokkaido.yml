@@ -4,7 +4,7 @@
 - type: pointOfInterest
   id: Hokkaido
   parent: [BasePOI, BaseRepairablePOI]
-  name: 'MMC Hokkaido'
+  name: 'MMC 北海道'
   minimumDistance: 2000
   maximumDistance: 8000
   spawnGroup: Required
@@ -23,7 +23,7 @@
 
 - type: gameMap
   id: Hokkaido
-  mapName: 'MMC Hokkaido'
+  mapName: 'MMC 北海道'
   mapPath: /Maps/_Mono/POI/hokkaido.yml
   minPlayers: 0
   stations:

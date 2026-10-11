@@ -1,7 +1,7 @@
 - type: pointOfInterest
   id: BeaconClusterA
   parent: [BasePOI, BaseRepairablePOI]
-  name: 'INSO-357k Asteroid Cluster'
+  name: 'INSO-357k 小行星群'
   minimumDistance: 0
   maximumDistance: 100
   posX: 5056
@@ -16,7 +16,7 @@
 
 - type: gameMap
   id: BeaconClusterA
-  mapName: 'INSO-357k Asteroid Cluster'
+  mapName: 'INSO-357k 小行星群'
   mapPath: /Maps/_Mono/POI/beaconstation_a.yml
   minPlayers: 0
   stations:
@@ -29,7 +29,7 @@
 - type: pointOfInterest
   id: BeaconWilds
   parent: [BasePOI, BaseRepairablePOI]
-  name: 'LINEAR-21 Asteroid Cluster'
+  name: 'LINEAR-21 遗迹群'
   minimumDistance: 0
   maximumDistance: 100
   posX: 9088
@@ -44,7 +44,7 @@
 
 - type: gameMap
   id: BeaconWilds
-  mapName: 'LINEAR-21 Asteroid Cluster'
+  mapName: 'LINEAR-21 遗迹群'
   mapPath: /Maps/_Mono/POI/beaconstation_wilds.yml
   minPlayers: 0
   stations:

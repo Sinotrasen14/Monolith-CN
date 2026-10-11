@@ -8,7 +8,7 @@
 - type: pointOfInterest
   id: TSFMCIndustry
   parent: [BasePOI, BaseRepairablePOI]
-  name: 'TSF-CIV "Stellar Blessing"'
+  name: 'TSF-CIV "星辰祝福号"'
   minimumDistance: 1 # Mono
   maximumDistance: 200 # Mono
   posX: 3500
@@ -32,7 +32,7 @@
 
 - type: gameMap
   id: TSFMCIndustry
-  mapName: 'TSF-CIV "Stellar Blessing"'
+  mapName: 'TSF-CIV "星辰祝福号"'
   mapPath: /Maps/_Mono/POI/tsfmc_industry.yml
   minPlayers: 0
   randomRotation: false

@@ -14,7 +14,7 @@
   name: '布拉沃监听站'
   minimumDistance: 20000
   maximumDistance: 22500
-  spawnGroup: SyndicateFOB
+  spawnGroup: Optional
   gridPath: /Maps/_NF/POI/lpbravo.yml
   hideWarp: true
   addComponents:

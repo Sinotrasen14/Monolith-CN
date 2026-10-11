@@ -4,7 +4,7 @@
 - type: pointOfInterest
   id: Underground
   parent: [BasePOI, BaseRepairablePOI]
-  name: 'Underground Black Market'
+  name: '地下黑市'
   minimumDistance: 18000
   maximumDistance: 25000
   spawnGroup: SyndicateFOB
@@ -26,7 +26,7 @@
 
 - type: gameMap
   id: Underground
-  mapName: 'Underground Black Market'
+  mapName: '地下黑市'
   mapPath: /Maps/_Mono/POI/underground.yml
   minPlayers: 0
   stations:

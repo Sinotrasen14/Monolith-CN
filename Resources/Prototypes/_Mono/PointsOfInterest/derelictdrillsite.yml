@@ -10,7 +10,7 @@
 - type: pointOfInterest
   id: Mining
   parent: [BasePOI, BaseRepairablePOI]
-  name: 'Derelict Drillsite'
+  name: 'DD矿物钻井站'
   minimumDistance: 5500
   maximumDistance: 9500
   spawnGroup: Required
@@ -28,7 +28,7 @@
 
 - type: gameMap
   id: Mining
-  mapName: 'Derelict Drillsite'
+  mapName: 'DD矿物钻井站'
   mapPath: /Maps/_Mono/POI/derelictdrillsite.yml
   minPlayers: 0
   stations:
