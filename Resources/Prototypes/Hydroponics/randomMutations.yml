@@ -177,8 +177,7 @@
       baseOdds: 0.0036
       persists: false
       effect: !type:PlantMutateConsumeGasses
-# Mono
-#    - name: ChangeHarvest
-#      baseOdds: 0.036
-#      persists: false
-#      effect: !type:PlantMutateHarvest
+    - name: ChangeHarvest
+      baseOdds: 0.036
+      persists: false
+      effect: !type:PlantMutateHarvest
