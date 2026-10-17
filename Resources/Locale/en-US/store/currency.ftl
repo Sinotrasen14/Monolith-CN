@@ -1,12 +1,12 @@
-store-currency-inserted = {CAPITALIZE(THE($used))} is inserted into {THE($target)}.
-store-currency-war-boost-given = { CAPITALIZE($target) } starts buzzing
-store-currency-inserted-implant = {CAPITALIZE(THE($used))} is inserted into your implant.
+store-currency-inserted = {CAPITALIZE(THE($used))} 被插入到 {THE($target)} 中。
+store-currency-war-boost-given = { CAPITALIZE($target) } 开始嗡嗡作响
+store-currency-inserted-implant = {CAPITALIZE(THE($used))} 被插入到你的植入物中。
 
-store-currency-free = Free
+store-currency-free = 免费
 store-currency-display-debugdollar = {$amount ->
-    [one] Debug Dollar
-    *[other] Debug Dollars
+    [one] 调试美元
+    *[other] 调试美元
 }
-store-currency-display-telecrystal = TC
-store-currency-display-stolen-essence = Stolen Essence
-store-currency-display-wizcoin = Wiz€oin™
+store-currency-display-telecrystal = 传送晶体
+store-currency-display-stolen-essence = 窃取精华
+store-currency-display-wizcoin = 巫师€币™

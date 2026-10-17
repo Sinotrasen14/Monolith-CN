@@ -29,8 +29,6 @@
     tags:
     - PetWearable
 
-<<<<<<< HEAD
-=======
 - type: entity
   parent: ClothingEyesBase
   id: ClothingEyesBallisticGogglesRedCrocus
@@ -45,7 +43,6 @@
   - type: GroupExamine
   - type: IdentityBlocker
     coverage: EYES
->>>>>>> upstream
 
 - type: entity
   parent: ClothingEyesHudMedical

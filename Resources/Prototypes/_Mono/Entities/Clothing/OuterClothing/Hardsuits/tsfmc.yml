@@ -70,13 +70,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseFactionGearTSFT3]
   id: ClothingOuterHardsuitM86
-<<<<<<< HEAD
   name: M86 Mk.3(R) 硬装
-  description: 一套装甲硬壳服，设计为 M82 系列的升级版。额外的通用装甲让它移动起来相当沉重。
-=======
-  name: M86 Mk.3(R) hardsuit
-  description: An armored hardsuit, designed to be an upgrade for the now-retired M82 series. The extra general armor gives it significant weight to move around.
->>>>>>> upstream
+  description: 一套装甲硬壳服，设计为已退役的M82系列的升级版。额外的通用装甲使它移动时重量显著增加。
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/m86.rsi
@@ -159,13 +154,8 @@
 - type: entity
   parent: [ClothingOuterHardsuitBase, BaseFactionGearTSFT3 ] # Jugger Suit
   id: ClothingOuterHardsuitNfsdExperimental
-<<<<<<< HEAD
   name: TSFMC M92-X 战术服
-  description: M92战术服的实验性改装版，专为TSFMC的特种作战单位设计。耐用，配备了集成硬盾和各种小工具，但牺牲了保温性和坚固护甲。
-=======
-  name: TSFMC M92-X tacsuit
-  description: An experimental modification of the M92 tacsuit for spec-ops units of the TSFMC. Durable, and comes along with numerous gadgets at the cost of general-purpose protection and weight.
->>>>>>> upstream
+  description: M92战术套装的实验性改装版，供TSFMC特种作战单位使用。耐用，装备了许多小工具，但代价是通用防护性和重量增加。
   components:
   - type: Sprite
     sprite: _Mono/Clothing/OuterClothing/Hardsuits/tsfmc_experimental.rsi # Mono

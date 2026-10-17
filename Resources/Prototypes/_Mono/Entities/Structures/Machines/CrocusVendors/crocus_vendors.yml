@@ -1,8 +1,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechEquipmentTSF
-  name: TSF automated infantry equipment rack
-  description: An automated rack hooked up to a colossal storage of standard-issue equipment.
+  name: TSF 自动步兵装备架
+  description: 一个自动化的架子连接到一个巨大的标准装备储存库。
   suffix: Crocus
   components:
   - type: Sprite
@@ -178,8 +178,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechEquipmentPDV
-  name: PDV automated infantry equipment rack
-  description: An automated rack hooked up to a colossal storage of standard-issue equipment.
+  name: PDV 自动步兵装备架
+  description: 一个自动化的架子连接到一个巨大的标准装备储存库。
   suffix: Crocus
   components:
   - type: Sprite

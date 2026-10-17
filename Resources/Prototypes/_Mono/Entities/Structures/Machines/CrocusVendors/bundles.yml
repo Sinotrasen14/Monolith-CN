@@ -1,7 +1,7 @@
 - type: entity
   id: CMVendorBundleNightvision
-  name: NODs kit
-  description: Helmet-attached night vision goggles and their mount.
+  name: NODs 包
+  description: 头盔附加型夜视仪及其支架。
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -14,8 +14,8 @@
 
 - type: entity
   id: CMVendorBundleSurgery
-  name: surgical kit
-  description: A full set of surgical tools & a sterile mask.
+  name: 手术器械包
+  description: 一整套外科手术工具和一个无菌口罩。
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

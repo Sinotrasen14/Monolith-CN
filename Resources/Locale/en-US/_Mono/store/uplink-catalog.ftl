@@ -16,55 +16,55 @@ uplink-faction-lathe-desc = 一台能够组装从你阵营研发服务器研究�
 uplink-letoferol-name = Letoferol 注射器
 uplink-letoferol-desc = 一支雷托费罗注射器就能摧毁整个区域。
 
-uplink-magazine-9x19mm-pistol-high-capacity-fmj-name = Machine Pistol Magazine (9x19mm FMJ)
-uplink-magazine-9x19mm-pistol-high-capacity-fmj-desc = A large magazine designed to fit into pistols boasting a massive 34 round capacity.
+uplink-magazine-9x19mm-pistol-high-capacity-fmj-name = 冲锋手枪弹匣 (9x19mm FMJ)
+uplink-magazine-9x19mm-pistol-high-capacity-fmj-desc = 一个大型弹匣，设计用于配备高达34发容量的手枪。
 
-uplink-typewriter-name = UGR Typewriter (.45 ACP)
-uplink-typewriter-desc = A modern take on the infamous machine gun used by mobsters throughout time and space. Fires .45 ACP at an impressive rate.
+uplink-typewriter-name = UGR 打字机 (.45 ACP)
+uplink-typewriter-desc = 对臭名昭著的机关枪的一种现代改良版，这种枪械被黑帮分子在各个时期和空间使用。以令人印象深刻的速度发射.45 ACP子弹。
 
-uplink-warlord-name = UGR Warlord Suit
-uplink-warlord-desc = A former state-of-the-art military combat suit. Comes with an in-built mass scanner and flash immunity.
+uplink-warlord-name = UGR 霸主战甲
+uplink-warlord-desc = 一套曾经最先进的军事战斗服。配备内置质量扫描器和防闪光功能。
 
 uplink-data-chit-50-name = 50 Data Chits
-uplink-data-chit-50-desc = Fifty data chits. An extremely valuable currency amongst the Phaethon Dynasty Vanguard.
+uplink-data-chit-50-desc = 五十张数据券。在费顿王朝先锋队中是一种极其珍贵的货币。
 
-uplink-iff-console-flatpack-name = IFF Computer Flatpack
-uplink-iff-console-flatpack-desc = A flatpack for a computer that will obfuscate your shuttle's IFF signals.
+uplink-iff-console-flatpack-name = IFF 电脑组装包
+uplink-iff-console-flatpack-desc = 一个用于计算机的平板套件，可以混淆你航天器的IFF信号。
 
 # ullman stuff
 
-uplink-ullman-pilot-name = U.I. Pilot Voidsuit
-uplink-ullman-pilot-desc = A voidsuit made for black market pilots, made by a company considered a criminal organisation by the Federation.
+uplink-ullman-pilot-name = U.I. 飞行员真空服
+uplink-ullman-pilot-desc = 为黑市飞行员制造的太空服，由一个被联邦视为犯罪组织的公司制造。
 
-uplink-ullman-engineer-name = U.I. Engineering Hardsuit
-uplink-ullman-engineer-desc = A protective hardsuit worn by black market engineering specialists, made by a company considered a criminal organisation by the Federation.
+uplink-ullman-engineer-name = U.I. 工程硬壳服
+uplink-ullman-engineer-desc = 一种由黑市工程专家穿着的保护性硬壳战衣，由一个被联邦认为是犯罪组织的公司制造。
 
-uplink-ullman-enforcer-name = U.I. ENFORCER Combat Hardsuit
-uplink-ullman-enforcer-desc = A hardsuit boasting very impressive protection, made by a company considered a criminal organisation by the Federation.
+uplink-ullman-enforcer-name = U.I. 执行者战斗硬壳服
+uplink-ullman-enforcer-desc = 一款拥有非常出色防护能力的硬装，由一个被联邦视作犯罪组织的公司制造。
 
-uplink-ullman-enforcer-mk2-name = U.I. ENFORCER mk.II Combat Tacsuit
-uplink-ullman-enforcer-mk2-desc = An advanced tacsuit equipped with tons of gadgets, including a HUD, an in-built mass scanner, flash immunity and a hardshield generator.
+uplink-ullman-enforcer-mk2-name = U.I. 执行者 mk.II 战斗战术服
+uplink-ullman-enforcer-mk2-desc = 一套先进的战术服，配备了大量小工具，包括HUD、内置质量扫描仪、防闪光功能和硬盾生成器。
 
-uplink-ullman-pulse-pistol-name = U.I. Heavy Pulse Pistol
-uplink-ullman-pulse-pistol-desc = A jailbroken replica of the TSFMC's pulse pistol. Especially suited to take down mechs and hardshields.
+uplink-ullman-pulse-pistol-name = U.I. 重型脉冲手枪
+uplink-ullman-pulse-pistol-desc = TSFMC 脉冲手枪的越狱复制品。特别适合摧毁机甲和硬盾。
 
-uplink-ullman-pulse-rifle-name = U.I. Heavy Pulse Repeater Rifle
-uplink-ullman-pulse-rifle-desc = A jailbroken replica of the TSFMC's pulse carbine. Especially suited to take down mechs and hardshields.
+uplink-ullman-pulse-rifle-name = U.I. 重型脉冲连发步枪
+uplink-ullman-pulse-rifle-desc = TSFMC 脉冲卡宾枪的越狱复制品。特别适合击倒机甲和硬盾。
 
-uplink-ullman-pulse-sniper-name = U.I. Heavy Pulse Sniper
-uplink-ullman-pulse-sniper-desc = Ullman's reverse-engineered pulse technology, now harnessed into an original sniper rifle design.
+uplink-ullman-pulse-sniper-name = U.I. 重脉冲狙击手
+uplink-ullman-pulse-sniper-desc = 乌尔曼的逆向工程脉冲技术，现在被应用于一种原创狙击步枪设计中。
 
-uplink-ullman-smart-pistol-name = U.I. Smart Pistol
-uplink-ullman-smart-pistol-desc = A heavy pistol firing .55 SAM, capable of tracking and chasing enemies.
+uplink-ullman-smart-pistol-name = U.I. 智能手枪
+uplink-ullman-smart-pistol-desc = 一把发射 .55 SAM 的重型手枪，能够追踪和追击敌人。
 
-uplink-ullman-magazine-smart-magnum-name = Pistol Magazine (.55 SAM)
-uplink-ullman-magazine-smart-magnum-desc = A standard magazine for the U.I. smart pistol, holds 12 rounds.
+uplink-ullman-magazine-smart-magnum-name = 手枪弹匣（.55 SAM）
+uplink-ullman-magazine-smart-magnum-desc = U.I.智能手枪的标准弹匣，可装12发子弹。
 
-uplink-ullman-plasma-blade-name = U.I. Unstable Plasma Blade
-uplink-ullman-plasma-blade-desc = A unique weapon, using welding fuel as a catalyst to ignite. The unstable plasma bursts forth with a wild, powerful flame to temporarily boost damage output.
+uplink-ullman-plasma-blade-name = U.I. 不稳定等离子刀
+uplink-ullman-plasma-blade-desc = 一种独特的武器，使用焊接燃料作为催化剂点燃。不稳定的等离子体爆发出狂野而强大的火焰，暂时提升伤害输出。
 
-uplink-ullman-rx01-name = RX-01 Modsuit Core
-uplink-ullman-rx01-desc = A modsuit designed for boarding specialists, equipped with night vision, thermal vision and considerable armour plating.
+uplink-ullman-rx01-name = RX-01 mod服核心
+uplink-ullman-rx01-desc = 一款为登船专家设计的改装套装，配备夜视、热成像以及相当的装甲板。
 
 # materials
 

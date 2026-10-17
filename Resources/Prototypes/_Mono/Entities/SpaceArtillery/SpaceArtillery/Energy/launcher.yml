@@ -191,11 +191,7 @@
 
 - type: entity
   id: WeaponTurretM25
-<<<<<<< HEAD
-  name: 'M25 采矿脉冲器'
-=======
-  name: M25 mining pulsar
->>>>>>> upstream
+  name: M25 采矿脉冲器
   parent:
   - BallisticArtillery
   - BallisticArtilleryTier1HP
