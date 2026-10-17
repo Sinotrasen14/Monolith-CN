@@ -191,7 +191,11 @@
 
 - type: entity
   id: WeaponTurretM25
+<<<<<<< HEAD
   name: 'M25 采矿脉冲器'
+=======
+  name: M25 mining pulsar
+>>>>>>> upstream
   parent:
   - BallisticArtillery
   - BallisticArtilleryTier1HP
@@ -214,7 +218,7 @@
     range: 500
   - type: FireControlRotate
   - type: Gun
-    damageModifier: 5
+    damageModifier: 1
     fireRate: 5
     recoil: 2 # 2/25x
     projectileSpeed: 20
