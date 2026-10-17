@@ -10,30 +10,28 @@
 # The local Science lab
 # MONO: Superceded by original fork-specific anomalous lab
 
-# - type: pointOfInterest
-  # id: AnomalousGeode
-  # parent: BasePOI
-  # name: 'Anomalous Geode'
-  # minimumDistance: 7800
-  # maximumDistance: 10800
-  # spawnGroup: ScienceLab
-  # gridPath: /Maps/_NF/POI/anomalousgeode.yml
-  # addComponents:
-  # - type: SolarPoweredGrid
-    # trackOnInit: true
-    # doNotCull: true
+ - type: pointOfInterest
+   id: AnomalousGeode
+   parent: BasePOI
+   name: '异常实验室'
+   minimumDistance: 10800
+   maximumDistance: 12800
+   spawnGroup: ScienceLab
+   gridPath: /Maps/_NF/POI/anomalousgeode.yml
+   addComponents:
+   - type: SolarPoweredGrid
+     trackOnInit: true
+     doNotCull: true
 
-# - type: gameMap
-  # id: AnomalousGeode
-  # mapName: 'Anomalous Lab'
-  # mapPath: /Maps/_NF/POI/anomalouslab.yml
-  # minPlayers: 0
-  # stations:
-    # AnomalousGeode:
-      # stationProto: StandardFrontierOutpost
-      # components:
-        # - type: StationNameSetup
-          # mapNameTemplate: 'Anomalous Geode'
-        # - type: StationJobs
-          # availableJobs: {}
-        # - type: StationDeadDropHintExempt
+ - type: gameMap
+   id: AnomalousGeode
+   mapName: '异常实验室'
+   mapPath: /Maps/_NF/POI/anomalouslab.yml
+   minPlayers: 0
+   stations:
+     AnomalousGeode:
+       stationProto: StandardFrontierOutpost
+       components:
+         - type: StationNameSetup
+           mapNameTemplate: '异常实验室'
+         - type: StationDeadDropHintExempt

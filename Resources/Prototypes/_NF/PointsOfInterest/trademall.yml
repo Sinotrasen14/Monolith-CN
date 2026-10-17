@@ -9,11 +9,11 @@
 # Notes:
 # Basic Trade Outpost buying point for economy and great wealth
 #- type: pointOfInterest
-# id: TradeMall
-#  parent: [BasePOI, BaseRepairablePOI]
-#  name: Trade Mall
-#  minimumDistance: 3500
-#  maximumDistance: 6500
+#  id: TradeMall
+#  parent: BasePOI
+#  name: 贸易中心
+#  minimumDistance: 7500
+#  maximumDistance: 9500
 #  spawnGroup: MarketStation
 #  gridPath: /Maps/_NF/POI/trademall.yml
 #  addComponents:
@@ -32,12 +32,13 @@
 #        prob: 0.0
 #      - maxDistance: 1000
 #        prob: 0.3
+
 #- type: pointOfInterest
 #  id: TradeMall
-#  parent: [BasePOI, BaseRepairablePOI]
-#  name: Trade Mall
-#  minimumDistance: 3500
-#  maximumDistance: 6500
+#  parent: BasePOI
+#  name: 贸易中心
+#  minimumDistance: 7500
+#  maximumDistance: 9500
 #  spawnGroup: MarketStation
 #  gridPath: /Maps/_NF/POI/trademall.yml
 #  addComponents:
@@ -51,14 +52,14 @@
 #    doNotCull: true
 #  - type: WorldGenDistanceCarver
 #    distanceThresholds:
-#    # Dead zone
+    # Dead zone
 #    - maxDistance: 800
 #      prob: 0.0
 #    - maxDistance: 1500
 #      prob: 0.3
 #- type: gameMap
 #  id: TradeMall
-#  mapName: 'Trade Mall'
+#  mapName: '贸易中心'
 #  mapPath: /Maps/_NF/POI/trademall.yml
 #  minPlayers: 0
 #  stations:
@@ -68,8 +69,8 @@
 #        - type: StationCargoOrderDatabase
 #          capacity: 60
 #        - type: StationNameSetup
-#          mapNameTemplate: 'Trade Mall'
+#          mapNameTemplate: '贸易中心'
 #        - type: StationDeadDrop
 #          maxDeadDrops: 2 # A few, its not as big as the original trade outpost
 #        - type: TradeCrateDestination
-  #        destinationProto: Trade
+#          destinationProto: Trade

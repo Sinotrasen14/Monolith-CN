@@ -12,8 +12,8 @@
 #  id: Trade
 #  parent: BasePOI
 #  name: 贸易前哨站
-#  minimumDistance: 3500
-#  maximumDistance: 6500
+#  minimumDistance: 7500
+#  maximumDistance: 8500
 #  spawnGroup: MarketStation
 #  gridPath: /Maps/_NF/POI/trade.yml
 #  addComponents:
@@ -32,10 +32,10 @@
 #        prob: 0.0
 #      - maxDistance: 1000
 #        prob: 0.3
-#
+
 #- type: gameMap
 #  id: Trade
-#  mapName: 'Trade Outpost'
+#  mapName: 贸易前哨站
 #  mapPath: /Maps/_NF/POI/trade.yml
 #  minPlayers: 0
 #  stations:
@@ -43,7 +43,7 @@
 #      stationProto: MarketFrontierOutpost
 #      components:
 #        - type: StationNameSetup
-#          mapNameTemplate: 'Trade Outpost'
+#          mapNameTemplate: '贸易前哨站'
 #        - type: StationDeadDrop
 #          maxDeadDrops: 3 # Many here, it's huge.
 #        - type: TradeCrateDestination
