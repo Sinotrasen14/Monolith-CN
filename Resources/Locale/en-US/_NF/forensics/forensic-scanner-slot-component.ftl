@@ -1,1 +1,1 @@
-forensic-scanner-slot-component-slot-name-cartridge = Cartridge
+forensic-scanner-slot-component-slot-name-cartridge = 墨盒

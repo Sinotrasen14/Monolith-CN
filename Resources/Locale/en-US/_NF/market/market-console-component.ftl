@@ -13,5 +13,5 @@ market-cart-prefix = 购物车：
 market-no-bank-found = 未找到银行账户
 market-return-button = 移除
 market-search = 搜索商品：
-market-no-crate-machine-available = No available crate machines
+market-no-crate-machine-available = 没有可用的板条箱机器
 market-insufficient-funds = 资金不足

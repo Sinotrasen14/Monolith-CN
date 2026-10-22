@@ -1,2 +1,2 @@
-machine-part-component-on-examine-rating-text = [color=white]Rating:[/color] [color=cyan]{$rating}[/color]
-machine-part-component-on-examine-type-text = [color=white]Type:[/color] [color=cyan]{$type}[/color]
+machine-part-component-on-examine-rating-text = [color=white]等级：[/color] [color=cyan]{$rating}[/color]
+machine-part-component-on-examine-type-text = [color=white]类型：[/color] [color=cyan]{$type}[/color]

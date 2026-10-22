@@ -1,2 +1,2 @@
-control-mob-command-description = Transfers user mind to the specified entity.
-control-mob-command-help-text = Usage: controlmob <mobUid>.
+control-mob-command-description = 将用户意识转移到指定的实体。
+control-mob-command-help-text = 用法：controlmob <mobUid>。

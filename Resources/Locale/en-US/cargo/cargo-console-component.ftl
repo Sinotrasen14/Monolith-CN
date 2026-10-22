@@ -48,4 +48,4 @@ cargo-shuttle-console-shuttle-not-found = 未找到
 cargo-shuttle-console-organics = 检测到穿梭机存在有机生命体
 cargo-no-shuttle = 未找到货运穿梭机！
 
-cargo-telepad-delay-upgrade = Teleport delay
+cargo-telepad-delay-upgrade = 传送延迟

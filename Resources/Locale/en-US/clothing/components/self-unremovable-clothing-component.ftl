@@ -1,1 +1,1 @@
-comp-self-unremovable-clothing = This cannot be removed without outside help.
+comp-self-unremovable-clothing = 没有外界帮助，这无法被移除。

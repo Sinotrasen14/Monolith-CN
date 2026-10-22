@@ -1,3 +1,3 @@
-signal-port-name-operating-table = Operating table
-signal-port-description-operating-table-receiver = Operating table signal receiver
-signal-port-description-operating-table-sender = Operating table signal sender
+signal-port-name-operating-table = 手术台
+signal-port-description-operating-table-receiver = 手术台信号接收器
+signal-port-description-operating-table-sender = 手术台信号发送器

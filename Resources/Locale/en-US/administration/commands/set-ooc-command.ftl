@@ -1,6 +1,6 @@
-set-ooc-command-description = Allows you to enable or disable OOC.
-set-ooc-command-help = Usage: setooc OR setooc [value]
-set-ooc-command-too-many-arguments-error = Too many arguments.
-set-ooc-command-invalid-argument-error = Invalid argument.
-set-ooc-command-ooc-enabled = OOC chat has been enabled.
-set-ooc-command-ooc-disabled = OOC chat has been disabled.
+set-ooc-command-description = 允许你启用或禁用角色之外聊天。
+set-ooc-command-help = 用法：setooc 或 setooc [value]
+set-ooc-command-too-many-arguments-error = 参数过多。
+set-ooc-command-invalid-argument-error = 无效参数。
+set-ooc-command-ooc-enabled = 角色之外聊天已启用。
+set-ooc-command-ooc-disabled = 角色之外聊天已禁用。

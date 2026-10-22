@@ -1,1 +1,1 @@
-shuttle-deed-examine-text = It contains the ship deed for [color=yellow]{ $shipname }[/color].
+shuttle-deed-examine-text = 其中包含 [color=yellow]{ $shipname }[/color] 的飞船契约。

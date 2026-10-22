@@ -1,4 +1,4 @@
-zzzz-fmt-direction-North = North
+zzzz-fmt-direction-North = 北
 zzzz-fmt-direction-South = 南
 zzzz-fmt-direction-East = 东
 zzzz-fmt-direction-West = 西

@@ -1,4 +1,4 @@
-rat-king-domain-popup = A cloud of ammonia is released into the air!
+rat-king-domain-popup = 一团氨气被释放到空气中！
 
 rat-king-too-hungry = 你太饿了，无法使用这个技能！
 

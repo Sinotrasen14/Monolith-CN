@@ -1,2 +1,2 @@
-food-sequence-content-hairball = hair
-food-sequence-content-pear = pear
+food-sequence-content-hairball = 毛发
+food-sequence-content-pear = 梨

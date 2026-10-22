@@ -1,2 +1,2 @@
-station-event-power-grid-check-nf-start-announcement = Abnormal activity detected in shuttle powernets. As a precautionary measure, the affected shuttles' power will be shut down for an indeterminate duration.
-station-event-power-grid-check-nf-end-announcement = Power has been restored to the affected shuttles. We apologize for the inconvenience.
+station-event-power-grid-check-nf-start-announcement = 检测到穿梭机电网出现异常活动。作为预防措施，受影响穿梭机的电力将被关闭，持续时间不定。
+station-event-power-grid-check-nf-end-announcement = 受影响穿梭机的电力已恢复。我们对造成的不便深表歉意。

@@ -1,8 +1,8 @@
-advertisement-cuddlycritter-1 = Brighten your day with a fluffy friend!
-advertisement-cuddlycritter-2 = Hug therapy starts here!
-advertisement-cuddlycritter-3 = Give in to the plushie temptation!
-advertisement-cuddlycritter-4 = You won't resist their charm!
-advertisement-cuddlycritter-5 = Warning: Extreme cuteness ahead!
-advertisement-cuddlycritter-6 = Help me I'm trapped in a NanoTrasen factory forced to make Plushies!
-advertisement-cuddlycritter-7 = Softer then asbestos!
-advertisement-cuddlycritter-8 = The best crayon colors in space, proposition 65
+advertisement-cuddlycritter-1 = 用毛茸茸的朋友点亮你的一天！
+advertisement-cuddlycritter-2 = 拥抱疗法从这里开始！
+advertisement-cuddlycritter-3 = 向毛绒玩具的诱惑屈服吧！
+advertisement-cuddlycritter-4 = 你无法抗拒它们的魅力！
+advertisement-cuddlycritter-5 = 警告：前方极度可爱！
+advertisement-cuddlycritter-6 = 救救我，我被困在纳米传讯的工厂里被迫制作毛绒玩具！
+advertisement-cuddlycritter-7 = 比石棉还柔软！
+advertisement-cuddlycritter-8 = 太空中最棒的蜡笔颜色，提案 65

@@ -1,9 +1,8 @@
-﻿advertisement-smartfridge-1 = Hello world!
-advertisement-smartfridge-2 = PLEASE LET ME OUT
-advertisement-smartfridge-3 = I can make a quintillion calculations a second. Now, I am a fridge.
-advertisement-smartfridge-4 = New firmware update available.
-advertisement-smartfridge-5 = I am completely operational, and all my circuits are functioning perfectly.
-advertisement-smartfridge-6 = Scanning system for malicious software...
-advertisement-smartfridge-7 = Running system diagnostics...
-advertisement-smartfridge-8 = My circuit boards are too advanced for the functions I am allowed to operate.
-
+﻿advertisement-smartfridge-1 = 你好，世界！
+advertisement-smartfridge-2 = 请放我出去
+advertisement-smartfridge-3 = 我一秒能进行一亿亿次计算。现在，我是一台冰箱。
+advertisement-smartfridge-4 = 有新的固件更新可用。
+advertisement-smartfridge-5 = 我完全正常运行，所有电路都运作完美。
+advertisement-smartfridge-6 = 正在扫描系统以查找恶意软件……
+advertisement-smartfridge-7 = 正在运行系统诊断……
+advertisement-smartfridge-8 = 我的电路板对于我被允许操作的功能来说过于先进了。

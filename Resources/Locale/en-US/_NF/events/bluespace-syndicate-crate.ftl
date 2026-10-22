@@ -1,1 +1,1 @@
-bluespace-syndicate-crate-event-announcement = We have received reports of crates containing syndicate items arriving through bluespace. Please notify the TSFMC upon finding such a crate.
+bluespace-syndicate-crate-event-announcement = 我们收到报告称，装有辛迪加物品的板条箱正通过蓝空抵达。发现此类板条箱时，请通知TSFMC。

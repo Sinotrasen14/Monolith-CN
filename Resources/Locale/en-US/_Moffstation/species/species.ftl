@@ -1,1 +1,1 @@
-species-name-resomi = Resomi
+species-name-resomi = 雷索米

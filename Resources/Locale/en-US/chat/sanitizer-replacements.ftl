@@ -18,6 +18,6 @@ chatsan-unimpressed = 似乎不以为然
 chatsan-waves = 挥手
 chatsan-salutes = 敬礼
 chatsan-tearfully-salutes = 泪眼婆娑地敬礼
-chatsan-shrugs = shrugs
+chatsan-shrugs = 耸肩
 chatsan-tearfully-smiles = 含着泪微笑
 chatsan-winks = 眨眼Ciallo～(∠・ω< )⌒★

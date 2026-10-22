@@ -1,4 +1,4 @@
-admin-ui-blueprint-map = Map
+admin-ui-blueprint-map = 地图
 admin-ui-blueprint-path = 路径
 admin-ui-blueprint-x = X
 admin-ui-blueprint-y = Y

@@ -1,6 +1,6 @@
-toggle-clothing-verb-text = Toggle {CAPITALIZE($entity)}
+toggle-clothing-verb-text = 切换{CAPITALIZE($entity)}
 
-toggleable-clothing-remove-first = You have to unequip {$entity} first.
-toggleable-clothing-remove-all-attached-first = You have to unequip all toggled clothing first.
-toggleable-clothing-attach-tooltip = Equip
-toggleable-clothing-unattach-tooltip = Unequip
+toggleable-clothing-remove-first = 你必须先卸下{$entity}。
+toggleable-clothing-remove-all-attached-first = 你必须先卸下所有已切换的衣物。
+toggleable-clothing-attach-tooltip = 装备
+toggleable-clothing-unattach-tooltip = 卸下

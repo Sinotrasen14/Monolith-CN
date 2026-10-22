@@ -1,1 +1,1 @@
-spell-fail-no-hands = You don't have hands!
+spell-fail-no-hands = 你没有手！

@@ -1,1 +1,1 @@
-gas-fallback = Gas #{number}
+gas-fallback = 燃气 #{number}

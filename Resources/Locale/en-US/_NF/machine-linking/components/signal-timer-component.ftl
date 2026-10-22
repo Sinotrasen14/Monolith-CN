@@ -1,1 +1,1 @@
-signal-timer-menu-repeat = Repeat
+signal-timer-menu-repeat = 重复

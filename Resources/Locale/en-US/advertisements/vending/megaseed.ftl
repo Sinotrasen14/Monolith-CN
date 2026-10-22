@@ -1,6 +1,6 @@
-﻿advertisement-megaseed-1 = We like plants!
-advertisement-megaseed-2 = Grow some crops
-advertisement-megaseed-3 = Grow, baby, growww!
-advertisement-megaseed-4 = Aw h'yeah son!
-advertisement-megaseed-5 = Mutating plants is fun!
-advertisement-megaseed-6 = All in for GMO!
+﻿advertisement-megaseed-1 = 我们喜欢植物！
+advertisement-megaseed-2 = 种些作物吧
+advertisement-megaseed-3 = 生长吧，宝贝，长啊长！
+advertisement-megaseed-4 = 哦耶，小子！
+advertisement-megaseed-5 = 让植物变异真有趣！
+advertisement-megaseed-6 = 全力支持转基因！

@@ -1,1 +1,1 @@
-book-text-pirate-scribbles = Clarpy was drinking all the soda again, dont forget to refill the machine.
+book-text-pirate-scribbles = 克拉皮又把汽水全喝光了，别忘了给机器重新装满。

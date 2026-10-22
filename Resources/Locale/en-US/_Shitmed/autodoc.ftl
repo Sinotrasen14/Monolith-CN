@@ -1,25 +1,25 @@
-autodoc-program-step-surgery = perform surgery on {$part}: {$name}
-autodoc-program-step-grab-item = grab item: '{$name}'
-autodoc-program-step-grab-any = grab any: {$name}
-autodoc-item-organ = Organ
-autodoc-item-part = Body Part
-autodoc-program-step-store-item = store item
-autodoc-program-step-set-label = set label: '{$label}'
-autodoc-program-step-wait = wait {$length} seconds
+autodoc-program-step-surgery = 对 {$part} 执行手术：{$name}
+autodoc-program-step-grab-item = 抓取物品：“{$name}”
+autodoc-program-step-grab-any = 抓取任意：{$name}
+autodoc-item-organ = 器官
+autodoc-item-part = 身体部位
+autodoc-program-step-store-item = 存放物品
+autodoc-program-step-set-label = 设置标签：“{$label}”
+autodoc-program-step-wait = 等待 {$length} 秒
 
-autodoc-program-completed = PROGRAM COMPLETED
-autodoc-error = ERROR: {$error}
-autodoc-fatal-error = FATAL ERROR: {$error}
-autodoc-waiting = PROGRAM WAITING
+autodoc-program-completed = 程序已完成
+autodoc-error = 错误：{$error}
+autodoc-fatal-error = 致命错误：{$error}
+autodoc-waiting = 程序等待中
 
-autodoc-error-missing-patient = MISSING PATIENT
-autodoc-error-body-part = BODY PART NOT DETECTED
-autodoc-error-surgery-impossible = SELECTED SURGERY IMPOSSIBLE
-autodoc-error-item-unavailable = ITEM UNAVAILABLE
-autodoc-error-surgery-failed = SURGERY FAILED
-autodoc-error-hand-full = ITEM MANIPULATOR FULL
-autodoc-error-storage-full = ITEM TRAYS FULL
-autodoc-error-patient-unsedated = PATIENT REQUIRES SEDATION
+autodoc-error-missing-patient = 缺少患者
+autodoc-error-body-part = 未检测到身体部位
+autodoc-error-surgery-impossible = 所选手术无法进行
+autodoc-error-item-unavailable = 物品不可用
+autodoc-error-surgery-failed = 手术失败
+autodoc-error-hand-full = 物品操作器已满
+autodoc-error-storage-full = 物品托盘已满
+autodoc-error-patient-unsedated = 患者需要镇静
 
 # These intentionally have chinese alongside them for aesthetic purposes.
 # I barely speak chinese, but I double checked I wasn't saying a slur with google translate, so this should be ok. Especially since 99.9% of our players don't speak chinese anyway.
@@ -30,7 +30,7 @@ autodoc-title = AUTODOC 人民辉煌自动手术机 MK.XIV
 autodoc-create-program = NEW PROGRAM 新计划
 # Chinese text translates approximately to "Plan Title"
 autodoc-program-title = PROGRAM TITLE 计划标题
-autodoc-program-title-placeholder = Program {$number}
+autodoc-program-title-placeholder = 程序 {$number}
 # Chinese text translates approximately to "Quit"
 autodoc-abort-program = ABORT PROGRAM 退出
 
@@ -53,7 +53,7 @@ autodoc-start-program = START PROGRAM 发起光荣人民计划
 autodoc-add-step-surgery = PERFORM SURGERY 开始手术
 # Chinese text translates approximately to "Take Item"
 autodoc-add-step-grab-item = GRAB ITEM 拿走物品
-autodoc-add-step-grab-item-prompt = Item name
+autodoc-add-step-grab-item-prompt = 物品名称
 autodoc-add-step-grab-item-placeholder = dwarf heart
 # Chinese text translates approximately to "Take Organ"
 autodoc-add-step-grab-organ = GRAB ORGAN 拿管风琴
@@ -63,23 +63,23 @@ autodoc-add-step-grab-part = GRAB BODY PART 拾起身体部位
 autodoc-add-step-store-item = STORE ITEM 将物品放入存储空间
 # Chinese text translates approximately to "Set Label"
 autodoc-add-step-set-label = SET LABEL 设置标签
-autodoc-add-step-set-label-prompt = Label
+autodoc-add-step-set-label-prompt = 标签
 # Chinese text translates approximately to "Wait" this is probably the most impolite way you can say it, but im stupid and this is all i know :)
 autodoc-add-step-wait = WAIT 等
-autodoc-add-step-wait-prompt = Seconds to wait
+autodoc-add-step-wait-prompt = 等待秒数
 
-autodoc-body-part-Other = Other
-autodoc-body-part-Torso = Torso
-autodoc-body-part-Head = Head
-autodoc-body-part-Arm = Arm
-autodoc-body-part-Hand = Hand
-autodoc-body-part-Leg = Leg
-autodoc-body-part-Foot = Foot
-autodoc-body-part-Tail = Tail
+autodoc-body-part-Other = 其他
+autodoc-body-part-Torso = 躯干
+autodoc-body-part-Head = 头部
+autodoc-body-part-Arm = 手臂
+autodoc-body-part-Hand = 手
+autodoc-body-part-Leg = 腿
+autodoc-body-part-Foot = 脚
+autodoc-body-part-Tail = 尾巴
 
-autodoc-body-symmetry-ignored = Any
-autodoc-body-symmetry-None = None
-autodoc-body-symmetry-Left = Left
-autodoc-body-symmetry-Right = Right
+autodoc-body-symmetry-ignored = 任意
+autodoc-body-symmetry-None = 无
+autodoc-body-symmetry-Left = 左
+autodoc-body-symmetry-Right = 右
 
-autodoc-submit = Submit
+autodoc-submit = 提交

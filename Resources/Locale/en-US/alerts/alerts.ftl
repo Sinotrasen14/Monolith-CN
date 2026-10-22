@@ -1,4 +1,4 @@
-alerts-low-oxygen-name = [color=red]Low Oxygen[/color]
+alerts-low-oxygen-name = [color=red]氧气不足[/color]
 alerts-low-oxygen-desc = 你呼吸的空气中[color=red]氧气不足[/color]。请戴上[color=green]呼吸面罩[/color]。
 
 alerts-low-nitrogen-name = [color=red]氮含量偏低[/color]
@@ -24,8 +24,8 @@ alerts-too-hot-desc = 这里[color=red]太热了！[/color]去凉快点的地方
 
 alerts-weightless-name = 失重
 alerts-weightless-desc =
-    Gravity has ceased affecting you, and you're floating around aimlessly. Find something sturdy to hold onto, or throw or shoot something in a direction opposite of you.
-    Mag-boots or jetpacks would help you move with more control.
+    重力已不再影响你，你正漫无目的地漂浮。找些坚固的东西抓住，或者朝你相反的方向扔出或射出某物。
+    磁力靴或喷气背包能帮助你更有控制地移动。
 
 alerts-walking-name = 行走
 alerts-walking-desc = 您正在步行，以缓慢的速度移动。
@@ -102,7 +102,7 @@ alerts-pacified-desc = 你被和平化了；你将无法伤害其他生灵。
 alerts-adrenaline-name = [color=red]肾上腺素[/color]
 alerts-adrenaline-desc = 你的肾上腺素开始生效了：疼痛不会让你慢下来。
 
-alerts-suit-power-name = Suit Power
+alerts-suit-power-name = 服装能量
 alerts-suit-power-desc = 你的太空忍者服拥有多少能量。
 
 alerts-magboots-name = 磁力靴

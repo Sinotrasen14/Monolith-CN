@@ -1,7 +1,7 @@
-﻿accent-scrambled-words-1 = Who?
-accent-scrambled-words-2 = What?
-accent-scrambled-words-3 = When?
-accent-scrambled-words-4 = Where?
-accent-scrambled-words-5 = Why?
-accent-scrambled-words-6 = How?
-accent-scrambled-words-7 = Me!
+﻿accent-scrambled-words-1 = 谁？
+accent-scrambled-words-2 = 什么？
+accent-scrambled-words-3 = 何时？
+accent-scrambled-words-4 = 哪里？
+accent-scrambled-words-5 = 为什么？
+accent-scrambled-words-6 = 如何？
+accent-scrambled-words-7 = 我！

@@ -1,3 +1,3 @@
 # NFBuckled
-construction-examine-condition-nf-strap-empty = Unbuckle everything from the {$entityName}.
-construction-step-condition-nf-strap-empty = Nothing must be buckled.
+construction-examine-condition-nf-strap-empty = 从{$entityName}上解开所有扣带。
+construction-step-condition-nf-strap-empty = 不得有任何扣带。

@@ -1,1 +1,1 @@
-construction-graph-tag-hotdog = hotdog
+construction-graph-tag-hotdog = 热狗

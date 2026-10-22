@@ -1,45 +1,45 @@
-mothroach-picked-up-1 = Squeak?!
-mothroach-picked-up-2 = Mothroach Loves You!
-mothroach-picked-up-3 = Mothroach makes best hats!
-mothroach-picked-up-4 = Adventure Time!
-mothroach-picked-up-5 = Mothroach is for hugs!
+mothroach-picked-up-1 = 吱吱？！
+mothroach-picked-up-2 = 飞蛾蟑螂爱你！
+mothroach-picked-up-3 = 飞蛾蟑螂做最好的帽子！
+mothroach-picked-up-4 = 冒险时间！
+mothroach-picked-up-5 = 飞蛾蟑螂是用来抱抱的！
 
-mothroach-thrown-1 = WHEEEEE!
-mothroach-thrown-2 = WHY BETRAY MOTHROACH?!
-mothroach-thrown-3 = Fuck Yooooooooooou!
+mothroach-thrown-1 = 呜呼呼呼！
+mothroach-thrown-2 = 为什么要背叛飞蛾蟑螂？！
+mothroach-thrown-3 = 去你妈啊啊啊啊啊啊！
 
-mothroach-eating-1 = Yum!
-mothroach-eating-2 = Delicious!
-mothroach-eating-3 = Squeak.
-mothroach-eating-4 = Consume! Consume!
-mothroach-eating-5 = More!
+mothroach-eating-1 = 好吃！
+mothroach-eating-2 = 美味！
+mothroach-eating-3 = 吱吱。
+mothroach-eating-4 = 吞噬！吞噬！
+mothroach-eating-5 = 还要！
 
-mothroach-drinking-1 = Sluuurp!
-mothroach-drinking-2 = Mmm... drinky.
-mothroach-drinking-3 = Mothroach likes this!
-mothroach-drinking-4 = Hydrated mothroach!
+mothroach-drinking-1 = 咕噜噜！
+mothroach-drinking-2 = 嗯……好喝。
+mothroach-drinking-3 = 飞蛾蟑螂喜欢这个！
+mothroach-drinking-4 = 水分充足的飞蛾蟑螂！
 
-mothroach-critical-1 = Everything is fuzzy...
-mothroach-critical-2 = Is it nap time...?
-mothroach-critical-3 = Please don't leave the mothroach...
-mothroach-critical-4 = Mothroach want... live...
-mothroach-critical-5 = Mothroach in distress...
+mothroach-critical-1 = 一切都模模糊糊的……
+mothroach-critical-2 = 是午睡时间了吗……？
+mothroach-critical-3 = 请不要离开飞蛾蟑螂……
+mothroach-critical-4 = 飞蛾蟑螂想……活下去……
+mothroach-critical-5 = 飞蛾蟑螂陷入危难……
 
-mothroach-dead-1 = Goodbye...
-mothroach-dead-2 = Is this... the end...?
-mothroach-dead-3 = No more chirps...
-mothroach-dead-4 = Please remember mothroach...
-mothroach-dead-5 = Mothroach had a good life...
-mothroach-dead-6 = Mothroach loved you...
+mothroach-dead-1 = 再见了……
+mothroach-dead-2 = 这就是……终点吗……？
+mothroach-dead-3 = 再也没有鸣叫了……
+mothroach-dead-4 = 请记住飞蛾蟑螂……
+mothroach-dead-5 = 飞蛾蟑螂度过了美好的一生……
+mothroach-dead-6 = 飞蛾蟑螂爱过你……
 
-mothroach-revived-1 = Mothroach... alive?!
-mothroach-revived-2 = Chitters?! I'm awake!
-mothroach-revived-3 = Mothroach is back!
-mothroach-revived-4 = Mothroach thought it was over...
-mothroach-revived-5 = Thank you for saving mothroach...
+mothroach-revived-1 = 飞蛾蟑螂……活着？！
+mothroach-revived-2 = 唧唧？！我醒了！
+mothroach-revived-3 = 飞蛾蟑螂回来了！
+mothroach-revived-4 = 飞蛾蟑螂以为一切都结束了……
+mothroach-revived-5 = 谢谢你救了飞蛾蟑螂……
 
-mothroach-examined-1 = Are you looking at mothroach?
-mothroach-examined-2 = Why are you staring?
-mothroach-examined-3 = Mothroach sees you...
-mothroach-examined-4 = Do you like mothroach?
-mothroach-examined-5 = Mothroach has been observed!
+mothroach-examined-1 = 你在看飞蛾蟑螂吗？
+mothroach-examined-2 = 你为什么盯着看？
+mothroach-examined-3 = 飞蛾蟑螂看见你了……
+mothroach-examined-4 = 你喜欢飞蛾蟑螂吗？
+mothroach-examined-5 = 飞蛾蟑螂被观察到了！

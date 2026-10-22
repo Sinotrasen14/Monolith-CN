@@ -1,43 +1,43 @@
-mouse-picked-up-1 = Squeak?!
-mouse-picked-up-2 = SQUEAK?!
-mouse-picked-up-3 = Eep!
-mouse-picked-up-4 = EEEEP!
-mouse-picked-up-5 = Put me down!
+mouse-picked-up-1 = 吱？！
+mouse-picked-up-2 = 吱吱？！
+mouse-picked-up-3 = 呀！
+mouse-picked-up-4 = 呀呀呀！
+mouse-picked-up-5 = 放我下来！
 
-mouse-thrown-1 = NOOOOOO!
-mouse-thrown-2 = SQUEEEEEAK!
-mouse-thrown-3 = Fuck Yooooooooooou!
+mouse-thrown-1 = 不oooooo！
+mouse-thrown-2 = 吱吱吱吱吱！
+mouse-thrown-3 = 去你oooooooooo的！
 
-mouse-eating-1 = Yum!
-mouse-eating-2 = Mmm...
-mouse-eating-3 = Squeak.
-mouse-eating-4 = Nom nom.
-mouse-eating-5 = More!
+mouse-eating-1 = 好吃！
+mouse-eating-2 = 嗯……
+mouse-eating-3 = 吱。
+mouse-eating-4 = 吧唧吧唧。
+mouse-eating-5 = 还要！
 
-mouse-drinking-1 = Squeak! Water!
-mouse-drinking-2 = More water, please!
-mouse-drinking-3 = Squeak! I was thirsty!
-mouse-drinking-4 = I needed that!
+mouse-drinking-1 = 吱！水！
+mouse-drinking-2 = 请再来点水！
+mouse-drinking-3 = 吱！我渴坏了！
+mouse-drinking-4 = 我正需要这个！
 
-mouse-critical-1 = Squeak... ow...
-mouse-critical-2 = Squeak... help...
-mouse-critical-3 = I don't feel so good...
-mouse-critical-4 = Everything is spinning...
-mouse-critical-5 = Is this the end...?
+mouse-critical-1 = 吱……哎哟……
+mouse-critical-2 = 吱……救命……
+mouse-critical-3 = 我感觉不太妙……
+mouse-critical-4 = 天旋地转……
+mouse-critical-5 = 这是结束了吗……？
 
-mouse-dead-1 = Goodbye...
-mouse-dead-2 = I wanted more cheese...
-mouse-dead-3 = No more squeaks...
-mouse-dead-4 = Mouse had a good life...
+mouse-dead-1 = 再见了……
+mouse-dead-2 = 我还想要更多奶酪……
+mouse-dead-3 = 再也吱不出来了……
+mouse-dead-4 = 老鼠这辈子过得不错……
 
-mouse-revived-1 = Mouse... awake!
-mouse-revived-2 = I'm not dead?!
-mouse-revived-3 = What happened...?
-mouse-revived-4 = Mouse is alive!
-mouse-revived-5 = I can squeak again!
+mouse-revived-1 = 老鼠……醒了！
+mouse-revived-2 = 我没死？！
+mouse-revived-3 = 发生了什么……？
+mouse-revived-4 = 老鼠活着！
+mouse-revived-5 = 我又能吱吱叫了！
 
-mouse-examined-1 = What are you looking at?
-mouse-examined-2 = Mouse sees you too...
-mouse-examined-3 = Hi!
-mouse-examined-4 = Is something wrong?
-mouse-examined-5 = Mouse is just a mouse...
+mouse-examined-1 = 你看什么看？
+mouse-examined-2 = 老鼠也看着你呢……
+mouse-examined-3 = 嗨！
+mouse-examined-4 = 有什么不对吗？
+mouse-examined-5 = 老鼠就是一只老鼠……

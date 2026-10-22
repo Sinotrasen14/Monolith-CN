@@ -1,4 +1,4 @@
-trade-crate-destination-station = This crate's destination is [color=springgreen]{$destination}[/color].
-trade-crate-priority-time = This crate is due by [color=lightblue]{$time}[/color].
-trade-crate-priority-active = This crate is an [color=yellow]express delivery[/color]. It's [bold]still on time[/bold]!
-trade-crate-priority-inactive = This crate is an [color=#886600]express delivery[/color]. It's [bold]late[/bold].
+trade-crate-destination-station = 这个板条箱的目的地是 [color=springgreen]{$destination}[/color]。
+trade-crate-priority-time = 这个板条箱的截止时间是 [color=lightblue]{$time}[/color]。
+trade-crate-priority-active = 这个板条箱是[color=yellow]加急配送[/color]。它[bold]仍然准时[/bold]！
+trade-crate-priority-inactive = 这个板条箱是[color=#886600]加急配送[/color]。它[bold]迟到了[/bold]。

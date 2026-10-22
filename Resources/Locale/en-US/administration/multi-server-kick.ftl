@@ -1,1 +1,1 @@
-﻿multi-server-kick-reason = Connected to different server in this community.
+﻿multi-server-kick-reason = 已连接到该社区中的其他服务器。

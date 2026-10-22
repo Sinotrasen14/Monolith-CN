@@ -1,7 +1,7 @@
 # Role timers
-JobSecurityCadetOld = Security Cadet
-JobSecurityOfficerOld = Security Officer
-JobHeadOfSecurityOld = Head of Security
-JobWardenOld = Warden
-JobDetectiveOld = Detective
-JobHeadOfPersonnelOld = Head of Personnel
+JobSecurityCadetOld = 安保学员
+JobSecurityOfficerOld = 安保官
+JobHeadOfSecurityOld = 安保主管
+JobWardenOld = 典狱长
+JobDetectiveOld = 侦探
+JobHeadOfPersonnelOld = 人事主管

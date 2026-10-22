@@ -1,1 +1,1 @@
-admin-announce-type-antag = Antag
+admin-announce-type-antag = 反派

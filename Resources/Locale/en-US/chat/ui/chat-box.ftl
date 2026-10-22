@@ -17,7 +17,7 @@ hud-chatbox-select-channel-CollectiveMind = 集体心智频道
 hud-chatbox-select-channel-Visual = 动作频道
 hud-chatbox-select-channel-Radio = 无线电频道
 
-hud-chatbox-channel-Admin = Admin Misc
+hud-chatbox-channel-Admin = 管理员杂项
 hud-chatbox-channel-AdminAlert = 管理员提醒
 hud-chatbox-channel-AdminChat = 管理员聊天
 hud-chatbox-channel-Dead = 死亡

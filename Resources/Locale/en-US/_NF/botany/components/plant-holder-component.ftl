@@ -1,1 +1,1 @@
-plant-holder-component-cannot-be-sampled-message = This plant cannot be sampled!
+plant-holder-component-cannot-be-sampled-message = 这株植物无法取样！

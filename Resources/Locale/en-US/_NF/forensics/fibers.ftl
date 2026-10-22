@@ -1,1 +1,1 @@
-fibers-cream = cream
+fibers-cream = 奶油

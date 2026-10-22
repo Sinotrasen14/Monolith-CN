@@ -41,8 +41,8 @@ dock-label-trade-seven-a = D7A
 dock-label-trade-seven-b = D7B
 dock-label-trade-seven-c = D7C
 
-dock-label-bus = Bus Dock
-dock-label-janitor = Jani
-dock-label-guard = Guard
+dock-label-bus = 巴士停靠站
+dock-label-janitor = 清洁工
+dock-label-guard = 警卫
 dock-label-nfsd = TSFMC
-dock-label-drive-thru = McDrive Thru
+dock-label-drive-thru = 麦车道

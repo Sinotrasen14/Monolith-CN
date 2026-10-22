@@ -1,1 +1,1 @@
-scoopable-component-popup = You scoop up {$scooped} into {THE($beaker)}.
+scoopable-component-popup = 你将{$scooped}舀入{THE($beaker)}中。

@@ -1,11 +1,10 @@
-﻿advertisement-dinnerware-1 = Mm, food stuffs!
-advertisement-dinnerware-2 = Food and food accessories.
-advertisement-dinnerware-3 = Get your plates!
-advertisement-dinnerware-4 = You like forks?
-advertisement-dinnerware-5 = I like forks.
-advertisement-dinnerware-6 = Woo, utensils.
-advertisement-dinnerware-7 = You don't really need these...
-advertisement-dinnerware-8 = Take them if you want them!
-advertisement-dinnerware-9 = I'm pretty sure beakers are a must-have.
-advertisement-dinnerware-10 = WHY ARE THERE SO MANY KINDS OF MUGS?
-
+﻿advertisement-dinnerware-1 = 嗯，食物！
+advertisement-dinnerware-2 = 食物和食物配件。
+advertisement-dinnerware-3 = 来拿你的盘子！
+advertisement-dinnerware-4 = 你喜欢叉子吗？
+advertisement-dinnerware-5 = 我喜欢叉子。
+advertisement-dinnerware-6 = 哇，餐具。
+advertisement-dinnerware-7 = 你其实并不需要这些……
+advertisement-dinnerware-8 = 想要就拿走吧！
+advertisement-dinnerware-9 = 我很确定烧杯是必备品。
+advertisement-dinnerware-10 = 为什么马克杯有这么多种类？

@@ -1,14 +1,14 @@
 ### Interaction Messages
 
-wipe-face = You wiped your face with the {$food}.
+wipe-face = 你用{$food}擦了擦脸。
 
 ## System
 
-food-system-you-cannot-wipe = You can't use this right now!
-food-system-you-cannot-wipe-other = They can't use this right now!
+food-system-you-cannot-wipe = 你现在不能使用这个！
+food-system-you-cannot-wipe-other = 他们现在不能使用这个！
 
-food-system-verb-wipe = Wipe Face
+food-system-verb-wipe = 擦脸
 
-food-system-wipe = {CAPITALIZE(THE($user))} is trying to wipe your face.
-food-system-wipe-success = {CAPITALIZE(THE($user))} wiped your face.
-food-system-wipe-success-user = You wiped {THE($target)}'s face.
+food-system-wipe = {CAPITALIZE(THE($user))}正试图擦你的脸。
+food-system-wipe-success = {CAPITALIZE(THE($user))}擦了你的脸。
+food-system-wipe-success-user = 你擦了{THE($target)}的脸。

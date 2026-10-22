@@ -1,32 +1,32 @@
 # Toolboxes
-lathe-recipe-ToolboxArtisticNF-name = toolbox (artistic, empty)
-lathe-recipe-ToolboxElectricalNF-name = toolbox (electrical, empty)
-lathe-recipe-ToolboxMechanicalNF-name = toolbox (mechanical, empty)
-lathe-recipe-ToolboxEmergencyNF-name = toolbox (emergency, empty)
+lathe-recipe-ToolboxArtisticNF-name = 工具箱（美术，空）
+lathe-recipe-ToolboxElectricalNF-name = 工具箱（电气，空）
+lathe-recipe-ToolboxMechanicalNF-name = 工具箱（机械，空）
+lathe-recipe-ToolboxEmergencyNF-name = 工具箱（应急，空）
 
 # Weapon cases
-lathe-recipe-WeaponCaseShort-name = weapon case (small, empty)
-lathe-recipe-WeaponCaseLong-name = weapon case (empty)
-lathe-recipe-WeaponCaseHeavy-name = weapon case (heavy, empty)
-lathe-recipe-WeaponCaseShortAmmo-name = ammo case (small, empty)
-lathe-recipe-WeaponCaseShortExplosives-name = explosives case (small, empty)
+lathe-recipe-WeaponCaseShort-name = 武器箱（小型，空）
+lathe-recipe-WeaponCaseLong-name = 武器箱（空）
+lathe-recipe-WeaponCaseHeavy-name = 武器箱（重型，空）
+lathe-recipe-WeaponCaseShortAmmo-name = 弹药箱（小型，空）
+lathe-recipe-WeaponCaseShortExplosives-name = 爆炸物箱（小型，空）
 
 # Cardboard
-lathe-recipe-NFHappyHonkMimeEmpty-name = happy honk meal (empty)
-lathe-recipe-NFHappyHonkEmpty-name = happy honk meal (empty)
-lathe-recipe-NFHappyHonkMcCargoEmpty-name = mccargo meal (empty)
-lathe-recipe-NFHappyHonkCluwneEmpty-name = woeful cluwne meal (empty)
-lathe-recipe-NFHappyHonkNukieEmpty-name = robust nukie meal (empty)
-lathe-recipe-NFFoodBoxPizza-name  = pizza box (empty)
-lathe-recipe-NFFoodBoxDonutEmpty-name = donut box (empty)
-lathe-recipe-NFFoodBoxNuggetEmpty-name = chicken nuggets (empty)
-lathe-recipe-NFFoodContainerEggEmpty-name = egg carton (empty)
-lathe-recipe-NFBoxMREEmpty-name = M.R.E. (empty)
+lathe-recipe-NFHappyHonkMimeEmpty-name = 快乐honk餐（空）
+lathe-recipe-NFHappyHonkEmpty-name = 快乐honk餐（空）
+lathe-recipe-NFHappyHonkMcCargoEmpty-name = 麦卡戈餐（空）
+lathe-recipe-NFHappyHonkCluwneEmpty-name = 悲惨小丑餐（空）
+lathe-recipe-NFHappyHonkNukieEmpty-name = 强核队餐（空）
+lathe-recipe-NFFoodBoxPizza-name  = 披萨盒（空）
+lathe-recipe-NFFoodBoxDonutEmpty-name = 甜甜圈盒（空）
+lathe-recipe-NFFoodBoxNuggetEmpty-name = 鸡块（空）
+lathe-recipe-NFFoodContainerEggEmpty-name = 鸡蛋盒（空）
+lathe-recipe-NFBoxMREEmpty-name = M.R.E.（空）
 
 # Plastic
-lathe-recipe-NFFoodBoxSushi-name = sushi tray (empty)
+lathe-recipe-NFFoodBoxSushi-name = 寿司托盘（空）
 
 # Service
-lathe-recipe-DrinkKegSteel-name = cask (steel)
-lathe-recipe-DrinkKegWood-name = cask (wood)
-lathe-recipe-DrinkKegPlastic-name = cask (plastic)
+lathe-recipe-DrinkKegSteel-name = 桶（钢制）
+lathe-recipe-DrinkKegWood-name = 桶（木制）
+lathe-recipe-DrinkKegPlastic-name = 桶（塑料）

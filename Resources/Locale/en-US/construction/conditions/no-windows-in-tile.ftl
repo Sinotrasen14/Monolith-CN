@@ -1,1 +1,1 @@
-construction-step-condition-no-windows-in-tile = There can be no windows in that tile.
+construction-step-condition-no-windows-in-tile = 该地块中不能有窗户。

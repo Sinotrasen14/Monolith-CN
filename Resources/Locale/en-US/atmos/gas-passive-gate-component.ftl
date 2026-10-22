@@ -1,1 +1,1 @@
-gas-passive-gate-examined = The flow rate meter indicates [color=lightblue]{$flowRate} liters/sec[/color].
+gas-passive-gate-examined = 流量计显示 [color=lightblue]{$flowRate} 升/秒[/color]。

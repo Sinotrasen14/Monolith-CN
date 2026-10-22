@@ -1,108 +1,108 @@
 command-description-visualize =
-    Takes the input list of entities and puts them into a UI window for easy browsing.
+    将输入的实体列表放入一个 UI 窗口中以便浏览。
 command-description-runverbas =
-    Runs a verb over the input entities with the given user.
+    以给定的用户对输入实体运行一个动词。
 command-description-acmd-perms =
-    Returns the admin permissions of the given command, if any.
+    返回给定指令的管理员权限（如果有）。
 command-description-acmd-caninvoke =
-    Check if the given player can invoke the given command.
+    检查给定玩家是否可以调用给定指令。
 command-description-jobs-jobs =
-    Returns all jobs on a station.
+    返回空间站上的所有职位。
 command-description-jobs-job =
-    Returns a given job on a station.
+    返回空间站上的给定职位。
 command-description-jobs-isinfinite =
-    Returns true if the input job is infinite, otherwise false.
+    如果输入的职位是无限的则返回 true，否则返回 false。
 command-description-jobs-adjust =
-    Adjusts the number of slots for the given job.
+    调整给定职位的槽位数量。
 command-description-jobs-set =
-    Sets the number of slots for the given job.
+    设置给定职位的槽位数量。
 command-description-jobs-amount =
-    Returns the number of slots for the given job.
+    返回给定职位的槽位数量。
 command-description-jobs-unlimited =
-    Makes the given job have unlimited slots.
+    使给定职位拥有无限槽位。
 command-description-laws-list =
-    Returns a list of all law bound entities.
+    返回所有受法则约束的实体的列表。
 command-description-laws-get =
-    Returns all of the laws for a given entity.
+    返回给定实体的所有法则。
 command-description-stations-list =
-    Returns a list of all stations.
+    返回所有空间站的列表。
 command-description-stations-get =
-    Gets the active station, if and only if there is only one.
+    获取活动空间站，当且仅当只有一个时。
 command-description-stations-getowningstation =
-    Gets the station that a given entity is "owned by" (within)
+    获取给定实体“所属”（位于其中）的空间站。
 command-description-stations-grids =
-    Returns all grids associated with the input station.
+    返回与输入空间站关联的所有网格。
 command-description-stations-config =
-    Returns the config associated with the input station, if any.
+    返回与输入空间站关联的配置（如果有）。
 command-description-stations-addgrid =
-    Adds a grid to the given station.
+    向给定空间站添加一个网格。
 command-description-stations-rmgrid =
-    Removes a grid from the given station.
+    从给定空间站移除一个网格。
 command-description-stations-rename =
-    Renames the given station.
+    重命名给定空间站。
 command-description-stations-largestgrid =
-    Returns the largest grid the given station has, if any.
+    返回给定空间站拥有的最大网格（如果有）。
 command-description-stations-rerollBounties =
-    Clears all the current bounties for the station and gets a new selection.
+    清除空间站当前的所有赏金并获取新的选择。
 command-description-stationevent-lsprob =
-    Given a BasicStationEventScheduler prototype, lists the probability of different station events occuring out of the entire pool with current conditions.
+    给定一个 BasicStationEventScheduler 原型，列出在当前条件下不同空间站事件在整个事件池中发生的概率。
 command-description-stationevent-lsprobtheoretical =
-    Given a BasicStationEventScheduler prototype, player count, and round time, lists the probability of different station events occuring based on the specified number of players and round time.
+    给定一个 BasicStationEventScheduler 原型、玩家数量和回合时间，根据指定的玩家数量和回合时间列出不同空间站事件发生的概率。
 command-description-stationevent-prob =
-    Given a BasicStationEventScheduler prototype and an event prototype, returns the probability of a single station event occuring out of the entire pool with current conditions.
+    给定一个 BasicStationEventScheduler 原型和一个事件原型，返回在当前条件下单个空间站事件在整个事件池中发生的概率。
 command-description-admins-active =
-    Returns a list of active admins.
+    返回活跃管理员的列表。
 command-description-admins-all =
-    Returns a list of ALL admins, including deadmined ones.
+    返回所有管理员的列表，包括已被取消管理员权限的。
 command-description-marked =
-    Returns the value of $marked as a List<EntityUid>.
+    将 $marked 的值作为 List<EntityUid> 返回。
 command-description-rejuvenate =
-    Rejuvenates the given entities, restoring them to full health, clearing status effects, etc.
+    使给定实体恢复活力，将其恢复到完全健康、清除状态效果等。
 command-description-tag-list =
-    Lists tags on the given entities.
+    列出给定实体上的标签。
 command-description-tag-with =
-    Returns only the entities with the given tag from the piped list of entities.
+    从管道输入的实体列表中仅返回具有给定标签的实体。
 command-description-tag-add =
-    Adds a tag to the given entities.
+    向给定实体添加一个标签。
 command-description-tag-rm =
-    Removes a tag from the given entities.
+    从给定实体移除一个标签。
 command-description-tag-addmany =
-    Adds a list of tags to the given entities.
+    向给定实体添加一组标签。
 command-description-tag-rmmany =
-    Removes a list of tags from the given entities.
+    从给定实体移除一组标签。
 command-description-polymorph =
-    Polymorphs the input entity with the given prototype.
+    使用给定原型对输入实体进行变形。
 command-description-unpolymorph =
-    Reverts a polymorph.
+    还原变形。
 command-description-solution-get =
-    Grabs the given solution off the given entity.
+    从给定实体上获取给定溶液。
 command-description-solution-adjreagent =
-    Adjusts the given reagent on the given solution.
+    调整给定溶液上的给定试剂。
 command-description-mind-get =
-    Grabs the mind from the entity, if any.
+    从实体上获取意识（如果有）。
 command-description-mind-control =
-    Assumes control of an entity with the given player.
+    以给定玩家接管一个实体的控制权。
 command-description-addaccesslog =
-    Adds an access log to this entity. Do note that this bypasses the log's default limit and pause check.
+    为此实体添加一条访问日志。请注意，这会绕过日志的默认限制和暂停检查。
 command-description-stationevent-simulate =
-    Given a BasicStationEventScheduler prototype, N Rounds, N Players, mean round end, and stddev of round end, Simulates N number of rounds in which events will occur and prints the occurrences of every event after.
+    给定一个 BasicStationEventScheduler 原型、N 个回合、N 个玩家、平均回合结束时间和回合结束时间的标准差，模拟 N 个会发生事件的回合，并在之后打印每个事件的发生次数。
 command-description-xenoartifact-list =
-    List all EntityUids of spawned artifacts.
+    列出所有已生成异形神器的 EntityUid。
 command-description-xenoartifact-printMatrix =
-    Prints out matrix that displays all edges between nodes.
+    打印显示节点之间所有边的矩阵。
 command-description-xenoartifact-totalResearch =
-    Gets all research points that can be extracted from artifact currently.
+    获取当前可以从异形神器中提取的所有科研部点数。
 command-description-xenoartifact-averageResearch =
-    Calculates amount of research points average generated xeno artifact will output when fully activated.
+    计算异形神器完全激活时平均会输出的科研部点数。
 command-description-xenoartifact-unlockAllNodes =
-    Unlocks all nodes of artifact.
+    解锁异形神器的所有节点。
 command-description-jobboard-completeJob =
-    Completes a given salvage job board job for the station.
+    为空间站完成给定的打捞工作板工作。
 command-description-scale-set =
-    Sets an entity's sprite size to a certain scale (without changing its fixture).
+    将实体的贴图大小设置为特定比例（不改变其碰撞体）。
 command-description-scale-get =
-    Get an entity's sprite scale as set by ScaleVisualsComponent. Does not include any changes directly made in the SpriteComponent.
+    获取由 ScaleVisualsComponent 设置的实体贴图比例。不包括直接在 SpriteComponent 中所做的任何更改。
 command-description-scale-multiply =
-    Multiply an entity's sprite size with a certain factor (without changing its fixture).
+    将实体的贴图大小乘以特定系数（不改变其碰撞体）。
 command-description-scale-multiplywithfixture =
-    Multiply an entity's sprite size with a certain factor (including its fixture).
+    将实体的贴图大小乘以特定系数（包括其碰撞体）。

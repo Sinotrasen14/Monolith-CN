@@ -1,4 +1,4 @@
-command-description-deletechatmessage-id = Delete a specific chat message by message ID
+command-description-deletechatmessage-id = 按消息 ID 删除指定的聊天消息
 command-description-nukechatmessages-usernames = 删除在本轮中所有指定用户所发送的聊天消息
 command-description-nukechatmessages-userids = 删除本轮中所有指定用户id发布的聊天消息
 

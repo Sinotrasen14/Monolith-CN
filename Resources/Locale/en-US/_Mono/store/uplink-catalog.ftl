@@ -2,10 +2,10 @@ uplink-hardsuit-syndie-medic-name = 血色医护硬壳装
 uplink-hardsuit-syndie-medic-desc = 一套医疗硬壳服，涂成不祥的血红色。比经典的血红色更灵活，还配有内置医疗HUD。
 
 uplink-Cash10000-name = 10,000 信用点
-uplink-Cash10000-desc = Liquidate some crystals.
+uplink-Cash10000-desc = 变现一些晶体。
 
 uplink-Cash100000-name = 100,000 信用点
-uplink-Cash100000-desc = Liquidate a lot of crystals.
+uplink-Cash100000-desc = 变现大量晶体。
 
 uplink-faction-server-name = 派系研发服务器 R&D server
 uplink-faction-server-desc = 一个为你派系的专业装备的研发服务器，以防你丢了自己的或者想做独立研究。
@@ -25,7 +25,7 @@ uplink-typewriter-desc = 对臭名昭著的机关枪的一种现代改良版，�
 uplink-warlord-name = UGR 霸主战甲
 uplink-warlord-desc = 一套曾经最先进的军事战斗服。配备内置质量扫描器和防闪光功能。
 
-uplink-data-chit-50-name = 50 Data Chits
+uplink-data-chit-50-name = 50 张数据券
 uplink-data-chit-50-desc = 五十张数据券。在费顿王朝先锋队中是一种极其珍贵的货币。
 
 uplink-iff-console-flatpack-name = IFF 电脑组装包

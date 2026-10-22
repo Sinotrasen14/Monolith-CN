@@ -1,1 +1,1 @@
-flammable-component-resist-message = You stop, drop, and roll!
+flammable-component-resist-message = 你停下、卧倒并翻滚！

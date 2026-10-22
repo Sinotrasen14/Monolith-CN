@@ -1,1 +1,1 @@
-ui-options-hud-theme-operative = Operative
+ui-options-hud-theme-operative = 特工

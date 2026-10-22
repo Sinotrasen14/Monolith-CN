@@ -1,4 +1,3 @@
-
 # Contraband Exchange Console
 contraband-pallet-console-menu-title = 违禁品交易
 contraband-console-menu-points-amount = {$amount} FMC

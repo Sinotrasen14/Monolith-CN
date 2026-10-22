@@ -1,1 +1,1 @@
-health-analyzer-window-entity-uncloneable-text = [color=yellow]Unknown genetic sequence detected! Patient can not be cloned.[/color]
+health-analyzer-window-entity-uncloneable-text = [color=yellow]检测到未知基因序列！患者无法被克隆。[/color]

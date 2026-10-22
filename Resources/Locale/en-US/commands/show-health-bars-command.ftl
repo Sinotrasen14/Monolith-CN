@@ -1,6 +1,6 @@
-cmd-showhealthbars-desc = Toggles health bars above mobs.
-cmd-showhealthbars-help = Usage: showhealthbars [<DamageContainerId>]
-cmd-showhealthbars-error-not-player = You aren't a player.
-cmd-showhealthbars-error-no-entity = You do not have an attached entity.
-cmd-showhealthbars-notify-enabled = Enabled health overlay for DamageContainers: {$args}.
-cmd-showhealthbars-notify-disabled = Disabled health overlay.
+cmd-showhealthbars-desc = 切换生物头顶的生命条显示。
+cmd-showhealthbars-help = 用法：showhealthbars [<DamageContainerId>]
+cmd-showhealthbars-error-not-player = 你不是玩家。
+cmd-showhealthbars-error-no-entity = 你没有附加的实体。
+cmd-showhealthbars-notify-enabled = 已为 DamageContainers 启用生命值叠加显示：{$args}。
+cmd-showhealthbars-notify-disabled = 已禁用生命值叠加显示。

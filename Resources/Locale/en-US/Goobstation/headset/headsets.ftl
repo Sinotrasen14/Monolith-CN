@@ -1,1 +1,1 @@
-chat-radio-future = Future
+chat-radio-future = 未来

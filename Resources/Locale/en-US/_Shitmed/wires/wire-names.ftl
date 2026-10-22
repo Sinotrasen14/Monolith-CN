@@ -1,3 +1,3 @@
-wires-board-name-autodoc = Autodoc Mk.XIV
+wires-board-name-autodoc = 自动医疗机 Mk.XIV
 
-wire-name-autodoc-safety = SAFE
+wire-name-autodoc-safety = 安全

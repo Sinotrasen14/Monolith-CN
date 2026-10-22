@@ -18,7 +18,7 @@ pirate-bounty-console-id-label = {$id}
 pirate-bounty-console-flavor-left = 荣光属于法厄同王朝。
 pirate-bounty-console-flavor-right = v0.0.1a
 
-pirate-bounty-chest-name = PDV bounty chest ({$id})
+pirate-bounty-chest-name = PDV 赏金箱 ({$id})
 pirate-bounty-chest-description-start = 胸口上刻着以下文字：
 
 pirate-bounty-manifest-name = PDV 赏金提醒 ({$id})

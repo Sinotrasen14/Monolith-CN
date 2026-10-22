@@ -1,6 +1,6 @@
-paper-component-verb-sign = Sign
+paper-component-verb-sign = 签名
 
-paper-component-action-signed-self = You sign {THE($target)}.
-paper-component-action-signed-other = {CAPITALIZE(THE($user))} signs {THE($target)}.
+paper-component-action-signed-self = 你在{THE($target)}上签名。
+paper-component-action-signed-other = {CAPITALIZE(THE($user))}在{THE($target)}上签名。
 
-paper-component-examine-detail-signed-by = {CAPITALIZE(THE($paper))} {CONJUGATE-HAVE($paper)} been signed by: {$stamps}.
+paper-component-examine-detail-signed-by = {CAPITALIZE(THE($paper))} {CONJUGATE-HAVE($paper)}已被以下人员签名：{$stamps}。

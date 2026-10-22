@@ -1,1 +1,1 @@
-window-taking-damage = [color=orange]It's straining under pressure![/color]
+window-taking-damage = [color=orange]它在压力下不堪重负！[/color]

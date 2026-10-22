@@ -1,1 +1,1 @@
-markings-category-TailExtras = Tail Extras
+markings-category-TailExtras = 尾部附加标记

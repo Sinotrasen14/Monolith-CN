@@ -1,7 +1,7 @@
 ## Holiday Names
 
-holiday-name-frontier-birthday = Birthday of Monolith
+holiday-name-frontier-birthday = Monolith 的生日
 
 holiday-custom-frontier-birthday =
-    It's Monolith's birthday!
-    Thanks for helping make Monolith what it is.
+    今天是 Monolith 的生日！
+    感谢你帮助 Monolith 成为今天的模样。

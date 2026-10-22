@@ -1,1 +1,1 @@
-verb-categories-switch = Switch Mode
+verb-categories-switch = 切换模式

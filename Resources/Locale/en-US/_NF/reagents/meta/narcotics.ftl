@@ -1,8 +1,8 @@
-reagent-name-rock-dust = rock dust
-reagent-desc-rock-dust = A blend of finely pulverized rock minerals suspended in water, presents a murky, earth-toned liquid.
+reagent-name-rock-dust = 岩尘
+reagent-desc-rock-dust = 一种由精细研磨的岩石矿物悬浮在水中制成的混合物，呈浑浊的土色液体。
 
-reagent-name-shroom-mix = shroom mix
-reagent-desc-shroom-mix = A blend of cut, chewed and ground partially dried shrooms, suspended in mopwata.
+reagent-name-shroom-mix = 蘑菇混合液
+reagent-desc-shroom-mix = 一种由切碎、咀嚼并研磨的部分干燥蘑菇悬浮在拖把水中制成的混合物。
 
 # Missing upstream definition
-reagent-name-hyperzine = hyperzine
+reagent-name-hyperzine = 超速嗪

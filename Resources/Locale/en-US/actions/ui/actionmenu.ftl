@@ -11,6 +11,6 @@ ui-actionsui-function-open-abilities-menu = 打开动作菜单
 
 ui-actionmenu-enabled = 启用
 ui-actionmenu-item = 物品
-ui-actionmenu-innate = Innate
+ui-actionmenu-innate = 固有
 ui-actionmenu-instant = 瞬间
 ui-actionmenu-targeted = 瞄准

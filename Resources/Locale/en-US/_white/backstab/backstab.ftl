@@ -1,1 +1,1 @@
-backstab-message = Backstab!
+backstab-message = 背刺！

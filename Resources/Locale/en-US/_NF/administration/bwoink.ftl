@@ -1,2 +1,2 @@
 # Frontier
-bwoink-message-discord = (DC)
+bwoink-message-discord = （DC）

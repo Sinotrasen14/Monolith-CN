@@ -1,8 +1,8 @@
-﻿polymorph-command-description = For when you need someone to stop being a person. Takes an entity and a polymorph prototype.
+﻿polymorph-command-description = 当你需要某人不再是人时使用。接受一个实体和一个变形原型。
 polymorph-command-help-text = polymorph <id> <polymorph prototype>
 
-add-polymorph-action-command-description = Takes an entity and gives them a voluntary polymorph.
+add-polymorph-action-command-description = 接受一个实体并赋予其自愿变形能力。
 add-polymorph-action-command-help-text = addpolymorphaction <id> <polymorph prototype>
 
 
-polymorph-not-valid-prototype-error = Polymorph prototype is not valid.
+polymorph-not-valid-prototype-error = 变形原型无效。

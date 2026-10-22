@@ -1,4 +1,4 @@
-advertisement-syndiedrobe-1 = Brand new outfits!
+advertisement-syndiedrobe-1 = 全新服装！
 advertisement-syndiedrobe-2 = 适合所有场合的外部服装！
 advertisement-syndiedrobe-3 = 做一个无赖可以很时髦。
 advertisement-syndiedrobe-4 = 根据分析：如果穿的更时尚，你行动成功的概率会增加0.0098%！

@@ -1,7 +1,7 @@
-advertisement-vandalizedclothes-1 = I don't dig ya looks, choom! Get preem threads here!
-advertisement-vandalizedclothes-2 = Don'tcha wanna look totally preem?
-advertisement-vandalizedclothes-3 = D'you wanna look preem or what?! Shlep over here!
-advertisement-vandalizedclothes-4 = Ya new look will flatline ya input!
-advertisement-vandalizedclothes-5 = Now with added composite armor plates!
-advertisement-vandalizedclothes-6 = Preem threads! Nova getups! Check 'em out, choom!
-advertisement-vandalizedclothes-7 = Nova outfit you have goin' there! For a GONK!
+advertisement-vandalizedclothes-1 = 我看不上你这身行头，哥们儿！上这儿来搞点顶级的衣服！
+advertisement-vandalizedclothes-2 = 你不想看起来超有范儿吗？
+advertisement-vandalizedclothes-3 = 你想不想看起来有范儿？！赶紧过来！
+advertisement-vandalizedclothes-4 = 你的新造型会把你对象迷死的！
+advertisement-vandalizedclothes-5 = 现在新增复合装甲板！
+advertisement-vandalizedclothes-6 = 顶级衣服！新潮装扮！来看看吧，哥们儿！
+advertisement-vandalizedclothes-7 = 你这身打扮挺新潮的嘛！对一个蠢货来说！

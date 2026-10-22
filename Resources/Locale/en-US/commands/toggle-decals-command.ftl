@@ -1,2 +1,2 @@
-﻿cmd-toggledecals-desc = Toggles decal overlay.
-cmd-toggledecals-help = Usage: toggledecals
+﻿cmd-toggledecals-desc = 切换贴花叠加层。
+cmd-toggledecals-help = 用法：toggledecals

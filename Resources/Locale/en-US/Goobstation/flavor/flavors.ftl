@@ -1,1 +1,1 @@
-flavor-base-futuristic = futuristic
+flavor-base-futuristic = 未来主义

@@ -1,1 +1,1 @@
-names-scrap-dataset-1 = Derelict
+names-scrap-dataset-1 = 废弃

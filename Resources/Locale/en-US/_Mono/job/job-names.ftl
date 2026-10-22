@@ -34,8 +34,8 @@ job-supervisors-mmc-highcomm = 米耶奥公司董事会
 job-supervisors-mmc-liason = 企业联络
 
 # MARK: UNDERGROUND BLACK MARKET
-job-name-fugitive = Fugitive
-job-name-godfather = Godfather
+job-name-fugitive = 逃犯
+job-name-godfather = 教父
 
 # MARK: CROCUS
 job-name-crocus-dockworker = 江辉码头工人

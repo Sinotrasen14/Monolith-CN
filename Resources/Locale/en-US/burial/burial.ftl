@@ -1,4 +1,4 @@
-grave-start-digging-others = {CAPITALIZE($user)} starts digging {THE($grave)} with {THE($tool)}.
+grave-start-digging-others = {CAPITALIZE($user)}开始用{THE($tool)}挖掘{THE($grave)}。
 grave-start-digging-user = 你开始用{THE($tool)}挖掘{THE($grave)}。
 grave-start-digging-user-trapped = 你开始尝试爬出{THE($grave)}！
 

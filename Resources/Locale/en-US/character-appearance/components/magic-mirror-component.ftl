@@ -1,4 +1,4 @@
-magic-mirror-component-activate-user-has-no-hair = You can't have any hair!
+magic-mirror-component-activate-user-has-no-hair = 你根本没有头发！
 
 magic-mirror-window-title = 魔镜
 magic-mirror-add-slot-self = 你在给自己留点头发。

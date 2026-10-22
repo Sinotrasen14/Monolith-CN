@@ -1,10 +1,10 @@
-surgery-tool-turn-on = Turn it on first!
-surgery-tool-reload = Reload it first!
-surgery-tool-match-light = Light it first!
-surgery-tool-match-replace = Get a new match!
+surgery-tool-turn-on = 先把它打开！
+surgery-tool-reload = 先给它装填！
+surgery-tool-match-light = 先把它点燃！
+surgery-tool-match-replace = 换一根新火柴！
 
-surgery-tool-examinable-verb-text = Surgery Tool
-surgery-tool-examinable-verb-message = Examine the uses of this tool in surgeries.
-surgery-tool-header = This can be used in surgeries as:
-surgery-tool-unlimited = - {$tool} at [color={$color}]{$speed}x[/color] speed
-surgery-tool-used = - {$tool} at [color={$color}]{$speed}x[/color] speed, [color=red]then gets used up[/color]
+surgery-tool-examinable-verb-text = 手术工具
+surgery-tool-examinable-verb-message = 查看此工具在手术中的用途。
+surgery-tool-header = 此工具可用于以下手术：
+surgery-tool-unlimited = - {$tool}，速度为 [color={$color}]{$speed}x[/color]
+surgery-tool-used = - {$tool}，速度为 [color={$color}]{$speed}x[/color]，[color=red]随后会被消耗掉[/color]

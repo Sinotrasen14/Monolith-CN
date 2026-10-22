@@ -1,5 +1,5 @@
-rejuvenate-command-description = Fully heals a mob.
-rejuvenate-command-help-text = Usage: rejuvenate <mobUid_1> <mobUid_2> ... <mobUid_n>
-                               Attempts to heal the user's mob if no arguments are provided.
-rejuvenate-command-self-heal-message = Healing the user's mob since no arguments were provided.
-rejuvenate-command-no-entity-attached-message = There's no entity attached to the user.
+rejuvenate-command-description = 完全治愈一个生物。
+rejuvenate-command-help-text = 用法：rejuvenate <mobUid_1> <mobUid_2> ... <mobUid_n>
+                               如果未提供参数，则尝试治疗用户的生物。
+rejuvenate-command-self-heal-message = 由于未提供参数，正在治疗用户的生物。
+rejuvenate-command-no-entity-attached-message = 用户没有附加任何实体。

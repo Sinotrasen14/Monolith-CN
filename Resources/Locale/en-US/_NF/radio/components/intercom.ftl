@@ -1,1 +1,1 @@
-intercom-verb = Open Intercom
+intercom-verb = 打开对讲机

@@ -10,9 +10,9 @@ gas-pressure-regulator-ui-subtract-100 = -100
 gas-pressure-regulator-ui-subtract-1000 = -1000
 gas-pressure-regulator-ui-title = 进气压力调节器
 gas-pressure-regulator-ui-target = 设定点
-gas-pressure-regulator-ui-flow = Flow
-gas-pressure-regulator-ui-outlet = Outlet
-gas-pressure-regulator-ui-inlet = Inlet
+gas-pressure-regulator-ui-flow = 流量
+gas-pressure-regulator-ui-outlet = 出口
+gas-pressure-regulator-ui-inlet = 入口
 
 # Units
 gas-pressure-regulator-ui-flow-rate-unit = L/s

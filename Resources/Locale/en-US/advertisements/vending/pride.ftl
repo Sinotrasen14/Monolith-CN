@@ -1,7 +1,7 @@
-﻿advertisement-pride-1 = Be gay do crime!
-advertisement-pride-2 = Full of colors!
-advertisement-pride-3 = You are valid!
-advertisement-pride-4 = The first pride was a riot!
-thankyou-pride-1 = Slay!
-thankyou-pride-2 = Knock 'em dead!
-thankyou-pride-3 = What a glow up!
+﻿advertisement-pride-1 = 做同性恋，去犯罪！
+advertisement-pride-2 = 色彩缤纷！
+advertisement-pride-3 = 你是被认可的！
+advertisement-pride-4 = 第一次骄傲是一场暴动！
+thankyou-pride-1 = 绝了！
+thankyou-pride-2 = 让他们刮目相看！
+thankyou-pride-3 = 蜕变真大！

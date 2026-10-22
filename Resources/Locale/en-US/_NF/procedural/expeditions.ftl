@@ -1,35 +1,35 @@
-salvage-expedition-window-finish = Finish expedition
-salvage-expedition-announcement-early-finish = The expedition was completed ahead of schedule. Shuttle will depart in {$departTime} seconds.
-salvage-expedition-shuttle-not-found = Cannot locate shuttle.
-salvage-expedition-not-everyone-aboard = Not all crew aboard! {CAPITALIZE(THE($target))} is still out there!
+salvage-expedition-window-finish = 完成远征
+salvage-expedition-announcement-early-finish = 远征提前完成。穿梭机将在 {$departTime} 秒后出发。
+salvage-expedition-shuttle-not-found = 无法定位穿梭机。
+salvage-expedition-not-everyone-aboard = 并非所有船员都已登船！{CAPITALIZE(THE($target))} 还在外面！
 
 # Salvage mods
-salvage-time-mod-standard-time = Normal Duration
-salvage-time-mod-rush = Rush
+salvage-time-mod-standard-time = 正常时长
+salvage-time-mod-rush = 紧急
 
-salvage-weather-mod-heavy-snowfall = Heavy Snowfall
-salvage-weather-mod-medium-snowfall = Medium Snowfall
-salvage-weather-mod-light-snowfall = Light Snowfall
-salvage-weather-mod-heavy-ashfall = Heavy Ashfall
-salvage-weather-mod-medium-ashfall = Medium Ashfall
-salvage-weather-mod-light-ashfall = Light Ashfall
-salvage-weather-mod-fallout = Fallout
-salvage-weather-mod-heavy-sandstorm = Heavy Sandstorm
-salvage-weather-mod-sandstorm = Sandstorm
-salvage-weather-mod-hail = Hail
-salvage-weather-mod-rain-light = Light Rain
-salvage-weather-mod-rain = Rain
-salvage-weather-mod-storm = Storm
-salvage-weather-mod-none = Clear Weather
+salvage-weather-mod-heavy-snowfall = 大雪
+salvage-weather-mod-medium-snowfall = 中雪
+salvage-weather-mod-light-snowfall = 小雪
+salvage-weather-mod-heavy-ashfall = 重度火山灰沉降
+salvage-weather-mod-medium-ashfall = 中度火山灰沉降
+salvage-weather-mod-light-ashfall = 轻度火山灰沉降
+salvage-weather-mod-fallout = 放射性沉降物
+salvage-weather-mod-heavy-sandstorm = 强沙尘暴
+salvage-weather-mod-sandstorm = 沙尘暴
+salvage-weather-mod-hail = 冰雹
+salvage-weather-mod-rain-light = 小雨
+salvage-weather-mod-rain = 雨
+salvage-weather-mod-storm = 暴风雨
+salvage-weather-mod-none = 晴朗天气
 
-salvage-biome-mod-shadow = Shadow
+salvage-biome-mod-shadow = 阴影
 
-salvage-dungeon-mod-cave-factory = Cave Factory
-salvage-dungeon-mod-med-sci = Medical Science Base
-salvage-dungeon-mod-factory-dorms = Factory Dorms
-salvage-dungeon-mod-lava-mercenary = Lava Mercenary Base
-salvage-dungeon-mod-virology-lab = Virology Lab
-salvage-dungeon-mod-salvage-outpost = Salvage Outpost
+salvage-dungeon-mod-cave-factory = 洞穴工厂
+salvage-dungeon-mod-med-sci = 医学科研基地
+salvage-dungeon-mod-factory-dorms = 工厂宿舍
+salvage-dungeon-mod-lava-mercenary = 熔岩雇佣兵基地
+salvage-dungeon-mod-virology-lab = 病毒学实验室
+salvage-dungeon-mod-salvage-outpost = 打捞前哨站
 
 salvage-air-mod-1 = 82 N2, 21 O2
 salvage-air-mod-2 = 72 N2, 21 O2, 10 N2O
@@ -49,4 +49,4 @@ salvage-air-mod-15 = 103 CO2
 salvage-air-mod-16 = 34 CO2, 34 NH3, 34 N2O
 salvage-air-mod-17 = 34 H2O, 34 NH3, 34 N2O
 salvage-air-mod-18 = 34 H2O, 34 N2O, 17 NH3, 17 CO2
-salvage-air-mod-unknown = Unknown atmosphere
+salvage-air-mod-unknown = 未知大气

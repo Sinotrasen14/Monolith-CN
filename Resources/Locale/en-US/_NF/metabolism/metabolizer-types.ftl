@@ -1,1 +1,1 @@
-metabolizer-type-goblin = Goblin
+metabolizer-type-goblin = 哥布林

@@ -1,1 +1,1 @@
-medicine-label-mannitol-clarpy = Clarpy's prescription
+medicine-label-mannitol-clarpy = Clarpy的处方

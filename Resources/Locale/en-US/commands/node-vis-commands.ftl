@@ -1,6 +1,6 @@
-﻿cmd-nodevis-desc = Toggles node group visualization.
-cmd-nodevis-help = Usage: nodevis
+﻿cmd-nodevis-desc = 切换节点组可视化。
+cmd-nodevis-help = 用法：nodevis
 
-cmd-nodevisfilter-desc = Toggles showing a specific group on nodevis.
-cmd-nodevisfilter-help = Usage: nodevisfilter [filter]
-                         Omit filter to list currently masked-off
+cmd-nodevisfilter-desc = 切换在 nodevis 中显示特定组。
+cmd-nodevisfilter-help = 用法：nodevisfilter [filter]
+                         省略 filter 以列出当前已屏蔽的项

@@ -1,7 +1,7 @@
 ﻿# Examine Text
-gas-pressure-regulator-system-examined = The valve is [color={$statusColor}]{$open ->
-[true] open
-*[false] closed
-}[/color].
-gas-pressure-regulator-examined-threshold-pressure = The threshold pressure is set at [color=lightblue]{$threshold} kPa[/color].
-gas-pressure-regulator-examined-flow-rate = The flow rate meter indicates [color=lightblue]{$flowRate} L/s[/color].
+gas-pressure-regulator-system-examined = 阀门处于[color={$statusColor}]{$open ->
+[true] 开启
+*[false] 关闭
+}[/color]状态。
+gas-pressure-regulator-examined-threshold-pressure = 阈值压力设定为 [color=lightblue]{$threshold} kPa[/color]。
+gas-pressure-regulator-examined-flow-rate = 流量计显示 [color=lightblue]{$flowRate} L/s[/color]。

@@ -1,2 +1,2 @@
-advertisement-astrovend-1 = Spessman's Choice!
-advertisement-astrovend-2 = Don't leave home without a suit!
+advertisement-astrovend-1 = 太空人的选择！
+advertisement-astrovend-2 = 出门别忘了穿宇航服！

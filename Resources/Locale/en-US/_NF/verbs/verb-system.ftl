@@ -1,3 +1,3 @@
-verb-categories-power-bodycam = Power
+verb-categories-power-bodycam = 电源
 
-verb-categories-pen = Pen
+verb-categories-pen = 笔

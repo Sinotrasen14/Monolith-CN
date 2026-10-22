@@ -1,1 +1,1 @@
-botany-cannot-be-swabbed-message = You cannot swab that!
+botany-cannot-be-swabbed-message = 你无法对那个进行采样！

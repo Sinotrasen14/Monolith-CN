@@ -6,5 +6,5 @@ admin-player-actions-window-permissions = 权限管理面板
 admin-player-actions-window-announce = 管理员公告
 admin-player-actions-window-shuttle = 呼叫(召回)撤离船
 admin-player-actions-window-admin-logs = 管理员日志
-admin-player-actions-window-admin-notes = Admin Notes
+admin-player-actions-window-admin-notes = 管理员备注
 admin-player-actions-window-admin-fax = 管理员传真

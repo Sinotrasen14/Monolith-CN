@@ -1,1 +1,1 @@
-role-type-emotional-support-pet-name = Emotional Support Pet
+role-type-emotional-support-pet-name = 情感支持宠物

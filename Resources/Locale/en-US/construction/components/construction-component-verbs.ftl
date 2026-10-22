@@ -1,3 +1,3 @@
-deconstructible-verb-begin-deconstruct = Begin deconstructing 
-deconstructible-verb-activate-no-target-text = There is no way to deconstruct this.
-deconstructible-verb-activate-text = Examine to see instructions.
+deconstructible-verb-begin-deconstruct = 开始拆除
+deconstructible-verb-activate-no-target-text = 无法拆除这个。
+deconstructible-verb-activate-text = 检查以查看说明。

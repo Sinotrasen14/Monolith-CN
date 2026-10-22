@@ -1,20 +1,20 @@
 delete-verb-get-data-text = 删除
-edit-solutions-verb-get-data-text = Edit Solutions
+edit-solutions-verb-get-data-text = 编辑解答
 explode-verb-get-data-text = 爆破
-ahelp-verb-get-data-text = Message
-admin-verbs-admin-logs-entity = Entity Logs
-admin-verbs-teleport-to = Teleport To
-admin-verbs-teleport-here = Teleport Here
-admin-verbs-freeze = Freeze
-admin-verbs-freeze-and-mute = Freeze And Mute
-admin-verbs-unfreeze = Unfreeze
-admin-verbs-camera = Open Camera
-admin-verbs-camera-description = Open a camera window that follows the selected entity.
-admin-verbs-erase = Erase
-admin-verbs-erase-description = Removes the player from the round and crew manifest and deletes their chat messages.
-    Their items are dropped on the ground.
-    Players are shown a popup indicating them to play as if they never existed.
-toolshed-verb-mark = Mark
-toolshed-verb-mark-description = Places this entity into the $marked variable, a list of entities, replacing its prior value.
+ahelp-verb-get-data-text = 发消息
+admin-verbs-admin-logs-entity = 实体日志
+admin-verbs-teleport-to = 传送到
+admin-verbs-teleport-here = 传送到此处
+admin-verbs-freeze = 冻结
+admin-verbs-freeze-and-mute = 冻结并禁言
+admin-verbs-unfreeze = 解冻
+admin-verbs-camera = 打开摄像机
+admin-verbs-camera-description = 打开一个跟随所选实体的摄像机窗口。
+admin-verbs-erase = 抹除
+admin-verbs-erase-description = 将玩家从本局游戏和船员名单中移除，并删除其聊天消息。
+    其物品会掉落到地上。
+    玩家会看到一个弹窗，提示其表现得仿佛从未存在过。
+toolshed-verb-mark = 标记
+toolshed-verb-mark-description = 将此实体放入 $marked 变量（一个实体列表）中，替换其先前的值。
 
-export-entity-verb-get-data-text = Export sprite
+export-entity-verb-get-data-text = 导出贴图

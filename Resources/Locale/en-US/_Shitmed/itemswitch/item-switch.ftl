@@ -1,1 +1,1 @@
-itemswitch-component-on-examine-detailed-message = Current mode: {$state}
+itemswitch-component-on-examine-detailed-message = 当前模式：{$state}

@@ -1,1 +1,1 @@
-rmc-wield-use-delay = You need to wait {$seconds} seconds before wielding {THE($wieldable)}!
+rmc-wield-use-delay = 你需要等待 {$seconds} 秒才能使用 {THE($wieldable)}！

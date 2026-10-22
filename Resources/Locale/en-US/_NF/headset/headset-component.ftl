@@ -1,3 +1,3 @@
-chat-radio-traffic = Shortband
+chat-radio-traffic = 短波
 chat-radio-nfsd = NFSD
-chat-radio-ncmc = TSF Comms
+chat-radio-ncmc = TSF 通讯

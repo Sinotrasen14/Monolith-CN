@@ -1,98 +1,98 @@
-anomaly-component-contact-damage = The anomaly sears off your skin!
+anomaly-component-contact-damage = 异常烧灼你的皮肤！
 
 anomaly-vessel-component-anomaly-assigned = 异常分配给船舶
 anomaly-vessel-component-not-assigned = 这艘船没有被分配到任何异常。试着用扫描仪扫描一下。
-anomaly-vessel-component-assigned = This vessel is currently assigned to an anomaly.
-anomaly-vessel-component-upgrade-output = point output
+anomaly-vessel-component-assigned = 这艘船当前已分配到一个异常。
+anomaly-vessel-component-upgrade-output = 点数输出
 
-anomaly-particles-delta = Delta particles
-anomaly-particles-epsilon = Epsilon particles
-anomaly-particles-zeta = Zeta particles
-anomaly-particles-omega = Omega particles
-anomaly-particles-sigma = Sigma particles
+anomaly-particles-delta = Delta 粒子
+anomaly-particles-epsilon = Epsilon 粒子
+anomaly-particles-zeta = Zeta 粒子
+anomaly-particles-omega = Omega 粒子
+anomaly-particles-sigma = Sigma 粒子
 
-anomaly-scanner-component-scan-complete = Scan complete!
+anomaly-scanner-component-scan-complete = 扫描完成！
 
-anomaly-scanner-ui-title = anomaly scanner
-anomaly-scanner-no-anomaly = No anomaly currently scanned.
-anomaly-scanner-severity-percentage = Current severity: [color=gray]{$percent}[/color]
-anomaly-scanner-severity-percentage-unknown = Current severity: [color=red]ERROR[/color]
-anomaly-scanner-stability-low = Current anomaly state: [color=gold]Decaying[/color]
-anomaly-scanner-stability-medium = Current anomaly state: [color=forestgreen]Stable[/color]
-anomaly-scanner-stability-high = Current anomaly state: [color=crimson]Growing[/color]
-anomaly-scanner-stability-unknown = Current anomaly state: [color=red]ERROR[/color]
-anomaly-scanner-point-output = Point output: [color=gray]{$point}[/color]
-anomaly-scanner-point-output-unknown = Point output: [color=red]ERROR[/color]
-anomaly-scanner-particle-readout = Particle Reaction Analysis:
-anomaly-scanner-particle-danger = - [color=crimson]Danger type:[/color] {$type}
-anomaly-scanner-particle-unstable = - [color=plum]Unstable type:[/color] {$type}
-anomaly-scanner-particle-containment = - [color=goldenrod]Containment type:[/color] {$type}
-anomaly-scanner-particle-transformation = - [color=#6b75fa]Transformation type:[/color] {$type}
-anomaly-scanner-particle-danger-unknown = - [color=crimson]Danger type:[/color] [color=red]ERROR[/color]
-anomaly-scanner-particle-unstable-unknown = - [color=plum]Unstable type:[/color] [color=red]ERROR[/color]
-anomaly-scanner-particle-containment-unknown = - [color=goldenrod]Containment type:[/color] [color=red]ERROR[/color]
-anomaly-scanner-particle-transformation-unknown = - [color=#6b75fa]Transformation type:[/color] [color=red]ERROR[/color]
-anomaly-scanner-pulse-timer = Time until next pulse: [color=gray]{$time}[/color]
+anomaly-scanner-ui-title = 异常扫描仪
+anomaly-scanner-no-anomaly = 当前未扫描到异常。
+anomaly-scanner-severity-percentage = 当前严重程度：[color=gray]{$percent}[/color]
+anomaly-scanner-severity-percentage-unknown = 当前严重程度：[color=red]错误[/color]
+anomaly-scanner-stability-low = 当前异常状态：[color=gold]衰减中[/color]
+anomaly-scanner-stability-medium = 当前异常状态：[color=forestgreen]稳定[/color]
+anomaly-scanner-stability-high = 当前异常状态：[color=crimson]增长中[/color]
+anomaly-scanner-stability-unknown = 当前异常状态：[color=red]错误[/color]
+anomaly-scanner-point-output = 点数输出：[color=gray]{$point}[/color]
+anomaly-scanner-point-output-unknown = 点数输出：[color=red]错误[/color]
+anomaly-scanner-particle-readout = 粒子反应分析：
+anomaly-scanner-particle-danger = - [color=crimson]危险类型：[/color] {$type}
+anomaly-scanner-particle-unstable = - [color=plum]不稳定类型：[/color] {$type}
+anomaly-scanner-particle-containment = - [color=goldenrod]收容类型：[/color] {$type}
+anomaly-scanner-particle-transformation = - [color=#6b75fa]转化类型：[/color] {$type}
+anomaly-scanner-particle-danger-unknown = - [color=crimson]危险类型：[/color] [color=red]错误[/color]
+anomaly-scanner-particle-unstable-unknown = - [color=plum]不稳定类型：[/color] [color=red]错误[/color]
+anomaly-scanner-particle-containment-unknown = - [color=goldenrod]收容类型：[/color] [color=red]错误[/color]
+anomaly-scanner-particle-transformation-unknown = - [color=#6b75fa]转化类型：[/color] [color=red]错误[/color]
+anomaly-scanner-pulse-timer = 距离下次脉冲的时间：[color=gray]{$time}[/color]
 
-anomaly-gorilla-core-slot-name = Anomaly core
-anomaly-gorilla-charge-none = It has no [bold]anomaly core[/bold] inside of it.
-anomaly-gorilla-charge-limit = It has [color={$count ->
+anomaly-gorilla-core-slot-name = 异常核心
+anomaly-gorilla-charge-none = 它内部没有[bold]异常核心[/bold]。
+anomaly-gorilla-charge-limit = 它还剩 [color={$count ->
     [3]green
     [2]yellow
     [1]orange
     [0]red
     *[other]purple
 }]{$count} {$count ->
-    [one]charge
-    *[other]charges
-}[/color] remaining.
-anomaly-gorilla-charge-infinite = It has [color=gold]infinite charges[/color]. [italic]For now...[/italic]
+    [one]次充能
+    *[other]次充能
+}[/color]。
+anomaly-gorilla-charge-infinite = 它拥有[color=gold]无限充能[/color]。[italic]暂时……[/italic]
 
-anomaly-sync-connected = Anomaly successfully attached
-anomaly-sync-disconnected = The connection to the anomaly has been lost!
-anomaly-sync-no-anomaly = No anomaly in range.
-anomaly-sync-examine-connected = It is [color=darkgreen]attached[/color] to an anomaly.
-anomaly-sync-examine-not-connected = It is [color=darkred]not attached[/color] to an anomaly.
-anomaly-sync-connect-verb-text = Attach anomaly
-anomaly-sync-connect-verb-message = Attach a nearby anomaly to {THE($machine)}.
+anomaly-sync-connected = 异常已成功连接
+anomaly-sync-disconnected = 与异常的连接已丢失！
+anomaly-sync-no-anomaly = 范围内没有异常。
+anomaly-sync-examine-connected = 它已[color=darkgreen]连接[/color]到一个异常。
+anomaly-sync-examine-not-connected = 它[color=darkred]未连接[/color]到任何异常。
+anomaly-sync-connect-verb-text = 连接异常
+anomaly-sync-connect-verb-message = 将附近的异常连接到 {THE($machine)}。
 
-anomaly-generator-ui-title = Anomaly Generator
-anomaly-generator-fuel-display = Fuel:
-anomaly-generator-cooldown = Cooldown: [color=gray]{$time}[/color]
-anomaly-generator-no-cooldown = Cooldown: [color=gray]Complete[/color]
-anomaly-generator-yes-fire = Status: [color=forestgreen]Ready[/color]
-anomaly-generator-no-fire = Status: [color=crimson]Not ready[/color]
-anomaly-generator-generate = Generate Anomaly
+anomaly-generator-ui-title = 异常发生器
+anomaly-generator-fuel-display = 燃料：
+anomaly-generator-cooldown = 冷却：[color=gray]{$time}[/color]
+anomaly-generator-no-cooldown = 冷却：[color=gray]完成[/color]
+anomaly-generator-yes-fire = 状态：[color=forestgreen]就绪[/color]
+anomaly-generator-no-fire = 状态：[color=crimson]未就绪[/color]
+anomaly-generator-generate = 生成异常
 anomaly-generator-charges = {$charges ->
-    [one] {$charges} charge
-    *[other] {$charges} charges
+    [one] {$charges} 次充能
+    *[other] {$charges} 次充能
 }
-anomaly-generator-announcement = An anomaly has been generated!
+anomaly-generator-announcement = 一个异常已被生成！
 
-anomaly-command-pulse = Pulses a target anomaly
-anomaly-command-supercritical = Makes a target anomaly go supercritical
+anomaly-command-pulse = 脉冲一个目标异常
+anomaly-command-supercritical = 使目标异常进入超临界状态
 
 # Flavor text on the footer
-anomaly-generator-flavor-left = Anomaly may spawn inside the operator.
+anomaly-generator-flavor-left = 异常可能会在操作员体内生成。
 anomaly-generator-flavor-right = v1.1
 
-anomaly-behavior-unknown = [color=red]ERROR. Cannot be read.[/color]
+anomaly-behavior-unknown = [color=red]错误。无法读取。[/color]
 
-anomaly-behavior-title = behavior deviation analysis:
-anomaly-behavior-point =[color=gold]Anomaly produces {$mod}% of the points[/color] 
+anomaly-behavior-title = 行为偏差分析：
+anomaly-behavior-point =[color=gold]异常产生 {$mod}% 的点数[/color] 
 
-anomaly-behavior-safe = [color=forestgreen]The anomaly is extremely stable. Extremely rare pulsations.[/color]
-anomaly-behavior-slow = [color=forestgreen]The frequency of pulsations is much less frequent.[/color]
-anomaly-behavior-light = [color=forestgreen]Pulsation power is significantly reduced.[/color]
-anomaly-behavior-balanced = No behavior deviations detected.
-anomaly-behavior-delayed-force = The frequency of pulsations is greatly reduced, but their power is increased.
-anomaly-behavior-rapid = The frequency of the pulsation is much higher, but its strength is attenuated.
-anomaly-behavior-reflect = A protective coating was detected.
-anomaly-behavior-nonsensivity = A weak reaction to particles was detected.
-anomaly-behavior-sensivity = Amplified reaction to particles was detected.
-anomaly-behavior-invisibility = Light wave distortion has been detected.
-anomaly-behavior-secret = Interference detected. Some data cannot be read
-anomaly-behavior-inconstancy = [color=crimson]Impermanence has been detected. Particle types can change over time.[/color]
-anomaly-behavior-fast = [color=crimson]The pulsation frequency is strongly increased.[/color]
-anomaly-behavior-strenght = [color=crimson]The pulsation power is significantly increased.[/color]
-anomaly-behavior-moving = [color=crimson]Coordinate instability was detected.[/color]
+anomaly-behavior-safe = [color=forestgreen]异常极其稳定。脉冲极其罕见。[/color]
+anomaly-behavior-slow = [color=forestgreen]脉冲频率大幅降低。[/color]
+anomaly-behavior-light = [color=forestgreen]脉冲功率显著降低。[/color]
+anomaly-behavior-balanced = 未检测到行为偏差。
+anomaly-behavior-delayed-force = 脉冲频率大幅降低，但功率增加。
+anomaly-behavior-rapid = 脉冲频率大幅提高，但强度减弱。
+anomaly-behavior-reflect = 检测到保护涂层。
+anomaly-behavior-nonsensivity = 检测到对粒子的微弱反应。
+anomaly-behavior-sensivity = 检测到对粒子的放大反应。
+anomaly-behavior-invisibility = 检测到光波畸变。
+anomaly-behavior-secret = 检测到干扰。部分数据无法读取
+anomaly-behavior-inconstancy = [color=crimson]检测到不稳定性。粒子类型可能随时间变化。[/color]
+anomaly-behavior-fast = [color=crimson]脉冲频率强烈增加。[/color]
+anomaly-behavior-strenght = [color=crimson]脉冲功率显著增加。[/color]
+anomaly-behavior-moving = [color=crimson]检测到坐标不稳定。[/color]

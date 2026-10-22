@@ -1,15 +1,15 @@
-atmos-alerts-window-tab-gaslocks = Gaslocks
+atmos-alerts-window-tab-gaslocks = 气闸
 
-atmos-alerts-window-direction-label = Direction
-atmos-alerts-window-direction-outwards = Out
-atmos-alerts-window-direction-inwards = In
+atmos-alerts-window-direction-label = 方向
+atmos-alerts-window-direction-outwards = 向外
+atmos-alerts-window-direction-inwards = 向内
 
-atmos-alerts-window-enabled-label = Status
-atmos-alerts-window-enabled-on = Running
-atmos-alerts-window-enabled-off = Off
+atmos-alerts-window-enabled-label = 状态
+atmos-alerts-window-enabled-on = 运行中
+atmos-alerts-window-enabled-off = 关闭
 
-atmos-alerts-window-docked-label = Docked?
-atmos-alerts-window-docked-on = Undock
-atmos-alerts-window-docked-off = No
+atmos-alerts-window-docked-label = 已对接？
+atmos-alerts-window-docked-on = 解除对接
+atmos-alerts-window-docked-off = 否
 
-atmos-alerts-window-gaslock-gases-label = Interior gases
+atmos-alerts-window-gaslock-gases-label = 内部气体

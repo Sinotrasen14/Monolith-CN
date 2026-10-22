@@ -1,64 +1,62 @@
-borg-player-not-allowed = The brain doesn't fit!
-borg-player-not-allowed-eject = The brain was expelled from the chassis!
+borg-player-not-allowed = 大脑装不进去！
+borg-player-not-allowed-eject = 大脑被从底盘弹出了！
 
-borg-panel-not-open = The cyborg's panel isn't open...
+borg-panel-not-open = 赛博的面板没有打开……
 
-borg-mind-added = {CAPITALIZE($name)} powered on!
-borg-mind-removed = {CAPITALIZE($name)} shut off!
+borg-mind-added = {CAPITALIZE($name)}已启动！
+borg-mind-removed = {CAPITALIZE($name)}已关闭！
 
-borg-module-too-many = There's not enough room for another module...
-borg-module-duplicate = This module is already installed in this cyborg.
-borg-module-whitelist-deny = This module doesn't fit in this type of cyborg...
+borg-module-too-many = 没有足够空间再安装一个模块……
+borg-module-duplicate = 此模块已安装在该赛博上。
+borg-module-whitelist-deny = 此模块不适用于该类型的赛博……
 
-borg-construction-guide-string = The cyborg limbs and torso must be attached to the endoskeleton.
+borg-construction-guide-string = 赛博的四肢和躯干必须连接到内骨骼上。
 
-borg-ui-menu-title = Cyborg Interface
-borg-ui-charge-label = Charge: {$charge}%
-borg-ui-no-brain = No brain present
-borg-ui-remove-battery = Remove
-borg-ui-modules-label = Modules:
+borg-ui-menu-title = 赛博界面
+borg-ui-charge-label = 电量：{$charge}%
+borg-ui-no-brain = 无大脑
+borg-ui-remove-battery = 移除
+borg-ui-modules-label = 模块：
 borg-ui-module-counter = {$actual}/{$max}
 
 # Transponder
-borg-transponder-disabled-popup = A brain shoots out the top of {$name}!
-borg-transponder-disabling-popup = Your transponder begins to lock you out of the chassis!
-borg-transponder-destroying-popup = The self destruct of {$name} starts beeping!
-borg-transponder-emagged-disabled-popup = Your transponder's lights go out!
-borg-transponder-emagged-destroyed-popup = Your transponder's fuse blows!
+borg-transponder-disabled-popup = 一颗大脑从{$name}顶部弹出！
+borg-transponder-disabling-popup = 你的应答器开始将你锁出底盘！
+borg-transponder-destroying-popup = {$name}的自毁装置开始发出哔哔声！
+borg-transponder-emagged-disabled-popup = 你的应答器灯光熄灭了！
+borg-transponder-emagged-destroyed-popup = 你的应答器保险丝烧断了！
 
 ## Borg type selection UI.
-borg-select-type-menu-title = Select Chassis Type
-borg-select-type-menu-bottom-text = Chassis selection is irreversible
-borg-select-type-menu-available = Available types
-borg-select-type-menu-information = Information
-borg-select-type-menu-select-type = Select type to view information
-borg-select-type-menu-confirm = Confirm selection
-borg-select-type-menu-guidebook = Guidebook
+borg-select-type-menu-title = 选择底盘类型
+borg-select-type-menu-bottom-text = 底盘选择不可撤销
+borg-select-type-menu-available = 可用类型
+borg-select-type-menu-information = 信息
+borg-select-type-menu-select-type = 选择类型以查看信息
+borg-select-type-menu-confirm = 确认选择
+borg-select-type-menu-guidebook = 指南
 
 ## Borg type information
 
-borg-type-generic-name = Generic
-borg-type-generic-desc = Jack of all trades, master of none. Do various random station tasks, or maybe help out the science department that built you.
-borg-type-generic-transponder = generic cyborg
+borg-type-generic-name = 通用
+borg-type-generic-desc = 样样通，样样松。执行各种随机空间站任务，或者也许帮帮建造你的科学部。
+borg-type-generic-transponder = 通用赛博
 
-borg-type-engineering-name = Engineering
-borg-type-engineering-desc = Assist the engineering team in station construction, repairing damage, or fixing electrical and atmospheric issues.
-borg-type-engineering-transponder = engineering cyborg
+borg-type-engineering-name = 工程部
+borg-type-engineering-desc = 协助工程团队进行空间站建设、修复损坏，或解决电气和大气问题。
+borg-type-engineering-transponder = 工程部赛博
 
-borg-type-mining-name = Salvage
-borg-type-mining-desc = Join salvage and help them mine for materials, scavenge wrecks, and fight off hostile wildlife.
-borg-type-mining-transponder = salvage cyborg
+borg-type-mining-name = 打捞
+borg-type-mining-desc = 加入打捞队，帮助他们采矿获取材料、搜寻残骸，并击退敌对野生动物。
+borg-type-mining-transponder = 打捞赛博
 
-borg-type-janitor-name = Janitor
-borg-type-janitor-desc = Keep the station nice and tidy, clean up spills, collect and properly dispose of trash left around by lazy crewmembers.
-borg-type-janitor-transponder = janitor cyborg
+borg-type-janitor-name = 清洁工
+borg-type-janitor-desc = 保持空间站整洁，清理泼洒物，收集并妥善处理懒惰船员留下的垃圾。
+borg-type-janitor-transponder = 清洁工赛博
 
-borg-type-medical-name = Medical
-borg-type-medical-desc = Provide medical attention to crew who need it, either in medbay or in hazardous areas conventional paramedics cannot reach.
-borg-type-medical-transponder = medical cyborg
+borg-type-medical-name = 医疗
+borg-type-medical-desc = 为需要医疗的船员提供医疗护理，无论是在医疗舱还是在常规急救人员无法到达的危险区域。
+borg-type-medical-transponder = 医疗赛博
 
-borg-type-service-name = Service
-borg-type-service-desc = Help out with a wide range of crew services, ranging from serving snacks and drinks to botany to entertainment.
-borg-type-service-transponder = service cyborg
-
-
+borg-type-service-name = 服务部
+borg-type-service-desc = 协助各种船员服务，从提供零食和饮料到植物学到娱乐。
+borg-type-service-transponder = 服务部赛博

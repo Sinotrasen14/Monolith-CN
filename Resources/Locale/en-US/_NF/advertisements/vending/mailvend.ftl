@@ -1,11 +1,11 @@
-advertisement-mailvend-1 = Speso for your thoughts? Why not?
-advertisement-mailvend-2 = Envelopes! Paper! Pens!
-advertisement-mailvend-3 = When's the last time you wrote home?
-advertisement-mailvend-4 = Who needs telecomms? Writing is in!
-advertisement-mailvend-5 = Remember, stamps are free!
-advertisement-mailvend-6 = Got a penpal? Why not make one?
+advertisement-mailvend-1 = 花点钱买点想法？何乐而不为？
+advertisement-mailvend-2 = 信封！纸张！钢笔！
+advertisement-mailvend-3 = 你上次写信回家是什么时候？
+advertisement-mailvend-4 = 谁还需要电信？写信才时髦！
+advertisement-mailvend-5 = 记住，邮票免费！
+advertisement-mailvend-6 = 有笔友吗？何不交一个？
 
-goodbye-mailvend-1 = Happy writing!
-goodbye-mailvend-2 = Dot your I's and cross your T's!
-goodbye-mailvend-3 = Remember, penmanship matters!
-goodbye-mailvend-4 = Don't forget to write!
+goodbye-mailvend-1 = 写作愉快！
+goodbye-mailvend-2 = 写 i 记得加点，写 t 记得加横！
+goodbye-mailvend-3 = 记住，字迹很重要！
+goodbye-mailvend-4 = 别忘了写信！

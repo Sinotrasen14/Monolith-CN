@@ -1,1 +1,1 @@
-hand-placeholder-name = Module slot for
+hand-placeholder-name = 模块槽位用于

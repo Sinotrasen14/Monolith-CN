@@ -1,1 +1,1 @@
-shield-user-attempt-shoot = You can't fire this gun while holding a shield!
+shield-user-attempt-shoot = 持盾时无法开火！

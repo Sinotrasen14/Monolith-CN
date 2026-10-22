@@ -1,2 +1,2 @@
-cluwne-transform = {CAPITALIZE(THE($target))} turned into a cluwne!
-cluwne-name-prefix = cluwnified {$baseName}
+cluwne-transform = {CAPITALIZE(THE($target))}变成了一个小丑！
+cluwne-name-prefix = 小丑化的{$baseName}

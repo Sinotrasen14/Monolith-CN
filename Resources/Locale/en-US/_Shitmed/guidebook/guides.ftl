@@ -1,2 +1,2 @@
-guide-entry-autodoc = Autodoc
-guide-entry-abductors = Abductors
+guide-entry-autodoc = 自动医生
+guide-entry-abductors = 劫持者

@@ -1,3 +1,3 @@
-﻿cmd-aghost-desc = Makes you or others an admin ghost.
-aghost-no-mind-self = You can't ghost here!
-aghost-no-mind-other = They can't ghost here!
+﻿cmd-aghost-desc = 使你或他人成为管理员幽灵。
+aghost-no-mind-self = 你不能在这里变成幽灵！
+aghost-no-mind-other = 他们不能在这里变成幽灵！

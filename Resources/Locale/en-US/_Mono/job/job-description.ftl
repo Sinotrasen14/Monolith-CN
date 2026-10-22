@@ -29,8 +29,8 @@ job-description-mmc-security = 保护MMC在该地区的资产和员工免受任�
 job-description-mmc-employee = 为了MMC公司的董事会，在你的联络人手下工作。赚钱，把钱交给公司，然后重复这个过程。
 
 # MARK: UNDERGROUND/BLACK MARKET
-job-description-fugitive = You are a known enemy of the TSF. Evade the TSFMC and the bounty hunters they send after you. Reap the rewards of your dangerous lifestyle.
-job-description-godfather = Maintain your hold on the Underground through coercion and fear. Don't get assassinated.
+job-description-fugitive = 你是TSF已知的敌人。躲避TSFMC以及他们派来追捕你的赏金猎人。享受你危险生活方式带来的回报。
+job-description-godfather = 通过胁迫和恐惧维持你对地下世界的控制。不要被暗杀。
 
 # MARK: CROCUS
 job-description-crocus-dockworker = 试着在双方交火中生存下去。你只有基本的工作装备。
