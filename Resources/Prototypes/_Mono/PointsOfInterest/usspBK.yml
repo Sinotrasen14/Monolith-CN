@@ -1,0 +1,78 @@
+# Author Info
+# GitHub: Corrupt142
+# Discord: Corrupt
+
+# Maintainer Info
+# GitHub: starch70 # By the way, why did that previous guy set the maint info to his own name?
+# Discord: _starch_ # By the way, why did that previous guy set the maint info to his own name?
+
+# Notes:
+#
+- type: pointOfInterest
+  id: USSPBaikal
+  parent: [BasePOI, BaseRepairablePOI]
+  name: 'USSP贝加尔前哨站'
+  minimumDistance: 11650
+  maximumDistance: 13400
+  spawnGamePreset: [ NFAdventure, NFPirate, MonoStandard, MonoRogueUSSP, MonoTSFUSSP, MonoADS, MonoMixed, MonoAllAtOnce, MonoChimeraTsf ]
+  spawnGroup: Required
+  gridPath: /Maps/_Mono/POI/usspbaikal.yml
+  addComponents:
+  - type: IFF
+    color: "#ccaa55"
+  - type: WorldGenDistanceCarver
+    distanceThresholds:
+    # Dead zone
+    - maxDistance: 800
+      prob: 0.0
+    - maxDistance: 1500
+      prob: 0.3
+
+- type: gameMap
+  id: USSPBaikal
+  mapName: 'USSP贝加尔前哨站'
+  mapPath: /Maps/_Mono/POI/usspbaikal.yml
+  minPlayers: 0
+  stations:
+    USSPBaikal:
+      stationProto: RecordsFrontierOutpostCargo
+      gridComponents:
+        - type: VesselMusic
+          ambientMusicPrototype: CamelotMusic
+        - type: VesselInfo
+          description: "USSP在巨像星区设立的前哨基地"
+        - type: DeleteNearbyDrones
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'USSP贝加尔前哨站'
+        - type: ExtraStationInformation
+          icon:
+            sprite: _Mono/Clothing/Head/Hardsuits/ussp_officer_combat.rsi
+            state: icon
+          stationSubtext: 'frontier-lobby-camelot-subtext'
+          stationDescription: 'frontier-lobby-camelot-description'
+          lobbySortOrder: 4
+        - type: StationJobs
+          availableJobs:
+            USSPCommissar: [1, 1]
+            USSPSergeant: [5, 5]
+            USSPRifleman: [-1, -1]
+            Contractor: [-1, -1]
+            #Pilot: [0, -1]
+            #Mercenary: [0, -1]
+          tags:
+          - USSPCommand
+        - type: StationCargoBountyDatabase
+          availableBounties:
+          - USSPBountyArtifact
+          - USSPBountyBread
+          - USSPBountySoup
+          - USSPBountyPizza
+          - USSPBountyVodka
+          - USSPBountyCivilianMech
+          - USSPBountyPotato
+          - USSPBountyBiomass
+          - USSPBountyMilitaryMech
+          - USSPKevlarVest
+          - USSPVT7
+          - USSPBountyLaserGun

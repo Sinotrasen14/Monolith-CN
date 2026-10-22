@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: Lodge
   parent: BasePOI
-  name: 'Expeditionary Lodge'
+  name: '远征集合站'
   minimumDistance: 7650
   maximumDistance: 9400
   spawnGroup: Required
@@ -23,7 +23,7 @@
 
 - type: gameMap
   id: Lodge
-  mapName: 'Expeditionary Lodge'
+  mapName: '远征集合站'
   mapPath: /Maps/_NF/POI/lodge.yml
   minPlayers: 0
   stations:
@@ -31,9 +31,9 @@
       stationProto: RecordsFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Expeditionary Lodge'
+          mapNameTemplate: '远征集合站'
         - type: ExtraStationInformation
-          iconPath: /Textures/_NF/Markers/jobs.rsi/mercenary.png
+          iconPath: _NF/Structures/Storage/Crates/secure_ammo.rsi
           stationSubtext: 'frontier-lobby-exped-subtext'
           stationDescription: 'frontier-lobby-exped-description'
           lobbySortOrder: 3

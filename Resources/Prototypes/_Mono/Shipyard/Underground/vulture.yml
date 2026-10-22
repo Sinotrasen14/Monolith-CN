@@ -1,0 +1,42 @@
+# SPDX-FileCopyrightText: 2025 Redrover1760
+# SPDX-FileCopyrightText: 2025 core-mene
+# SPDX-FileCopyrightText: 2025 sleepyyapril
+# SPDX-FileCopyrightText: 2025 starch
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: vessel
+  id: Vulture
+  parent: BaseVessel
+  name: UI Vulture
+  description: A heavy material reclaiming ship manufacted by Ullman industries originally for deep-space mining and planet cracking, but has been up-gunned and sold to the Rogue Insurgency in recent days. Equiped with a full array or PTKs and 3, 255mm Bofors cannons.
+  limit: 2
+  price: 285580
+  category: Large
+  group: Syndicate
+  access: Underground
+  shuttlePath: /SharedMaps/_Mono/Shuttles/Underground/vulture.yml
+  guidebookPage: Null
+  class:
+  - Capital
+  - Frigate
+  engine:
+  - AME
+
+- type: gameMap
+  id: Vulture
+  mapName: 'Vulture'
+  mapPath: /SharedMaps/_Mono/Shuttles/Underground/vulture.yml
+  minPlayers: 0
+  stations:
+    Vulture:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Vulture SRP{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            Contractor: [ 0, 0 ]

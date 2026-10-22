@@ -10,7 +10,7 @@
 - type: pointOfInterest
   id: Zvezda
   parent: [BasePOI, BaseRepairablePOI]
-  name: 'Zvezda Orbital Habitation'
+  name: '星辰轨道居住站'
   minimumDistance: 4000
   maximumDistance: 10000
   spawnGroup: Required
@@ -29,7 +29,7 @@
 
 - type: gameMap
   id: Zvezda
-  mapName: 'Zvezda Orbital Habitation'
+  mapName: '星辰轨道居住站'
   mapPath: /Maps/_Mono/POI/Dungeons/zvezda.yml
   minPlayers: 0
   stations:
@@ -47,7 +47,7 @@
       - type: DeleteNearbyDrones
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Zvezda Orbital Habitation'
+          mapNameTemplate: '星辰轨道居住站'
         - type: StationDeadDrop
           maxDeadDrops: 12
         - type: ExtraStationInformation

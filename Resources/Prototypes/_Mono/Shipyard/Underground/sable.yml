@@ -1,0 +1,37 @@
+# SPDX-FileCopyrightText: 2025 Redrover1760
+# SPDX-FileCopyrightText: 2025 SunoFang
+# SPDX-FileCopyrightText: 2025 sunofang
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: vessel
+  id: Sable
+  parent: BaseVessel
+  name: SCS Sable
+  description: A tiny vessel cobbled together from various pieces of scrap. Designed for boarding at an unbeatable price, the sable blends the finest scrapyard engineering with suicidal bravery. Hull and atmosphere not included. Comes with a windshield. All sales final. No refunds.
+  limit: 10
+  price: 8000
+  category: small
+  group: Syndicate
+  access: Underground
+  shuttlePath: /SharedMaps/_Mono/Shuttles/Underground/sable.yml
+  guidebookPage: Null
+  class:
+  - Scrapyard
+  engine:
+  - Welding
+
+- type: gameMap
+  id: Sable
+  mapName: 'Sable'
+  mapPath: /SharedMaps/_Mono/Shuttles/Underground/sable.yml
+  minPlayers: 0
+  stations:
+    Sable:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Sable SRP{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'

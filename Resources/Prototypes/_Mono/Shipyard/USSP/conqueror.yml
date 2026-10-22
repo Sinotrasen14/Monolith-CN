@@ -1,0 +1,41 @@
+# SPDX-FileCopyrightText: 2025 BoskiYourk
+# SPDX-FileCopyrightText: 2025 HungryCuban
+# SPDX-FileCopyrightText: 2025 Ilya246
+# SPDX-FileCopyrightText: 2025 Redrover1760
+# SPDX-FileCopyrightText: 2025 sleepyyapril
+# SPDX-FileCopyrightText: 2025 starch
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: vessel
+  id: Conqueror
+  parent: BaseVesselIFFDisabled
+  name: NCS Conqueror
+  description: Conqueror All enemies
+  limit: 2
+  price: 10000000
+  category: Large
+  group: Ussp
+  access: USSP
+  shuttlePath: /SharedMaps/_Mono/Shuttles/USSP/conqueror.yml
+  guidebookPage: Null
+  class:
+  - Patrol
+  - Frigate
+  engine:
+  - AME
+
+- type: gameMap
+  id: Conqueror
+  mapName: 'Conqueror'
+  mapPath: /SharedMaps/_Mono/Shuttles/USSP/conqueror.yml
+  minPlayers: 0
+  stations:
+    Conqueror:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'Conqueror USSP{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'

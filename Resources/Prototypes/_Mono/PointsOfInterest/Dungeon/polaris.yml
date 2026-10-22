@@ -23,7 +23,7 @@
 
 - type: gameMap
   id: Polaris
-  mapName: 'Polaris Bioresearch Center'
+  mapName: '北极星 生物研究中心'
   mapPath: /Maps/_Mono/POI/Dungeons/polaris.yml
   minPlayers: 0
   stations:
@@ -31,7 +31,7 @@
       stationProto: StandardFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Polaris Bioresearch Center'
+          mapNameTemplate: '北极星 生物研究中心'
         - type: StationJobs
           availableJobs: {}
         - type: StationDeadDropHintExempt

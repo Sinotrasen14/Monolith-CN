@@ -7,7 +7,7 @@
 - type: pointOfInterest
   id: Jupiter_HW
   parent: [BaseMobilePOI, BaseRepairablePOI]
-  name: 'PDV Jupiter'
+  name: 'PDV 木星级'
   minimumDistance: 12000
   maximumDistance: 15000
   spawnGamePreset: [ MonoRogueTSFHyperwar ]
@@ -21,7 +21,7 @@
 
 - type: gameMap
   id: Jupiter_HW
-  mapName: 'PDV Jupiter'
+  mapName: 'PDV 木星级'
   mapPath: /Maps/_Mono/Supercapitals/jupiter_hw.yml
   minPlayers: 0
   stations:
@@ -29,7 +29,7 @@
       stationProto: RecordsFrontierOutpostCargo
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'PDV Jupiter Class Carrier'
+          mapNameTemplate: 'PDV 木星级旗舰'
         - type: ExtraStationInformation
           icon: /Textures/_NF/Interface/Pirate/piratelogo.png
           stationSubtext: 'frontier-lobby-jupiter-subtext'

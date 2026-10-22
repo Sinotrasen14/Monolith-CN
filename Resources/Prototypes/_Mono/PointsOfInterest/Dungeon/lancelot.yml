@@ -26,7 +26,7 @@
 
 - type: gameMap
   id: Lancelot
-  mapName: 'Lancelot Mining Outpost'
+  mapName: '兰斯洛特 采矿前哨站'
   mapPath: /Maps/_Mono/POI/Dungeons/lancelot.yml
   minPlayers: 0
   stations:
@@ -34,5 +34,5 @@
       stationProto: RecordsFrontierOutpostCargo
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Lancelot Mining Outpost'
+          mapNameTemplate: '兰斯洛特 采矿前哨站'
         - type: StationDeadDropHintExempt

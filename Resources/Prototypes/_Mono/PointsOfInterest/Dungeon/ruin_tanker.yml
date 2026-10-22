@@ -10,7 +10,7 @@
 - type: pointOfInterest
   id: AutomatedTanker
   parent: BaseMobilePOI
-  name: 'Automated Inter Sector Tanker'
+  name: '自动化运气油轮'
   minimumDistance: 10000
   maximumDistance: 20000
   spawnGroup: Optional
@@ -23,7 +23,7 @@
 
 - type: gameMap
   id: AutomatedTanker
-  mapName: 'Automated Inter Sector Tanker'
+  mapName: '自动化运气油轮'
   mapPath: /Maps/_Mono/POI/Dungeons/ruin_tanker.yml
   minPlayers: 0
   stations:
@@ -31,7 +31,7 @@
       stationProto: StandardFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Automated Inter Sector Tanker'
+          mapNameTemplate: '自动化运气油轮'
         - type: StationJobs
           availableJobs: {}
         - type: StationDeadDropHintExempt

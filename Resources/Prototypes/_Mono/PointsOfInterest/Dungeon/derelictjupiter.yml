@@ -11,7 +11,7 @@
 - type: pointOfInterest
   id: Jupiter
   parent: BasePOI # no fun allowed
-  name: 'PDV Jupiter Class Carrier'
+  name: 'PDV 木星级旗舰'
   minimumDistance: 15000
   maximumDistance: 17500
   spawnGroup: Optional
@@ -32,7 +32,7 @@
 
 - type: gameMap
   id: Jupiter
-  mapName: 'PDV Jupiter Class Carrier'
+  mapName: 'PDV 木星级旗舰'
   mapPath: /Maps/_Mono/POI/Dungeons/derelictjupiter.yml
   minPlayers: 0
   stations:
@@ -40,7 +40,7 @@
       stationProto: StandardFrontierOutpost
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'PDV Jupiter Class Carrier'
+          mapNameTemplate: 'PDV 木星级旗舰'
         - type: StationJobs
           availableJobs: {}
         - type: StationDeadDropHintExempt

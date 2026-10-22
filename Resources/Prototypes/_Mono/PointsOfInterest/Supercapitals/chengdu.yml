@@ -7,7 +7,7 @@
 - type: pointOfInterest
   id: Chengdu
   parent: [BaseMobilePOI, BaseRepairablePOI]
-  name: 'TSFN Chengdu'
+  name: 'TSFN 成都级旗舰'
   minimumDistance: 4500
   maximumDistance: 5500
   spawnGamePreset: [ MonoRogueTSFHyperwar ]
@@ -21,7 +21,7 @@
 
 - type: gameMap
   id: Chengdu
-  mapName: 'TSFN Chengdu'
+  mapName: 'TSFN 成都级旗舰'
   mapPath: /Maps/_Mono/Supercapitals/chengdu.yml
   minPlayers: 0
   stations:
@@ -32,7 +32,7 @@
         description: "Enough heavy weapons to crack a planet."
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'TSFN Chengdu'
+          mapNameTemplate: 'TSFN 成都级旗舰'
         - type: ExtraStationInformation
           icon:
             sprite: _NF/Structures/Decoration/banner.rsi
