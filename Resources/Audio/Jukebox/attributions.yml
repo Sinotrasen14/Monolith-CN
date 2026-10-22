@@ -1630,3 +1630,23 @@
   license: "Custom"
   copyright: "music."
   source: "net"
+
+- files: ["H8-哦哦哦哦哦哇啊哦哦哇啊哦.ogg"]
+  license: "Custom"
+  copyright: "music."
+  source: "net"
+
+- files: ["Wot哈尔科夫.ogg"]
+  license: "Custom"
+  copyright: "music."
+  source: "net"
+
+- files: ["H8-BriefingIV.ogg"]
+  license: "Custom"
+  copyright: "music."
+  source: "net"
+
+- files: ["RP-渴望变革.ogg"]
+  license: "Custom"
+  copyright: "music."
+  source: "net"

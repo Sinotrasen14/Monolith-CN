@@ -1965,3 +1965,27 @@
   name: 雨爱司凤版
   path:
     path: /Audio/Jukebox/雨爱司凤版.ogg
+
+- type: jukebox
+  id: 雨爱司凤版
+  name: 雨爱司凤版
+  path:
+    path: /Audio/Jukebox/H8-哦哦哦哦哦哇啊哦哦哇啊哦.ogg
+
+- type: jukebox
+  id: 雨爱司凤版
+  name: 雨爱司凤版
+  path:
+    path: /Audio/Jukebox/Wot哈尔科夫.ogg
+
+- type: jukebox
+  id: 雨爱司凤版
+  name: 雨爱司凤版
+  path:
+    path: /Audio/Jukebox/H8-BriefingIV.ogg
+
+- type: jukebox
+  id: 雨爱司凤版
+  name: 雨爱司凤版
+  path:
+    path: /Audio/Jukebox/RP-渴望变革.ogg
