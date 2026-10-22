@@ -1878,3 +1878,21 @@
   - type: EmitSoundOnActivate
     sound:
       path: /Audio/Items/Toys/rawr.ogg
+
+- type: entity
+  parent: BasePlushie
+  id: Dogetoy
+  name: 墨镜狗玩偶
+  description: 一只带着墨镜的柴犬，看起来散发着大佬的气场。
+  components:
+  - type: Item
+    size: Tiny
+  - type: Sprite
+    sprite: Objects/Fun/doge.rsi
+    state: doge
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/Items/Toys/dagou.ogg
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/Items/Toys/jiao.ogg
