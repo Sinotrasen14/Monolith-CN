@@ -5,7 +5,7 @@ meta:
   forkId: Cat179
   forkVersion: 179
   time: 10/21/2026 15:16:47
-  entityCount: 1218
+  entityCount: 1219
 maps: []
 grids:
 - 1
@@ -7487,5 +7487,12 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: 7.5,2.5
+      parent: 1
+- proto: GravityGeneratorMini
+  entities:
+  - uid: 1220
+    components:
+    - type: Transform
+      pos: -0.5,-3.5
       parent: 1
 ...
