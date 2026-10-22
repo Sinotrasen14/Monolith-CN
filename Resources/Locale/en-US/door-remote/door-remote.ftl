@@ -1,16 +1,15 @@
 ## UI
-door-remote-open-close-text = Opens and Closes Doors
-door-remote-toggle-bolt-text = Toggles Bolts
-door-remote-emergency-access-text = Toggles Emergency Access
-door-remote-toggle-eletrify-text = Toggle Overcharge
-door-remote-invalid-text = Invalid
-door-remote-mode-label = Mode: [color=white]{$modeString}[/color]
+door-remote-open-close-text = 打开和关闭门
+door-remote-toggle-bolt-text = 切换门闩
+door-remote-emergency-access-text = 切换紧急访问
+door-remote-toggle-eletrify-text = 切换过载
+door-remote-invalid-text = 无效
+door-remote-mode-label = 模式：[color=white]{$modeString}[/color]
 
 ## Entity
 
-door-remote-switch-state-open-close = You switch the remote to open and close doors
-door-remote-switch-state-toggle-bolts = You switch the remote to toggle bolts
-door-remote-switch-state-toggle-emergency-access = You switch the remote to toggle emergency access
-door-remote-no-power = The door is not powered
-door-remote-denied = Access denied
-
+door-remote-switch-state-open-close = 你将遥控器切换为打开和关闭门
+door-remote-switch-state-toggle-bolts = 你将遥控器切换为切换门闩
+door-remote-switch-state-toggle-emergency-access = 你将遥控器切换为切换紧急访问
+door-remote-no-power = 门未通电
+door-remote-denied = 访问被拒绝

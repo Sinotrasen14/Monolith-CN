@@ -1,1 +1,1 @@
-﻿phlogiston-plasma-created = The mixture bubbles, and plasma rises from it!
+﻿phlogiston-plasma-created = 混合物冒起泡来，等离子从中升起！

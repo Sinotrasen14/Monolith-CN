@@ -1,1 +1,1 @@
-objective-condition-kill-head-title = Kill {$targetName}, {CAPITALIZE($job)}
+objective-condition-kill-head-title = 杀死{$targetName}，{CAPITALIZE($job)}

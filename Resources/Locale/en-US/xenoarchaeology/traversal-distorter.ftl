@@ -1,7 +1,7 @@
-traversal-distorter-set-up = Traversal bias set to up, toward safer nodes
-traversal-distorter-set-down = Traversal bias set to down, toward more dangerous nodes
+traversal-distorter-set-up = 遍历偏向已设为向上，朝向更安全的节点
+traversal-distorter-set-down = 遍历偏向已设为向下，朝向更危险的节点
 
-traversal-distorter-desc-up = The affected artifact's traversal now favors moving up the node tree toward safer nodes.
-traversal-distorter-desc-down = The affected artifact's traversal now favors moving down the node tree towards more dangerous nodes.
+traversal-distorter-desc-up = 受影响神器的遍历现在倾向于沿节点树向上移动，朝向更安全的节点。
+traversal-distorter-desc-down = 受影响神器的遍历现在倾向于沿节点树向下移动，朝向更危险的节点。
 
-traversal-distorter-upgrade-bias = Bias effectiveness
+traversal-distorter-upgrade-bias = 偏向效果

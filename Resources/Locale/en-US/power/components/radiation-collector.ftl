@@ -1,11 +1,11 @@
-power-radiation-collector-gas-tank-missing = The plasma tank slot is [color=darkred]empty[/color].
-power-radiation-collector-gas-tank-present = The plasma tank slot is [color=darkgreen]filled[/color] and the tank indicator reads [color={$fullness ->
-    *[0]red]empty
-    [1]red]low
-    [2]yellow]half-full
-    [3]lime]full
-}[/color].
-power-radiation-collector-enabled = It's switched [color={$state ->
-    [true] darkgreen]on
-    *[false] darkred]off
-}[/color].
+power-radiation-collector-gas-tank-missing = 等离子气瓶槽位[color=darkred]为空[/color]。
+power-radiation-collector-gas-tank-present = 等离子气瓶槽位[color=darkgreen]已填充[/color]，气瓶指示器显示[color={$fullness ->
+    *[0]red]空
+    [1]red]低
+    [2]yellow]半满
+    [3]lime]满
+}[/color]。
+power-radiation-collector-enabled = 它处于[color={$state ->
+    [true] darkgreen]开启
+    *[false] darkred]关闭
+}[/color]状态。

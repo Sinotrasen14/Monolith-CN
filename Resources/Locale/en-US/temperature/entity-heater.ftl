@@ -1,3 +1,3 @@
-entity-heater-examined = It is set to [color=gray]{$setting}[/color]
-entity-heater-switch-setting = Switch to {$setting}
-entity-heater-switched-setting = Switched to {$setting}
+entity-heater-examined = 它被设置为 [color=gray]{$setting}[/color]
+entity-heater-switch-setting = 切换到 {$setting}
+entity-heater-switched-setting = 已切换到 {$setting}

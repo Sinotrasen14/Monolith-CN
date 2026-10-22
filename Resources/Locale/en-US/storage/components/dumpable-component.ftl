@@ -1,4 +1,4 @@
-dump-verb-name = Dump out on ground
-dump-disposal-verb-name = Dump out into {$unit}
-dump-placeable-verb-name = Dump out onto {$surface}
-dump-smartfridge-verb-name = Restock into {$unit}
+dump-verb-name = 丢到地上
+dump-disposal-verb-name = 丢进{$unit}
+dump-placeable-verb-name = 丢到{$surface}上
+dump-smartfridge-verb-name = 补充到{$unit}

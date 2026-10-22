@@ -1,5 +1,5 @@
-vehicle-use-key = You use {THE($keys)} to start {THE($vehicle)}.
+vehicle-use-key = 你使用 {THE($keys)} 来启动 {THE($vehicle)}。
 # Frontier
-vehicle-cannot-pull = You need to stop pulling {THE($object)} before you can ride {THE($vehicle)}.
+vehicle-cannot-pull = 你需要停止拉拽 {THE($object)}，然后才能骑乘 {THE($vehicle)}。
 
-vehicle-slot-component-slot-name-keys = Keys
+vehicle-slot-component-slot-name-keys = 钥匙

@@ -1,1 +1,1 @@
-station-event-immovable-rod-start-announcement = High velocity unidentified object is on a collision course with the station. Impact imminent.
+station-event-immovable-rod-start-announcement = 高速不明物体正与空间站处于碰撞航线上。撞击即将发生。

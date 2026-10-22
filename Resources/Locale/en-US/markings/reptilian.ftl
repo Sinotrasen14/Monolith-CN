@@ -1,5 +1,5 @@
 # Frontier: all entries capitalized
-marking-LizardFrillsShort-frills_short = Lizard Frills (Short)
+marking-LizardFrillsShort-frills_short = 蜥蜴颈饰（短款）
 marking-LizardFrillsShort = 蜥蜴颈饰（短款）
 
 marking-LizardFrillsSimple-frills_simple = 蜥蜴褶边（简约款）

@@ -1,32 +1,32 @@
 news-read-ui-next-text = ▶
 news-read-ui-prev-text = ◀
-news-read-ui-next-tooltip = Next
-news-read-ui-prev-tooltip = Prev
-news-read-ui-default-title = Station News
-news-read-ui-not-found-text = No articles found
-news-read-ui-time-prefix-text = Publication time:
-news-reader-ui-mute-tooltip = Mute notifications
+news-read-ui-next-tooltip = 下一个
+news-read-ui-prev-tooltip = 上一个
+news-read-ui-default-title = 空间站新闻
+news-read-ui-not-found-text = 未找到文章
+news-read-ui-time-prefix-text = 发布时间：
+news-reader-ui-mute-tooltip = 静音通知
 news-read-ui-notification-off =  ̶♫̶
 news-read-ui-notification-on = ♫
-news-read-ui-no-author = Anonymous
-news-read-ui-author-prefix = Author:
-news-write-ui-default-title = News Management
-news-write-ui-articles-label = Articles:
-news-write-ui-delete-text = Delete
-news-write-ui-publish-text = Publish
-news-write-ui-create-text = Create
-news-write-ui-cancel-text = Clear
-news-write-ui-save-text = Save
-news-write-ui-preview-text = Preview
-news-write-ui-article-count-0 = 0 Articles
-news-write-ui-article-count-text = {$count} Articles
-news-write-ui-footer-text = News#Manager™ Authoring System
-news-write-ui-new-article = New Article
-news-write-ui-article-name-label = Title:
-news-write-no-access-popup = No access
-news-writer-text-length-exceeded = Text exceeds maximum length
-news-write-ui-richtext-tooltip = News articles support rich text
-    The following rich text tags are supported:
+news-read-ui-no-author = 匿名
+news-read-ui-author-prefix = 作者：
+news-write-ui-default-title = 新闻管理
+news-write-ui-articles-label = 文章：
+news-write-ui-delete-text = 删除
+news-write-ui-publish-text = 发布
+news-write-ui-create-text = 创建
+news-write-ui-cancel-text = 清除
+news-write-ui-save-text = 保存
+news-write-ui-preview-text = 预览
+news-write-ui-article-count-0 = 0 篇文章
+news-write-ui-article-count-text = {$count} 篇文章
+news-write-ui-footer-text = News#Manager™ 创作系统
+news-write-ui-new-article = 新文章
+news-write-ui-article-name-label = 标题：
+news-write-no-access-popup = 无访问权限
+news-writer-text-length-exceeded = 文本超出最大长度
+news-write-ui-richtext-tooltip = 新闻文章支持富文本
+    支持以下富文本标签：
     {"[color=Gray][bullet/]heading \\[size=1-3\\]"}
     {"[bullet/]bold"}
     {"[bullet/]italic"}
@@ -34,5 +34,5 @@ news-write-ui-richtext-tooltip = News articles support rich text
     {"[bullet/]color"}
     {"[bullet/]bullet[/color]"}
 
-news-pda-notification-header = New news article
-news-publish-admin-announcement = {$actor} published news article {$title} by {$author}
+news-pda-notification-header = 新新闻文章
+news-publish-admin-announcement = {$actor} 发布了 {$author} 撰写的新闻文章 {$title}

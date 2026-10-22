@@ -1,33 +1,33 @@
-objective-condition-steal-title-no-owner = Steal the {$itemName}.
-objective-condition-steal-title-alive-no-owner = Steal {$itemName}.
-objective-condition-steal-title = Steal the {$owner}'s {$itemName}.
-objective-condition-steal-description = We need you to steal {$itemName}. Don't get caught.
+objective-condition-steal-title-no-owner = 偷走{$itemName}。
+objective-condition-steal-title-alive-no-owner = 偷走{$itemName}。
+objective-condition-steal-title = 偷走{$owner}的{$itemName}。
+objective-condition-steal-description = 我们需要你偷走{$itemName}。别被抓到。
 
-objective-condition-steal-station = station
-objective-condition-steal-Ian = head of personnel's corgi
+objective-condition-steal-station = 空间站
+objective-condition-steal-Ian = 人事主管的柯基犬
 
-objective-condition-thief-description = The {$itemName} would be a great addition to my collection!
-objective-condition-thief-animal-description = The {$itemName} would be a great addition to my collection! Most importantly, alive.
-objective-condition-thief-multiply-description = I need to get {$count} {MAKEPLURAL($itemName)} (any) and take them with me.
+objective-condition-thief-description = {$itemName}会是我收藏的绝佳补充！
+objective-condition-thief-animal-description = {$itemName}会是我收藏的绝佳补充！最重要的是，要活的。
+objective-condition-thief-multiply-description = 我需要拿到{$count}个{MAKEPLURAL($itemName)}（任意）并随身带走。
 
 # Mono
-objective-condition-steal-pdv = the PDV
-objective-condition-steal-tsf = the TSF
-objective-condition-steal-title-faction = Acquire {$owner}'s {$itemName}.
-objective-condition-steal-title-faction-no-owner = Acquire {$itemName}.
-objective-condition-steal-description-faction = Ensure atleast one person in your company/faction or you are in possesion of {$itemName}.
-objective-condition-steal-description-faction-beacon-crocus = Ensure atleast one person in your company/faction or you are in possesion of {$itemName}, or it is in range of an extraction beacon.
-objective-condition-steal-multiply-description-faction = Ensure atleast one person in your company/faction or you are in possesion of {$count}x {MAKEPLURAL($itemName)} (any).
-objective-condition-steal-multiply-description-faction-crocus = Ensure atleast one person in your company/faction or you are in possesion of {$count}x {MAKEPLURAL($itemName)} (any), or it is in range of an extraction beacon.
+objective-condition-steal-pdv = PDV
+objective-condition-steal-tsf = TSF
+objective-condition-steal-title-faction = 获取{$owner}的{$itemName}。
+objective-condition-steal-title-faction-no-owner = 获取{$itemName}。
+objective-condition-steal-description-faction = 确保你的公司/阵营中至少有一个人，或者你本人持有{$itemName}。
+objective-condition-steal-description-faction-beacon-crocus = 确保你的公司/阵营中至少有一个人，或者你本人持有{$itemName}，或者它在撤离信标的范围内。
+objective-condition-steal-multiply-description-faction = 确保你的公司/阵营中至少有一个人，或者你本人持有{$count}个{MAKEPLURAL($itemName)}（任意）。
+objective-condition-steal-multiply-description-faction-crocus = 确保你的公司/阵营中至少有一个人，或者你本人持有{$count}个{MAKEPLURAL($itemName)}（任意），或者它们在撤离信标的范围内。
 
-objective-condition-steal-title-repair = Repair {$itemName}.
-objective-condition-steal-description-faction-beacon-crocus-repair = Ensure that {$itemName} is repaired, and it is in range of an extraction beacon.
-objective-condition-steal-multiply-description-faction-beacon-crocus-repair = Ensure that atleast {$count}x {MAKEPLURAL($itemName)} (any) are repaired, and they are in range of an extraction beacon.
+objective-condition-steal-title-repair = 修复{$itemName}。
+objective-condition-steal-description-faction-beacon-crocus-repair = 确保{$itemName}已被修复，并且它在撤离信标的范围内。
+objective-condition-steal-multiply-description-faction-beacon-crocus-repair = 确保至少有{$count}个{MAKEPLURAL($itemName)}（任意）已被修复，并且它们在撤离信标的范围内。
 
-objective-condition-steal-title-destroy = Destroy {$itemName}.
-objective-condition-steal-description-faction-beacon-crocus-destroy = Ensure that {$itemName} is inoperable, and it is in range of an extraction beacon.
-objective-condition-steal-multiply-description-faction-beacon-crocus-destroy = Ensure that atleast {$count}x {MAKEPLURAL($itemName)} (any) are inoperable, and they are in range of an extraction beacon.
+objective-condition-steal-title-destroy = 摧毁{$itemName}。
+objective-condition-steal-description-faction-beacon-crocus-destroy = 确保{$itemName}无法运作，并且它在撤离信标的范围内。
+objective-condition-steal-multiply-description-faction-beacon-crocus-destroy = 确保至少有{$count}个{MAKEPLURAL($itemName)}（任意）无法运作，并且它们在撤离信标的范围内。
 
-steal-target-groups-federal-nanites = federation nanite canister
-steal-target-groups-federal-pdas = military PDA
-steal-target-groups-beacon-repairs = beacon
+steal-target-groups-federal-nanites = 联邦纳米机器气罐
+steal-target-groups-federal-pdas = 军用掌上电脑
+steal-target-groups-beacon-repairs = 信标

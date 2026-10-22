@@ -1,9 +1,9 @@
-server-info-rules-button = Rules
-server-info-guidebook-button = Guidebook
+server-info-rules-button = 规则
+server-info-guidebook-button = 指南
 server-info-discord-button = Discord
-server-info-website-button = Website
+server-info-website-button = 网站
 server-info-wiki-button = Wiki
-server-info-forum-button = Forum
+server-info-forum-button = 论坛
 server-info-telegram-button = Telegram
-server-info-report-button = Report Bugs
-server-info-credits-button = Credits
+server-info-report-button = 报告 Bug
+server-info-credits-button = 鸣谢

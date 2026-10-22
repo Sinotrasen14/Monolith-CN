@@ -1,2 +1,2 @@
-spider-charge-not-ninja = While it appears normal, you can't seem to detonate the charge.
-spider-charge-too-far = This isn't the location you're supposed to use this!
+spider-charge-not-ninja = 虽然看起来正常，但你似乎无法引爆这个炸药。
+spider-charge-too-far = 这不是你应该使用这个的地方！

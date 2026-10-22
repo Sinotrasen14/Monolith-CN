@@ -1,32 +1,32 @@
-reagent-name-blood = blood
-reagent-desc-blood = I hope this is ketchup.
+reagent-name-blood = 血液
+reagent-desc-blood = 我希望这是番茄酱。
 
-reagent-name-insect-blood = insect blood
-reagent-desc-insect-blood = Okay, this is really gross. It almost looks.. alive?
+reagent-name-insect-blood = 虫血
+reagent-desc-insect-blood = 好吧，这真的很恶心。它看起来几乎……还活着？
 
-reagent-name-slime = slime
-reagent-desc-slime = You thought this was gradient blood at first, but you were mistaken.
+reagent-name-slime = 黏液
+reagent-desc-slime = 你一开始以为这是渐变色的血液，但你错了。
 
-reagent-name-sap = sap
-reagent-desc-sap = Sticky, sweet tree blood.
+reagent-name-sap = 树液
+reagent-desc-sap = 黏稠、甜美的树血。
 
-reagent-name-hemocyanin-blood = blue blood
-reagent-desc-hemocyanin-blood = Contains copper as opposed to iron which gives it a distinct blue color.
+reagent-name-hemocyanin-blood = 蓝血
+reagent-desc-hemocyanin-blood = 含有铜而非铁，因此呈现出独特的蓝色。
 
-reagent-name-ammonia-blood = anaerobic blood
-reagent-desc-ammonia-blood = Nothing else in the entire galaxy smells quite so appalling.
+reagent-name-ammonia-blood = 厌氧血
+reagent-desc-ammonia-blood = 整个星系里没有别的东西闻起来这么恶心。
 
-reagent-name-zombie-blood = zombie blood
-reagent-desc-zombie-blood = Would not advise eating. Can be used to create an inoculation against the infection.
+reagent-name-zombie-blood = 丧尸血
+reagent-desc-zombie-blood = 不建议食用。可用于制造对抗感染的接种疫苗。
 
-reagent-name-ichor = ichor
-reagent-desc-ichor = An extremely potent regenerative chemical, perfected by space fauna evolution. Produced in the dragon's digestive system, it is seen as an exotic commodity due to the gargantuan effort of hunting for it.
+reagent-name-ichor = 灵液
+reagent-desc-ichor = 一种极其强效的再生化学物质，由太空动物进化完善而成。在龙的消化系统中产生，由于狩猎它需要付出巨大努力，被视为一种珍稀商品。
 
-reagent-name-fat = fat
-reagent-desc-fat = No matter how it was obtained, its application is important.
+reagent-name-fat = 脂肪
+reagent-desc-fat = 无论它是如何获得的，它的用途都很重要。
 
-reagent-name-vomit = vomit
-reagent-desc-vomit = You can see a few chunks of someone's last meal in it.
+reagent-name-vomit = 呕吐物
+reagent-desc-vomit = 你能在里面看到几块某人上一餐的食物残渣。
 
-reagent-name-grey-matter = grey matter
-reagent-desc-grey-matter = Thought juice, the stuff that leaks out of your ears.
+reagent-name-grey-matter = 灰质
+reagent-desc-grey-matter = 思考汁液，从你耳朵里流出来的东西。

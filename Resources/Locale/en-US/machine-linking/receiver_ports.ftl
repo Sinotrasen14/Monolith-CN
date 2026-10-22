@@ -1,91 +1,91 @@
-signal-port-name-autoclose = Autoclose
-signal-port-description-autoclose = Toggles whether the device should automatically close.
+signal-port-name-autoclose = 自动关闭
+signal-port-description-autoclose = 切换设备是否应自动关闭。
 
-signal-port-name-toggle = Toggle
-signal-port-description-toggle = Toggles the state of a device.
+signal-port-name-toggle = 切换
+signal-port-description-toggle = 切换设备的状态。
 
-signal-port-name-on-receiver = On
-signal-port-description-on-receiver = Turns a device on.
+signal-port-name-on-receiver = 开启
+signal-port-description-on-receiver = 开启设备。
 
-signal-port-name-off-receiver = Off
-signal-port-description-off-receiver = Turns a device off.
+signal-port-name-off-receiver = 关闭
+signal-port-description-off-receiver = 关闭设备。
 
-signal-port-name-forward = Forward
-signal-port-description-forward = Makes a device (e.g. conveyor) operate in the normal direction.
+signal-port-name-forward = 正向
+signal-port-description-forward = 使设备（例如传送带）沿正常方向运行。
 
-signal-port-name-reverse = Reverse
-signal-port-description-reverse = Makes a device (e.g. conveyor) operate in the reverse direction.
+signal-port-name-reverse = 反向
+signal-port-description-reverse = 使设备（例如传送带）沿反向运行。
 
-signal-port-name-open = Open
-signal-port-description-open = Opens a device.
+signal-port-name-open = 打开
+signal-port-description-open = 打开设备。
 
-signal-port-name-close = Close
-signal-port-description-close = Closes a device.
+signal-port-name-close = 关闭
+signal-port-description-close = 关闭设备。
 
-signal-port-name-doorbolt = Door bolt
-signal-port-description-doorbolt = Bolts door when HIGH.
+signal-port-name-doorbolt = 门栓
+signal-port-description-doorbolt = 当信号为高电平时锁上门栓。
 
-signal-port-name-trigger = Trigger
-signal-port-description-trigger = Triggers some mechanism on the device.
+signal-port-name-trigger = 触发
+signal-port-description-trigger = 触发设备上的某种机制。
 
-signal-port-name-timer = Timer
-signal-port-description-timer = Starts the timer countdown of the device.
+signal-port-name-timer = 计时器
+signal-port-description-timer = 启动设备的计时器倒计时。
 
-signal-port-name-order-sender = Order sender
-signal-port-description-order-sender = Cargo console order sender
+signal-port-name-order-sender = 订单发送器
+signal-port-description-order-sender = 货舱控制台订单发送器
 
-signal-port-name-order-receiver = Order receiver
-signal-port-description-order-receiver = Cargo console order receiver
+signal-port-name-order-receiver = 订单接收器
+signal-port-description-order-receiver = 货舱控制台订单接收器
 
-signal-port-name-pressurize = Pressurize
-signal-port-description-pressurize = Causes the device to starts releasing air until some target pressure is reached.
+signal-port-name-pressurize = 加压
+signal-port-description-pressurize = 使设备开始释放空气，直到达到某个目标压力。
 
-signal-port-name-depressurize = Depressurize
-signal-port-description-depressurize = Causes the device to starts siphoning air until some target pressure is reached.
+signal-port-name-depressurize = 减压
+signal-port-description-depressurize = 使设备开始抽取空气，直到达到某个目标压力。
 
-signal-port-name-pod-sender = Cloning pod
-signal-port-description-pod-sender = Cloning pod signal sender
+signal-port-name-pod-sender = 克隆舱
+signal-port-description-pod-sender = 克隆舱信号发送器
 
-signal-port-name-pod-receiver = Cloning pod
-signal-port-description-pod-receiver = Cloning pod signal receiver
+signal-port-name-pod-receiver = 克隆舱
+signal-port-description-pod-receiver = 克隆舱信号接收器
 
-signal-port-name-med-scanner-sender = Medical scanner
-signal-port-description-med-scanner-sender = Medical scanner signal sender
+signal-port-name-med-scanner-sender = 医疗扫描仪
+signal-port-description-med-scanner-sender = 医疗扫描仪信号发送器
 
-signal-port-name-med-scanner-receiver = Medical scanner
-signal-port-description-med-scanner-receiver = Medical scanner signal receiver
+signal-port-name-med-scanner-receiver = 医疗扫描仪
+signal-port-description-med-scanner-receiver = 医疗扫描仪信号接收器
 
-signal-port-name-hold-open = Hold
-signal-port-description-hold-open = Turns off automatic closing.
+signal-port-name-hold-open = 保持
+signal-port-description-hold-open = 关闭自动关闭功能。
 
-signal-port-name-artifact-analyzer-sender = Console
-signal-port-description-artifact-analyzer-sender = Analysis console signal sender
+signal-port-name-artifact-analyzer-sender = 控制台
+signal-port-description-artifact-analyzer-sender = 分析控制台信号发送器
 
-signal-port-name-artifact-analyzer-receiver = Pad
-signal-port-description-artifact-analyzer-receiver = Artifact analyzer signal receiver
+signal-port-name-artifact-analyzer-receiver = 平台
+signal-port-description-artifact-analyzer-receiver = 神器分析仪信号接收器
 
-signal-port-name-set-particle-delta = Set particle type: delta
-signal-port-description-set-particle-delta = Sets the type of particle this device emits to delta.
+signal-port-name-set-particle-delta = 设置粒子类型：delta
+signal-port-description-set-particle-delta = 将此设备发射的粒子类型设置为 delta。
 
-signal-port-name-set-particle-epsilon = Set particle type: epsilon
-signal-port-description-set-particle-epsilon = Sets the type of particle this device emits to epsilon.
+signal-port-name-set-particle-epsilon = 设置粒子类型：epsilon
+signal-port-description-set-particle-epsilon = 将此设备发射的粒子类型设置为 epsilon。
 
-signal-port-name-set-particle-zeta = Set particle type: zeta
-signal-port-description-set-particle-zeta = Sets the type of particle this device emits to zeta.
+signal-port-name-set-particle-zeta = 设置粒子类型：zeta
+signal-port-description-set-particle-zeta = 将此设备发射的粒子类型设置为 zeta。
 
-signal-port-name-set-particle-sigma = Set particle type: sigma
-signal-port-description-set-particle-sigma = Sets the type of particle this device emits to sigma.
+signal-port-name-set-particle-sigma = 设置粒子类型：sigma
+signal-port-description-set-particle-sigma = 将此设备发射的粒子类型设置为 sigma。
 
-signal-port-name-logic-input-a = Input A
-signal-port-description-logic-input-a = First input of a logic gate.
+signal-port-name-logic-input-a = 输入 A
+signal-port-description-logic-input-a = 逻辑门的第一路输入。
 
-signal-port-name-logic-input-b = Input B
-signal-port-description-logic-input-b = Second input of a logic gate.
+signal-port-name-logic-input-b = 输入 B
+signal-port-description-logic-input-b = 逻辑门的第二路输入。
 
-signal-port-name-logic-input = Input
-signal-port-description-logic-input = Input to the edge detector, cannot be a pulse signal.
+signal-port-name-logic-input = 输入
+signal-port-description-logic-input = 边沿检测器的输入，不能是脉冲信号。
 
-signal-port-description-logic-memory-input = Signal to load into the memory cell, when enabled.
+signal-port-description-logic-memory-input = 启用时载入存储单元的信号。
 
-signal-port-name-logic-enable = Enable
-signal-port-description-logic-enable = Only loads the input signal into the memory cell when HIGH.
+signal-port-name-logic-enable = 启用
+signal-port-description-logic-enable = 仅当信号为高电平时将输入信号载入存储单元。

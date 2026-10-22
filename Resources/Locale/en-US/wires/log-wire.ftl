@@ -1,1 +1,1 @@
-log-wire-pulse-access-log = ERROR: Electromagnetic spike detected
+log-wire-pulse-access-log = 错误：检测到电磁尖峰

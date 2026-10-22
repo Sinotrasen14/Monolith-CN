@@ -1,14 +1,14 @@
 discord-watchlist-connection-header =
     { $players ->
-        [one] {$players} player on a watchlist has
-        *[other] {$players} players on a watchlist have
-    } connected to {$serverName}
+        [one] {$players} 名观察名单中的玩家已
+        *[other] {$players} 名观察名单中的玩家已
+    } 连接到 {$serverName}
 
-discord-watchlist-connection-entry = - {$playerName} with message "{$message}"{ $expiry ->
+discord-watchlist-connection-entry = - {$playerName}，消息为“{$message}”{ $expiry ->
         [0] {""}
-        *[other] {" "}(expires <t:{$expiry}:R>)
+        *[other] {" "}（<t:{$expiry}:R> 过期）
     }{ $otherWatchlists ->
         [0] {""}
-        [one] {" "}and {$otherWatchlists} other watchlist
-        *[other] {" "}and {$otherWatchlists} other watchlists
+        [one] {" "}以及 {$otherWatchlists} 个其他观察名单
+        *[other] {" "}以及 {$otherWatchlists} 个其他观察名单
     }

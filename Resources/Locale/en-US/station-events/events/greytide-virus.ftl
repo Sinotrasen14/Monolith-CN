@@ -1,1 +1,1 @@
-station-event-greytide-virus-start-announcement = Gr3y.T1d3 virus detected in the station's secure locking encryption subroutines. Severity level of { $severity }. Recommend station AI involvement.
+station-event-greytide-virus-start-announcement = 在空间站的安全锁定加密子程序中检测到 Gr3y.T1d3 病毒。严重程度为 { $severity }。建议空间站 AI 介入。

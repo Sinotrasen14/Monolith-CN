@@ -1,4 +1,4 @@
-department-Cargo = Cargo
+department-Cargo = 货舱
 department-Civilian = 平民
 # department-Command = Command # Frontier: redefined in _NF
 department-CentralCommand = 中央指挥部

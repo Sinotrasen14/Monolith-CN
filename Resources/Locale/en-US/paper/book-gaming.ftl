@@ -1,31 +1,31 @@
-book-text-gaming1 = Can't stay for the game.
-      Engineering want me to keep a close eye on the singularity SMESes.
-      Leaving this so you know what's up.
-      Sorry.
+book-text-gaming1 = 没法留下来参加游戏了。
+      工程部要我一直盯着奇点SMES。
+      留这个给你，让你知道怎么回事。
+      抱歉。
        - Alexander
 
 book-text-gaming2 = Johny Clowe
-      Class: Druid
-      Alignment: Neutral Good
-      Str: 1,294,139
-      Dex: 4,102,103
-      Con: 9,522,913
-      Int: 528,491
-      Wis: 1
-      Cha: 1
-      Where's the age?
-      Why are those ability scores so ridiculous?
-      What even are you trying to do here, Leah? - Your Friendly DM
+      职业：德鲁伊
+      阵营：中立善良
+      力量：1,294,139
+      敏捷：4,102,103
+      体质：9,522,913
+      智力：528,491
+      感知：1
+      魅力：1
+      年龄在哪？
+      为什么这些属性值这么离谱？
+      你到底想在这里做什么，Leah？ - 你友好的DM
 
-book-text-gaming3 = THE GIANT SPACE FLY FROM SPACE
-      Session 1: They should have just learned what's going on with the world and the Giant Space Fly.
-      Session 2: They should know to ask the Wizard's Court about seismic distortions.
-      Session 3: On their way to underground lair.
-      Session 4: Just ran into the Architect Of Flies.
-      Oh dear goodness they just started randomly killing everybody
+book-text-gaming3 = 来自太空的巨型太空苍蝇
+      第1次团：他们本该弄清楚世界和巨型太空苍蝇到底怎么回事。
+      第2次团：他们应该知道去问巫师法庭关于地震扰动的事。
+      第3次团：在前往地下巢穴的路上。
+      第4次团：刚撞上了苍蝇建筑师。
+      我的天哪他们就这么开始随机杀人了
 
-book-text-gaming4 = Won't be able to come to the meet, chemist blew up the hospital again.
-      Fifth time this shift.
-      It's amazing.
-      But not in a good way.
-      Cheers, - Arielle
+book-text-gaming4 = 来不了聚会了，化学家又把医院炸了。
+      这班第五次了。
+      太惊人了。
+      但不是好的那种。
+      祝好， - Arielle

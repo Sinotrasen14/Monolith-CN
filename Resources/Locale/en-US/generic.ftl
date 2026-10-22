@@ -1,8 +1,8 @@
 ### Generic, general words, which fit into multiple contexts
 
-generic-not-available-shorthand = N/A
-generic-article-a = a
-generic-article-an = an
+generic-not-available-shorthand = 不适用
+generic-article-a = 一个
+generic-article-an = 一个
 
 generic-unknown = 未知
 generic-unknown-title = 未知

@@ -1,4 +1,4 @@
-carry-verb = Carry
+carry-verb = 搬运
 
-carry-too-heavy = You're not strong enough.
-carry-started = {THE($carrier)} is trying to pick you up!
+carry-too-heavy = 你力气不够。
+carry-started = {THE($carrier)} 正试图把你抱起来！

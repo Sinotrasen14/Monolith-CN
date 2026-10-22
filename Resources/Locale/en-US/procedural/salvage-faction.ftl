@@ -1,3 +1,3 @@
-salvage-faction-xenos = Xenos
+salvage-faction-xenos = 异形
 # Frontier: Carps<Carp
-salvage-faction-carps = Carps
+salvage-faction-carps = 鲤鱼

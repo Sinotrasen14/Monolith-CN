@@ -1,6 +1,6 @@
 ## EnterVerb
 
-medical-scanner-verb-enter = Enter
-medical-scanner-verb-noun-occupant = occupant
+medical-scanner-verb-enter = 进入
+medical-scanner-verb-noun-occupant = 乘员
 
-medical-scanner-upgrade-cloning = Cloning fail chance
+medical-scanner-upgrade-cloning = 克隆失败概率

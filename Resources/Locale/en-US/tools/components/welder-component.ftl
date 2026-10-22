@@ -1,4 +1,4 @@
-welder-component-welder-not-lit-message = The welder is turned off!
+welder-component-welder-not-lit-message = 焊枪已关闭！
 welder-component-cannot-weld-message = 焊枪没有足够的燃料！
 welder-component-no-fuel-message = 焊枪没有燃料了！
 welder-component-no-fuel-in-tank = 这 {$owner} 已经空了。
@@ -6,7 +6,7 @@ welder-component-on-examine-welder-lit-message = [color=orange]亮起[/color]
 welder-component-on-examine-welder-not-lit-message = 熄灭
 welder-component-on-examine-detailed-message = 燃料: [color={$colorName}]{$fuelLeft}/{$fuelCapacity}[/color]
     {$status}
-welder-component-on-examine-less-detailed-message = Fuel: [color={$colorName}]{$fuelLeft}/{$fuelCapacity}[/color]
+welder-component-on-examine-less-detailed-message = 燃料: [color={$colorName}]{$fuelLeft}/{$fuelCapacity}[/color]
 welder-component-suicide-lit-others-message = {$victim} 把自己的每个孔洞都焊死了！看起来他们想要自杀！
 welder-component-suicide-lit-message = 你把身上的每个孔洞都焊死了！
 welder-component-suicide-unlit-others-message = {$victim} 用未点燃的焊枪猛砸自己！

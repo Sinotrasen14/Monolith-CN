@@ -1,1 +1,1 @@
-﻿leporazine-effect-temperature-adjusting = You feel your body's temperature adjust rapidly.
+﻿leporazine-effect-temperature-adjusting = 你感到自己的体温在迅速调节。

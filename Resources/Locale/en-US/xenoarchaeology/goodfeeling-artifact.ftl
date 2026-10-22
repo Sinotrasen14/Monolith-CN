@@ -1,4 +1,4 @@
-goodfeeling-artifact-1 = You feel good.
+goodfeeling-artifact-1 = 你感觉很好。
 goodfeeling-artifact-2 = 一切看起来都很顺利
 goodfeeling-artifact-3 = 你对这有不错的感觉
 goodfeeling-artifact-4 = 你的直觉告诉你所有事都会朝好的方向发展的

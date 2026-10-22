@@ -1,4 +1,4 @@
-machine-insert-item = {CAPITALIZE(THE($user))} inserted {THE($item)} into {THE($machine)}.
+machine-insert-item = {CAPITALIZE(THE($user))} 将 {THE($item)} 放入了 {THE($machine)}。
 
 machine-upgrade-examinable-verb-text = 升级
 machine-upgrade-examinable-verb-message = 检查机器升级.
@@ -15,10 +15,10 @@ machine-part-name-matter-bin = 物质仓
 machine-part-name-power-cell = 电池
 # End Frontier
 
-upgrade-power-draw = power draw
-upgrade-max-charge = max charge
-upgrade-power-supply = power supply
-upgrade-power-supply-ramping = power ramp rate
+upgrade-power-draw = 功耗
+upgrade-max-charge = 最大充能
+upgrade-power-supply = 供电
+upgrade-power-supply-ramping = 功率爬升速率
 
 two-way-lever-left = 向左推
 two-way-lever-right = 向右推

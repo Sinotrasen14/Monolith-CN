@@ -1,88 +1,88 @@
-card-examined = This is the {$target}.
-cards-verb-shuffle = Shuffle
-card-verb-shuffle-success = Cards shuffled
-cards-verb-draw = Draw card
-cards-verb-flip = Flip cards
-card-verb-join = Join cards
-card-verb-organize-success = Cards flipped face { $facedown ->
-    [true]   down
-    *[false] up
+card-examined = 这是{$target}。
+cards-verb-shuffle = 洗牌
+card-verb-shuffle-success = 已洗牌
+cards-verb-draw = 抽牌
+cards-verb-flip = 翻牌
+card-verb-join = 合并牌
+card-verb-organize-success = 牌已翻至面{ $facedown ->
+    [true]   朝下
+    *[false] 朝上
 }
-cards-verb-organize-up = Flip cards face up
-cards-verb-organize-down = Flip cards face down
-cards-verb-pickcard = Pick a card
+cards-verb-organize-up = 将牌翻至面朝上
+cards-verb-organize-down = 将牌翻至面朝下
+cards-verb-pickcard = 选一张牌
 card-stack-examine = { $count ->
-    [one] There is {$count} card in this stack.
-    *[other] There are {$count} cards in this stack.
+    [one] 这叠牌中有{$count}张牌。
+    *[other] 这叠牌中有{$count}张牌。
 }
-cards-stackquantitychange-added = Card was added (Total cards: {$quantity})
-cards-stackquantitychange-removed = Card was removed (Total cards: {$quantity})
-cards-stackquantitychange-joined = Stack was merged (Total cards: {$quantity})
-cards-stackquantitychange-split = Stack was split (Total cards: {$quantity})
-cards-stackquantitychange-unknown = Stack count changed (Total cards: {$quantity})
-cards-verb-convert-to-deck = Convert to deck
-cards-verb-split = Split in half
+cards-stackquantitychange-added = 已添加牌（牌总数：{$quantity}）
+cards-stackquantitychange-removed = 已移除牌（牌总数：{$quantity}）
+cards-stackquantitychange-joined = 牌堆已合并（牌总数：{$quantity}）
+cards-stackquantitychange-split = 牌堆已拆分（牌总数：{$quantity}）
+cards-stackquantitychange-unknown = 牌堆数量已变化（牌总数：{$quantity}）
+cards-verb-convert-to-deck = 转换为牌堆
+cards-verb-split = 对半拆分
 
-card-base-name = card
-card-deck-name = deck of cards
+card-base-name = 牌
+card-deck-name = 一副牌
 
-card-sc-2-clubs = 2 of clubs
-card-sc-3-clubs = 3 of clubs
-card-sc-4-clubs = 4 of clubs
-card-sc-5-clubs = 5 of clubs
-card-sc-6-clubs = 6 of clubs
-card-sc-7-clubs = 7 of clubs
-card-sc-8-clubs = 8 of clubs
-card-sc-9-clubs = 9 of clubs
-card-sc-10-clubs = 10 of clubs
-card-sc-ace-clubs = ace of clubs
-card-sc-jack-clubs = jack of clubs
-card-sc-king-clubs = king of clubs
-card-sc-queen-clubs = queen of clubs
+card-sc-2-clubs = 梅花2
+card-sc-3-clubs = 梅花3
+card-sc-4-clubs = 梅花4
+card-sc-5-clubs = 梅花5
+card-sc-6-clubs = 梅花6
+card-sc-7-clubs = 梅花7
+card-sc-8-clubs = 梅花8
+card-sc-9-clubs = 梅花9
+card-sc-10-clubs = 梅花10
+card-sc-ace-clubs = 梅花A
+card-sc-jack-clubs = 梅花J
+card-sc-king-clubs = 梅花K
+card-sc-queen-clubs = 梅花Q
 
-card-sc-2-diamonds = 2 of diamonds
-card-sc-3-diamonds = 3 of diamonds
-card-sc-4-diamonds = 4 of diamonds
-card-sc-5-diamonds = 5 of diamonds
-card-sc-6-diamonds = 6 of diamonds
-card-sc-7-diamonds = 7 of diamonds
-card-sc-8-diamonds = 8 of diamonds
-card-sc-9-diamonds = 9 of diamonds
-card-sc-10-diamonds = 10 of diamonds
-card-sc-ace-diamonds = ace of diamonds
-card-sc-jack-diamonds = jack of diamonds
-card-sc-king-diamonds = king of diamonds
-card-sc-queen-diamonds = queen of diamonds
+card-sc-2-diamonds = 方块2
+card-sc-3-diamonds = 方块3
+card-sc-4-diamonds = 方块4
+card-sc-5-diamonds = 方块5
+card-sc-6-diamonds = 方块6
+card-sc-7-diamonds = 方块7
+card-sc-8-diamonds = 方块8
+card-sc-9-diamonds = 方块9
+card-sc-10-diamonds = 方块10
+card-sc-ace-diamonds = 方块A
+card-sc-jack-diamonds = 方块J
+card-sc-king-diamonds = 方块K
+card-sc-queen-diamonds = 方块Q
 
-card-sc-2-hearts = 2 of hearts
-card-sc-3-hearts = 3 of hearts
-card-sc-4-hearts = 4 of hearts
-card-sc-5-hearts = 5 of hearts
-card-sc-6-hearts = 6 of hearts
-card-sc-7-hearts = 7 of hearts
-card-sc-8-hearts = 8 of hearts
-card-sc-9-hearts = 9 of hearts
-card-sc-10-hearts = 10 of hearts
-card-sc-ace-hearts = ace of hearts
-card-sc-jack-hearts = jack of hearts
-card-sc-king-hearts = king of hearts
-card-sc-queen-hearts = queen of hearts
+card-sc-2-hearts = 红桃2
+card-sc-3-hearts = 红桃3
+card-sc-4-hearts = 红桃4
+card-sc-5-hearts = 红桃5
+card-sc-6-hearts = 红桃6
+card-sc-7-hearts = 红桃7
+card-sc-8-hearts = 红桃8
+card-sc-9-hearts = 红桃9
+card-sc-10-hearts = 红桃10
+card-sc-ace-hearts = 红桃A
+card-sc-jack-hearts = 红桃J
+card-sc-king-hearts = 红桃K
+card-sc-queen-hearts = 红桃Q
 
-card-sc-2-spades = 2 of spades
-card-sc-3-spades = 3 of spades
-card-sc-4-spades = 4 of spades
-card-sc-5-spades = 5 of spades
-card-sc-6-spades = 6 of spades
-card-sc-7-spades = 7 of spades
-card-sc-8-spades = 8 of spades
-card-sc-9-spades = 9 of spades
-card-sc-10-spades = 10 of spades
-card-sc-ace-spades = ace of spades
-card-sc-jack-spades = jack of spades
-card-sc-king-spades = king of spades
-card-sc-queen-spades = queen of spades
+card-sc-2-spades = 黑桃2
+card-sc-3-spades = 黑桃3
+card-sc-4-spades = 黑桃4
+card-sc-5-spades = 黑桃5
+card-sc-6-spades = 黑桃6
+card-sc-7-spades = 黑桃7
+card-sc-8-spades = 黑桃8
+card-sc-9-spades = 黑桃9
+card-sc-10-spades = 黑桃10
+card-sc-ace-spades = 黑桃A
+card-sc-jack-spades = 黑桃J
+card-sc-king-spades = 黑桃K
+card-sc-queen-spades = 黑桃Q
 
-card-sc-joker = joker
+card-sc-joker = 王牌
 
-container-sealed = A holographic security seal is on it. Opening it will have the seal dissipate.
-container-unsealed = The seal attached to it dissipates.
+container-sealed = 上面有一个全息安保封条。打开它会使封条消散。
+container-unsealed = 附着在其上的封条消散了。

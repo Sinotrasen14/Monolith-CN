@@ -1,1 +1,1 @@
-playtime-deny-reason-not-whitelisted = You need to be whitelisted.
+playtime-deny-reason-not-whitelisted = 你需要被加入白名单。

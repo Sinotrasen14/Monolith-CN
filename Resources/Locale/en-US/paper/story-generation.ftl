@@ -1,4 +1,4 @@
-story-gen-book-type1 = book
+story-gen-book-type1 = 书
 story-gen-book-type2 = 对开本
 story-gen-book-type3 = 收藏
 story-gen-book-type4 = 笔记
@@ -18,7 +18,7 @@ story-gen-book-genre4 = 诗歌
 story-gen-book-genre5 = 中篇小说
 story-gen-book-genre6 = 编年史
 story-gen-book-genre7 = 科幻作品
-story-gen-book-genre8 = fantasy story
+story-gen-book-genre8 = 奇幻故事
 story-gen-book-genre9 = 浪漫
 story-gen-book-genre10= 惊悚
 story-gen-book-genre11= 历史小说作品
@@ -230,15 +230,3 @@ story-gen-book-element-trait10 = 有趣
 story-gen-book-element-trait11 = 不足
 story-gen-book-element-trait12 = 悲伤
 story-gen-book-element-trait13 = 相当令人沮丧
-
-
-
-
-
-
-
-
-
-
-
-

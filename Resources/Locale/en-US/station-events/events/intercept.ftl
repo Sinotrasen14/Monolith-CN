@@ -1,1 +1,1 @@
-﻿station-event-communication-interception = Attention! Enemy communication intercepted. Security level elevated.
+﻿station-event-communication-interception = 注意！已截获敌方通讯。安保等级已提升。

@@ -1,1 +1,1 @@
-defusable-verb-begin = Begin countdown
+defusable-verb-begin = 开始倒计时

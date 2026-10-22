@@ -1,4 +1,4 @@
-job-name-warden = Warden
+job-name-warden = 典狱长
 job-name-security = 安保官员
 job-name-cadet = 安保学员
 job-name-hos = 安保主管

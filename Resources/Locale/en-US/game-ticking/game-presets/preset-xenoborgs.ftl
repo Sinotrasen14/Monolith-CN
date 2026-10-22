@@ -1,6 +1,6 @@
-xenoborgs-title = Xenoborgs
-xenoborgs-description = A Xenoborg Mothership was detected near the station. Stop them from turning every sentient being into a xenoborg.
+xenoborgs-title = 异星机械体
+xenoborgs-description = 在空间站附近检测到一艘异星机械体母舰。阻止他们将所有有感知生命体转化为异星机械体。
 
-xenoborgs-welcome = You're a xenoborg. Protect and help the mothership core to make more xenoborgs. and eventually turn all carbon-based life form into silicon.
+xenoborgs-welcome = 你是一个异星机械体。保护并帮助母舰核心制造更多异星机械体，并最终将所有碳基生命体转化为硅基生命体。
 
-mothership-welcome = You're the mothership core. Guide the xenoborgs so they can bring your materials and sentient brains so you can grow the xenoborg army and turn all carbon-based life form into silicon.
+mothership-welcome = 你是母舰核心。引导异星机械体为你带来材料和有感知的大脑，以便你壮大异星机械体军队，并将所有碳基生命体转化为硅基生命体。

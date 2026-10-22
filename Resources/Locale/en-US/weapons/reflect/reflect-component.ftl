@@ -1,1 +1,1 @@
-reflect-shot = Reflected!
+reflect-shot = 已反射！

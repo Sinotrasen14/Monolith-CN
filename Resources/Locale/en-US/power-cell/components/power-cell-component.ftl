@@ -1,4 +1,4 @@
-power-cell-component-examine-details = The charge indicator reads [color=#5E7C16]{$currentCharge}[/color] %.
-power-cell-component-examine-details-no-battery = There is no power cell inserted.
-power-cell-no-battery = No power cell found
-power-cell-insufficient = Insufficient power
+power-cell-component-examine-details = 电量指示器显示 [color=#5E7C16]{$currentCharge}[/color] %。
+power-cell-component-examine-details-no-battery = 未插入电池。
+power-cell-no-battery = 未找到电池
+power-cell-insufficient = 电量不足

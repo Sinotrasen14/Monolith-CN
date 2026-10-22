@@ -1,4 +1,4 @@
-reagent-name-cola = Space Cola
+reagent-name-cola = 太空可乐
 reagent-desc-cola = 一种甜味的碳酸软饮料。
 
 reagent-name-shirley-temple = 秀兰·邓波儿
@@ -54,4 +54,3 @@ reagent-desc-fourteen-loko = 一种高度加工的液体物质，勉强通过星
 
 reagent-name-shamblers-juice = 蹒跚怪果汁
 reagent-desc-shamblers-juice = ~给我摇点那个漫步者果汁！~
-

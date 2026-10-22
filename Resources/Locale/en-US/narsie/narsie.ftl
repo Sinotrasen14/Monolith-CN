@@ -1,2 +1,2 @@
-narsie-has-risen = NAR'SIE HAS RISEN
-narsie-has-risen-sender = ???
+narsie-has-risen = 纳西已降临
+narsie-has-risen-sender = ？？？

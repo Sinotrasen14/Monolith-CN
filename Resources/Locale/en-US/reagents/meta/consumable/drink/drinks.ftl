@@ -1,4 +1,4 @@
-reagent-name-coffee = coffee
+reagent-name-coffee = 咖啡
 reagent-desc-coffee = 一种用冲泡过的咖啡豆制成的饮品。含有适量的咖啡因。
 
 reagent-name-cream = 乳霜

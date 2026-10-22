@@ -1,3 +1,3 @@
-bucket-component-bucket-is-empty-message = Bucket is empty
-bucket-component-mop-is-now-wet-message = Mop is now wet
-bucket-component-mop-is-now-dry-message = Mop is now dry
+bucket-component-bucket-is-empty-message = 桶是空的
+bucket-component-mop-is-now-wet-message = 拖把现在是湿的
+bucket-component-mop-is-now-dry-message = 拖把现在是干的

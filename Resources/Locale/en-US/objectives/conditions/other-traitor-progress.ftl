@@ -1,1 +1,1 @@
-objective-condition-other-traitor-progress-title = Ensure fellow traitor {$targetName}, {CAPITALIZE($job)} achieves at least half their objectives.
+objective-condition-other-traitor-progress-title = 确保同为叛徒的 {$targetName}，{CAPITALIZE($job)} 至少完成一半目标。

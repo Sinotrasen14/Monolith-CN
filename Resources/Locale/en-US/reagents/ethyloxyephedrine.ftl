@@ -1,4 +1,4 @@
 ### Messages that pop up when metabolizing ethyloxyephedrine
 
-ethyloxyephedrine-effect-feeling-awake = You feel more awake.
-ethyloxyephedrine-effect-clear-mind = The fog of sleep before you clears away.
+ethyloxyephedrine-effect-feeling-awake = 你感觉更清醒了。
+ethyloxyephedrine-effect-clear-mind = 眼前的睡意迷雾消散了。

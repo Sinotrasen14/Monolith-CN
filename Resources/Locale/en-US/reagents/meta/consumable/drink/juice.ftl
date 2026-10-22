@@ -1,4 +1,4 @@
-reagent-name-juice-apple = apple juice
+reagent-name-juice-apple = 苹果汁
 reagent-desc-juice-apple = 这是一小片伊甸园。
 
 reagent-name-juice-banana = 香蕉汁

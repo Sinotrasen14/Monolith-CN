@@ -1,4 +1,4 @@
-ninja-gloves-on = The gloves surge with power!
+ninja-gloves-on = 手套涌动着力量！
 ninja-gloves-off = 手套已断电...
 ninja-gloves-not-wearing-suit = 你没有穿忍者套装
 ninja-gloves-examine-on = 所有功能已启用.

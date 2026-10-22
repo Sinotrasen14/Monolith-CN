@@ -1,86 +1,86 @@
-reagent-name-toxin = toxin
-reagent-desc-toxin = An unsurprisingly toxic chemical. Available at an emagged chem dispenser.
+reagent-name-toxin = 毒素
+reagent-desc-toxin = 一种毫不意外的有毒化学物质。可从被破解的化学分配器中获取。
 
-reagent-name-carpotoxin = carpotoxin
-reagent-desc-carpotoxin = A highly toxic reagent found in space carps. Causes a painful burning sensation.
+reagent-name-carpotoxin = 鲤鱼毒素
+reagent-desc-carpotoxin = 一种存在于太空鲤鱼体内的剧毒试剂。会引起疼痛的灼烧感。
 
-reagent-name-mold = mold
-reagent-desc-mold = A fungal growth, often found in dark, humid places or on expired bread. Will cause you to develop a disease if ingested.
+reagent-name-mold = 霉菌
+reagent-desc-mold = 一种真菌生长物，常见于阴暗潮湿的地方或过期面包上。摄入后会使你患上疾病。
 
-reagent-name-polytrinic-acid = polytrinic acid
-reagent-desc-polytrinic-acid = An extremely corrosive chemical substance. Severely burns anyone who comes directly into contact with it.
+reagent-name-polytrinic-acid = 多聚三酸
+reagent-desc-polytrinic-acid = 一种极具腐蚀性的化学物质。直接接触者会受到严重烧伤。
 
-reagent-name-chloral-hydrate = chloral hydrate
-reagent-desc-chloral-hydrate = A sedative and hypnotic chemical. Commonly used to put other people to sleep, whether they want to or not.
+reagent-name-chloral-hydrate = 水合氯醛
+reagent-desc-chloral-hydrate = 一种镇静催眠化学物质。常用于使他人入睡，无论其是否愿意。
 
-reagent-name-gastrotoxin = gastrotoxin
-reagent-desc-gastrotoxin = A moderately toxic byproduct of decomposition. Most commonly found in spoiled food.
+reagent-name-gastrotoxin = 胃肠毒素
+reagent-desc-gastrotoxin = 一种分解产生的中等毒性副产物。最常见于变质食物中。
 
-reagent-name-ferrochromic-acid = ferrochromic acid
-reagent-desc-ferrochromic-acid = A mildy corrosive solution, unable of causing severe danger unless ingested.
+reagent-name-ferrochromic-acid = 铁铬酸
+reagent-desc-ferrochromic-acid = 一种轻度腐蚀性溶液，除非摄入，否则不会造成严重危险。
 
-reagent-name-fluorosulfuric-acid = fluorosulfuric acid
-reagent-desc-fluorosulfuric-acid = A highly corrosive chemical, capable of leaving quite a mark on your skin.
+reagent-name-fluorosulfuric-acid = 氟硫酸
+reagent-desc-fluorosulfuric-acid = 一种高腐蚀性化学物质，能在你的皮肤上留下相当明显的痕迹。
 
-reagent-name-sulfuric-acid = sulfuric acid
-reagent-desc-sulfuric-acid = A corrosive chemical. Keep away from your face.
+reagent-name-sulfuric-acid = 硫酸
+reagent-desc-sulfuric-acid = 一种腐蚀性化学物质。请远离你的面部。
 
-reagent-name-unstable-mutagen = unstable mutagen
-reagent-desc-unstable-mutagen = Causes mutations when injected into living people or plants. High doses may be lethal, especially in humans.
+reagent-name-unstable-mutagen = 不稳定诱变剂
+reagent-desc-unstable-mutagen = 注入活人或植物体内会引起突变。高剂量可能致命，尤其是对人类。
 
-reagent-name-heartbreaker-toxin = heartbreaker toxin
-reagent-desc-heartbreaker-toxin = A hallucinogenic compound derived from mindbreaker toxin. it blocks neurological signals to the respiratory system, causing asphyxiation. Dexalin plus and epinephrine will filter it out, however.
+reagent-name-heartbreaker-toxin = 碎心毒素
+reagent-desc-heartbreaker-toxin = 一种衍生自失智毒素的致幻化合物。它会阻断通往呼吸系统的神经信号，导致窒息。不过，右旋糖酐加和肾上腺素可以将其过滤掉。
 
-reagent-name-lexorin = lexorin
-reagent-desc-lexorin = A fast-acting chemical used to asphyxiate people rapidly.
+reagent-name-lexorin = 勒克索林
+reagent-desc-lexorin = 一种速效化学物质，可使人迅速窒息。
 
-reagent-name-mindbreaker-toxin = mindbreaker toxin
-reagent-desc-mindbreaker-toxin = A potent hallucinogenic compound that is formerly known as LSD.
+reagent-name-mindbreaker-toxin = 失智毒素
+reagent-desc-mindbreaker-toxin = 一种强效致幻化合物，旧称LSD。
 
-reagent-name-histamine = histamine
-reagent-desc-histamine = A chemical caused by allergenics reacting with antibodies. Lethal at large quantities.
+reagent-name-histamine = 组胺
+reagent-desc-histamine = 过敏原与抗体反应产生的一种化学物质。大量时致命。
 
-reagent-name-theobromine = theobromine
-reagent-desc-theobromine = A bitter alkaloid of the cacao plant, commonly found in chocolate. Do not feed to animals.
+reagent-name-theobromine = 可可碱
+reagent-desc-theobromine = 可可植物中的一种苦味生物碱，常见于巧克力中。请勿喂给动物。
 
-reagent-name-amatoxin = amatoxin
-reagent-desc-amatoxin = A deadly toxin found in some mushrooms, primarily fly amanita. Small doses can be lethal.
+reagent-name-amatoxin = 鹅膏毒素
+reagent-desc-amatoxin = 一种存在于某些蘑菇中的致命毒素，主要是毒蝇伞。小剂量即可致命。
 
-reagent-name-vent-crud = vent crud
-reagent-desc-vent-crud = A jet black substance found in poorly maintained ventilation systems. Can cause vent cough.
+reagent-name-vent-crud = 通风口污垢
+reagent-desc-vent-crud = 一种在维护不良的通风系统中发现的漆黑物质。可引起通风口咳嗽。
 
-reagent-name-romerol = romerol
-reagent-desc-romerol = An otherworldly concoction able to bring the undead to life. If untreated, the effects are irreversible and will bring certain doom upon the station. Handle with care.
+reagent-name-romerol = 罗梅罗
+reagent-desc-romerol = 一种能让亡灵复生的异界混合物。若不加以治疗，其效果不可逆转，并将给空间站带来必然的毁灭。请小心处理。
 
-reagent-name-uncooked-animal-proteins = uncooked animal proteins
-reagent-desc-uncooked-animal-proteins = This is very risky for the stomachs of softer lifeforms to digest.
+reagent-name-uncooked-animal-proteins = 未煮熟的动物蛋白
+reagent-desc-uncooked-animal-proteins = 对于较柔弱生命体的肠胃来说，消化这些物质风险极高。
 
-reagent-name-allicin = allicin
-reagent-desc-allicin = An organosulfur compound found in alliums like garlic, onions, and related plants.
+reagent-name-allicin = 大蒜素
+reagent-desc-allicin = 一种存在于大蒜、洋葱及相关植物等葱属植物中的有机硫化合物。
 
-reagent-name-pax = pax
-reagent-desc-pax = A psychiatric chemical which prevents the patient from directly harming anyone.
+reagent-name-pax = 和平素
+reagent-desc-pax = 一种精神科化学物质，可防止患者直接伤害任何人。
 
 reagent-name-honk = honk
-reagent-desc-honk = A toxin found in bananium. Causes severe honking and internal bleeding, may also cause the patient to mutate.
+reagent-desc-honk = 一种存在于蕉矿中的毒素。会引起严重的honk声和内出血，还可能导致患者发生突变。
 
-reagent-name-lead = lead
-reagent-desc-lead = A slow-acting but incredibly lethal toxin found in steel, albeit in trace amounts. Tasteless.
+reagent-name-lead = 铅
+reagent-desc-lead = 一种在钢铁中发现的缓慢起效但极其致命的毒素，尽管含量极微。无味。
 
-reagent-name-bungotoxin = bungotoxin
-reagent-desc-bungotoxin = A moderately slow-acting poison found within the pit of the bungo fruit.
+reagent-name-bungotoxin = 邦果毒素
+reagent-desc-bungotoxin = 一种存在于邦果果实核中的中等缓慢起效的毒物。
 
-reagent-name-vestine = vestine
-reagent-desc-vestine = Has an adverse reaction within the body causing major jittering. While not particularly useful on its own, it can be used to produce a small variety of chemicals.
+reagent-name-vestine = 维斯汀
+reagent-desc-vestine = 在体内会产生不良反应，引起剧烈颤抖。虽然单独使用并无特别用途，但可用于生产少量多种化学物质。
 
-reagent-name-tazinide = tazinide
-reagent-desc-tazinide = A highly dangerous metallic mixture which can interfere with most movement through an electrifying current.
+reagent-name-tazinide = 塔齐尼德
+reagent-desc-tazinide = 一种高度危险的金属混合物，可通过电流干扰大多数移动能力。
 
-reagent-name-lipolicide = lipolicide
-reagent-desc-lipolicide = A powerful toxin that will destroy fat cells, massively reducing body weight in a short time. Deadly to those without nutriment in their body.
+reagent-name-lipolicide = 溶脂素
+reagent-desc-lipolicide = 一种强效毒素，能摧毁脂肪细胞，在短时间内大幅减轻体重。对体内缺乏营养的人致命。
 
-reagent-name-mechanotoxin = mechanotoxin
-reagent-desc-mechanotoxin = A neurotoxin used as venom by some species of spider. Degrades movement when built up.
+reagent-name-mechanotoxin = 机械毒素
+reagent-desc-mechanotoxin = 某些蜘蛛物种用作毒液的神经毒素。积累后会降低移动能力。
 
-reagent-name-toxintrash = trash 
-reagent-desc-toxintrash = An awful-smelling fluid. Deadly to non-vox.
+reagent-name-toxintrash = 垃圾
+reagent-desc-toxintrash = 一种气味难闻的液体。对非沃克斯人致命。

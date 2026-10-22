@@ -1,11 +1,11 @@
-cmd-motd-desc = Prints or sets the Message Of The Day.
+cmd-motd-desc = 打印或设置每日消息。
 cmd-motd-help = motd [ message... ]
-cmd-get-motd-desc = Prints the Message Of The Day.
+cmd-get-motd-desc = 打印每日消息。
 cmd-get-motd-help = get-motd
-cmd-set-motd-desc = Sets or clears the Message Of The Day.
+cmd-set-motd-desc = 设置或清除每日消息。
 cmd-set-motd-help = set-motd [ message... ]
 cmd-set-motd-hint-head = [ message... ]
 cmd-set-motd-hint-cont = [ ...message... ]
-cmd-set-motd-cleared-motd-message = Cleared the Message of the Day.
-cmd-set-motd-set-motd-message = Set the Message Of The Day to "{$motd}".
-motd-wrap-message = Message of the Day: {$motd}
+cmd-set-motd-cleared-motd-message = 已清除每日消息。
+cmd-set-motd-set-motd-message = 已将每日消息设置为“{$motd}”。
+motd-wrap-message = 每日消息：{$motd}

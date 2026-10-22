@@ -1,59 +1,59 @@
-marking-TattooVoxHeartLeftArm-heart_l_arm = Vox Left Arm Tattoo (Heart)
-marking-TattooVoxHeartLeftArm = Vox Left Arm Tattoo (Heart)
+marking-TattooVoxHeartLeftArm-heart_l_arm = 沃克斯左臂纹身（心形）
+marking-TattooVoxHeartLeftArm = 沃克斯左臂纹身（心形）
 
-marking-TattooVoxHeartRightArm-heart_r_arm = Vox Right Arm Tattoo (Heart)
-marking-TattooVoxHeartRightArm = Vox Right Arm Tattoo (Heart)
+marking-TattooVoxHeartRightArm-heart_r_arm = 沃克斯右臂纹身（心形）
+marking-TattooVoxHeartRightArm = 沃克斯右臂纹身（心形）
 
-marking-TattooVoxHiveChest-hive_s = Vox Chest Tattoo (hive)
-marking-TattooVoxHiveChest = Vox Chest Tattoo (hive)
+marking-TattooVoxHiveChest-hive_s = 沃克斯胸部纹身（蜂巢）
+marking-TattooVoxHiveChest = 沃克斯胸部纹身（蜂巢）
 
-marking-TattooVoxNightlingChest-nightling_s = Vox Chest Tattoo (nightling)
-marking-TattooVoxNightlingChest = Vox Chest Tattoo (nightling)
+marking-TattooVoxNightlingChest-nightling_s = 沃克斯胸部纹身（夜灵）
+marking-TattooVoxNightlingChest = 沃克斯胸部纹身（夜灵）
 
-marking-VoxScarEyeRight-vox_scar_eye_right = Right Eye Scar
-marking-VoxScarEyeRight = Eye Scar (Right)
+marking-VoxScarEyeRight-vox_scar_eye_right = 右眼疤痕
+marking-VoxScarEyeRight = 眼部疤痕（右）
 
-marking-VoxScarEyeLeft-vox_scar_eye_left = Left Eye Scar
-marking-VoxScarEyeLeft = Eye Scar (Left)
+marking-VoxScarEyeLeft-vox_scar_eye_left = 左眼疤痕
+marking-VoxScarEyeLeft = 眼部疤痕（左）
 
-marking-VoxScarTopSurgeryShort-vox_scar_top_surgery_short = Thoracotomy Scar
-marking-VoxScarTopSurgeryShort = Thoracotomy Scar
+marking-VoxScarTopSurgeryShort-vox_scar_top_surgery_short = 开胸手术疤痕
+marking-VoxScarTopSurgeryShort = 开胸手术疤痕
 
-marking-VoxScarTopSurgeryLong-vox_scar_top_surgery_long = Clamshell Scar
-marking-VoxScarTopSurgeryLong = Clamshell Scar
+marking-VoxScarTopSurgeryLong-vox_scar_top_surgery_long = 蚌壳式手术疤痕
+marking-VoxScarTopSurgeryLong = 蚌壳式手术疤痕
 
-marking-VoxScarChest-vox_scar_chest = Chest Scar
-marking-VoxScarChest = Chest Scar
+marking-VoxScarChest-vox_scar_chest = 胸部疤痕
+marking-VoxScarChest = 胸部疤痕
 
-marking-VoxScarNeck-vox_scar_neck = Neck Scar
-marking-VoxScarNeck = Neck Scar
+marking-VoxScarNeck-vox_scar_neck = 颈部疤痕
+marking-VoxScarNeck = 颈部疤痕
 
-marking-VoxScarChestBullets-vox_scar_chest_bullets = Bullet Holes Scar
-marking-VoxScarChestBullets = Chest Scar (Bullets)
+marking-VoxScarChestBullets-vox_scar_chest_bullets = 弹孔疤痕
+marking-VoxScarChestBullets = 胸部疤痕（弹孔）
 
-marking-VoxScarStomachBullets-vox_scar_stomach_bullets = Bullet Holes Scar
-marking-VoxScarStomachBullets = Stomach Scar (Bullets)
+marking-VoxScarStomachBullets-vox_scar_stomach_bullets = 弹孔疤痕
+marking-VoxScarStomachBullets = 腹部疤痕（弹孔）
 
-marking-VoxScarFace1-vox_scar_face_1 = Face Scar
-marking-VoxScarFace1 = Face Scar (Large)
+marking-VoxScarFace1-vox_scar_face_1 = 面部疤痕
+marking-VoxScarFace1 = 面部疤痕（大）
 
-marking-VoxScarFace2-vox_scar_face_2 = Face Scar
-marking-VoxScarFace2 = Face Scar (Small)
+marking-VoxScarFace2-vox_scar_face_2 = 面部疤痕
+marking-VoxScarFace2 = 面部疤痕（小）
 
-marking-VoxScarEyeRightSmall-vox_scar_eye_right_small = Right Eye Scar (Small)
-marking-VoxScarEyeRightSmall = Small Eye Scar (Right)
+marking-VoxScarEyeRightSmall-vox_scar_eye_right_small = 右眼疤痕（小）
+marking-VoxScarEyeRightSmall = 小眼部疤痕（右）
 
-marking-VoxScarEyeLeftSmall-vox_scar_eye_left_small = Left Eye Scar (Small)
-marking-VoxScarEyeLeftSmall = Small Eye Scar (Left)
+marking-VoxScarEyeLeftSmall-vox_scar_eye_left_small = 左眼疤痕（小）
+marking-VoxScarEyeLeftSmall = 小眼部疤痕（左）
 
-marking-VoxTailShort-vox_tail_small = Vox Tail (Short)
-marking-VoxTailShort = Vox Tail (Short)
+marking-VoxTailShort-vox_tail_small = 沃克斯尾巴（短）
+marking-VoxTailShort = 沃克斯尾巴（短）
 
-marking-VoxTailBig-vox_tail_big = Vox Tail (Big)
-marking-VoxTailBig = Vox Tail (Big)
+marking-VoxTailBig-vox_tail_big = 沃克斯尾巴（大）
+marking-VoxTailBig = 沃克斯尾巴（大）
 
-marking-VoxTailSpikes-vox_tail_spikes = Vox Tail (Spiked)
-marking-VoxTailSpikes = Vox Tail (Spiked)
+marking-VoxTailSpikes-vox_tail_spikes = 沃克斯尾巴（带刺）
+marking-VoxTailSpikes = 沃克斯尾巴（带刺）
 
-marking-VoxTailDocked-vox_tail_docked = Vox Tail (Vestigial)
-marking-VoxTailDocked = Vox Tail (Vestigial)
+marking-VoxTailDocked-vox_tail_docked = 沃克斯尾巴（退化）
+marking-VoxTailDocked = 沃克斯尾巴（退化）

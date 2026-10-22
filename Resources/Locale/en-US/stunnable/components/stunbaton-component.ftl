@@ -1,16 +1,16 @@
 ﻿### Stunbaton component
 
-comp-stunbaton-stun = Stunned
+comp-stunbaton-stun = 眩晕
 
 ## Used when examining the stunbaton
 
-comp-stunbaton-examined-on = The light is currently [color=darkgreen]on[/color].
-comp-stunbaton-examined-off = The light is currently [color=darkred]off[/color]
+comp-stunbaton-examined-on = 指示灯当前为[color=darkgreen]开启[/color]状态。
+comp-stunbaton-examined-off = 指示灯当前为[color=darkred]关闭[/color]状态
 
 ## Used when activating the stunbaton, depending on the state of its cell.
 
-comp-stunbaton-activated-low-charge = Insufficient charge...
+comp-stunbaton-activated-low-charge = 电量不足……
 
-stunbaton-component-low-charge = Insufficient charge...
-stunbaton-component-on-examine = The light is currently [color=darkgreen]on[/color].
-stunbaton-component-on-examine-charge = The charge indicator reads [color=#5E7C16]{$charge}[/color] %
+stunbaton-component-low-charge = 电量不足……
+stunbaton-component-on-examine = 指示灯当前为[color=darkgreen]开启[/color]状态。
+stunbaton-component-on-examine-charge = 电量指示器读数为 [color=#5E7C16]{$charge}[/color] %

@@ -1,4 +1,4 @@
-wires-panel-component-on-examine-open = The [color=lightgray]maintenance panel[/color] is [color=red]open[/color].
-wires-panel-component-on-examine-closed = The [color=lightgray]maintenance panel[/color] is [color=darkgreen]closed[/color].
+wires-panel-component-on-examine-open = [color=lightgray]维修面板[/color]是[color=red]打开的[/color]。
+wires-panel-component-on-examine-closed = [color=lightgray]维修面板[/color]是[color=darkgreen]关闭的[/color]。
 
-wires-panel-verb-view-panel = View maintenance panel
+wires-panel-verb-view-panel = 查看维修面板

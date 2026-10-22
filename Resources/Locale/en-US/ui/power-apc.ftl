@@ -1,7 +1,7 @@
 apc-menu-title = 区域电力控制器APC
 apc-menu-breaker-label = 断路器
 apc-menu-breaker-button = 切换
-apc-menu-power-label = LOAD (W)
+apc-menu-power-label = 负载（瓦）
 apc-menu-external-label = 外部电源
 apc-menu-charge-label = {$percent} 已充能
 

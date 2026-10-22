@@ -1,4 +1,4 @@
-stamp-component-stamped-name-default = A very important person
+stamp-component-stamped-name-default = 一位非常重要的人物
 stamp-component-stamped-name-detective = 侦探
 stamp-component-stamped-name-mime = 默剧
 stamp-component-stamped-name-captain = 船长

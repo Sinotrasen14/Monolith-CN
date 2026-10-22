@@ -1,4 +1,4 @@
-marking-HumanNoseSchnozz = Schnozz
+marking-HumanNoseSchnozz = 大鼻子
 marking-HumanNoseSchnozz-schnozz = 鼻子
 
 marking-HumanNoseNubby = 蒜头鼻

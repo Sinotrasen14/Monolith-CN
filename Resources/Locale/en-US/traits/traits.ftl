@@ -1,4 +1,4 @@
-trait-blindness-name = Blindness
+trait-blindness-name = 失明
 trait-blindness-desc = 你是法定盲人，看不清前方几米以外的东西.
 
 trait-poor-vision-name = 近视
@@ -30,8 +30,8 @@ trait-pirate-accent-desc = 你说话就像海盗一样!
 trait-accentless-name = 字正腔圆
 trait-accentless-desc = 你没有你种族通常会有的口音
 
-trait-wheelchair-bound-name = Wheelchair-bound
-trait-wheelchair-bound-desc = You cannot move without your wheelchair. Wheelchair included.
+trait-wheelchair-bound-name = 轮椅束缚
+trait-wheelchair-bound-desc = 没有轮椅你就无法移动。轮椅已包含在内。
 
 trait-frontal-lisp-name = 口齿不清
 trait-frontal-lisp-desc = 李嗦话怎么大舌头呀?
@@ -67,5 +67,5 @@ trait-painnumbness-name = 麻木
 trait-painnumbness-desc = 你感觉不到任何疼痛，无法感知到自己可能受到了多大的伤害.
 
 # Mono
-trait-russian-name = Russian accent
-trait-russian-desc = You reek of vodka smell.
+trait-russian-name = 俄罗斯口音
+trait-russian-desc = 你浑身散发着伏特加的气味。

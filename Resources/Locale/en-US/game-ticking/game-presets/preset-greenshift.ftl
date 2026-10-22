@@ -1,2 +1,2 @@
 greenshift-title = Greenshift
-greenshift-description = An event-less preset for admin events to play through without interference.
+greenshift-description = 一个无事件的预设，供管理员事件不受干扰地进行。

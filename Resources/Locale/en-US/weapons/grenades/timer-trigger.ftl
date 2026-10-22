@@ -1,16 +1,15 @@
+verb-trigger-timer-set = {$time} 秒
+verb-trigger-timer-set-current = {$time} 秒（当前）
+verb-trigger-timer-cycle = 循环时间延迟
 
-verb-trigger-timer-set = {$time} Seconds
-verb-trigger-timer-set-current = {$time} Seconds (current)
-verb-trigger-timer-cycle = Cycle Time Delay
+examine-trigger-timer = 计时器设定为 {$time} 秒。
 
-examine-trigger-timer = The timer is set to {$time} seconds.
+popup-trigger-timer-set = 计时器已设定为 {$time} 秒。
 
-popup-trigger-timer-set = Timer set to {$time} seconds.
+verb-start-detonation = 开始引爆
 
-verb-start-detonation = Start detonation
+verb-toggle-start-on-stick = 切换自动激活
+popup-start-on-stick-off = 该装置在放置后将不再自动激活
+popup-start-on-stick-on = 该装置在放置后将自动激活
 
-verb-toggle-start-on-stick = Toggle auto-activation
-popup-start-on-stick-off = The device will no longer activate automatically when planted
-popup-start-on-stick-on = The device will now activate automatically when planted
-
-trigger-activated = You activate {THE($device)}.
+trigger-activated = 你激活了 {THE($device)}。

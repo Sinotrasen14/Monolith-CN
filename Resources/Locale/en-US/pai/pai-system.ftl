@@ -1,25 +1,25 @@
-pai-system-pai-installed = A pAI is installed.
-pai-system-off = No pAI is installed.
-pai-system-still-searching = Still searching for a pAI.
-pai-system-searching = Now searching for a pAI...
+pai-system-pai-installed = 已安装 pAI。
+pai-system-off = 未安装 pAI。
+pai-system-still-searching = 仍在搜索 pAI。
+pai-system-searching = 正在搜索 pAI……
 
-pai-system-role-name = Personal AI
-pai-system-role-description = Be someone's electronic pal!
-                              (Memories *not* included.)
-pai-system-role-name-syndicate = Syndicate Personal AI
-pai-system-role-description-syndicate = Be someone's Syndicate pal!
-                                        (Memories *not* included.)
-pai-system-role-name-potato = Potato Artificial Intelligence
-pai-system-role-description-potato = It's a toy for children. And now you live in it.
+pai-system-role-name = 个人 AI
+pai-system-role-description = 成为某人的电子伙伴！
+                              （*不*包含记忆。）
+pai-system-role-name-syndicate = 辛迪加个人 AI
+pai-system-role-description-syndicate = 成为某人的辛迪加伙伴！
+                                        （*不*包含记忆。）
+pai-system-role-name-potato = 马铃薯人工智能
+pai-system-role-description-potato = 这是给孩子们的玩具。而现在你住在里面。
 
-pai-system-wipe-device-verb-text = Remove pAI
-pai-system-wiped-device = The pAI was wiped from the device.
+pai-system-wipe-device-verb-text = 移除 pAI
+pai-system-wiped-device = pAI 已从设备中抹除。
 
-pai-system-stop-searching-verb-text = Stop searching
-pai-system-stopped-searching = The device stopped searching for a pAI.
+pai-system-stop-searching-verb-text = 停止搜索
+pai-system-stopped-searching = 设备已停止搜索 pAI。
 
-pai-system-pai-name = { CAPITALIZE(THE($owner)) }'s pAI
-pai-system-pai-name-raw = {$name}'s pAI
+pai-system-pai-name = { CAPITALIZE(THE($owner)) }的 pAI
+pai-system-pai-name-raw = {$name}的 pAI
 
-pai-system-brick-popup = The pAI's circuits loudly pop and fizzle out!
-pai-system-scramble-popup = The pAI's circuits are overloaded with electricity!
+pai-system-brick-popup = pAI 的电路发出响亮的爆裂声并烧毁了！
+pai-system-scramble-popup = pAI 的电路被电流过载了！

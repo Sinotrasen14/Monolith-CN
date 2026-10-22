@@ -1,13 +1,13 @@
 # Damage examines
-damage-examinable-verb-text = Damage
-damage-examinable-verb-message = Examine the damage values.
+damage-examinable-verb-text = 伤害
+damage-examinable-verb-message = 检查伤害数值。
 
-damage-hitscan = hitscan
-damage-projectile = projectile
-damage-melee = melee
-damage-throw = throw
+damage-hitscan = 即时命中
+damage-projectile = 抛射物
+damage-melee = 近战
+damage-throw = 投掷
 
-damage-examine = It does the following damage:
-damage-examine-type = It does the following [color=cyan]{$type}[/color] damage:
-damage-value = - [color=red]{$amount}[/color] units of [color=yellow]{$type}[/color].
-damage-none = It does no damage.
+damage-examine = 它造成以下伤害：
+damage-examine-type = 它造成以下 [color=cyan]{$type}[/color] 伤害：
+damage-value = - [color=red]{$amount}[/color] 单位 [color=yellow]{$type}[/color]。
+damage-none = 它不造成伤害。

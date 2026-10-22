@@ -1,32 +1,32 @@
-reagent-name-oxygen = oxygen
-reagent-desc-oxygen = An oxidizing, colorless gas.
+reagent-name-oxygen = 氧气
+reagent-desc-oxygen = 一种氧化性无色气体。
 
-reagent-name-plasma = plasma
-reagent-desc-plasma = Funky, space-magic pixie dust. You probably shouldn't eat this, but we both know you will anyways.
+reagent-name-plasma = 等离子
+reagent-desc-plasma = 古怪的太空魔法小精灵粉尘。你大概不该吃这个，但我们都清楚你反正会吃。
 
-reagent-name-tritium = tritium
-reagent-desc-tritium = Radioactive space-magic pixie dust.
+reagent-name-tritium = 氚
+reagent-desc-tritium = 放射性的太空魔法小精灵粉尘。
 
-reagent-name-carbon-dioxide = carbon dioxide
-reagent-desc-carbon-dioxide = You have genuinely no idea what this is.
+reagent-name-carbon-dioxide = 二氧化碳
+reagent-desc-carbon-dioxide = 你完全不知道这是什么。
 
-reagent-name-nitrogen = nitrogen
-reagent-desc-nitrogen = A colorless, odorless unreactive gas. Highly stable.
+reagent-name-nitrogen = 氮气
+reagent-desc-nitrogen = 一种无色、无味、不活泼的气体。高度稳定。
 
-reagent-name-nitrous-oxide = nitrous oxide
-reagent-desc-nitrous-oxide = You know how everything seems funnier when you're tired? Well...
+reagent-name-nitrous-oxide = 一氧化二氮
+reagent-desc-nitrous-oxide = 你知道当你疲惫时，一切似乎都更好笑吗？嗯……
 
-reagent-name-frezon = frezon
-reagent-desc-frezon = A highly effective coolant.. and hallucinogenic.
+reagent-name-frezon = 弗里宗
+reagent-desc-frezon = 一种高效冷却剂……以及致幻剂。
 
 reagent-name-bz = bz
-reagent-desc-bz = A potent hallucinogenic that also puts slimes into stasis.
+reagent-desc-bz = 一种强效致幻剂，还能使史莱姆进入停滞状态。
 
-reagent-name-healium = healium
-reagent-desc-healium = A powerful sleeping agent with regenerative properties.
+reagent-name-healium = 疗气
+reagent-desc-healium = 一种强效催眠气体，具有再生特性。
 
-reagent-name-nitrium = nitrium
-reagent-desc-nitrium = A strong stimulant that will improve reflexes and stamina, though excessive inhalation may lead to lung failure.
+reagent-name-nitrium = 亚硝基兴奋气
+reagent-desc-nitrium = 一种强效兴奋剂，能改善反射和耐力，但过量吸入可能导致肺衰竭。
 
-reagent-name-pluoxium = pluoxium
-reagent-desc-pluoxium = A gas that could supply even more oxygen to the bloodstream when inhaled, without being an oxidizer.
+reagent-name-pluoxium = 钚罗索仑
+reagent-desc-pluoxium = 一种吸入后能为血液提供更多氧气的非氧化性气体。

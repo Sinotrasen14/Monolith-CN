@@ -1,2 +1,2 @@
-objective-condition-doorjack-title = Doorjack {$count} doors on the station.
-objective-condition-doorjack-description = Your gloves can emag airlocks. Do this to {$count} doors on the station.
+objective-condition-doorjack-title = 侵入空间站上的 {$count} 扇门。
+objective-condition-doorjack-description = 你的手套可以电磁干扰气闸。对空间站上的 {$count} 扇门执行此操作。

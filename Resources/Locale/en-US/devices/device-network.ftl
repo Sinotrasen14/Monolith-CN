@@ -1,34 +1,34 @@
 # named frequencies
-device-frequency-prototype-name-atmos = Atmospheric Devices
-device-frequency-prototype-name-suit-sensors = Suit Sensors
-device-frequency-prototype-name-crew-monitor = Crew Monitor
-device-frequency-prototype-name-lights = Smart Lights
-device-frequency-prototype-name-mailing-units = Mailing Units
-device-frequency-prototype-name-pdas = PDAs
-device-frequency-prototype-name-fax = Fax
-device-frequency-prototype-name-basic-device = Basic Devices
-device-frequency-prototype-name-cyborg-control = Cyborg Control
-device-frequency-prototype-name-robotics-console = Robotics Console
-device-frequency-prototype-name-xenoborg = Xenoborg
-device-frequency-prototype-name-mothership = Mothership
-device-frequency-prototype-name-turret = Sentry Turret
-device-frequency-prototype-name-turret-control = Sentry Turret Control
+device-frequency-prototype-name-atmos = 大气设备
+device-frequency-prototype-name-suit-sensors = 宇航服传感器
+device-frequency-prototype-name-crew-monitor = 船员监控器
+device-frequency-prototype-name-lights = 智能灯
+device-frequency-prototype-name-mailing-units = 邮件单元
+device-frequency-prototype-name-pdas = PDA
+device-frequency-prototype-name-fax = 传真机
+device-frequency-prototype-name-basic-device = 基础设备
+device-frequency-prototype-name-cyborg-control = 赛博控制
+device-frequency-prototype-name-robotics-console = 机器人控制台
+device-frequency-prototype-name-xenoborg = 异形赛博格
+device-frequency-prototype-name-mothership = 母舰
+device-frequency-prototype-name-turret = 哨戒炮塔
+device-frequency-prototype-name-turret-control = 哨戒炮塔控制
 
 ## camera frequencies
-device-frequency-prototype-name-surveillance-camera-test = Subnet Test
-device-frequency-prototype-name-surveillance-camera-engineering = Engineering Cameras
-device-frequency-prototype-name-surveillance-camera-security = Security Cameras
-device-frequency-prototype-name-surveillance-camera-science = Science Cameras
-device-frequency-prototype-name-surveillance-camera-supply = Supply Cameras
-device-frequency-prototype-name-surveillance-camera-command = Command Cameras
-device-frequency-prototype-name-surveillance-camera-service = Service Cameras
-device-frequency-prototype-name-surveillance-camera-medical = Medical Cameras
-device-frequency-prototype-name-surveillance-camera-general = General Cameras
-device-frequency-prototype-name-surveillance-camera-entertainment = Entertainment Cameras
-device-frequency-prototype-name-surveillance-camera-tsf = TSFMC Cameras
-device-frequency-prototype-name-surveillance-camera-Rogue = PDV Cameras
-device-frequency-prototype-name-surveillance-camera-USSP = USSP Cameras
-device-frequency-prototype-name-surveillance-camera-xenoborgs = Xenoborg camera
+device-frequency-prototype-name-surveillance-camera-test = 子网测试
+device-frequency-prototype-name-surveillance-camera-engineering = 工程部摄像头
+device-frequency-prototype-name-surveillance-camera-security = 安保摄像头
+device-frequency-prototype-name-surveillance-camera-science = 科学部摄像头
+device-frequency-prototype-name-surveillance-camera-supply = 货运部摄像头
+device-frequency-prototype-name-surveillance-camera-command = 指挥部摄像头
+device-frequency-prototype-name-surveillance-camera-service = 服务部摄像头
+device-frequency-prototype-name-surveillance-camera-medical = 医疗部摄像头
+device-frequency-prototype-name-surveillance-camera-general = 通用摄像头
+device-frequency-prototype-name-surveillance-camera-entertainment = 娱乐摄像头
+device-frequency-prototype-name-surveillance-camera-tsf = TSFMC 摄像头
+device-frequency-prototype-name-surveillance-camera-Rogue = PDV 摄像头
+device-frequency-prototype-name-surveillance-camera-USSP = USSP 摄像头
+device-frequency-prototype-name-surveillance-camera-xenoborgs = 异形赛博格摄像头
 
 
 # prefixes for randomly generated device addresses
@@ -50,13 +50,12 @@ device-address-prefix-air-alarm = AIR-
 
 device-address-prefix-sensor-monitor = MON-
 
-device-address-examine-message = The device's address is {$address}.
+device-address-examine-message = 该设备的地址是 {$address}。
 
 # Device net ID names
-device-net-id-private = Private
-device-net-id-wired = Wired
-device-net-id-wireless = Wireless
+device-net-id-private = 私有
+device-net-id-wired = 有线
+device-net-id-wireless = 无线
 device-net-id-apc = Apc
-device-net-id-atmos-devices = Atmos Devices
-device-net-id-reserved = Reserved
-
+device-net-id-atmos-devices = 大气设备
+device-net-id-reserved = 保留

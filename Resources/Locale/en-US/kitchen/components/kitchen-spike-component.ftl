@@ -1,18 +1,18 @@
-comp-kitchen-spike-deny-collect = { CAPITALIZE(THE($this)) } already has something on it, finish collecting its meat first!
-comp-kitchen-spike-deny-butcher = { CAPITALIZE(THE($victim)) } can't be butchered on { THE($this) }.
-comp-kitchen-spike-deny-butcher-knife = { CAPITALIZE(THE($victim)) } can't be butchered on { THE($this) }, you need to butcher it using a knife.
-comp-kitchen-spike-deny-not-dead = { CAPITALIZE(THE($victim)) } can't be butchered. { CAPITALIZE(SUBJECT($victim)) } { CONJUGATE-BE($victim) } is not dead!
+comp-kitchen-spike-deny-collect = { CAPITALIZE(THE($this)) }上面已经有东西了，先把它的肉取下来！
+comp-kitchen-spike-deny-butcher = { CAPITALIZE(THE($victim)) }不能在{ THE($this) }上被屠宰。
+comp-kitchen-spike-deny-butcher-knife = { CAPITALIZE(THE($victim)) }不能在{ THE($this) }上被屠宰，你需要用刀来屠宰它。
+comp-kitchen-spike-deny-not-dead = { CAPITALIZE(THE($victim)) }不能被屠宰。{ CAPITALIZE(SUBJECT($victim)) } { CONJUGATE-BE($victim) }还没死！
 
-comp-kitchen-spike-begin-hook-victim = { CAPITALIZE(THE($user)) } begins dragging you onto { THE($this) }!
-comp-kitchen-spike-begin-hook-self = You begin dragging yourself onto { THE($this) }!
+comp-kitchen-spike-begin-hook-victim = { CAPITALIZE(THE($user)) }开始把你拖到{ THE($this) }上！
+comp-kitchen-spike-begin-hook-self = 你开始把自己拖到{ THE($this) }上！
 
-comp-kitchen-spike-kill = { CAPITALIZE(THE($user)) } has forced { THE($victim) } onto the spike, killing them instantly!
+comp-kitchen-spike-kill = { CAPITALIZE(THE($user)) }把{ THE($victim) }强行按到了肉刺上，当场将其杀死！
 
-comp-kitchen-spike-suicide-other = { CAPITALIZE(THE($victim)) } has thrown themselves on a meat spike!
-comp-kitchen-spike-suicide-self = You throw yourself on a meat spike!
+comp-kitchen-spike-suicide-other = { CAPITALIZE(THE($victim)) }扑到了肉刺上！
+comp-kitchen-spike-suicide-self = 你扑到了肉刺上！
 
-comp-kitchen-spike-knife-needed = You need a knife to do this.
-comp-kitchen-spike-remove-meat = You remove some meat from { THE($victim) }.
-comp-kitchen-spike-remove-meat-last = You remove the last piece of meat from { THE($victim) }!
+comp-kitchen-spike-knife-needed = 你需要一把刀才能这样做。
+comp-kitchen-spike-remove-meat = 你从{ THE($victim) }身上取下了一些肉。
+comp-kitchen-spike-remove-meat-last = 你从{ THE($victim) }身上取下了最后一块肉！
 
-comp-kitchen-spike-meat-name = { $name } ({ $victim })
+comp-kitchen-spike-meat-name = { $name }（{ $victim }）

@@ -1,4 +1,4 @@
-figurines-hop-1 = Papers, please.
+figurines-hop-1 = 请出示证件。
 figurines-hop-2 = 你被解雇了。
 
 figurines-passenger-1 = 请乘客入座。

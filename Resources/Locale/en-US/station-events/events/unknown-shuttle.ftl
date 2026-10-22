@@ -1,1 +1,1 @@
-station-event-unknown-shuttle-incoming = Attention! An unidentified space shuttle has been spotted approaching your sector.
+station-event-unknown-shuttle-incoming = 注意！发现一艘不明穿梭机正在接近你所在星区。

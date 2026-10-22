@@ -1,4 +1,4 @@
-flavor-profile = Tastes {$flavor}.
+flavor-profile = 尝起来{$flavor}。
 flavor-profile-multiple = 尝起来{$flavors}和{$lastFlavor}。
 flavor-profile-unknown = 风味特征未知：尝起来难以形容。
 
@@ -114,7 +114,7 @@ flavor-complex-tomato = 喜欢西红柿
 flavor-complex-corn = 像玉米
 flavor-complex-banana = 喜欢香蕉
 flavor-complex-apple = 像苹果
-flavor-complex-pear = like pears
+flavor-complex-pear = 像梨
 # Frontier: cottons<cotton
 flavor-complex-cotton = 像棉花一样
 flavor-complex-bungo = 像热带甜味

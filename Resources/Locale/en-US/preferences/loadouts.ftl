@@ -1,12 +1,12 @@
 # Name
-loadout-name-edit-label = Sets a custom name to be used if you play this role. If empty, your character's name will be used instead.
-loadout-name-edit-label-dataset = Sets a custom name to be used if you play this role. If empty, a random name will be selected instead.
-loadout-name-edit-tooltip = {$max} characters max. If no name is specified a random one may be chosen for you.
+loadout-name-edit-label = 设置一个自定义名称，在你扮演此角色时使用。如果留空，将改用你的角色名称。
+loadout-name-edit-label-dataset = 设置一个自定义名称，在你扮演此角色时使用。如果留空，将随机选择一个名称。
+loadout-name-edit-tooltip = 最多 {$max} 个字符。如果未指定名称，可能会为你随机选择一个。
 
 # Restrictions
-loadout-restrictions = Restrictions
-loadouts-min-limit = Min count: {$count}
-loadouts-max-limit = Max count: {$count}
-loadouts-points-limit = Points: {$count} / {$max}
+loadout-restrictions = 限制
+loadouts-min-limit = 最小数量：{$count}
+loadouts-max-limit = 最大数量：{$count}
+loadouts-points-limit = 点数：{$count} / {$max}
 
-loadouts-points-restriction = Insufficient points
+loadouts-points-restriction = 点数不足

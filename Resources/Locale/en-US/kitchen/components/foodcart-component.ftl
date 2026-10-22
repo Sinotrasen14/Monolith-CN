@@ -1,4 +1,4 @@
-foodcart-slot-component-slot-name-coldsauce = Cold sauce
-foodcart-slot-component-slot-name-hotsauce = Hot sauce
-foodcart-slot-component-slot-name-bbqsauce = BBQ sauce
-foodcart-slot-component-slot-name-ketchup = Ketchup
+foodcart-slot-component-slot-name-coldsauce = 冷酱
+foodcart-slot-component-slot-name-hotsauce = 辣酱
+foodcart-slot-component-slot-name-bbqsauce = 烧烤酱
+foodcart-slot-component-slot-name-ketchup = 番茄酱

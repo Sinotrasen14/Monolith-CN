@@ -1,4 +1,4 @@
-marking-ScarEyeRight-scar_eye_right = Right Eye Scar
+marking-ScarEyeRight-scar_eye_right = 右眼疤痕
 marking-ScarEyeRight = 眼疤（右）
 
 marking-ScarEyeLeft-scar_eye_left = 左眼疤痕

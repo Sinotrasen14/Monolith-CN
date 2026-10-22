@@ -1,10 +1,10 @@
-guidebook-microwave-ingredients-header = Ingredients
-guidebook-microwave-cook-time-header = Cooking Time
+guidebook-microwave-ingredients-header = 原料
+guidebook-microwave-cook-time-header = 烹饪时间
 guidebook-microwave-cook-time =
     { $time ->
-        [0] Instant
-        [1] [bold]1[/bold] second
-       *[other] [bold]{$time}[/bold] seconds
+        [0] 瞬间
+        [1] [bold]1[/bold] 秒
+       *[other] [bold]{$time}[/bold] 秒
     }
 
 guidebook-microwave-reagent-color-display = [color={$color}]■[/color]

@@ -1,11 +1,11 @@
 ## ToiletComponent
 
-toilet-component-on-examine-found-hidden-item = There is something inside of the cistern!
-toilet-component-suicide-head-message-others = {CAPITALIZE(THE($victim))} sticks their head into {THE($owner)} and flushes it!
-toilet-component-suicide-head-message = You stick your head into {THE($owner)} and flush it!
-toilet-component-suicide-message-others = {CAPITALIZE(THE($victim))} bashes themselves with {THE($owner)}!
-toilet-component-suicide-message = You bash yourself with {THE($owner)}!
-toilet-seat-close = Close Seat
-toilet-seat-open = Open Seat
+toilet-component-on-examine-found-hidden-item = 水箱里面有东西！
+toilet-component-suicide-head-message-others = {CAPITALIZE(THE($victim))}把头伸进{THE($owner)}里并冲水！
+toilet-component-suicide-head-message = 你把头伸进{THE($owner)}里并冲水！
+toilet-component-suicide-message-others = {CAPITALIZE(THE($victim))}用{THE($owner)}猛砸自己！
+toilet-component-suicide-message = 你用{THE($owner)}猛砸自己！
+toilet-seat-close = 关闭座圈
+toilet-seat-open = 打开座圈
 
-plunger-unblock = You unblock the {THE($target)}!
+plunger-unblock = 你疏通了{THE($target)}！

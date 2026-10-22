@@ -1,4 +1,4 @@
-marking-SlimeGradientLeftArm-gradient_l_arm = Slime Left Arm (Gradient)
+marking-SlimeGradientLeftArm-gradient_l_arm = 史莱姆左臂（渐变）
 marking-SlimeGradientLeftArm = 史莱姆左臂（渐变）
 
 marking-SlimeGradientRightArm-gradient_r_arm = 史莱姆右臂（渐变）

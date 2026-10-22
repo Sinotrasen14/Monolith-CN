@@ -1,2 +1,2 @@
-node-scan-popup = The node ID is {$id}
-node-scan-tooltip = Scan artifact
+node-scan-popup = 节点 ID 为 {$id}
+node-scan-tooltip = 扫描制品

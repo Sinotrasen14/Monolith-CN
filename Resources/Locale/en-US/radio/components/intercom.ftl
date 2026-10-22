@@ -1,6 +1,6 @@
-﻿intercom-menu-title = Intercom
-intercom-channel-label = Channel:
-intercom-button-text-mic = Mic.
-intercom-button-text-speaker = Spkr.
-intercom-options-none = No channels
-intercom-flavor-text-left = Keep lines free of chatter
+﻿intercom-menu-title = 对讲机
+intercom-channel-label = 频道：
+intercom-button-text-mic = 麦克风
+intercom-button-text-speaker = 扬声器
+intercom-options-none = 无频道
+intercom-flavor-text-left = 保持线路无杂音

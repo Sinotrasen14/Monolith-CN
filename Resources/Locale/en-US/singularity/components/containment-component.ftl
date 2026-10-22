@@ -1,13 +1,13 @@
-﻿comp-containment-turned-on = The containment field generator boots up.
-comp-containment-turned-off = The containment field generator shuts down.
+﻿comp-containment-turned-on = 收容场发生器启动。
+comp-containment-turned-off = 收容场发生器关闭。
 
-comp-containment-on = It's switched [color=green]on[/color], ready to generate a connection.
-comp-containment-off = It's switched [color=red]off[/color].
+comp-containment-on = 它已[color=green]开启[/color]，随时可以建立连接。
+comp-containment-off = 它已[color=red]关闭[/color]。
 
-comp-containment-connected = The containment field generator shoots out a light as it establishes a connection!
-comp-containment-disconnected = The containment field generator light fades away, severing the connection.
+comp-containment-connected = 收容场发生器射出一道光芒，建立了连接！
+comp-containment-disconnected = 收容场发生器的光芒逐渐消退，连接已断开。
 
-comp-containment-anchor-warning = You cannot unanchor the containment field generator while it's on or connected!
-comp-containment-toggle-warning = You cannot turn the generator off while it's connected.
+comp-containment-anchor-warning = 收容场发生器在开启或连接状态下无法解除锚定！
+comp-containment-toggle-warning = 发生器在连接状态下无法关闭。
 
-comp-field-vaporized = The {$entity} hits the field and vaporizes into nothing!
+comp-field-vaporized = {$entity}撞上场并瞬间蒸发殆尽！

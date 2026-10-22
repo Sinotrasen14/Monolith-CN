@@ -1,17 +1,16 @@
-
 ## Entity
 
-crayon-drawing-label = Drawing: [color={$color}]{$state}[/color] ({$charges}/{$capacity})
-crayon-interact-not-enough-left-text = Not enough left.
-crayon-interact-used-up-text = The {$owner} got used up.
-crayon-interact-invalid-location = Can't reach there!
+crayon-drawing-label = 绘画：[color={$color}]{$state}[/color]（{$charges}/{$capacity}）
+crayon-interact-not-enough-left-text = 剩余不足。
+crayon-interact-used-up-text = {$owner}已用完。
+crayon-interact-invalid-location = 无法到达那里！
 
 ## UI
-crayon-window-title = Crayon
-crayon-window-placeholder = Search, or queue a comma-separated list of names
-crayon-category-1-brushes = Brushes
-crayon-category-2-alphanum = Numbers and letters
-crayon-category-3-symbols = Symbols
-crayon-category-4-info = Signs
-crayon-category-5-graffiti = Graffiti
-crayon-category-random = Random
+crayon-window-title = 蜡笔
+crayon-window-placeholder = 搜索，或以逗号分隔的名称列表排队
+crayon-category-1-brushes = 画笔
+crayon-category-2-alphanum = 数字和字母
+crayon-category-3-symbols = 符号
+crayon-category-4-info = 标志
+crayon-category-5-graffiti = 涂鸦
+crayon-category-random = 随机

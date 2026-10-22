@@ -1,6 +1,6 @@
 # Goobstation - Armor resisting syringe gun
-melee-inject-failed-armor = Your {$weapon} cannot inject through armor!
-melee-inject-failed-jumpsuit = You cannot inject through their protective suit!
+melee-inject-failed-armor = 你的{$weapon}无法穿透护甲注射！
+melee-inject-failed-jumpsuit = 你无法穿透他们的防护服注射！
 
 melee-balloon-pop = {CAPITALIZE(THE($balloon))} 弹出！
 

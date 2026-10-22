@@ -1,4 +1,4 @@
-ui-lobby-title = Lobby: {$serverName}
+ui-lobby-title = 大厅：{$serverName}
 ui-lobby-ahelp-button = 管理员帮助
 ui-lobby-options-button = 设置
 ui-lobby-leave-button = 退出

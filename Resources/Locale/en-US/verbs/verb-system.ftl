@@ -9,7 +9,7 @@ verb-self-target-pronoun = 你自己
 # verb categories & common verbs. These appear across multiple systems, so they may as well go here.
 
 verb-categories-admin = 管理
-verb-categories-debug = Debug
+verb-categories-debug = 调试
 verb-categories-examine = 检查
 verb-categories-eject = 弹出
 verb-categories-insert = 插入

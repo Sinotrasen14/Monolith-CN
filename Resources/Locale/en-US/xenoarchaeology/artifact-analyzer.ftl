@@ -27,8 +27,8 @@ analysis-console-info-value = 未提取的值: {$value}
 analysis-console-info-scanner = 扫描中...
 analysis-console-info-scanner-paused = 暂停
 analysis-console-progress-text = {$seconds ->
-    [one] T-{$seconds} second
-    *[other] T-{$seconds} seconds
+    [one] T-{$seconds} 秒
+    *[other] T-{$seconds} 秒
 }
 analysis-console-no-server-connected = 无法提取。没有服务器连接。
 analysis-console-no-artifact-placed = 扫描仪上没有任何伪影。

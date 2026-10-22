@@ -1,8 +1,8 @@
-rule-suspicion-added-announcement = There are traitors on the station! Find them, and kill them!
-rule-suspicion-traitor-time-has-run-out = Time has run out for the traitors!
-rule-suspicion-check-winner-stalemate = Everybody is dead, it's a stalemate!
-rule-suspicion-check-winner-station-win = The traitors are dead! The innocents win.
-rule-suspicion-check-winner-traitor-win = The innocents are dead! The traitors win.
-rule-suspicion-end-round-innocents-victory = The innocents have won!
-rule-suspicion-end-round-traitors-victory = The traitors have won!
-rule-suspicion-end-round-nobody-victory = Nobody wins!
+rule-suspicion-added-announcement = 空间站上有叛徒！找到他们，并杀死他们！
+rule-suspicion-traitor-time-has-run-out = 叛徒的时间已经用完了！
+rule-suspicion-check-winner-stalemate = 所有人都死了，这是僵局！
+rule-suspicion-check-winner-station-win = 叛徒已死！无辜者获胜。
+rule-suspicion-check-winner-traitor-win = 无辜者已死！叛徒获胜。
+rule-suspicion-end-round-innocents-victory = 无辜者获胜了！
+rule-suspicion-end-round-traitors-victory = 叛徒获胜了！
+rule-suspicion-end-round-nobody-victory = 无人获胜！

@@ -16,7 +16,7 @@ shell-wrong-arguments-number-need-specific = 缺少 {$properAmount} 参数， �
 shell-argument-must-be-number = 参数必须是数字
 shell-argument-must-be-boolean = 参数必须为布尔值
 shell-wrong-arguments-number = 参数数量错误
-shell-need-between-arguments = Need {$lower} to {$upper} arguments!
+shell-need-between-arguments = 需要 {$lower} 到 {$upper} 个参数！
 shell-need-minimum-arguments = 需要至少 {$minimum} 参数！
 shell-need-minimum-one-argument = 需要至少一个参数！
 shell-need-exactly-zero-arguments = 这个命令不需要任何参数。
@@ -40,12 +40,12 @@ shell-entity-target-lacks-component = 目标实体没有 {INDEFINITE($componentN
 shell-invalid-color-hex = 无效颜色十六进制码！
 shell-target-player-does-not-exist = 目标玩家不存在！
 shell-target-entity-does-not-have-message = 目标实体没有 {INDEFINITE($missing)} {$missing}!
-shell-timespan-minutes-must-be-correct = {$span} is not a valid minutes timespan.
+shell-timespan-minutes-must-be-correct = {$span} 不是有效的分钟时间跨度。
 shell-argument-must-be-prototype = 参数 {$index} 必须是 {LOC($prototypeName)}！
 shell-argument-number-must-be-between = 参数 {$index} 必须是一个介于 {$lower} 和 {$upper} 之间的数字！
 shell-argument-station-id-invalid = 参数 {$index} 必须是有效的站点ID！
 shell-argument-map-id-invalid = 参数 {$index} 必须是有效的映射ID！
-shell-argument-number-invalid = Argument {$index} must be a valid number!
+shell-argument-number-invalid = 参数 {$index} 必须是有效的数字！
 
 # Hints
 shell-argument-username-hint = <username>

@@ -1,6 +1,6 @@
-﻿butcherable-different-tool = You are going to need a different tool to butcher { THE($target) }.
-butcherable-knife-butchered-success = You butcher { THE($target) } with { THE($knife) }.
-butcherable-need-knife = Use a sharp object to butcher { THE($target) }.
-butcherable-not-in-container = { CAPITALIZE(THE($target)) } can't be in a container.
-butcherable-mob-isnt-dead = Needs to be dead.
-butcherable-verb-name = Butcher
+﻿butcherable-different-tool = 你需要用不同的工具来屠宰 { THE($target) }。
+butcherable-knife-butchered-success = 你用 { THE($knife) } 屠宰了 { THE($target) }。
+butcherable-need-knife = 使用锋利的物品来屠宰 { THE($target) }。
+butcherable-not-in-container = { CAPITALIZE(THE($target)) } 不能在容器中。
+butcherable-mob-isnt-dead = 需要处于死亡状态。
+butcherable-verb-name = 屠宰

@@ -1,7 +1,7 @@
 ## UI
 
-reagent-grinder-bound-user-interface-instant-button = INSTANT
-reagent-grinder-bound-user-interface-cook-time-label = COOK TIME
+reagent-grinder-bound-user-interface-instant-button = 立即
+reagent-grinder-bound-user-interface-cook-time-label = 烹饪时间
 reagent-grinder-component-cannot-put-entity-message = 你不能把这个放进试剂研磨机里!
 
 reagent-grinder-component-upgrade-work-time = 工作时间

@@ -1,201 +1,201 @@
-chatsan-word-1 = omg
-chatsan-replacement-1 = oh my god
+chatsan-word-1 = 天哪
+chatsan-replacement-1 = 我的天哪
 
-chatsan-word-2 = omfg
-chatsan-replacement-2 = oh my fucking god
+chatsan-word-2 = 我操
+chatsan-replacement-2 = 我他妈的天哪
 
-chatsan-word-3 = ong
-chatsan-replacement-3 = on god
+chatsan-word-3 = 真的
+chatsan-replacement-3 = 我对天发誓
 
-chatsan-word-4 = wtf
-chatsan-replacement-4 = what the fuck
+chatsan-word-4 = 什么鬼
+chatsan-replacement-4 = 什么他妈的鬼
 
-chatsan-word-5 = wth
-chatsan-replacement-5 = what the heck
+chatsan-word-5 = 搞什么
+chatsan-replacement-5 = 搞什么鬼
 
-chatsan-word-6 = tf
-chatsan-replacement-6 = the fuck
+chatsan-word-6 = 他妈
+chatsan-replacement-6 = 他妈的
 
-chatsan-word-7 = afaik
-chatsan-replacement-7 = as far as i know
+chatsan-word-7 = 据我所知
+chatsan-replacement-7 = 据我所知
 
-chatsan-word-8 = ik
-chatsan-replacement-8 = i know
+chatsan-word-8 = 我知道
+chatsan-replacement-8 = 我知道
 
-chatsan-word-9 = ikr
-chatsan-replacement-9 = i know, right
+chatsan-word-9 = 可不是嘛
+chatsan-replacement-9 = 我知道，对吧
 
-chatsan-word-10 = idc
-chatsan-replacement-10 = i don't care
+chatsan-word-10 = 我不在乎
+chatsan-replacement-10 = 我不在乎
 
-chatsan-word-12 = tbh
-chatsan-replacement-12 = to be honest
+chatsan-word-12 = 说实话
+chatsan-replacement-12 = 说实话
 
-chatsan-word-13 = lmk
-chatsan-replacement-13 = let me know
+chatsan-word-13 = 告诉我
+chatsan-replacement-13 = 让我知道
 
-chatsan-word-14 = ur
-chatsan-replacement-14 = your
+chatsan-word-14 = 你的
+chatsan-replacement-14 = 你的
 
-chatsan-word-15 = ffs
-chatsan-replacement-15 = for fuck's sake
+chatsan-word-15 = 妈的
+chatsan-replacement-15 = 看在妈的份上
 
-chatsan-word-16 = iirc
-chatsan-replacement-16 = if i remember correctly
+chatsan-word-16 = 如果我没记错
+chatsan-replacement-16 = 如果我没记错的话
 
-chatsan-word-17 = np
-chatsan-replacement-17 = no problem
+chatsan-word-17 = 没问题
+chatsan-replacement-17 = 没问题
 
-chatsan-word-18 = omw
-chatsan-replacement-18 = on my way
+chatsan-word-18 = 在路上
+chatsan-replacement-18 = 在路上了
 
-chatsan-word-19 = nvm
-chatsan-replacement-19 = nevermind
+chatsan-word-19 = 算了
+chatsan-replacement-19 = 算了
 
-chatsan-word-20 = imo
-chatsan-replacement-20 = in my opinion
+chatsan-word-20 = 我觉得
+chatsan-replacement-20 = 在我看来
 
-chatsan-word-21 = pls
-chatsan-word-22 = plz
-chatsan-word-23 = plox
-chatsan-replacement-please = please
+chatsan-word-21 = 请
+chatsan-word-22 = 请
+chatsan-word-23 = 请
+chatsan-replacement-please = 请
 
-chatsan-word-24 = fr
-chatsan-replacement-24 = for real
+chatsan-word-24 = 真的
+chatsan-replacement-24 = 真的
 
-chatsan-word-25 = brb
-chatsan-replacement-25 = be right back
+chatsan-word-25 = 马上回来
+chatsan-replacement-25 = 马上回来
 
-chatsan-word-26 = btw
-chatsan-replacement-26 = by the way
+chatsan-word-26 = 顺便说一句
+chatsan-replacement-26 = 顺便说一句
 
-chatsan-word-27 = jk
-chatsan-replacement-27 = just kidding
+chatsan-word-27 = 开玩笑
+chatsan-replacement-27 = 开玩笑的
 
-chatsan-word-28 = thx
-chatsan-replacement-28 = thanks
+chatsan-word-28 = 谢谢
+chatsan-replacement-28 = 谢谢
 
-chatsan-word-29 = ty
-chatsan-replacement-29 = thank you
+chatsan-word-29 = 谢了
+chatsan-replacement-29 = 谢谢你
 
-chatsan-word-30 = afk
+chatsan-word-30 = 挂机
 chatsan-replacement-30 = ssd
 
-chatsan-word-31 = stfu
-chatsan-replacement-31 = shut the fuck up
+chatsan-word-31 = 闭嘴
+chatsan-replacement-31 = 他妈闭嘴
 
-chatsan-word-32 = gtg
-chatsan-replacement-32 = got to go
+chatsan-word-32 = 得走了
+chatsan-replacement-32 = 得走了
 
-chatsan-word-33 = gl
-chatsan-replacement-33 = good luck
+chatsan-word-33 = 好运
+chatsan-replacement-33 = 祝你好运
 
-chatsan-word-34 = hbu
-chatsan-replacement-34 = how about you
+chatsan-word-34 = 你呢
+chatsan-replacement-34 = 你呢
 
-chatsan-word-35 = hmu
-chatsan-replacement-35 = hit me up
+chatsan-word-35 = 联系我
+chatsan-replacement-35 = 联系我
 
-chatsan-word-36 = gtfo
-chatsan-replacement-36 = get the fuck out
+chatsan-word-36 = 滚开
+chatsan-replacement-36 = 他妈滚开
 
-chatsan-word-37 = wdym
-chatsan-replacement-37 = what do you mean
+chatsan-word-37 = 你什么意思
+chatsan-replacement-37 = 你什么意思
 
-chatsan-word-38 = mf
-chatsan-replacement-38 = motherfucker
+chatsan-word-38 = 混蛋
+chatsan-replacement-38 = 混蛋
 
-chatsan-word-39 = etc
-chatsan-word-40 = etc.
-chatsan-replacement-etcetera = etcetera
+chatsan-word-39 = 等等
+chatsan-word-40 = 等等。
+chatsan-replacement-etcetera = 等等
 
-chatsan-word-41 = wyd
-chatsan-replacement-41 = what are you doing
+chatsan-word-41 = 你在干嘛
+chatsan-replacement-41 = 你在干嘛
 
-chatsan-word-42 = ofc
-chatsan-replacement-42 = of course
+chatsan-word-42 = 当然
+chatsan-replacement-42 = 当然
 
-chatsan-word-43 = ig
-chatsan-replacement-43 = i guess
+chatsan-word-43 = 我猜
+chatsan-replacement-43 = 我猜
 
-chatsan-word-44 = tbf
-chatsan-replacement-44 = to be fair
+chatsan-word-44 = 公平地说
+chatsan-replacement-44 = 公平地说
 
-chatsan-word-45 = tysm
-chatsan-replacement-45 = thank you so much
+chatsan-word-45 = 太感谢了
+chatsan-replacement-45 = 太感谢你了
 
-chatsan-word-46 = tyvm
-chatsan-replacement-46 = thank you very much
+chatsan-word-46 = 非常感谢
+chatsan-replacement-46 = 非常感谢你
 
-chatsan-word-47 = cya
-chatsan-replacement-47 = see ya
+chatsan-word-47 = 回见
+chatsan-replacement-47 = 回见
 
-chatsan-word-48 = rn
-chatsan-replacement-48 = right now
+chatsan-word-48 = 现在
+chatsan-replacement-48 = 现在
 
 # Frontier: we use ATMs, replace this with some inane garbage to keep the entry
-chatsan-word-49 = atm
-chatsan-replacement-49 = at the moment
+chatsan-word-49 = 目前
+chatsan-replacement-49 = 目前
 
-chatsan-word-50 = istg
-chatsan-replacement-50 = I swear to god
+chatsan-word-50 = 我对天发誓
+chatsan-replacement-50 = 我对天发誓
 
-chatsan-word-51 = rq
-chatsan-replacement-51 = real quick
+chatsan-word-51 = 马上
+chatsan-replacement-51 = 马上
 
-chatsan-word-52 = dw
-chatsan-replacement-52 = don't worry
+chatsan-word-52 = 别担心
+chatsan-replacement-52 = 别担心
 
-chatsan-word-53 = wru
-chatsan-replacement-53 = where are you
+chatsan-word-53 = 你在哪
+chatsan-replacement-53 = 你在哪
 
-chatsan-word-54 = fs
-chatsan-replacement-54 = for sure
+chatsan-word-54 = 当然
+chatsan-replacement-54 = 当然
 
-chatsan-word-55 = ngl
-chatsan-replacement-55 = not gonna lie
+chatsan-word-55 = 不骗你
+chatsan-replacement-55 = 不骗你
 
-chatsan-word-56 = fml
-chatsan-replacement-56 = fuck my life
+chatsan-word-56 = 我操
+chatsan-replacement-56 = 操我的人生
 
-chatsan-word-57 = wtaf
-chatsan-replacement-57 = what the actual fuck
+chatsan-word-57 = 什么鬼
+chatsan-replacement-57 = 什么他妈的鬼
 
-chatsan-word-58 = wsg
-chatsan-replacement-58 = what's good
+chatsan-word-58 = 怎么样
+chatsan-replacement-58 = 有什么好事
 
-chatsan-word-59 = mb
-chatsan-replacement-59 = my bad
+chatsan-word-59 = 我的错
+chatsan-replacement-59 = 我的错
 
-chatsan-word-60 = jfc
-chatsan-replacement-60 = jesus fucking christ
+chatsan-word-60 = 天哪
+chatsan-replacement-60 = 耶稣基督啊
 
-chatsan-word-61 = omw
-chatsan-replacement-61 = on my way
+chatsan-word-61 = 在路上
+chatsan-replacement-61 = 在路上了
 
-chatsan-word-62 = otw
-chatsan-replacement-62 = on the way
+chatsan-word-62 = 在路上
+chatsan-replacement-62 = 在路上
 
-chatsan-word-63 = yk
-chatsan-replacement-63 = you know
+chatsan-word-63 = 你知道
+chatsan-replacement-63 = 你知道
 
-chatsan-word-64 = istfg
-chatsan-replacement-64 = i swear to fucking god
+chatsan-word-64 = 我发誓
+chatsan-replacement-64 = 我他妈对天发誓
 
-chatsan-word-65 = idgaf
-chatsan-replacement-65 = i don't give a fuck
+chatsan-word-65 = 我才不在乎
+chatsan-replacement-65 = 我才他妈不在乎
 
-chatsan-word-66 = smth
-chatsan-replacement-66 = something
+chatsan-word-66 = 某事
+chatsan-replacement-66 = 某事
 
-chatsan-word-67 = allg
-chatsan-replacement-67 = all good
+chatsan-word-67 = 都好
+chatsan-replacement-67 = 都好
 
-chatsan-word-68 = ts
-chatsan-replacement-68 = this shit
+chatsan-word-68 = 这玩意
+chatsan-replacement-68 = 这破玩意
 
-chatsan-word-69 = fyi
-chatsan-replacement-69 = for your information
+chatsan-word-69 = 供参考
+chatsan-replacement-69 = 供你参考
 
-chatsan-word-70 = pmo
-chatsan-replacement-70 = pisses me off
+chatsan-word-70 = 惹我生气
+chatsan-replacement-70 = 惹我生气

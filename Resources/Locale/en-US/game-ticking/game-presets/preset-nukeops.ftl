@@ -1,39 +1,39 @@
-﻿nukeops-title = Nuclear Operatives
-nukeops-description = Nuclear operatives have targeted the station. Try to keep them from arming and detonating the nuke by protecting the nuke disk!
+﻿nukeops-title = 核行动队
+nukeops-description = 核行动队已将空间站锁定为目标。请保护好核磁盘，阻止他们武装并引爆核弹！
 
 nukeops-welcome =
-    You are a nuclear operative. Your goal is to blow up {$station}, and ensure that it is nothing but a pile of rubble. Your bosses, the Syndicate, have provided you with the tools you'll need for the task.
-    Operation {$name} is a go ! Death to the TSF!
-nukeops-briefing = Your objectives are simple. Deliver the payload and get out before the payload detonates. Begin mission.
+    你是核行动队的一员。你的目标是炸毁{$station}，确保它只剩下一堆废墟。你的上级辛迪加已经为你提供了完成任务所需的工具。
+    行动{$name}已开始！为了消灭TSF！
+nukeops-briefing = 你的目标很简单。运送载荷，并在载荷引爆前撤离。开始任务。
 
-nukeops-opsmajor = [color=crimson]Syndicate major victory![/color]
-nukeops-opsminor = [color=crimson]Syndicate minor victory![/color]
-nukeops-neutral = [color=yellow]Neutral outcome![/color]
-nukeops-crewminor = [color=green]Crew minor victory![/color]
-nukeops-crewmajor = [color=green]Crew major victory![/color]
-nukeops-tsfmajor = [color=cornflowerblue]TSF detonated the bomb on the PDV station![/color]
-nukeops-pdvmajor = [color=goldenrod]PDV detonated the bomb on the TSF station![/color]
+nukeops-opsmajor = [color=crimson]辛迪加大胜！[/color]
+nukeops-opsminor = [color=crimson]辛迪加小胜！[/color]
+nukeops-neutral = [color=yellow]中立结局！[/color]
+nukeops-crewminor = [color=green]船员小胜！[/color]
+nukeops-crewmajor = [color=green]船员大胜！[/color]
+nukeops-tsfmajor = [color=cornflowerblue]TSF在PDV空间站引爆了炸弹！[/color]
+nukeops-pdvmajor = [color=goldenrod]PDV在TSF空间站引爆了炸弹！[/color]
 
-nukeops-cond-nukeexplodedoncorrectstation = The nuclear operatives managed to blow up the station.
-nukeops-cond-nukeexplodedonnukieoutpost = The nuclear operative outpost was destroyed by a nuclear blast.
-nukeops-cond-nukeexplodedonincorrectlocation = The nuclear bomb was detonated on the wrong grid.
-nukeops-cond-nukeexplodedontsfstation = The nuclear bomb was detonated on the PDV station.
-nukeops-cond-nukeexplodedonpdvstation = The nuclear bomb was detonated on the TSF station.
-nukeops-cond-nukeactiveinstation = The nuclear bomb was left armed on-station.
-nukeops-cond-nukeactiveatcentcom = The nuclear bomb was delivered to Central Command!
-nukeops-cond-nukediskoncentcom = The crew escaped with the nuclear authentication disk.
-nukeops-cond-nukedisknotoncentcom = The crew left the nuclear authentication disk behind.
-nukeops-cond-nukiesabandoned = The nuclear operatives were abandoned.
-nukeops-cond-allnukiesdead = All nuclear operatives have died.
-nukeops-cond-somenukiesalive = Some nuclear operatives died.
-nukeops-cond-allnukiesalive = No nuclear operatives died.
+nukeops-cond-nukeexplodedoncorrectstation = 核行动队成功炸毁了空间站。
+nukeops-cond-nukeexplodedonnukieoutpost = 核行动队前哨站被核爆炸摧毁。
+nukeops-cond-nukeexplodedonincorrectlocation = 核弹在错误的网格上被引爆。
+nukeops-cond-nukeexplodedontsfstation = 核弹在PDV空间站上被引爆。
+nukeops-cond-nukeexplodedonpdvstation = 核弹在TSF空间站上被引爆。
+nukeops-cond-nukeactiveinstation = 核弹被留在空间站上并处于武装状态。
+nukeops-cond-nukeactiveatcentcom = 核弹被送到了中央指挥部！
+nukeops-cond-nukediskoncentcom = 船员带着核磁盘成功撤离。
+nukeops-cond-nukedisknotoncentcom = 船员把核磁盘留在了原地。
+nukeops-cond-nukiesabandoned = 核行动队被抛弃了。
+nukeops-cond-allnukiesdead = 所有核行动队成员均已死亡。
+nukeops-cond-somenukiesalive = 部分核行动队成员死亡。
+nukeops-cond-allnukiesalive = 没有核行动队成员死亡。
 
-nukeops-list-start = The operatives were:
+nukeops-list-start = 行动队成员为：
 nukeops-list-name = - [color=White]{$name}[/color]
-nukeops-list-name-user = - [color=White]{$name}[/color] ([color=gray]{$user}[/color])
-nukeops-not-enough-ready-players = Not enough players readied up for the game! There were {$readyPlayersCount} players readied up out of {$minimumPlayers} needed. Can't start Nukeops.
-nukeops-no-one-ready = No players readied up! Can't start Nukeops.
+nukeops-list-name-user = - [color=White]{$name}[/color]（[color=gray]{$user}[/color]）
+nukeops-not-enough-ready-players = 准备就绪的玩家不足，无法开始游戏！共有{$readyPlayersCount}名玩家准备就绪，但需要{$minimumPlayers}名。无法开始核行动队。
+nukeops-no-one-ready = 没有玩家准备就绪！无法开始核行动队。
 
-nukeops-role-commander = Commander
-nukeops-role-agent = Corpsman
-nukeops-role-operator = Operator
+nukeops-role-commander = 指挥官
+nukeops-role-agent = 卫生员
+nukeops-role-operator = 行动员

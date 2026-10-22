@@ -1,10 +1,10 @@
-guidebook-window-title = Guidebook
-guidebook-placeholder-text = Select an entry.
-guidebook-placeholder-text-2 = If you're new, head over to "New? Start here!"
-guidebook-filter-placeholder-text = Filter items
+guidebook-window-title = 指南书
+guidebook-placeholder-text = 请选择一个条目。
+guidebook-placeholder-text-2 = 如果你是新手，请前往“新手？从这里开始！”
+guidebook-filter-placeholder-text = 筛选物品
 
-guidebook-parser-error = Parser Error
-guidebook-error-message = Error Message
+guidebook-parser-error = 解析器错误
+guidebook-error-message = 错误信息
 
-guidebook-monkey-unspin = Unspin Monkey
-guidebook-monkey-disco = Disco Monkey
+guidebook-monkey-unspin = 解旋猴
+guidebook-monkey-disco = 迪斯科猴

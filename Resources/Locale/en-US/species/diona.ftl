@@ -1,1 +1,1 @@
-diona-hurt-by-herbicide-popup = The chemical wilts some of your greenery!
+diona-hurt-by-herbicide-popup = 化学药剂让你的部分绿植枯萎了！

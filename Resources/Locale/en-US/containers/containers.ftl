@@ -1,5 +1,5 @@
-container-verb-text-enter = Enter
-container-verb-text-empty = Empty
+container-verb-text-enter = 进入
+container-verb-text-empty = 清空
 
 ## missed
-container-thrown-missed = Missed!
+container-thrown-missed = 未命中！

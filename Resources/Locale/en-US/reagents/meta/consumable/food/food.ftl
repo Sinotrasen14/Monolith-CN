@@ -1,4 +1,4 @@
-reagent-name-nutriment = nutriment
+reagent-name-nutriment = 营养物
 reagent-desc-nutriment = 人体所需的全部维生素、矿物质和碳水化合物，均以纯净形式提供。
 
 reagent-name-glucose = 葡萄糖

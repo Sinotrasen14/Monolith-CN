@@ -1,41 +1,41 @@
-mail-recipient-mismatch = Recipient name or job does not match.
-mail-recipient-mismatch-name = Recipient name does not match.
-mail-invalid-access = Recipient name and job match, but access isn't as expected.
-mail-locked = The anti-tamper lock hasn't been removed. Tap the recipient's ID.
-mail-desc-far = A parcel of mail.
-mail-desc-close = A parcel of mail addressed to {CAPITALIZE($name)}, {$job}. Last known location: {$station}.
-mail-desc-fragile = It has a [color=red]red fragile label[/color].
-mail-desc-priority = The anti-tamper lock's [color=yellow]yellow priority tape[/color] is active.
-mail-desc-priority-inactive = The anti-tamper lock's [color=#886600]yellow priority tape[/color] is inactive.
-mail-unlocked = Anti-tamper system unlocked.
-mail-unlocked-by-emag = Anti-tamper system *BZZT*.
-mail-unlocked-reward = Anti-tamper system unlocked. {$bounty} credits have been added to Frontier account.
-mail-penalty-lock = ANTI-TAMPER LOCK BROKEN. STATION BANK ACCOUNT PENALIZED BY {$credits} CREDITS.
-mail-penalty-fragile = INTEGRITY COMPROMISED. STATION BANK ACCOUNT PENALIZED BY {$credits} CREDITS.
-mail-penalty-expired = DELIVERY PAST DUE. STATION BANK ACCOUNT PENALIZED BY {$credits} CREDITS.
-mail-item-name-unaddressed = mail
-mail-item-name-addressed = mail ({$recipient})
+mail-recipient-mismatch = 收件人姓名或职务不匹配。
+mail-recipient-mismatch-name = 收件人姓名不匹配。
+mail-invalid-access = 收件人姓名和职务匹配，但权限不符合预期。
+mail-locked = 防篡改锁尚未解除。请点击收件人的身份证。
+mail-desc-far = 一件邮件包裹。
+mail-desc-close = 一件寄给 {CAPITALIZE($name)}，{$job} 的邮件包裹。最后已知位置：{$station}。
+mail-desc-fragile = 它贴有[color=red]红色易碎标签[/color]。
+mail-desc-priority = 防篡改锁的[color=yellow]黄色优先胶带[/color]已激活。
+mail-desc-priority-inactive = 防篡改锁的[color=#886600]黄色优先胶带[/color]未激活。
+mail-unlocked = 防篡改系统已解锁。
+mail-unlocked-by-emag = 防篡改系统 *哔滋*。
+mail-unlocked-reward = 防篡改系统已解锁。{$bounty} 信用点已存入 Frontier 账户。
+mail-penalty-lock = 防篡改锁被破坏。空间站银行账户被扣除 {$credits} 信用点。
+mail-penalty-fragile = 完整性受损。空间站银行账户被扣除 {$credits} 信用点。
+mail-penalty-expired = 投递逾期。空间站银行账户被扣除 {$credits} 信用点。
+mail-item-name-unaddressed = 邮件
+mail-item-name-addressed = 邮件（{$recipient}）
 
 # Frontier: reworded description, does not need to be a container.
-command-mailto-description = Queue an item to be delivered to a recipient. Example usage: `mailto 1234 5678 false false`. If the target entity is a container, its contents will be transferred to an actual mail parcel.
+command-mailto-description = 将一件物品排入投递给收件人的队列。用法示例：`mailto 1234 5678 false false`。如果目标实体是容器，其内容物将被转移到实际的邮件包裹中。
 # Frontier: add is-large description, container<contents
-command-mailto-help = Usage: {$command} <recipient entityUid> <contents entityUid> [is-fragile: true|false] [is-priority: true|false] [is-large: true|false]
-command-mailto-no-mailreceiver = Target recipient entity does not have a {$requiredComponent}.
-command-mailto-no-blankmail = The {$blankMail} prototype doesn't exist. Something is very wrong. Contact a programmer.
-command-mailto-bogus-mail = {$blankMail} did not have {$requiredMailComponent}. Something is very wrong. Contact a programmer.
-command-mailto-invalid-container = Target container entity does not have a {$requiredContainer} container.
-command-mailto-unable-to-receive = Target recipient entity was unable to be setup for receiving mail. ID may be missing.
-command-mailto-no-teleporter-found = Target recipient entity was unable to be matched to any station's mail teleporter. Recipient may be off-station.
-command-mailto-success = Success! Mail parcel has been queued for next teleport in {$timeToTeleport} seconds.
+command-mailto-help = 用法：{$command} <收件人 entityUid> <内容物 entityUid> [is-fragile: true|false] [is-priority: true|false] [is-large: true|false]
+command-mailto-no-mailreceiver = 目标收件人实体没有 {$requiredComponent}。
+command-mailto-no-blankmail = {$blankMail} 原型不存在。出了严重问题。请联系程序员。
+command-mailto-bogus-mail = {$blankMail} 没有 {$requiredMailComponent}。出了严重问题。请联系程序员。
+command-mailto-invalid-container = 目标容器实体没有 {$requiredContainer} 容器。
+command-mailto-unable-to-receive = 目标收件人实体无法设置为接收邮件。可能缺少 ID。
+command-mailto-no-teleporter-found = 目标收件人实体无法匹配到任何空间站的邮件传送器。收件人可能不在空间站上。
+command-mailto-success = 成功！邮件包裹已排入队列，将在 {$timeToTeleport} 秒后的下一次传送中发出。
 
 # Frontier: mailto command completions
-command-mailto-completion-recipient = <recipient entityUid>
-command-mailto-completion-container = <contents entityUid>
+command-mailto-completion-recipient = <收件人 entityUid>
+command-mailto-completion-container = <内容物 entityUid>
 command-mailto-completion-fragile = [is-fragile: true|false]
 command-mailto-completion-priority = [is-priority: true|false]
 command-mailto-completion-large = [is-large: true|false]
 # End Frontier
 
-command-mailnow = Force all mail teleporters to deliver another round of mail as soon as possible. This will not bypass the undelivered mail limit.
-command-mailnow-help = Usage: {$command}
-command-mailnow-success = Success! All mail teleporters will be delivering another round of mail soon.
+command-mailnow = 强制所有邮件传送器尽快再投递一轮邮件。这不会绕过未投递邮件的上限。
+command-mailnow-help = 用法：{$command}
+command-mailnow-success = 成功！所有邮件传送器很快将再投递一轮邮件。

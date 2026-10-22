@@ -1,6 +1,6 @@
 store-ui-default-title = 商店
 store-ui-default-withdraw-text = 取出
-store-ui-balance-display = {$currency}: {$amount}
+store-ui-balance-display = {$currency}：{$amount}
 store-ui-price-display = {$amount} {$currency}
 store-ui-discount-display-with-currency =  {$amount} 优惠（{$currency}）
 store-ui-discount-display =  （{$amount} 折扣！）

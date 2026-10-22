@@ -1,6 +1,6 @@
-﻿quick-dialog-ui-integer = Integer..
-quick-dialog-ui-float = Float..
-quick-dialog-ui-short-text = Short text..
-quick-dialog-ui-long-text = Long text..
-quick-dialog-ui-ok = Ok
-quick-dialog-ui-cancel = Cancel
+﻿quick-dialog-ui-integer = 整数..
+quick-dialog-ui-float = 浮点数..
+quick-dialog-ui-short-text = 短文本..
+quick-dialog-ui-long-text = 长文本..
+quick-dialog-ui-ok = 确定
+quick-dialog-ui-cancel = 取消

@@ -1,4 +1,4 @@
-tool-quality-anchoring-name = Anchoring
+tool-quality-anchoring-name = 锚定
 tool-quality-anchoring-tool-name = 扳手
 
 tool-quality-prying-name = 撬动
@@ -22,7 +22,7 @@ tool-quality-slicing-tool-name = 厨刀
 tool-quality-sawing-name = 锯切
 tool-quality-sawing-tool-name = 圆锯
 
-tool-quality-honking-name = Honking
+tool-quality-honking-name = 鸣笛
 tool-quality-honking-tool-name = 自行车喇叭
 
 tool-quality-woodcutting-name = 伐木

@@ -1,4 +1,4 @@
-entity-category-name-actions = Actions
+entity-category-name-actions = 操作
 entity-category-name-game-rules = 游戏规则
 entity-category-name-objectives = 目标
 entity-category-name-roles = 意识角色
