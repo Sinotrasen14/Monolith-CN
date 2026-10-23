@@ -31,6 +31,9 @@ uplink-data-chit-50-desc = 五十张数据券。在费顿王朝先锋队中是�
 uplink-iff-console-flatpack-name = IFF 电脑组装包
 uplink-iff-console-flatpack-desc = 一个用于计算机的平板套件，可以混淆你航天器的IFF信号。
 
+uplink-underground-codespeak-translator-implanter-name = Codespeak Implanter
+uplink-underground-codespeak-translator-implanter-desc = An implant that allows the user to understand and speak Underground Codespeak. For initiating new members into the black market.
+
 # ullman stuff
 
 uplink-ullman-pilot-name = U.I. 飞行员真空服

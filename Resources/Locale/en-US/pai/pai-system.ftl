@@ -6,8 +6,8 @@ pai-system-searching = 正在搜索 pAI……
 pai-system-role-name = 个人 AI
 pai-system-role-description = 成为某人的电子伙伴！
                               （*不*包含记忆。）
-pai-system-role-name-syndicate = 辛迪加个人 AI
-pai-system-role-description-syndicate = 成为某人的辛迪加伙伴！
+pai-system-role-name-syndicate = 地下个人 AI
+pai-system-role-description-syndicate = 成为某人的地下朋友！
                                         （*不*包含记忆。）
 pai-system-role-name-potato = 马铃薯人工智能
 pai-system-role-description-potato = 这是给孩子们的玩具。而现在你住在里面。
