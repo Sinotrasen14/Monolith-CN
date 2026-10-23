@@ -1,0 +1,36 @@
+# Author Info
+# GitHub: starch70
+# Discord: _starch_
+
+# Maintainer Info
+# GitHub: starch70
+# Discord: _starch_
+
+# Notes: upgraded zenith as a ruin w/ tech disks
+- type: pointOfInterest
+  id: HammerOfTheUnion
+  parent: [BaseMobilePOI, BaseRepairablePOI]
+  name: '联盟之锤'
+  minimumDistance: 10000
+  maximumDistance: 20000
+  spawnGroup: Required
+  gridPath: /Maps/_Mono/POI/Dungeons/hammeroftheunion.yml
+  addComponents:
+  - type: IFF
+    color: "#44bfe3"
+    flags: [HideLabel]
+
+- type: gameMap
+  id: USSPHammer
+  mapName: '联盟之锤'
+  mapPath: /Maps/_Mono/POI/Dungeons/hammeroftheunion.yml
+  minPlayers: 0
+  stations:
+    HammerOfTheUnion:
+      stationProto: StandardFrontierOutpost
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: '联盟之锤'
+        - type: StationJobs
+          availableJobs: {}
+        - type: StationDeadDropHintExempt
